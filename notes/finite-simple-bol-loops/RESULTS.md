@@ -1,6 +1,6 @@
-# Selected results and construction drafts
+# Constructions and proof details
 
-**For the broader and newer programme, read [Current research](CURRENT_RESULTS.md).** This page preserves the earlier audited selection; it is not the entire project.
+This page presents selected constructions and their proof details. For the full programme and its open directions, see the [research catalogue](CURRENT_RESULTS.md).
 
 This catalogue is a selected snapshot, not a complete inventory of the active
 research branch. The source snapshot is `27d51e6a23363d6c0ae74b2f6f752db9bb5e5847`
