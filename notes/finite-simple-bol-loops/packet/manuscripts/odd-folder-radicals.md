@@ -57,13 +57,21 @@ At exact source `9d09b4c9fc854462d1888a528ffd5c7567d141ed`, [model reviewer iden
 
 The following bounded deductions have the scoped review below. Under the hypotheses of the strict abelian defect above, put $`C=C_G(\tau)`$. Then
 
-$$H\cap\tau(H)=H\cap C<H.$$
+
+```math
+H\cap\tau(H)=H\cap C<H.
+```
+
 
 Indeed, for $`h\in H\cap\tau(H)`$, the element $`h^{-1}\tau(h)`$ lies in $`H`$ and is inverted by $`\tau`$, hence belongs to $`H\cap K=1`$; the reverse inclusion is immediate. If $`H\cap C=H`$, the earlier identity $`|H|=|C|`$ gives $`H=C`$. By Feit–Thompson, the nontrivial odd-order group $`G`$ is solvable, so $`A=Z(F(G))`$ is nontrivial, characteristic and abelian. Then $`H\cap A=C_A(\tau)`$ contradicts the strict defect. In particular $`\tau(H)\ne H`$; this does not imply that minimal normal modules occur in $`\tau`$-paired copies. The argument avoids Feit–Thompson if a nontrivial $`\tau`$-stable abelian normal subgroup is assumed directly.
 
 For the trace exact-factorization ansatz in C0013 [context outside this selected packet: `../claims/C0013.md`], repeated isomorphic modules give a separate obstruction. Let $`p,q`$ be primes with $`\mathop{\mathrm{ord}}\nolimits_q(p)=p`$, $`F=\mathbb F_{p^p}`$, and $`X=M\rtimes(C_q\rtimes\langle\phi\rangle)`$, where $`M=\bigoplus_{i=1}^k M_{r_i}`$, the $`C_q`$-generator acts on $`M_{r_i}=F`$ as multiplication by $`\zeta^{r_i}`$, and $`\phi(z)=z^p`$. Take $`Y_1=C_q\rtimes\langle\phi\rangle`$ and
 
-$$Y_0=\{(m_1,\ldots,m_k;0,j):\sum_i c_i\mathop{\mathrm{Tr}}\nolimits_{F/\mathbb F_p}(m_i)=j\},\qquad c_i\in\mathbb F_p.$$
+
+```math
+Y_0=\{(m_1,\ldots,m_k;0,j):\sum_i c_i\mathop{\mathrm{Tr}}\nolimits_{F/\mathbb F_p}(m_i)=j\},\qquad c_i\in\mathbb F_p.
+```
+
 
 If $`r_j\equiv p^s r_i\pmod q`$ for distinct indices, choose $`(a,b)\ne(0,0)`$ with $`c_i a+c_j b=0`$. The subgroup $`D\cong F^+`$ supported on those two coordinates as $`(az,bz^{p^s})`$ is normal in $`X`$ and lies in $`Y_0`$: Frobenius identifies the modules and preserves trace. Thus $`Y_0`$ is not core-free. Moreover $`Y_0,Y_1`$ form an exact factorization, as $`|Y_0|=|M|`$ and $`Y_0\cap Y_1=1`$; their images give an exact factorization of $`X/D`$. The natural quotient induces a surjective homomorphism between the associated ambient exact-factorization loops with kernel $`D`$, which is nontrivial and proper. Hence the original loop is not simple. This applies also when $`p=2`$ and does not establish C0013's absorption or the exhaustiveness of the distinct-orbit family.
 
