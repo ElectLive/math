@@ -4,7 +4,7 @@ Nagy's existence question asks whether these two familiar classes fail to cover 
 
 ## The result
 
-The [specialized existence proof](simple-existence-proof.md) gives a direct route.
+The [specialized existence proof](0010-non-g-loop-non-bruck-existence.md) gives a direct route.
 The [original class-two framework](packet/manuscripts/odd-class-two-classification.md)
 is also preserved, with its broader review limits distinguished.
 
