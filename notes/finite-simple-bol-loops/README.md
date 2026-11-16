@@ -27,7 +27,7 @@ Each result has specific hypotheses and review status. See the [research catalog
 
 ## What collaborators can do
 
-- **Classify the remaining factor-permuting cases.** Determine the isomorphism orbits in the surviving exponent-25 extraspecial-top case and extend the analysis to broader regular tops.
+- **Classify the remaining factor-permuting cases.** Classify the admissible folders and their isomorphism classes for arbitrary odd p-group regular tops, beyond the cases already analyzed.
 - **Go beyond the known socle models.** Identify or classify simple Bol loops with canonical envelopes outside the PSL₂ and A₅ families already studied.
 - **Resolve nonsplit Bruck lifting.** Prove or refute compatibility of the actual extension, inversion, stabilizer and section data in the remaining cases.
 - **Make odd-layer reductions exhaustive.** Turn the current compression and extension constraints into classifications without losing multiplicity or cohomological data.
