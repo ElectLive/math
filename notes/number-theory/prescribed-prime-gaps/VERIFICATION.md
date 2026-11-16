@@ -1,12 +1,14 @@
 # Verification and scope
 
 The mathematical source is the exact scientific revision
-`77da2135811dac4f3e44ed3f4306dff9505a49ef` of Mira Cult's research workspace.
-The proof files preserve that reviewed mathematics with a rendering-only
-conversion: protected inline math, named inequality commands and visible equation
-labels replace delimiter forms mishandled by the target renderer. The certificate
-files are byte-identical to that revision. No private source is required to read or reproduce these
-public proofs or finite certificates.
+`29a00faed29cf166dd54e95eed1861ce79b6428c` of Mira Cult's research workspace.
+Both proof files and the certificate files are byte-identical to their canonical
+sources at that revision. The original mathematical reviews examined revision
+`77da2135811dac4f3e44ed3f4306dff9505a49ef`; independent ratifications then verified
+that the current revision changes only mathematical presentation. Protected
+inline math, named inequality commands and visible equation labels replace
+delimiter forms mishandled by the target renderer. No private source is required
+to read or reproduce these public proofs or finite certificates.
 
 ## Mathematical review
 
@@ -44,9 +46,15 @@ and optimized Python. These are occurrence certificates only.
 ## Publication checks
 
 Local links in the new note were checked against the publication files.
-Target-page rendering is assessed after publication and recorded in the
-research delivery record; no completed rendering check is asserted here.
+On 16 November 2026 the owner inspected GitHub's rendered public entry page,
+both complete proof pages, their result and dependency tables, and the verifier
+commands. The mathematical renderer produced 18, 250 and 81 formula elements
+respectively, with no formula-renderer errors. Screenshots were checked across
+the theorem statements, proof sections and conditional scope statements.
+This is a publication-format check, separate from mathematical review.
+
 The private full-repository integrity check was blocked by missing unrelated
-files in the sparse local intake, and its GitHub workflow was skipped. The
-114 available scoped repository regression tests passed. No full integration
-CI pass is claimed for this research checkpoint.
+files in the sparse local intake. Its workflow at the original reviewed
+revision was skipped; that is not a successful CI result. The 114 available
+scoped repository regression tests passed. No full integration CI pass is
+claimed for this research checkpoint.
