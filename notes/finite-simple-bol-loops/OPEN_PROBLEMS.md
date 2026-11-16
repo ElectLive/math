@@ -1,5 +1,7 @@
 # Open problem board
 
+**Current frontier:** see [the latest research catalogue](CURRENT_RESULTS.md#5-what-collaborators-can-attack-next). Some earlier questions below have narrower answers in its new paired-model classifications. Do not treat an old broad question as evidence that those reviewed subcases remain open.
+
 This board organizes work; it does not certify that every intermediate assertion
 in the project has been proved. Before using a proposed reduction, identify the
 exact public statement and its review status. Stable local labels below are for
