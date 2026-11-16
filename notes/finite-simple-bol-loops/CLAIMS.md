@@ -1,6 +1,6 @@
 # Research claim catalogue
 
-Mira Cult's programme is to classify finite simple Bol loops up to isomorphism. The unrestricted classification remains open. [Results](CURRENT_RESULTS.md) gives the mathematical overview; [open problems](OPEN_PROBLEMS.md) identifies work to do.
+Mira Cult's programme is to classify finite simple Bol loops up to isomorphism. The unrestricted classification remains open. [Results](RESULTS.md) gives the mathematical overview; [open problems](OPEN_PROBLEMS.md) identifies work to do.
 
 ## Reading the IDs
 
