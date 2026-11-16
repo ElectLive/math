@@ -1,0 +1,384 @@
+{
+  "source_revision": "ed03ee5a0a45d9087e0619b15b7ba5cd1806d57a",
+  "scope": "Current source export, not a new mathematical audit. Recorded model review pins remain in each manuscript. Missing dependency links are explicit and listed below; earlier snapshot links retain that label. Reviewer private thread identifiers removed. Context links omitted.",
+  "files": [
+    {
+      "path": "manuscripts/radical-free-a5-code-inversion.md",
+      "original_blob_sha": "60ec371d5833632b143667ea275de0c9f5c5883a"
+    },
+    {
+      "path": "manuscripts/radical-free-a5-outer-codes.md",
+      "original_blob_sha": "c601fd6379912d8f146371f2b7cc63940e8a1de5"
+    },
+    {
+      "path": "manuscripts/radical-free-a5-cyclic-top.md",
+      "original_blob_sha": "13986dd933291e24d28786cdc1362c14144b32b9"
+    },
+    {
+      "path": "manuscripts/radical-free-a5-abelian-top.md",
+      "original_blob_sha": "08139d5bb8b9b3d559e626a89a5e0b9dfea36a0f"
+    },
+    {
+      "path": "manuscripts/radical-free-a5-nonabelian-27.md",
+      "original_blob_sha": "867e06454a82e3f26268884f0dd93628c171dac3"
+    },
+    {
+      "path": "manuscripts/radical-free-a5-prime-power-top.md",
+      "original_blob_sha": "8555925caab324060cabfa27a4c65421ac5e1531"
+    },
+    {
+      "path": "manuscripts/radical-free-a5-extraspecial-27.md",
+      "original_blob_sha": "5305fc1a2633c953f2afb723ba6c748b0f944403"
+    },
+    {
+      "path": "manuscripts/radical-free-a5-extraspecial-tops.md",
+      "original_blob_sha": "b42d1c9ec1955e4950756158e2ed8d4b4a28ae9b"
+    },
+    {
+      "path": "manuscripts/radical-free-fixed-factors.md",
+      "original_blob_sha": "6ca7f727e77c93511f29001d3ae7b84c27e1b620"
+    },
+    {
+      "path": "manuscripts/radical-free-factor-permutation-construction.md",
+      "original_blob_sha": "b30244a56d991a2d23eafb73842d3afb24c5dcdf"
+    },
+    {
+      "path": "manuscripts/bruck-b3-concrete-obstruction.md",
+      "original_blob_sha": "5eb3441b50ea8880fdce945e4e4c76d2aeaa9f02"
+    },
+    {
+      "path": "manuscripts/radical-free-a5-path-classification.md",
+      "original_blob_sha": "575e28f2e9aa8e6fbbf75f1916c621aac02fc9a3"
+    },
+    {
+      "path": "manuscripts/radical-free-strip-forests.md",
+      "original_blob_sha": "34e43bd360b18e9f93ec4071dd27dae242faabcb"
+    },
+    {
+      "path": "manuscripts/radical-free-small-psl2-paths.md",
+      "original_blob_sha": "a57ab75143fcef30ffd0f9549a195da21ed1aebd"
+    },
+    {
+      "path": "manuscripts/radical-free-involution-support.md",
+      "original_blob_sha": "84fb1ea1667ccb6b6554e28dd55190913122096e"
+    },
+    {
+      "path": "manuscripts/radical-free-psl2-path-classification.md",
+      "original_blob_sha": "0ddb32139387c10b3c38e0cd29375a3c9d892be2"
+    },
+    {
+      "path": "manuscripts/exact-factorization-criterion.md",
+      "original_blob_sha": "31a3023b1e2d59deac2d2b69b6ae68ca0e9f7e9b"
+    },
+    {
+      "path": "claims/C0001.md",
+      "original_blob_sha": "db803e21ad0198ec48e321df87e58533d8eb89fe"
+    },
+    {
+      "path": "proofs/C0007.md",
+      "original_blob_sha": "9ac1efd7637c5a2114cbb3f89be7eb6a6432a426"
+    },
+    {
+      "path": "SOURCE_REFERENCES.md",
+      "original_blob_sha": "1ea096c771305d0b277d9027c322e6f34956bb7a"
+    },
+    {
+      "path": "proofs/C0001.md",
+      "original_blob_sha": "3c9676488833d3876fe39eab10d95abf8eed1457"
+    }
+  ],
+  "missing_links": [
+    {
+      "from": "manuscripts/radical-free-a5-code-inversion.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-outer-codes.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-outer-codes.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-outer-codes.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-outer-codes.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-outer-codes.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-outer-codes.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-cyclic-top.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-abelian-top.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-nonabelian-27.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-prime-power-top.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-extraspecial-27.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-extraspecial-tops.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-fixed-factors.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-fixed-factors.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-factor-permutation-construction.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/bruck-b3-concrete-obstruction.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/bruck-b3-concrete-obstruction.md",
+      "target": "code/verify_bruck_b3_noncentral.py"
+    },
+    {
+      "from": "manuscripts/bruck-b3-concrete-obstruction.md",
+      "target": "code/bruck_b3_witness.json"
+    },
+    {
+      "from": "manuscripts/bruck-b3-concrete-obstruction.md",
+      "target": "code/bruck_b3_generator/README.md"
+    },
+    {
+      "from": "manuscripts/bruck-b3-concrete-obstruction.md",
+      "target": "code/verify_bruck_b3_normal_form.py"
+    },
+    {
+      "from": "manuscripts/bruck-b3-concrete-obstruction.md",
+      "target": "code/bruck_b3_witness.json"
+    },
+    {
+      "from": "manuscripts/bruck-b3-concrete-obstruction.md",
+      "target": "code/verify_bruck_b3_noncentral.py"
+    },
+    {
+      "from": "manuscripts/bruck-b3-concrete-obstruction.md",
+      "target": "code/verify_bruck_b3_all_shadows.py"
+    },
+    {
+      "from": "manuscripts/radical-free-a5-path-classification.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-strip-forests.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-small-psl2-paths.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-involution-support.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/radical-free-psl2-path-classification.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/exact-factorization-criterion.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "manuscripts/exact-factorization-criterion.md",
+      "target": "proofs/C0012.md"
+    },
+    {
+      "from": "manuscripts/exact-factorization-criterion.md",
+      "target": "claims/C0011.md"
+    },
+    {
+      "from": "claims/C0001.md",
+      "target": "evidence/computational_census.md"
+    },
+    {
+      "from": "claims/C0001.md",
+      "target": "code/test_bol_engine.py"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0017.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0012.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0006.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0007.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0008.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0011.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0014.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0003.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0011.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0011.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0003.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0009.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0017.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/sd-a5-all-factors.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/sd3-involution-count.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/bruck-s5-radical.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/sd-finite-common-classes.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/sd-linear-unitary-final-five.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/sd-symplectic-finite-residuals.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/sd-sporadic-all.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/sd-exceptional-remaining.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/sd-orthogonal-refined-bounds.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/hs-psl4-odd.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/bruck-s5-order96-exponent4.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/nonbruck-almost-simple-radical-bridge.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/nonbruck-root-graph-parameters.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/bruck-central-frattini-all-quotients.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/bruck-elementary-block-obstruction.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/bruck-all-radical-block-obstruction.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/tw-psl2-factorwise-inversion.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/tw-psl2-factorwise-inversion.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/tw-psl2-factorwise-inversion.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/odd-unbounded-derived-class.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/tw-cross-label-block-exclusion.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/radical-free-inner-inversion.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/radical-free-odd-linear-inversion.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "manuscripts/radical-free-unitary-inversion.md"
+    },
+    {
+      "from": "SOURCE_REFERENCES.md",
+      "target": "code/verify_unitary_four_two_maximals.g"
+    }
+  ]
+}
