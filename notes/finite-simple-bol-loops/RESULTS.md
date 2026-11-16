@@ -150,3 +150,26 @@ The [claim index](CLAIMS.md) records exact scopes and stable IDs. The [open prob
 ## Intrinsic and analytic continuation, 2026-11-16
 
 See the [self-contained nonisomorphism writeup](INTRINSIC_NONISOMORPHISM.md) and [public proof, code, review and validation package](analytic-2026-11-16/README.md). Claims 0079–0081 concern explicit reciprocal families, not an unrestricted classification. The package records the exact limitations, remaining analytic questions, and successful complete-checkout integrity checks separately from model mathematical reviews.
+
+
+## Sparse quantum randomization in reciprocal families
+
+The [complete manuscript](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md)
+uses manuscript-local QR labels, recorded in the
+[local claim entry](claims/quantum-randomization.md).
+
+| Result | Exact scope and boundary |
+| --- | --- |
+| Universal degenerate-sector obstruction, Theorem D | Every distribution and every product of native operations fixes an explicit nonuniform state in each degenerate sector. This obstruction includes states with uniform populations in the point basis. |
+| Sharp common-commutant threshold, Theorem C | In the nondegenerate F729 family with even field dimension n at least two, any list of at most 2n native generators has a nontrivial common fixed algebra. An explicit list of 2n+1 has scalar common commutant. This is an irreducibility threshold, not an efficient spectral-gap bound for that list. |
+| Actual Weyl-coset reachability and sparse randomization, Theorems W/S | At conductor one, every Weyl operator followed by a fixed actor is an actual translated defect. For $`d=49\cdot3^N`$, $`N=6n`$, even $`n\geq2`$, and $`0<\varepsilon\leq1`$, the explicit sampler has $`M\leq\min(d^2,3969d/\varepsilon^2)`$ keys and arbitrary-state trace error at most $`\varepsilon`$. One operation uses $`O(N)`$ fixed-qudit gates, constant quantum depth and no quantum ancilla. Preprocessing and the key map are deterministic polynomial time; exact fair-bit sampling is expected polynomial time. |
+| Dense depolarizing component, Theorem QD | In the fixed p=3, q=7, k=A=1 symplectic family, the original dense law has a depolarizing component of weight 512/1029. The resulting dimension-independent diamond mixing bound uses fresh samples and is an upper bound, not an exact diamond rate. |
+| Fixed-pair two-round estimate, Theorems F/P | Uniform translating centers for one actual pair give exact depolarization in two independent rounds. The explicit sparse version uses fewer than $`11907\sqrt D/\varepsilon^2`$ choices per round, where $`D=3^N`$, and has exact two-step Hilbert--Schmidt norms and a direct purity bound from two matrix subalgebras. Its one-step coherence norm is one, so the earlier dense coherence rate is not preserved. |
+| Fused conjugate-sector decorrelation, Section 9.1 | Independently sampling the conjugate factors of the adjoint average produces a generally non-trace-preserving map. For the exact fixed-pair uniform-center representatives, its output trace on every state is $`1/d`$. This tests the lost fusion correlation; it is not a physical randomization channel or a comparison against independently chosen physical channels. |
+| Monomial second-moment obstruction, Proposition M | Every monomial ensemble in dimension greater than one remains at induced Hilbert--Schmidt distance one from the Haar second-moment twirl, including after products and iteration. |
+
+The construction is matched by a group-based Weyl/actor ensemble with identical
+physical operations, correlations and resource costs. The structural theorems
+do not establish a general randomization advantage over the applicable standard
+baselines. The exact source revision and accepted independent model reviews are
+recorded with the [reproducibility evidence](analytic-2026-11-16/evidence/bol-randomization-reproducibility.md).

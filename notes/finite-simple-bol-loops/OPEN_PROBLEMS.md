@@ -205,3 +205,38 @@ those activities are not themselves open mathematical problems.
 ## Intrinsic and analytic continuation, 2026-11-16
 
 See the [self-contained nonisomorphism writeup](INTRINSIC_NONISOMORPHISM.md) and [public proof, code, review and validation package](analytic-2026-11-16/README.md). Claims 0079–0081 concern explicit reciprocal families, not an unrestricted classification. The package records the exact limitations, remaining analytic questions, and successful complete-checkout integrity checks separately from model mathematical reviews.
+
+
+## Quantum randomization with actual reciprocal defects
+
+The [randomization manuscript](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md)
+provides native-operation obstructions and explicit sparse repairs in the fixed
+nondegenerate F729 family, with even field dimension n at least two. Its
+Section 10 leaves three distinct targets.
+
+1. **Explicit sparsification of the original dense law.** Construct an
+   efficiently certifiable distribution of actual translated defects, with
+   support linear in the register size, that approximates the original dense
+   channel and retains separate constant population and coherence contractions.
+   Theorem C rules out every fixed list of at most 2n generators, while matrix
+   concentration supplies an existence benchmark above the obstruction. The
+   one-call Weyl sampler changes the law and does not settle this question.
+   A solution would give an explicit structured sampler for the original
+   two-rate dynamics.
+2. **One-call reachability at higher conductor.** Determine exactly which
+   Weyl/actor labels can be realized by one actual translated defect over
+   prime-power rings beyond conductor one. Section 5 proves a zero/primitive
+   obstruction to unrestricted reachability; a two-call uniform repair is
+   available. The target is an exact image theorem or a sharp additional
+   obstruction, with the character sector and conductor specified.
+3. **A task with a strict resource benefit from the loop structure.** Find a
+   natural operation restriction or operational task for which the actual loop
+   marking or fused correlations improve a proved resource bound over the
+   matched Weyl/actor control in the same dimension and error norm. Every
+   first-moment repair proved here is reproduced by that control. Monomial
+   ensembles also have a quantitative second-moment obstruction, so any design
+   route must analyze a complete construction including an operation that
+   changes the intrinsic basis.
+
+These targets do not change the unrestricted classification problem or turn
+generic constant-degree quantum expanders into an open problem.

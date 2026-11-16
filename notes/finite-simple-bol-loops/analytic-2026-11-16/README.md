@@ -42,3 +42,42 @@ No external human peer review, formal proof verification, or literature-wide nov
 3. Can an explicit upper-actor average connect induced cosets and control the additional fixed modes? The lifted lower distribution has centered norm one on the whole induced space.
 
 These are research targets, not consequences of the three completed local results.
+
+
+## Quantum randomization continuation
+
+The [randomization manuscript](manuscripts/bol-quantum-randomization.md)
+and [local claim record](../claims/quantum-randomization.md) extend the channel
+framework with distribution-independent stationary-state obstructions, a sharp
+native common-commutant threshold, actual one-call Weyl reachability, an explicit
+sparse state randomizer, a dense-channel depolarizing component and a two-round
+fixed-pair purity theorem. The native sampler and its Weyl/actor control have
+identical physical channels and resource costs. No general efficiency advantage
+over the applicable standard randomizers is established.
+
+The exact scientific source is
+`f6f415a5b05ce38b51adc9d2894c9795af500b3e` in `Mira-Cult/math-wip`.
+The public manuscript changes only its provenance paragraph and reproducibility
+links; theorem and proof text is unchanged. The two new checkers are copied
+byte for byte. Existing NI/AQ proof dependencies in this package are reused,
+not duplicated. Labels remain manuscript-local and no permanent numeric claim
+allocation is made.
+
+The [reproducibility and review record](evidence/bol-randomization-reproducibility.md)
+contains exact commands, finite scopes and source/output hashes. Separate
+noncontributing model reviewers accepted the mathematical and resource/comparison
+claims at this exact revision, with no remaining blocker in their respective
+remits. Their full reports and exact-revision addenda are preserved verbatim in
+the [mathematical review](evidence/bol-randomization-independent-math-review.md)
+and [resource review](evidence/bol-randomization-independent-resource-review.md).
+These do not constitute external human review, formal verification or a novelty
+audit. Run the standalone standard-library programs
+`verify_bol_randomization.py` and `verify_bol_small_bias.py` using the
+[public code commands](code/README.md#sparse-quantum-randomization).
+
+The new results give an explicit stationary state in every degenerate sector
+and settle the fixed-pair and one-call constructions described above. They do
+not determine every degenerate stationary algebra or solve explicit sparse
+approximation of the original dense law with its two-rate behavior. The
+[remaining questions](../OPEN_PROBLEMS.md#quantum-randomization-with-actual-reciprocal-defects)
+state those boundaries.

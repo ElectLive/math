@@ -97,3 +97,23 @@ This is AI-assisted research. It has not been human refereed or formally verifie
 ## Intrinsic and analytic continuation, 2026-11-16
 
 See the [self-contained nonisomorphism writeup](INTRINSIC_NONISOMORPHISM.md) and [public proof, code, review and validation package](analytic-2026-11-16/README.md). Claims 0079–0081 concern explicit reciprocal families, not an unrestricted classification. The package records the exact limitations, remaining analytic questions, and successful complete-checkout integrity checks separately from model mathematical reviews.
+
+
+## Sparse quantum randomization
+
+The [quantum randomization manuscript](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md)
+determines when actual reciprocal Bol operations can randomize a quantum state.
+Every degenerate sector has a stationary-state obstruction for every native
+distribution. A fixed nondegenerate family has a sharp threshold for the number
+of native generators needed to have a scalar common commutant. An explicit
+small-bias construction using actual translated defects gives arbitrary-state
+trace-norm randomization with one operation and constant quantum depth on
+fixed-size qudits. A matching Weyl control has the same physical channel and
+resource costs, so no general Bol-specific efficiency advantage is claimed.
+
+The [local claim record](claims/quantum-randomization.md) separates the exact
+statements and scope. The [reproducibility and review record](analytic-2026-11-16/evidence/bol-randomization-reproducibility.md)
+pins the scientific revision and the independent mathematical and resource
+reviews accepting it within their stated scopes. These
+results concern specified reciprocal families, not a classification of finite
+simple Bol loops.

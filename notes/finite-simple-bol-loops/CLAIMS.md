@@ -111,3 +111,18 @@ Numbered expositions are linked where available. Other links identify supporting
 This catalogue covers all seventeen original claim records and every manuscript currently released in this public workspace. It does not claim that unpublished source work has been exhaustively audited. A compound manuscript can contain lemmas, examples and conjectures beyond its headline family: its hypotheses and section labels control their status. A material new theorem should get a new ID rather than being hidden under0010; an alternative proof of the same result retains its ID. Corrections retain IDs and state which conclusion changed.
 
 The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0082.
+
+
+## Manuscript-local QR labels, no permanent numeric allocation
+
+The [quantum randomization claim record](claims/quantum-randomization.md)
+indexes the new [randomization manuscript](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md)
+by its own theorem labels and QR equations. These labels are not permanent
+numeric claim IDs. This continuation neither reserves nor allocates a number,
+modifies an existing numbered claim, or changes `claim-manuscript-map.json`.
+The existing numeric allocation policy above remains in force.
+
+The local record distinguishes complete written proofs from finite executable
+corroboration and links independent model review addenda accepting the pinned
+scientific revision within their stated scopes. It states the operation model and the absence of a
+demonstrated general Bol-specific efficiency advantage.
