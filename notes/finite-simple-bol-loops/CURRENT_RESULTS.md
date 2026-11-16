@@ -1,17 +1,16 @@
-# Research snapshot: constructions, classifications and structural obstructions
+# Research results: constructions, classifications and structural obstructions
 
-**Later developments:** read [current advances](CURRENT_ADVANCES.md) before choosing a task. This page retains the earlier snapshot; its paired-inversion limitations and unreviewed A₅ appendix status are historical, not the current frontier. See [onboarding](START_HERE.md) and [public coverage](COVERAGE_AUDIT.md).
+This is the integrated account of the classification programme: achievements, exact scopes and important remaining questions. Read the [research front page](README.md) for a shorter overview; [Start here](START_HERE.md) and the [research workflow](RESEARCH_WORKFLOW.md) support a deeper investigation.
 
-**Snapshot: 16 November 2026, source revision `67cced817f7d24e36d78990c73828ade4f218091`.** This page is the front door to the broader programme, not just the rigid-center example. It records what the manuscripts claim, their mathematical scope and the reviews they report. The expansion is a publication and reconciliation pass, **not a fresh independent proof audit**. Recorded reviews are by AI models, not human referees or formal proof checkers. A later appendix does not inherit an earlier section's acceptance automatically.
+Statements below report the manuscripts and their recorded AI-model reviews. This reconciliation is not a fresh proof audit, human refereeing or formal verification. Exact source revisions and missing dependencies remain recorded in the supporting packets and [coverage audit](COVERAGE_AUDIT.md). The latest incorporated source is `ed03ee5a0a45d9087e0619b15b7ba5cd1806d57a`.
 
 ## 1. Radical-free envelopes: a substantial classification programme
 
 Here the canonical group means the faithful **left multiplication group**, with its marked left translations, identity stabilizer and canonical inversion. It must not be replaced by the full multiplication group or just an abstract composition-factor list.
 
-### All fields for the paired PSL₂ model
+### Every field and every inversion for canonical PSL₂ powers
 
-[The all-field assembly](update-2026-11-16/manuscripts/radical-free-psl2-path-classification.md#all-field-paired-psl₂-assembly) classifies the paired canonical model
-`G = PSL₂(q)^k × PSL₂(q)^k`, with inversion exchanging paired factors, for every prime power q≥4 and k≥1. All survivors are single paths, with explicit endpoint groups and exact within-model isomorphism classes:
+[The arbitrary-inversion assembly](advances-2026-11-16/manuscripts/radical-free-fixed-factors.md) classifies the setting where the **entire canonical group** is `G = PSL₂(q)^n`, for every prime power q≥4 and n≥1, without assuming paired inversion. Every survivor has n=2k and paired inversion, and the [path classification](update-2026-11-16/manuscripts/radical-free-psl2-path-classification.md) gives explicit endpoints and exact classes:
 
 | q | Number of classes for each k |
 |---|---:|
@@ -25,7 +24,7 @@ Here the canonical group means the faithful **left multiplication group**, with 
 | Other odd q≡3 mod4 | 1 |
 | Other odd q≡1 mod4 | 0 |
 
-The endpoint table and subgroup hypotheses are in the manuscript. q=4 and q=5 describe the same A₅ family and must not be counted twice. The assembly reports three mathematical/source/code acceptances at `e30af949531c0ebcc9f7533b04fc1e7fc6858563`; its q=9 certificate is included. This does **not** classify arbitrary loops merely having PSL₂ composition factors, or remove the paired-inversion assumption.
+The endpoint table and subgroup hypotheses are in the manuscript. q=4 and q=5 describe the same A₅ family and must not be counted twice. The paired assembly reports three mathematical/source/code acceptances at `e30af949531c0ebcc9f7533b04fc1e7fc6858563`; the arbitrary-inversion assembly reports three at `f831fb7a9cc3c1f90c2b32b94e002b5e6d06a413`, retaining the case-specific inputs. This does **not** classify arbitrary loops merely having PSL₂ composition factors or larger canonical overgroups.
 
 ### Arbitrarily many factors, and genuinely mixed simple types
 
@@ -46,9 +45,32 @@ The endpoint table and subgroup hypotheses are in the manuscript. q=4 and q=5 de
 
 [The general inner-inversion reduction](update-2026-11-16/manuscripts/exact-factorization-criterion.md#inner-inversion-and-the-generalized-fitting-subgroup) forces the Bruck structural regime under its conjugate-stabilizer hypothesis. In particular **O₂(G)=1 forces outer inversion**, removing inner-inversion casework from radical-free envelopes. Its three recorded acceptances at `84eba0ffd4dfab4b6d64853a3131010ad2b945b8` retain the Bruck-isotope interface and the CFSG-dependent published Bruck theorem. It does not classify the outer inversions or radical extensions.
 
-### Restrictions toward removing paired inversion
+### The full nonpermuting A₅-socle setting
 
-[Fixed-factor and character constraints](update-2026-11-16/manuscripts/radical-free-fixed-factors.md) use actual stabilizer transversality, marked class sums, representation characters, valuations and Sylow-two bounds. The earlier fixed-factor restrictions and character section have their own recorded reviews. **The newest A₅-power inversion-exhaustion appendix at this snapshot awaits review** and is a proposed continuation, not a newly accepted classification. Mixed fixed-factor models remain open. [Involution-support restrictions](update-2026-11-16/manuscripts/radical-free-involution-support.md) also exclude the specified paired Suzuki/small-Ree cases and A₅/Suzuki mixtures. [Prime-field PSL₃ restrictions](update-2026-11-16/manuscripts/radical-free-psl3-prime-paths.md) extend the approach beyond PSL₂, within their stated model.
+[Inversion exhaustion](advances-2026-11-16/manuscripts/radical-free-a5-code-inversion.md) and [outer-code/selected-mark classification](advances-2026-11-16/manuscripts/radical-free-a5-outer-codes.md) cover the entire setting `Soc(G)=A₅^r` in which G does not permute the simple factors, without an initial inversion assumption. The data are the pure-A₅ path or positive path lengths and a strongly connected binary matrix, modulo length-preserving simultaneous permutation. This includes the selected-mark and outer-code correlations, not just the direct-power group.
+
+The full inversion assembly reports three reviews at `42e39c3cfbb5ded0d294a1a01fd6ab7dea8d6c0e`; the arbitrary-mark theorem reports three at `820e678f92b42fe80d9e6c47cfd7e3afe3536815`. The earlier unreviewed A₅ appendix is no longer the current status. Factor-permuting groups and other or mixed socles remain separate.
+
+### Factor-permuting A₅ families and exact regular-top classifications
+
+[The factor-permutation construction](advances-2026-11-16/manuscripts/radical-free-factor-permutation-construction.md) gives an order-648000 example and unbounded prime cycle lengths. Its reported review is `ad7b7d0df9910463839b2e8607fbfec3ddbe2f5e`. Thus nonpermuting results cannot finish the programme.
+
+The following classifications concern their **displayed exact wreath-pair canonical groups and swap inversion**, not every group having the same permutation quotient:
+
+| Regular top/model | Classification in that precise model | Source |
+|---|---|---|
+| Cyclic length n | Exactly n=1,3,5,15; one class of order n·60^n for each | [Cyclic tops](advances-2026-11-16/manuscripts/radical-free-a5-cyclic-top.md) |
+| Every finite abelian regular top A | Exactly A≅U_a(F₃)×U_b(F₅), one class per a,b≥0; n=3^a5^b and loop order n·60^n | [Abelian tops](advances-2026-11-16/manuscripts/radical-free-a5-abelian-top.md) |
+| Modular nonabelian order-27 top C₉⋊C₃, full anti-abelianization envelope | Exactly six classes of order 27·60^27 | [Modular top](advances-2026-11-16/manuscripts/radical-free-a5-nonabelian-27.md) |
+| Exponent-three nonabelian order-27 top | Exactly two classes of order 27·60^27 | [Exponent-three top](advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-27.md) |
+
+Here U_e(F_p)=1+tF_p[t]/(t^(e+1)). The corresponding full-source model-review pins are `62b423556eaa751273b360f256c388859e63bb86`, `7eb6be15aa8854884eafc6f71e825d50eb149aba`, `430f1d14db2cc7f56228c8f5f2401488d4c0cf3f` and `417e94ec31bdba48c0ed4f6b18b34e69f13621f7`. Each retains its own inputs.
+
+[The odd prime-power regular-top reduction](advances-2026-11-16/manuscripts/radical-free-a5-prime-power-top.md) gives construction, exhaustion and actual coordinate-isomorphism data for every odd p-group P in its stated model: p is 3 or 5, a cyclic module has dimension log_p|P|, and an explicit top-cocycle test remains. Review is pinned to `d17efc105793622b54eb899ccac67919a555a9f8`. It is a uniform parameterization, not a solution of all module/cocycle orbits.
+
+[The higher-rank extraspecial theorem](advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-tops.md) excludes every odd extraspecial top of rank m≥2 except order 5^5 and exponent 25, where admissible data exist. Its review is `417e94ec31bdba48c0ed4f6b18b34e69f13621f7`. **The surviving isomorphism orbits remain open.**
+
+[Involution-support restrictions](update-2026-11-16/manuscripts/radical-free-involution-support.md) and [prime-field PSL₃ restrictions](update-2026-11-16/manuscripts/radical-free-psl3-prime-paths.md) supply further scoped exclusions and directions beyond these classifications.
 
 ## 2. Odd-order envelopes: whole families and unavoidable complexity
 
@@ -70,6 +92,8 @@ The expanded source set adds:
 
 The [one-M noncentral reduction](update-2026-11-16/manuscripts/bruck-one-m-noncentral-reduction.md) ultimately excludes its entire displayed class-two/exponent-at-most-four S₅ family with Φ(P)=M and shadow J⊕U^b or P₆⊕U^b for every b≥0. The [quadratic socle collision](update-2026-11-16/manuscripts/bruck-n-socle-quadratic-collision.md) and [all-b P₆ exclusion](update-2026-11-16/manuscripts/bruck-n-p6-all-u-exclusion.md) close the corresponding stated Φ(P)=N families. These are analytic original-folder exclusions without a split-envelope assumption, not merely bounded searches. They do not exclude other Frattini modules or larger radical classes. Read their module conventions and exact hypotheses before applying them.
 
+A further [concrete nonsplit b=3 obstruction](advances-2026-11-16/manuscripts/bruck-b3-concrete-obstruction.md) excludes all stabilizer shadows for **one encoded group** under explicit layer, augmentation, size and selected-orbit hypotheses. It reports three mathematical/code reviews at `2bbb921c38fa006f0a9b134bbd43f90508ab012b`. Other quadratic models and the unrestricted Bruck branch remain open.
+
 ## 4. Affine and primitive-permutation directions
 
 [The cyclic-prime affine-quotient classification](update-2026-11-16/manuscripts/affine-cyclic-prime-quotient-classification.md) handles the stated nontranslation regular-subgroup constructions in V⋊(T⋊C_p), with T solvable of order prime to p and V faithful and irreducible on T, including p=2. Simplicity becomes a fixed-free action condition on T's abelianization, with exact cross-data isomorphism criteria. This complements the already public single-root theorem; it is not exhaustion of all affine complements.
@@ -86,7 +110,7 @@ These manuscripts carry section-specific model review records and precise numeri
 
 ## 5. What collaborators can attack next
 
-1. Remove paired-inversion hypotheses and settle the proposed fixed-factor exhaustion; then move beyond the already classified simple types.
+1. Classify the surviving order-5^5 exponent-25 extraspecial-top orbits, and extend beyond the classified exact regular-top models to general factor-permuting groups and other/mixed socles. The entire canonical PSL₂-power and nonpermuting A₅-socle settings are no longer pending paired-inversion tasks.
 2. Solve the actual nonsplit Bruck extension/inversion/stabilizer/marked-section compatibility problem, or prove it impossible. Do not substitute a toy shadow solution.
 3. Turn odd-layer compression into structural classification without dropping extension cochains, multiplicities or stabilizer data.
 4. Audit complete proof closures and the cited group-theoretic inputs; simplify proofs and independently reproduce the small exact certificates.
@@ -96,6 +120,6 @@ The unrestricted classification still needs sound constructions, exhaustion and 
 
 ## Source and reproducibility boundary
 
-[The update manifest](update-2026-11-16/MANIFEST.json) and [supplement manifest](update-2026-11-16/SUPPLEMENT_MANIFEST.json) record the original GitHub blobs and original/exported SHA-256 values. The update contains selected manuscripts and exact control programs from one frozen head. Earlier public sources remain available rather than silently overwritten. Links to them are explicitly marked as earlier snapshots. Some administrative/contextual references and additional dependencies are not reproduced; those are labeled in the source and listed in the manifest. This is not a claim that every source's full proof closure has now been re-audited or reproduced. Unreviewed continuations retain their labels. No private conversations or speculative moonshine material are included.
+[The update manifest](update-2026-11-16/MANIFEST.json) and [supplement manifest](update-2026-11-16/SUPPLEMENT_MANIFEST.json) record the original GitHub blobs and original/exported SHA-256 values. The supporting packets contain selected manuscripts and exact control programs pinned to their respective source revisions. Earlier public sources remain available rather than silently overwritten. Links to them are explicitly marked as earlier snapshots. Some administrative/contextual references and additional dependencies are not reproduced; those are labeled in the source and listed in the manifest. This is not a claim that every source's full proof closure has now been re-audited or reproduced. Unreviewed continuations retain their labels. No private conversations or speculative moonshine material are included.
 
 Publication checks for this update: Python sources parsed; the included Bruck toy control independently reran with 64 group-word solutions and 4,096 ordered polar pairs. This is a toy residual check, not an actual Bruck-loop construction. GAP certificates are supplied but were not rerun in this publication pass.
