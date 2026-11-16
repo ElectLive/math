@@ -477,6 +477,11 @@
       "id": "0031",
       "source": "manuscripts/0031-factor-permuting-construction.md",
       "group": "factor-permuting-constructions"
+    },
+    {
+      "id": "0020",
+      "source": "manuscripts/0020-odd-isotope-orbits.md",
+      "group": "rigid-example-isotope-classes"
     }
   ]
 }
