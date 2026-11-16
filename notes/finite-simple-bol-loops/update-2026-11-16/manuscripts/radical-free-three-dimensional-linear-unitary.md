@@ -24,7 +24,7 @@ For the field case, the projective square condition is $`A\sigma(A)=zI`$ with $`
 
 ## Unitary outer involutions
 
-For $`T=\mathop{\mathrm{PSU}}\nolimits_3(q)`$, Steinberg's unitary case gives an odd diagonal quotient of order dividing 3 and a cyclic field quotient of order $`2f`$. Its unique involution is represented by entrywise conjugation $`\alpha=\bar{\phantom{x}}:x\mapsto x^q`$ on the standard Hermitian space over $`\mathbb F_{q^2}`$. The same odd-diagonal argument reduces every outer involution to the actual coset $`\alpha T`$.
+For $`T=\mathop{\mathrm{PSU}}\nolimits_3(q)`$, Steinberg's unitary case gives an odd diagonal quotient of order dividing 3 and a cyclic field quotient of order $`2f`$. Its unique involution is represented by entrywise conjugation $`\alpha=\overline{\cdot}:x\mapsto x^q`$ on the standard Hermitian space over $`\mathbb F_{q^2}`$. The same odd-diagonal argument reduces every outer involution to the actual coset $`\alpha T`$.
 
 Let $`A\in\mathop{\mathrm{SU}}\nolimits_3(q)`$ and suppose $`A\alpha`$ has projective square 1. Then $`A\bar A=zI`$ for a scalar $`z`$ in the odd special-unitary center. Conjugating and comparing the two product orders gives $`z=\bar z`$; a unitary scalar also has $`\bar z=z^{-1}`$, so $`z^2=1`$ and $`z=1`$. The semilinear involution $`F=A\alpha`$ has a three-dimensional fixed $`\mathbb F_q`$-space $`E`$, whose scalar extension is the whole space. The Hermitian form restricts to a nondegenerate symmetric form on $`E`$. For a fixed-basis matrix $`B`$, $`A=B\bar B^{-1}`$; $`\det A=1`$ gives $`\det B\in\mathbb F_q^\times`$, and the Gram determinant is
 
