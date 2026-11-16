@@ -1,6 +1,6 @@
 # Starter tasks
 
-These are bounded tasks, not a claim that every branch has complete public proof closure. Record the repository commit before beginning. Check [current advances](CURRENT_ADVANCES.md) for superseding results.
+These are bounded tasks, not a claim that every branch has complete public proof closure. Record the repository commit before beginning. Check [current advances](CURRENT_RESULTS.md) for superseding results.
 
 ## T1. Reproduce and review the specialized existence proof
 
@@ -20,7 +20,7 @@ These are bounded tasks, not a claim that every branch has complete public proof
 
 ## T3. Test an actual Bruck lifting obstruction
 
-**Start:** [actual two-N residual](update-2026-11-16/manuscripts/bruck-two-n-cross-residual.md) and the Bruck section of [the snapshot](CURRENT_RESULTS.md).  
+**Start:** [actual two-N residual](update-2026-11-16/manuscripts/bruck-two-n-cross-residual.md) and the Bruck section of [the catalogue](CURRENT_RESULTS.md).  
 **Question:** can the remaining affine compatibility conditions be solved in a precise fixed model, or is there a uniform obstruction?  
 **Work:** identify all missing dependencies first; retain extension, stabilizer, inversion and marked-section data together. Reproduce the supplied toy control only as a check of its formulas.  
 **Deliverable:** an actual admissible datum or a proved obstruction with exact scope and negative controls.  
