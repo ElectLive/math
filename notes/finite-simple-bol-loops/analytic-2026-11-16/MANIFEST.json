@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "description": "Public export hashes; see README for source revision mapping and review scope",
+  "files": [
+    {
+      "path": "BOL_METAPLECTIC.md",
+      "sha256": "0289e569c48afc034a913450312a2084e61e1faabcc01d176302749220a5bdf2"
+    },
+    {
+      "path": "README.md",
+      "sha256": "77a9117d0d879b4fdb2466d07bbe0c25c398b164b028a283ca1facdf8fe106c2"
+    },
+    {
+      "path": "REFERENCES.md",
+      "sha256": "87897466df10b6de82854800dc5b29f986b8a2df03ef126a5ecdb8301bfef26a"
+    },
+    {
+      "path": "code/README.md",
+      "sha256": "408455f4fc3a67f8d8db16b023ff68abbfe22b64d0c632379eeb27716a4b9ab8"
+    },
+    {
+      "path": "code/verify_bol_action_transfer_envelope.py",
+      "sha256": "5fd1c63f6ccd09a38d6dd7a74037d05c2b984554a8006cb1a15794263155850d"
+    },
+    {
+      "path": "code/verify_bol_action_transfer_independent.py",
+      "sha256": "528db8ab8ecce7938507a8fb92384c08ce769a10d8172757fe44f11f01d6318e"
+    },
+    {
+      "path": "code/verify_bol_action_transfer_polarized.py",
+      "sha256": "c16f74ed50ea8367c04e69798fd12734e840722f0baf41ff1da901f2911dd77d"
+    },
+    {
+      "path": "code/verify_bol_associator_bilinear.py",
+      "sha256": "288ae26ece395cffa6d00aeed05c4391597c5b9bb8e4c955a5af608e161ba80e"
+    },
+    {
+      "path": "code/verify_bol_associator_independent.py",
+      "sha256": "6988c5ff225a35ceecfdf48a00ff2a214c9646899ce3abd6174317017e813e0d"
+    },
+    {
+      "path": "code/verify_bol_associator_ring_independent.py",
+      "sha256": "705d445199cbc92b79d55d74e611c905828caf13b9c40e111e70e5551f9742c2"
+    },
+    {
+      "path": "code/verify_bol_associator_weyl.py",
+      "sha256": "fbd6f7928b2b05678bffc4e663998fc54075e014ddab91a1de420aec434f30d1"
+    },
+    {
+      "path": "code/verify_bol_collective.py",
+      "sha256": "38419cd26964335d121bd4ab98457e9cca6f1e8b73275b107c04bde0496c28db"
+    },
+    {
+      "path": "code/verify_bol_collective_independent.py",
+      "sha256": "5ef134b865366adb5556a256eb522c569cf3658b73985d0da02792270502ea7e"
+    },
+    {
+      "path": "code/verify_bol_conductor_central.py",
+      "sha256": "6a35924ea254d528336604d1a8ba0fc9d2b2e204372a5a50dd1a3e9eae6d6f7e"
+    },
+    {
+      "path": "code/verify_bol_conductor_independent.py",
+      "sha256": "aff99566d63133d1612ce2ffc12cb877629807e2ccf6445f4a938d1880dc25f7"
+    },
+    {
+      "path": "code/verify_bol_conductor_vector.py",
+      "sha256": "63d6f4092f75494e16c772b3ed34519744789a2b47046a487282f6ecffaff5da"
+    },
+    {
+      "path": "code/verify_bol_coupled.py",
+      "sha256": "b18f77b7c109af94f6cf475dd12fde394108a4ce97bd92c71017945d85a092c7"
+    },
+    {
+      "path": "code/verify_bol_coupled_independent.py",
+      "sha256": "94ce72412512b4267d908189e243f15c3752e1aa562ca02776e4f72ab6eea4b7"
+    },
+    {
+      "path": "code/verify_bol_intrinsic_incidence_independent.py",
+      "sha256": "b0dd6e0a61cd91acdb4c871ca57fcc5b0e07cc486fc83bd70dfb44f95e902489"
+    },
+    {
+      "path": "code/verify_bol_intrinsic_spectrum.py",
+      "sha256": "46f8c4bbe1330e2b87d1f6ef10034ecf9caca71362657edd03209c0abdaaffa7"
+    },
+    {
+      "path": "code/verify_bol_nonscalar_fusion.py",
+      "sha256": "0acf10e3334856a68f111701bd14218646764b570232d01e5bf794527256e8fc"
+    },
+    {
+      "path": "code/verify_bol_nonscalar_independent.py",
+      "sha256": "3da9d3e109cf5fdb99e5b90188f6d30ade95d9fe227551bed8c6490919581e1d"
+    },
+    {
+      "path": "code/verify_bol_nonscalar_orbits.py",
+      "sha256": "69df9950306a89cc85623b965194e763e3b4c76be22c1aeebccbebf33f7b2201"
+    },
+    {
+      "path": "code/verify_bol_nonscalar_quantum.py",
+      "sha256": "946b78ef7f69ccaed203ad826466290c681b50aefbd72d52d2c3d1ed7a1e1975"
+    },
+    {
+      "path": "code/verify_bol_plane_mass.py",
+      "sha256": "4dee7bd1140bb0510a43901dd393f64f743633f50b241f69779c450f7986c2e7"
+    },
+    {
+      "path": "code/verify_bol_section_independent.py",
+      "sha256": "6f7545c6dfc83657cf3fdbbf922592333fc5a3efe02202a7edf0b8e62045269b"
+    },
+    {
+      "path": "code/verify_bol_section_local.py",
+      "sha256": "6f2bf9d55e8a990c4c95ade3ac040bd2ab00eed703ccb538333ffbe9b5e0425a"
+    },
+    {
+      "path": "code/verify_bol_section_mixing.py",
+      "sha256": "40f83fe3c895bb237e0cf24ad0fc20d20e3aa27580299907798ad0c9763a15a8"
+    },
+    {
+      "path": "code/verify_nonbol_reversibility_control.py",
+      "sha256": "060131fb1c84b17bdfc2ff5b67ea68e40b56b6bd9b84774bdb5394a1c98386fa"
+    },
+    {
+      "path": "evidence/bol-action-transfer-review.md",
+      "sha256": "04750c05e0ee97541992c0d31e90e5561b40d660ac47b9a4610c23097ef3bf20"
+    },
+    {
+      "path": "evidence/bol-metaplectic-review.md",
+      "sha256": "1275dac27b98d2e05295cfdb898898e88b5fbd7a4defc82aa3079ac47c1f77a4"
+    },
+    {
+      "path": "evidence/bol-nonscalar-independent-review-addendum.md",
+      "sha256": "b640a98a1986660f529f0d2d33208190251b7ac89e2ef23758ebd165514e4ee7"
+    },
+    {
+      "path": "evidence/bol-nonscalar-independent-review.md",
+      "sha256": "785d213d4497f56b34e35065c1a8ec0e7eae5047148242bf5b06689185ba3bd0"
+    },
+    {
+      "path": "evidence/bol-nonscalar-review.md",
+      "sha256": "22ad6a937f60af1707ae2b62095a7f684696f5d9f66e580585f01a63359e600d"
+    },
+    {
+      "path": "evidence/intrinsic-publication-audit.md",
+      "sha256": "4dc75412309606a4cba08550f7bfbd38c755097229280b48b76c7fa4c33e495b"
+    },
+    {
+      "path": "manuscripts/bol-action-compatible-transfer.md",
+      "sha256": "f235ef69d9825acc69ab7d141d9f2f9802a3aa94a82df63f2da8e8a13368832c"
+    },
+    {
+      "path": "manuscripts/bol-associator-quantization.md",
+      "sha256": "bf8743b8a46f1e2a12253341dd44011529b7aba59f6366bc298201f1ba60d470"
+    },
+    {
+      "path": "manuscripts/bol-collective-cancellation.md",
+      "sha256": "ccbf79e13cb797ff1e622c11c548238db3ffd6b5b1b44ba61df724fbd65d596f"
+    },
+    {
+      "path": "manuscripts/bol-conductor-correspondence.md",
+      "sha256": "151b65f80ee6378ff69919bf82a6aaeb04f5112fc6cab5b0a6533d50664184ee"
+    },
+    {
+      "path": "manuscripts/bol-intrinsic-spectral-separation.md",
+      "sha256": "a5f99731208c467637493c0937eab8fbedae58fc6f476e8aac3038a75bce074e"
+    },
+    {
+      "path": "manuscripts/bol-metaplectic-intake.md",
+      "sha256": "d78c3b05517c910e22f1c3e2380ffdddb23ff89a971397cf5cbd032292720f1b"
+    },
+    {
+      "path": "manuscripts/bol-nonscalar-intertwiners.md",
+      "sha256": "fe392dd3254e304b7d79eec36487d58c46b64aafa5be7d9cf8c3a1be6e0e6f39"
+    },
+    {
+      "path": "manuscripts/bol-section-controls.md",
+      "sha256": "337c779a2f884329c543fb3a53d3b4609d4f37c26a61e6f25a58baba4d974e5f"
+    },
+    {
+      "path": "manuscripts/bol-section-local.md",
+      "sha256": "dc7e44f8ba40fff7d098533d928e4530cb6c20c73bf26e17f52cd4af7365716a"
+    },
+    {
+      "path": "manuscripts/bol-section-mixing.md",
+      "sha256": "cccb283df18b9c64c18766f85d84309b1350648e2c5ff3077cda7c0af9e74513"
+    }
+  ]
+}

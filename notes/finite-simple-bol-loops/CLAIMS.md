@@ -102,8 +102,12 @@ Numbered expositions are linked where available. Other links identify supporting
 | [0077](claims/0077.md) | Transitive odd pure tops over one-mod-four PSL₂ fields | [Statement, argument and scope](manuscripts/0077-radical-free-psl2-transitive-odd-tops.md) |
 | [0078](claims/0078.md) | Transitive odd PSL₂(7) tops: trace restrictions | [Statement, argument and scope](manuscripts/0078-radical-free-psl27-transitive-odd-trace.md) |
 
+| [0079](claims/0079.md) | Intrinsic nonisomorphism and spectral separation | [Statement, proof and scope](INTRINSIC_NONISOMORPHISM.md) |
+| [0080](claims/0080.md) | Non-scalar fusion and two-rate matrix mixing | [Statement, proof and scope](analytic-2026-11-16/manuscripts/bol-nonscalar-intertwiners.md) |
+| [0081](claims/0081.md) | Action-compatible local conductor transfer | [Statement, proof and scope](analytic-2026-11-16/manuscripts/bol-action-compatible-transfer.md) |
+
 ## Scope and maintenance
 
 This catalogue covers all seventeen original claim records and every manuscript currently released in this public workspace. It does not claim that unpublished source work has been exhaustively audited. A compound manuscript can contain lemmas, examples and conjectures beyond its headline family: its hypotheses and section labels control their status. A material new theorem should get a new ID rather than being hidden under0010; an alternative proof of the same result retains its ID. Corrections retain IDs and state which conclusion changed.
 
-The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0079.
+The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0082.

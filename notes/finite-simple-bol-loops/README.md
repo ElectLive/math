@@ -93,3 +93,7 @@ to the other.
 The writeups state the hypotheses and proof dependencies of each result. Some supporting arguments remain to be made fully self-contained in this collection.
 
 This is AI-assisted research. It has not been human refereed or formally verified; novelty must be assessed separately from correctness.
+
+## Intrinsic and analytic continuation, 2026-11-16
+
+See the [self-contained nonisomorphism writeup](INTRINSIC_NONISOMORPHISM.md) and [public proof, code, review and validation package](analytic-2026-11-16/README.md). Claims 0079–0081 concern explicit reciprocal families, not an unrestricted classification. The package records the exact limitations, remaining analytic questions, and successful complete-checkout integrity checks separately from model mathematical reviews.

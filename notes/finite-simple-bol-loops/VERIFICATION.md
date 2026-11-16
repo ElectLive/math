@@ -33,3 +33,7 @@ counterexamples and limitations relevant to the published claims.
 The source research remains active. A public snapshot is not a claim that every
 later branch update is covered by its review. Corrections should name the affected
 statement and revisions and explain whether downstream results change.
+
+## Intrinsic and analytic continuation, 2026-11-16
+
+See the [self-contained nonisomorphism writeup](INTRINSIC_NONISOMORPHISM.md) and [public proof, code, review and validation package](analytic-2026-11-16/README.md). Claims 0079–0081 concern explicit reciprocal families, not an unrestricted classification. The package records the exact limitations, remaining analytic questions, and successful complete-checkout integrity checks separately from model mathematical reviews.

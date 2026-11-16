@@ -146,3 +146,7 @@ The [claim index](CLAIMS.md) records exact scopes and stable IDs. The [open prob
 ## Further odd-top restrictions
 
 [0077](manuscripts/0077-radical-free-psl2-transitive-odd-tops.md) excludes every pure transitive odd-top canonical PSL₂(q) model for odd q≡1 mod4, including q=5,9,29, without assuming H→Q or nilpotence. [0078](manuscripts/0078-radical-free-psl27-transitive-odd-trace.md) gives an outer exclusion and inner trace restrictions for PSL₂(7), leaving the inner case open. [0076](manuscripts/0076-radical-free-a5-nonsurjective-paired-support.md) provides necessary paired-support restrictions without top surjectivity, not exhaustion. [0075](manuscripts/0075-odd-quotient-multiplicity.md) proposes an odd-quotient multiplicity argument awaiting separate review. All imported interfaces retain their stated qualifications.
+
+## Intrinsic and analytic continuation, 2026-11-16
+
+See the [self-contained nonisomorphism writeup](INTRINSIC_NONISOMORPHISM.md) and [public proof, code, review and validation package](analytic-2026-11-16/README.md). Claims 0079–0081 concern explicit reciprocal families, not an unrestricted classification. The package records the exact limitations, remaining analytic questions, and successful complete-checkout integrity checks separately from model mathematical reviews.

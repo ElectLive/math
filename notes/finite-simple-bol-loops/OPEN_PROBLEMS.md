@@ -201,3 +201,7 @@ those activities are not themselves open mathematical problems.
 ## Additional transitive-top boundary
 
 [0077](manuscripts/0077-radical-free-psl2-transitive-odd-tops.md) excludes pure PSL₂(q) canonical envelopes with odd q≡1 mod4 and an odd faithful transitive top, without a surjectivity hypothesis. This does not settle intransitive or outer-action models. For PSL₂(7), [0078](manuscripts/0078-radical-free-psl27-transitive-odd-trace.md) excludes the outer case and gives necessary inner trace constraints; those constraints alone do not exclude or realize an inner folder. The inner transitive case is a concrete open target. [Uniform odd-quotient multiplicity](manuscripts/0075-odd-quotient-multiplicity.md) remains proposed, not a completed classification.
+
+## Intrinsic and analytic continuation, 2026-11-16
+
+See the [self-contained nonisomorphism writeup](INTRINSIC_NONISOMORPHISM.md) and [public proof, code, review and validation package](analytic-2026-11-16/README.md). Claims 0079–0081 concern explicit reciprocal families, not an unrestricted classification. The package records the exact limitations, remaining analytic questions, and successful complete-checkout integrity checks separately from model mathematical reviews.

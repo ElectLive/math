@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "original_claim_ids": "0001\u20130017",
-  "next_id": "0079",
+  "original_claim_ids": "0001–0017",
+  "next_id": "0082",
   "manuscripts": [
     {
       "id": "0053",
@@ -1856,7 +1856,7 @@
     {
       "id": "0073",
       "source": "manuscripts/0073-all-nilpotent-path-parameters.md",
-      "group": "All odd nilpotent pure-A\u2085 top parameters"
+      "group": "All odd nilpotent pure-A₅ top parameters"
     },
     {
       "id": "0074",
@@ -1882,6 +1882,21 @@
       "id": "0078",
       "source": "manuscripts/0078-radical-free-psl27-transitive-odd-trace.md",
       "group": "radical-free-psl27-transitive-odd-trace"
+    },
+    {
+      "id": "0079",
+      "source": "INTRINSIC_NONISOMORPHISM.md",
+      "group": "intrinsic-and-analytic-bol"
+    },
+    {
+      "id": "0080",
+      "source": "analytic-2026-11-16/manuscripts/bol-nonscalar-intertwiners.md",
+      "group": "intrinsic-and-analytic-bol"
+    },
+    {
+      "id": "0081",
+      "source": "analytic-2026-11-16/manuscripts/bol-action-compatible-transfer.md",
+      "group": "intrinsic-and-analytic-bol"
     }
   ]
 }
