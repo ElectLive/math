@@ -53,7 +53,7 @@ If $`p=2`$, solutions exist if and only if $`ac\in B`$ for every $`(a,c)\in D`$.
 
 ```math
 \beta_0\!\left(\sum_i\epsilon_i d_i\right)
- =\sum_{i<j}\epsilon_i\epsilon_j a_i c_j+B,\qquad \epsilon_i\in\mathbb F_2.
+ =\sum_{i\lt j}\epsilon_i\epsilon_j a_i c_j+B,\qquad \epsilon_i\in\mathbb F_2.
 ```
 
 
