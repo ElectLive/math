@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "original_claim_ids": "0001\u20130017",
+  "original_claim_ids": "0001–0017",
   "next_id": "0064",
   "manuscripts": [
     {
@@ -462,6 +462,11 @@
       "id": "0047",
       "source": "advances-2026-11-16/manuscripts/radical-free-involution-support.md",
       "group": "involution-support-restrictions"
+    },
+    {
+      "id": "0024",
+      "source": "manuscripts/0024-matrix-pair-embedding.md",
+      "group": "matrix-pair-encoding"
     }
   ]
 }
