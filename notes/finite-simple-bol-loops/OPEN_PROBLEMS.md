@@ -103,9 +103,10 @@ they induce the required loop isomorphisms.
 have already been treated in the current research: the latest source reports
 120 classes across the odd extraspecial models, including 88 in the order-5⁵,
 exponent-25 case. Their orbit counts are therefore not proposed here as open
-problems. These are source-reported, scoped reviewed results; see
-[Current research](CURRENT_RESULTS.md) for the published source coverage and
-review qualifications.
+problems. These are reported results for the exact model above. The subsequent
+24-class proof, 88-class orbit theorem and full assembly are not yet published
+here; the older public sources alone do not establish these counts. See the
+[results catalogue](RESULTS.md) for the complete table and its public-proof coverage.
 
 ## 4. Classify the next odd derived-group layer
 
