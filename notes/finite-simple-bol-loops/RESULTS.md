@@ -13,9 +13,11 @@ is also preserved, with its broader review limits distinguished.
 The [rigid-center manuscript](packet/manuscripts/odd-rigid-center-nongloop.md)
 constructs a finite simple proper **left** Bol loop of order
 
-\[
+
+```math
 3^{75}19^3
-\]
+```
+
 
 which is not a G-loop and is not isotopic to a Bruck loop. The non-G-loop argument
 exhibits a principal isotope and excludes an isomorphism using the precise
