@@ -40,14 +40,22 @@ Equation (4) also has a uniform solution test in each characteristic. Write $`d=
 
 If $`p`$ is odd, solutions exist if and only if $`ac'-a'c\in B`$ for every $`d,d'\in D`$. Necessity follows by interchanging $`d,d'`$ in (4). For sufficiency, $`B`$ is an $`\mathbb F_p`$-subspace, so $`1/2`$ acts on $`\mathbb F_q/B`$, and
 
-$$\beta_0(a,c)=\tfrac12 ac+B$$
+
+```math
+\beta_0(a,c)=\tfrac12 ac+B
+```
+
 
 satisfies (4): its polarization is $`(ac'+a'c)/2`$, congruent to $`ac'`$ modulo $`B`$. Every solution is $`\beta_0+\ell`$ for a unique $`\mathbb F_p`$-linear map $`\ell:D\to\mathbb F_q/B`$, since the difference of two solutions is additive.
 
 If $`p=2`$, solutions exist if and only if $`ac\in B`$ for every $`(a,c)\in D`$. Necessity follows from setting $`d'=d`$ in (4). Polarizing this condition gives $`ac'+a'c\in B`$, making the bilinear map $`D\times D\to\mathbb F_q/B`$, $`(d,d')\mapsto ac'+B`$, alternating and symmetric. Choose an $`\mathbb F_2`$-basis $`d_i=(a_i,c_i)`$ of $`D`$ and define
 
-$$\beta_0\!\left(\sum_i\epsilon_i d_i\right)
- =\sum_{i<j}\epsilon_i\epsilon_j a_i c_j+B,\qquad \epsilon_i\in\mathbb F_2.$$
+
+```math
+\beta_0\!\left(\sum_i\epsilon_i d_i\right)
+ =\sum_{i<j}\epsilon_i\epsilon_j a_i c_j+B,\qquad \epsilon_i\in\mathbb F_2.
+```
+
 
 Its polarization is $`ac'+B`$, using the diagonal vanishing and symmetry just proved, so it satisfies (4). Again every solution is $`\beta_0+\ell`$ for a unique $`\mathbb F_2`$-linear $`\ell:D\to\mathbb F_q/B`$. The choice of basis changes the displayed particular solution, not the complete solution set. Thus $`B,D`$ are admissible for some $`\beta`$ exactly under the respective conditions above; no hidden splitting hypothesis remains in this subgroup layer.
 
