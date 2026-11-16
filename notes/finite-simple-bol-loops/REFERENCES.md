@@ -58,7 +58,7 @@ Further foundations include Dixonâ€“Mortimer's *Permutation Groups* and Liebeckâ
 
 ## Project manuscripts are separate evidence
 
-Our [current research catalogue](CURRENT_RESULTS.md), [earlier construction catalogue](RESULTS.md) and [verification policy](VERIFICATION.md) describe the project's own claims and their review status. They are not additions to the established literature merely because they are public. Model review, computational reproduction, human refereeing, and formal proof checking are distinct.
+Our [results catalogue](RESULTS.md) and [verification policy](VERIFICATION.md) describe the project's own claims and their review status. They are not additions to the established literature merely because they are public. Model review, computational reproduction, human refereeing, and formal proof checking are distinct.
 
 ## How to contribute a reference
 
