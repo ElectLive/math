@@ -61,9 +61,13 @@ specified previously uncovered permutation action would be useful partial progre
 lying above them. Permutation of the simple factors introduces correlations that
 the already treated nonpermuting case does not capture.
 
-**Starting point and status.** The [nonpermuting assembly](advances-2026-11-16/manuscripts/radical-free-a5-code-inversion.md) treats envelopes preserving every factor. The [all-path parameterization](manuscripts/0068-abelian-nilpotent-path-parameters.md) now treats every odd abelian top and the zero-graph odd nilpotent branch in the pure factor-permutation model, with construction, exhaustion, exact normal-cut tests and actual isomorphism equivalence.
+**Starting point and status.** The [nonpermuting assembly](advances-2026-11-16/manuscripts/radical-free-a5-code-inversion.md) treats envelopes preserving every factor. The [all-graph nilpotent parameterization](manuscripts/0073-all-nilpotent-path-parameters.md) now supplies construction, exhaustion, explicit normal-cut tests and exact isomorphism equivalence for the entire stated pure A₅ odd-nilpotent top model, including nonzero residual dependency graphs. Its four independent model reviews are conditional on the pinned inputs; they are not human refereeing or formal certification. The earlier zero-graph boundary and normalization gap are no longer the current boundary for this model.
 
-**Next precise targets.** For nonzero acyclic residual maps φ:(F₂²)^M → F₂^M, construct complete parameters for the correlated odd residual and actual top lifts, and prove that every normalization preserves G, τ, K and H and the exact loop-isomorphism relation. Acyclicity is necessary, not yet sufficient. Separately, establish stabilizer surjectivity or parameterize its failure for nonnilpotent odd tops. Neither target covers general outer actions or all groups with A₅ socle; those remain further obligations.
+**2a. Nonzero graph realizability and orbit evaluation.** Do any admissible parameters with nonzero residual graph produce a faithful simple proper loop? If so, determine their isomorphism orbits in a specified family. The theorem explicitly does not assert such parameters exist. This is an unevaluated existence/orbit question, not a request to reprove the now-established exhaustive parameterization. No separate realization or impossibility result was located in the inspected checkpoint.
+
+**2b. Odd nonnilpotent tops: actively investigated, not untouched.** In the same pure permutation setting G=A₅^Ω⋊Q with Q odd, prove that the actual identity stabilizer H maps onto Q, or construct and classify the failures. The [surjectivity investigation](manuscripts/0074-odd-top-surjectivity-boundary.md) already derives necessary socle/mark restrictions and tests a proper normally-generating top subgroup. That group-theoretic control example is not a Bol loop. A proposed extension of the path theorem covers arbitrary odd Q **assuming** H→Q is surjective; this extension and the non-surjective investigation are pending independent exact-source review. Neither proves general surjectivity or exhausts nonnilpotent tops.
+
+**2c. General outer actions: partially investigated.** Classify the remaining A₅-socle folders when factor permutations and genuine outer actions occur together. The [nonpermuting parity-code work](advances-2026-11-16/manuscripts/radical-free-a5-outer-codes.md) already treats outer data in its specified nonpermuting models and exhibits G≠Soc(G). Thus outer actions are neither excluded nor wholly uninvestigated. The pure-permutation all-graph theorem does not classify arbitrary subgroups above the socle in Aut(A₅) wr Sym(Ω). A general combined outer/permutation construction, exhaustion and equivalence theorem remains missing.
 
 ## 3. Which odd prime-power regular tops are admissible?
 
@@ -127,6 +131,64 @@ hypotheses, not this entire class. The
 also rules out treating class three as the final layer of the odd-order problem.
 An unrestricted classification of the class-three slice is not established in
 the current programme.
+
+**Concrete follow-up not separately resolved in the inspected checkpoint.** Can
+the coprime part of the stabilizer action move the center of a higher-class
+nilpotent derived Sylow subgroup? The [coprime-center reduction](packet/manuscripts/odd-class-two-coprime-center-reduction.md)
+excludes this for every class-two derived Sylow at arbitrary exponent, but not
+for higher class. Own-prime noncentral center actions already exist and do not
+answer this question. A counterexample must be an actual simple proper loop,
+not just an abstract group with the desired action.
+
+## 5. Mixed socles beyond the classified paired model
+
+**Question.** Classify radical-free canonical folders with at least two
+nonisomorphic nonabelian simple factor types, allowing the remaining socle
+types, inversion patterns and extensions above the socle.
+
+**Status: partially investigated.** The [mixed paired classification](manuscripts/0028-0030-mixed-paired-classification.md)
+already gives construction, exhaustion and exact isomorphism tests for
+G=A₅^(2A) × PSL₂(7)^(2B) with the stated paired inversion, as well as explicit
+families and intrinsic exact-factorization/isotopy obstructions. The
+[mixed quotient reductions](update-2026-11-16/manuscripts/radical-free-mixed-simple-quotients.md)
+provide further restrictions. These results must not be relabeled as an
+untouched mixed-socle problem. The open target is exhaustion beyond those
+specified types and paired direct-product hypotheses, including factor
+permutations and permitted outer extensions. Any next subcase should name its
+socle types, action and inversion assumptions explicitly.
+
+## 6. Radical extensions and actual loop-section lifting
+
+**Question.** Give necessary and sufficient extension data reconstructing
+faithful simple proper Bol folders with nontrivial solvable radical, with
+simplicity and exact isomorphism tests. In particular, determine which
+projected group/stabilizer/marked-set data lift through an elementary normal
+layer to an actual Bol section.
+
+**Status: partially investigated, not a blank branch.** Odd-order constructions,
+class-two classifications and [elementary-layer obstructions](packet/manuscripts/odd-elementary-layer-obstructions.md)
+already address substantial radical data. Their projected multitransversal,
+overlap and defect constraints are necessary interfaces, not a general
+sufficient lifting theorem. A projected marked set is not automatically a
+quotient loop. Unrestricted radical extensions, including compatible actual
+stabilizer cocycles and section data across successive layers, remain open;
+the pure A₅ radical-free theorems do not settle them. This target must include
+nonsplit and prime-overlap cases where the existing restricted extension
+normal forms do not apply.
+
+## Investigation-status audit
+
+This board was reconciled on 16 November 2026 against research checkpoint
+`17fd496f2d7eb8e6affe28e8be1ead9a94a7bf5b`, including the manuscripts rather
+than only the older PR summary. “No separate result located” means no dedicated
+resolution was found in that inspected material, not that nobody has ever
+investigated the question. The clearest specific follow-ups are nonzero-graph
+realizability (2a) and higher-class coprime center action (4). Odd-top
+surjectivity is already being investigated; outer actions, mixed socles and
+radical extensions have meaningful partial results. The unrestricted branches
+remain open despite those advances. New deductions should update both the
+[claims database](claims) and this board, preserving each theorem's hypotheses
+and separating proved, proposed and unevaluated statements.
 
 ---
 
