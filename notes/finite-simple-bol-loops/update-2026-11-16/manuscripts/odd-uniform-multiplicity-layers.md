@@ -12,7 +12,7 @@ Set δ=dim V_+−dim W, which may be positive, zero or negative, and n_−=dim V
 
 and put N_l=ker(1+ρ(l)S). Each K-fiber over l is v_l+N_l and dim N_l=n_−: the corresponding outside involution is conjugate to τ in the finite odd group extension.
 
-For each left coset \(aJ\subseteq L\), put B_a=Kbar∩aJ, W_a=ρ(a)W, Q_a=V/W_a. For l=aj∈B_a let
+For each left coset $`aJ\subseteq L`$, put B_a=Kbar∩aJ, W_a=ρ(a)W, Q_a=V/W_a. For l=aj∈B_a let
 
  z_l=v_l−c(a,j)−ρ(a)f(j) mod W_a,
  D_l=(N_l+W_a)/W_a,       h_l=dim(N_l∩W_a).
