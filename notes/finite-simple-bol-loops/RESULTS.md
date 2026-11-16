@@ -30,6 +30,8 @@ The [factor-permutation construction](advances-2026-11-16/manuscripts/radical-fr
 
 ### Canonical groups that are powers of PSL₂
 
+[0026: Classification theorem and proof](manuscripts/0026-psl2-power-classification.md) presents the following result and its construction uniformly.
+
 For every prime power q≥4, the [arbitrary-inversion assembly](advances-2026-11-16/manuscripts/radical-free-fixed-factors.md) treats the entire canonical group **G=PSL₂(q)ⁿ**, without assuming the inversion action. Survivors have n=2k, paired inversion and loop order |PSL₂(q)|ᵏ. The [path classification](update-2026-11-16/manuscripts/radical-free-psl2-path-classification.md) gives the following number of classes for each k≥1:
 
 | q | Classes |
