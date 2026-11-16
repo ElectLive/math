@@ -227,7 +227,7 @@ The endpoints follow by continuity. We use only the rational bounds
 
 
 ```math
-\frac{69}{100}<\ln2<\frac7{10},\qquad L>\frac{19}{12}.
+\frac{69}{100}\lt \ln2\lt \frac7{10},\qquad L>\frac{19}{12}.
 ```
 
 
@@ -400,7 +400,7 @@ power-of-two magnitudes. Then
 
 ```math
 \Delta_x(F)\le C_* I_x(F),\qquad
- C_*=36-18\log_2 3\quad(7.470<C_*<7.471).
+ C_*=36-18\log_2 3\quad(7.470\lt C_*\lt 7.471).
 ```
 
 

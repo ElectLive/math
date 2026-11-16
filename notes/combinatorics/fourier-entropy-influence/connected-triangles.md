@@ -73,7 +73,7 @@ on exactly $`12m`$ bits. In its spectrum, the corresponding inverse-transpose
 change is
 
 ```math
-\text{old }b_i=\text{new }b_i\oplus\text{new }a_{i+1}\quad(i<m),
+\text{old }b_i=\text{new }b_i\oplus\text{new }a_{i+1}\quad(i\lt m),
 ```
 
 with all other spectral coordinates unchanged, including $`b_m`$.
@@ -131,7 +131,7 @@ Each $`i<m`$ has two genuine triangles sharing the edge
 $`\{b_i,a_{i+1}\}`$. For $`m\ge2`$ the graph is therefore not a cactus. The triangles
 
 ```math
-T_i=\{b_i,c_i,a_{i+1}\},\qquad1\le i<m,
+T_i=\{b_i,c_i,a_{i+1}\},\qquad1\le i\lt m,
 ```
 
 are pairwise vertex-disjoint, so every feedback vertex set has at least
