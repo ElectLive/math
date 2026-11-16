@@ -4,7 +4,7 @@
 
 ## Folder interface
 
-Let T be a nonabelian finite simple group, k≥1, and let a faithful generated canonical folder (G,H,K) of a finite simple nonassociative left Bol loop have G=T^k×T^k and canonical inversion τ swapping the two blocks. The [paired-envelope theorem](../../update-2026-11-16/manuscripts/radical-free-paired-simple-envelopes.md) (earlier public snapshot) at `4c93742a59ccdd786f23598f0374f674c6f75fff` gives K=Λ={(x,x⁻¹):x∈T^k}; a paired coordinate belongs to Λ² exactly when its two entries are conjugate inverses. The [full-strip forest theorem](../manuscripts/radical-free-strip-forests.md), independently reviewed at `6d3a97daa9cf20bbae0416295c8c2374c2cd8ede`, expresses H as the direct product of independent full twisted T-strips and a possibly correlated leaf group R≤∏A_i with every A_i<T. Its graph is a forest with c components and ℓ proper-coordinate leaves, every component has at least two leaves, and
+Let T be a nonabelian finite simple group, k≥1, and let a faithful generated canonical folder (G,H,K) of a finite simple nonassociative left Bol loop have G=T^k×T^k and canonical inversion τ swapping the two blocks. The [paired-envelope theorem](../../update-2026-11-16/manuscripts/radical-free-paired-simple-envelopes.md) (earlier public snapshot) at `4c93742a59ccdd786f23598f0374f674c6f75fff` gives K=Λ={(x,x⁻¹):x∈T^k}; a paired coordinate belongs to Λ² exactly when its two entries are conjugate inverses. The [full-strip forest theorem](../manuscripts/radical-free-strip-forests.md), expresses H as the direct product of independent full twisted T-strips and a possibly correlated leaf group R≤∏A_i with every A_i<T. Its graph is a forest with c components and ℓ proper-coordinate leaves, every component has at least two leaves, and
 
 |R|=|T|^(ℓ−c).                                                        (1)
 
@@ -88,21 +88,19 @@ After cancelling q(q²−1), inequality (4) becomes
 
 For q≥27 its left side is at most 6(2q+1), which is smaller than the right side. The prime and subgroup-order obstruction therefore excludes every paired small Ree power.
 
-## Evidence and review boundary
+## Evidence and dependencies
 
-The coordinator read and ran the exact A₆ certificate with GAP 4.15.1: all asserted maximal-subgroup types/counts, involution classes, Sylow containment, 22 subgroup classes, 5-bearing types, C₅ normalizer and A₅ index checks passed. The computation relies on GAP's subgroup algorithms and data and does not prove the general parity or forest deductions. The coordinator inspected the cited ATLAS, Patassini, Arumugam–Bamberg–Giudici and versioned Bäärnhielm source statements. Independent mathematical/source/code reviews are recorded below. The unrestricted classification, other socle actions and arbitrary radical extensions remain open.
+The A₆ certificate was run with GAP 4.15.1. All asserted maximal-subgroup types/counts, involution classes, Sylow containment, 22 subgroup classes, 5-bearing types, C₅ normalizer and A₅ index checks passed. The computation relies on GAP’s subgroup algorithms and data; it does not prove the general parity or forest deductions. The cited ATLAS, Patassini, Arumugam–Bamberg–Giudici and Bäärnhielm results remain external inputs. Other socle actions, arbitrary radical extensions and the unrestricted classification remain open.
 
 
-### Independent review
+### Scope and dependencies
 
-GPT-6.1 Terra reviewers `review_s5_h3`, `review_hs_full` and `review_small_order_complete` independently accepted this full manuscript, the all-field paired-PSL₂ assembly and the A₆ certificate at exact source `e30af949531c0ebcc9f7533b04fc1e7fc6858563`. All checked the parity count for nonabelian correlated 2-groups, actual-R and full-strip lifting into H, one-deficient-leaf and order-product consequences, the q=9 component bound and Scott/Goursat split, all Suzuki/Ree maximal cases and primitive-prime exclusions, and the all-field table's exhaustive coverage and inherited isomorphism counts. Each extracted, read and ran the exact committed certificate with GAP 4.15.1; every assertion passed.
-
-All three inspected the ATLAS A₆ maximal list, Patassini Theorem 10 and Bäärnhielm v3 Propositions 3.6 and 3.7(1). `review_hs_full` and `review_small_order_complete` additionally inspected the Suzuki involution source, Arumugam–Bamberg–Giudici Lemma 10, and Bäärnhielm's order/involution statements in Propositions 3.1 and 3.3(4). These are source-statement checks, not reproofs of the cited classifications or GAP algorithms. The mathematical acceptances remain conditional on the pinned canonical-folder, forest/component, path, Dickson and Zsigmondy interfaces. They are model reviews, not human or formal certification, and do not classify arbitrary envelopes.
+The source inputs include the ATLAS A₆ maximal-subgroup list; Patassini Theorem 10; Bäärnhielm v3 Propositions 3.1, 3.3(4), 3.6 and 3.7(1); and Arumugam–Bamberg–Giudici Lemma 10. These classifications and GAP algorithms are not reproved here. The deductions depend on the canonical-folder, forest/component, path, Dickson and Zsigmondy interfaces; they do not classify arbitrary envelopes.
 
 
 ## Prime-order support extension
 
-**Independently reviewed continuation of 0323:C0010.** Let p be prime, P≤∏_{i∈I}P_i a finite p-group, and I partitioned into nonempty blocks I_b. If
+**Continuation of 0323:C0010.** Let p be prime, P≤∏_{i∈I}P_i a finite p-group, and I partitioned into nonempty blocks I_b. If
 
  |P| > (∏_{i∈I}|P_i|)/(∏_b min_{i∈I_b}|P_i|),
 
@@ -122,14 +120,14 @@ Suppose the reviewed paired strip-forest interface applies to T^k×T^k with τ e
 It suffices instead to assume a single Aut(T)-stable, inverse-stable T-class of order-p elements only if every nonidentity coordinate of the lemma's selected x is known to lie in that class. Existence of such a class alone is not enough: the lemma does not control which order-p class appears in each projection. This distinction matters for multiple classes. In particular, if s=|T|_p, the forest order gives |Syl_p(R)|=s^(ℓ−c). Exactly as in the involution proof, each component has at most one leaf whose p-part is less than s. A second prime r whose proper r-bearing subgroups are all p-deficient then gives the same path and strict subgroup-order obstruction with p replacing 2. These extensions have the scoped independent reviews below; they retain the full paired marking and the stated class condition, and never assume a quotient loop.
 
 
-### Independent review of the prime-order extension
+### Scope and dependencies of the prime-order extension
 
-GPT-6.1 Terra reviewers `review_hs_full`, `review_small_order_complete` and `review_s5_h3` independently accepted the prime-order extension and folder consequence at exact source `ada92bab7c75898127ee367a33f68329ed3cdacc`. All checked the signed block weights, projection-kernel order bound, central order-p free action on the torsion solutions, nonzero identity contribution and actual global-R lift. They explicitly retained the single T-conjugacy-class hypothesis; the lemma alone does not control which class occurs. The reviews use the pinned paired-folder and strip interfaces, with no new computation or primary-source audit.
+The prime-order extension depends on the paired-folder and strip interfaces. The single T-conjugacy-class hypothesis is essential: the lemma alone does not control which conjugacy class occurs.
 
 
 ## Mixed private-prime obstruction
 
-**Independently reviewed continuation of 0323:C0010.** This gives a sufficient exclusion, not a classification of mixed folders. Its input is the canonical faithful-folder/normal-subloop interface of C0001 at `9431ade99316d6bc62efb389492fef385b510b45`, together with the reviewed strip-forest and support-parity arguments in `radical-free-strip-forests.md`, `radical-free-involution-support.md` at `e30af949531c0ebcc9f7533b04fc1e7fc6858563`, and the mixed-type quotient interface in `radical-free-mixed-simple-quotients.md` at `ada92bab7c75898127ee367a33f68329ed3cdacc`. The conclusion is conditional on these and the exact subgroup hypotheses below. It concerns the entire canonical group, not sections inside arbitrary groups.
+**Continuation of 0323:C0010.** This gives a sufficient exclusion, not a classification of mixed folders. Its input is the canonical faithful-folder/normal-subloop interface of C0001 at `9431ade99316d6bc62efb389492fef385b510b45`, together with the reviewed strip-forest and support-parity arguments in `radical-free-strip-forests.md`, `radical-free-involution-support.md` at `e30af949531c0ebcc9f7533b04fc1e7fc6858563`, and the mixed-type quotient interface in `radical-free-mixed-simple-quotients.md` at `ada92bab7c75898127ee367a33f68329ed3cdacc`. The conclusion is conditional on these and the exact subgroup hypotheses below. It concerns the entire canonical group, not sections inside arbitrary groups.
 
 ### Transferable criterion
 
@@ -185,9 +183,9 @@ holds for q≥8: √(2q)≤q/2 and q²−6q−3>0. Therefore M_r M_2<q²(q²+1)(
 
 For q=8, this is already visible numerically: r=13, M_r=52, M_2=448, and 52·448=23296<29120=|Sz(8)|. This example is a check of the all-f calculation, not an exhaustive computation of folders.
 
-The Zsigmondy source is Ö. Avcı, *Large Zsigmondy Primes*, arXiv:2011.06136v2, §1, first paragraph, https://arxiv.org/html/2011.06136v2; the original primitive-divisor proof is not rederived. The proof above does not settle mixtures in which every such r also divides another simple type, or which violate the independent-full-strip hypothesis. This extension has the scoped independent exact-source reviews below.
+The Zsigmondy source is Ö. Avcı, *Large Zsigmondy Primes*, arXiv:2011.06136v2, §1, first paragraph, https://arxiv.org/html/2011.06136v2; the original primitive-divisor proof is not rederived. The proof above does not settle mixtures in which every such r also divides another simple type, or which violate the independent-full-strip hypothesis.
 
 
-### Independent review of the mixed private-prime obstruction
+### Scope and dependencies of the mixed private-prime obstruction
 
-GPT-6.1 Terra reviewers `review_paired_simple`, `audit_c9_full` and `review_folder_criterion` independently accepted this appended section at exact source `dd2f0fc5c4db866f93afe898d3a9a25382774489`, conditional on its pinned structural, source and cohomological inputs where applicable. They checked mixed-capacity parity in the actual residual, private-prime valuation saturation, strict component bounds, and the A₅/Suzuki application including nonsolvable subfield subgroups and 3-free composition-factor splitting. No new computation or fresh primary-source audit was performed. These are model mathematical reviews, not human or formal certification. The stated restrictions and unresolved reconstruction conditions remain: these deductions do not complete the unrestricted classification.
+The mixed-capacity deductions depend on the stated structural, source and cohomological inputs. Their restrictions and unresolved reconstruction conditions remain; in particular they do not complete the unrestricted classification.
