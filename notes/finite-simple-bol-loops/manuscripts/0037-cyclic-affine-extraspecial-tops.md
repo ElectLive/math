@@ -47,7 +47,56 @@ Fix the sign of the commutator form ω by comparing gh with hg. Since every comm
 (u_g-1)b_h-(u_h-1)b_g=\omega(g,h)\bar c.
 ```
 
-Transitivity gives an element g₀ sending 0 to 1, so b₀=1. Set $`a_g`$=$`u_g`$−1 and a₀=u_(g₀)−1. Taking h=g₀ gives a uniquely determined scalar $`\lambda_g`$∈Fₚ such that
+Transitivity gives an element g₀ sending 0 to 1, so b₀=1. Set $`a_g`$=$`u_g`$−1 and a₀=# 0037. A cyclic-affine obstruction and extraspecial regular tops
+
+**Mira Cult**
+
+## Results obtained
+
+A group action can be transitive as an affine action even when its linear part is far from faithful. Nevertheless, a cyclic linear module imposes a strong restriction on extraspecial groups: a fixed-point-free central element forces their commutator form to have rank at most two.
+
+We first prove this statement without any Bol-loop assumptions. We then explain its application to the exact paired-wreath models with an extraspecial regular permutation group. For rank at least two, the only surviving top has order 5⁵ and exponent 25. The application uses the structural reductions specified below; it is not an unrestricted classification of finite simple Bol loops or of groups with an extraspecial permutation quotient.
+
+## 1. The affine obstruction
+
+An extraspecial p-group B has center and derived group equal to a cyclic group of order p, and B/Z(B) is an elementary abelian group. Its commutator pairing on that quotient is a nondegenerate alternating form. Say that an Fₚ[B]-module M is **cyclic** if a single vector generates M under the linear B-action.
+
+**Theorem 1.** Let p be odd, let B be extraspecial of order $`p^{2m+1}`$, and let B act transitively by affine transformations on a finite cyclic Fₚ[B]-module M. If a generator z of Z(B) acts without fixed points, then m≤1. In particular, for m≥2 there is no regular affine action of B on a cyclic Fₚ[B]-module.
+
+The theorem assumes neither faithfulness of the linear representation nor a prescribed dimension for M. A regular action means a transitive action with trivial point stabilizers.
+
+### 1.1. Make the central element a translation
+
+Write the action as
+
+```math
+g:x\longmapsto \rho(g)x+\eta(g),\qquad
+\eta(gh)=\eta(g)+\rho(g)\eta(h).
+```
+
+Put D=ρ(z)−1 and c=η(z). Since z is central, DM is invariant under every ρ(g). The action therefore descends to V=M/DM. This quotient remains cyclic and the affine action remains transitive. On V, z is translation by the image c̄ of c. This image is nonzero: otherwise c∈DM, so Dx=−c has a solution and z fixes x in M. Centrality also gives ρ(g)c̄=c̄ for every g.
+
+Since B′=⟨z⟩ acts linearly as the identity on V, the linear image of B is abelian. Let R be the image of Fₚ[B] in End(V). The augmentation ideal of the group algebra of a finite p-group in characteristic p is nilpotent. Thus R is a commutative local Fₚ-algebra with residue field Fₚ; denote its maximal ideal by 𝔪 and residue map by ε.
+
+For completeness, the nilpotence assertion follows by induction on the group order. Choose a central element of order p. The ideal it generates through z−1 has p-th power zero; modulo this ideal the group algebra is that of the smaller quotient group. Nilpotence of its augmentation ideal lifts to nilpotence of the original augmentation ideal.
+
+Choose a cyclic vector v of V. The surjection R→V, r↦rv, is injective: if rv=0, commutativity implies that r kills every sv, and hence all of V; R is an algebra of actual operators. Identify V with R. The action now has the form
+
+```math
+g:x\longmapsto u_gx+b_g,\qquad u_g\in1+\mathfrak m.
+```
+
+We continue to write c̄ for the nonzero central translation in R. Each $`u_g`$ fixes it, and the elements $`u_g`$−1 generate 𝔪 as an ideal, so 𝔪c̄=0. Moreover 𝔪≠0: if R=Fₚ, all $`u_g`$ are 1, the affine image is a group of translations and hence abelian, contradicting that its commutator z translates nontrivially. Consequently c̄∈𝔪, since a unit annihilated by 𝔪 would force 𝔪=0.
+
+### 1.2. Express the commutator form as a wedge
+
+Fix the sign of the commutator form ω by comparing gh with hg. Since every commutator is a power of z and every $`u_g`$ fixes c̄,
+
+```math
+(u_g-1)b_h-(u_h-1)b_g=\omega(g,h)\bar c.
+```
+
+Transitivity gives an element g₀ sending 0 to 1, so b₀=1. Set $`a_g`$=$`u_g`$−1 and u_{g_0}`$−1. Taking h=g₀ gives a uniquely determined scalar $`\lambda_g`$∈Fₚ such that
 
 ```math
 a_g=a_0b_g+\lambda_g\bar c.
