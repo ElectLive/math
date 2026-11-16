@@ -467,6 +467,11 @@
       "id": "0024",
       "source": "manuscripts/0024-matrix-pair-embedding.md",
       "group": "matrix-pair-encoding"
+    },
+    {
+      "id": "0025",
+      "source": "manuscripts/0025-alternating-form-construction.md",
+      "group": "alternating-form-construction"
     }
   ]
 }
