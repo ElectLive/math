@@ -472,6 +472,11 @@
       "id": "0025",
       "source": "manuscripts/0025-alternating-form-construction.md",
       "group": "alternating-form-construction"
+    },
+    {
+      "id": "0031",
+      "source": "manuscripts/0031-factor-permuting-construction.md",
+      "group": "factor-permuting-constructions"
     }
   ]
 }
