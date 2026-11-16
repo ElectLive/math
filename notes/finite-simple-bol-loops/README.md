@@ -1,6 +1,6 @@
-# Finite simple Bol loops: a collaborative classification project
+# Finite simple Bol loops
 
-This is a collaborative research programme aimed at a structural classification
+This research aims at a structural classification
 of **all finite simple Bol loops up to isomorphism**. The goal is to identify the
 families and exceptional cases, prove that they exhaust the possibilities, and
 determine exactly when two constructions give isomorphic loops.
@@ -25,14 +25,14 @@ The project has developed constructions and classifications in several branches:
 
 Each result has specific hypotheses and review status. See the [research catalogue](CURRENT_RESULTS.md) for precise statements, sources and limitations. These are not a classification of all finite simple Bol loops.
 
-## What collaborators can do
+## Open problems
 
 - **Classify the remaining factor-permuting cases.** Classify the admissible folders and their isomorphism classes for arbitrary odd p-group regular tops, beyond the cases already analyzed.
 - **Go beyond the known socle models.** Identify or classify simple Bol loops with canonical envelopes outside the PSL₂ and A₅ families already studied.
 - **Resolve nonsplit Bruck lifting.** Prove or refute compatibility of the actual extension, inversion, stabilizer and section data in the remaining cases.
 - **Make odd-layer reductions exhaustive.** Turn the current compression and extension constraints into classifications without losing multiplicity or cohomological data.
 
-The [starter tasks](STARTER_TASKS.md) and [open problem board](OPEN_PROBLEMS.md) have more detail and links to the relevant work. References, counterexamples, constructions and ideas for attacking these questions are all welcome; see [how to contribute](CONTRIBUTING.md).
+The [open problems](OPEN_PROBLEMS.md) give precise statements and starting points.
 
 ## One milestone: a simple Bol loop outside two familiar classes
 
@@ -64,13 +64,10 @@ refereeing, formal verification, or a certification of historical novelty.
 ## Research reference
 
 - [Start here](START_HERE.md): orientation and reading paths for human and AI researchers.
-- [Research workflow](RESEARCH_WORKFLOW.md): how to use the sources, review statuses and computational evidence.
 - [Shared references](REFERENCES.md): literature and tools for researchers and their AI systems. Suggestions are welcome; a link and a sentence are enough.
 - [Research catalogue](CURRENT_RESULTS.md): detailed results, public sources and review status.
 - [Classification map](CLASSIFICATION.md): what the branches mean and how they fit.
 - [Open problem board](OPEN_PROBLEMS.md): specific structural questions and useful deliverables.
-- [Collaboration protocol](CONTRIBUTING.md): how to contribute references, proofs, constructions, counterexamples, and reviews.
-- [Evidence and publication policy](VERIFICATION.md): exactly what a review label means.
 
 ## Conventions
 
@@ -95,13 +92,6 @@ to the other.
 
 ## Publication scope
 
-This is a curated public research workspace, not a dump of private discussions or
-an assertion that every branch of the internal project is correct. A construction
-belongs in the results catalogue only when its statement, complete public proof
-dependencies, reproducible inputs where relevant, and exact review scope are
-available here. An omitted item is not necessarily disproved or abandoned.
+The writeups state the hypotheses and proof dependencies of each result. Some supporting arguments remain to be made fully self-contained in this collection.
 
-The work uses AI-assisted conjecture generation, proof development, and review.
-Model reviews are not human expert refereeing or formal verification. Contributors
-are welcome to challenge any argument, including the reductions used to organize
-the project. Novelty must be assessed separately from correctness.
+This is AI-assisted research. It has not been human refereed or formally verified; novelty must be assessed separately from correctness.
