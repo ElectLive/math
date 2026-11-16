@@ -482,6 +482,11 @@
       "id": "0020",
       "source": "manuscripts/0020-odd-isotope-orbits.md",
       "group": "rigid-example-isotope-classes"
+    },
+    {
+      "id": "0037",
+      "source": "manuscripts/0037-cyclic-affine-extraspecial-tops.md",
+      "group": "a5-extraspecial-top-restrictions"
     }
   ]
 }

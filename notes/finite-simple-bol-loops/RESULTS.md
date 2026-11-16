@@ -66,7 +66,7 @@ The next results concern the **exact wreath-pair models and swap inversion speci
 | Modular nonabelian C₉⋊C₃, with the specified full anti-abelianization envelope | Six classes of order 27·60²⁷ | [Modular order-27 top](advances-2026-11-16/manuscripts/radical-free-a5-nonabelian-27.md) |
 | Exponent-three nonabelian top of order 27 | Two classes of order 27·60²⁷ | [Exponent-three top](advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-27.md) |
 
-For [arbitrary odd prime-power regular tops](advances-2026-11-16/manuscripts/radical-free-a5-prime-power-top.md), the construction reduces to p=3 or 5 and explicit module/cocycle tests. This is a parameterization, not a solution of all resulting orbits. The public [higher-rank extraspecial theorem](advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-tops.md) establishes existence in its sole surviving higher-rank case, order 5⁵ and exponent 25. Subsequent research reports **88 isomorphism classes** in that case and the following completed extraspecial-top table:
+For [arbitrary odd prime-power regular tops](advances-2026-11-16/manuscripts/radical-free-a5-prime-power-top.md), the construction reduces to p=3 or 5 and explicit module/cocycle tests. This is a parameterization, not a solution of all resulting orbits. The public [higher-rank extraspecial theorem](manuscripts/0037-cyclic-affine-extraspecial-tops.md) establishes existence in its sole surviving higher-rank case, order 5⁵ and exponent 25. Subsequent research reports **88 isomorphism classes** in that case and the following completed extraspecial-top table:
 
 | Extraspecial top P | Reported loop classes |
 |---|---:|
