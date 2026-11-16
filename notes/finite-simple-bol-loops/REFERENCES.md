@@ -73,3 +73,28 @@ References to earlier examples, related approaches, contrary results and overloo
 For AI-assisted research, read the actual cited statement before using it, retain its hypotheses and version, and mark inaccessible or unchecked sources. A bibliography entry is a route to evidence, not a substitute for it.
 
 *Bibliography assembled 16 November 2026. Linked landing pages or documents were checked during this pass; this was not a full proof audit. The classical background items without links are reading leads whose accessible editions remain to be added.*
+
+
+## Quantum randomization and implementation
+
+These primary-source locators support the matched-norm comparison in
+[Section 8 of the randomization manuscript](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md#8-benchmarks-in-matched-criteria).
+The versions and theorem locators below delimit that comparison; current-source
+checking is distinct from a literature-wide novelty audit.
+
+| Source | Version and locator | Use and scope |
+| --- | --- | --- |
+| P. A. Dickinson and A. Nayak, *Approximate Randomization of Quantum States With Fewer Bits of Key* | [Author PDF](https://www.math.uwaterloo.ca/~anayak/papers/DickinsonN06.pdf), 1 June 2006, Theorems 1.2/1.4, Section 2 and Appendix B, Proposition B.1 | Explicit qubit Pauli state randomization, a random-sampling benchmark and the standard Alon--Goldreich--Hastad--Peralta blocked-coordinate small-bias construction. Trace-norm state security is distinct from diamond-norm security. |
+| A. Ben-Aroya, O. Schwartz and A. Ta-Shma, *Quantum Expanders: Motivation and Constructions* | [Theory of Computing 6 (2010), 47--79](https://theoryofcomputing.org/articles/v006a003/), Theorem 4.6; DOI 10.4086/toc.2010.v006a003 | Explicit constant-degree quantum expanders with efficient circuits in the stated dimensions; not a constant-depth theorem. |
+| A. Anshu, S. Balasubramanian, J. Haferkamp, A. W. Harrow and X. Tan, *Depth-1 expanders on the unitary group and applications* | [arXiv:2609.01605v1](https://arxiv.org/abs/2609.01605v1), 1 September 2026, Theorem 2.2 | Sixteen depth-one Pauli/CNOT choices in the stated qubit dimensions, with a constant Hilbert--Schmidt gap. The full primary manuscript was inspected through an [arXiv mirror](https://arxiv.cnoctave.top/pdf/2609.01605) after the official PDF endpoint failed. Periodic bounded range is not strict nearest-neighbor depth one. |
+| V. Iyer, S. Jain, S. Jordan and R. D. Somma, *Efficient quantum circuits for high-dimensional representations of SU(n) and Ramanujan quantum expanders* | [arXiv:2602.15180v1](https://arxiv.org/html/2602.15180v1), 16 February 2026, Theorem 1.1, Corollary 1.2, Sections 1.1/6.1, Algorithm 1, equation (92) and Appendix C | An efficient degree-six expander in every logical dimension. The comparison charges the oscillator encoding, ancillary registers, angle preprocessing, per-use circuit precision and accumulated channel error; the spectral rate alone is not the implementation cost. |
+| S. Jain, *Ramanujan quantum expanders from the Weil representation* | [arXiv:2609.38075v1](https://arxiv.org/html/2609.38075v1), 29 September 2026, Theorems D.1/E.1 and Section E.1 | Expander circuits on specified odd logical subspaces; the input-subspace promise is part of the operation model. |
+| C. Lancien, *Optimal quantum (tensor product) expanders from unitary designs* | [arXiv:2409.17971v3](https://arxiv.org/html/2409.17971v3), 19 February 2026, Corollaries 2.5/3.5; IMRN 2026, rnaf383 | Sampling from exact designs yields first-moment or tensor-product expanders in induced Hilbert--Schmidt norm; design-sampler costs remain part of the implementation. |
+| V. Shoup, *New Algorithms for Finding Irreducible Polynomials over Finite Fields* | [Author PDF](https://www.shoup.net/papers/detirred.pdf), Mathematics of Computation 54 (1990), 435--447, Theorem 3.2; DOI 10.1090/S0025-5718-1990-0993933-0 | Deterministic polynomial-time irreducible-polynomial construction in fixed characteristic. The theorem was checked on rendered PDF page 3 because text extraction was corrupt. |
+| J. A. Tropp, *User-Friendly Tail Bounds for Sums of Random Matrices* | [arXiv:1004.4389v7](https://arxiv.org/abs/1004.4389v7), 15 June 2011, Theorem 1.3; Foundations of Computational Mathematics 12 (2012), 389--434 | Matrix concentration supplies a sparse-channel existence benchmark, not an explicit efficient sample or certification algorithm. |
+| C. M. Dawson and M. A. Nielsen, *The Solovay--Kitaev algorithm* | [arXiv:quant-ph/0505030v2](https://arxiv.org/abs/quant-ph/0505030v2), 23 August 2005, Sections 2--3; Quantum Information and Computation 6 (2006), 81--95 | Conservative finite-gate compilation bounds for the encoded qudit operations; exact qubit implementation is not assumed. |
+
+The exact Weyl twirl, the phase-randomization/permutation control, and the
+state/Choi rank lower bounds are proved directly in the randomization
+manuscript. Qubit-only constructions are not silently padded to the odd
+logical dimension of the reciprocal family.

@@ -371,3 +371,33 @@ belong to [the evidence record](../evidence/bol-action-transfer-review.md).
 ## Non-scalar intertwiners and quantum mixing
 
 For the non-scalar continuation, run `verify_bol_nonscalar_fusion.py`, `verify_bol_nonscalar_orbits.py`, `verify_bol_nonscalar_quantum.py`, and `verify_bol_nonscalar_independent.py` from this directory. See the [full manuscript](../manuscripts/bol-nonscalar-intertwiners.md) and [review and reproduction evidence](../evidence/bol-nonscalar-review.md).
+
+
+## Sparse quantum randomization
+
+For the [randomization manuscript](../manuscripts/bol-quantum-randomization.md),
+run these commands from the public repository root:
+
+```bash
+python notes/finite-simple-bol-loops/analytic-2026-11-16/code/verify_bol_randomization.py
+python notes/finite-simple-bol-loops/analytic-2026-11-16/code/verify_bol_small_bias.py
+```
+
+Both are standalone Python standard-library programs, accept no input and use
+exact integer, rational and finite-field arithmetic. The recorded runs used
+Python 3.12.14. A failed assertion exits nonzero; successful execution prints
+deterministic JSON. Exact source and stdout hashes, scientific revision and
+review status appear in the [reproducibility record](../evidence/bol-randomization-reproducibility.md).
+
+The channel checker covers the specified F729 presentation, actual translated
+defects, one-call Weyl-coset realizations, degenerate covariances, native
+commutant witnesses, the ring channel, purity equality cases and the exact
+dense depolarizing weight. A separate fused-conjugate-sector diagnostic checks
+all 2,401 entries and 117,649 Gram terms of the 49-dimensional ring factor.
+The small-bias checker covers the blocked-coordinate sampler and nine resource
+cases for both one-call and independent-round constructions, as detailed in its
+JSON output and the evidence record. It
+does not implement the cited general Shoup irreducible-polynomial construction.
+Neither checker constructs the full superoperator, whose input dimension is
+already 26,040,609 at n=2. The finite scopes corroborate the written general
+proofs; they are not an exhaustive proof or independent mathematical review.
