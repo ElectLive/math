@@ -32,7 +32,7 @@ Each result has specific hypotheses and review status. See the [research catalog
 - **Resolve nonsplit Bruck lifting.** Prove or refute compatibility of the actual extension, inversion, stabilizer and section data in the remaining cases.
 - **Make odd-layer reductions exhaustive.** Turn the current compression and extension constraints into classifications without losing multiplicity or cohomological data.
 
-The [open problem board](OPEN_PROBLEMS.md) has more detail and links to the relevant work. References, counterexamples, constructions and ideas for attacking these questions are all welcome; see [how to contribute](CONTRIBUTING.md).
+The [starter tasks](STARTER_TASKS.md) and [open problem board](OPEN_PROBLEMS.md) have more detail and links to the relevant work. References, counterexamples, constructions and ideas for attacking these questions are all welcome; see [how to contribute](CONTRIBUTING.md).
 
 ## One milestone: a simple Bol loop outside two familiar classes
 
@@ -61,10 +61,12 @@ Two presentations are available for readers investigating this result:
 Scoped AI review found no defect in the example's argument. That is not human
 refereeing, formal verification, or a certification of historical novelty.
 
-## Start here
+## Research reference
 
+- [Start here](START_HERE.md): orientation and reading paths for human and AI researchers.
+- [Research workflow](RESEARCH_WORKFLOW.md): how to use the sources, review statuses and computational evidence.
 - [Shared references](REFERENCES.md): literature and tools for researchers and their AI systems. Suggestions are welcome; a link and a sentence are enough.
-- [Selected results and constructions](RESULTS.md): precise statements and public sources.
+- [Research catalogue](CURRENT_RESULTS.md): detailed results, public sources and review status.
 - [Classification map](CLASSIFICATION.md): what the branches mean and how they fit.
 - [Open problem board](OPEN_PROBLEMS.md): specific structural questions and useful deliverables.
 - [Collaboration protocol](CONTRIBUTING.md): how to contribute references, proofs, constructions, counterexamples, and reviews.
