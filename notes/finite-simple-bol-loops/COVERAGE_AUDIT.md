@@ -1,12 +1,12 @@
 # Public coverage and researcher-readiness audit
 
-**Audit date: 16 November 2026.** This is a dated coverage assessment, not a new mathematical review. It compared the public board with active research revision `ed03ee5a0a45d9087e0619b15b7ba5cd1806d57a`. Publication is ongoing: consult the newest catalogue and manifests before treating any item below as still missing.
+**Audit date: 16 November 2026.** This is a dated coverage assessment, not a new mathematical review. It compared the public board with active research revision `ed03ee5a0a45d9087e0619b15b7ba5cd1806d57a`. Publication is ongoing: consult the research catalogue and manifests before treating any item below as still missing. Revision pins are provenance, not separate research programmes.
 
 ## Verdict
 
 The board is usable for a focused investigation of a published construction or interface. It is **not yet sufficient to restart every branch of the full classification from public sources alone**. Making it useful requires more than copying result headlines: a researcher needs exact definitions, actual proofs and imports, reproducible inputs, failed reductions, and a precise next obligation.
 
-[Start here](START_HERE.md) supplies the target and conventions; [research workflow](RESEARCH_WORKFLOW.md) supplies a repeatable task-and-review process. The [current-results guide](CURRENT_RESULTS.md) and newer dated updates carry mathematical progress. Source snapshots must remain distinguishable.
+[Start here](START_HERE.md) supplies the target and conventions; [research workflow](RESEARCH_WORKFLOW.md) supplies a repeatable task-and-review process. The [research catalogue](CURRENT_RESULTS.md) provides one coherent account of mathematical progress. Supporting source revisions remain distinguishable for reproducibility.
 
 ## Coverage dimensions
 
@@ -20,7 +20,7 @@ The board is usable for a focused investigation of a published construction or i
 | Task selection | Open-board labels and proposed structural next steps | Keep restricted solved models separate from stronger unrestricted targets. |
 | Research memory | Relevant counterexamples and limitations in manuscripts | Preserve failed reductions that prevent duplicated work, while omitting unrelated private chats and unsupported speculation. |
 
-## Dated reconciliation targets
+## Reconciliation checked in this audit
 
 At the audited active revision, the following had advanced beyond the earlier public `67cced8` snapshot:
 
@@ -33,7 +33,7 @@ These are **source-reported, scoped model-reviewed developments**, not independe
 
 ## What “mirror everything known” should mean
 
-Mirror the reusable mathematical record: precise problems, definitions, source references, constructions, proofs, counterexamples, useful negative results, experiments and exact limitations. Preserve links between claims and their dependencies and reviews. Separate a stable snapshot from a current frontier.
+Mirror the reusable mathematical record: precise problems, definitions, source references, constructions, proofs, counterexamples, useful negative results, experiments and exact limitations. Preserve links between claims and their dependencies and reviews. Keep the public account coherent as the frontier moves; retain exact source revisions in supporting provenance.
 
 Do not mirror raw private conversations, credentials, personal data or unrelated speculation. Do not discard an important failed reduction merely because it did not yield a theorem: if it constrains future work, summarize the failure and its evidence.
 
