@@ -1,5 +1,7 @@
 # Classification map
 
+**Updated overview:** [Current research](CURRENT_RESULTS.md) describes the all-field paired PSL₂ and all-powers mixed matrix classifications, newer Bruck/odd-layer reductions, and primitive/affine directions at the 16 November snapshot. This older map remains a conceptual orientation; use the current catalogue and its stated scopes when assessing what has been achieved.
+
 ## What would count as a classification?
 
 The desired result should give explicit construction data; prove that every
