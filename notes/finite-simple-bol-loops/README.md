@@ -49,7 +49,7 @@ classes alone cannot suffice, if the argument is accepted. The
 
 Two presentations are available for readers investigating this result:
 
-- [Direct existence proof](simple-existence-proof.md): a specialized construction
+- [Direct existence proof](non-g-loop-non-bruck-existence.md): a specialized construction
   with the lemmas needed for this example, independent of a general class-two
   exhaustion theorem.
 - [Original class-two framework](packet/manuscripts/odd-class-two-classification.md)
