@@ -116,5 +116,25 @@ run does not change that remote conclusion.
 This export was prepared against public base
 `a8c0fbcc23f3eebdc835cb6294aef5259cfd74a3` and reuses its existing proof
 dependencies. The theorem/proof preservation and program hashes are checked
-separately from scientific review. Hosted rendering and final public revision
-are pending publication; this record does not claim they have been checked.
+separately from scientific review. The first public scientific export is
+`922ec370f033dd02f1f90d1d0cf6a6040253df72`; the display-corrected manuscript
+is pinned at
+[`bb57ce319ad3ef2075c8cd5f6484d855cfd13a48`](https://github.com/Mira-Cult/math/blob/bb57ce319ad3ef2075c8cd5f6484d855cfd13a48/notes/finite-simple-bol-loops/analytic-2026-11-16/manuscripts/bol-quantum-randomization.md),
+with SHA-256 `9b475d12908cc16282934adf623a686ff8f1eaa85ce72a5dc2f515532de799a5`.
+Publication and later metadata are tracked by [public PR #5](https://github.com/Mira-Cult/math/pull/5).
+
+Hosted GitHub rendering was inspected at that display-corrected revision on
+16 November 2026. The inspection covered all 12 changed Markdown pages by
+rendered DOM, with representative screenshots of the manuscript formulas,
+comparison and ablation tables, catalogue sections, execution guide and both
+final review addenda. The manuscript exposed 562 rendered math elements and
+all 39 QR equation labels; no math-rendering error messages remained. This is
+a presentation check, not an additional scientific review or a claim that every
+formula was visually re-proved. The subsequent publication metadata edit does
+not change the mathematical manuscript, programs or review content.
+
+Both exact public program copies were executed separately and returned exit
+zero, empty stderr and the stdout hashes above. The seven existing public
+files retain their original base bytes as prefixes; all additions, source
+hashes and reversible notation substitutions are recorded in the source-to-public
+crosswalk in the research evidence. No older numbered claim was changed.

@@ -57,8 +57,9 @@ over the applicable standard randomizers is established.
 
 The exact scientific source is
 `f6f415a5b05ce38b51adc9d2894c9795af500b3e` in `Mira-Cult/math-wip`.
-The public manuscript changes only its provenance paragraph and reproducibility
-links; theorem and proof text is unchanged. The two new checkers are copied
+The public manuscript adapts its provenance paragraph and reproducibility
+links, with reversible display-only notation repairs for GitHub rendering.
+Every mathematical statement is retained. The two new checkers are copied
 byte for byte. Existing NI/AQ proof dependencies in this package are reused,
 not duplicated. Labels remain manuscript-local and no permanent numeric claim
 allocation is made.
@@ -67,7 +68,8 @@ The [reproducibility and review record](evidence/bol-randomization-reproducibili
 contains exact commands, finite scopes and source/output hashes. Separate
 noncontributing model reviewers accepted the mathematical and resource/comparison
 claims at this exact revision, with no remaining blocker in their respective
-remits. Their full reports and exact-revision addenda are preserved verbatim in
+remits. Their full reports and exact-revision addenda are preserved, with three
+recorded display-macro substitutions in the mathematical report, in
 the [mathematical review](evidence/bol-randomization-independent-math-review.md)
 and [resource review](evidence/bol-randomization-independent-resource-review.md).
 These do not constitute external human review, formal verification or a novelty
