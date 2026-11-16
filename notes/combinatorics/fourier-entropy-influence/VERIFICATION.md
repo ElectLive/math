@@ -56,9 +56,29 @@ exact file hashes. Review caught and corrected an omitted parent-forest
 hypothesis in two summaries, a missing math macro backslash, and two
 positivity/integrality wording shortcuts. The proofs and the hypotheses
 now agree. These reviews are not a claim of independent acceptance of a
-reviewer's own scientific contributions. The actual GitHub host rendering
-of this continuation will be recorded after publication; prepublication
-checks alone are not described as host inspection.
+reviewer’s own scientific contributions.
+
+The continuation was published at public revision
+`d9be0b46a2e1e5aa3858dabd85e76d57292c5d9d`. Actual GitHub inspection opened
+all eighteen FEI Markdown pages and the root result index. Visual checks
+covered the new theorem, the connected construction, the zero-edge scope,
+the catalogue tables and the earlier interpolation proof. They caught a
+host layout defect in numbered math: seventeen `\tag` labels were moved
+unchanged to adjacent prose, and six literal display less-than signs were
+written as the equivalent `\lt` command. Those changes are bound to
+`2f0f58f02bb5f0625559a9aedcbac017ec7f73b5`; an independent source-fidelity
+check confirmed that only those transformations and whitespace changed.
+The affected formulas were then inspected again on GitHub. All one hundred
+display formulas in the three new notes and the interpolation note reached
+the rendered DOM without unexplained source differences (the host adds a
+redundant line-break backslash in two aligned displays). No math error node
+was present. This is a rendering check, not an additional mathematical proof.
+
+The local link audit found no broken target or anchor among 193 links in
+the eighteen FEI Markdown pages. All eleven public programs match their
+private source bytes. Independent GitHub tree readback confirmed every file
+in the twenty-nine-file FEI package. The root index uses the non-strict
+bound to include zero influence correctly.
 
 ## Earlier scientific sources
 
