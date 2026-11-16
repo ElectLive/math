@@ -97,6 +97,7 @@ The odd-order constructions force any classification to accommodate:
 
 - [Every derived-subgroup nilpotency class c≥2](manuscripts/0021-0023-unbounded-complexity.md).
 - [Unbounded derived length](manuscripts/0021-0023-unbounded-complexity.md) and [unbounded Fitting height](manuscripts/0021-0023-unbounded-complexity.md) of the canonical group.
+- [Alternating-form tuples](manuscripts/0025-alternating-form-construction.md) yield simple proper odd Bol G-loops of order p^(nr+k)q^(2k+1), with an exact semilinear-congruence isomorphism test under the stated class-two interfaces.
 - [Simultaneous similarity of arbitrary matrix pairs](manuscripts/0024-matrix-pair-embedding.md) inside a specified loop-isomorphism problem. This is a structural encoding, not a complexity-class hardness theorem.
 - [Noncentral derived centers](packet/manuscripts/odd-noncentral-jordan-center-family.md), [fixed-shadow phenomena](packet/manuscripts/odd-fixed-shadow-simple-example.md), and [monolithic higher-defect constructions](packet/manuscripts/odd-monolithic-higher-defect-isomorphism.md).
 
