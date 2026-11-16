@@ -1,0 +1,698 @@
+{
+  "source_commit": "67cced817f7d24e36d78990c73828ade4f218091",
+  "scope": "Selected current mathematical manuscripts and controls; no new proof audit. Review status is section-specific. Original mathematical prose retained; contextual links and reviewer identifiers sanitized.",
+  "files": [
+    {
+      "path": "manuscripts/radical-free-mixed-paths.md",
+      "github_blob_sha": "80f85aa07a5cf945beebf6def86bc77dccd453b9",
+      "original_sha256": "f9c9f1a5c68b276fd270992ab4147b1c3f460a1fa05ea33ad1aaec892092a7ef",
+      "export_sha256": "a6eee740a414fad75a03235259878a78d272ee9aaf1a402bf7a9088612c6e75e"
+    },
+    {
+      "path": "manuscripts/radical-free-fixed-factors.md",
+      "github_blob_sha": "9abe2fc00c70ff175e0ed7ee92bebef92666bceb",
+      "original_sha256": "c535083f98ed72687c4f5cf0b535ff58301c216bc884b7327aab9f8e377ba4f4",
+      "export_sha256": "c274e665f6b0042f699fa92b78ebe2198e82bdec707da00549b4dff539cc982d"
+    },
+    {
+      "path": "manuscripts/bruck-two-n-cross-residual.md",
+      "github_blob_sha": "8b444322ffc846601d6ee5b8b9d14a9034a6ea99",
+      "original_sha256": "3d54980f79dcaf55221e9d2ec222a47d1e5e6d29b08c5deb750e4612361726af",
+      "export_sha256": "64e921a3dacbbae5fbc86148eaa90a4fd0b13de5ea77a1d06fe1d104e28a8295"
+    },
+    {
+      "path": "manuscripts/radical-free-mixed-simple-quotients.md",
+      "github_blob_sha": "2ac756e7939f3a0e3f038a3c9ff0a1524fd55419",
+      "original_sha256": "cf90869c9ece1f74dd4dc350fb8525553ed5f930475fbb5810267f605b0e4d13",
+      "export_sha256": "3f511773641b1c4f2ce69c9bc63df9b551bd2b3684f7c5cb7773a0d48a429c3c"
+    },
+    {
+      "path": "manuscripts/radical-free-involution-support.md",
+      "github_blob_sha": "84fb1ea1667ccb6b6554e28dd55190913122096e",
+      "original_sha256": "2452fe530f8aebdd8a0e3a9728f97af530c3c46d2a4679232831fec134f94c98",
+      "export_sha256": "633187215f1d7f5a3b1cd69431ba53caf43eca7d29656126fb3022017893ef3b"
+    },
+    {
+      "path": "manuscripts/radical-free-psl2-path-classification.md",
+      "github_blob_sha": "0ddb32139387c10b3c38e0cd29375a3c9d892be2",
+      "original_sha256": "a43928a67758f41599306d23876c9ac18cfa9cb22ac5805ae93f7dab88a0a570",
+      "export_sha256": "dc5fb6927f6be1e4571acee7a1ad00c308fda236cc3c5f99f0d83e26f79c4274"
+    },
+    {
+      "path": "manuscripts/odd-class-two-isotope-orbits.md",
+      "github_blob_sha": "9e61387171fbd175f5e5b3f20105fd01e525e9d9",
+      "original_sha256": "6e5cb5be8a42898eb93b635b3525707ff645d838a055ae8c7a7a5d4cc1c1cabc",
+      "export_sha256": "4b70f29399713b2d7a83d4a51cf444c7913454c96b48bb97b2dec2249a0e696b"
+    },
+    {
+      "path": "manuscripts/radical-free-psl3-prime-paths.md",
+      "github_blob_sha": "b8e70d46e9aaa8ac69f2c2933efd7fa5b76a2cd0",
+      "original_sha256": "bef9bec65e6f64de699bf9a9d4bf12c3d1f56b08966840b538499678016dc267",
+      "export_sha256": "d93288ab03f0a276e358a38d0914be0036a254d900a0aae8a72a1e7934a32d31"
+    },
+    {
+      "path": "manuscripts/odd-uniform-multiplicity-layers.md",
+      "github_blob_sha": "453d02913d5929c42fcb8f180c5052e194ef38de",
+      "original_sha256": "f1628094cea49d8bb1f8b6bf129e48c0c700c2dd2ae7f8197417853694362cae",
+      "export_sha256": "e371a39c1b63335812147ec797e1985d5a9b903ddd8df0081de5c06a4c9a41cd"
+    },
+    {
+      "path": "manuscripts/radical-free-path-factorizations.md",
+      "github_blob_sha": "fb9d7826f5e7206b41d1e831030dc6a71523cc7a",
+      "original_sha256": "0af6cf415cbbfc467b609f33dfab4c178e996130eafc4ecffed03806a2cd6f60",
+      "export_sha256": "139babeb40ac63ff7440f5986d7a28c00f2f8d9ad8aa1a3e08833697d10c9da2"
+    },
+    {
+      "path": "manuscripts/radical-free-mixed-matrix-classification.md",
+      "github_blob_sha": "83e10c12a06814cb3925e26180458ef82f35fa09",
+      "original_sha256": "a8db815e3a70662d1d47988411bb1eb64c2f82840c68f43cd1fe85f5288d2edb",
+      "export_sha256": "bc51b78e7be161cdf74c5d104c1628f518ec3799deb2832a0d68e3e67e30233c"
+    },
+    {
+      "path": "manuscripts/exact-factorization-criterion.md",
+      "github_blob_sha": "31a3023b1e2d59deac2d2b69b6ae68ca0e9f7e9b",
+      "original_sha256": "ec706a214edb49b1f7a54282499c94c7d6cfd260fa4e7a342db906166448c8a5",
+      "export_sha256": "3b6fec443e6d3ea6534d9df7648c54b87b32559c4e8e1b2adbfec84e3691efe6"
+    },
+    {
+      "path": "manuscripts/radical-free-bipartite-witness.md",
+      "github_blob_sha": "73e58c85ed114e675b5bc5192c7a4b009fdebcd8",
+      "original_sha256": "84aae9e9a7513a6072c2774b4a625ca7b3722efbd43a3a454d2a95c2ed315625",
+      "export_sha256": "0b8e901df305ced3011394ea554e7a85ab6078b492615876ec381cc17897854f"
+    },
+    {
+      "path": "manuscripts/radical-free-paired-simple-envelopes.md",
+      "github_blob_sha": "e43d822dd37f30278bdca81c89e9199aa3cbec00",
+      "original_sha256": "939f86dbbe7801c824d2b2510051720df4f2ea4168439b207457fbce748fab6b",
+      "export_sha256": "530285132d05c2f65b3ffdeb7941d28f25d0cccd7a10b5c14823b9254f0df01c"
+    },
+    {
+      "path": "manuscripts/odd-rigid-center-nongloop.md",
+      "github_blob_sha": "ecd8cbebcabf7dd6f9fd80f03faf39947071f3ad",
+      "original_sha256": "35b2e05c014a583f092e7b4c679e20f12da3ef917e0c0e0e3c1d994f0a2e04ca",
+      "export_sha256": "6878ed91edfec27dfb0255393694e6a2a816f70648fafa0adeb20cdf65a9ca4d"
+    },
+    {
+      "path": "manuscripts/bruck-n-split-extension-exclusion.md",
+      "github_blob_sha": "e0c8d2b8a431c4b4abf1d98f1c051224bbfa981d",
+      "original_sha256": "a1cf8252bce778da83a3da83b43ea932311d06448769c62aa52af8ae643fa323",
+      "export_sha256": "392a6ca77f629f610825a69b4a9539f3595a87eb6007f9231a14032ee2c30266"
+    },
+    {
+      "path": "manuscripts/radical-free-a5-path-classification.md",
+      "github_blob_sha": "575e28f2e9aa8e6fbbf75f1916c621aac02fc9a3",
+      "original_sha256": "e8958279fe365aee18a9c0c107d13e7122b55fd7f4ac55dc947b37151b3e315a",
+      "export_sha256": "6313ff4f58571336b3633188343aee99d03a4441591402d5e9cade45efc99be0"
+    },
+    {
+      "path": "manuscripts/radical-free-symplectic-inversion.md",
+      "github_blob_sha": "f07bc9026632cd9162fbc17c646fdbf42df3485b",
+      "original_sha256": "13793cb00451fe0efe5febe9ddfccada0f7121696e617b1058da2a271b19d59d",
+      "export_sha256": "280746bf803dff01fa198770b18cecac8da2e65445ef2370adaf4ccc4e5c44b6"
+    },
+    {
+      "path": "manuscripts/radical-free-even-psl2-paths.md",
+      "github_blob_sha": "9c96f9144e587454ae88d9c5dbe0acad7cb33d8a",
+      "original_sha256": "03bd9e48ff60848f0fa3a03d9852d5cc088b554cb4e912261f62f91c4b46ef12",
+      "export_sha256": "2f380e3aace665d86bfccbe8ee00d9907847c3de4b48cd3c3031179eadbeffa1"
+    },
+    {
+      "path": "manuscripts/odd-layers-in-even-envelopes.md",
+      "github_blob_sha": "852c35c74e577c8d11944c23b93d05afd69a4042",
+      "original_sha256": "a729e5ddaf040b954535b4e125ec93e33938c80165b65bd5369eb3da8b4594ca",
+      "export_sha256": "79c175e851d4dfb32dc510085133012a27b4db19f38c30541b99ec1b8f97f829"
+    },
+    {
+      "path": "manuscripts/odd-extraspecial-classification.md",
+      "github_blob_sha": "ee61b18d1247b28c017dd30bcd9cfe5ba0ab31bc",
+      "original_sha256": "95c5f3be5d4ff2172cc73fc01f4b87df0b2abf582017c0fe5e910d82e0f2fee5",
+      "export_sha256": "acd3d10b34044189ae051a855d059dcf80e22ae4a72aa09dd4e7f4d14e33704d"
+    },
+    {
+      "path": "manuscripts/odd-class-two-classification.md",
+      "github_blob_sha": "8c8b69117d6c50773cbcdda995b65f934517c7f6",
+      "original_sha256": "64e74f00c5fbafeca2b993a76c4585e578ef51f66a08b0a7c76026d603000c2b",
+      "export_sha256": "aafe0b1b0c1991bb9274c54d02ddea1328352320f3c241016d7491998c767574"
+    },
+    {
+      "path": "manuscripts/bruck-s5-module-blocks.md",
+      "github_blob_sha": "3d427c4e3f9ac2962ad959ef785c18b51da3bb0a",
+      "original_sha256": "2cecbce4f9172e898ebfdabfe8ff23189a8048a001e0f88befb297779ba2024e",
+      "export_sha256": "49d166a928aa9d743bd5231c91334862287a19afd640ef17e9aed5248630ce7a"
+    },
+    {
+      "path": "manuscripts/odd-elementary-layer-all-defects.md",
+      "github_blob_sha": "5149f997797504186ec718590a7a1bc8ef3c3f6d",
+      "original_sha256": "570ce444f8cb5f65230b212f0032da85d3f545d53d7150cde8719135481a7602",
+      "export_sha256": "ebbfe107a3bef84e3c9f6177500582d3f1aaaf2d816febc48810761eb8d55212"
+    },
+    {
+      "path": "manuscripts/radical-free-small-psl2-paths.md",
+      "github_blob_sha": "a57ab75143fcef30ffd0f9549a195da21ed1aebd",
+      "original_sha256": "a15b36e38b3aa0c24f6708b5824524fdf9dad852d091269226fad4d2537e5b78",
+      "export_sha256": "aa6ba28ce463f8b825df146b9a23802d3109e10fe99fbd3d007b4749984a6115"
+    },
+    {
+      "path": "manuscripts/radical-free-strip-forests.md",
+      "github_blob_sha": "34e43bd360b18e9f93ec4071dd27dae242faabcb",
+      "original_sha256": "6e082c4c28dc08be6ba71b6422335fe75b59d74793bce502b9932cf21c07e2a1",
+      "export_sha256": "f92032855afdcecd0f60ebe4264e35591b9004f8d0d66c96e29a7925a2af067f"
+    },
+    {
+      "path": "code/verify_psl2_nine_subgroups.g",
+      "github_blob_sha": "cb4c1bb5d29e30dc44f6d1ec8b9424100be233e7",
+      "original_sha256": "f819f088fbdc9ab87d5c17db331130221e7e80acab662f8a0bfdc12edfd306bf",
+      "export_sha256": "f819f088fbdc9ab87d5c17db331130221e7e80acab662f8a0bfdc12edfd306bf"
+    },
+    {
+      "path": "manuscripts/odd-central-class-two-classification.md",
+      "github_blob_sha": "7aa1f8ce5c50a978e7245e882b1ceac0e733a676",
+      "original_sha256": "6dff0c70c927c0d358b9ba21db649c696a6356cfd6463ba64a215a7d0bbe0f4f",
+      "export_sha256": "1d232eaf2484970ab37ff5e0847d01342424c6e0256e974169427c0297e0bacc"
+    },
+    {
+      "path": "manuscripts/radical-free-three-dimensional-linear-unitary.md",
+      "github_blob_sha": "e48665f47739b0631e8177f09e21b87cf578f55c",
+      "original_sha256": "3025732a530df807055a079a586cba4573fdb0a863e7e3b69db420201229861b",
+      "export_sha256": "391edd4c6e9663dd2bd54e2b2dc9fd38ef908820b36e60d48c643c409210680a"
+    },
+    {
+      "path": "code/verify_bruck_residual_polar.py",
+      "github_blob_sha": "ca5f91f616dccf90d94c781d740a740a1aacec0a",
+      "original_sha256": "ac83e37a319402639082a8439fa95eb3b6898d8eb564d83d7b4d99246cef0f11",
+      "export_sha256": "ac83e37a319402639082a8439fa95eb3b6898d8eb564d83d7b4d99246cef0f11"
+    },
+    {
+      "path": "manuscripts/bruck-all-radical-parameterization.md",
+      "github_blob_sha": "d8031bbaff57e1d455e9aa0b22a270a2668268b7",
+      "original_sha256": "356fbb82292da5264274310f4398d5874fc146e3c4034707cf144ac890cd3321",
+      "export_sha256": "3151690acff4889e58dabb53e666c1143342706180a1f4e18a75995820f29c49"
+    },
+    {
+      "path": "code/verify_psl2_exceptional_endpoints.g",
+      "github_blob_sha": "a5f4a690d9d298e234d47744f8077af11e473d93",
+      "original_sha256": "acfddee262dfb0b458957b5e7c28c42a199a95e265d7148d7d5b04ae20f6264d",
+      "export_sha256": "acfddee262dfb0b458957b5e7c28c42a199a95e265d7148d7d5b04ae20f6264d"
+    },
+    {
+      "path": "manuscripts/bruck-s5-elementary-inversion.md",
+      "github_blob_sha": "4dbe111f8516bfb55a085bf7dce2532aa991b358",
+      "original_sha256": "abbe8fbd156ac1a64fc1852240bbcbe53e6fa85c1604a12f5f4a2dc0415840df",
+      "export_sha256": "ab0c1708a7eab31d88ef3c0cfe526f7f024190b7120063096608bb90e9566871"
+    },
+    {
+      "path": "manuscripts/bruck-s5-elementary-parameterization.md",
+      "github_blob_sha": "1c068766e804c3d5ab66e951694dbd9d2a6caef9",
+      "original_sha256": "1d5ef0205b01e7ae3b027481967e5df861784705c5461886137b093b69d07e63",
+      "export_sha256": "87abf5595e91bc9445b1ef27a39ae79dc226328ee701bc9eb581414bb858ad97"
+    },
+    {
+      "path": "manuscripts/bruck-multiple-n-frattini.md",
+      "github_blob_sha": "8a35105a1cf7e026531bd7ab976b68a89f9b0d71",
+      "original_sha256": "88933386044aa2c3fede2646b8ee7da9905fcf004cfb6610fee32fc2b2ba35db",
+      "export_sha256": "278abd3c5c2c2576993383284050e27494ad4a8758dee5df6655864af776b1ec"
+    },
+    {
+      "path": "manuscripts/bruck-n-nonsplit-extension-lifts.md",
+      "github_blob_sha": "4da607e45df9dfbd872d13d76b1d0cd33944597d",
+      "original_sha256": "ed16875a8d16c5210933fe073ebfc66edd27ab2c364009f1dbc21d6dcc5e5ffa",
+      "export_sha256": "42dad539c8d6cc55ebdaeb7cc451af0d8aa3812cd78d283b10220c8cba310728"
+    },
+    {
+      "path": "manuscripts/odd-folder-radicals.md",
+      "github_blob_sha": "ec053f38919fb0a05ab4fa72e405c930a0e93319",
+      "original_sha256": "3408cf9508b3995cc7114aee1132d4c00e9f79486aa3cc50564a00bb9af1762d",
+      "export_sha256": "f4ecf5bf6ec774f289db41e7a70fae2c421dea4bac74c77102a0ed938479f5d6"
+    },
+    {
+      "path": "code/verify_psl2_small_endpoints.g",
+      "github_blob_sha": "3f5a7b7e0d9994c83a7745dba8c2ddfb4add3230",
+      "original_sha256": "1ed9d23b64f6df73dd742bd54f563753a4598c3ce7fa91d202d926994cf16ab8",
+      "export_sha256": "1ed9d23b64f6df73dd742bd54f563753a4598c3ce7fa91d202d926994cf16ab8"
+    },
+    {
+      "path": "manuscripts/odd-cross-extraspecial.md",
+      "github_blob_sha": "28ea7516dc25dbc5d2e6deea320de854de1ec266",
+      "original_sha256": "71cfc89c7c9056412b1904aa4e986e67edb7d820edd6069add4276787ecedec7",
+      "export_sha256": "72305adb0c900f41d7e99ca937dfa0987f37204c4529cb7962913deff1b82a4b"
+    },
+    {
+      "path": "manuscripts/bruck-n-affine-fiber-parity.md",
+      "github_blob_sha": "e86d4259d63c3bed9c5a9c1f47b39ed706ed712a",
+      "original_sha256": "c2c6e53cdf8e6614af69377b534665dfe76801be421532f4c7264a93e5b27ded",
+      "export_sha256": "cd0f1fd35168590f4d4b12100157c48da1cfa91906648871ca78411ffc296085"
+    },
+    {
+      "path": "proofs/C0007.md",
+      "github_blob_sha": "9ac1efd7637c5a2114cbb3f89be7eb6a6432a426",
+      "original_sha256": "8139cf980679f54fd3051d20ab605688d5e246fb92f16cc3ac21a111f5926d6f",
+      "export_sha256": "8139cf980679f54fd3051d20ab605688d5e246fb92f16cc3ac21a111f5926d6f"
+    },
+    {
+      "path": "manuscripts/bruck-s5-active-u-stabilizer.md",
+      "github_blob_sha": "c8f7e53130224b8c4dfe24e1110a8ac933a3ab1b",
+      "original_sha256": "85ac0c7474eecf767d4d3f2d24b3998dc8881318f2008cb567053a650ff4e426",
+      "export_sha256": "665981012e15097bffb669aeeaa83b39502c2001c0420bc0b3c68bbf75aadcc6"
+    },
+    {
+      "path": "manuscripts/bruck-s5-uniform-principal-support.md",
+      "github_blob_sha": "69c70cd0fb247c06fd2d7528ca188d62c6ed14d0",
+      "original_sha256": "f568b27367f669285c5e7a764297993ab2930ea170c14608d9b868edead6607a",
+      "export_sha256": "54a6b3af8a54320289de1948b66548cf149305f124946d0329143358a313d22d"
+    },
+    {
+      "path": "REFERENCES.md",
+      "github_blob_sha": "c45c4c228877084fe37f55cc48666b3a46e2b479",
+      "original_sha256": "057693c3f879fa97061a56cea5f6bbce62971ff4b96935750e4feafaec562574",
+      "export_sha256": "7b24f560097876d1b96b5661b86a696dad18ac2155a609aa6de1c08b5d0eaec6"
+    },
+    {
+      "path": "proofs/C0001.md",
+      "github_blob_sha": "3c9676488833d3876fe39eab10d95abf8eed1457",
+      "original_sha256": "881c647253c293e0cc535e1cd444e9c52f3802566f6c8deef375e723338ce6ff",
+      "export_sha256": "881c647253c293e0cc535e1cd444e9c52f3802566f6c8deef375e723338ce6ff"
+    }
+  ],
+  "not_reproduced_links": [
+    {
+      "source": "manuscripts/radical-free-mixed-paths.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-fixed-factors.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-two-n-cross-residual.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-mixed-simple-quotients.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-involution-support.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-psl2-path-classification.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-class-two-isotope-orbits.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-psl3-prime-paths.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-uniform-multiplicity-layers.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-uniform-multiplicity-layers.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-path-factorizations.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-mixed-matrix-classification.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/exact-factorization-criterion.md",
+      "target": "../claims/C0010.md#proof"
+    },
+    {
+      "source": "manuscripts/exact-factorization-criterion.md",
+      "target": "../claims/C0011.md"
+    },
+    {
+      "source": "manuscripts/radical-free-bipartite-witness.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-paired-simple-envelopes.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-rigid-center-nongloop.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-n-split-extension-exclusion.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-a5-path-classification.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-symplectic-inversion.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-symplectic-inversion.md",
+      "target": "radical-free-inner-inversion.md"
+    },
+    {
+      "source": "manuscripts/radical-free-even-psl2-paths.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-layers-in-even-envelopes.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-layers-in-even-envelopes.md",
+      "target": "elementary-two-marked-lifts.md"
+    },
+    {
+      "source": "manuscripts/odd-extraspecial-classification.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-class-two-classification.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-s5-module-blocks.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-s5-module-blocks.md",
+      "target": "bruck-s5-radical.md"
+    },
+    {
+      "source": "manuscripts/odd-elementary-layer-all-defects.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-small-psl2-paths.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-strip-forests.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-central-class-two-classification.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-three-dimensional-linear-unitary.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/radical-free-three-dimensional-linear-unitary.md",
+      "target": "radical-free-inner-inversion.md"
+    },
+    {
+      "source": "manuscripts/radical-free-three-dimensional-linear-unitary.md",
+      "target": "radical-free-odd-linear-inversion.md"
+    },
+    {
+      "source": "manuscripts/radical-free-three-dimensional-linear-unitary.md",
+      "target": "radical-free-odd-linear-inversion.md"
+    },
+    {
+      "source": "manuscripts/radical-free-three-dimensional-linear-unitary.md",
+      "target": "radical-free-unitary-inversion.md"
+    },
+    {
+      "source": "manuscripts/bruck-all-radical-parameterization.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-all-radical-parameterization.md",
+      "target": "bruck-frattini-shadow.md#core-reduced-module-and-all-support-shadow-bounds"
+    },
+    {
+      "source": "manuscripts/bruck-all-radical-parameterization.md",
+      "target": "bruck-all-radical-constraints.md"
+    },
+    {
+      "source": "manuscripts/bruck-all-radical-parameterization.md",
+      "target": "bruck-extraspecial-product-parameterization.md"
+    },
+    {
+      "source": "manuscripts/bruck-s5-elementary-inversion.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-s5-elementary-inversion.md",
+      "target": "bruck-s5-principal-one-m.md#inputs-and-the-six-point-module"
+    },
+    {
+      "source": "manuscripts/bruck-s5-elementary-inversion.md",
+      "target": "bruck-s5-principal-envelope-bound.md#proposed-invariant-functional-obstruction"
+    },
+    {
+      "source": "manuscripts/bruck-s5-elementary-parameterization.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "bruck-n-frattini-marked-rank.md"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "bruck-n-frattini-quadratic-support.md"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "bruck-n-central-socle-obstruction.md"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "../code/verify_bruck_two_n_one_u.py"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "../code/verify_bruck_n_quadratic_support.py"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "../code/verify_bruck_p6_frattini.py"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "../code/verify_bruck_one_m_noncentral.py"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "bruck-n-frattini-quadratic-support.md"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "bruck-n-frattini-passive-reduction.md"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "bruck-n-p6-one-u-exclusion.md"
+    },
+    {
+      "source": "manuscripts/bruck-multiple-n-frattini.md",
+      "target": "bruck-n-frattini-marked-rank.md"
+    },
+    {
+      "source": "manuscripts/bruck-n-nonsplit-extension-lifts.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-folder-radicals.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/odd-folder-radicals.md",
+      "target": "../claims/C0013.md"
+    },
+    {
+      "source": "manuscripts/odd-cross-extraspecial.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-n-affine-fiber-parity.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-s5-active-u-stabilizer.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-s5-uniform-principal-support.md",
+      "target": "bruck-s5-radical.md"
+    },
+    {
+      "source": "manuscripts/bruck-s5-uniform-principal-support.md",
+      "target": "../claims/C0010.md"
+    },
+    {
+      "source": "manuscripts/bruck-s5-uniform-principal-support.md",
+      "target": "bruck-s5-radical.md#dimension-nine-aggregate-review"
+    },
+    {
+      "source": "manuscripts/bruck-s5-uniform-principal-support.md",
+      "target": "bruck-s5-principal-envelope-bound.md#proposed-invariant-functional-obstruction"
+    },
+    {
+      "source": "manuscripts/bruck-s5-uniform-principal-support.md",
+      "target": "bruck-s5-v6-fiber-bounds.md#two-independent-capacity-inequalities"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0017.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0012.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0006.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0008.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0011.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0014.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0003.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0011.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0011.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0003.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0009.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0017.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/sd-a5-all-factors.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/tw-parity-code-subwreath.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/sd3-involution-count.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/bruck-s5-radical.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/sd-finite-common-classes.md#generator-provenance"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "claims/C0010.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/sd-linear-unitary-final-five.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/sd-symplectic-finite-residuals.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/sd-sporadic-all.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/sd-exceptional-remaining.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/sd-orthogonal-refined-bounds.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/hs-psl4-odd.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/bruck-s5-order96-exponent4.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/nonbruck-almost-simple-radical-bridge.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/bruck-central-frattini-all-quotients.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/bruck-elementary-block-obstruction.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/bruck-all-radical-block-obstruction.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/tw-psl2-factorwise-inversion.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/tw-psl2-factorwise-inversion.md#natural-alternating-and-symmetric-factor-actions"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/tw-psl2-factorwise-inversion.md#excluding-every-primitive-factor-action"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/tw-cross-label-block-exclusion.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/radical-free-inner-inversion.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/radical-free-odd-linear-inversion.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "manuscripts/radical-free-unitary-inversion.md"
+    },
+    {
+      "source": "REFERENCES.md",
+      "target": "code/verify_unitary_four_two_maximals.g"
+    }
+  ]
+}
