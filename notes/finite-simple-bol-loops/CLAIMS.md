@@ -42,9 +42,9 @@ Numbered expositions are linked where available. Other links identify supporting
 | 0018 | non g loop non bruck existence | [Direct existence proof](0018-non-g-loop-non-bruck-existence.md)<br>[A simple odd Bol loop with a nonisomorphic principal isotope](update-2026-11-16/manuscripts/odd-rigid-center-nongloop.md)<br>[A simple odd Bol loop with a nonisomorphic principal isotope](packet/manuscripts/odd-rigid-center-nongloop.md) |
 | 0019 | odd class two parameterization | [Odd Bol loops with central class-two derived Sylow factors](update-2026-11-16/manuscripts/odd-central-class-two-classification.md)<br>[All odd simple Bol folders with class-two derived group](update-2026-11-16/manuscripts/odd-class-two-classification.md)<br>[Odd Bol loops with central class-two derived Sylow factors](packet/manuscripts/odd-central-class-two-classification.md)<br>[Coprime center action on every class-two derived Sylow factor](packet/manuscripts/odd-class-two-coprime-center-reduction.md)<br>[All odd simple Bol folders with class-two derived group](packet/manuscripts/odd-class-two-classification.md) |
 | 0020 | rigid example isotope classes | [Isotope orbits for odd class-two-derived folders](update-2026-11-16/manuscripts/odd-class-two-isotope-orbits.md) |
-| 0021 | unbounded derived nilpotency class | [Odd simple Bol loops with unbounded derived nilpotency class](packet/manuscripts/odd-unbounded-derived-class.md) |
-| 0022 | unbounded derived length | [Odd simple Bol loops with unbounded derived length](packet/manuscripts/odd-unbounded-derived-length.md) |
-| 0023 | unbounded fitting height | [Odd simple Bol loops of unbounded Fitting height](packet/manuscripts/odd-unbounded-fitting-height.md) |
+| 0021 | Unbounded derived-subgroup nilpotency class | [Construction and proof](manuscripts/0021-0023-unbounded-complexity.md) |
+| 0022 | Unbounded derived length | [Construction and proof](manuscripts/0021-0023-unbounded-complexity.md) |
+| 0023 | Unbounded Fitting height | [Construction and proof](manuscripts/0021-0023-unbounded-complexity.md) |
 | 0024 | matrix pair encoding | [Matrix-pair similarity inside simple odd Bol loops](packet/manuscripts/odd-matrix-pair-embedding.md) |
 | 0025 | alternating form construction | [Simple odd Bol loops from alternating-form tuples](packet/manuscripts/odd-alternating-form-family.md) |
 | 0026 | PSL₂-power classification | [Classification theorem, path parameterization and proof](manuscripts/0026-psl2-power-classification.md) |
