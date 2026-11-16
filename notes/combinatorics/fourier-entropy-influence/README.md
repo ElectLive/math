@@ -2,26 +2,31 @@
 
 **Mira Cult · 16 November 2026**
 
-We prove the Fourier entropy–influence inequality with constant four for
-Boolean functions whose positive squared Fourier distribution factors into
-unary and pairwise potentials on a **cactus graph**, allowing arbitrarily
-many cycles. The same constant holds whenever deleting one spectral vertex
-leaves a forest. These results extend the positive-forest theorem without
-a bound on dimension, degree, interaction strengths, or cycle lengths.
+We prove a dimension-independent Fourier entropy–influence bound for every
+Boolean function whose **positive Fourier distribution has bounded
+treewidth**. At treewidth at most two, the explicit constant is below
+fourteen. Genuine three-variable potentials are allowed, so this includes
+and extends the entire positive pairwise treewidth-two target.
 
-Two further methods control dependencies outside these graphical classes.
-Integer Fourier sections yield a dimension-independent bound for each
-fixed spectral conditioning depth when every positive-mass conditional
-spectrum is a positive forest. Physical restriction trees have an
-entropy–influence cost of at most one half bit per expected query; the
-forest deficit pays this cost for first-hit decision lists of arbitrary
-length, even with fully shared payload variables.
+The proof factors the integer Walsh magnitudes along a tree decomposition,
+then pays local entropy by amplitude growth and coordinate influence.
+This bypasses the component-count obstruction in the earlier feedback-set
+method. A connected Boolean family has arbitrarily many overlapping
+triangle blocks and demonstrates the larger coordinate-defined class.
 
-**General FEI remains unresolved.** These are conventional class theorems
-with complete proofs and scoped independent model reviews. No formal
-verification or human-expert review is claimed. The [catalogue](CATALOGUE.md)
+The earlier constant-four theorem remains stronger for positive pairwise
+cacti and graphs with a common feedback vertex. A separate forbidden-pair
+argument now preserves constant four for a stated class with genuine
+three-state edge constraints and positive forest sections. Exact Boolean
+and integer examples identify why neither argument yet handles arbitrary
+zeros or arbitrary spectral dependence.
+
+**General FEI remains unresolved.** The width-dependent constants are not
+a universal constant. These are conventional class theorems with complete
+proofs and scoped independent model reviews. The [catalogue](CATALOGUE.md)
 is the authoritative list of results and limitations;
 [verification](VERIFICATION.md) records source revisions and actual checks.
+No formal verification or human-expert acceptance is claimed.
 
 ## The question and conventions
 
@@ -56,6 +61,57 @@ lower bound, not a claim about the current optimal lower-bound record.
 
 ## What the proofs achieve
 
+### Positive bounded treewidth has a paid local entropy bound
+
+For every integer-valued function with a positive Fourier law of treewidth
+at most two, [the main theorem](bounded-treewidth.md) gives
+
+```math
+H_{\mathrm{raw}}(h)\le C_2 I(h),\qquad
+C_2=\frac{2(2+\log_2 23)}{\log_2(23/12)}
+=13.9006301761\ldots<14.
+```
+
+For Boolean functions, raw entropy is the usual Fourier entropy. The
+stronger integer statement permits actual integer-valued spectral sections without
+pretending they are Boolean. Positive clique potentials on triangle bags
+are included; neither dyadic magnitudes nor bounded Fourier degree is
+required. Every fixed width has an explicit dimension-independent bound.
+
+Exact gcd elimination produces integer factors on the bags. The local
+entropy inequality retains a term paid by the bit-one endpoint, which
+sums to coordinate influence. Its nine exceptional cases are exact
+integer comparisons. At bag size three this yields
+
+```math
+D_2(p\Vert U_n)\le\frac{15}{16}\mathbb E_p\log_2|W_h(S)|
++2\mathbb E_p|S|.
+```
+
+Comparison with a biased product distribution then proves the entropy
+bound. The [connected triangle construction](connected-triangles.md)
+has genuine cubic interactions and feedback vertex number growing without
+bound. It proves strictness of the spectral class; its explicit examples
+already have other FEI proofs.
+
+### A forbidden pair can remove a denominator cost
+
+If a two-bit spectral pattern never occurs for a Boolean function, its
+four sections on that pair form an integer signed partition. Their raw
+entropies add exactly. The [zero-edge theorem](zero-edges.md) combines this
+fact with the dyadic integer-forest theorem for a Boolean parent whose
+Fourier law itself factors over a forest, giving
+
+```math
+H(f)\le4\sum_{k\notin\{i,j\}}\mathrm{Inf}_k(f)
+```
+
+when the nonzero sections reduce to positive forest laws. The extra scope
+permits nonproduct forest sections; the product-leaf special case already
+had constant four. A six-bit Boolean forest shows that a second forbidden
+pair can produce half-integer sections. This explains the remaining
+lattice cost rather than silently iterating the first cut.
+
 ### Cycles can pay for their own conditioning
 
 A positive pairwise law has the form
@@ -81,8 +137,9 @@ grows. The full argument imports the classical Barahona–Mahjoub
 cut-polytope theorem, stated precisely and cited in the proof.
 
 The arithmetic conclusion holds for every **positive pairwise** graph of
-treewidth at most two. The entropy conclusion has only the stated cactus,
-common-feedback-vertex, and paid-cutset scopes. The square of an
+treewidth at most two. The constant-four conclusion has only the stated cactus,
+common-feedback-vertex, and paid-cutset scopes; the independent theorem above
+covers all positive width-two laws with a larger constant. The square of an
 eleven-vertex path is an explicit obstruction to the tested component-count
 payment; it is not a Boolean counterexample to FEI.
 
@@ -139,7 +196,10 @@ iteration of constant-four forest selection.
 The [catalogue](CATALOGUE.md) gives exact hypotheses and theorem locations.
 The main proof paths are:
 
-- **Graphical dependence:** [forest arithmetic](forest-arithmetic.md),
+- **Bounded-width dependence:** [integer bag factorization and paid local
+  entropy](bounded-treewidth.md), [connected triangle laws](connected-triangles.md),
+  and [forbidden pairs and zero-edge barriers](zero-edges.md).
+- **Sharper constant-four graphical bounds:** [forest arithmetic](forest-arithmetic.md),
   [complete positive-forest energy proof](positive-forests.md),
   [integer spectral conditioning](spectral-conditioning.md), then
   [cycle facets and cacti](cycles-and-cacti.md).
@@ -153,8 +213,9 @@ The main proof paths are:
 
 [Deterministic contractions](deterministic-contractions.md) supply the
 precise extension to fixed bits and equality/complement support relations.
-Genuine three-state edge supports remain outside the entropy theorems.
-The arithmetic exclusion for forests itself does allow zeros.
+Genuine three-state edge supports have the limited forbidden-pair extension
+above; their general case remains open. The arithmetic exclusion for forests
+itself does allow zeros.
 
 All proof dependencies used in these paths are included here or cited to
 specific accessible primary theorems. See [references](REFERENCES.md) for
@@ -164,9 +225,11 @@ examples, certified scalar inequalities, and exhaustive small cases.
 ## The next mathematical problems
 
 The [open-problems note](OPEN_PROBLEMS.md) states precise targets and the
-known obstructions. The most direct opportunities are to pay for general
-treewidth-two cycles, control the local integrality defect of a positive
-pairwise Boolean spectrum, and handle genuinely three-state forest edges.
+known obstructions. The most direct opportunities are to remove the width
+dependence, control the local integrality defect of a positive pairwise
+Boolean spectrum, and handle arbitrary genuinely three-state forest edges.
+Constant four on all positive pairwise width-two laws remains a sharper
+class question after the dimension-independent endpoint was proved.
 A universal integer-packet or low-information decomposition would be a
 larger advance, but it must pay its denominator or label cost from Boolean
 structure. Majority already forces every forest-mixture component to be

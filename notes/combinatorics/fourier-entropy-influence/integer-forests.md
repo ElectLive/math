@@ -200,6 +200,12 @@ invalidate (7) if arbitrary positive real factors were admitted.
 
 ### 3.1 A limitation at factor arity three
 
+The limitation below concerns the pure amplitude-logarithm estimate. The
+later [bounded-treewidth proof](bounded-treewidth.md) adds an influence
+term to the local entropy bound and resolves the positive fixed-width
+case, including arity three. It leaves the sharper forest constant intact.
+
+
 The same proof with factors of arity at most r gives
 D_2(p||Uniform)<=r kappa E_p log_2 A. For r=3, the resulting coefficient
 3 kappa exceeds one, whereas d<1 for every finite entropy tangent slope.
@@ -464,5 +470,7 @@ General FEI remains open here. Theorem 3 pays linearly in the largest
 spectral conditioning depth. It supplies no universal O(I) forest
 partition or low-information mixture. The direct extension of the
 integer-factor Sobolev estimate to triple factors fails at its absorption
-step, and genuine hard-zero forest edges are not handled. These are
-specific remaining gaps, not suppressed dimension or approximation terms.
+step; the paid local entropy argument in [bounded treewidth](bounded-treewidth.md)
+repairs that step with a larger constant. Arbitrary hard-zero forest edges
+remain open, with a new forbidden-pair special case and explicit barriers
+in [zero edges](zero-edges.md).

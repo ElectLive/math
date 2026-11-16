@@ -64,3 +64,39 @@ fair bits. Those inequalities remain valid. The Boolean minimum-layer
 refinement gives the stronger bounds eight and twelve; the bridge checker
 verifies the former, and the latter follows from the six-bit parameters
 and the displayed general proof.
+
+
+## Positive bounded-treewidth continuation
+
+From this directory, run:
+
+```sh
+python -B check_bounded_treewidth_integer_spectra.py
+python -B check_connected_triangle_spectral_family.py
+python -B check_forest_slack_continuation.py
+```
+
+These three files are byte-identical to scientific revision
+`566b6a1a6ac3ff0b8ef1684d467b5ec904bcbe57`; all three were rerun here.
+They use the standard library. The first verifies the nine integer scalar
+certificates, the two strict constant comparisons, 65,814 Boolean functions,
+6,654 ternary functions, and 300 exact gcd bag factorizations with seed
+20261116. The eligible raw-entropy comparisons use integer exponentiation,
+not floating logarithms.
+
+The connected-family program checks the complete twelve-bit base function
+and the exact core laws for one through four blocks, including their cubic
+interactions, tree decomposition, feedback cut, entropy and influence.
+Its optional `--full-two-block` argument requires NumPy and verifies every
+signed Walsh coefficient of the actual 24-variable two-block function.
+That optional run was performed by both the author and a nonauthor reviewer,
+but was not repeated during public adaptation.
+
+The zero-edge program checks 89,480 admissible physical sections, exact
+energy stars, the integer star at N=16 and M=2, the seven-bit path, and the
+six-bit Boolean two-star counterexample. The latter has 25 positive Fourier
+atoms and exact half-integer sections on the second forbidden-edge cut.
+These finite checks supplement the complete analytic proofs in
+[bounded treewidth](../bounded-treewidth.md),
+[connected triangles](../connected-triangles.md) and
+[zero edges](../zero-edges.md); they are not extrapolated to prove a theorem.

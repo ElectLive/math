@@ -8,7 +8,10 @@ same constant holds when deleting one spectral vertex leaves a forest.
 The common arithmetic theorem is broader: it forces powers-of-two Walsh
 magnitudes whenever the suspended graph has no $`K_5`$ minor, in particular
 for every pairwise graph of treewidth at most two. The latter arithmetic
-conclusion does **not** establish FEI for all treewidth-two laws.
+conclusion by itself does **not** establish FEI for all treewidth-two laws.
+A separate [bounded-treewidth entropy proof](bounded-treewidth.md) now
+covers every positive width-two law with constant below fourteen, including
+genuine triangle potentials. The constant-four scope proved here is unchanged.
 
 [Overview](README.md) · [Catalogue](CATALOGUE.md) · [Verification](VERIFICATION.md)
 

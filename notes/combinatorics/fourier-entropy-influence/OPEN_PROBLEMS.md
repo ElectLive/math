@@ -12,30 +12,35 @@ the additional deduction is supplied.
 
 ## Positive pairwise spectra of treewidth two
 
-**Target.** Prove $`H(f)\le CI(f)`$ with one universal constant for every
-Boolean $`f`$ whose full-support Fourier law factors into unary and pairwise
-potentials on a graph of treewidth at most two, or give an explicit family
-in this class with unbounded ratio.
+The dimension-independent FEI target for positive width-two laws is now
+[proved with constant below fourteen](bounded-treewidth.md), even for
+genuine triangle potentials. Every fixed width is covered as well.
 
-The arithmetic obstacle is removed: every Walsh magnitude in this class
-is a power of two. Cacti and graphs with one feedback vertex satisfy the
-stronger constant-four bound. For a general feedback set $`K`$ of size
-$`k`$, the current component payment leaves
+**Sharper target.** Prove $`H(f)\le4I(f)`$ for every Boolean $`f`$ whose
+positive Fourier law factors into unary and pairwise potentials on a graph
+of treewidth at most two, or give a Boolean counterexample to this constant.
+This target is strictly stronger than the dimension-independent theorem.
 
-```math
-H(f)\le4I_{K^c}(f)+2(k-1-b),
-```
+Pairwise arithmetic already forces power-of-two Walsh magnitudes. Cacti
+and common-feedback-vertex graphs have constant four. The older cutset
+bound leaves $`2(k-1-b)`$, and the eleven-vertex path-square graph defeats
+the proposed component-count payment. An unrestricted zero-loss two-bit
+boundary transfer also fails. Neither is a Boolean counterexample to the
+sharper target. A proof must retain a stronger energy invariant or exploit
+more Boolean structure than the general integer theorem.
 
-where $`b`$ counts edge-containing residual components of the minimal
-interaction graph. The square of an eleven-vertex path has no feedback
-set with $`b\ge k-1`$. Thus choosing a better set by this single count
-cannot settle even that graph. A repair could use quantitative conditional
-energy deficits, the influences of the removed coordinates, or a different
-decomposition. It must explain why the remaining payment does not grow
-with dimension. See [cycles and cacti](cycles-and-cacti.md).
+## A uniform payment beyond bounded width
 
-This problem concerns pairwise potentials. A general factor of arity three
-on a triangle is outside the arithmetic theorem and is a separate class.
+**Target.** Replace the width-dependent entropy payment by a universal
+constant for arbitrary positive Boolean Fourier laws, or construct an
+explicit diverging family in this class. The proved constant is
+$`O(4^{w+1}/(w+1)+\log(w+2))`$ at width $`w`$.
+
+Positive integer factors of any fixed arity already give a constant even when their
+factor graph has unbounded treewidth. The missing step is a bounded-load
+integer representation, or a different paid entropy inequality, for
+arbitrary Boolean Walsh tensors. Grouping a large bag into one factor
+retains its arity cost; it does not give a dimension-independent theorem.
 
 ## Genuine three-state forest edges
 
@@ -51,6 +56,17 @@ violates it, while still satisfying $`H=2I`$. A successful proof must
 charge forbidden-state selection in some additional way. Taking a limit
 of arbitrary positive probability models does not suffice, because those
 models need not be Boolean-realizable.
+
+The [forbidden-pair theorem](zero-edges.md) now handles a missing pair whose
+nonzero sections reduce to positive forests, preserving constant four.
+This includes nonproduct forest pieces. The remaining arbitrary-zero
+problem must account for two exact failures: a six-bit Boolean forest
+produces half-integer sections on its second forbidden-edge cut, and an
+integer hard-zero star defeats every positive-proof invariant
+$`D_2(p\Vert U)\le\eta L+CJ`$ with $`\eta<1`$. The latter still satisfies
+raw FEI. A repair should use Boolean normalization before cutting, track a
+stronger norm/lattice invariant, or pay the actual later denominators.
+
 
 ## Pay the local integrality defect
 
@@ -73,18 +89,20 @@ particular sufficient estimate. A weaker defect with the same entropy
 inequality would also be useful.
 
 This would give FEI for all positive pairwise spectra, a larger class than
-the current cactus and bounded-conditioning results. It would not by itself
+the current bounded-width and bounded-conditioning results. It would not by itself
 cover arbitrary Boolean spectra, which can have zeros and higher-order
-logarithmic interactions. The factor-arity-three extension of the present
-logarithmic Sobolev proof fails at its absorption step; that failure is a
-barrier to this argument, not a counterexample to the proposed FEI class.
+logarithmic interactions. A triangle can have arbitrarily large pairwise integer-factor defect as
+an abstract integer tensor. The bounded-width theorem bypasses that defect
+by allowing integer triangle factors and an influence-paid entropy bound;
+it does not bound the Boolean pairwise defect in general.
 
 ## Find integer packets with a paid denominator
 
 For a spectral subcube leaf $`L`$, let $`g_L`$ be the actual partial Fourier
 section of a Boolean function, with squared norm $`p_L`$. Suppose its
 normalized law is a positive forest, or a stated deterministic quotient,
-and $`2^{d_L}g_L`$ is integer-valued. Applying the arbitrary-integer forest
+and $`2^{d_L}g_L`$ is integer-valued. Positive bounded-width sections
+can now also be used, with their stated larger constant. Applying the arbitrary-integer forest
 theorem with its exact scaling cost gives
 
 ```math

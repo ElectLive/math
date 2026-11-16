@@ -110,3 +110,41 @@ evidence that an example lies outside all previously known FEI classes.
 The external inputs above are mathematical dependencies or specific
 comparisons, not a complete literature survey. [VERIFICATION.md](VERIFICATION.md)
 separates primary-source checking, mathematical review, and finite replay.
+
+
+## Bounded-treewidth continuation
+
+The [bounded-treewidth theorem](bounded-treewidth.md) proves its integer
+gcd factorization and entropy tensorization directly. Its nine local
+scalar certificates are exact integer comparisons. The statement does not
+rely on the cut-polytope theorem, odd-prime exclusion or an AA conversion.
+The earlier Gross-based proof remains a distinct stronger-constant method
+for integer forests.
+
+The primary O'Donnell–Tan composition PDF and O'Donnell–Wright–Zhou PDF
+were re-opened for the comparison of hypotheses and normalizations.
+The connected triangle construction uses the credited generalized
+Maiorana–McFarland prefix/bent completion; its particular functions are
+not claimed as previously unproved FEI examples. The zero-edge note
+preserves the earlier constant-four depth-two product case and states
+its extension to nonproduct forest sections separately.
+
+Focused primary-source searches for Fourier entropy with treewidth,
+graphical integer spectra and spectral Markov laws did not locate this
+bounded-treewidth theorem. This is a limited literature check, not a
+global historical priority certification. The standing universal FEI
+question, its known lower-bound examples and the sources above retain
+their stated scope.
+
+
+### Earlier depth-two product-leaf bound
+
+Mira Cult, *Half-integer defect repair and constant four at spectral depth
+two*, Theorem 2 in Section 2, research source
+[half_integer_product_repair.md at 566b6a1a6ac3ff0b8ef1684d467b5ec904bcbe57](https://github.com/Mira-Cult/math-wip/blob/566b6a1a6ac3ff0b8ef1684d467b5ec904bcbe57/problems/0298-fourier-entropy-influence-conjecture/manuscripts/half_integer_product_repair.md#2-constant-four-for-an-adaptive-spectral-tree-of-depth-two).
+This is a historical comparison: the earlier theorem already covers
+product conditional leaves at spectral depth two. The public
+[forbidden-pair proof](zero-edges.md) is complete here and does not depend
+on access to that research source; its additional hypothesis permits
+nonproduct positive forest sections and its conclusion uses influence
+outside the cut.

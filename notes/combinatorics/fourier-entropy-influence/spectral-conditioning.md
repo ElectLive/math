@@ -201,8 +201,11 @@ at most two. Since
 a graph made into a forest by deleting one vertex has treewidth at most two,
 (5) consequently holds for every positive Boolean spectrum on such a graph.
 For cacti, the [component-payment argument](cycles-and-cacti.md#6-paying-for-unboundedly-many-cactus-cycles)
-removes dependence on the number of cuts. The bound for the entire
-unbounded-feedback-set class of treewidth two remains unresolved.
+removes dependence on the number of cuts. Constant four for the entire
+unbounded-feedback-set class of positive pairwise treewidth two remains
+unresolved. A separate [bounded-treewidth entropy proof](bounded-treewidth.md)
+now gives constant below fourteen for every positive width-two law,
+including arbitrary triangle potentials.
 
 If every conditional forest contains a nonconstant component, summing the
 refinement in (3) improves (4) by 2. In particular a genuine simple cycle

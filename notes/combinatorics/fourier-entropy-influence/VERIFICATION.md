@@ -9,9 +9,60 @@ publication check are distinct forms of evidence. None of this collection
 is claimed to have an end-to-end Lean proof, human-expert review, or journal
 referee acceptance.
 
-## Exact scientific sources
+## Positive bounded-treewidth continuation
 
-The principal new scientific revision is
+The final scientific source for the new bounded-treewidth, connected-triangle
+and zero-edge results is `566b6a1a6ac3ff0b8ef1684d467b5ec904bcbe57`.
+The main theorem and its checker are unchanged from
+`1aa36e65a3032077043df7558845d633ddb62d8f`; the first scientific publication
+was `7c0a70be8ae23ff1b190ed4411714914d53838aa`.
+
+Two complementary nonauthor model reviews cover the new science:
+
+| Review scope | Exact source and outcome |
+|---|---|
+| Integer bag factorization, both local entropy lemmas, tensorization, width-dependent constants, raw normalization, quotient scope and the pairwise integrality-defect example | **PASS** at the initial source, with the one-block example summary corrected and rechecked at `1aa36e6…`. The review excludes its author's connected construction and separator example. |
+| Connected Boolean family, separator example, forbidden-pair constant-four theorem, star-energy limitation, integer hard-zero barrier, and genuine six-bit Boolean noniterability | **PASS** at `566b6a1…`. The review excludes its author's contributions to the main bounded-treewidth proof. |
+
+The reviews checked the actual source blobs and recorded their hashes.
+One-block treewidth wording and the comparison with the earlier depth-two
+product constant-four theorem were corrected before the final decisions.
+The constant-four forbidden-pair theorem requires a Boolean forest parent
+(or the stated power-of-two section hypothesis); missing a pair alone does
+not supply that arithmetic condition.
+
+The three added programs are byte-identical to the scientific source and
+were rerun successfully from the public paths using the standard library:
+
+- Nine exact scalar certificates and both strict constant comparisons;
+  65,814 Boolean truth tables, including 33,802 positive spectra and 1,034
+  eligible width-two laws; 6,654 ternary tables, including 3,574 positive
+  laws; 300 seeded integer bag reconstructions and twelve defect examples.
+- The complete 4,096-value base Boolean function and signed Walsh transform;
+  exact connected core laws for one through four blocks, including 65,536
+  core states at four blocks, and their entropy/influence and graph identities.
+- 89,480 admissible physical sections, exact star-energy examples, the
+  131,072-value integer hard-zero star, the seven-bit path and the six-bit
+  Boolean two-star counterexample with 25 positive atoms, entropy four,
+  influence two and half-integer second sections.
+
+The optional 24-variable connected-witness calculation was run by its
+constructor and independently by a nonauthor reviewer. It verified all
+16,777,216 signed Walsh coefficients exactly using NumPy. The public
+adaptation reran the standard-library default, not that optional full scan.
+
+The public adaptation received complementary source-fidelity reviews at
+exact file hashes. Review caught and corrected an omitted parent-forest
+hypothesis in two summaries, a missing math macro backslash, and two
+positivity/integrality wording shortcuts. The proofs and the hypotheses
+now agree. These reviews are not a claim of independent acceptance of a
+reviewer's own scientific contributions. The actual GitHub host rendering
+of this continuation will be recorded after publication; prepublication
+checks alone are not described as host inspection.
+
+## Earlier scientific sources
+
+The principal scientific revision of the earlier cactus/interpolation milestone is
 `d2b95c607a1d4b21c5eace6b3d52771e74905196`, tree
 `44d74cd7a1ffff4254c6801abfa8a1f2f16b9320`.
 The selector's constant-function wording was corrected at
@@ -26,14 +77,14 @@ Neither wording correction changes a displayed inequality or proof.
 The public manuscripts reorganize those mathematical sources, remove
 research administration, supply all local proof dependencies, and adapt
 math delimiters for GitHub. Their public file hashes therefore differ
-from the source manuscript hashes. All eight programs are copied
+from the source manuscript hashes. The original eight programs were copied
 byte-for-byte. A retained source-to-public crosswalk binds the source
 revision, source hash, public location and public hash for every file.
 No private repository link is needed to read any proof in this collection.
 
-## Three nonauthor reviews of the new results
+## Three nonauthor reviews of the earlier cactus and interpolation results
 
-Three separate ChatGPT model reviewers checked the new results at exact
+Three separate ChatGPT model reviewers checked those earlier results at exact
 source revisions. Each reviewed work they did not author. Their scopes
 were deliberately separated from their own contributions.
 
@@ -110,7 +161,7 @@ program bytes were compared to their scientific sources. The public
 Markdown's local file links, heading anchors, balanced fences, and converted
 math delimiters were also checked; no missing local link or anchor remained.
 
-## Public presentation check
+## Earlier public presentation check
 
 The public rewrite has a separate statement-scope, dependency-completeness,
 and source-fidelity review. This is an editorial and mathematical-interface

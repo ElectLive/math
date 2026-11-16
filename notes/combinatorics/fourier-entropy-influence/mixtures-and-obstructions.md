@@ -234,12 +234,14 @@ first-hit lists with nonconstant admissible forest payloads. The preserved
 constant four is the advance described here for that class; older selector inequalities already
 give a coarser dimension-free bound.
 
-The bounded-treewidth arithmetic theorem does not yet supply FEI for all
-treewidth-two laws with overlapping cycles. The square of an eleven-vertex
+The bounded-treewidth arithmetic theorem alone does not supply FEI for
+all width-two laws. The independent [paid integer-bag theorem](bounded-treewidth.md)
+now gives constant below fourteen, and covers all positive fixed widths. The square of an eleven-vertex
 path defeats the tested component-count payment, as proved and checked in
 the cycle manuscript; it is a graph obstruction, not a Boolean FEI
 counterexample. Hard-zero
-three-state constraints remain outside the forest energy proof. Arbitrary
+three-state constraints remain outside the positive forest energy proof,
+with the separate [forbidden-pair extension](zero-edges.md) now available. Arbitrary
 integer packet denominators, conditioning depth and cyclic factorization
 defects still have no universal influence budget. The new arguments do not
 convert AA fractional certificates into those objects, and the final AA
