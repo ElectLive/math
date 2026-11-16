@@ -31,7 +31,7 @@ The broader all-simple programme includes the established group and Moufang base
 
 | Your interest | First reading | A realistic first contribution |
 |---|---|---|
-| A concrete example and complete local proof | [Direct existence proof](non-g-loop-non-bruck-existence.md), then [packet interfaces](packet/README.md) | Check one specialized lemma, simplify it, or independently reproduce its finite arithmetic. |
+| A concrete example and complete local proof | [Direct existence proof](0018-non-g-loop-non-bruck-existence.md), then [packet interfaces](packet/README.md) | Check one specialized lemma, simplify it, or independently reproduce its finite arithmetic. |
 | Structural classification | [Classification map](CLASSIFICATION.md), [current results](CURRENT_RESULTS.md) | Select one exact canonical-group setting; identify the missing necessity, sufficiency or isomorphism step. |
 | Radical extensions and cocycles | Current-results odd and Bruck sections | Preserve actual selected sections, stabilizer cochains and multiplicities; test a stated lifting obstruction. |
 | Permutation-group reductions | Current-results affine/primitive section; [SD dependency map](SD_DEPENDENCIES.md) | Close one dependency chain, starting with a concrete family rather than assuming the all-socle assembly. |
