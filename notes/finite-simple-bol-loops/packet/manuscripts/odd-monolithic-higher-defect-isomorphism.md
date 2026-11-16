@@ -46,9 +46,11 @@ At exact source `1a8a1eddcdfaeb5fab6f3e7682a37c5597a3b522`, GPT-6.1 Terra review
 
 In particular a₀=Q−q. The number of isomorphism classes in the displayed q,r family is
 
-\[
- \mathcal N_{q,r}=\frac1m\sum_{k=0}^{m-1}a_k\prod_{i=1}^{r-1}(3^{g_k}-3^i). \tag{3}
-\]
+
+```math
+\mathcal N_{q,r}=\frac1m\sum_{k=0}^{m-1}a_k\prod_{i=1}^{r-1}(3^{g_k}-3^i). \tag{3}
+```
+
 
 where an empty product is 1. If r>g_k the product is zero. For r=1, (3) is exactly the reviewed one-factor line count. The count is conditional on the minor hypothesis and does not claim infinitely many admissible primes or classify loops outside this family.
 
