@@ -22,7 +22,7 @@ The local proofs and exact limitations are indexed in [CATALOGUE.md](CATALOGUE.m
   American Journal of Mathematics **97** (1975), 1061–1083.
   [DOI 10.2307/2373688](https://doi.org/10.2307/2373688).
   The cube inequality used here is
-  $`\operatorname{Ent}(A^2)\le2\sum_i\mathbb E(D_iA)^2`$ with natural
+  $`\mathrm{Ent}(A^2)\le2\sum_i\mathbb E(D_iA)^2`$ with natural
   logarithms and half-difference derivatives. This normalization is stated
   in the introduction of [OWZ11], page 2, and in
   [O'Donnell's CMU problem set 4, problem 2](https://www.cs.cmu.edu/~odonnell/boolean-analysis/homework4.pdf).

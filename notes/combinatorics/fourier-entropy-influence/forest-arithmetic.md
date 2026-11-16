@@ -61,7 +61,7 @@ is independent of $`r`$. It is a nonnegative rational number, and is zero when $
 
 
 ```math
-V(s)=R_r(s_r)+\sum_{v\ne r}R_v(s_{\operatorname{par}(v)},s_v),
+V(s)=R_r(s_r)+\sum_{v\ne r}R_v(s_{\mathrm{par}(v)},s_v),
 ```
 
 
