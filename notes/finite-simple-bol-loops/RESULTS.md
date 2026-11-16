@@ -51,7 +51,7 @@ The q=4 and q=5 descriptions give the same A₅ family. Larger canonical overgro
 | Hypotheses | Classification data | Proof |
 |---|---|---|
 | Soc(G)=A₅ʳ and G does not permute its simple factors; no prescribed inversion action | Pure-A₅ paths, or positive path lengths and a strongly connected binary matrix, with the stated equivalence and selected-mark data | [Inversion](advances-2026-11-16/manuscripts/radical-free-a5-code-inversion.md), [classification](advances-2026-11-16/manuscripts/radical-free-a5-outer-codes.md) |
-| G=A₅²ᴬ×PSL₂(7)²ᴮ, A,B≥1, with paired inversion | Path lengths and binary/ternary matrices; strong directed connectivity characterizes simplicity; path permutations and specified ternary signs give isomorphism | [Mixed matrix classification](update-2026-11-16/manuscripts/radical-free-mixed-matrix-classification.md) |
+| G=A₅²ᴬ×PSL₂(7)²ᴮ, A,B≥1, with paired inversion | Path lengths and binary/ternary matrices; strong directed connectivity characterizes simplicity; path permutations and specified ternary signs give isomorphism | [Mixed paired classification](manuscripts/0028-0030-mixed-paired-classification.md) |
 
 These results classify substantial families of canonical data. The first allows more than direct powers of A₅, but excludes factor-permuting actions; the second does not remove its paired-inversion assumption.
 
