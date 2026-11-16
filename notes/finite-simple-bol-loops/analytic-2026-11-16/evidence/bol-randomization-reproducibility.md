@@ -8,9 +8,11 @@ The canonical [theorem-and-proof manuscript](../manuscripts/bol-quantum-randomiz
 is exported from `Mira-Cult/math-wip`, scientific revision
 `f6f415a5b05ce38b51adc9d2894c9795af500b3e`, under
 `problems/0323-finite-simple-non-moufang-bol-loops/`.
-The public export replaces only the opening provenance paragraph and its
-reproducibility links; all theorem and proof text is unchanged. Both new
-programs are copied byte for byte. Authorship is Mira Cult.
+The public export replaces the opening provenance paragraph and its
+reproducibility links, and changes 18 operator-name display macros to upright
+roman text because GitHub rejects the original macro. The mathematical content
+is unchanged; the recorded inverse restores the exact reviewed manuscript.
+Both new programs are copied byte for byte. Authorship is Mira Cult.
 
 The starting non-scalar scientific source is
 `ec122a2a890971141caf960dd27fdb50fed77154`, with reviewed delivery
@@ -28,7 +30,11 @@ Two noncontributing model reviewers accepted the exact scientific revision
 `f6f415a5b05ce38b51adc9d2894c9795af500b3e` within their respective mathematical
 and resource/comparison scopes. Both report no remaining blocker in those
 remits. Their full signed reports, including the initial audits and exact-revision
-addenda, are copied verbatim:
+addenda, are included in full. The mathematical report has three analogous
+display-only macro substitutions; the resource report is copied verbatim.
+The exact original mathematical report remains publicly accessible in the
+[first export](https://github.com/Mira-Cult/math/blob/922ec370f033dd02f1f90d1d0cf6a6040253df72/notes/finite-simple-bol-loops/analytic-2026-11-16/evidence/bol-randomization-independent-math-review.md).
+The hashes below identify the original reports accepted into the research record:
 
 | Review | Full report SHA-256 | Scope |
 | --- | --- | --- |
@@ -57,7 +63,9 @@ python notes/finite-simple-bol-loops/analytic-2026-11-16/code/verify_bol_randomi
 python notes/finite-simple-bol-loops/analytic-2026-11-16/code/verify_bol_small_bias.py
 ```
 
-Both revised programs passed in the recorded source runs and in both independent
+Both public program copies also passed in a separate root replay, exit zero
+with empty stderr and the identical stdout hashes below. Both revised programs
+passed in the recorded source runs and in both independent
 reviewers' replays of the exact scientific revision. They use exact
 integer/rational/finite-field arithmetic, take no input and print deterministic
 JSON. The revised independent outputs agree with the recorded source runs. These hashes

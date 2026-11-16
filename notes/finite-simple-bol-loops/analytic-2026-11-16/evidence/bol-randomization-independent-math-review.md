@@ -207,7 +207,7 @@ correlated-Weyl control shares the same purity mechanism, as the manuscript says
 
 The phase-plus-classical-permutation control has exactly the indicated zero
 coherence rate; full phase keys are charged. The Fourier/dephasing identity
-$`\mathcal D\operatorname{Ad}_F\mathcal D=\mathcal E`$ is valid only for full
+$`\mathcal D\mathrm{Ad}_F\mathcal D=\mathcal E`$ is valid only for full
 rank-one dephasing, so the degenerate caveat is essential and retained.
 The scalar, permutation-only, untranslated and associative literal-defect
 ablations have the stated fixed-state obstructions.
@@ -347,8 +347,8 @@ statistical randomization and compilation gives the claimed bounded-time option
 with the explicitly charged extra bits.
 
 The SUM-only implementation of the field actor is justified by
-$`\det(m_\lambda)=\operatorname{Norm}(\lambda)=\lambda^{364}=1`$. Elementary
-transvections generate $`\operatorname{SL}_6(\mathbf F_3)`$, so the fixed field
+$`\det(m_\lambda)=\mathrm{Norm}(\lambda)=\lambda^{364}=1`$. Elementary
+transvections generate $`\mathrm{SL}_6(\mathbf F_3)`$, so the fixed field
 multiplication matrix needs no unstated coordinate scaling gate. The fixed
 six-coordinate size makes its gate count and depth constant per block. Computing
 trace values on demand preserves the stated sampler storage bound after

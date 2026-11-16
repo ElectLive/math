@@ -65,7 +65,7 @@ independent over $`\mathbf F_p`$, with zero common radical. Set
 ```
 
 ```math
- b(u,u')=\left((\operatorname{Tr}_{E/\mathbf F_p}
+ b(u,u')=\left((\mathrm{Tr}_{E/\mathbf F_p}
  w^{\mathsf T}B_iw')_i,\ \sum_i\det(v_i,v'_i)\right),\qquad
  R(a,t)(w,(v_i))=(\lambda^tw,(\eta^{a_i}v_i)).                 \tag{QR.1}
 ```
@@ -87,14 +87,14 @@ Here $`x=(a,c),y=(v,e)`$. AQ, Sections 1--4, proves the loop and Bol identities
 and this correction formula directly; no simplicity/classification input is
 needed. All new channel proofs below use these displayed finite operators.
 Point kets are orthonormal. All finite averages are normalized; the matrix norm
-is the ordinary $`\|T\|_2^2=\operatorname{Tr}(T^*T)`$.
+is the ordinary $`\|T\|_2^2=\mathrm{Tr}(T^*T)`$.
 
 Write $`\chi=(\nu,\rho)`$ with
 $`\chi(a,t)=e_p(\nu\cdot a)e_m(\rho t)`$. Then
 
 ```math
  B_\nu=\sum_i\nu_iB_i,\qquad
- D_\chi=\ker_E B_\nu\oplus(\operatorname{ann}_{R_A}\rho)^{2k}.
+ D_\chi=\ker_E B_\nu\oplus(\mathrm{ann}_{R_A}\rho)^{2k}.
                                                                     \tag{QR.3}
 ```
 
@@ -103,7 +103,7 @@ The dense starting channel uses independent uniform $`x,y,z\in\mathcal L=U\times
 ```math
  V_{x,y,z}=\pi_\chi(z)^{-1}J_\chi(\ell_{x,y})\pi_\chi(z),\qquad
  \Phi_\chi(T)=\mathbb E_{x,y,z}V_{x,y,z}TV_{x,y,z}^*,\qquad
- \mathcal E(T)=\operatorname{Tr}(T)I/d.                              \tag{QR.4}
+ \mathcal E(T)=\mathrm{Tr}(T)I/d.                              \tag{QR.4}
 ```
 
 This is not the uniform measure on the generated defect group. The literal
@@ -134,7 +134,7 @@ $`t\geq1`$,
  \|\Phi_\chi^t-\mathcal E\|_{2\to2}=\Lambda^t,\qquad
  \|\Phi_\chi^t(I-\mathcal D_\chi)\|_{2\to2}\leq p^{-2t},\qquad
  \Lambda=p^{-1}+(1-p^{-1})Q^{-r_{\min}},\quad
- r_{\min}=\min_i\operatorname{rank}_E B_i.                           \tag{QR.6}
+ r_{\min}=\min_i\mathrm{rank}_E B_i.                           \tag{QR.6}
 ```
 
 The diagonal restriction attains $`\Lambda`$. Positivity and self-adjointness
@@ -162,7 +162,7 @@ An abstract native-operation count is reported separately from its gate cost.
 The three distinct errors are
 
 ```math
- e_1(\Psi)=\sup_{\rho\geq0,\operatorname{Tr}\rho=1}
+ e_1(\Psi)=\sup_{\rho\geq0,\mathrm{Tr}\rho=1}
              \|\Psi(\rho)-I/d\|_1,\qquad
  e_2(\Psi)=\|\Psi-\mathcal E\|_{2\to2},\qquad
  e_\diamond(\Psi)=\|\Psi-\mathcal E\|_\diamond.                       \tag{QR.8}
@@ -272,7 +272,7 @@ $`h_W=\alpha a_W+\beta v_W`$, where
 $`\alpha=\lambda^{g_q}-\lambda^{e_q}`$ and
 $`\beta=\lambda^{c_q+g_q}-1`$. Both coefficients vanish for exactly one of
 the 49 independent actor pairs $`(c_q,e_q)`$. For every other pair, the
-constraint $`\operatorname{Tr}(a_W^{\mathsf T}B_1v_W)=g_p\ne0`$ makes
+constraint $`\mathrm{Tr}(a_W^{\mathsf T}B_1v_W)=g_p\ne0`$ makes
 $`h_W`$ uniform on $`W\setminus\{0\}`$.
 
 For example, if $`\beta\ne0`$, a prescribed $`h_W\ne0`$ determines
@@ -285,9 +285,9 @@ per nonzero $`h_V`$, and both actor coefficients vanish with probability $`1/9`$
 The two conditional laws are independent, and are exactly
 
 ```math
- \frac1{49}\delta_0+\frac{48}{49}\operatorname{Unif}(W\setminus\{0\}),
+ \frac1{49}\delta_0+\frac{48}{49}\mathrm{Unif}(W\setminus\{0\}),
  \qquad
- \frac19\delta_0+\frac89\operatorname{Unif}(\mathbf F_7^2\setminus\{0\}).
+ \frac19\delta_0+\frac89\mathrm{Unif}(\mathbf F_7^2\setminus\{0\}).
                                                                     \tag{QR.9c}
 ```
 
@@ -417,7 +417,7 @@ of exactly $`2n+1`$ native unitaries with scalar common commutant.
 
 **Proof of the lower bound.** Work on the field factor; tensoring commuting
 operators with the ring identity preserves commutation with every full native
-unitary. Let $`\beta(h,v)=\operatorname{Tr}_{E/\mathbf F_3}h^{\mathsf T}B_1v`$.
+unitary. Let $`\beta(h,v)=\mathrm{Tr}_{E/\mathbf F_3}h^{\mathsf T}B_1v`$.
 Use symmetric Weyls
 
 ```math
@@ -536,7 +536,7 @@ by the same fixed actor on the input.
 $`c=-g_*`$. Independently on the two blocks, choose $`e`$ as follows.
 If $`h_W\ne0`$, take $`e_q=0`$ and
 $`a_W=(\lambda-1)^{-1}h_W`$, then choose $`v_W`$ with
-$`\operatorname{Tr}(a_W^{\mathsf T}B_1v_W)=1`$. Nondegeneracy gives such
+$`\mathrm{Tr}(a_W^{\mathsf T}B_1v_W)=1`$. Nondegeneracy gives such
 a vector by solving at the first nonzero coordinate. If $`h_W=0`$, take
 $`e_q=1`$ and a fixed pair with this trace equal to one. If $`h_V\ne0`$,
 take $`e_p=0`$, $`a_V=(2-1)^{-1}h_V=h_V`$, and choose $`v_V`$ with
@@ -565,7 +565,7 @@ $`e_0,\ldots,e_{r-1}`$ over $`\mathbf F_3`$, and put
 $`s=\lceil\ell/r\rceil`$. Choose independent uniform $`a,b\in F`$, and output
 
 ```math
- T(a,b)_{jr+i}=\operatorname{Tr}_{F/\mathbf F_3}(ae_i b^j),
+ T(a,b)_{jr+i}=\mathrm{Tr}_{F/\mathbf F_3}(ae_i b^j),
  \qquad 0\leq j<s,\quad0\leq i<r,\quad jr+i<\ell.                 \tag{QR.21}
 ```
 
@@ -649,7 +649,7 @@ $`\rho`$ is a unit. Its efficient gate bounds below are asserted only for
 the fixed-conductor family (QR.15).
 
 For a distribution $`\mu`$ on $`U`$ put
-$`\mathcal C_\mu=\mathbb E_{t\sim\mu}\operatorname{Ad}V_t`$ and
+$`\mathcal C_\mu=\mathbb E_{t\sim\mu}\mathrm{Ad}V_t`$ and
 $`\widehat\mu(w)=\mathbb E_t\mathsf B(t,w)`$. Let
 $`\Delta=\max_{w\ne0}|\widehat\mu(w)|`$ be its **actual** bias. Then
 
@@ -726,7 +726,7 @@ Any central element has zero nonidentity Weyl coefficients, so the center is
 scalar. Finite-dimensional $`*`$-algebra structure therefore identifies
 $`\mathcal A_A\cong M_s\otimes I_s`$ acting on dimension $`d=s^2`$.
 Its HS projection is the conditional expectation
-$`P_A(\rho)=\operatorname{Tr}_2(\rho)\otimes I_s/s`$ in these coordinates.
+$`P_A(\rho)=\mathrm{Tr}_2(\rho)\otimes I_s/s`$ in these coordinates.
 In particular
 $`\|P_A\rho-I/d\|_2^2\leq1/s-1/d`$.
 
@@ -804,8 +804,8 @@ blocks plus two seven-level permutations. A fixed finite gate set consisting
 of qutrit shifts, phases and SUM gates, together with the seven-level shifts,
 phases and multiplication by two, implements them exactly. The determinant of
 the six-coordinate multiplication map is
-$`\operatorname{Norm}_{E/\mathbf F_3}(\lambda)=\lambda^{364}=1`$.
-It lies in $`\operatorname{SL}_6(\mathbf F_3)`$, which is generated by the
+$`\mathrm{Norm}_{E/\mathbf F_3}(\lambda)=\lambda^{364}=1`$.
+It lies in $`\mathrm{SL}_6(\mathbf F_3)`$, which is generated by the
 elementary SUM transvections. Gaussian elimination therefore decomposes it
 using the stated gate set into a constant-size circuit; no extra coordinate
 scaling gate is implicit.
@@ -824,7 +824,7 @@ fixed $`c>0`$; no lexicographic exponential search or random advice is hidden.
 Precomputing the trace functional is polynomial in $`r`$. Schoolbook arithmetic
 generates $`\ell`$ outputs in $`O(\ell r^2)`$ $`\mathbf F_3`$ operations,
 with $`O(\ell+r)`$ storage including the whole output: compute
-$`\operatorname{Tr}(ce_i)`$ on demand, without storing an $`r\times r`$ trace
+$`\mathrm{Tr}(ce_i)`$ on demand, without storing an $`r\times r`$ trace
 matrix. The one-call construction has $`r=O(N+\log(1/\varepsilon))`$.
 Preprocessing and the key-to-circuit map are deterministic polynomial time;
 exact fair-bit sampling is expected polynomial time, with the unbounded
@@ -927,7 +927,7 @@ and storage as in Section 4. Generic Haar sampling is not an efficient gate mode
 | Independently sample the conjugate factors in the fused adjoint sector | The average becomes $`T\mapsto ATA^*`$, where $`A=\mathbb E V`$; it loses trace preservation for every nontrivial law. For the fixed-pair uniform-center representatives its output trace is exactly $`1/d`$. This is an algebraic diagnostic, not a physical randomizer. |
 | Remove correlations from the two-round Weyl labels | The selected distribution changes. Independent phase/translation controls can still randomize, but the exceptional subalgebras and Theorem P need not survive. |
 | Use an associative loop's literal defects | They are identity. Independently chosen group Weyls remain an equally strong randomizer; associative loops are not generally weaker resources. |
-| Add a Fourier basis change to full shear dephasing | $`\mathcal D\operatorname{Ad}_F\mathcal D=\mathcal E`$ for the finite abelian Fourier transform. This exact standard repair uses $`d^2`$ phase schedules and needs no Bol structure. |
+| Add a Fourier basis change to full shear dephasing | $`\mathcal D\mathrm{Ad}_F\mathcal D=\mathcal E`$ for the finite abelian Fourier transform. This exact standard repair uses $`d^2`$ phase schedules and needs no Bol structure. |
 
 The Fourier identity follows because dephasing makes an input diagonal and every
 Fourier column has constant squared modulus $`1/d`$. With only the added Fourier
