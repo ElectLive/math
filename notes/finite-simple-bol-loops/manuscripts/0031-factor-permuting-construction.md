@@ -18,8 +18,12 @@ We use the exact-factorization folder construction in [the canonical criterion](
 
 Let S=T^p⋊⟨σ⟩, with σ rotating the p coordinates, and write top:S→C_p for its quotient map. Define
 
- Y₀=B^p⋊⟨σ⟩,
- Y₁={(a₁,…,a_p)σ^k : a_i∈A, Σχ(a_i)=k in C_p}.
+```math
+\begin{aligned}
+Y_0&=B^p\rtimes\langle\sigma\rangle,\\
+Y_1&=\{(a_1,\ldots,a_p)\sigma^k:a_i\in A,\ \sum_i\chi(a_i)=k\text{ in }C_p\}.
+\end{aligned}
+```
 
 The sum of the χ-values is rotation-invariant. Hence Y₁ is the kernel of the onto homomorphism A^p⋊C_p→C_p given by (a,σ^k)↦Σχ(a_i)−k. Consequently |Y₀|=p|B|^p and |Y₁|=|A|^p. Their intersection is trivial: all base coordinates lie in A∩B, so they are identity and the Y₁ condition forces k=0. Their orders multiply to |S|, giving S=Y₀Y₁ exactly. Both factors map onto C_p, since σ∈Y₀ and (a,1,…,1)σ∈Y₁ when χ(a)=1.
 
@@ -29,15 +33,21 @@ Every nontrivial normal subgroup of S contains T^p. Indeed, its intersection wit
 
 Put
 
- K={(x,x⁻¹):x∈S},
- G=⟨K⟩={(x,y)∈S²:top(x)+top(y)=0},
- H=G∩(Y₀×Y₁),  τ(x,y)=(y,x).
+```math
+\begin{aligned}
+K&=\{(x,x^{-1}):x\in S\},\\
+G&=\langle K\rangle=\{(x,y)\in S^2:\mathrm{top}(x)+\mathrm{top}(y)=0\},\\
+H&=G\cap(Y_0\times Y_1),\qquad \tau(x,y)=(y,x).
+\end{aligned}
+```
 
 To verify that G is exactly the generated group rather than an ambient envelope, write k(x)=(x,x⁻¹). The product k(x)k(y)k(xy)⁻¹ has first coordinate 1 and second coordinate x⁻¹y⁻¹xy. Coordinate swapping preserves K, so ⟨K⟩ contains S′×S′. Its top images generate the anti-diagonal C_p. The exact-factorization construction makes K a Bol transversal to H and all its conjugates. The action is faithful: any normal subgroup of G inside H projects to normal subgroups of S contained in Y₀,Y₁, hence is trivial by their core-freeness. Thus G is the canonical left multiplication group, rather than an ambient envelope. The orders are |G|=p|T|^(2p), |K|=p|T|^p and |H|=|T|^p.
 
 Write N₁=T^p×1, N₂=1×T^p and N=N₁N₂. The top quotient rotates the two p-tuples in opposite directions. Each N_i is a minimal normal subgroup of G, and C_G(N)=1. For M normal in G, M∩N is a product of coordinate simple factors and is G-invariant, hence is 1,N₁,N₂ or N. If it is 1 then M centralizes N and is trivial. If it is N₁, then [M,N₂]=1 and C_G(N₂)=N₁, so M=N₁; the other case is symmetric. If it contains N, the prime quotient G/N=C_p gives M=N or G. Therefore the full normal-subgroup list is
 
- 1, N₁, N₂, N, G.
+```math
+1,\quad N_1,\quad N_2,\quad N,\quad G.
+```
 
 In particular Soc(G)=N and the solvable radical is trivial.
 
@@ -45,15 +55,21 @@ In particular Soc(G)=N and the solvable radical is trivial.
 
 For the three nontrivial proper normal subgroups, the original-folder normal-subloop criterion gives the following strict inequalities:
 
- |KN₁/N₁|=|S| > [G:HN₁]=|S:Y₁|=p|B|^p,
- |KN₂/N₂|=|S| > [G:HN₂]=|S:Y₀|=|A|^p,
- |KN/N|=p > [G:HN]=1.
+```math
+\begin{aligned}
+|KN_1/N_1|&=|S|>[G:HN_1]=|S:Y_1|=p|B|^p,\\
+|KN_2/N_2|&=|S|>[G:HN_2]=|S:Y_0|=|A|^p,\\
+|KN/N|&=p>[G:HN]=1.
+\end{aligned}
+```
 
 The first two hold because K projects bijectively onto the surviving copy of S, and H projects onto each Y_i because both Y_i cover C_p. The third uses that K and H both cover C_p. These are actual projected-set counts, not assumptions that the projections are folders. The criterion proves simplicity. Since H is nontrivial, the canonical action is not regular. A group acting by its own left translations has trivial identity stabilizer, so the loop is nonassociative.
 
 There is a strict intermediate subgroup
 
- H < M=G∩[Y₀×(A^p⋊⟨σ⟩)] < G.
+```math
+H\lt M=G\cap[Y_0\times(A^p\rtimes\langle\sigma\rangle)]\lt G.
+```
 
 The first index is p, because Y₁ has index p in A^p⋊C_p and both cover the top quotient; the second inclusion is strict since Y₀<S. Thus the canonical left multiplication action is imprimitive. The cited simple-nonassociative-Moufang primitivity input excludes the Moufang case. This proves the construction under the stated loop-theoretic interfaces.
 
