@@ -1,0 +1,42 @@
+# GAP 4.15.1; run from this problem workspace:
+# gap -q -b code/verify_psl2_small_endpoints.g
+Check:=function(b,s) if not b then Print("FAIL: ",s,"\n"); ForceQuitGap(1); fi; end;;
+Check(GAPInfo.Version="4.15.1","version");
+MaxFusion:=function(p,n,kind)
+ local a,t,m,s;
+ a:=PGL(2,p); t:=DerivedSubgroup(a);
+ Check(Size(t)=p*(p^2-1)/2 and Size(a)=2*Size(t),"PSL/PGL orders");
+ m:=MaximalSubgroupClassReps(t);
+ s:=Filtered(m,x->Size(x)=n);
+ Check(Length(s)=2 and ForAll(s,x->StructureDescription(x)=kind),"maximal exceptional classes");
+ Check(IsConjugate(a,s[1],s[2]),"PGL fusion");
+ Print("p=",p,", maximal ",kind," classes: 2; PGL fusion: true\n");
+end;;
+MaxFusion(7,24,"S4");
+MaxFusion(29,60,"A5");
+g:=PSL(2,11);;
+Check(GAPInfo.Version="4.15.1","version");
+Check(Size(g)=660 and IsSimpleGroup(g),"group");
+cs:=ConjugacyClassesSubgroups(g);;
+Get:=function(n) return List(Filtered(cs,x->Size(Representative(x))=n),Representative); end;;
+C11:=Get(11);; C12:=Get(12);; C55:=Get(55);; C60:=Get(60);;
+Check(List([C11,C12,C55,C60],Length)=[1,2,1,2],"class counts");
+Check(Set(List(C12,StructureDescription))=["A4","D12"],"order-12 types");
+Check(ForAll(C60,x->StructureDescription(x)="A5"),"order-60 types");
+Check(StructureDescription(C55[1])="C11 : C5","Borel type");
+Check(Size(Normalizer(g,C11[1]))=55,"C11 normalizer");
+Check(ForAll(C12,x->Size(Normalizer(g,x))=12),"order-12 normalizers");
+Check(ForAll(C60,x->Size(Normalizer(g,x))=60),"A5 normalizers");
+A4:=First(C12,x->StructureDescription(x)="A4");;
+Check(ForAll(C60,x->ForAny(ConjugacyClassSubgroups(g,x),y->IsSubgroup(y,A4))),"A4 inside both A5 classes");
+B:=C55[1];;
+Check(ForAll(C12,x->Size(Intersection(B,Normalizer(g,x)))=1),"B acts transitively on order-12 classes");
+Check(ForAll(C60,x->Size(Intersection(B,Normalizer(g,x)))=5),"B acts transitively on each A5 class");
+aut:=AutomorphismGroup(g);;
+Check(ForAny(GeneratorsOfGroup(aut),x->IsConjugate(g,Image(x,C60[1]),C60[2])),"Aut fuses A5 classes");
+Print("GAP ",GAPInfo.Version,"; PSL(2,11) order ",Size(g),"; simple\n");
+Print("classes at orders 11,12,55,60: ",[1,2,1,2],"; order-12 types A4,D12\n");
+Print("normalizers: C11=55, A4=D12=12, A5=60; A4 lies in both A5 classes\n");
+Print("B intersections with order-12 normalizers: 1,1; with A5 normalizers: 5,5\n");
+Print("Aut(PSL(2,11)) fuses the A5 classes; all endpoint orbit assertions passed\n");
+QUIT_GAP(0);
