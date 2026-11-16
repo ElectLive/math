@@ -4,7 +4,7 @@ These are bounded tasks, not a claim that every branch has complete public proof
 
 ## T1. Reproduce and review the specialized existence proof
 
-**Start:** [direct proof](simple-existence-proof.md), [packet interfaces and commands](packet/README.md).  
+**Start:** [direct proof](non-g-loop-non-bruck-existence.md), [packet interfaces and commands](packet/README.md).  
 **Question:** do the specialized lemmas establish the claimed simple proper loop and its isotope obstructions without the general exhaustion theorem?  
 **Work:** rerun both small checks; independently review one lemma and its precise use in the main theorem; check the conventions on isomorphism and isotopy.  
 **Deliverable:** exact-source review with equations checked, commands/output and any repair.  
