@@ -45,7 +45,7 @@ Numbered expositions are linked where available. Other links identify supporting
 | 0021 | Unbounded derived-subgroup nilpotency class | [Construction and proof](manuscripts/0021-0023-unbounded-complexity.md) |
 | 0022 | Unbounded derived length | [Construction and proof](manuscripts/0021-0023-unbounded-complexity.md) |
 | 0023 | Unbounded Fitting height | [Construction and proof](manuscripts/0021-0023-unbounded-complexity.md) |
-| 0024 | matrix pair encoding | [Matrix-pair similarity inside simple odd Bol loops](packet/manuscripts/odd-matrix-pair-embedding.md) |
+| 0024 | Matrix-pair similarity encoding, conditional on the alternating-form loop interface | [Construction and full linear-algebra proof](manuscripts/0024-matrix-pair-embedding.md) |
 | 0025 | alternating form construction | [Simple odd Bol loops from alternating-form tuples](packet/manuscripts/odd-alternating-form-family.md) |
 | 0026 | PSL₂-power classification | [Classification theorem, path parameterization and proof](manuscripts/0026-psl2-power-classification.md) |
 | 0027 | a5 outer code classification | [Inversion exhaustion for nonpermuting A5-socle envelopes](advances-2026-11-16/manuscripts/radical-free-a5-code-inversion.md)<br>[Nonpermuting A5-socle extensions and paired parity-code classification](advances-2026-11-16/manuscripts/radical-free-a5-outer-codes.md) |
