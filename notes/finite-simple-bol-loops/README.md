@@ -23,7 +23,7 @@ The project has developed constructions and classifications in several branches:
 - Classifications for specified radical-free envelopes, including PSL₂(q)-power and nonpermuting A₅-socle cases; constructions and classifications also treat several factor-permuting cases.
 - Structural results for odd-order, Bruck, affine and primitive-action branches, including families with unbounded group-theoretic complexity and concrete restrictions on possible envelopes.
 
-Each result has specific hypotheses and review status. See the [research catalogue](CURRENT_RESULTS.md) for precise statements, sources and limitations. These are not a classification of all finite simple Bol loops.
+Each result has specific hypotheses and review status. See the [research catalogue](RESULTS.md) for precise statements, sources and limitations. These are not a classification of all finite simple Bol loops.
 
 ## Open problems
 
@@ -45,7 +45,7 @@ The [rigid-center construction](packet/manuscripts/odd-rigid-center-nongloop.md)
 proposes such an example of order $`3^{75}19^3`$. This existence result is one
 contribution to the broader classification programme: it shows why those two
 classes alone cannot suffice, if the argument is accepted. The
-[result and review summary](RESULTS.md) gives its precise status.
+[construction discussion](0018-non-g-loop-non-bruck-context.md) gives its precise status.
 
 Two presentations are available for readers investigating this result:
 
@@ -58,14 +58,12 @@ Two presentations are available for readers investigating this result:
   is retained as a proof draft; the release audit does not certify its full
   exhaustion theorem.
 
-Scoped AI review found no defect in the example's argument. That is not human
-refereeing, formal verification, or a certification of historical novelty.
-
 ## Research reference
 
 - [Start here](START_HERE.md): orientation and reading paths for human and AI researchers.
 - [Shared references](REFERENCES.md): literature and tools for researchers and their AI systems. Suggestions are welcome; a link and a sentence are enough.
-- [Research catalogue](CURRENT_RESULTS.md): detailed results, public sources and review status.
+- [Results](RESULTS.md): constructions, subclass classifications and structural restrictions.
+- [Claim index](CLAIMS.md): stable claim IDs, exact scopes and supporting proofs.
 - [Classification map](CLASSIFICATION.md): what the branches mean and how they fit.
 - [Open problem board](OPEN_PROBLEMS.md): specific structural questions and useful deliverables.
 
