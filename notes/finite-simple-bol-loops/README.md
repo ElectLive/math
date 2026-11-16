@@ -15,18 +15,24 @@ proof route defines the scope of the project.
 all finite tables or tests all possible extension data is not, by itself, the
 structural classification sought here.
 
-## What has been achieved
+## What we have achieved
 
-The **[current research catalogue](CURRENT_RESULTS.md)** is the main guide to the broader programme. It includes:
+The project has developed constructions and classifications in several branches:
 
-- An all-field classification for paired PSL₂ canonical envelopes, with an explicit endpoint table for every prime power q and path length k.
-- A complete paired A₅/PSL₂(7) matrix classification for arbitrary factor multiplicities, and mixed families outside the exact-factorization-isotope and Bruck-isotope routes.
-- Intrinsic graph recognition of exact-factorization witnesses, plus restrictions on nonpaired inversion.
-- Odd class-two parameterizations, isotope orbits, monolithic constructions and unbounded solvable complexity.
-- Elementary S₅ Bruck parameters, uniform exclusions of specified radical families, and the remaining actual nonsplit lifting problem.
-- Affine-subgroup classifications and scoped SD/TW primitive-group exclusions.
+- A proposed finite simple proper Bol loop that is neither a G-loop nor isotopic to a Bruck loop, addressing Nagy's existence question below.
+- Classifications for specified radical-free envelopes, including PSL₂(q)-power and nonpermuting A₅-socle cases; constructions and classifications also treat several factor-permuting cases.
+- Structural results for odd-order, Bruck, affine and primitive-action branches, including families with unbounded group-theoretic complexity and concrete restrictions on possible envelopes.
 
-These are differently scoped results, not one completed classification. The catalogue distinguishes recorded model reviews from new unreviewed appendices and links the mathematical sources and controls. **Start there for achievements and concrete collaboration targets.**
+Each result has specific hypotheses and review status. See the [research catalogue](CURRENT_RESULTS.md) for precise statements, sources and limitations. These are not a classification of all finite simple Bol loops.
+
+## What collaborators can do
+
+- **Classify the remaining factor-permuting cases.** Determine the isomorphism orbits in the surviving exponent-25 extraspecial-top case and extend the analysis to broader regular tops.
+- **Go beyond the known socle models.** Identify or classify simple Bol loops with canonical envelopes outside the PSL₂ and A₅ families already studied.
+- **Resolve nonsplit Bruck lifting.** Prove or refute compatibility of the actual extension, inversion, stabilizer and section data in the remaining cases.
+- **Make odd-layer reductions exhaustive.** Turn the current compression and extension constraints into classifications without losing multiplicity or cohomological data.
+
+The [open problem board](OPEN_PROBLEMS.md) has more detail and links to the relevant work. References, counterexamples, constructions and ideas for attacking these questions are all welcome; see [how to contribute](CONTRIBUTING.md).
 
 ## One milestone: a simple Bol loop outside two familiar classes
 
