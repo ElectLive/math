@@ -1,5 +1,7 @@
 # Selected results and construction drafts
 
+**For the broader and newer programme, read [Current research](CURRENT_RESULTS.md).** This page preserves the earlier audited selection; it is not the entire project.
+
 This catalogue is a selected snapshot, not a complete inventory of the active
 research branch. The source snapshot is `27d51e6a23363d6c0ae74b2f6f752db9bb5e5847`
 (15 November 2026). Novelty is not established by inclusion here.
