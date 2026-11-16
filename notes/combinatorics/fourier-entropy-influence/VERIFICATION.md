@@ -1,0 +1,124 @@
+# Verification, review, and source identity
+
+**Mira Cult · 16 November 2026**
+
+The [catalogue](CATALOGUE.md) records the mathematical results. This note
+records how their proofs and finite evidence were checked. A conventional
+proof, a model mathematical review, a finite computation, and a rendered
+publication check are distinct forms of evidence. None of this collection
+is claimed to have an end-to-end Lean proof, human-expert review, or journal
+referee acceptance.
+
+## Exact scientific sources
+
+The principal new scientific revision is
+`d2b95c607a1d4b21c5eace6b3d52771e74905196`, tree
+`44d74cd7a1ffff4254c6801abfa8a1f2f16b9320`.
+The selector's constant-function wording was corrected at
+`f76b9e8c44e4f343bafaa41dd732f459db210b04`, tree
+`b8cdf1c30f408d7e3592692cb2f39f5281ff32d9`.
+The bridge's description of constant four was corrected from an unsupported
+optimality adjective to “preserved constant four” at
+`23017f19c0969367672e98d350da38d028746e7b`, tree
+`b8793a200ebcafaab7649d08e66ce7e869ed144b`.
+Neither wording correction changes a displayed inequality or proof.
+
+The public manuscripts reorganize those mathematical sources, remove
+research administration, supply all local proof dependencies, and adapt
+math delimiters for GitHub. Their public file hashes therefore differ
+from the source manuscript hashes. All eight programs are copied
+byte-for-byte. A retained source-to-public crosswalk binds the source
+revision, source hash, public location and public hash for every file.
+No private repository link is needed to read any proof in this collection.
+
+## Three nonauthor reviews of the new results
+
+Three separate ChatGPT model reviewers checked the new results at exact
+source revisions. Each reviewed work they did not author. Their scopes
+were deliberately separated from their own contributions.
+
+| Review | Source and independently checked scope | Decision and exclusions |
+| --- | --- | --- |
+| Cycle facets and conditioning | At `d2b95c…`: modular affine-support lifting, use of Barahona–Mahjoub, odd-prime exclusion, integer dyadic forest sections, exact scaling and adaptive cuts, common-feedback-vertex FEI, cactus cutset payment, and explicit cycle/facet/graph examples. Both corresponding Python programs were rerun. | **PASS.** The fixed-cutset conversion to $`4+(8/3)(k-1)`$ and the two-bit integer counterexample were initially excluded because of reviewer participation; the separate integer reviewer checked those exact portions in a dated addendum. The old forest induction was a previously reviewed input. |
+| Physical interpolation and Boolean bridges | At `d2b95c…`, with the exact prose corrections inspected at `f76b9e8…` and `23017f1…`: half-bit scalar inequality, rational Bernstein certificate, adaptive telescoping, shared-data examples, separated-amplitude estimate, explicit selector counterexamples, Boolean minimum-layer improvement, fair-completion bound, majority mixture obstruction, and tree projection with zeros. Both programs were rerun. | **PASS after the constant-function wording correction.** No independent review of the reviewer's own cycle/cactus/section work is asserted. The later “preserved constant four” wording does not assert optimality for the first-hit-list class. |
+| Integer forests and bounded conditioning | At `d2b95c…`: integer local factorization, logarithmic Sobolev normalization and scalar constants, raw entropy scaling, deterministic quotients, near-constant sections, bounded conditioning, and the local integrality defect. The Python program and compiled C scan at three variables were rerun. The two ancillary dyadic-conditioning claims above were also checked at unchanged source bytes. | **PASS.** The reviewer did not author these results. Their own physical interpolation and co-derived Boolean minimum-layer improvement are outside this independent review. The optional four-variable C scan was not independently rerun. |
+
+The cycle reviewer independently retrieved the original Barahona–Mahjoub
+paper and checked the exact facet theorem used. The integer reviewer
+independently checked the Gross cube normalization in the primary
+O'Donnell–Wright–Zhou paper. These checks verify the cited interfaces;
+they do not reprove the full classical external theorems.
+
+## Previously reviewed proof dependencies
+
+The public account includes the actual proofs rather than relying on a
+claim that an earlier checkpoint was reviewed:
+
+- **Forest arithmetic and completion:** the source-bound review at
+  `45edf7efcece6b0e99dadcdffab5bd94111704dd` covers odd-prime exclusion,
+  rational factors with zeros, min-sum localization, odd-amplitude rigidity,
+  prefix/bent completion, and the explicit core and packet obstruction.
+- **Positive forests:** review at
+  `5bd3bfcc6f4a1a0da81021084398127b303b8ea9` covers the full
+  minimum-layer, range/degree, simultaneous Gibbs/cross-field induction,
+  FEI deduction, and hard-zero boundary. Its published checker rerun
+  reported 65,814 Boolean functions and 37,926 integer tree energies.
+- **Deterministic contraction:** review at
+  `a694775cc6f9292c248ef83605da950d0eb0ec31` independently checks the
+  quotient map, preserved Booleanity and entropy, and influence inequality.
+  The public version includes the complete contraction proof only; it
+  does not enlarge it to all hard-zero edges.
+- **Integer flat packets:** review at
+  `38621cb84d0a4a5cd2eba36772f3b4eea524ee05` independently checks the
+  flat-packet and signed-partition argument. A separate source-bound
+  review at that revision checks the determinant input used by the
+  bounded-spread extension. The extension's contributing reviewer did
+  not describe their own determinant work as independent.
+
+The restored source hashes for these dependency manuscripts match the
+hashes in those review records. Their historical reviews do not, by
+themselves, certify later editorial changes in this public adaptation.
+
+## Finite checks and their limits
+
+[code/README.md](code/README.md) gives exact commands, parameters, counts,
+and which comparisons use floating point. The following are particularly
+important distinctions:
+
+- The half-bit inequality is justified by an analytic reduction and
+  fourteen positive **rational Bernstein coefficients**, not numerical
+  minimization of a curve.
+- Boolean transforms, support tests, modular lifting examples, graph
+  cutsets, and the displayed rational examples use exact integers or
+  fractions.
+- The integer-factor program's random tensor/product tests and the C
+  program's entropy ratios are numerical diagnostics. Their exact
+  classification counts are a different claim.
+- The four-variable ternary scan's 43,046,721-case count was an author
+  run. The independent reviewer compiled and reran through three
+  variables, reproducing 704 positive forests among 6,561 tables.
+- The explicit 257-input selector obstruction is evaluated through an
+  exact, proved composition recurrence. No enumeration of its full truth
+  table is claimed.
+
+For this public adaptation all seven byte-identical Python programs were
+rerun successfully from the public note directory using Python 3.12.14.
+The C scan was compiled with `cc -O3` and rerun at three variables,
+again reporting 6,561 cases, 704 positive forests, and largest odd part
+three. The optional four-variable C scan was not repeated. The copied
+program bytes were compared to their scientific sources. The public
+Markdown's local file links, heading anchors, balanced fences, and converted
+math delimiters were also checked; no missing local link or anchor remained.
+
+## Public presentation check
+
+The public rewrite has a separate statement-scope, dependency-completeness,
+and source-fidelity review. This is an editorial and mathematical-interface
+check of the adaptation, not an additional independent review of a
+reviewer's own scientific contributions.
+
+At preparation time, actual rendered GitHub pages have not yet been
+inspected. The publisher must check the published revision's mathematical
+rendering, links, tables, and code paths; a delimiter conversion alone does
+not certify the target rendering. No completed rendering check is claimed
+by this prepublication record.

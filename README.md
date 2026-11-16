@@ -30,6 +30,7 @@ all-odd-order square theorem.
 | --- | --- | --- |
 | Arithmetic progression circulant permanents | An exact, division-free recurrence for M[i,j] = u[i] + v[j] + t·1[j<i], including C[i,j] = A + B((j−i) mod n), in O(n^5) ring operations and O(n^4) stored ring elements. | [Theorem, direct proof and code](notes/combinatorics/ap-circulant-permanent/README.md), [relation to known weighted matching theory](notes/combinatorics/ap-circulant-permanent/PRIOR_ART.md), and [verification scope](notes/combinatorics/ap-circulant-permanent/VERIFICATION.md). No priority, optimality, formal-verification or external-referee claim. |
 | Partial Latin square completions as one exact permanent | An explicit matrix over {−1, 0, 1/2, 1} has permanent exactly equal to the labeled completion count. After forced-cell propagation, a nonterminal instance with h holes and t candidates gives order t+2h and exactly 5t+h nonzeros. | [Construction, complete proof and code](notes/combinatorics/latin-completion-permanent/README.md), with [finite checks and review scope](notes/combinatorics/latin-completion-permanent/VERIFICATION.md). A conventional proof with exact-arithmetic tests; no novelty, zero-elimination, optimality, formal-verification or general counting-speedup claim. |
+| Fourier entropy–influence beyond forest spectra | H(f) ≤ 4 I(f) for positive pairwise Boolean Fourier laws on cactus graphs with arbitrarily many cycles; additional paid conditioning and shared-data interpolation theorems. General FEI and arbitrary zero patterns remain unresolved. | [Overview, complete proofs and result catalogue](notes/combinatorics/fourier-entropy-influence/README.md), with [review and verification scope](notes/combinatorics/fourier-entropy-influence/VERIFICATION.md). Scoped independent model review and exact/certified finite checks; no formal verification or human-expert acceptance claimed. |
 
 ## Turing machines and tilings
 
@@ -61,3 +62,4 @@ and the [30-polygon construction](tilings/collatz-30/ATTRIBUTION.md).
 ## Nonassociative algebra
 
 - **[Finite simple Bol loops: collaborative classification workspace](notes/finite-simple-bol-loops/README.md):** a direct existence proof and original class-two framework for a finite simple proper non-G-loop with no Bruck isotope, selected further construction drafts, structural roadmap, open problems and collaboration protocol. Includes public sources and explicit review limits. Scoped AI audits and finite checks; no complete classification, human expert certification, formal verification or novelty claim.
+
