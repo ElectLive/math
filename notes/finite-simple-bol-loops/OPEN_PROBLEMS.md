@@ -18,7 +18,7 @@ collaboration, not claims of new problems in the literature.
 | BOL-AFFINE | Which regular affine subgroups outside the classified root-type slices give distinct simple proper loops? | A new projection type, or a complete normal form with overlap and isomorphism analysis. |
 | BOL-EVEN | How can the even non-Bruck route be reduced without discarding admissible radical extensions? | A compatible section construction or a uniform obstruction, not only a numerical group bound. |
 | BOL-ACTIONS | Can a finite simple proper Bol loop have primitive one-sided multiplication group, and which full multiplication actions occur? | A proof or counterexample for a precise action class; explicitly say which multiplication group is used. |
-| BOL-PRIOR-ART | Which constructions or reductions already occur in the literature? | Exact theorem locators, convention translations, and a comparison of hypotheses and conclusions. |
+| BOL-PRIOR-ART | Which references should researchers and their AI tools know about? | Add a link or citation and a sentence of relevance to the [shared reading list](REFERENCES.md). Theorem locators, convention notes and errata are welcome, not prerequisites. |
 
 ## Choosing work
 
