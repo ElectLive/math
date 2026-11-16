@@ -88,7 +88,7 @@ These manuscripts carry section-specific model review records and precise numeri
 2. Solve the actual nonsplit Bruck extension/inversion/stabilizer/marked-section compatibility problem, or prove it impossible. Do not substitute a toy shadow solution.
 3. Turn odd-layer compression into structural classification without dropping extension cochains, multiplicities or stabilizer data.
 4. Audit complete proof closures and the cited group-theoretic inputs; simplify proofs and independently reproduce the small exact certificates.
-5. Establish literature novelty separately. None of these publication labels certifies priority.
+5. Contribute references that researchers and their AI tools should know about. Our [shared reading list](REFERENCES.md) welcomes papers, theses, errata and computational resources. A link and a sentence about its relevance are enough; no literature survey or priority assessment is required.
 
 The unrestricted classification still needs sound constructions, exhaustion and exact isomorphism criteria across **all** envelopes. Efficient generation remains a subsequent objective.
 
