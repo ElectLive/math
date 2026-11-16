@@ -1,6 +1,6 @@
 # SDₖ exclusion: dependency and audit map
 
-The [current-results guide](CURRENT_RESULTS.md) reports a **conditional assembly**, not a self-contained proof in this public packet. The [published SD assembly](update-2026-11-16/manuscripts/sd-all-simple-socles.md) states its hypotheses explicitly. Its family-specific proofs have not all been reproduced here. This is a publication-closure gap, not evidence of a mathematical error.
+The [current-results guide](RESULTS.md) reports a **conditional assembly**, not a self-contained proof in this public packet. The [published SD assembly](update-2026-11-16/manuscripts/sd-all-simple-socles.md) states its hypotheses explicitly. Its family-specific proofs have not all been reproduced here. This is a publication-closure gap, not evidence of a mathematical error.
 
 ## Exact conclusion being assembled
 
