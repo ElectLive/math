@@ -15,8 +15,12 @@ statement can change after the reviewed revision.
 
 ## Release gate for each result
 
-Before a construction enters the public catalogue, include its complete proof
-dependencies or immutable accessible public references. Record the source commit,
+Before describing an entry as a self-contained public proof package, include its complete proof
+dependencies or immutable accessible public references. A research milestone may be
+listed before that closure is complete only if its statement and source are available,
+its missing inputs are identified, and it is explicitly labeled a reported result or
+conditional assembly rather than a fully auditable public proof. Proposed continuations
+must remain separately labeled. Record the source commit,
 exported file hashes, transformations made during export, exact reviewed source
 revisions, and this release's audit limits. Do not publish an inaccessible private
 link as a substitute for an argument.
