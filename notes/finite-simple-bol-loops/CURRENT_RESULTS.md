@@ -1,4 +1,6 @@
-# Current research: constructions, classifications and structural obstructions
+# Research snapshot: constructions, classifications and structural obstructions
+
+**Later developments:** read [current advances](CURRENT_ADVANCES.md) before choosing a task. This page retains the earlier snapshot; its paired-inversion limitations and unreviewed A₅ appendix status are historical, not the current frontier. See [onboarding](START_HERE.md) and [public coverage](COVERAGE_AUDIT.md).
 
 **Snapshot: 16 November 2026, source revision `67cced817f7d24e36d78990c73828ade4f218091`.** This page is the front door to the broader programme, not just the rigid-center example. It records what the manuscripts claim, their mathematical scope and the reviews they report. The expansion is a publication and reconciliation pass, **not a fresh independent proof audit**. Recorded reviews are by AI models, not human referees or formal proof checkers. A later appendix does not inherit an earlier section's acceptance automatically.
 
