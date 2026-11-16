@@ -52,7 +52,7 @@ Numbered expositions are linked where available. Other links identify supporting
 | 0028 | mixed factor matrix classification | [Consolidated writeup](manuscripts/0028-0030-mixed-paired-classification.md)<br>[Classification of paired A5/PSL2(7) canonical envelopes](update-2026-11-16/manuscripts/radical-free-mixed-matrix-classification.md) |
 | 0029 | mixed factor path construction | [Consolidated writeup](manuscripts/0028-0030-mixed-paired-classification.md)<br>[Correlated two-type path family](update-2026-11-16/manuscripts/radical-free-mixed-paths.md) |
 | 0030 | splitting atom bipartite criterion | [Consolidated writeup](manuscripts/0028-0030-mixed-paired-classification.md)<br>[Bipartite recognition of exact-factorization witnesses in paired semisimple folders](update-2026-11-16/manuscripts/radical-free-bipartite-witness.md) |
-| 0031 | factor permuting constructions | [Radical-free canonical groups with unbounded factor-permutation cycles](advances-2026-11-16/manuscripts/radical-free-factor-permutation-construction.md) |
+| 0031 | Simple Bol loops with unbounded factor-permutation cycles | [Construction and complete group-theoretic proof](manuscripts/0031-factor-permuting-construction.md) |
 | 0032 | a5 regular cyclic tops | [Classification of cyclic-wreath A5 envelopes](advances-2026-11-16/manuscripts/radical-free-a5-cyclic-top.md) |
 | 0033 | a5 regular abelian tops | [Abelian regular-top A5 envelopes](advances-2026-11-16/manuscripts/radical-free-a5-abelian-top.md) |
 | 0034 | a5 modular order27 top | [Six simple Bol folders for the modular order-27 top](advances-2026-11-16/manuscripts/radical-free-a5-nonabelian-27.md) |
