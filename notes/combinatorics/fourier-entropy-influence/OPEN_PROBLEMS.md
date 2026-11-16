@@ -42,6 +42,101 @@ integer representation, or a different paid entropy inequality, for
 arbitrary Boolean Walsh tensors. Grouping a large bag into one factor
 retains its arity cost; it does not give a dimension-independent theorem.
 
+## Uniform absorption fails near constants
+
+The positive-factor proof cannot be extended to arbitrary positive Boolean
+spectra by proving the same invariant with fixed coefficients. This already
+fails for rare-point phases, independently of any support-zero issue.
+
+**Proposition.** There are no universal constants $`\eta\lt1`$ and finite
+$`B`$ such that every positive Boolean Fourier law satisfies
+
+```math
+D_2(p_f\Vert U_n)\le\eta L_f+B I(f),
+\qquad L_f=\mathbb E_{p_f}\log_2(2^n|\widehat f(S)|).
+```
+
+**Proof.** For $`n\ge2`$, let $`f_n(x)=1-2\mathbf1_{\{x=(1,\ldots,1)\}}`$.
+Its coefficients and influence are exactly
+
+```math
+\widehat f_n(\varnothing)=1-2^{1-n},\qquad
+\widehat f_n(S)=-2^{1-n}\quad(S\ne\varnothing),\qquad
+I(f_n)=n2^{1-n}.
+```
+
+All coefficients are nonzero. Set $`p_0=(1-2^{1-n})^2`$. Its integer
+Walsh magnitudes are $`2^n-2`$ at the empty set and $`2`$ elsewhere, so
+
+```math
+L_f=p_0\log_2(2^n-2)+(1-p_0),\qquad
+H(f_n)=2(n-L_f),\qquad D_2(p_f\Vert U_n)=2L_f-n.
+```
+
+Consequently $`L_f/n\to1`$, $`D_2(p_f\Vert U_n)/n\to1`$, and
+$`I(f_n)/n\to0`$. Dividing the proposed bound by $`n`$ would give
+$`1\le\eta`$. This contradicts the hypothesis. The example is not an FEI
+counterexample: $`H(f_n)/I(f_n)\to4`$. ∎
+
+A mean-sensitive repair must therefore change the invariant. The following
+standard consequence of edge isoperimetry isolates a cost that can already
+be paid. No novelty is claimed for this elementary entropy bound.
+
+**Lemma (the constant-atom label costs at most twice influence).** Let
+$`v=\mathrm{Var}(f)`$. If $`v>0`$, let $`p_*`$ be the squared Fourier
+law conditioned on $`S\ne\varnothing`$. Then
+
+```math
+H(f)=h_2(v)+vH(p_*),\qquad h_2(v)\le2I(f).
+```
+
+For $`v=0`$, define the weighted conditional term to be zero; both sides of
+the entropy identity are zero. When $`v=1`$, the binary entropy is zero.
+
+**Proof.** After negating $`f`$ if needed, let $`\delta\le1/2`$ be the
+probability of its minority value. Then $`v=4\delta(1-\delta)`$. The
+automatic identity is the entropy chain rule for the indicator of a
+nonempty Fourier set.
+
+In the present sign-function normalization, edge isoperimetry is
+$`I(f)\ge2\delta\log_2(1/\delta)`$. One self-contained proof uses the
+unordered edge boundary $`b(A)`$ of a subset of the cube. Split it into
+halves of sizes $`a,b`$. Induction bounds their internal boundaries by
+$`a\log_2(2^{n-1}/a)+b\log_2(2^{n-1}/b)`$, while cross-boundary edges
+number at least $`|a-b|`$. With $`m=a+b`$ and
+$`t=\min(a,b)/m\le1/2`$, the excess over
+$`m\log_2(2^n/m)`$ is $`m[h_2(t)-2t]\ge0`$ by entropy concavity.
+Empty sets and the zero-dimensional base are immediate. Since
+$`I(f)=2b(A)/2^n`$, the displayed normalization follows.
+
+For $`0<\delta\le1/8`$, monotonicity of binary entropy on $`[0,1/2]`$
+and $`h_2(u)\le u[\log_2(1/u)+\log_2 e]`$ imply
+
+```math
+h_2(v)\le h_2(4\delta)
+\le4\delta[\log_2(1/\delta)-2+\log_2 e]
+\le4\delta\log_2(1/\delta)\le2I(f).
+```
+
+For $`1/8\le\delta\le1/2`$, concavity of $`\delta\log_2(1/\delta)`$
+gives $`4\delta\log_2(1/\delta)\ge3/2`$, while $`h_2(v)\le1`$.
+This proves the bound in that range too. Constants were handled separately. ∎
+
+For the rare-point phases, $`p_*`$ is uniform on the $`2^n-1`$ nonempty
+sets. Directly from $`v=2^{2-n}(1-2^{-n})`$ one obtains
+
+```math
+\frac{h_2(v)}{I(f_n)}\longrightarrow2,\qquad
+\frac{vH(p_*)}{I(f_n)}\longrightarrow2.
+```
+
+Thus the factor two in the binary-label bound is asymptotically sharp.
+The unpaid target is $`vH(p_*)\le C I(f)`$ uniformly. This target is
+equivalent to FEI up to adding two to the constant: FEI implies it because
+the binary entropy is nonnegative, and the lemma gives the converse with
+constant $`C+2`$. The split removes the constant-atom obstruction; it does
+not establish the remaining conditional entropy budget.
+
 ## Genuine three-state forest edges
 
 **Target.** Prove a dimension-independent FEI bound for every Boolean
