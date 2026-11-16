@@ -49,9 +49,9 @@ Numbered expositions are linked where available. Other links identify supporting
 | 0025 | alternating form construction | [Simple odd Bol loops from alternating-form tuples](packet/manuscripts/odd-alternating-form-family.md) |
 | 0026 | PSL₂-power classification | [Classification theorem, path parameterization and proof](manuscripts/0026-psl2-power-classification.md) |
 | 0027 | a5 outer code classification | [Inversion exhaustion for nonpermuting A5-socle envelopes](advances-2026-11-16/manuscripts/radical-free-a5-code-inversion.md)<br>[Nonpermuting A5-socle extensions and paired parity-code classification](advances-2026-11-16/manuscripts/radical-free-a5-outer-codes.md) |
-| 0028 | mixed factor matrix classification | [Classification of paired A5/PSL2(7) canonical envelopes](update-2026-11-16/manuscripts/radical-free-mixed-matrix-classification.md) |
-| 0029 | mixed factor path construction | [Correlated two-type path family](update-2026-11-16/manuscripts/radical-free-mixed-paths.md) |
-| 0030 | splitting atom bipartite criterion | [Bipartite recognition of exact-factorization witnesses in paired semisimple folders](update-2026-11-16/manuscripts/radical-free-bipartite-witness.md) |
+| 0028 | mixed factor matrix classification | [Consolidated writeup](manuscripts/0028-0030-mixed-paired-classification.md)<br>[Classification of paired A5/PSL2(7) canonical envelopes](update-2026-11-16/manuscripts/radical-free-mixed-matrix-classification.md) |
+| 0029 | mixed factor path construction | [Consolidated writeup](manuscripts/0028-0030-mixed-paired-classification.md)<br>[Correlated two-type path family](update-2026-11-16/manuscripts/radical-free-mixed-paths.md) |
+| 0030 | splitting atom bipartite criterion | [Consolidated writeup](manuscripts/0028-0030-mixed-paired-classification.md)<br>[Bipartite recognition of exact-factorization witnesses in paired semisimple folders](update-2026-11-16/manuscripts/radical-free-bipartite-witness.md) |
 | 0031 | factor permuting constructions | [Radical-free canonical groups with unbounded factor-permutation cycles](advances-2026-11-16/manuscripts/radical-free-factor-permutation-construction.md) |
 | 0032 | a5 regular cyclic tops | [Classification of cyclic-wreath A5 envelopes](advances-2026-11-16/manuscripts/radical-free-a5-cyclic-top.md) |
 | 0033 | a5 regular abelian tops | [Abelian regular-top A5 envelopes](advances-2026-11-16/manuscripts/radical-free-a5-abelian-top.md) |
