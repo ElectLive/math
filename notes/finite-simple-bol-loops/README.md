@@ -8,6 +8,19 @@ dependencies, and concrete gaps where collaborators can make progress.
 all finite tables or tests all possible extension data is not, by itself, the
 structural classification sought here.
 
+## What has been achieved
+
+The **[current research catalogue](CURRENT_RESULTS.md)** is the main guide to the broader programme. It includes:
+
+- An all-field classification for paired PSL₂ canonical envelopes, with an explicit endpoint table for every prime power q and path length k.
+- A complete paired A₅/PSL₂(7) matrix classification for arbitrary factor multiplicities, and mixed families outside the exact-factorization-isotope and Bruck-isotope routes.
+- Intrinsic graph recognition of exact-factorization witnesses, plus restrictions on nonpaired inversion.
+- Odd class-two parameterizations, isotope orbits, monolithic constructions and unbounded solvable complexity.
+- Elementary S₅ Bruck parameters, uniform exclusions of specified radical families, and the remaining actual nonsplit lifting problem.
+- Affine-subgroup classifications and scoped SD/TW primitive-group exclusions.
+
+These are differently scoped results, not one completed classification. The catalogue distinguishes recorded model reviews from new unreviewed appendices and links the mathematical sources and controls. **Start there for achievements and concrete collaboration targets.**
+
 ## Two complementary proof routes
 
 - [Direct existence proof](simple-existence-proof.md): a specialized construction and lemmas for the non-G-loop/no-Bruck-isotope example, without a general class-two exhaustion theorem.
