@@ -80,6 +80,25 @@ private source bytes. Independent GitHub tree readback confirmed every file
 in the twenty-nine-file FEI package. The root index uses the non-strict
 bound to include zero influence correctly.
 
+## Later near-constant audit
+
+A further appendix in OPEN_PROBLEMS has scientific source
+`6ef4243228b13d4c36a52a59ae98007b88804a57` and public mathematical revision
+`b628cbbef3ef2ec60944f14dd426b386c0a0c1d2`. It proves that rare-point
+Boolean phases refute a fixed-coefficient extension of the positive
+absorption invariant, and gives the standard sharp binary-label bound
+h_2(Var f) <= 2 I(f), with a self-contained edge-isoperimetric proof. The
+remaining conditional entropy estimate is explicitly left unresolved.
+
+A separate nonauthor model review passed at exact private/public hashes,
+including constants, full support, normalization, both limiting ratios,
+and the C+2 equivalence. Exact Walsh computations for n=2 through 10 were
+independently checked. No novelty is claimed for the elementary binary
+entropy lemma. The public appendix differs from the private proof only in
+a variance notation macro and was inspected on the actual GitHub host.
+The bounded-treewidth proof and its prior scientific review hashes are
+unchanged by this later audit.
+
 ## Earlier scientific sources
 
 The principal scientific revision of the earlier cactus/interpolation milestone is
