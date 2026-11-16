@@ -12,7 +12,7 @@ This is a standalone extraction of the existence argument at source commit `27d5
 
 ## Data
 
-Let $`p=3`$, $`q=19`$, $`E=\mathbb F_{3^{18}}`$, choose $`\lambda\in E^\times`$ of order 19, and choose $`\eta\in\mathbb F_{19}^\times`$ of order 9. The multiplicative orders are $`\operatorname{ord}_{19}(3)=18`$ and $`\operatorname{ord}_9(19)=1`$. Let $`A=\langle a\rangle\times\langle d\rangle\cong C_9\times C_{19}`$. On the p-factor put
+Let $`p=3`$, $`q=19`$, $`E=\mathbb F_{3^{18}}`$, choose $`\lambda\in E^\times`$ of order 19, and choose $`\eta\in\mathbb F_{19}^\times`$ of order 9. The multiplicative orders are $`\mathrm{ord}_{19}(3)=18`$ and $`\mathrm{ord}_9(19)=1`$. Let $`A=\langle a\rangle\times\langle d\rangle\cong C_9\times C_{19}`$. On the p-factor put
 
 ```math
 Z_p=\mathbb F_3[\epsilon]/(\epsilon^3),\quad T_p(a)z=(1+\epsilon)z,\quad T_p(d)=1,\quad \sigma_p(\epsilon)=-\epsilon+\epsilon^2.
@@ -20,10 +20,10 @@ Z_p=\mathbb F_3[\epsilon]/(\epsilon^3),\quad T_p(a)z=(1+\epsilon)z,\quad T_p(d)=
 
 Thus $`T_p(a)`$ has order 3, while a itself has order 9; $`\sigma_pT_p(a)\sigma_p=T_p(a)^{-1}`$. Its plus subgroup has order 9 and its minus subgroup is $`\mathbb F_3(\epsilon+\epsilon^2)`$.
 
-Let $`W_p=E^4`$, with $`R_p(a)=\operatorname{diag}(J,J)`$, $`J=\left(\begin{smallmatrix}1&1\\0&1\end{smallmatrix}\right)`$, and $`R_p(d)=\lambda I`$. Define
+Let $`W_p=E^4`$, with $`R_p(a)=\mathrm{diag}(J,J)`$, $`J=\left(\begin{smallmatrix}1&1\\0&1\end{smallmatrix}\right)`$, and $`R_p(d)=\lambda I`$. Define
 
 ```math
-b_p(x,y)=\operatorname{Tr}_{E/\mathbb F_3}\bigl(x^T(B_0+B_1\epsilon+B_2\epsilon^2)y\bigr),\tag{1}
+b_p(x,y)=\mathrm{Tr}_{E/\mathbb F_3}\bigl(x^T(B_0+B_1\epsilon+B_2\epsilon^2)y\bigr),\tag{1}
 ```
 
 using the explicit matrices over $`\mathbb F_3`$:
@@ -101,13 +101,13 @@ Any isomorphism of data induces $`a\mapsto a^u`$, $`u\in(\mathbb Z/9)^\times`$, 
 M=1-\epsilon^2\quad\text{on }Z_p.\tag{5}
 ```
 
-The q-torus generator may map to a power $`d^v`$; its action on W_p is scalar $`\lambda`$, which generates E over $`\mathbb F_3`$. Thus any $`\mathbb F_3`$-linear intertwiner on W_p is E-semilinear, with the field part a Frobenius automorphism. Because the matrices (2) have $`\mathbb F_3`$-entries and trace is Frobenius-invariant, remove that field automorphism; it remains to find $`L\in\operatorname{GL}_4(E)`$ commuting with $`R_p(a)`$ and satisfying
+The q-torus generator may map to a power $`d^v`$; its action on W_p is scalar $`\lambda`$, which generates E over $`\mathbb F_3`$. Thus any $`\mathbb F_3`$-linear intertwiner on W_p is E-semilinear, with the field part a Frobenius automorphism. Because the matrices (2) have $`\mathbb F_3`$-entries and trace is Frobenius-invariant, remove that field automorphism; it remains to find $`L\in\mathrm{GL}_4(E)`$ commuting with $`R_p(a)`$ and satisfying
 
 ```math
 L^TB_0L=B_0,\qquad L^TB_1L=B_1,\qquad L^TB_2L=B_2-B_0.\tag{6}
 ```
 
-Every matrix commuting with $`\operatorname{diag}(J,J)`$ has the form
+Every matrix commuting with $`\mathrm{diag}(J,J)`$ has the form
 
 ```math
 L=\begin{pmatrix}a&b&c&d\\0&a&0&c\\e&f&g&h\\0&e&0&g\end{pmatrix}.\tag{7}
@@ -267,7 +267,7 @@ First, coprime complement conjugacy gives $`C_G(\tau)\twoheadrightarrow C_{G/N}(
 
 Equality holds exactly when the projected section is a transversal. It then defines the quotient loop, with the natural projection a homomorphism.
 
-To prove sufficiency without assuming that every quotient kernel is $`\tau`$-invariant, suppose a nontrivial proper normal subloop exists and enlarge it to a maximal one $`P`$. Then $`Q/P`$ is simple. The induced epimorphism $`G\to\operatorname{LMlt}(Q/P)`$ has nontrivial proper kernel $`N`$, and the preimage of its identity stabilizer is $`HN`$. If the simple quotient is associative, its left multiplication group is solvable, so it is cyclic of prime order and has an inversion automorphism. If it is nonassociative, it also has an automorphism inverting its left translations, by the elementary argument in the next paragraph. Agreement on generating translations therefore makes $`N`$ $`\tau`$-invariant. The projected section is precisely the translations of $`Q/P`$, so the displayed ratio is one, a contradiction.
+To prove sufficiency without assuming that every quotient kernel is $`\tau`$-invariant, suppose a nontrivial proper normal subloop exists and enlarge it to a maximal one $`P`$. Then $`Q/P`$ is simple. The induced epimorphism $`G\to\mathrm{LMlt}(Q/P)`$ has nontrivial proper kernel $`N`$, and the preimage of its identity stabilizer is $`HN`$. If the simple quotient is associative, its left multiplication group is solvable, so it is cyclic of prime order and has an inversion automorphism. If it is nonassociative, it also has an automorphism inverting its left translations, by the elementary argument in the next paragraph. Agreement on generating translations therefore makes $`N`$ $`\tau`$-invariant. The projected section is precisely the translations of $`Q/P`$, so the displayed ratio is one, a contradiction.
 
 For completeness, a simple nonassociative left Bol loop has trivial left nucleus. The left and middle nuclei coincide and are normal: the Bol identity gives the autotopism $`(L_xR_x,L_x^{-1},L_x)`$; conjugating $`(L_a,1,L_a)`$ for a left-nuclear $`a`$ shows $`L_xL_aL_x^{-1}=L_c`$ with $`c`$ left-nuclear, and $`x*a=c*x`$. It follows that $`x*(a*z)=(x*a)*z`$, so the left nucleus is contained in the middle nucleus. Conversely the middle-nucleus identity together with Bol gives $`(a*y)*w=a*(y*w)`$. The resulting subgroup $`N_\lambda=N_\mu`$ has $`xN=Nx`$ and its cosets multiply as $`(Nx)(Ny)=N(xy)`$, giving a normal subloop. In a simple nonassociative loop it is therefore trivial.
 
@@ -309,7 +309,7 @@ In this shifted folder the inverting automorphism is
 
 
 ```math
-\tau_k=\operatorname{Inn}(k^{-1})\circ\tau,
+\tau_k=\mathrm{Inn}(k^{-1})\circ\tau,
 ```
 
 
