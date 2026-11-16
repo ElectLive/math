@@ -6,7 +6,7 @@
 
 The board is usable for a focused investigation of a published construction or interface. It is **not yet sufficient to restart every branch of the full classification from public sources alone**. Making it useful requires more than copying result headlines: a researcher needs exact definitions, actual proofs and imports, reproducible inputs, failed reductions, and a precise next obligation.
 
-[Start here](START_HERE.md) supplies the target and conventions; [research workflow](RESEARCH_WORKFLOW.md) supplies a repeatable task-and-review process. The [research catalogue](CURRENT_RESULTS.md) provides one coherent account of mathematical progress. Supporting source revisions remain distinguishable for reproducibility.
+[Start here](START_HERE.md) supplies the target and conventions; [research workflow](RESEARCH_WORKFLOW.md) supplies a repeatable task-and-review process. The [research catalogue](RESULTS.md) provides one coherent account of mathematical progress. Supporting source revisions remain distinguishable for reproducibility.
 
 ## Coverage dimensions
 
