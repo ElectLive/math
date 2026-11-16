@@ -36,37 +36,61 @@ The two cross scalar actions have no nonzero fixed vectors on the appropriate sy
 
 ## Normal-subgroup calculation
 
-The key module fact is that \(W_p\) and \(W_p^*\) have distinct irreducible constituents under the cross scalar. For \(p=3\), \(\operatorname{ord}_{13}(3)=3\), an odd number, so inversion is not a Frobenius power; for \(p=13\), the two distinct one-dimensional characters are \(\omega_3\) and \(\omega_3^{-1}\). Semisimplicity gives, for every \(\tau\)-stable \(a_q\)-submodule \(U\le W_p\oplus W_p^*\), a unique form
-\[U=U_0\oplus\tau(U_0),\qquad U_0=U\cap W_p.\tag{1}\]
-The multiplicity of each irreducible is two, and (1) is valid for arbitrary multiplicity subspaces, not only coordinate lines. The \(\tau\)-fixed space in \(U\) is its graph, of dimension \(\dim U_0\).
+The key module fact is that $`W_p`$ and $`W_p^*`$ have distinct irreducible constituents under the cross scalar. For $`p=3`$, $`\mathop{\mathrm{ord}}\nolimits_{13}(3)=3`$, an odd number, so inversion is not a Frobenius power; for $`p=13`$, the two distinct one-dimensional characters are $`\omega_3`$ and $`\omega_3^{-1}`$. Semisimplicity gives, for every $`\tau`$-stable $`a_q`$-submodule $`U\le W_p\oplus W_p^*`$, a unique form
 
-Let \(L\triangleleft G\) be a nontrivial \(\tau\)-stable subgroup contained in \(P_p\). If \(L\not\le Z_p\), normality under \(P_p\) gives \(Z_p\le L\): a noncentral element has a nontrivial commutator with \(P_p\), and \(|Z_p|=p\). The center-only case also has \(Z_p\le L\). Thus \(Z_p\le L\), and \(L/Z_p=U\) satisfies (1). Since \(\tau\) fixes \(Z_p\) and has order two coprime to \(p\), fixed-point lifting gives
-\[|C_L(\tau)|=p^{1+\dim U_0}=p\,|L\cap S_p|.\tag{2}\]
-The last equality follows because \(L\) contains the full center and the canonical lift of every vector of \(U_0\) in \(S_p\). For \(L=1\), both sides before the factor \(p\) equal 1.
+```math
+U=U_0\oplus\tau(U_0),\qquad U_0=U\cap W_p.\tag{1}
+```
+
+The multiplicity of each irreducible is two, and (1) is valid for arbitrary multiplicity subspaces, not only coordinate lines. The $`\tau`$-fixed space in $`U`$ is its graph, of dimension $`\dim U_0`$.
+
+Let $`L\triangleleft G`$ be a nontrivial $`\tau`$-stable subgroup contained in $`P_p`$. If $`L\not\le Z_p`$, normality under $`P_p`$ gives $`Z_p\le L`$: a noncentral element has a nontrivial commutator with $`P_p`$, and $`|Z_p|=p`$. The center-only case also has $`Z_p\le L`$. Thus $`Z_p\le L`$, and $`L/Z_p=U`$ satisfies (1). Since $`\tau`$ fixes $`Z_p`$ and has order two coprime to $`p`$, fixed-point lifting gives
+
+```math
+|C_L(\tau)|=p^{1+\dim U_0}=p\,|L\cap S_p|.\tag{2}
+```
+
+The last equality follows because $`L`$ contains the full center and the canonical lift of every vector of $`U_0`$ in $`S_p`$. For $`L=1`$, both sides before the factor $`p`$ equal 1.
 
 ## Normal subgroups inside the extraspecial kernel
 
-Put \(D=P_3\times P_{13}\). If \(N\triangleleft G\) lies in \(D\), its Sylow factors are \(L_3=N\cap P_3\) and \(L_{13}=N\cap P_{13}\), and \(N=L_3\times L_{13}\). If \(N\) is \(\tau\)-stable, so are its factors. By (2),
-\[\frac{|C_N(\tau)|}{|H\cap N|}=\prod_{p:L_p\ne1}p>1\quad(N\ne1).\tag{3}\]
+Put $`D=P_3\times P_{13}`$. If $`N\triangleleft G`$ lies in $`D`$, its Sylow factors are $`L_3=N\cap P_3`$ and $`L_{13}=N\cap P_{13}`$, and $`N=L_3\times L_{13}`$. If $`N`$ is $`\tau`$-stable, so are its factors. By (2),
+
+```math
+\frac{|C_N(\tau)|}{|H\cap N|}=\prod_{p:L_p\ne1}p>1\quad(N\ne1).\tag{3}
+```
+
 This covers central and noncentral factors, including arbitrary invariant multiplicity subspaces.
 
 ## A single torus coordinate in the image
 
-The image of any normal subgroup in \(A\cong C_3\times C_{13}\) is one of \(1,\langle a_3\rangle,\langle a_{13}\rangle,A\). Suppose \(\pi(N)=\langle a_p\rangle\), and write \(q\ne p\). The commutator of a lift of \(a_p\) with \(P_q\) has full image on \(P_q/Z_q\), because its two scalar eigenvalues differ from 1; it therefore generates all of \(P_q\), including its center. Normality gives \(P_q\le N\). Since \(P_q\) is contained, one may cancel the \(P_q\)-coordinate of each element, obtaining the internal semidirect-product decomposition
-\[N=P_q\rtimes N_p,\qquad N_p=N\cap(P_p\times\langle a_p\rangle).\tag{4}\]
-The \(a_p\)-coordinate acts nontrivially on \(P_q\), so this is generally not a direct product. Both \(P_q\) and \(N_p\) are \(\tau\)-stable.
+The image of any normal subgroup in $`A\cong C_3\times C_{13}`$ is one of $`1,\langle a_3\rangle,\langle a_{13}\rangle,A`$. Suppose $`\pi(N)=\langle a_p\rangle`$, and write $`q\ne p`$. The commutator of a lift of $`a_p`$ with $`P_q`$ has full image on $`P_q/Z_q`$, because its two scalar eigenvalues differ from 1; it therefore generates all of $`P_q`$, including its center. Normality gives $`P_q\le N`$. Since $`P_q`$ is contained, one may cancel the $`P_q`$-coordinate of each element, obtaining the internal semidirect-product decomposition
 
-Let \(L=N_p\cap P_p\). If \(Z_p\not\le L\), normality under \(P_p\) forces \(L=1\), and any lift of \(a_p\) in \(N_p\) has central \(P_p\)-coordinate \(z_p^j\). The \(\tau\)-stability of \(\langle a_p z_p^j\rangle\) forces \(j=0\), because \(\tau(a_pz_p^j)(a_pz_p^j)=z_p^{2j}\) and \(p\) is odd. Thus \(N_p=\langle a_p\rangle\), \(C_{N_p}(\tau)=1\), and \(H\cap N_p=1\).
+```math
+N=P_q\rtimes N_p,\qquad N_p=N\cap(P_p\times\langle a_p\rangle).\tag{4}
+```
 
-If \(Z_p\le L\), write a lift as \(a_pu\) with \(u\in P_p\). Normality under \(a_q\) implies \((a_q-1)(uZ_p)\in L/Z_p\); the cross scalar has no eigenvalue 1, so it follows that \(uZ_p\in L/Z_p\), whence \(u\in L\). Therefore \(a_p\in N_p\) and
-\[N_p=L\times\langle a_p\rangle,\qquad |C_{N_p}(\tau)|=|C_L(\tau)|.\tag{5}\]
-The actual stabilizer contributes \(p|S_p\cap L|\): because \(z_p\in L\), the element \(a_pz_p\) lies in \(N\), while no nonidentity \(a_q\)-coordinate does. Thus (2) gives equality between this local contribution and \(|C_{N_p}(\tau)|\). In the \(Z_p\not\le L\) case both are 1. The full opposite factor \(P_q\) contributes a strict factor \(q\), so
-\[|C_N(\tau)|=q\,|H\cap N|.\tag{6}\]
-For the fixed subgroup count in the semidirect product, \(\tau\) inverts \(a_p\); its fixed elements have trivial \(a_p\)-coordinate, so (6) is a direct count, not a false assertion that (4) is a direct product.
+The $`a_p`$-coordinate acts nontrivially on $`P_q`$, so this is generally not a direct product. Both $`P_q`$ and $`N_p`$ are $`\tau`$-stable.
+
+Let $`L=N_p\cap P_p`$. If $`Z_p\not\le L`$, normality under $`P_p`$ forces $`L=1`$, and any lift of $`a_p`$ in $`N_p`$ has central $`P_p`$-coordinate $`z_p^j`$. The $`\tau`$-stability of $`\langle a_p z_p^j\rangle`$ forces $`j=0`$, because $`\tau(a_pz_p^j)(a_pz_p^j)=z_p^{2j}`$ and $`p`$ is odd. Thus $`N_p=\langle a_p\rangle`$, $`C_{N_p}(\tau)=1`$, and $`H\cap N_p=1`$.
+
+If $`Z_p\le L`$, write a lift as $`a_pu`$ with $`u\in P_p`$. Normality under $`a_q`$ implies $`(a_q-1)(uZ_p)\in L/Z_p`$; the cross scalar has no eigenvalue 1, so it follows that $`uZ_p\in L/Z_p`$, whence $`u\in L`$. Therefore $`a_p\in N_p`$ and
+
+```math
+N_p=L\times\langle a_p\rangle,\qquad |C_{N_p}(\tau)|=|C_L(\tau)|.\tag{5}
+```
+
+The actual stabilizer contributes $`p|S_p\cap L|`$: because $`z_p\in L`$, the element $`a_pz_p`$ lies in $`N`$, while no nonidentity $`a_q`$-coordinate does. Thus (2) gives equality between this local contribution and $`|C_{N_p}(\tau)|`$. In the $`Z_p\not\le L`$ case both are 1. The full opposite factor $`P_q`$ contributes a strict factor $`q`$, so
+
+```math
+|C_N(\tau)|=q\,|H\cap N|.\tag{6}
+```
+
+For the fixed subgroup count in the semidirect product, $`\tau`$ inverts $`a_p`$; its fixed elements have trivial $`a_p`$-coordinate, so (6) is a direct count, not a false assertion that (4) is a direct product.
 
 ## Full torus image
 
-If \(\pi(N)=A\), commutators with \(P_3\) and \(P_{13}\) force both into \(N\). Then \(D\le N\) and \(\pi(N)=A\), so \(N=G\). Hence every nontrivial proper \(\tau\)-stable normal subgroup satisfies the strict defect \(|H\cap N|<|C_N(\tau)|\), subject to the group construction and calculations above.
+If $`\pi(N)=A`$, commutators with $`P_3`$ and $`P_{13}`$ force both into $`N`$. Then $`D\le N`$ and $`\pi(N)=A`$, so $`N=G`$. Hence every nontrivial proper $`\tau`$-stable normal subgroup satisfies the strict defect $`|H\cap N|<|C_N(\tau)|`$, subject to the group construction and calculations above.
 
 ## Simplicity, properness and the failed witness
 
