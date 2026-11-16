@@ -22,7 +22,7 @@ The project gives a proposed example of order **3⁷⁵·19³**. Its principal i
 
 The [mixed path construction](update-2026-11-16/manuscripts/radical-free-mixed-paths.md) gives simple proper loops of order **60ᵃ·168ᵇ for every a,b≥1**. When a and b have opposite parity, the loops have neither an exact-factorization isotope nor a Bruck isotope; the smallest displayed case has order **604800**. This is not a claim that these loops are non-G-loops.
 
-The [factor-permutation construction](advances-2026-11-16/manuscripts/radical-free-factor-permutation-construction.md) gives an order-648000 example and examples with unbounded prime cycle lengths in the action on simple factors. These constructions show why neither a single simple-factor type nor an assumption that all factors are fixed can suffice for the full classification.
+The [factor-permutation construction](manuscripts/0031-factor-permuting-construction.md) gives an order-648000 example and examples with unbounded prime cycle lengths in the action on simple factors. These constructions show why neither a single simple-factor type nor an assumption that all factors are fixed can suffice for the full classification.
 
 ## 2. Subclasses with explicit classification data
 
