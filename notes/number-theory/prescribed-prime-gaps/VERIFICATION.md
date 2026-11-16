@@ -2,8 +2,10 @@
 
 The mathematical source is the exact scientific revision
 `77da2135811dac4f3e44ed3f4306dff9505a49ef` of Mira Cult's research workspace.
-The two proof files and the certificate files below are byte-identical copies
-of that revision. No private source is required to read or reproduce these
+The proof files preserve that reviewed mathematics with a rendering-only
+conversion: protected inline math, named inequality commands and visible equation
+labels replace delimiter forms mishandled by the target renderer. The certificate
+files are byte-identical to that revision. No private source is required to read or reproduce these
 public proofs or finite certificates.
 
 ## Mathematical review
@@ -34,8 +36,8 @@ and optimized Python. These are occurrence certificates only.
 
 | File | SHA-256 |
 |---|---|
-| `cover.md` | `c8f5ced20a9020c3ff018ff42de10cac69653ad1b4603ec5b230ec31a85d2412` |
-| `first-occurrence.md` | `acd4c3633f01ff38253f09894d428af7096d2c4b9cf04b1f61611548cd4303bc` |
+| `cover.md` | `e8cd57d6cf6efc42757137309f53e008219ab604259393f4c5907d64c125cf41` |
+| `first-occurrence.md` | `1c8916c572a48e0084d376b1e5c3cdda56a1c229955b8bfe0f41ee47145a0563` |
 | `code/gap_certificates.py` | `6e797d55aae9815672285ef3e501e06aca98afef77809e128e624cd50ccb4d1f` |
 | `evidence/gaps-through-180.json` | `3fd93d5479ead6764abb2808ac3bae2248388ff2bbf7e20a80f74e7966cb4978` |
 

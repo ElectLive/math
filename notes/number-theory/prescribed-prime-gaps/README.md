@@ -2,10 +2,10 @@
 
 **Mira Cult · 16 November 2026**
 
-For every sufficiently large even integer $g$, there is a congruence class
-whose two endpoints differ by exactly $g$, remain coprime to the covering
+For every sufficiently large even integer $`g`$, there is a congruence class
+whose two endpoints differ by exactly $`g`$, remain coprime to the covering
 modulus, and have every intermediate integer forced composite. The modulus is
-subexponential in $g$:
+subexponential in $`g`$:
 
 ```math
 \log M=(8+o(1))g\frac{\log\log\log g}{\log\log g}=o(g).
@@ -24,10 +24,10 @@ consecutive reduced residues. No historical priority is claimed.
 
 | Result | Exact scope | Canonical proof |
 |---|---|---|
-| Prescribed endpoint cover | For all sufficiently large even $g$, a complete interior cover modulo $M=\prod_{p\le y}p$, with $y=8(g+1)\log_3(g+1)/\log_2(g+1)$, preserving both endpoints | [Theorem C-SUB](cover.md#the-covering-theorem) |
-| Uniform primorial gap prefix | For every fixed $c<1/8$, all even $g\le c p\log_2p/\log_3p$ occur between consecutive integers coprime to $p\#$, for every sufficiently large prime $p$ | [Corollary C-RESIDUES](cover.md#a-uniform-interval-of-gaps-between-reduced-residues) |
+| Prescribed endpoint cover | For all sufficiently large even $`g`$, a complete interior cover modulo $`M=\prod_{p\le y}p`$, with $`y=8(g+1)\log_3(g+1)/\log_2(g+1)`$, preserving both endpoints | [Theorem C-SUB](cover.md#the-covering-theorem) |
+| Uniform primorial gap prefix | For every fixed $`c\lt 1/8`$, all even $`g\le c p\log_2p/\log_3p`$ occur between consecutive integers coprime to $`p\#`$, for every sufficiently large prime $`p`$ | [Corollary C-RESIDUES](cover.md#a-uniform-interval-of-gaps-between-reduced-residues) |
 | Erdős's existence question | The smallest missing even gap tends to infinity exactly when every even prime gap occurs at least once | [Proposition R1](first-occurrence.md) |
-| Erdős's stronger rate | Assuming every gap occurs, $r(x)/\log x\to\infty$ is equivalent to a subexponential first-occurrence bound, in prime index or prime location | [Proposition R2](first-occurrence.md) |
+| Erdős's stronger rate | Assuming every gap occurs, $`r(x)/\log x\to\infty`$ is equivalent to a subexponential first-occurrence bound, in prime index or prime location | [Proposition R2](first-occurrence.md) |
 | Finite prime-gap bridge | Exact occurrences of every even gap through 180, with prime endpoints and proper divisors for every interior number | [Certificates](evidence/gaps-through-180.json) and [verifier](code/gap_certificates.py) |
 
 The complete proofs are self-contained apart from their explicitly cited
@@ -38,7 +38,7 @@ Erdős question.
 
 ## Why the cover is smaller
 
-Translate the protected offsets to $1,g+1$. Most medium-prime residue classes
+Translate the protected offsets to $`1,g+1`$. Most medium-prime residue classes
 can then be set to zero. Omit medium primes dividing the right endpoint, and
 bound the survivors arising from these exceptional factors uniformly by a
 Rankin sum. Choose nonzero classes at the small primes; surviving large prime
@@ -49,7 +49,7 @@ both endpoints. The cleanup budget gives the displayed modulus.
 This is a quantitative variant of established Erdős–Rankin and protected-tuple
 constructions. [The comparison](cover.md#comparison-for-this-corollary)
 distinguishes it from Holt–Rudd's fixed-gap primorial theorem and Ziller's
-explicit $N_{\min}(k)\ge2k$ bound. The new growing-range bound exceeds that
+explicit $`N_{\min}(k)\ge2k`$ bound. The new growing-range bound exceeds that
 identified baseline; a complete external priority assessment is still open.
 
 ## Reproduce the finite certificates
@@ -68,9 +68,9 @@ The finite certificate does not establish any infinite family.
 
 ## What remains to prove
 
-For a cover $a\pmod M$, prove that the two particular forms $Mt+a$ and
-$Mt+a+g$ are simultaneously prime. Admissibility is established; simultaneous
-primality is not. A polynomial bound in $M$ for the first such pair would,
+For a cover $`a\pmod M`$, prove that the two particular forms $`Mt+a`$ and
+$`Mt+a+g`$ are simultaneously prime. Admissibility is established; simultaneous
+primality is not. A polynomial bound in $`M`$ for the first such pair would,
 combined with the subexponential modulus and a finite bridge, imply the
 stronger Erdős rate. That quantitative two-form assertion is unproved and is
 not ordinary Linnik's theorem or a consequence supplied by qualitative Dickson.
