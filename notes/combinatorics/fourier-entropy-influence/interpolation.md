@@ -38,10 +38,12 @@ remaining data variables may be shared by arbitrarily many leaves. Let `D`
 be its number of queries on a uniform input. Then
 
 
+**Equation (1).**
+
 ```math
 \boxed{\quad H(f)-4I(f)
  \le \mathbb E_L[H(g_L)-4I(g_L)]+
-               \tfrac12\mathbb E D.\quad}                 \tag{1}
+               \tfrac12\mathbb E D.\quad}
 ```
 
 
@@ -49,8 +51,10 @@ In particular, if every leaf is an admissible forest function, and `P` is
 the probability of reaching a nonconstant leaf, then
 
 
+**Equation (2).**
+
 ```math
-\boxed{\quad H(f)\le4I(f)+\tfrac12\mathbb E D-2P.\quad}    \tag{2}
+\boxed{\quad H(f)\le4I(f)+\tfrac12\mathbb E D-2P.\quad}
 ```
 
 
@@ -71,8 +75,10 @@ at the first `j` with `z_j=+1`, and use `g_{k+1}` if no such `j` exists.
 For every `k>=1`,
 
 
+**Equation (3).**
+
 ```math
-H(f)\le4I(f)-1-2^{-k}.                                \tag{3}
+H(f)\le4I(f)-1-2^{-k}.
 ```
 
 
@@ -97,9 +103,11 @@ F(x,y)=\frac{1+x}{2}g(y)+\frac{1-x}{2}h(y),\qquad
 The Fourier coefficients are
 
 
+**Equation (4).**
+
 ```math
 \widehat F(0,T)=\frac{a_T+b_T}{2},\qquad
- \widehat F(1,T)=\frac{a_T-b_T}{2}.                       \tag{4}
+ \widehat F(1,T)=\frac{a_T-b_T}{2}.
 ```
 
 
@@ -113,8 +121,10 @@ law of its branch. If `U` is the selector Fourier bit in `p_F`, the entropy
 chain rule gives the exact identity
 
 
+**Equation (5).**
+
 ```math
-H(F)-\tfrac12[H(g)+H(h)]=H(U\mid T)+I(T;J).             \tag{5}
+H(F)-\tfrac12[H(g)+H(h)]=H(U\mid T)+I(T;J).
 ```
 
 
@@ -135,10 +145,12 @@ The symmetry of binary entropy removes the sign of the square root. Direct
 substitution in (4), or (5), gives
 
 
+**Equation (6).**
+
 ```math
 \Delta_x(F):=H(F)-\tfrac12[H(g)+H(h)]
        =\sum_T R_Td(t_T),\qquad
- I_x(F)=\sum_T R_Tt_T.                                  \tag{6}
+ I_x(F)=\sum_T R_Tt_T.
 ```
 
 
@@ -148,16 +160,20 @@ therefore charges all amplitude interference and all label information:
 **Lemma 4.** For `0<=t<=1`,
 
 
+**Equation (7).**
+
 ```math
-d(t)\le4t+\tfrac12.                \tag{7}
+d(t)\le4t+\tfrac12.
 ```
 
 
 Equations (6)--(7) imply
 
 
+**Equation (8).**
+
 ```math
-\Delta_x(F)\le4I_x(F)+\tfrac12.                         \tag{8}
+\Delta_x(F)\le4I_x(F)+\tfrac12.
 ```
 
 
@@ -172,10 +188,12 @@ The symmetry `d(t)=d(1-t)` reduces (7) to `0<=t<=1/2`.
 Put `w=4t(1-t)`, so `0<=w<=1`. The binary entropy series is
 
 
+**Equation (9).**
+
 ```math
 1-h_2((1+z)/2)
    =\frac1{\ln2}\sum_{j\ge1}
-          \frac{z^{2j}}{2j(2j-1)},\qquad |z|\le1.       \tag{9}
+          \frac{z^{2j}}{2j(2j-1)},\qquad |z|\le1.
 ```
 
 
@@ -183,10 +201,12 @@ Its coefficients are nonnegative and sum to one after division by `ln2`.
 Keep the first two terms and bound every remaining `w^j` by `w^3`:
 
 
+**Equation (10).**
+
 ```math
 1-h_2\!\left(\tfrac12+\sqrt{t(1-t)}\right)
  \le\frac{w}{2\ln2}+\frac{w^2}{12\ln2}
-       +\left(1-\frac7{12\ln2}\right)w^3.              \tag{10}
+       +\left(1-\frac7{12\ln2}\right)w^3.
 ```
 
 
@@ -196,8 +216,10 @@ terms in (9). Also
 gives, with `L=log_2 3`,
 
 
+**Equation (11).**
+
 ```math
-h_2(t)\le2-L+Lt-\frac2{\ln2}(t-\tfrac14)^2.           \tag{11}
+h_2(t)\le2-L+Lt-\frac2{\ln2}(t-\tfrac14)^2.
 ```
 
 
@@ -374,9 +396,11 @@ least two. This holds whenever both branch spectra have only
 power-of-two magnitudes. Then
 
 
+**Equation (12).**
+
 ```math
 \Delta_x(F)\le C_* I_x(F),\qquad
- C_*=36-18\log_2 3\quad(7.470<C_*<7.471).               \tag{12}
+ C_*=36-18\log_2 3\quad(7.470<C_*<7.471).
 ```
 
 
@@ -449,8 +473,10 @@ disjoint self-composition to depth `d`, with `b_1=b`. The established
 balanced composition identities give
 
 
+**Equation (13).**
+
 ```math
-I(b_d)=(3/2)^d,\qquad H(b_d)=6((3/2)^d-1).              \tag{13}
+I(b_d)=(3/2)^d,\qquad H(b_d)=6((3/2)^d-1).
 ```
 
 

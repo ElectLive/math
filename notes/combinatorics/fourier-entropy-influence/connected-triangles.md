@@ -60,10 +60,11 @@ $`(a_i,b_i,c_i,d_i)`$, and disjoint eight-bit address blocks $`z_i`$.
 All coordinates in the next display are physical 0/1 coordinates. Put
 $`b_0=0`$ and define
 
+**Equation (1).**
+
 ```math
 G_m(x)=\prod_{i=1}^{m}
  F(a_i\mathbin\oplus b_{i-1},b_i,c_i,d_i,z_i).
-\tag{1}
 ```
 
 The linear physical change in (1) is invertible: all $`b_i`$ are unchanged,
@@ -78,10 +79,11 @@ change is
 with all other spectral coordinates unchanged, including $`b_m`$.
 Consequently, putting $`t_i=a_{i+1}`$ for $`i<m`$ and $`t_m=0`$,
 
+**Equation (2).**
+
 ```math
 p_{G_m}(s,t)=2^{-8m}4^{V_m(s)-4m},\qquad
 V_m(s)=\sum_{i=1}^m v(a_i,b_i\oplus t_i,c_i,d_i).
-\tag{2}
 ```
 
 This proves full support and Boolean realizability, not just normalization
@@ -91,6 +93,8 @@ of a proposed Gibbs law.
 
 For $`i<m`$, the expanded summand in (2) is
 
+**Equation (3).**
+
 ```math
 \begin{aligned}
 v(a_i,b_i\oplus a_{i+1},c_i,d_i)
@@ -99,7 +103,6 @@ v(a_i,b_i\oplus a_{i+1},c_i,d_i)
  &+a_i b_i+a_i a_{i+1}-2a_i b_i a_{i+1}\\
  &+b_i c_i+a_{i+1}c_i-2b_i c_i a_{i+1}+c_i d_i.
 \end{aligned}
-\tag{3}
 ```
 
 Both triple coefficients are $`-2`$; no other summand contains either
@@ -159,10 +162,11 @@ Let $`\widetilde G_m=G_m\prod_i(-1)^{x_{d_i}}`$, which complements the
 spectral $`d_i`$ bits. This preserves full support, the genuine triples,
 and the graph-width conclusions. Then
 
+**Equation (4).**
+
 ```math
 H(\widetilde G_m)=\frac{345m}{32},\qquad
 I(\widetilde G_m)=\frac{321m}{64}+\frac{465(m-1)}{8192}.
-\tag{4}
 ```
 
 These functions already satisfy constant four by (4). The construction is
