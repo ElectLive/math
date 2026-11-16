@@ -153,7 +153,7 @@ For $`h\mid f`$, let $`M_h`$ be the number of nonzero elements of $`\mathbb F_{p
 
 
 ```math
-M_h=p^h-1-\sum_{\substack{d\mid h\\d<h}}M_d.
+M_h=p^h-1-\sum_{\substack{d\mid h\\d\lt h}}M_d.
 ```
 
 
