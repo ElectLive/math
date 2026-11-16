@@ -1,10 +1,8 @@
-# Constructions and proof details
+# A simple Bol loop outside both G-loops and Bruck isotopes
 
-This page presents selected constructions and their proof details. For the full programme and its open directions, see the [research catalogue](CURRENT_RESULTS.md).
+Nagy's existence question asks whether these two familiar classes fail to cover the finite simple proper Bol loops. This page explains the project's proposed counterexample and its two proof routes. See the [results catalogue](CURRENT_RESULTS.md) for the broader classification programme.
 
-The constructions on this page are drawn from source revision `27d51e6a23363d6c0ae74b2f6f752db9bb5e5847`. Inclusion does not establish novelty.
-
-## A finite simple proper Bol loop outside both historical classes
+## The result
 
 The [specialized existence proof](simple-existence-proof.md) gives a direct route.
 The [original class-two framework](packet/manuscripts/odd-class-two-classification.md)
@@ -13,11 +11,9 @@ is also preserved, with its broader review limits distinguished.
 The [rigid-center manuscript](packet/manuscripts/odd-rigid-center-nongloop.md)
 constructs a finite simple proper **left** Bol loop of order
 
-
 ```math
 3^{75}19^3
 ```
-
 
 which is not a G-loop and is not isotopic to a Bruck loop. The non-G-loop argument
 exhibits a principal isotope and excludes an isomorphism using the precise
@@ -41,23 +37,3 @@ Neither check constructs the huge loop or replaces the universal proof.
 
 See [packet scope](packet/README.md) before using the supplementary sources.
 
-## Further selected construction and classification drafts
-
-The following are selected contributions from the same snapshot. Their local
-arguments received scoped model review; supporting source files are included.
-That review is not a complete new audit of every imported or supplementary theorem.
-The manuscript statements retain their exact hypotheses and original review scope.
-
-| Development | Exact mathematical value | What it does not establish |
-| --- | --- | --- |
-| [Unbounded derived nilpotency class](packet/manuscripts/odd-unbounded-derived-class.md) | For every c≥2, constructs odd simple proper loops whose canonical `LMlt` derived subgroup is nilpotent of class c. | An exhaustive description of all higher-class envelopes. |
-| [Unbounded derived length](packet/manuscripts/odd-unbounded-derived-length.md) | For every n≥4, constructs odd simple proper G-loops with canonical group derived length 1+⌈log₂n⌉. | A uniform bound or a complete solvable-envelope classification. |
-| [Unbounded Fitting height](packet/manuscripts/odd-unbounded-fitting-height.md) | Constructs odd simple proper loops with canonical group Fitting height h+3 for every h≥0. | The impossibility of any structural classification. |
-| [Matrix-pair embedding](packet/manuscripts/odd-matrix-pair-embedding.md) | Encodes simultaneous similarity of arbitrary matrix pairs as loop isomorphism in a specified odd simple proper G-loop family. | A polynomial-size multiplication table, complexity-class hardness theorem, or all-loop classification. |
-| [Single-root affine classification](packet/manuscripts/nonbruck-single-root-classification.md) | Gives exact data for regular affine subgroups whose nontrivial linear projection lies in a single root group, with stated loop-interface hypotheses. | Exhaustion of other affine projection types or all Bol loops. |
-| [Monolithic Heisenberg and higher-defect constructions](packet/manuscripts/odd-monolithic-higher-defect-isomorphism.md) | Supplies explicit admissibility, constructions and within-family isomorphism data, including positive and negative arithmetic controls. | That displayed counts exhaust every loop of the corresponding order. |
-
-Additional [noncentral-center](packet/manuscripts/odd-noncentral-jordan-center-family.md)
-and [fixed-shadow](packet/manuscripts/odd-fixed-shadow-simple-example.md) constructions delimit proposed
-normal forms. The guiding lesson is structural: a viable classification must
-accommodate more than one simple quotient pattern or one bounded group invariant.
