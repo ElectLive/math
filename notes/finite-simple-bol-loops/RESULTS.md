@@ -83,8 +83,8 @@ For [arbitrary odd prime-power regular tops](advances-2026-11-16/manuscripts/rad
 
 The odd-order constructions force any classification to accommodate:
 
-- [Every derived-subgroup nilpotency class c≥2](packet/manuscripts/odd-unbounded-derived-class.md).
-- [Unbounded derived length](packet/manuscripts/odd-unbounded-derived-length.md) and [unbounded Fitting height](packet/manuscripts/odd-unbounded-fitting-height.md) of the canonical group.
+- [Every derived-subgroup nilpotency class c≥2](manuscripts/0021-0023-unbounded-complexity.md).
+- [Unbounded derived length](manuscripts/0021-0023-unbounded-complexity.md) and [unbounded Fitting height](manuscripts/0021-0023-unbounded-complexity.md) of the canonical group.
 - [Simultaneous similarity of arbitrary matrix pairs](packet/manuscripts/odd-matrix-pair-embedding.md) inside a specified loop-isomorphism problem. This is a structural encoding, not a complexity-class hardness theorem.
 - [Noncentral derived centers](packet/manuscripts/odd-noncentral-jordan-center-family.md), [fixed-shadow phenomena](packet/manuscripts/odd-fixed-shadow-simple-example.md), and [monolithic higher-defect constructions](packet/manuscripts/odd-monolithic-higher-defect-isomorphism.md).
 
