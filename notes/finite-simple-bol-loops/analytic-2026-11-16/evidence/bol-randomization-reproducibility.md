@@ -9,9 +9,11 @@ is exported from `Mira-Cult/math-wip`, scientific revision
 `f6f415a5b05ce38b51adc9d2894c9795af500b3e`, under
 `problems/0323-finite-simple-non-moufang-bol-loops/`.
 The public export replaces the opening provenance paragraph and its
-reproducibility links, and changes 18 operator-name display macros to upright
-roman text because GitHub rejects the original macro. The mathematical content
-is unchanged; the recorded inverse restores the exact reviewed manuscript.
+reproducibility links, and applies recorded display-only repairs: 18 operator-name macros become upright
+roman text, 39 equation tags become inline text labels, less-than signs use a
+math macro, and one table ket uses delimiter macros. These avoid observed
+GitHub rendering errors. Every equation label and the mathematical content
+is retained; the recorded inverse restores the exact reviewed manuscript.
 Both new programs are copied byte for byte. Authorship is Mira Cult.
 
 The starting non-scalar scientific source is

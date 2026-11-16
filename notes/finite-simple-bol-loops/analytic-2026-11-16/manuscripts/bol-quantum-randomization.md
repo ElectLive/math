@@ -67,7 +67,7 @@ independent over $`\mathbf F_p`$, with zero common radical. Set
 ```math
  b(u,u')=\left((\mathrm{Tr}_{E/\mathbf F_p}
  w^{\mathsf T}B_iw')_i,\ \sum_i\det(v_i,v'_i)\right),\qquad
- R(a,t)(w,(v_i))=(\lambda^tw,(\eta^{a_i}v_i)).                 \tag{QR.1}
+ R(a,t)(w,(v_i))=(\lambda^tw,(\eta^{a_i}v_i)).                 \qquad\text{(QR.1)}
 ```
 
 The reciprocal loop, its sector translation, and its actual left-inner defect are
@@ -80,7 +80,7 @@ The reciprocal loop, its sector translation, and its actual left-inner defect ar
 ```math
  \ell_{x,y}=L_{x\circ y}^{-1}L_xL_y=H_{h,g},\quad
  g=b(a,v),\quad h=R(g)a-R(e)a+R(c+g)v-v,
- \qquad J_\chi(h,g)|u\rangle=\chi(b(h,u))|R(g)u\rangle .     \tag{QR.2}
+ \qquad J_\chi(h,g)|u\rangle=\chi(b(h,u))|R(g)u\rangle .     \qquad\text{(QR.2)}
 ```
 
 Here $`x=(a,c),y=(v,e)`$. AQ, Sections 1--4, proves the loop and Bol identities
@@ -95,7 +95,7 @@ $`\chi(a,t)=e_p(\nu\cdot a)e_m(\rho t)`$. Then
 ```math
  B_\nu=\sum_i\nu_iB_i,\qquad
  D_\chi=\ker_E B_\nu\oplus(\mathrm{ann}_{R_A}\rho)^{2k}.
-                                                                    \tag{QR.3}
+                                                                    \qquad\text{(QR.3)}
 ```
 
 The dense starting channel uses independent uniform $`x,y,z\in\mathcal L=U\times Z`$:
@@ -103,7 +103,7 @@ The dense starting channel uses independent uniform $`x,y,z\in\mathcal L=U\times
 ```math
  V_{x,y,z}=\pi_\chi(z)^{-1}J_\chi(\ell_{x,y})\pi_\chi(z),\qquad
  \Phi_\chi(T)=\mathbb E_{x,y,z}V_{x,y,z}TV_{x,y,z}^*,\qquad
- \mathcal E(T)=\mathrm{Tr}(T)I/d.                              \tag{QR.4}
+ \mathcal E(T)=\mathrm{Tr}(T)I/d.                              \qquad\text{(QR.4)}
 ```
 
 This is not the uniform measure on the generated defect group. The literal
@@ -116,7 +116,7 @@ Its dephasing map is
 
 ```math
  (\mathcal D_\chi T)_{uv}=\mathbf1_{\{u-v\in D_\chi\}}T_{uv}.
-                                                                    \tag{QR.5}
+                                                                    \qquad\text{(QR.5)}
 ```
 
 If and only if $`D_\chi=0`$, this is ordinary point-basis diagonal projection.
@@ -134,7 +134,7 @@ $`t\geq1`$,
  \|\Phi_\chi^t-\mathcal E\|_{2\to2}=\Lambda^t,\qquad
  \|\Phi_\chi^t(I-\mathcal D_\chi)\|_{2\to2}\leq p^{-2t},\qquad
  \Lambda=p^{-1}+(1-p^{-1})Q^{-r_{\min}},\quad
- r_{\min}=\min_i\mathrm{rank}_E B_i.                           \tag{QR.6}
+ r_{\min}=\min_i\mathrm{rank}_E B_i.                           \qquad\text{(QR.6)}
 ```
 
 The diagonal restriction attains $`\Lambda`$. Positivity and self-adjointness
@@ -144,7 +144,7 @@ bound, not an exact rate. NI's synchronized orbit spectrum proves it, and yields
 ```math
  \|\Phi_\chi^t(\rho)-I/d\|_2^2\leq
  \Lambda^{2t}\|\mathcal D_\chi\rho-I/d\|_2^2+
- p^{-4t}\|\rho-\mathcal D_\chi\rho\|_2^2.                            \tag{QR.7}
+ p^{-4t}\|\rho-\mathcal D_\chi\rho\|_2^2.                            \qquad\text{(QR.7)}
 ```
 
 The spread/aligned families in NI, Section 9, have degenerate scalar sectors.
@@ -165,7 +165,7 @@ The three distinct errors are
  e_1(\Psi)=\sup_{\rho\geq0,\mathrm{Tr}\rho=1}
              \|\Psi(\rho)-I/d\|_1,\qquad
  e_2(\Psi)=\|\Psi-\mathcal E\|_{2\to2},\qquad
- e_\diamond(\Psi)=\|\Psi-\mathcal E\|_\diamond.                       \tag{QR.8}
+ e_\diamond(\Psi)=\|\Psi-\mathcal E\|_\diamond.                       \qquad\text{(QR.8)}
 ```
 
 We do not divide trace norm by two. The diamond target replaces the input by
@@ -185,7 +185,7 @@ Consequently the dense channel is sufficient for state error $`\varepsilon`$ at
  t\geq\left\lceil\frac{\log(\sqrt{d-1}/\varepsilon)}{-\log\Lambda}\right\rceil,
  \qquad
  t\geq\left\lceil\frac{\log(\sqrt{d-1}/\varepsilon)}{2\log p}\right\rceil
- \quad\hbox{if }\mathcal D_\chi\rho=I/d.                           \tag{QR.9}
+ \quad\hbox{if }\mathcal D_\chi\rho=I/d.                           \qquad\text{(QR.9)}
 ```
 
 Use $`t\geq1`$ and replace a negative bound by zero as appropriate. A sufficient
@@ -198,7 +198,7 @@ gives a different average of powers and is not covered.
 
 ```math
  e_1(\Psi)\geq2\max(0,1-M/d),\qquad
- e_\diamond(\Psi)\geq2\max(0,1-M/d^2).                            \tag{QR.10}
+ e_\diamond(\Psi)\geq2\max(0,1-M/d^2).                            \qquad\text{(QR.10)}
 ```
 
 Indeed the output on any pure input has rank at most $`M`$. Measuring its support
@@ -248,7 +248,7 @@ channel has the mixed-unitary decomposition
 ```math
  \Phi=\frac{512}{1029}\mathcal E+\frac{517}{1029}\mathcal R,
  \qquad
- \|\Phi^t-\mathcal E\|_\diamond\leq2(517/1029)^t,                 \tag{QR.9a}
+ \|\Phi^t-\mathcal E\|_\diamond\leq2(517/1029)^t,                 \qquad\text{(QR.9a)}
 ```
 
 where $`\mathcal R`$ is another unital mixed-unitary channel. Thus
@@ -263,7 +263,7 @@ $`\mathbf F_7`$ functional when its first vector is nonzero. Hence
 
 ```math
  \Pr(g_p\ne0)=\frac23(1-D^{-1}),\qquad
- \Pr(g_q\ne0)=\frac67(1-7^{-2})=\frac{288}{343},                 \tag{QR.9b}
+ \Pr(g_q\ne0)=\frac67(1-7^{-2})=\frac{288}{343},                 \qquad\text{(QR.9b)}
 ```
 
 and these events are independent. Condition on particular nonzero values of
@@ -288,7 +288,7 @@ The two conditional laws are independent, and are exactly
  \frac1{49}\delta_0+\frac{48}{49}\mathrm{Unif}(W\setminus\{0\}),
  \qquad
  \frac19\delta_0+\frac89\mathrm{Unif}(\mathbf F_7^2\setminus\{0\}).
-                                                                    \tag{QR.9c}
+                                                                    \qquad\text{(QR.9c)}
 ```
 
 Their pointwise uniform components have respective weights
@@ -302,7 +302,7 @@ The total extracted weight is
 
 ```math
  \frac23\frac{D-1}{D}\frac{288}{343}
- \frac{48D}{49(D-1)}\frac{49}{54}=\frac{512}{1029}.              \tag{QR.9d}
+ \frac{48D}{49(D-1)}\frac{49}{54}=\frac{512}{1029}.              \qquad\text{(QR.9d)}
 ```
 
 All residual weights remain nonnegative, so the remainder is mixed-unitary.
@@ -325,7 +325,7 @@ $`b(R(c)u,v)=b(u,R(c)v)`$. Direct substitution in (QR.2) gives
 ```math
  V_{x,y,z}|u\rangle=
  \chi(b(h,a)+b(a,t))\,\chi(b(H,u))|R_gu+t\rangle,
- \quad t=C^{-1}(R_g-I)a,\quad H=Ch+(R_g-I)a.                       \tag{QR.11}
+ \quad t=C^{-1}(R_g-I)a,\quad H=Ch+(R_g-I)a.                       \qquad\text{(QR.11)}
 ```
 
 The leading scalar cancels in conjugation. Thus every native unitary is a
@@ -339,14 +339,14 @@ actual defect and its translation, not merely the abstract generated group.
 ```math
  P_D=|D|^{-1}\sum_{v\in D}X_v,\qquad
  \rho_D=\frac{P_D}{d/|D|}=d^{-1}\sum_{v\in D}X_v,
- \qquad X_v|u\rangle=|u+v\rangle .                                \tag{QR.12}
+ \qquad X_v|u\rangle=|u+v\rangle .                                \qquad\text{(QR.12)}
 ```
 
 This is a stationary state for every native operation, every distribution and
 every word schedule. It has uniform point populations and
 
 ```math
- \|\rho_D-I/d\|_1=2(1-|D|^{-1}).                                 \tag{QR.13}
+ \|\rho_D-I/d\|_1=2(1-|D|^{-1}).                                 \qquad\text{(QR.13)}
 ```
 
 **Proof.** $`P_D`$ is the orthogonal projection onto $`D`$-translation-invariant
@@ -369,7 +369,7 @@ affine space of dimension at most $`\min(n_0,K-1)`$ under every word schedule.
 Consequently its trace-norm distance from $`I/d`$ is at least
 
 ```math
- 2\left(1-q_0^{\min(n_0,K-1)-n_0}\right).                         \tag{QR.14}
+ 2\left(1-q_0^{\min(n_0,K-1)-n_0}\right).                         \qquad\text{(QR.14)}
 ```
 
 **Proof.** The field permutation of generator $`j`$ is
@@ -395,7 +395,7 @@ For the remainder of the explicit algorithms fix
 ```math
  p=3,\ q=7,\ A=k=1,\ E=\mathbf F_{729},\ n=2h\geq2,\quad
  B_1=\bigoplus_{j=1}^h\begin{pmatrix}0&1\\-1&0\end{pmatrix},\quad
- \chi=(1,1),\quad N=6n,\quad D=3^N,\quad d=49D.                    \tag{QR.15}
+ \chi=(1,1),\quad N=6n,\quad D=3^N,\quad d=49D.                    \qquad\text{(QR.15)}
 ```
 
 Take $`\lambda`$ of order seven and $`\eta=2\pmod7`$. This is a
@@ -406,7 +406,7 @@ native unitaries in (QR.15) has a non-scalar common commutant. If a field actor
 is nontrivial, this commutant has dimension at least
 
 ```math
- L_K=1+\frac{729^{2n-K+1}-1}{7},                                  \tag{QR.16}
+ L_K=1+\frac{729^{2n-K+1}-1}{7},                                  \qquad\text{(QR.16)}
 ```
 
 and it contains a stationary density matrix for every word distribution with
@@ -422,7 +422,7 @@ Use symmetric Weyls
 
 ```math
  \widetilde W(v,h)=e_3(\beta(h,v)/2)X_vM_h,\qquad
- \Omega((v,h),(w,k))=\beta(h,w)-\beta(k,v).                         \tag{QR.17}
+ \Omega((v,h),(w,k))=\beta(h,w)-\beta(k,v).                         \qquad\text{(QR.17)}
 ```
 
 The division by two is in $`\mathbf F_3`$. These form an orthogonal operator
@@ -466,7 +466,7 @@ The following $`2n+1`$ operators are native:
 
 ```math
  D_R,\quad M_{t_i},\quad V_{t_i}=X_{t_i}M_{R^{-1}t_i}D_R
- \qquad(1\leq i\leq n).                                          \tag{QR.18}
+ \qquad(1\leq i\leq n).                                          \qquad\text{(QR.18)}
 ```
 
 The last operators are actual translation conjugates of the pure actor, as
@@ -482,13 +482,13 @@ this minimal list is claimed. $`\square`$
 
 ## 4. Sampling the original channel: an existence benchmark
 
-For $`0<\eta<1-\Lambda`$, sample $`M`$ independent native operations from
+For $`0\lt \eta\lt 1-\Lambda`$, sample $`M`$ independent native operations from
 the exact dense law (QR.4) and average their conjugations to obtain $`\widehat\Phi`$.
 A conservative matrix-Hoeffding bound gives
 
 ```math
  \Pr\{\|\widehat\Phi-\Phi\|_{2\to2}>\eta\}
- \leq4d^2\exp(-M\eta^2/32).                                      \tag{QR.19}
+ \leq4d^2\exp(-M\eta^2/32).                                      \qquad\text{(QR.19)}
 ```
 
 To see the constants, represent conjugation on the $`d^2`$-dimensional HS
@@ -503,7 +503,7 @@ so on success
  \|\widehat\Phi^t-\mathcal E\|_{2\to2}\leq(\Lambda+\eta)^t,
  \qquad
  \|\widehat\Phi^t(I-\mathcal D_\chi)\|_{2\to2}
-       \leq(p^{-2}+\eta)^t.                                      \tag{QR.20}
+       \leq(p^{-2}+\eta)^t.                                      \qquad\text{(QR.20)}
 ```
 
 These are upper bounds; neither exactness nor self-adjoint positivity is
@@ -566,15 +566,15 @@ $`s=\lceil\ell/r\rceil`$. Choose independent uniform $`a,b\in F`$, and output
 
 ```math
  T(a,b)_{jr+i}=\mathrm{Tr}_{F/\mathbf F_3}(ae_i b^j),
- \qquad 0\leq j<s,\quad0\leq i<r,\quad jr+i<\ell.                 \tag{QR.21}
+ \qquad 0\leq j\lt s,\quad0\leq i\lt r,\quad jr+i\lt \ell.                 \qquad\text{(QR.21)}
 ```
 
 For every nonzero $`z\in\mathbf F_3^\ell`$, set
-$`c_j=\sum_{i:jr+i<\ell}z_{jr+i}e_i`$. Then
+$`c_j=\sum_{i:jr+i\lt \ell}z_{jr+i}e_i`$. Then
 
 ```math
  \mathbb E e_3(z\cdot T)=
- \frac{|\{b:\sum_j c_jb^j=0\}|}{3^r}\leq\frac{s-1}{3^r}.           \tag{QR.22}
+ \frac{|\{b:\sum_j c_jb^j=0\}|}{3^r}\leq\frac{s-1}{3^r}.           \qquad\text{(QR.22)}
 ```
 
 Basis independence makes the displayed polynomial nonzero whenever $`z\ne0`$.
@@ -587,11 +587,11 @@ coordinates removes the unnecessary squared-register-size overhead of the
 unblocked version. We include the proof to fix constants and uniformity.
 
 **Theorem S (explicit one-call state randomizer).** For (QR.15) and
-$`0<\varepsilon\leq1`$, set $`\delta=\varepsilon/\sqrt D`$ and
+$`0\lt \varepsilon\leq1`$, set $`\delta=\varepsilon/\sqrt D`$ and
 
 ```math
  r=\left\lceil\log_3\frac{3\sqrt D}{\varepsilon}\right\rceil.
-                                                                    \tag{QR.23}
+                                                                    \qquad\text{(QR.23)}
 ```
 
 Use (QR.21) with $`\ell=2N`$ as the field Weyl label $`(v_W,k_W)`$,
@@ -600,15 +600,15 @@ $`W_{v,k}D_R`$ with Theorem W. The channel $`\Psi`$ satisfies
 
 ```math
  e_1(\Psi)\leq\varepsilon,\qquad e_2(\Psi)\leq\delta,
- \qquad M=7^4 3^{2r}<3969d/\varepsilon^2.                         \tag{QR.24}
+ \qquad M=7^4 3^{2r}\lt 3969d/\varepsilon^2.                         \qquad\text{(QR.24)}
 ```
 
 If $`M>d^2`$, use the exact uniform Weyl-coset twirl instead, giving
 $`e_\diamond=0`$ with $`d^2`$ keys. For the approximate choice the key entropy is
 
 ```math
- \log_2M<\log_2d+2\log_2(1/\varepsilon)+\log_2 3969.
-                                                                    \tag{QR.25}
+ \log_2M\lt \log_2d+2\log_2(1/\varepsilon)+\log_2 3969.
+                                                                    \qquad\text{(QR.25)}
 ```
 
 **Proof.** Weyl conjugation multiplies each Weyl basis vector by a character
@@ -623,7 +623,7 @@ field and ring factors the output is the field channel on a reduced state,
 tensored with $`I_{49}/49`$. Its trace error is at most
 $`\sqrt{D-1}\delta\leq\varepsilon`$. Precomposing with the fixed unitary
 $`D_R`$ does not change this supremum or the HS norm. Finally
-$`3^r<9\sqrt D/\varepsilon`$ gives (QR.24). $`\square`$
+$`3^r\lt 9\sqrt D/\varepsilon`$ gives (QR.24). $`\square`$
 
 This is a worst-case state theorem, including arbitrary mixed inputs and
 entanglement between the two internal factors. It does not promise small error
@@ -639,7 +639,7 @@ $`t\in U`$ use center $`(R-I)^{-1}t`$. Direct substitution gives
 
 ```math
  V_t|u\rangle=\mathsf B(t,u)|Ru+t\rangle,
- \qquad V_t=X_tD_RM_t=X_tM_{R^{-1}t}D_R.                           \tag{QR.26}
+ \qquad V_t=X_tD_RM_t=X_tM_{R^{-1}t}D_R.                           \qquad\text{(QR.26)}
 ```
 
 This section works for any nondegenerate odd-order reciprocal sector with an
@@ -661,7 +661,7 @@ $`\Delta=\max_{w\ne0}|\widehat\mu(w)|`$ be its **actual** bias. Then
 ```math
  \mathcal C_\mu^2(W_{v,h})=
  \widehat\mu(v+R^{-1}h)\widehat\mu(Rv+R^{-2}h)
- W_{R^2v,R^{-2}h}.                                                \tag{QR.27}
+ W_{R^2v,R^{-2}h}.                                                \qquad\text{(QR.27)}
 ```
 
 Both formulas follow by conjugating successively by the modulation, actor and
@@ -673,7 +673,7 @@ kernel requires $`h=-Rv`$ and $`(R-R^{-1})v=0`$.
 
 ```math
  \|\mathcal C_\mu-\mathcal E\|_{2\to2}=1,\qquad
- \|\mathcal C_\mu^2-\mathcal E\|_{2\to2}=\Delta.                  \tag{QR.28}
+ \|\mathcal C_\mu^2-\mathcal E\|_{2\to2}=\Delta.                  \qquad\text{(QR.28)}
 ```
 
 The first equality uses any nonzero $`(v,-Rv)`$; the second upper bound follows
@@ -691,7 +691,7 @@ NI's $`p^{-2}`$ one-step coherence bound.
 The complete two-round channel has a standard group control. Up to global phase,
 
 ```math
- V_sV_t=W_{s+Rt,\,R^{-1}s+R^{-2}t}D_{R^2}.                        \tag{QR.29}
+ V_sV_t=W_{s+Rt,\,R^{-1}s+R^{-2}t}D_{R^2}.                        \qquad\text{(QR.29)}
 ```
 
 This pair-label map is bijective because $`R^2-I`$ is invertible. Uniform
@@ -712,7 +712,7 @@ $`\Delta\leq\delta\leq1`$. Every density matrix satisfies
 
 ```math
  e_1(\mathcal C_\mu^2)^2\leq
- (d-1)\delta^4+2(s-1)(\delta^2-\delta^4).                          \tag{QR.30}
+ (d-1)\delta^4+2(s-1)(\delta^2-\delta^4).                          \qquad\text{(QR.30)}
 ```
 
 The purity bound is sharp for the stated fixed symplectic family and the
@@ -740,7 +740,7 @@ decomposition gives the stronger state-dependent inequality
  \|\mathcal C_\mu^2(\rho)-I/d\|_2^2\leq
  \delta^4\|\rho-I/d\|_2^2+
  (\delta^2-\delta^4)\sum_{A\in\{R,R^3\}}\|P_A\rho-I/d\|_2^2.
-                                                                    \tag{QR.31}
+                                                                    \qquad\text{(QR.31)}
 ```
 
 Inserting the two projection bounds proves the first statement; multiplying by
@@ -765,14 +765,14 @@ The improvement is thus structural, not exclusive to Bol loops.
 ### 6.2. Explicit independent-round sampling
 
 Apply Lemma B with $`\ell=N`$ on the field coordinates and sample the ring
-translation uniformly. For $`0<\varepsilon\leq1`$ choose
+translation uniformly. For $`0\lt \varepsilon\leq1`$ choose
 $`\delta^2=\varepsilon^2/(3\sqrt D)`$ and
 $`r=\lceil\log_3(3/\delta)\rceil`$. Here $`r\geq N/4+2`$, so
 $`s=\lceil N/r\rceil\leq4`$ and the bias is at most $`3/3^r\leq\delta`$.
 Each round has
 
 ```math
- K=49\cdot3^{2r}<11907\sqrt D/\varepsilon^2.                       \tag{QR.32}
+ K=49\cdot3^{2r}\lt 11907\sqrt D/\varepsilon^2.                       \qquad\text{(QR.32)}
 ```
 
 The ring channel depolarizes after two independent rounds, so the state theorem
@@ -781,8 +781,8 @@ Its right side is at most $`\varepsilon^4/9+2\varepsilon^2/3\leq\varepsilon^2`$.
 The total $`K^2`$ equally likely schedules have entropy
 
 ```math
- 2\log_2K<\log_2D+4\log_2(1/\varepsilon)+2\log_2 11907.
-                                                                    \tag{QR.33}
+ 2\log_2K\lt \log_2D+4\log_2(1/\varepsilon)+2\log_2 11907.
+                                                                    \qquad\text{(QR.33)}
 ```
 
 This is a genuine sparsification of the fixed-pair translation average. It is
@@ -880,7 +880,7 @@ benchmark when qubits are the requested hardware, not a silently padded proof
 for our dimension. Theorem S matches the $`O(d/\varepsilon^2)`$ support scale,
 with a larger displayed constant and no improvement in accuracy dependence or
 depth. The matching Weyl control is exact in our dimension. For fixed
-$`\varepsilon<1`$, the key entropy is within a constant of the support lower
+$`\varepsilon\lt 1`$, the key entropy is within a constant of the support lower
 bound (QR.10); we do not claim optimal dependence on $`\varepsilon`$ for all
 mixed-unitary randomizers.
 
@@ -920,7 +920,7 @@ and storage as in Section 4. Generic Haar sampling is not an efficient gate mode
 | Change | Exact effect and interpretation |
 | --- | --- |
 | Replace full corrections by scalar phases | Every conjugation is identity; no state randomization. This tests the chosen correction, not all group channels. |
-| Keep only the underlying scalar affine permutations | Population mixing can survive; $`|+\rangle\langle+|`$ is fixed, so arbitrary-state randomization fails. Nontrivial phases are necessary. |
+| Keep only the underlying scalar affine permutations | Population mixing can survive; $`\lvert+\rangle\langle+\rvert`$ is fixed, so arbitrary-state randomization fails. Nontrivial phases are necessary. |
 | Remove translation conjugation | All defects fix the point ket at the origin up to phase. Its pure-state error remains $`2(1-1/d)`$. |
 | Hold the pair fixed and average all centers | The one-step HS and coherence norm is one; two independent rounds equal $`\mathcal E`$. The actual joint channel is (QR.29). |
 | Replace native labels by their Weyl/actor normal form | The complete channel, correlations, resources and every proved guarantee are unchanged. This is the matching group-based control. |
@@ -961,7 +961,7 @@ contributing center is $`t=s-Ru`$, whence
 
 ```math
  A_{s,u}=d^{-1}\mathsf B(s-Ru,u)=d^{-1}\mathsf B(s,u)
-       =d^{-1/2}(F_{\mathsf B})_{s,u}.                            \tag{QR.33a}
+       =d^{-1/2}(F_{\mathsf B})_{s,u}.                            \qquad\text{(QR.33a)}
 ```
 
 The middle equality uses $`b(Ru,u)=0`$, and nondegeneracy makes
@@ -986,7 +986,7 @@ $`\mathcal H_2`$ be the Haar second-moment twirl. Then
 
 ```math
  \|\mathcal M_2-\mathcal H_2\|_{2\to2}=1.
-                                                                    \tag{QR.34}
+                                                                    \qquad\text{(QR.34)}
 ```
 
 Indeed $`Q_\Delta=\sum_i|i,i\rangle\langle i,i|`$ is fixed by every tensor
