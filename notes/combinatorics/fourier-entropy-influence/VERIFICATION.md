@@ -117,8 +117,26 @@ and source-fidelity review. This is an editorial and mathematical-interface
 check of the adaptation, not an additional independent review of a
 reviewer's own scientific contributions.
 
-At preparation time, actual rendered GitHub pages have not yet been
-inspected. The publisher must check the published revision's mathematical
-rendering, links, tables, and code paths; a delimiter conversion alone does
-not certify the target rendering. No completed rendering check is claimed
-by this prepublication record.
+The initial public source was published at
+`705b4ec9e281738b2bfc919b5ad904bb20dcbf9e`. Actual GitHub rendering
+revealed three rejected uses of the operator-name macro. The notation-only
+followup `dfd60f6d700ab1082d6323d6f7f920c760fbb824` replaced those
+uses by supported upright text in the catalogue, bibliography and forest
+arithmetic proof. This does not change any mathematical statement or code.
+Those three public hashes differ from the prepublication review list; the
+source-to-public crosswalk records the change.
+
+At that followup the publisher visited all fifteen rendered Markdown
+pages, checked their headings and formula-error messages, followed the
+public proof/reference/reproduction navigation, and visually inspected the
+overview equations, catalogue tables and an integer-forest proof page.
+No formula-rendering error remained. The root repository index also
+displayed the new entry and its public overview link. These are scoped
+browser checks, not a pixel-by-pixel inspection of every line. The later
+publication-record update changes only this verification prose.
+
+The public integration request is
+[Mira-Cult/math PR #4](https://github.com/Mira-Cult/math/pull/4), on branch
+`research/fei-beyond-forests`. The source is available on that branch;
+publication as a pull request does not assert that it has been merged
+into the default branch.
