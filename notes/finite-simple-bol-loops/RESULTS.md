@@ -66,7 +66,19 @@ The next results concern the **exact wreath-pair models and swap inversion speci
 | Modular nonabelian C₉⋊C₃, with the specified full anti-abelianization envelope | Six classes of order 27·60²⁷ | [Modular order-27 top](advances-2026-11-16/manuscripts/radical-free-a5-nonabelian-27.md) |
 | Exponent-three nonabelian top of order 27 | Two classes of order 27·60²⁷ | [Exponent-three top](advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-27.md) |
 
-For [arbitrary odd prime-power regular tops](advances-2026-11-16/manuscripts/radical-free-a5-prime-power-top.md), the construction reduces to p=3 or 5 and explicit module/cocycle tests. This is a parameterization, not a solution of all resulting orbits. The [higher-rank extraspecial theorem](advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-tops.md) leaves one case: order 5⁵ and exponent 25. Admissible data exist there; their isomorphism orbits remain to be determined.
+For [arbitrary odd prime-power regular tops](advances-2026-11-16/manuscripts/radical-free-a5-prime-power-top.md), the construction reduces to p=3 or 5 and explicit module/cocycle tests. This is a parameterization, not a solution of all resulting orbits. The public [higher-rank extraspecial theorem](advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-tops.md) establishes existence in its sole surviving higher-rank case, order 5⁵ and exponent 25. Subsequent research reports **88 isomorphism classes** in that case and the following completed extraspecial-top table:
+
+| Extraspecial top P | Reported loop classes |
+|---|---:|
+| Order 3³, exponent 3 | 2 |
+| Order 3³, exponent 9 | 6 |
+| Order 5³, exponent 5 | 24 |
+| Order 5⁵, exponent 25 | 88 |
+| Every other odd extraspecial top | 0 |
+
+The total is **120 classes in these exact regular-top models**, not 120 classes of all simple Bol loops. More precisely, set S=A₅ᴾ⋊P for the regular action and take G to be the subgroup of S×S whose two top images multiply to the identity in P/[P,P], with inversion swapping the two factors. The table concerns this specified canonical group and inversion, not arbitrary groups with an extraspecial permutation quotient.
+
+**Proof availability.** The subsequent 24-class proof, 88-class orbit theorem and complete assembly are not yet published here. These counts are reported results, not conclusions established by the older linked public manuscript or independently verified by this catalogue. Their full proofs and computational certificate remain to be presented publicly. The orbit counts are therefore no longer research targets in this programme, but general nonabelian regular tops remain open.
 
 ### Odd, Bruck and affine branches
 
