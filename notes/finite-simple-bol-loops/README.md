@@ -42,7 +42,7 @@ isotopic to a Bruck loop**. Here a G-loop is isomorphic to every one of its loop
 isotopes, and proper means non-Moufang.
 
 The [rigid-center construction](packet/manuscripts/odd-rigid-center-nongloop.md)
-proposes such an example of order \(3^{75}19^3\). This existence result is one
+proposes such an example of order $`3^{75}19^3`$. This existence result is one
 contribution to the broader classification programme: it shows why those two
 classes alone cannot suffice, if the argument is accepted. The
 [result and review summary](RESULTS.md) gives its precise status.
@@ -77,9 +77,11 @@ refereeing, formal verification, or a certification of historical novelty.
 A loop has an identity and unique left and right division. We use the **left Bol
 identity**
 
-\[
+
+```math
 x\bigl(y(xz)\bigr)=\bigl(x(yx)\bigr)z.
-\]
+```
+
 
 Passing to the opposite operation gives the corresponding right Bol loop and
 preserves simplicity and isomorphism classes. It does **not** assert that a loop
