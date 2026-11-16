@@ -1,0 +1,467 @@
+{
+  "schema": 1,
+  "original_claim_ids": "0001\u20130017",
+  "next_id": "0064",
+  "manuscripts": [
+    {
+      "id": "0053",
+      "source": "update-2026-11-16/manuscripts/bruck-n-split-extension-exclusion.md",
+      "group": "bruck-radical-lifting"
+    },
+    {
+      "id": "0019",
+      "source": "update-2026-11-16/manuscripts/odd-central-class-two-classification.md",
+      "group": "odd-class-two-parameterization"
+    },
+    {
+      "id": "0020",
+      "source": "update-2026-11-16/manuscripts/odd-class-two-isotope-orbits.md",
+      "group": "rigid-example-isotope-classes"
+    },
+    {
+      "id": "0053",
+      "source": "update-2026-11-16/manuscripts/bruck-n-affine-fiber-parity.md",
+      "group": "bruck-radical-lifting"
+    },
+    {
+      "id": "0040",
+      "source": "update-2026-11-16/manuscripts/affine-cyclic-prime-quotient-classification.md",
+      "group": "affine-prime-quotient-classification"
+    },
+    {
+      "id": "0056",
+      "source": "update-2026-11-16/manuscripts/odd-extraspecial-classification.md",
+      "group": "odd-extraspecial-parameterization"
+    },
+    {
+      "id": "0058",
+      "source": "update-2026-11-16/manuscripts/odd-layers-in-even-envelopes.md",
+      "group": "odd-layers-in-even-envelopes"
+    },
+    {
+      "id": "0059",
+      "source": "update-2026-11-16/manuscripts/radical-free-strip-forests.md",
+      "group": "semisimple-path-reductions"
+    },
+    {
+      "id": "0051",
+      "source": "update-2026-11-16/manuscripts/bruck-n-p6-all-u-exclusion.md",
+      "group": "bruck-p6-exclusion"
+    },
+    {
+      "id": "0018",
+      "source": "update-2026-11-16/manuscripts/odd-rigid-center-nongloop.md",
+      "group": "non-g-loop-non-bruck-existence"
+    },
+    {
+      "id": "0053",
+      "source": "update-2026-11-16/manuscripts/bruck-two-n-cross-residual.md",
+      "group": "bruck-radical-lifting"
+    },
+    {
+      "id": "0028",
+      "source": "update-2026-11-16/manuscripts/radical-free-mixed-matrix-classification.md",
+      "group": "mixed-factor-matrix-classification"
+    },
+    {
+      "id": "0063",
+      "source": "update-2026-11-16/manuscripts/tw-full-wreath-block-tops.md",
+      "group": "twisted-wreath-top-restrictions"
+    },
+    {
+      "id": "0048",
+      "source": "update-2026-11-16/manuscripts/radical-free-psl3-prime-paths.md",
+      "group": "psl3-prime-path-restrictions"
+    },
+    {
+      "id": "0049",
+      "source": "update-2026-11-16/manuscripts/bruck-one-m-noncentral-reduction.md",
+      "group": "bruck-one-m-exclusion"
+    },
+    {
+      "id": "0044",
+      "source": "update-2026-11-16/manuscripts/odd-elementary-layer-all-defects.md",
+      "group": "odd-elementary-layer-reduction"
+    },
+    {
+      "id": "0026",
+      "source": "update-2026-11-16/manuscripts/radical-free-even-psl2-paths.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0030",
+      "source": "update-2026-11-16/manuscripts/radical-free-bipartite-witness.md",
+      "group": "splitting-atom-bipartite-criterion"
+    },
+    {
+      "id": "0059",
+      "source": "update-2026-11-16/manuscripts/radical-free-paired-simple-envelopes.md",
+      "group": "semisimple-path-reductions"
+    },
+    {
+      "id": "0050",
+      "source": "update-2026-11-16/manuscripts/bruck-n-socle-quadratic-collision.md",
+      "group": "bruck-quadratic-socle-exclusion"
+    },
+    {
+      "id": "0026",
+      "source": "update-2026-11-16/manuscripts/radical-free-fixed-factors.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0029",
+      "source": "update-2026-11-16/manuscripts/radical-free-mixed-paths.md",
+      "group": "mixed-factor-path-construction"
+    },
+    {
+      "id": "0026",
+      "source": "update-2026-11-16/manuscripts/radical-free-small-psl2-paths.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0063",
+      "source": "update-2026-11-16/manuscripts/tw-parity-code-subwreath.md",
+      "group": "twisted-wreath-top-restrictions"
+    },
+    {
+      "id": "0053",
+      "source": "update-2026-11-16/manuscripts/bruck-all-radical-parameterization.md",
+      "group": "bruck-radical-lifting"
+    },
+    {
+      "id": "0038",
+      "source": "update-2026-11-16/manuscripts/bruck-s5-elementary-parameterization.md",
+      "group": "elementary-s5-bruck-parameterization"
+    },
+    {
+      "id": "0054",
+      "source": "update-2026-11-16/manuscripts/bruck-s5-active-u-stabilizer.md",
+      "group": "bruck-principal-support"
+    },
+    {
+      "id": "0054",
+      "source": "update-2026-11-16/manuscripts/bruck-s5-uniform-principal-support.md",
+      "group": "bruck-principal-support"
+    },
+    {
+      "id": "0063",
+      "source": "update-2026-11-16/manuscripts/tw-diagonal-block-tops.md",
+      "group": "twisted-wreath-top-restrictions"
+    },
+    {
+      "id": "0059",
+      "source": "update-2026-11-16/manuscripts/radical-free-mixed-simple-quotients.md",
+      "group": "semisimple-path-reductions"
+    },
+    {
+      "id": "0045",
+      "source": "update-2026-11-16/manuscripts/odd-uniform-multiplicity-layers.md",
+      "group": "odd-multiplicity-layer-reduction"
+    },
+    {
+      "id": "0059",
+      "source": "update-2026-11-16/manuscripts/radical-free-path-factorizations.md",
+      "group": "semisimple-path-reductions"
+    },
+    {
+      "id": "0053",
+      "source": "update-2026-11-16/manuscripts/bruck-multiple-n-frattini.md",
+      "group": "bruck-radical-lifting"
+    },
+    {
+      "id": "0046",
+      "source": "update-2026-11-16/manuscripts/exact-factorization-criterion.md",
+      "group": "inner-inversion-reduction"
+    },
+    {
+      "id": "0062",
+      "source": "update-2026-11-16/manuscripts/sd-all-simple-socles.md",
+      "group": "simple-diagonal-socle-restrictions"
+    },
+    {
+      "id": "0060",
+      "source": "update-2026-11-16/manuscripts/radical-free-symplectic-inversion.md",
+      "group": "symplectic-inversion-restrictions"
+    },
+    {
+      "id": "0044",
+      "source": "update-2026-11-16/manuscripts/odd-folder-radicals.md",
+      "group": "odd-elementary-layer-reduction"
+    },
+    {
+      "id": "0056",
+      "source": "update-2026-11-16/manuscripts/odd-cross-extraspecial.md",
+      "group": "odd-extraspecial-parameterization"
+    },
+    {
+      "id": "0038",
+      "source": "update-2026-11-16/manuscripts/bruck-s5-elementary-inversion.md",
+      "group": "elementary-s5-bruck-parameterization"
+    },
+    {
+      "id": "0054",
+      "source": "update-2026-11-16/manuscripts/bruck-s5-module-blocks.md",
+      "group": "bruck-principal-support"
+    },
+    {
+      "id": "0019",
+      "source": "update-2026-11-16/manuscripts/odd-class-two-classification.md",
+      "group": "odd-class-two-parameterization"
+    },
+    {
+      "id": "0026",
+      "source": "update-2026-11-16/manuscripts/radical-free-a5-path-classification.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0026",
+      "source": "update-2026-11-16/manuscripts/radical-free-psl2-path-classification.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0047",
+      "source": "update-2026-11-16/manuscripts/radical-free-involution-support.md",
+      "group": "involution-support-restrictions"
+    },
+    {
+      "id": "0061",
+      "source": "update-2026-11-16/manuscripts/radical-free-three-dimensional-linear-unitary.md",
+      "group": "linear-unitary-dimension3-restrictions"
+    },
+    {
+      "id": "0053",
+      "source": "update-2026-11-16/manuscripts/bruck-n-nonsplit-extension-lifts.md",
+      "group": "bruck-radical-lifting"
+    },
+    {
+      "id": "0019",
+      "source": "packet/manuscripts/odd-central-class-two-classification.md",
+      "group": "odd-class-two-parameterization"
+    },
+    {
+      "id": "0039",
+      "source": "packet/manuscripts/nonbruck-root-graph-parameters.md",
+      "group": "single-root-affine-classification"
+    },
+    {
+      "id": "0043",
+      "source": "packet/manuscripts/odd-monolithic-defect-two.md",
+      "group": "monolithic-higher-defect-constructions"
+    },
+    {
+      "id": "0025",
+      "source": "packet/manuscripts/odd-alternating-form-family.md",
+      "group": "alternating-form-construction"
+    },
+    {
+      "id": "0055",
+      "source": "packet/manuscripts/odd-nilpotent-derived.md",
+      "group": "odd-lazard-parameterization"
+    },
+    {
+      "id": "0056",
+      "source": "packet/manuscripts/odd-extraspecial-classification.md",
+      "group": "odd-extraspecial-parameterization"
+    },
+    {
+      "id": "0057",
+      "source": "packet/manuscripts/odd-fixed-envelope-stabilizers.md",
+      "group": "odd-stabilizer-reductions"
+    },
+    {
+      "id": "0022",
+      "source": "packet/manuscripts/odd-unbounded-derived-length.md",
+      "group": "unbounded-derived-length"
+    },
+    {
+      "id": "0024",
+      "source": "packet/manuscripts/odd-matrix-pair-embedding.md",
+      "group": "matrix-pair-encoding"
+    },
+    {
+      "id": "0018",
+      "source": "packet/manuscripts/odd-rigid-center-nongloop.md",
+      "group": "non-g-loop-non-bruck-existence"
+    },
+    {
+      "id": "0055",
+      "source": "packet/manuscripts/odd-lazard-central-classification.md",
+      "group": "odd-lazard-parameterization"
+    },
+    {
+      "id": "0044",
+      "source": "packet/manuscripts/odd-elementary-layer-obstructions.md",
+      "group": "odd-elementary-layer-reduction"
+    },
+    {
+      "id": "0043",
+      "source": "packet/manuscripts/odd-monolithic-higher-defect-isomorphism.md",
+      "group": "monolithic-higher-defect-constructions"
+    },
+    {
+      "id": "0021",
+      "source": "packet/manuscripts/odd-unbounded-derived-class.md",
+      "group": "unbounded-derived-nilpotency-class"
+    },
+    {
+      "id": "0040",
+      "source": "packet/manuscripts/nonbruck-affine-cocycle-data.md",
+      "group": "affine-prime-quotient-classification"
+    },
+    {
+      "id": "0039",
+      "source": "packet/manuscripts/nonbruck-single-root-classification.md",
+      "group": "single-root-affine-classification"
+    },
+    {
+      "id": "0042",
+      "source": "packet/manuscripts/odd-fixed-shadow-simple-example.md",
+      "group": "fixed-shadow-example"
+    },
+    {
+      "id": "0039",
+      "source": "packet/manuscripts/nonbruck-prime-transvection-orbits.md",
+      "group": "single-root-affine-classification"
+    },
+    {
+      "id": "0046",
+      "source": "packet/manuscripts/exact-factorization-criterion.md",
+      "group": "inner-inversion-reduction"
+    },
+    {
+      "id": "0057",
+      "source": "packet/manuscripts/odd-stabilizer-alignment.md",
+      "group": "odd-stabilizer-reductions"
+    },
+    {
+      "id": "0019",
+      "source": "packet/manuscripts/odd-class-two-coprime-center-reduction.md",
+      "group": "odd-class-two-parameterization"
+    },
+    {
+      "id": "0044",
+      "source": "packet/manuscripts/odd-folder-radicals.md",
+      "group": "odd-elementary-layer-reduction"
+    },
+    {
+      "id": "0056",
+      "source": "packet/manuscripts/odd-cross-extraspecial.md",
+      "group": "odd-extraspecial-parameterization"
+    },
+    {
+      "id": "0041",
+      "source": "packet/manuscripts/odd-noncentral-jordan-center-family.md",
+      "group": "noncentral-derived-center-constructions"
+    },
+    {
+      "id": "0057",
+      "source": "packet/manuscripts/odd-metabelian-residual-splitting.md",
+      "group": "odd-stabilizer-reductions"
+    },
+    {
+      "id": "0019",
+      "source": "packet/manuscripts/odd-class-two-classification.md",
+      "group": "odd-class-two-parameterization"
+    },
+    {
+      "id": "0043",
+      "source": "packet/manuscripts/odd-monolithic-heisenberg-construction.md",
+      "group": "monolithic-higher-defect-constructions"
+    },
+    {
+      "id": "0043",
+      "source": "packet/manuscripts/odd-monolithic-heisenberg-prime-family.md",
+      "group": "monolithic-higher-defect-constructions"
+    },
+    {
+      "id": "0023",
+      "source": "packet/manuscripts/odd-unbounded-fitting-height.md",
+      "group": "unbounded-fitting-height"
+    },
+    {
+      "id": "0031",
+      "source": "advances-2026-11-16/manuscripts/radical-free-factor-permutation-construction.md",
+      "group": "factor-permuting-constructions"
+    },
+    {
+      "id": "0033",
+      "source": "advances-2026-11-16/manuscripts/radical-free-a5-abelian-top.md",
+      "group": "a5-regular-abelian-tops"
+    },
+    {
+      "id": "0035",
+      "source": "advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-27.md",
+      "group": "a5-exponent3-order27-top"
+    },
+    {
+      "id": "0037",
+      "source": "advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-tops.md",
+      "group": "a5-extraspecial-top-restrictions"
+    },
+    {
+      "id": "0059",
+      "source": "advances-2026-11-16/manuscripts/radical-free-strip-forests.md",
+      "group": "semisimple-path-reductions"
+    },
+    {
+      "id": "0032",
+      "source": "advances-2026-11-16/manuscripts/radical-free-a5-cyclic-top.md",
+      "group": "a5-regular-cyclic-tops"
+    },
+    {
+      "id": "0036",
+      "source": "advances-2026-11-16/manuscripts/radical-free-a5-prime-power-top.md",
+      "group": "a5-prime-power-top-reduction"
+    },
+    {
+      "id": "0026",
+      "source": "advances-2026-11-16/manuscripts/radical-free-fixed-factors.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0026",
+      "source": "advances-2026-11-16/manuscripts/radical-free-small-psl2-paths.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0034",
+      "source": "advances-2026-11-16/manuscripts/radical-free-a5-nonabelian-27.md",
+      "group": "a5-modular-order27-top"
+    },
+    {
+      "id": "0052",
+      "source": "advances-2026-11-16/manuscripts/bruck-b3-concrete-obstruction.md",
+      "group": "bruck-concrete-b3-obstruction"
+    },
+    {
+      "id": "0027",
+      "source": "advances-2026-11-16/manuscripts/radical-free-a5-code-inversion.md",
+      "group": "a5-outer-code-classification"
+    },
+    {
+      "id": "0027",
+      "source": "advances-2026-11-16/manuscripts/radical-free-a5-outer-codes.md",
+      "group": "a5-outer-code-classification"
+    },
+    {
+      "id": "0046",
+      "source": "advances-2026-11-16/manuscripts/exact-factorization-criterion.md",
+      "group": "inner-inversion-reduction"
+    },
+    {
+      "id": "0026",
+      "source": "advances-2026-11-16/manuscripts/radical-free-a5-path-classification.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0026",
+      "source": "advances-2026-11-16/manuscripts/radical-free-psl2-path-classification.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0047",
+      "source": "advances-2026-11-16/manuscripts/radical-free-involution-support.md",
+      "group": "involution-support-restrictions"
+    }
+  ]
+}
