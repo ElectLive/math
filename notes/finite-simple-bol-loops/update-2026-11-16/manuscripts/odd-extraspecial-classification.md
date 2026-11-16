@@ -1,42 +1,66 @@
 # Classification of extraspecial-derived odd Bol loops
 
-**Continuation of 0323:C0010 [dependency/context not reproduced in this update: `../claims/C0010.md`], with the scoped independent reviews below.** Let \(Q\) be a finite simple nonassociative odd-order left Bol loop with canonical faithful generating folder \((G,H,K)\) and canonical inversion \(\tau\). Suppose \(D=G'\) is nilpotent and each nontrivial Sylow factor \(P_p\) of \(D\) is extraspecial. Put \(A=G/D\). Conditional on the reviewed source inputs below, the necessary conclusion is
-\[A\cong\prod_{p\mid |D|}C_p,\qquad H\cap C_G(\tau)=1,\qquad |H|=|Q|.\tag{1}\]
-In particular \(A\) is cyclic of squarefree order. This first part proves the necessary structure; the subsequent sections give the restricted classification. The reviewed arbitrary-principal-isotope interface then also gives the G-loop property, as explained below.
+**Continuation of 0323:C0010 [dependency/context not reproduced in this update: `../claims/C0010.md`], with the scoped independent reviews below.** Let $`Q`$ be a finite simple nonassociative odd-order left Bol loop with canonical faithful generating folder $`(G,H,K)`$ and canonical inversion $`\tau`$. Suppose $`D=G'`$ is nilpotent and each nontrivial Sylow factor $`P_p`$ of $`D`$ is extraspecial. Put $`A=G/D`$. Conditional on the reviewed source inputs below, the necessary conclusion is
 
-Use [the nilpotent-derived restrictions](../../packet/manuscripts/odd-nilpotent-derived.md#extraspecial-sylow-factors-exponent-and-module-restrictions) [earlier public snapshot], “Extraspecial Sylow factors,” independently accepted at `6033272fbbd42f39c07ae59808ca122c9d60348e`, and the odd-envelope derived and marked-class inputs reviewed at `e896039d004ff3882621aca115b1a39cc8fed207`. In particular \(G=HD\), \(C_G(\tau)\le D\), \(|H|=|C_G(\tau)|\), and \(H\cap\Lambda^2=1\) for \(\Lambda=\widehat\tau K\), the full outside-involution class in \(G\rtimes\langle\widehat\tau\rangle\). For each \(p\), \(Z_p=Z(P_p)\le Z(G)\) has order \(p\), \(U=P_p/Z_p\) is an \(\mathbb F_p A\)-module with a nondegenerate alternating form, \(U^{A_{p'}}=0\), and the shadow \(W=(H\cap P_p)Z_p/Z_p\) is \(A\)-invariant and isotropic. Also \(W\cap\tau(W)=0\), and \((H\cap\tau H)\cap P_p=1\).
+```math
+A\cong\prod_{p\mid |D|}C_p,\qquad H\cap C_G(\tau)=1,\qquad |H|=|Q|.\tag{1}
+```
+
+In particular $`A`$ is cyclic of squarefree order. This first part proves the necessary structure; the subsequent sections give the restricted classification. The reviewed arbitrary-principal-isotope interface then also gives the G-loop property, as explained below.
+
+Use [the nilpotent-derived restrictions](../../packet/manuscripts/odd-nilpotent-derived.md#extraspecial-sylow-factors-exponent-and-module-restrictions) [earlier public snapshot], “Extraspecial Sylow factors,” independently accepted at `6033272fbbd42f39c07ae59808ca122c9d60348e`, and the odd-envelope derived and marked-class inputs reviewed at `e896039d004ff3882621aca115b1a39cc8fed207`. In particular $`G=HD`$, $`C_G(\tau)\le D`$, $`|H|=|C_G(\tau)|`$, and $`H\cap\Lambda^2=1`$ for $`\Lambda=\widehat\tau K`$, the full outside-involution class in $`G\rtimes\langle\widehat\tau\rangle`$. For each $`p`$, $`Z_p=Z(P_p)\le Z(G)`$ has order $`p`$, $`U=P_p/Z_p`$ is an $`\mathbb F_p A`$-module with a nondegenerate alternating form, $`U^{A_{p'}}=0`$, and the shadow $`W=(H\cap P_p)Z_p/Z_p`$ is $`A`$-invariant and isotropic. Also $`W\cap\tau(W)=0`$, and $`(H\cap\tau H)\cap P_p=1`$.
 
 ## Splitting and simultaneous local alignment
 
-Fix \(p\mid |D|\). Write \(D_{p'}=\prod_{r\ne p}P_r\), \(B=A_{p'}\) and \(R=A_p\). Form
-\[\overline G=G/(Z_pD_{p'}),\quad 1\to U\to\overline G\to A\to1.\]
-Adjoin the formal inversion involution to obtain \(\overline G^+=\overline G\rtimes\langle\widehat\tau\rangle\), an extension of \(\Gamma=A\rtimes\langle\widehat\tau\rangle\) by \(U\). The normal subgroup \(B\triangleleft\Gamma\) has order prime to \(p\), and \(U^B=0\). The following elementary complement argument supplies the needed splitting and conjugacy, without an unproved extension-splitting assumption. For any extension E of Γ by U, the inverse image of B has a complement B₀ to its normal Hall subgroup U, by Schur–Zassenhaus. All such B-complements are U-conjugate. As B is normal in Γ, conjugation by every element of E sends B₀ to one of these complements, so E=U N_E(B₀). But U∩N_E(B₀)=C_U(B₀)=U^B=0: a normalizer element in U has commutators with B₀ in U∩B₀. Thus N_E(B₀) maps isomorphically onto Γ and is a complement. Any Γ-complement contains a B-complement and normalizes it, so the same argument makes all Γ-complements U-conjugate. The Schur–Zassenhaus input is [Craven, 2012, §2.1, Theorem 2.1](../REFERENCES.md); its soluble-kernel or soluble-quotient condition holds in every application here. The existing formal involution has order two, as does the involution in a complement; their images in \(\Gamma\) agree and Schur–Zassenhaus conjugacy in \(U\rtimes C_2\) moves one to the other by \(U\). Hence a \(\Gamma\)-complement can be chosen to contain the original \(\widehat\tau\). Its \(A\)-part \(A_0\le\overline G\) satisfies \(\tau(a)=a^{-1}\) for \(a\in A_0\).
+Fix $`p\mid |D|`$. Write $`D_{p'}=\prod_{r\ne p}P_r`$, $`B=A_{p'}`$ and $`R=A_p`$. Form
 
-The image \(\overline H\) intersects \(U\) in precisely \(W\): if a representative of an element of \(H\) lies in \(P_p Z_pD_{p'}=D\), then \(H\cap D\) splits by Sylow primes. The quotient \(\overline H/W\) is a complement to \(U/W\) over \(A\). As \(W\) is \(A\)-invariant and \(B\) has order prime to \(p\), fixed points are exact, so \((U/W)^B=0\). Applying the preceding complement-conjugacy argument with kernel U/W and quotient A makes its A-complements conjugate by U/W. Conjugating \(H\) by a suitable element of \(P_p\), while retaining the fixed \(A_0\) and \(\widehat\tau\), arranges
-\[\overline H=W\rtimes A_0.\tag{3}\]
-This replacement is legitimate because every conjugate of \(H\) still has trivial intersection with \(\Lambda^2\); it need not be fixed by \(\tau\). No complement to \(D\) in \(G\) has been assumed.
+```math
+\overline G=G/(Z_pD_{p'}),\quad 1\to U\to\overline G\to A\to1.
+```
 
-Let \(H_p\in\operatorname{Syl}_p(H)\). Its image in \(\overline H\) is a Sylow subgroup \(W\rtimes R\), and the map is injective: its kernel is a \(p\)-subgroup of \(H\cap Z_pD_{p'}\), but \(H\cap Z_p=1\) by core-freeness and \(D_{p'}\) has order prime to \(p\). Thus \(H_p\cong W\rtimes R\). Let \(C\le H_p\) be the inverse image of the pure \(R\)-subgroup in (3); then \(C\cong R\), and \(C\cap D_{p'}=1\).
+Adjoin the formal inversion involution to obtain $`\overline G^+=\overline G\rtimes\langle\widehat\tau\rangle`$, an extension of $`\Gamma=A\rtimes\langle\widehat\tau\rangle`$ by $`U`$. The normal subgroup $`B\triangleleft\Gamma`$ has order prime to $`p`$, and $`U^B=0`$. The following elementary complement argument supplies the needed splitting and conjugacy, without an unproved extension-splitting assumption. For any extension E of Γ by U, the inverse image of B has a complement B₀ to its normal Hall subgroup U, by Schur–Zassenhaus. All such B-complements are U-conjugate. As B is normal in Γ, conjugation by every element of E sends B₀ to one of these complements, so E=U N_E(B₀). But U∩N_E(B₀)=C_U(B₀)=U^B=0: a normalizer element in U has commutators with B₀ in U∩B₀. Thus N_E(B₀) maps isomorphically onto Γ and is a complement. Any Γ-complement contains a B-complement and normalizes it, so the same argument makes all Γ-complements U-conjugate. The Schur–Zassenhaus input is [Craven, 2012, §2.1, Theorem 2.1](../REFERENCES.md); its soluble-kernel or soluble-quotient condition holds in every application here. The existing formal involution has order two, as does the involution in a complement; their images in $`\Gamma`$ agree and Schur–Zassenhaus conjugacy in $`U\rtimes C_2`$ moves one to the other by $`U`$. Hence a $`\Gamma`$-complement can be chosen to contain the original $`\widehat\tau`$. Its $`A`$-part $`A_0\le\overline G`$ satisfies $`\tau(a)=a^{-1}`$ for $`a\in A_0`$.
+
+The image $`\overline H`$ intersects $`U`$ in precisely $`W`$: if a representative of an element of $`H`$ lies in $`P_p Z_pD_{p'}=D`$, then $`H\cap D`$ splits by Sylow primes. The quotient $`\overline H/W`$ is a complement to $`U/W`$ over $`A`$. As $`W`$ is $`A`$-invariant and $`B`$ has order prime to $`p`$, fixed points are exact, so $`(U/W)^B=0`$. Applying the preceding complement-conjugacy argument with kernel U/W and quotient A makes its A-complements conjugate by U/W. Conjugating $`H`$ by a suitable element of $`P_p`$, while retaining the fixed $`A_0`$ and $`\widehat\tau`$, arranges
+
+```math
+\overline H=W\rtimes A_0.\tag{3}
+```
+
+This replacement is legitimate because every conjugate of $`H`$ still has trivial intersection with $`\Lambda^2`$; it need not be fixed by $`\tau`$. No complement to $`D`$ in $`G`$ has been assumed.
+
+Let $`H_p\in\mathop{\mathrm{Syl}}\nolimits_p(H)`$. Its image in $`\overline H`$ is a Sylow subgroup $`W\rtimes R`$, and the map is injective: its kernel is a $`p`$-subgroup of $`H\cap Z_pD_{p'}`$, but $`H\cap Z_p=1`$ by core-freeness and $`D_{p'}`$ has order prime to $`p`$. Thus $`H_p\cong W\rtimes R`$. Let $`C\le H_p`$ be the inverse image of the pure $`R`$-subgroup in (3); then $`C\cong R`$, and $`C\cap D_{p'}=1`$.
 
 ## Central character and marked collision
 
-In \(\widetilde G=G/D_{p'}\), the images of \(C\) and its inversion by \(\tau\) have the same pure-\(R\) image in \(\overline G\). Thus for each \(c\in C\),
-\[\tau(c)c\in Z_p\quad\text{in }\widetilde G.\]
-Since \(C\) is abelian and \(Z_p\) is central, this defines a homomorphism \(\chi:C\to Z_p\). Let \(C_0=\ker\chi\). Its preimage \(C_0D_{p'}\) is \(\tau\)-stable, and \(C_0,\tau(C_0)\) are complements to its normal Hall \(p'\)-subgroup \(D_{p'}\). Schur–Zassenhaus conjugacy supplies \(d\in D_{p'}\) such that an outside element \(d\widehat\tau\) normalizes \(C_0\). It induces inversion on \(C_0\), because it does so modulo \(D_{p'}\) and \(C_0\cap D_{p'}=1\). An odd power of \(d\widehat\tau\) is an outside involution \(\lambda\) with the same inversion action. As \(|G|\) is odd, all outside involutions are conjugate to \(\widehat\tau\), hence lie in \(\Lambda\).
+In $`\widetilde G=G/D_{p'}`$, the images of $`C`$ and its inversion by $`\tau`$ have the same pure-$`R`$ image in $`\overline G`$. Thus for each $`c\in C`$,
 
-For \(c\in C_0\), \(c^{-1}c^\lambda=c^{-2}\) lies in the conjugate of \(H\) containing \(C_0\) and in \(\Lambda^2\). The latter follows as a product of \(\lambda\) and its \(c\)-conjugate. Marked transversality gives \(c^{-2}=1\), and oddness gives \(c=1\). Thus \(\chi\) is injective and
-\[|A_p|=|C|\le |Z_p|=p.\tag{4}\]
-The reviewed no-normal-Hall consequence gives \(p\mid |A|\), since \(P_p\) is proper normal; hence \(|A_p|=p\). This holds for every \(p\mid |D|\). Conversely every prime of \(A\) divides \(|D|\), because \(G=HD\), \(|H|=|C_G(\tau)|\), and \(C_G(\tau)\le D\). This proves the first equality in (1).
+```math
+\tau(c)c\in Z_p\quad\text{in }\widetilde G.
+```
+
+Since $`C`$ is abelian and $`Z_p`$ is central, this defines a homomorphism $`\chi:C\to Z_p`$. Let $`C_0=\ker\chi`$. Its preimage $`C_0D_{p'}`$ is $`\tau`$-stable, and $`C_0,\tau(C_0)`$ are complements to its normal Hall $`p'`$-subgroup $`D_{p'}`$. Schur–Zassenhaus conjugacy supplies $`d\in D_{p'}`$ such that an outside element $`d\widehat\tau`$ normalizes $`C_0`$. It induces inversion on $`C_0`$, because it does so modulo $`D_{p'}`$ and $`C_0\cap D_{p'}=1`$. An odd power of $`d\widehat\tau`$ is an outside involution $`\lambda`$ with the same inversion action. As $`|G|`$ is odd, all outside involutions are conjugate to $`\widehat\tau`$, hence lie in $`\Lambda`$.
+
+For $`c\in C_0`$, $`c^{-1}c^\lambda=c^{-2}`$ lies in the conjugate of $`H`$ containing $`C_0`$ and in $`\Lambda^2`$. The latter follows as a product of $`\lambda`$ and its $`c`$-conjugate. Marked transversality gives $`c^{-2}=1`$, and oddness gives $`c=1`$. Thus $`\chi`$ is injective and
+
+```math
+|A_p|=|C|\le |Z_p|=p.\tag{4}
+```
+
+The reviewed no-normal-Hall consequence gives $`p\mid |A|`$, since $`P_p`$ is proper normal; hence $`|A_p|=p`$. This holds for every $`p\mid |D|`$. Conversely every prime of $`A`$ divides $`|D|`$, because $`G=HD`$, $`|H|=|C_G(\tau)|`$, and $`C_G(\tau)\le D`$. This proves the first equality in (1).
 
 ## Fixed dimensions and numerical consequences
 
 Return now to the original stabilizer H. The temporary conjugation was used only to prove the invariant bound on |A_p|; the following shadow and fixed-stabilizer conclusions apply to the original canonical folder.
 
-The \(p'\)-group \(B\) acts semisimply on \(U\) without fixed vectors. Over an algebraic closure its nontrivial characters occur in distinct inverse pairs because \(|B|\) is odd; the symplectic involution interchanges their weight spaces, since it inverts \(A\). Hence
-\[\dim C_U(\tau)=\tfrac12\dim U.\tag{5}\]
-This does not require semisimplicity for the \(p\)-part of \(A\). Since \(Z_p\) is fixed and fixed-point lifting is coprime, \(|C_{P_p}(\tau)|=p^{1+\dim U/2}\). Also \(|H\cap P_p|=p^{\dim W}\). Comparing \(|H|=|A|\,|H\cap D|\) with \(|C_G(\tau)|=\prod_p|C_{P_p}(\tau)|\) prime by prime and using \(|A_p|=p\) yields \(\dim W=\dim U/2\). Thus each \(W\) is a maximal isotropic (Lagrangian) subspace. The reviewed equality H∩τ(H)=H∩C_G(τ), together with C_G(τ)≤D and (H∩τ(H))∩P_p=1 for each p, gives H∩C_G(τ)=H∩τ(H)=1. Here a subgroup of nilpotent D splits into its Sylow subgroups, so the trivial intersections with every P_p suffice. Finally the same prime-power counts give \(|H|=|Q|\).
+The $`p'`$-group $`B`$ acts semisimply on $`U`$ without fixed vectors. Over an algebraic closure its nontrivial characters occur in distinct inverse pairs because $`|B|`$ is odd; the symplectic involution interchanges their weight spaces, since it inverts $`A`$. Hence
 
-The equalities also give the G-loop property using the reviewed arbitrary-principal-isotope interface at `ea836a5f328d6bc52913aac8fd1841a87072f5f8`, exactly as in `odd-cross-graph-family.md`: \(H\cap C_G(\tau)=1\) makes the \(H\)-action on \(\Lambda=\widehat\tau^G\) free at \(\widehat\tau\), and \(|H|=|Q|=|\Lambda|\) makes its orbit all of \(\Lambda\). For each \(k\in K\), some \(h\in H\) conjugates \(\widehat\tau\) to \(\widehat\tau k\); the same conjugation identifies \(K\) with \(k^{-1}K\). The cited isotope interface then makes \(Q\) isomorphic to every principal isotope, and hence a G-loop. This uses that interface as an input and requires independent review of the present application.
+```math
+\dim C_U(\tau)=\tfrac12\dim U.\tag{5}
+```
+
+This does not require semisimplicity for the $`p`$-part of $`A`$. Since $`Z_p`$ is fixed and fixed-point lifting is coprime, $`|C_{P_p}(\tau)|=p^{1+\dim U/2}`$. Also $`|H\cap P_p|=p^{\dim W}`$. Comparing $`|H|=|A|\,|H\cap D|`$ with $`|C_G(\tau)|=\prod_p|C_{P_p}(\tau)|`$ prime by prime and using $`|A_p|=p`$ yields $`\dim W=\dim U/2`$. Thus each $`W`$ is a maximal isotropic (Lagrangian) subspace. The reviewed equality H∩τ(H)=H∩C_G(τ), together with C_G(τ)≤D and (H∩τ(H))∩P_p=1 for each p, gives H∩C_G(τ)=H∩τ(H)=1. Here a subgroup of nilpotent D splits into its Sylow subgroups, so the trivial intersections with every P_p suffice. Finally the same prime-power counts give $`|H|=|Q|`$.
+
+The equalities also give the G-loop property using the reviewed arbitrary-principal-isotope interface at `ea836a5f328d6bc52913aac8fd1841a87072f5f8`, exactly as in `odd-cross-graph-family.md`: $`H\cap C_G(\tau)=1`$ makes the $`H`$-action on $`\Lambda=\widehat\tau^G`$ free at $`\widehat\tau`$, and $`|H|=|Q|=|\Lambda|`$ makes its orbit all of $`\Lambda`$. For each $`k\in K`$, some $`h\in H`$ conjugates $`\widehat\tau`$ to $`\widehat\tau k`$; the same conjugation identifies $`K`$ with $`k^{-1}K`$. The cited isotope interface then makes $`Q`$ isomorphic to every principal isotope, and hence a G-loop. This uses that interface as an input and requires independent review of the present application.
 
 ## Evidence and remaining obligation
 
