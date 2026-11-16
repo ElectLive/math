@@ -2,9 +2,7 @@
 
 This page presents selected constructions and their proof details. For the full programme and its open directions, see the [research catalogue](CURRENT_RESULTS.md).
 
-This catalogue is a selected snapshot, not a complete inventory of the active
-research branch. The source snapshot is `27d51e6a23363d6c0ae74b2f6f752db9bb5e5847`
-(15 November 2026). Novelty is not established by inclusion here.
+The constructions on this page are drawn from source revision `27d51e6a23363d6c0ae74b2f6f752db9bb5e5847`. Inclusion does not establish novelty.
 
 ## A finite simple proper Bol loop outside both historical classes
 
