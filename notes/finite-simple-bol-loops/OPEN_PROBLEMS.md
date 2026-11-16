@@ -1,6 +1,6 @@
 # Open problem board
 
-**Current frontier:** see [current advances](CURRENT_ADVANCES.md), then the [earlier snapshot](CURRENT_RESULTS.md). The specified arbitrary-inversion PSL₂-power and nonpermuting A₅-socle models now have source-reported reviewed classifications. Their old paired-inversion-removal tasks are not current targets. General factor-permuting groups, other and mixed socles, and radical extensions remain open; exact regular-top models are not classifications of arbitrary permutation quotients.
+**Current frontier:** see [the research catalogue](CURRENT_RESULTS.md). The specified arbitrary-inversion PSL₂-power and nonpermuting A₅-socle models now have source-reported reviewed classifications. Their old paired-inversion-removal tasks are not current targets. General factor-permuting groups, other and mixed socles, and radical extensions remain open; exact regular-top models are not classifications of arbitrary permutation quotients.
 
 New contributors can use [Start here](START_HERE.md), the [research workflow](RESEARCH_WORKFLOW.md), and the [public-coverage audit](COVERAGE_AUDIT.md).
 
