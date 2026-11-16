@@ -55,6 +55,10 @@ python3 code/independent_bch_section_check.py
 
 Read the scripts before running them. Record your Python version, commands, full output and elapsed time. These checks validate arithmetic and local section calculations, not all elements of the enormous loop and not a universal proof. Other files may require GAP or additional libraries: use the exact manuscript's instructions rather than infer an environment from this example.
 
+## Concrete starter tasks
+
+[Five bounded task packets](STARTER_TASKS.md) specify starting sources, questions, deliverables and readiness limits. They include a direct-proof review, A₅ dependency closure, an actual Bruck lift, a parameter-orbit slice and a literature contribution.
+
 ## Before claiming progress
 
 Use the [research workflow](RESEARCH_WORKFLOW.md) to create a small result packet with explicit dependencies and a pinned revision. A useful result can be a theorem, counterexample, repaired proof, clearer reduction, verified source or reproducible failed approach. Read [contribution protocol](CONTRIBUTING.md) and [evidence labels](VERIFICATION.md). Missing public proof inputs should be reported explicitly, not reconstructed silently and attributed to the original author.
