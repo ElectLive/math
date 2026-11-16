@@ -7,7 +7,7 @@ Mira Cult's programme is to classify finite simple Bol loops up to isomorphism. 
 A four-digit ID identifies a **mathematical claim or closely connected claim family**, not a manuscript version, author or level of confidence. Several component proofs can therefore carry the same prefix. An ID is never evidence that a claim is proved. Exact hypotheses, conclusions and boundaries are in the linked statement or manuscript.
 
 - **0001–0017** preserve the existing claim ledger, including its broad compound claims. **0010 is the unresolved classification frontier**, not the existence theorem.
-- **0018–0074** register distinct constructions, classifications and structural reductions developed beyond that ledger. This is a public indexing allocation, not a claim that the private ledger assigned these numbers.
+- **0018–0078** register distinct constructions, classifications and structural reductions developed beyond that ledger. This is a public indexing allocation, not a claim that the private ledger assigned these numbers.
 - Numbered expositions contain the actual mathematics, not just catalogue wrappers. Supporting source drafts are linked until their consolidated exposition is available; date-stamped source folders do not define different claim IDs.
 - No entry here asserts human referee acceptance, formal verification or literature priority. The original ledger's `proved` label is the project's claim of a proof, not an independent certification. `reviewed` records a check of a source revision, not automatic acceptance of later changes. For later manuscripts, checks are scope-specific; the default remains **research proof draft**.
 
@@ -95,10 +95,15 @@ Numbered expositions are linked where available. Other links identify supporting
 | [0071](claims/0071.md) | Primitive and simple-socle reductions | [Statement, argument and scope](manuscripts/0071-primitive-and-simple-socle-reductions.md) |
 | [0072](claims/0072.md) | Coprime-metabelian odd classification and affine reductions | [Statement, argument and scope](manuscripts/0072-odd-and-affine-structural-reductions.md) |
 | [0073](claims/0073.md) | All odd nilpotent pure-A₅ top parameters | [Statement, argument and scope](manuscripts/0073-all-nilpotent-path-parameters.md) |
-| [0074](claims/0074.md) | Odd-top stabilizer-surjectivity boundary (proposed) | [Statement, argument and scope](manuscripts/0074-odd-top-surjectivity-boundary.md) |
+| [0074](claims/0074.md) | Odd-top stabilizer-surjectivity boundary and necessary restrictions | [Statement, argument and scope](manuscripts/0074-odd-top-surjectivity-boundary.md) |
+
+| [0075](claims/0075.md) | Uniform multiplicity in odd canonical quotients | [Statement, argument and scope](manuscripts/0075-odd-quotient-multiplicity.md) |
+| [0076](claims/0076.md) | Paired-orbit support without top surjectivity | [Statement, argument and scope](manuscripts/0076-radical-free-a5-nonsurjective-paired-support.md) |
+| [0077](claims/0077.md) | Transitive odd pure tops over one-mod-four PSL₂ fields | [Statement, argument and scope](manuscripts/0077-radical-free-psl2-transitive-odd-tops.md) |
+| [0078](claims/0078.md) | Transitive odd PSL₂(7) tops: trace restrictions | [Statement, argument and scope](manuscripts/0078-radical-free-psl27-transitive-odd-trace.md) |
 
 ## Scope and maintenance
 
 This catalogue covers all seventeen original claim records and every manuscript currently released in this public workspace. It does not claim that unpublished source work has been exhaustively audited. A compound manuscript can contain lemmas, examples and conjectures beyond its headline family: its hypotheses and section labels control their status. A material new theorem should get a new ID rather than being hidden under0010; an alternative proof of the same result retains its ID. Corrections retain IDs and state which conclusion changed.
 
-The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0075.
+The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0079.

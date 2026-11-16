@@ -2,7 +2,7 @@
 
 ## Current source coverage
 
-The [mathematical source index](sources/README.md) now provides all 225 manuscripts of the inspected classification checkpoint, plus 16 foundational proofs, bibliography and computational sources. [The crosswalk](classification-source-map.json) lists the public manuscript paths and public content digests. This closes the previous missing-manuscript inventory at that checkpoint; it does not verify every imported theorem, evaluate structural parameter orbits, or certify all computations. The [open board](OPEN_PROBLEMS.md) owns current mathematical targets.
+The [mathematical source index](sources/README.md) now provides all 229 manuscripts of the inspected classification checkpoint, plus 16 foundational proofs, bibliography and computational sources. [The crosswalk](classification-source-map.json) lists the public manuscript paths and public content digests. This closes the previous missing-manuscript inventory at that checkpoint; it does not verify every imported theorem, evaluate structural parameter orbits, or certify all computations. The [open board](OPEN_PROBLEMS.md) owns current mathematical targets.
 
 Python source syntax compilation passed, as did the selected classical/orthogonal bound and finite odd-cross-graph parameter checks. An all-program replay and hosted visual inspection of every new page have not been performed. Newer active research may require another reconciliation.
 

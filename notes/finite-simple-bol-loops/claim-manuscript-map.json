@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001\u20130017",
-  "next_id": "0075",
+  "next_id": "0079",
   "manuscripts": [
     {
       "id": "0053",
@@ -1861,7 +1861,27 @@
     {
       "id": "0074",
       "source": "manuscripts/0074-odd-top-surjectivity-boundary.md",
-      "group": "Odd-top stabilizer-surjectivity boundary (proposed)"
+      "group": "Odd-top stabilizer-surjectivity boundary and necessary restrictions"
+    },
+    {
+      "id": "0075",
+      "source": "manuscripts/0075-odd-quotient-multiplicity.md",
+      "group": "odd-quotient-multiplicity"
+    },
+    {
+      "id": "0076",
+      "source": "manuscripts/0076-radical-free-a5-nonsurjective-paired-support.md",
+      "group": "radical-free-a5-nonsurjective-paired-support"
+    },
+    {
+      "id": "0077",
+      "source": "manuscripts/0077-radical-free-psl2-transitive-odd-tops.md",
+      "group": "radical-free-psl2-transitive-odd-tops"
+    },
+    {
+      "id": "0078",
+      "source": "manuscripts/0078-radical-free-psl27-transitive-odd-trace.md",
+      "group": "radical-free-psl27-transitive-odd-trace"
     }
   ]
 }

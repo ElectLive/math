@@ -250,3 +250,10 @@ This index provides the complete manuscript set of the inspected classification 
 | [Full strips and forests in paired simple envelopes](factor-permutation/radical-free-strip-forests.md) | [0059](../CLAIMS.md) |
 | [Characteristic-two symplectic canonical groups](factor-permutation/radical-free-symplectic-inversion.md) | [0060](../CLAIMS.md) |
 | [Three-dimensional linear and unitary canonical groups in odd characteristic](factor-permutation/radical-free-three-dimensional-linear-unitary.md) | [0061](../CLAIMS.md) |
+
+## New odd-top results
+
+- [odd-quotient-multiplicity](factor-permutation/odd-quotient-multiplicity.md)
+- [radical-free-a5-nonsurjective-paired-support](factor-permutation/radical-free-a5-nonsurjective-paired-support.md)
+- [radical-free-psl2-transitive-odd-tops](factor-permutation/radical-free-psl2-transitive-odd-tops.md)
+- [radical-free-psl27-transitive-odd-trace](factor-permutation/radical-free-psl27-transitive-odd-trace.md)

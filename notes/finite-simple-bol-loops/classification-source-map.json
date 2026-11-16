@@ -1098,7 +1098,7 @@
       "public_path": "sources/factor-permutation/radical-free-a5-nilpotent-path-parameters.md",
       "claim_family": "0073",
       "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
-      "public_sha256": "655360269bb961ec6b82b610e92855ce7f6fb1415b10f6e7598fb38af138a141"
+      "public_sha256": "d2650e7d4d05f912f4f7494d6bf613fe5dff83b43ee0fee4dd47b9ac7b17a58e"
     },
     {
       "public_path": "sources/factor-permutation/radical-free-a5-nonabelian-27.md",
@@ -1110,7 +1110,7 @@
       "public_path": "sources/factor-permutation/radical-free-a5-odd-top-surjectivity.md",
       "claim_family": "0074",
       "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
-      "public_sha256": "5531383510c6db0b0936e0666f4a6c04002fbd7db7a4f58aea4bebc1855c43dd"
+      "public_sha256": "7b3786f8ed8bd57968752d7aff28292a67d3a228033dcb29338c33003da71d61"
     },
     {
       "public_path": "sources/factor-permutation/radical-free-a5-orbit-tensors.md",
@@ -1351,6 +1351,30 @@
       "claim_family": "0061",
       "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
       "public_sha256": "38af81aa21c54dc25cedaf6bf1ee4e3d9fb7830a879c54b4acdca37be762593a"
+    },
+    {
+      "public_path": "sources/factor-permutation/odd-quotient-multiplicity.md",
+      "claim_family": "0075",
+      "editing": "Mathematical content and scope preserved; administrative identities and private revision pins omitted; links made public.",
+      "public_sha256": "9926a64423c4f1eb8df1e46cc86b93bac178c04041c13b6459cb38b5b76f8517"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-nonsurjective-paired-support.md",
+      "claim_family": "0076",
+      "editing": "Mathematical content and scope preserved; administrative identities and private revision pins omitted; links made public.",
+      "public_sha256": "a306870613e8cda6eddfe1da1e5968a11d8ae98a6edfdd658725e24fefbefa6e"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-psl2-transitive-odd-tops.md",
+      "claim_family": "0077",
+      "editing": "Mathematical content and scope preserved; administrative identities and private revision pins omitted; links made public.",
+      "public_sha256": "cc6034ced706cb93309f5a57fbd9f7e059a5130805cdb2c015110f92bc31f8e6"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-psl27-transitive-odd-trace.md",
+      "claim_family": "0078",
+      "editing": "Mathematical content and scope preserved; administrative identities and private revision pins omitted; links made public.",
+      "public_sha256": "2f3a7fac999315e9c5a432ec902c40e4ada879a1fe0f6559699e312cff13893e"
     }
   ]
 }

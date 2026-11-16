@@ -65,7 +65,7 @@ the already treated nonpermuting case does not capture.
 
 **2a. Nonzero graph realizability and orbit evaluation.** Do any admissible parameters with nonzero residual graph produce a faithful simple proper loop? If so, determine their isomorphism orbits in a specified family. The theorem explicitly does not assert such parameters exist. This is an unevaluated existence/orbit question, not a request to reprove the now-established exhaustive parameterization. No separate realization or impossibility result was located in the inspected checkpoint.
 
-**2b. Odd nonnilpotent tops: actively investigated, not untouched.** In the same pure permutation setting G=A₅^Ω⋊Q with Q odd, prove that the actual identity stabilizer H maps onto Q, or construct and classify the failures. The [surjectivity investigation](manuscripts/0074-odd-top-surjectivity-boundary.md) already derives necessary socle/mark restrictions and tests a proper normally-generating top subgroup. That group-theoretic control example is not a Bol loop. A proposed extension of the path theorem covers arbitrary odd Q **assuming** H→Q is surjective; this extension and the non-surjective investigation are pending independent exact-source review. Neither proves general surjectivity or exhausts nonnilpotent tops.
+**2b. Odd nonnilpotent tops: actively investigated, not untouched.** In the same pure permutation setting G=A₅^Ω⋊Q with Q odd, prove that the actual identity stabilizer H maps onto Q, or construct and classify the failures. The [surjectivity investigation](manuscripts/0074-odd-top-surjectivity-boundary.md) already derives necessary socle/mark restrictions and tests a proper normally-generating top subgroup. That group-theoretic control example is not a Bol loop. The extension of the path theorem covers arbitrary odd Q **assuming** H→Q is surjective, with recorded separate automated reviews. The non-surjective investigation also has reviewed necessary restrictions, including exclusion of transitive pure A₅ tops. The general intransitive case remains open. Neither proves general surjectivity or exhausts nonnilpotent tops.
 
 **2c. General outer actions: partially investigated.** Classify the remaining A₅-socle folders when factor permutations and genuine outer actions occur together. The [nonpermuting parity-code work](advances-2026-11-16/manuscripts/radical-free-a5-outer-codes.md) already treats outer data in its specified nonpermuting models and exhibits G≠Soc(G). Thus outer actions are neither excluded nor wholly uninvestigated. The pure-permutation all-graph theorem does not classify arbitrary subgroups above the socle in Aut(A₅) wr Sym(Ω). A general combined outer/permutation construction, exhaustion and equivalence theorem remains missing.
 
@@ -179,7 +179,7 @@ normal forms do not apply.
 ## Investigation-status audit
 
 This board was reconciled on 16 November 2026 against research checkpoint
-`17fd496f2d7eb8e6affe28e8be1ead9a94a7bf5b`, including the manuscripts rather
+`508ed66f7323592d4ac8b74efc943b1e3072211a`, including the manuscripts rather
 than only the older PR summary. “No separate result located” means no dedicated
 resolution was found in that inspected material, not that nobody has ever
 investigated the question. The clearest specific follow-ups are nonzero-graph
@@ -197,3 +197,7 @@ subcase, or refutes an explicitly proposed reduction with a verified constructio
 For collaboration details and reference contributions, use the
 [research workflow](RESEARCH_WORKFLOW.md) and [shared references](REFERENCES.md);
 those activities are not themselves open mathematical problems.
+
+## Additional transitive-top boundary
+
+[0077](manuscripts/0077-radical-free-psl2-transitive-odd-tops.md) excludes pure PSL₂(q) canonical envelopes with odd q≡1 mod4 and an odd faithful transitive top, without a surjectivity hypothesis. This does not settle intransitive or outer-action models. For PSL₂(7), [0078](manuscripts/0078-radical-free-psl27-transitive-odd-trace.md) excludes the outer case and gives necessary inner trace constraints; those constraints alone do not exclude or realize an inner folder. The inner transitive case is a concrete open target. [Uniform odd-quotient multiplicity](manuscripts/0075-odd-quotient-multiplicity.md) remains proposed, not a completed classification.

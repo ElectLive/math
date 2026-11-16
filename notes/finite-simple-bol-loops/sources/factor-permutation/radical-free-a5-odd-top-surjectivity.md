@@ -2,9 +2,9 @@
 
 Mira Cult
 
-**Proposed; independent review pending.** This source concerns [classification frontier](../../claims/0010.md). Let `(G,H,K,τ)` be the faithful generated canonical folder of a finite simple nonassociative left Bol loop. Assume `Soc(G)=N=A5^Ω` and `G=N⋊Q`, where the finite odd group `Q` acts faithfully by pure permutations of the factors. Put `H0=H∩N`, `H_Q=HN/N≤Q`, and let `θ` be the automorphism induced by `τ` on `Q`. We do **not** assume `Q` nilpotent or `H_Q=Q`. The problem of forcing the latter equality remains open here.
+**Independently reviewed necessary conditions under pinned inputs.** This source concerns [0323-finite-simple-non-moufang-bol-loops:C0010](../../claims/0010.md). Let `(G,H,K,τ)` be the faithful generated canonical folder of a finite simple nonassociative left Bol loop. Assume `Soc(G)=N=A5^Ω` and `G=N⋊Q`, where the finite odd group `Q` acts faithfully by pure permutations of the factors. Put `H0=H∩N`, `H_Q=HN/N≤Q`, and let `θ` be the automorphism induced by `τ` on `Q`. We do **not** assume `Q` nilpotent or `H_Q=Q`. The problem of forcing the latter equality remains open here.
 
-The original-folder and strict normal-quotient inputs are [Claim 0001](../../claims/0001.md); canonical inversion and invariance of the **actual** marked set `Λ=τK` use [Claim 0007](../../claims/0007.md). The character values and subgroup averages used below are in [the stable-orbit local source](radical-free-a5-stable-orbit-local.md), especially its direct-sum proof. The full-strip/Goursat and symmetric-tensor inputs are in [the orbit-tensor source](radical-free-a5-orbit-tensors.md), especially its character table and tensor argument,. The actual marked-class square and parity expansion used below are in [the proper-orbit parity source](radical-free-a5-stable-proper-parity.md), especially its displayed marked count and subsequent parity proof. Those sources have their stated hypotheses and review records; the extensions below are new and unreviewed.
+The original-folder and strict normal-quotient inputs are [C0001](../../claims/0001.md); canonical inversion and invariance of the **actual** marked set `Λ=τK` use [C0007](../../claims/0007.md). The character values and subgroup averages used below are in [the stable-orbit local source](radical-free-a5-stable-orbit-local.md), especially its direct-sum proof,. The full-strip/Goursat and symmetric-tensor inputs are in [the orbit-tensor source](radical-free-a5-orbit-tensors.md), especially its character table and tensor argument,. The actual marked-class square and parity expansion used below are in [the proper-orbit parity source](radical-free-a5-stable-proper-parity.md), especially its displayed marked count and subsequent parity proof,. Those sources have their stated hypotheses and review records; the extensions below have their own exact-source review record.
 
 ## Local characters without surjectivity
 
@@ -42,5 +42,69 @@ These top-only constraints do not imply surjectivity. Let `Q=(C7×C7)⋊C3`, wit
 
 There is a related limitation on the single-H_Q-orbit tensor strategy. In the regular action by left translation, take τ to act by θ on Q and take the support `B=H_Q`. The Q-orbit of the corresponding ψ-supported N-type has supports exactly the left cosets of H_Q. Its τ-image has support θ(H_Q), a subgroup containing 1. It belongs to that orbit only if θ(H_Q)=H_Q: a left coset containing 1 is H_Q itself. In the control, θ interchanges the two distinct order-21 subgroups. They are not even Q-conjugate, since their intersections with the normal C7² are distinct Q-invariant eigenlines. Thus this particular induced representation has no τ-extension of the required form. This does not rule out a different τ-stable tensor or a stronger socle-coupling argument.
 
-The remaining obligation is to prove or refute `H_Q=Q` for arbitrary odd tops using the actual socle and marked-set constraints. No new permanent claim ID, general classification, or independent review is asserted here.
+The remaining obligation is to prove or refute `H_Q=Q` for arbitrary odd tops using the actual socle and marked-set constraints. No new permanent claim ID or general classification is asserted here.
+
+## Independent mathematical review
+
+Four separate automated mathematical reviews accepted the complete source, conditional on the pinned inputs. They checked the fixed-vector transport on a single H-orbit, local subgroup conclusions and all-double parity count without surjectivity, the full-orbit tensor and singleton-intersection limitation, normal-generation and quotient inequalities, the order-147 top-only control and its θ-stable normal subgroups, and the precise left-coset τ-extension limitation. They did not independently reprove every upstream input, run computations or conduct a fresh primary-source audit. These are model mathematical reviews, not human/formal certification or GitHub approval; they establish necessary constraints, not surjectivity or a loop construction.
+
+## Singleton factors exclude every transitive odd top
+
+**Independently reviewed theorem under pinned inputs.** There is no faithful generated canonical folder of a finite simple nonassociative Bol loop with G=A5^Ω⋊Q, where Q is a finite odd group acting faithfully and transitively by pure factor permutations. No hypothesis H→Q is imposed. The local and tensor inputs in this manuscript are now pinned to their reviewed source the recorded source version; the original-folder and strict-quotient pins remain those above.
+
+First record an actual collision observation that also applies to an intransitive action. If H0 contains an individual factor A5_i, then every selected outside involution has identity local automorphism at each fixed factor in the Q-orbit of i. Otherwise Q-transitivity on that orbit and G-invariance of Λ move a nonidentity fixed local involution to i. Choose a∈A5_i not fixed by that local automorphism. In the formal extension, the element λ^aλ is nonidentity, supported only on i, and belongs both to A5_i≤H0 and to Λ². This contradicts H∩Λ²={1}. This observation uses neither Q≤H nor τ(H)=H.
+
+For the theorem, Ω is the only Q-orbit and is τ-stable. If any L_i is proper, the local-character theorem makes every fixed-factor mark double, and the nonsurjective parity proof above excludes the folder. Therefore every L_i=A5. The subdirect subgroup H0 is a direct product of s full Scott strips, so |H0|=60^s. The full-orbit tensor theorem forces a strip meeting Ω in exactly one coordinate. As Ω is the entire factor set, this is a literal singleton strip. The preceding observation now forces every selected fixed-factor local mark to be identity.
+
+Write |Ω|=2c+f for the factor permutation of τ; f>0 because |Ω| is odd. Put k=[Q:C_Q(θ)]. All outside top involutions are Q-conjugate, and Λ is G-invariant and projects onto that class of k labels. Above each label the identity fixed marks and exchanged pairs form a unique N-class of size 60^c. Thus |K|=k60^c. Since |N|=60^(2c+f), the original transversal count gives
+
+    60^s=|H0|=60^(c+f) [Q:H_Q]/k.                       (4)
+
+Both k and [Q:H_Q] are odd. Taking 2-adic valuations yields s=c+f, and substituting back gives [Q:H_Q]=k.
+
+For Q≠1, N is a nontrivial proper normal subgroup. The image of K in G/N is I, of size k. The original strict normal-quotient test demands k>[Q:H_Q], a contradiction. If using the version of that test with HN<G, this condition is automatic here: HN=G would give k=1, while the projected K generates Q, forcing Q=1. Finally, Q=1 and transitivity give |Ω|=1; the already forced full projection gives H0=A5=N≤H, contrary to core-freeness.
+
+This excludes the entire transitive pure-A5 odd-top model, not just nilpotent or surjective tops. The singleton observation remains available for multiple orbits, but there a strip meeting one orbit once may have other coordinates elsewhere. No intransitive exclusion is claimed. The earlier review record covers the preceding necessary-conditions source only; this theorem has its own exact-source review below.
+
+## A primitive affine control for a failed top-only inequality
+
+**Independently reviewed elementary results.** A possible route through θ-stable primitive quotients would bound |L:C_L(θ)| by |C_V(θ)| for an odd affine group Q=V⋊L, with V elementary abelian, L faithful irreducible, and Q generated by θ-inverted elements. That general inequality is false.
+
+Take V=F7³ with basis e_i for i∈F3. Define X e_i=2^i e_i, Y e_i=e_(i+1), R e_i=e_(−i), σ=−R, and L=⟨X,Y⟩. The generators have order three and commute up to a nontrivial scalar of order three. Their 27 distinct scalar-diagonal-shift products form the Heisenberg group 3^(1+2). The representation is faithful and irreducible: X has three distinct eigenvalues, and Y transitively permutes its three eigenlines.
+
+Let θ act on V by σ and on L by conjugation by σ. It inverts X,Y, fixes the scalar center, and induces −1 on L/Z(L). Hence C_L(θ)=Z(L) has order 3. The +1 eigenspace of σ has dimension one, so
+
+    |L:C_L(θ)|=9 > 7=|C_V(θ)|.
+
+The θ-inverted X,Y generate L. The nonzero negative eigenspace of σ consists of inverted vectors; its L-span is all V by irreducibility. Therefore Q is generated by its θ-inverted elements. The proper subgroup H_Q=L normally generates Q, because [V,L]=V.
+
+This control also passes every displayed θ-stable top cut. At M=1, |H_Q|=27>21=|C_Q(θ)|. Every nontrivial normal M of Q contains V: if M∩V=1 then [M,V]=1, whereas faithfulness gives C_Q(V)=V; otherwise irreducibility gives V≤M. For V≤M<Q the image of H_Q is the entire quotient. On any nontrivial quotient of L, θ remains nontrivial: every proper normal subgroup is contained in a maximal subgroup containing Z(L), and θ inverts the resulting nontrivial order-three quotient. Thus |Q/M|>|C_(Q/M)(θ)|. No top cut yields surjectivity here.
+
+The bound does hold when L is abelian. Faithful irreducibility makes Fp[L] a field F_(p^d), V one-dimensional over that field, and L a cyclic subgroup of its multiplicative group. An involution normalizing L induces a field automorphism. If it is trivial, the index is one and the inequality is immediate. Otherwise d=2m and that automorphism is the p^m-Frobenius. A semilinear involution on this one-dimensional space has p^m fixed vectors: writing it as v↦a v^(p^m), its square gives a^(p^m+1)=1, and a basis change using the cyclic field group makes a=1. The image of l↦l^(p^m−1) lies in the norm-one group of order p^m+1 and has odd order. Consequently
+
+    |L:C_L(θ)| ≤ (p^m+1)/2 ≤ p^m=|C_V(θ)|.
+
+Both deductions are analytic. They identify a limitation and a surviving special case of a top-only argument; they construct no Bol folder. In particular the transitive pure-A5 exclusion above concerns the actual socle and marks, which these group data do not supply.
+
+Four separate automated mathematical reviews accepted both appended sections. For the transitive-top theorem their acceptance is conditional on the pinned local/tensor and original-folder interfaces; they checked the actual singleton-supported collision, identity fixed-mark class count, the exponent c+f in (4), 2-adic equality and the strict N-cut including Q=1. They separately checked the affine Heisenberg control, inverted generation, all stated normal cuts and the abelian-complement finite-field bound. They did not independently reprove all upstream inputs, run computations or conduct a fresh primary-source audit. These are model mathematical reviews, not human/formal certification or GitHub approval. No intransitive exclusion or folder construction follows from the top-only control.
+
+## Isolated full stable orbits: exact cuts and rooted forests
+
+**Independently reviewed necessary condition under pinned inputs.** In the original arbitrary odd-top model, let O be a τ-stable Q-orbit with every H0 projection full. Assume every original full strip meeting O is entirely contained in O. Put S=A5^O, T=A5^(Ω−O), U=H_Q, and D=ker(Q→Sym(O)). Write |O|=2c+f and let s be the number of original full strips in O. Here f>0. Let k_D=[Q/D:C_(Q/D)(θ)]. Whenever T⋊D is a nontrivial proper normal subgroup, the exact original cut is
+
+    60^(c+f−s) < k_D/[Q/D:UD/D],        s≤c+f.            (5)
+
+The full-orbit tensor argument gives a strip meeting O once. Isolation makes it an individual factor of H0. The singleton collision observation therefore makes every selected fixed-factor mark on O identity.
+
+Write B=pr_O(H0), the product of its s full Scott strips. This subgroup is self-normalizing in S: in each full diagonal strip a normalizing base element induces the same inner automorphism on every coordinate, and centerlessness makes that element itself diagonal; disjoint supports give N_S(B)=B. Because H normalizes H0, an actual H-lift whose top lies in D has its O coefficient in N_S(B)=B. Thus hidden top lifts add no extra base image after killing T⋊D, and
+
+    |Hbar|=60^s |UD/D|.
+
+The action kernel D is θ-stable because τ preserves O and intertwines the factor permutation actions. The actual marks in the quotient have all fixed local marks identity, and exactly one S-class of size 60^c over each outside top label. All k_D such labels occur: outside involutions of the odd quotient are conjugate to the image of θ, and conjugators lift from Q/D to Q. Hence |Kbar|=k_D60^c. Substitution in the original strict test proves the first part of (5), without assuming a quotient folder.
+
+For the second part fix any actual selected N-class C and its factor involution on O. Make a multigraph with the s original full strips as vertices and the c swapped coordinate pairs as edges; loops and parallel edges are retained. Mark every vertex containing a fixed coordinate. There are at most f marked vertices. If a connected component has no marked vertex, choose a nonidentity involution in each of its original strips and identity in all others. This is an actual H0-element supported entirely inside O. It has matching zero/nonzero support at every swapped pair and identity at every fixed coordinate. The actual N-class square C² contains this tuple: the two prescribed nonidentity involutions on a swapped pair are conjugate in A5, and the pairs can be realized independently. Outside O choose the identity products. This is a forbidden nonidentity H0∩Λ² element.
+
+Every graph component is therefore marked. The number of components is at least s−c and at most f, proving s≤c+f. If the top ratio in (5) is at most 60, strictness forces s=c+f. Equality of these integer counts then makes the graph a forest with exactly one fixed coordinate in each component, for every actual selected class. These are restrictions on the original strip configuration; they need not eliminate the orbit. They retain the actual image UD/D and do not infer stabilizer surjectivity.
+
+Four separate automated mathematical reviews accepted the complete isolated-full-stable-orbit section, conditional on its pinned inputs. They checked self-normalizing full strips and actual hidden lifts, projected marked counts, the strict original cut, the supported class-square collision, and the rooted-forest equality case. They did not independently reprove every upstream input, run computations or conduct a fresh primary-source audit. These are model mathematical reviews, not human/formal certification or GitHub approval. These are scoped restrictions; they do not classify the general nonsurjective model.
 
