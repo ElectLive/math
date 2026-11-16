@@ -1,8 +1,15 @@
 # Finite simple Bol loops: a collaborative classification project
 
-The objective is a structural classification of finite simple Bol loops up to
-isomorphism. This public workspace presents selected constructions, their proof
-dependencies, and concrete gaps where collaborators can make progress.
+This is a collaborative research programme aimed at a structural classification
+of **all finite simple Bol loops up to isomorphism**. The goal is to identify the
+families and exceptional cases, prove that they exhaust the possibilities, and
+determine exactly when two constructions give isomorphic loops.
+
+The programme combines new constructions, classifications of precisely defined
+subclasses, and structural reductions that constrain the remaining cases. This
+workspace collects those results and their proof sources, maps the open gaps,
+and provides concrete problems for collaborators. No single construction or
+proof route defines the scope of the project.
 
 **The unrestricted classification is not complete.** A procedure that searches
 all finite tables or tests all possible extension data is not, by itself, the
@@ -21,10 +28,32 @@ The **[current research catalogue](CURRENT_RESULTS.md)** is the main guide to th
 
 These are differently scoped results, not one completed classification. The catalogue distinguishes recorded model reviews from new unreviewed appendices and links the mathematical sources and controls. **Start there for achievements and concrete collaboration targets.**
 
-## Two complementary proof routes
+## One milestone: a simple Bol loop outside two familiar classes
 
-- [Direct existence proof](simple-existence-proof.md): a specialized construction and lemmas for the non-G-loop/no-Bruck-isotope example, without a general class-two exhaustion theorem.
-- [Original class-two framework](packet/manuscripts/odd-class-two-classification.md) and [original construction](packet/manuscripts/odd-rigid-center-nongloop.md): the broader route that led to the example. The framework is retained as a proof draft; the release audit does not certify its full exhaustion theorem.
+Nagy's *Some remarks on simple Bol loops* (2008), §6 Problem 1, asks whether
+there exists a finite simple proper Bol loop that is **neither a G-loop nor
+isotopic to a Bruck loop**. Here a G-loop is isomorphic to every one of its loop
+isotopes, and proper means non-Moufang.
+
+The [rigid-center construction](packet/manuscripts/odd-rigid-center-nongloop.md)
+proposes such an example of order \(3^{75}19^3\). This existence result is one
+contribution to the broader classification programme: it shows why those two
+classes alone cannot suffice, if the argument is accepted. The
+[result and review summary](RESULTS.md) gives its precise status.
+
+Two presentations are available for readers investigating this result:
+
+- [Direct existence proof](simple-existence-proof.md): a specialized construction
+  with the lemmas needed for this example, independent of a general class-two
+  exhaustion theorem.
+- [Original class-two framework](packet/manuscripts/odd-class-two-classification.md)
+  and [original construction](packet/manuscripts/odd-rigid-center-nongloop.md):
+  the broader approach through which the example was discovered. The framework
+  is retained as a proof draft; the release audit does not certify its full
+  exhaustion theorem.
+
+Scoped AI review found no defect in the example's argument. That is not human
+refereeing, formal verification, or a certification of historical novelty.
 
 ## Start here
 
