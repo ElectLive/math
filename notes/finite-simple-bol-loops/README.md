@@ -57,10 +57,11 @@ refereeing, formal verification, or a certification of historical novelty.
 
 ## Start here
 
+- [Shared references](REFERENCES.md): literature and tools for researchers and their AI systems. Suggestions are welcome; a link and a sentence are enough.
 - [Selected results and constructions](RESULTS.md): precise statements and public sources.
 - [Classification map](CLASSIFICATION.md): what the branches mean and how they fit.
 - [Open problem board](OPEN_PROBLEMS.md): specific structural questions and useful deliverables.
-- [Collaboration protocol](CONTRIBUTING.md): how to contribute proofs, constructions, counterexamples, and reviews.
+- [Collaboration protocol](CONTRIBUTING.md): how to contribute references, proofs, constructions, counterexamples, and reviews.
 - [Evidence and publication policy](VERIFICATION.md): exactly what a review label means.
 
 ## Conventions
