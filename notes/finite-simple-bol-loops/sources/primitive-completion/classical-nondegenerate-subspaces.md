@@ -1,0 +1,33 @@
+# Natural actions on nondegenerate classical subspaces
+
+Mira Cult
+**Status:** Independently reviewed under the exact scope recorded below. This continues the residual `0323-finite-simple-non-moufang-bol-loops:C0010` frontier. Its loop consequences depend on C0008 Lemma 2.1. The groups below are the explicitly stated natural semilinear groups; identifying them with full almost-simple action stabilizers is a separate obligation. No CFSG is used in the proposed geometric argument.
+
+## Completion lemma
+
+Let $`V`$ be a finite-dimensional nondegenerate symplectic or Hermitian space, and $`W\le V`$ a subspace of dimension $`d`$ with radical $`R=W\cap W^\perp`$ of dimension $`r`$. Then $`W`$ lies in a nondegenerate subspace of dimension $`d+r`$. Moreover, that subspace can be enlarged to any admissible dimension at most $`\dim V`$: every dimension in the Hermitian case and every even dimension in the symplectic case.
+
+Indeed, split $`W=W_0\perp R`$ with $`W_0`$ nondegenerate. The nondegenerate space $`W_0^\perp`$ contains the totally isotropic $`r`$-space $`R`$, which extends to a nondegenerate $`2r`$-space by choosing dual partners. Their orthogonal sum has dimension $`d+r`$. Further nondegenerate summands exist in its orthogonal complement in the indicated dimensions. This uses standard Witt completion and finite Hermitian-space facts; the conventions and small dimensions should be checked in independent review. In particular, every subspace of dimension at most two embeds in a nondegenerate subspace of dimension at most four. If a two-space contains a nonsingular vector in a Hermitian space, its radical has dimension at most one and it embeds in a nondegenerate subspace of dimension at most three.
+
+## Symplectic actions
+
+Let $`V`$ be nondegenerate symplectic of dimension $`N`$ over a finite field, and let $`k`$ be even with $`4\le k\le N/2`$. Let $`\Omega_k`$ consist of all nondegenerate $`k`$-subspaces. Every semilinear symplectic similitude $`g`$ has some $`U\in\Omega_k`$ with $`U\cap gU\ne0`$: choose any nonzero $`v`$, and apply the completion lemma to $`W=\langle v,gv\rangle`$, which has dimension at most two, extending it to a nondegenerate $`k`$-space $`U`$. Then $`gv\in U\cap gU`$.
+
+Conversely, for any $`U\in\Omega_k`$ its nondegenerate orthogonal complement has dimension $`N-k\ge k`$ and contains a nondegenerate $`k`$-space disjoint from $`U`$. Disjointness is preserved by the natural $`P\Gamma\mathrm{Sp}(V)`$ action. If a loop on $`\Omega_k`$ had multiplication group in that action, C0008 Lemma 2.1 applied to the identity and a disjoint point would provide an element sending **every** $`U`$ to a disjoint $`gU`$, contradiction. Orthogonal complementation is equivariant and extends the conclusion to $`4\le N-k\le N/2`$ as well.
+
+The lower bound $`k\ge4`$ is real for this particular disjointness argument. Let $`q`$ be odd, let $`(W,\beta)`$ be a nondegenerate alternating space over $`\mathbb F_{q^2}`$, and take $`B=\mathop{\mathrm{Tr}}\nolimits_{q^2/q}\beta`$ on $`V=W`$ viewed over $`\mathbb F_q`$. Choose $`\alpha\in\mathbb F_{q^2}\setminus\mathbb F_q`$ with $`\alpha^2=\mu\in\mathbb F_q`$ nonsquare, and put $`g(v)=\alpha v`$. Then $`g`$ is a $`B`$-similitude of multiplier $`\mu`$, has no $`\mathbb F_q`$-eigenvectors, and $`B(v,gv)=\mathop{\mathrm{Tr}}\nolimits(\alpha\beta(v,v))=0`$ for all $`v`$. If a nondegenerate two-plane $`U`$ met $`gU`$ nontrivially, it would contain some $`gv`$ with $`0\ne v\in U`$; the independent pair $`v,gv`$ would span $`U`$ and have zero alternating pairing, a contradiction. Thus this individual $`g`$ moves **every** nondegenerate two-plane to a disjoint plane. This is not a loop construction and does not establish that the full projective similitude action is the relevant almost-simple action in every case.
+
+## Unitary actions
+
+Let $`V`$ be nondegenerate Hermitian of dimension $`N`$ over $`\mathbb F_{q^2}`$, and let $`3\le k\le N/2`$. For every semilinear unitary similitude $`g`$, choose a nonsingular $`v`$. The space $`W=\langle v,gv\rangle`$ contains a nonsingular vector and has dimension at most two, so the completion lemma embeds it in a nondegenerate $`k`$-space $`U`$. Thus $`gv\in U\cap gU`$. As above, every nondegenerate $`k`$-space has a disjoint nondegenerate $`k`$-space in its orthogonal complement, so C0008 UOD excludes a loop with multiplication group in the natural $`P\Gamma U(V)`$ action. Orthogonal complementation extends this to $`3\le N-k\le N/2`$. This part holds for all finite $`q`$, including $`q=2`$.
+
+For $`k=2`$, the same conclusion holds when $`q\ge3`$, conditional on the independently reviewed $`\eta=1`$ obstruction in [unitary-nonorthogonal.md](unitary-nonorthogonal.md). If $`g`$ is projectively identity it fixes all planes; otherwise that obstruction gives a nonsingular $`v`$ with $`\eta(v,gv)\ne1`$. The Gram determinant of $`\langle v,gv\rangle`$ is then nonzero, so it is a nondegenerate plane $`U`$ with $`gv\in U\cap gU`$. Disjoint nondegenerate planes exist when $`N\ge4`$. The case $`k=2`$, $`q=2`$ is not established by this argument; the $`k=1`$ point actions are treated separately in the unitary action manuscripts and C0016, with their respective review scopes.
+
+## Orthogonal boundary and review
+
+For orthogonal nondegenerate subspace actions, completion must preserve the prescribed quadratic isometry type; the dimension and sign of the complement can obstruct a naive extension. In characteristic two, nondegeneracy of the quadratic form and of its polar form also require separate treatment. The completion lemma above is therefore not asserted for the orthogonal cases, and no orthogonal exclusion follows here.
+
+Independent review should check Witt completion and extension in all dimensions and characteristics, transitivity and faithful action conventions, the disjointness UOD deduction, orthogonal-complement equivariance, the exact upstream unitary $`\eta`$ result and its pin, and the symplectic two-plane counterexample. These proposed action-specific exclusions do not resolve the general primitive almost-simple classification.
+
+
+automated reviewers a separate automated checker accepted the argument at its recorded source revision, checking Witt completion in all finite characteristics, the dimension bounds, disjointness, orthogonal complementation and the symplectic two-plane counterexample. The review assumes C0008 Lemma 2.1 and, for unitary k=2, q≥3, the eta obstruction reviewed at its recorded source revision. It covers the stated natural actions, not arbitrary almost-simple action interfaces, orthogonal spaces, or q=2 unitary two-planes.

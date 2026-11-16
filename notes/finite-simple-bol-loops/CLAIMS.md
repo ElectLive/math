@@ -7,7 +7,7 @@ Mira Cult's programme is to classify finite simple Bol loops up to isomorphism. 
 A four-digit ID identifies a **mathematical claim or closely connected claim family**, not a manuscript version, author or level of confidence. Several component proofs can therefore carry the same prefix. An ID is never evidence that a claim is proved. Exact hypotheses, conclusions and boundaries are in the linked statement or manuscript.
 
 - **0001–0017** preserve the existing claim ledger, including its broad compound claims. **0010 is the unresolved classification frontier**, not the existence theorem.
-- **0018–0069** register distinct constructions, classifications and structural reductions developed beyond that ledger. This is a public indexing allocation, not a claim that the private ledger assigned these numbers.
+- **0018–0074** register distinct constructions, classifications and structural reductions developed beyond that ledger. This is a public indexing allocation, not a claim that the private ledger assigned these numbers.
 - Numbered expositions contain the actual mathematics, not just catalogue wrappers. Supporting source drafts are linked until their consolidated exposition is available; date-stamped source folders do not define different claim IDs.
 - No entry here asserts human referee acceptance, formal verification or literature priority. The original ledger's `proved` label is the project's claim of a proof, not an independent certification. `reviewed` records a check of a source revision, not automatic acceptance of later changes. For later manuscripts, checks are scope-specific; the default remains **research proof draft**.
 
@@ -35,7 +35,7 @@ A four-digit ID identifies a **mathematical claim or closely connected claim fam
 
 ## Subsequent constructions and structural results
 
-Numbered expositions are linked where available. Other links identify supporting source manuscripts, pending consolidation into mathematical papers. Rows group component arguments for the same mathematical result or reduction; they are not counts of independent theorems. All rows are research proof drafts subject to their stated hypotheses and outstanding dependencies. The existence argument0018 has a separate proof presentation; accepting it does not establish the general class-two exhaustion in0019.
+Numbered expositions are linked where available. Other links identify supporting source manuscripts, pending consolidation into mathematical papers. The [full source index](sources/README.md) also maps every manuscript in the inspected classification snapshot to its public argument. Rows group component arguments for the same mathematical result or reduction; they are not counts of independent theorems. All rows are research proof drafts subject to their stated hypotheses and outstanding dependencies. The existence argument0018 has a separate proof presentation; accepting it does not establish the general class-two exhaustion in0019.
 
 | ID | Claim family / scope | Manuscripts |
 |---|---|---|
@@ -91,9 +91,14 @@ Numbered expositions are linked where available. Other links identify supporting
 | [0067](claims/0067.md) | Residual dependency graphs, strict cuts and abelian splitting | [Statement, proof and scope](manuscripts/0067-residual-graphs-and-abelian-splitting.md) |
 | [0068](claims/0068.md) | All-path abelian and zero-graph nilpotent structural parameters | [Statement, proof and scope](manuscripts/0068-abelian-nilpotent-path-parameters.md) |
 | [0069](claims/0069.md) | Odd permutation-top PSL2 projective-tensor exclusions | [Statement, proof and scope](manuscripts/0069-psl2-odd-permutation-top-exclusions.md) |
+| [0070](claims/0070.md) | Bruck radical constraints and proof atlas | [Statement, argument and scope](manuscripts/0070-bruck-radical-constraints.md) |
+| [0071](claims/0071.md) | Primitive and simple-socle reductions | [Statement, argument and scope](manuscripts/0071-primitive-and-simple-socle-reductions.md) |
+| [0072](claims/0072.md) | Coprime-metabelian odd classification and affine reductions | [Statement, argument and scope](manuscripts/0072-odd-and-affine-structural-reductions.md) |
+| [0073](claims/0073.md) | All odd nilpotent pure-A₅ top parameters | [Statement, argument and scope](manuscripts/0073-all-nilpotent-path-parameters.md) |
+| [0074](claims/0074.md) | Odd-top stabilizer-surjectivity boundary (proposed) | [Statement, argument and scope](manuscripts/0074-odd-top-surjectivity-boundary.md) |
 
 ## Scope and maintenance
 
 This catalogue covers all seventeen original claim records and every manuscript currently released in this public workspace. It does not claim that unpublished source work has been exhaustively audited. A compound manuscript can contain lemmas, examples and conjectures beyond its headline family: its hypotheses and section labels control their status. A material new theorem should get a new ID rather than being hidden under0010; an alternative proof of the same result retains its ID. Corrections retain IDs and state which conclusion changed.
 
-The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0070.
+The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0075.

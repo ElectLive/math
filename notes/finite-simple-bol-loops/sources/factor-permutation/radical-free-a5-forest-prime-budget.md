@@ -1,9 +1,10 @@
 # Excluding stable factor orbits for regular odd nilpotent tops
 
 Mira Cult
-Continue [0323-finite-simple-non-moufang-bol-loops:C0010](../../claims/0010.md) under the original faithful generated canonical folder of a finite simple nonassociative left Bol loop, with Soc(G)=A5^Ω and G=Soc(G)⋊Q, Q finite odd nilpotent acting faithfully by pure factor permutations. Assume every Q-orbit on Ω is regular; Q=1 is included. Under the pinned interfaces below, τ stabilizes no Q-orbit. Thus this model has no stable-factor-orbit branch; the unrestricted classification remains open.
 
-Inputs: C0001 and C0007; the [positive orbit-tensor theorem and original full-strip splitting](radical-free-a5-orbit-tensors.md); the [local stable-proper theorem](radical-free-a5-stable-orbit-local.md); the [actual selected-mark count and active fixed-mark valuation bound](radical-free-a5-full-strip-matching.md); and the [full-strip orbit forest](radical-free-a5-strip-orbit-forest.md). Nilpotence gives H→Q by the pinned normal-maximal argument. The proof retains the actual correlated residual and actual selected mark family; no quotient folder is constructed. The 5-free boundary conclusions and the final general prime budgets also apply without regularity, as stated below.
+**Independently reviewed conditional theorem under pinned inputs.** Continue [classification frontier](../../claims/0010.md) under the original faithful generated canonical folder of a finite simple nonassociative left Bol loop, with Soc(G)=A5^Ω and G=Soc(G)⋊Q, Q finite odd nilpotent acting faithfully by pure factor permutations. Assume every Q-orbit on Ω is regular; Q=1 is included. Under the pinned interfaces below, τ stabilizes no Q-orbit. Thus this model has no stable-factor-orbit branch; the unrestricted classification remains open.
+
+Inputs: C0001 and C0007 and the recorded source revision; the [positive orbit-tensor theorem and original full-strip splitting](radical-free-a5-orbit-tensors.md); the [local stable-proper theorem](radical-free-a5-stable-orbit-local.md); the [actual selected-mark count and active fixed-mark valuation bound](radical-free-a5-full-strip-matching.md); and the [full-strip orbit forest](radical-free-a5-strip-orbit-forest.md). Nilpotence gives H→Q by the pinned normal-maximal argument. The proof retains the actual correlated residual and actual selected mark family; no quotient folder is constructed. The 5-free boundary conclusions and the final general prime budgets also apply without regularity, as stated below.
 
 ## Forest and proper-coordinate budgets
 
@@ -63,4 +64,9 @@ One can take Z from the stable proper orbits, one proper boundary per strip-fore
 
 ## Evidence and remaining obligation
 
-This is an analytic proof with no computation.  The regular-action theorem excludes every inversion-stable factor orbit, including for Q=1 and arbitrary original strip sizes and residual correlations. It leaves classification within the paired-orbit branch, nonregular actions and arbitrary canonical groups open. The general 5-free boundary and prime-budget restrictions are necessary conditions only. The unrestricted classification remains open.
+This is an analytic proof with no computation. Independent review of the complete exact source is recorded below. The regular-action theorem excludes every inversion-stable factor orbit, including for Q=1 and arbitrary original strip sizes and residual correlations. It leaves classification within the paired-orbit branch, nonregular actions and arbitrary canonical groups open. The general 5-free boundary and prime-budget restrictions are necessary conditions only. No permanent claim ID is allocated; C0010 and the unrestricted classification remain partial.
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, an automated checker, and an automated checker independently accepted both complete companion sources at exact revision the recorded source revision, conditional on the pinned folder, orbit-tensor, local-mark, selected-class and forest inputs. They checked the disjoint 5-free boundary and proper-pair choices, forest defect bound without a strip-size cap, actual residual 5-part count and its cancellation, the correlated marked-weight binomial/2-adic estimate and the cases k=1 and Q=1. They also checked arbitrary rooted-path incidence propagation and θ-transport, the common-degree path conclusion, and the isolated whole-path 5-adic exclusion at every length. The separate nonregular prime inequalities remain necessary conditions only. No computation or fresh independent audit of the pinned input proofs was performed. These are model mathematical reviews, not human or formal certification or GitHub approval.

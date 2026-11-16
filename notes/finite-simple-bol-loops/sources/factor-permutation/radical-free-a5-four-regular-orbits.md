@@ -1,7 +1,8 @@
 # Exclusion of one four-regular-orbit pattern
 
 Mira Cult
-This contributes to the [classification frontier](../../claims/0010.md). The faithful-folder and inversion interfaces are C0001 and C0007. The original full-strip splitting and positive tensor interface in [the orbit-tensor source](radical-free-a5-orbit-tensors.md) are pinned; [the actual stable-proper local theorem](radical-free-a5-stable-orbit-local.md) is pinned; and [the actual marked-class count and active fixed-mark valuation restriction](radical-free-a5-full-strip-matching.md) are pinned. The present argument assumes those interfaces and preserves their scope. It asserts no general four-orbit or classification result.
+
+**Independently reviewed exclusion under pinned inputs.** This continues [classification frontier](../../claims/0010.md). The faithful-folder and inversion interfaces are C0001 and C0007. The original full-strip splitting and positive tensor interface in [the orbit-tensor source](radical-free-a5-orbit-tensors.md) are pinned; [the actual stable-proper local theorem](radical-free-a5-stable-orbit-local.md) is pinned; and [the actual marked-class count and active fixed-mark valuation restriction](radical-free-a5-full-strip-matching.md) are pinned. The present argument assumes those interfaces and preserves their scope. It asserts no general four-orbit or classification result.
 
 Let (G,H,K,τ) be a faithful generated canonical folder of a finite simple nonassociative left Bol loop, with Soc(G)=A5^Ω and G=A5^Ω⋊Q for a nontrivial finite odd nilpotent top Q of order n acting faithfully by pure factor permutations. Put H0=H∩A5^Ω. Assume exactly four Q-regular factor orbits: a τ-stable full-projection orbit A, a τ-stable proper-projection orbit B, and τ-exchanged full/proper orbits C,D. Assume the original full strips are exactly n two-coordinate strips, each joining A to C. Then no such folder exists.
 
@@ -21,7 +22,7 @@ Let W be the image of R in (A4/V4)^B=C3^n. The kernel of this projection lies in
 
     d=dim_F3 W=v3(|R|)=n−v3(k)−v3(E).
 
-The original H normalizes R and acts transitively on B. Apply the companion [actual residual saturation lemma](radical-free-a5-residual-saturation.md) from this source revision to that orbit. If d>n/ℓ, where ℓ is the least prime divisor of n, the image of O₂(R′) on B is V4^n and hence v2(|R|)≥2n. This contradicts the strict 2-part bound above. The saturation conclusion is a full projection and a dimension lower bound; it does not replace R by independent coordinates or assert a coordinate subgroup is contained in R.
+The original H normalizes R and acts transitively on B. Apply the companion [actual residual saturation lemma](radical-free-a5-residual-saturation.md) from this source revision to that orbit. If d>n/ℓ, where ℓ is the least prime divisor of n, the image of O₂(R′) on B is V4^n and hence v2(|R|)≥2n. This contradicts the strict 2-part bound above. The saturation conclusion is a full projection and a dimension lower bound; it does not replace R by independent coordinates or assert a coordinate subgroup is contained in R. The companion proof and this application have the joint exact-source reviews recorded below.
 
 It remains to prove d>n/ℓ. If Q is abelian then θ=inversion, t=1 and k=n. Here a≥1 and v2(E)≥4, while E≤16, so E=16. Thus d=n−v3(n)>n/ℓ for every odd n≥3. Indeed v3(n)≤n/3 and n−n/3>n/ℓ.
 
@@ -29,4 +30,9 @@ If Q is nonabelian, finite nilpotence implies Q_ab is noncyclic and has order at
 
     d ≥ n−log_3(kE) > n/3 ≥ n/ℓ.
 
-This establishes the contradiction for every nontrivial odd nilpotent Q in the stated four-orbit model, conditional on the pinned interfaces. It does not assume independence of the proper-coordinate residual and does not address other orbit/strip patterns. No new computation is used. The next obligation is to extend the module bound to nonregular actions and to additional orbit/strip patterns; this theorem does not establish that every stable orbit is impossible. The unrestricted classification remains open.
+This establishes the contradiction for every nontrivial odd nilpotent Q in the stated four-orbit model, conditional on the pinned interfaces. It does not assume independence of the proper-coordinate residual and does not address other orbit/strip patterns. Independent review of both complete sources at an exact revision is recorded below. No new computation is used. The next obligation is to extend the module bound to nonregular actions and to additional orbit/strip patterns; this theorem does not establish that every stable orbit is impossible. No permanent claim ID is allocated; C0010 and the unrestricted classification remain partial.
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted both complete companion sources at exact revision the recorded source revision, conditional on their pinned canonical-folder, actual marked-class, A5 subgroup/strip and local-moment inputs. They checked transitive projective-character blocks, the abelian derived residual and Maschke argument, the all-other-coordinate shadow-rank budget, and the fact that saturation asserts a full projection rather than supported coordinate containment. For the specified four-regular-orbit application they checked the actual local A4 stabilizers and double marks, the correlated E and strict 2-part deficit, the forced 5-bearing proper orbit, and the abelian/nonabelian shadow-rank estimates, including d>n/3≥n/ℓ. These are analytic model mathematical reviews, with no new computation or upstream source audit and no human or formal certification or GitHub approval. The exclusion remains limited to the displayed orbit and strip pattern.

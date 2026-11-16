@@ -1,7 +1,8 @@
 # Odd p-group transitive tops: permutation-module reduction
 
 Mira Cult
-This contributes to the [classification frontier](../../claims/0010.md). Let P be a finite odd p-group acting faithfully and transitively on a finite set Ω, n=|Ω|, |P|=p^e. Put `S=A5^Ω⋊P`,
+
+**Independently reviewed structural parameterization under pinned inputs.** This continues [classification frontier](../../claims/0010.md). Let P be a finite odd p-group acting faithfully and transitively on a finite set Ω, n=|Ω|, |P|=p^e. Put `S=A5^Ω⋊P`,
 
 `G={(x,y)∈S²:ab(top(x))+ab(top(y))=0 in P_ab}`,  `τ(x,y)=(y,x)`.
 
@@ -61,4 +62,9 @@ The regularity lemma is unchanged by nonregular coordinate actions. Suppose addi
 
 ## Evidence and remaining obligation
 
-This proof is analytic and uses no new computation. It extends the displayed regular-top interface to the actual faithful transitive permutation action, using the bound (1) and the full permutation normalizer. The next obligation is to solve the resulting restricted-normalizer orbits, retaining the original point-stabilizer-fixed cyclic generator; a normalizer for the regular action cannot automatically be used for a nonregular action. No permanent claim ID is allocated. C0010 remains partial, and arbitrary canonical groups outside the stated wreath-pair setting are not classified.
+This proof is analytic and uses no new computation. It extends the displayed regular-top interface to the actual faithful transitive permutation action, using the bound (1) and the full permutation normalizer. Independent exact-source review is recorded below. The next obligation is to solve the resulting restricted-normalizer orbits, retaining the original point-stabilizer-fixed cyclic generator; a normalizer for the regular action cannot automatically be used for a nonregular action. No permanent claim ID is allocated. C0010 remains partial, and arbitrary canonical groups outside the stated wreath-pair setting are not classified.
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted the complete source at exact revision the recorded source revision, conditional on its pinned canonical-folder, actual marked-class, A5 subgroup/full-strip, normal-quotient and simple-Moufang primitivity inputs. They checked the faithful transitive order bound, actual full marks and H surjectivity, correlated H0 and Q/V4 saturation, odd-order sign-cocycle averaging, actual permutation quotient and point-stabilizer-fixed cyclic generator, and the cycle-sum collision argument with a genuine P-conjugator. They also checked every converse/core/normal-quotient condition, the exact permutation-normalizer/uniform-C4 action rather than an unrestricted regular-action normalizer, and the Camina regularity argument using |M|=|P|. The result is a structural parameterization for the displayed faithful-transitive odd-p-group model; it does not solve its general module and cocycle orbits. No new computation, primary-source audit or reproof of upstream classifications was performed. These are independent model mathematical reviews, not human or formal certification or GitHub approval.

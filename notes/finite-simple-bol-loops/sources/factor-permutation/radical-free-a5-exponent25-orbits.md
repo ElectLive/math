@@ -1,9 +1,10 @@
 # Alternating-form orbits for the exponent-25 top
 
 Mira Cult
-This contributes to [0323-finite-simple-non-moufang-bol-loops:C0010](../../claims/0010.md). Let P be the extraspecial group of order 5^5 and exponent 25, let `S=A5^P⋊P` for the regular coordinate action, let `G={(x,y)∈S²:ab(top(x))+ab(top(y))=0 in P_ab}`, and let τ swap the two S factors. Under [the independently reviewed odd-prime-power reduction and actual normalizer interface](radical-free-a5-prime-power-top.md), [the regular-abelian cyclic-module theorem](radical-free-a5-abelian-top.md), and [the higher-rank extraspecial structural source](radical-free-a5-extraspecial-tops.md), there are exactly **88** loop-isomorphism classes of finite simple nonassociative left Bol loops with this exact canonical G and τ. All are proper and have order `5^5·60^(5^5)`. The exact group G is the anti-abelianization fiber, not an inverse-top graph. This is a scoped classification, not a classification of arbitrary nonabelian tops or a literature-novelty claim.
 
-The reduction to a finite orbit problem is proved below. A finite orbit computation alone does not establish the folder-isomorphism bijection.
+**Independently reviewed classification under pinned inputs.** This is a manuscript-local continuation of [classification frontier](../../claims/0010.md). Let P be the extraspecial group of order 5^5 and exponent 25, let `S=A5^P⋊P` for the regular coordinate action, let `G={(x,y)∈S²:ab(top(x))+ab(top(y))=0 in P_ab}`, and let τ swap the two S factors. Under [the independently reviewed odd-prime-power reduction and actual normalizer interface](radical-free-a5-prime-power-top.md), [the regular-abelian cyclic-module theorem](radical-free-a5-abelian-top.md), and [the higher-rank extraspecial structural source](radical-free-a5-extraspecial-tops.md), there are exactly **88** loop-isomorphism classes of finite simple nonassociative left Bol loops with this exact canonical G and τ. All are proper and have order `5^5·60^(5^5)`. The exact group G is the anti-abelianization fiber, not an inverse-top graph. This is a scoped classification, not a classification of arbitrary nonabelian tops or a literature-novelty claim.
+
+The reduction to a finite orbit problem is proved below. The bounded count uses the linked deterministic certificate; the exact complete proof and certificate have the independent reviews recorded below. A finite orbit computation alone does not establish the folder-isomorphism bijection.
 
 ## The regular abelian quotient
 
@@ -73,7 +74,7 @@ Index a form by its six upper-triangular coefficients `b12,b13,b14,b23,b24,b34�
 
 `b12 b34−b13 b24+b14 b23 ≠0`.
 
-The [canonical verifier](code/verify_a5_exponent25_form_orbits.py) explicitly constructs all 500 effective substitutions and checks that `2t`, `t+t²`, `t+t³`, `t+t⁴` generate them. It enumerates all 5^6 coefficient vectors, keeps precisely those with nonzero Pfaffian, and computes each orbit using the entire 500-element group. It checks that the full-group orbits partition all retained forms and that every orbit size divides 500. The result is 12,400 nondegenerate forms and the following orbit-size multiplicities:
+The [canonical verifier](../code/verify_a5_exponent25_form_orbits.py) explicitly constructs all 500 effective substitutions and checks that `2t`, `t+t²`, `t+t³`, `t+t⁴` generate them. It enumerates all 5^6 coefficient vectors, keeps precisely those with nonzero Pfaffian, and computes each orbit using the entire 500-element group. It checks that the full-group orbits partition all retained forms and that every orbit size divides 500. The result is 12,400 nondegenerate forms and the following orbit-size multiplicities:
 
 `1:4, 2:8, 20:4, 25:12, 100:20, 250:40`.
 
@@ -87,4 +88,12 @@ The script's output is a concise count and scope note; raw logs and temporary ex
 
 ## Scope and remaining work
 
-The mathematical bijection depends on the stated regular-top, higher-rank extraspecial and regular-abelian inputs and on the actual normalizer proof above. The finite verifier establishes only the weighted form orbit count. No permanent claim ID is allocated. This resolves the stated exponent-25 top model under its pinned inputs; it does not classify all nonabelian regular tops, nonregular permutation actions or radical envelopes, and C0010 remains partial.
+The mathematical bijection depends on the stated regular-top, higher-rank extraspecial and regular-abelian inputs and on the actual normalizer proof above. The finite verifier establishes only the weighted form orbit count. Independent review of the complete exact committed proof and code is recorded below. No permanent claim ID is allocated. This resolves the stated exponent-25 top model under its pinned inputs; it does not classify all nonabelian regular tops, nonregular permutation actions or radical envelopes, and C0010 remains partial.
+
+## Independent mathematical and code review
+
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted this complete manuscript and its canonical verifier at exact revision the recorded source revision, conditional on the pinned prime-power regular-top, regular-abelian cyclic-module and extraspecial structural inputs. They checked the associated abelian-group identification (x−y)/2, commutator and power transport, realization of every form, actual quotient-generator unit normalization, necessity of an algebra automorphism from the normalized orbit maps, the converse coordinate reindexing and unit repair, and the exact weighted-substitution isomorphism relation before counting. Each read and independently ran the exact committed standalone verifier under Python 3.12 (two explicitly reported 3.12.14), reproducing 500 substitutions, 12,400 nondegenerate forms, 88 orbits and the displayed size profile. The mathematical bijection and finite count were reviewed separately. No new primary-source audit or reproof of upstream classifications was performed. These are independent model mathematical/code reviews, not human or formal certification or GitHub approval.

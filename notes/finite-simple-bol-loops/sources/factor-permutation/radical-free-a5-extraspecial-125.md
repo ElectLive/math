@@ -1,9 +1,10 @@
 # Rank-one exponent-five top and odd extraspecial assembly
 
 Mira Cult
-This contributes to the [classification frontier](../../claims/0010.md). Let P be extraspecial of order 5³ and exponent 5, let `S=A5^P⋊P` with its regular coordinate action, let `G={(x,y)∈S²:ab(top(x))+ab(top(y))=0}`, and let τ swap the two S factors. Under the independently reviewed full-mark, cyclic-affine, actual-isomorphism and converse interfaces in [the prime-power top source](radical-free-a5-prime-power-top.md), exactly 24 loop-isomorphism classes of finite simple nonassociative left Bol loops have this canonical G and τ. All are proper, of order `5³·60^(5³)`. The quotient by the socle has order 5⁴ and acts through the regular P action on each row; it is not regular on all 250 socle factors.
 
-The assembly at the end combines this case with pinned work on the other odd extraspecial tops. It is scoped to these exact regular-top anti-abelianization fiber models and makes no classification claim for general nonabelian tops, arbitrary factor permutation, or arbitrary radicals. The precise folder and normal-quotient inputs are those pinned by the prime-power source; the cyclic regular-abelian algebra theorem is reviewed.
+**Independently reviewed classification under pinned inputs.** This continues [classification frontier](../../claims/0010.md). Let P be extraspecial of order 5³ and exponent 5, let `S=A5^P⋊P` with its regular coordinate action, let `G={(x,y)∈S²:ab(top(x))+ab(top(y))=0}`, and let τ swap the two S factors. Under the independently reviewed full-mark, cyclic-affine, actual-isomorphism and converse interfaces in [the prime-power top source](radical-free-a5-prime-power-top.md), exactly 24 loop-isomorphism classes of finite simple nonassociative left Bol loops have this canonical G and τ. All are proper, of order `5³·60^(5³)`. The quotient by the socle has order 5⁴ and acts through the regular P action on each row; it is not regular on all 250 socle factors.
+
+The assembly at the end combines this case with pinned work on the other odd extraspecial tops. It is scoped to these exact regular-top anti-abelianization fiber models and makes no classification claim for general nonabelian tops, arbitrary factor permutation, or arbitrary radicals. The precise folder and normal-quotient inputs are those pinned by the prime-power source; the cyclic regular-abelian algebra theorem is reviewed. The independent review of this combined source is recorded below.
 
 ## Central kernels and the nonabelian affine quotients
 
@@ -53,7 +54,7 @@ For α=1/2, B is elementary abelian of order 5³. The reviewed cyclic regular-ab
 
 An algebra substitution `t↦a1t+a2t²+a3t³` acts on B/W in logarithmic coordinates by a triangular matrix of determinant a1³, and on W by the same scalar a1³. Thus the weighted action on β is trivial. Common right translations and the uniform C4 realize the unit changes of a cyclic regular-module generator; central top automorphisms absorb lift choices. To verify completeness, apply the actual-equivalence proof of [the exponent-25 orbit theorem](radical-free-a5-exponent25-orbits.md#actual-coordinate-equivalence) with J of dimension three and the distinguished line W=ann(J), rather than W=U^5. The cyclic-generator units are again all realized. A linear comparison of normalized cocycles η_ψ=ψ−1 preserves principal-unit multiplication and hence is an algebra automorphism; conversely the coordinate reindexing has its generator-unit discrepancy removed by actual units. The associated-abelian identification F/diag(W)→A by (x−y)/2 and the class-two reconstruction from β apply unchanged, with fifth-power map zero. Consequently formula (3) of the prime-power reduction gives precisely these weighted form orbits and no further ambient equivalences. Each nonzero β occurs: define the class-two Heisenberg presentation with commutator z^β, take the regular principal-unit action of B, and pull it back through F/T_(1/2). The inactive one-sided W acts trivially linearly because it maps to the annihilator line. The pinned converse verifies the actual collision condition and all folder properties. Hence this kernel contributes **four classes**.
 
-The count is `4·5+4=24`.
+The count is `4·5+4=24`. The exact-source reviews of this orbit calculation and its pinned structural and actual-normalizer inputs are recorded below.
 
 ## The exponent-25 order-125 exclusion
 
@@ -63,16 +64,21 @@ If P instead has order 5³ and exponent 25, every permitted central quotient B_�
 
 For the exact model `S=A5^P⋊P`, G the anti-abelianization fiber and τ the swap, the resulting scoped table is:
 
-| Top P | Class count | Source |
+| Top P | Class count | Source and status |
 | --- | ---: | --- |
-| Order 3³, exponent 3 | 2 | [Exponent-three order-27 source](radical-free-a5-extraspecial-27.md) |
-| Order 3³, exponent 9 | 6 | [Modular order-27 source](radical-free-a5-nonabelian-27.md) |
-| Order 5³, exponent 5 | 24 | The argument above |
-| Order 5^5, exponent 25 | 88 | [Exponent-25 orbit source](radical-free-a5-exponent25-orbits.md) and its finite certificate |
-| Every other odd extraspecial top | 0 | [Prime restriction](radical-free-a5-prime-power-top.md), [higher-rank exclusion](radical-free-a5-extraspecial-tops.md), and the order-125 exponent-25 exclusion above |
+| Order 3³, exponent 3 | 2 | [Exponent-three order-27 source](radical-free-a5-extraspecial-27.md), exact; retain its recorded review scope. |
+| Order 3³, exponent 9 | 6 | [Modular order-27 source](radical-free-a5-nonabelian-27.md), exact; retain its recorded review scope. |
+| Order 5³, exponent 5 | 24 | This continuation; exact-source review recorded below. |
+| Order 5^5, exponent 25 | 88 | [Exponent-25 orbit source](radical-free-a5-exponent25-orbits.md); three independent mathematical/code reviewers accepted the complete source and reran the certificate. |
+| Every other odd extraspecial top | 0 | Prime restriction from the recorded source revision; higher-rank exclusion from the recorded source revision; order-125 exponent-25 exclusion above. |
 
 Completeness of the small top types can also be seen directly: an odd extraspecial group has symplectic elementary abelian central quotient, and its p-th-power map is either zero or a nonzero linear functional into its center. A symplectic basis puts the rank-one cases into the exponent-p and exponent-p² presentations used here, as in the elementary reconstruction in the exponent-25 source. The prime restriction leaves only p=3,5; the reviewed higher-rank theorem leaves only the displayed rank-two exponent-25 exception. Thus no additional odd extraspecial type is omitted.
 
 The four surviving exact models have different orders except the two 3³ types. Those two are distinguished by the intrinsic socle-row factor-permutation group P (equivalently by exponent 3 versus 9), so their classes do not overlap. Under the pinned inputs, the table sums to 120 classes across these specified exact models. It is not a count of all finite simple Bol loops and does not settle general nonabelian tops.
 
-The new rank-one proof and assembly are analytic; no new computation is claimed. The 88-class input retains its separately reviewed finite certificate. The unrestricted classification remains open.
+The new rank-one proof and assembly are analytic; no new computation is claimed. The 88-class input retains its separately reviewed finite certificate. Independent exact-source review of this complete continuation is recorded below. No permanent claim ID is allocated; C0010 and the unrestricted classification remain partial.
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted this complete source and its odd-extraspecial assembly at exact revision the recorded source revision, conditional on the pinned prime-power, cyclic-unit, order-27, higher-rank and exponent-25 orbit inputs. They checked the first-coordinate p=5 orientation, common Aut(P) surjection onto the allowed nonabelian quotient automorphisms, faithful UT3 obstruction, square-zero and Jordan affine normal forms, actual unit normalization including g↦gz in the v=0 case, α and ratio invariance, the four abelian weighted form classes, and all inactive-center converse conditions. They also checked the order-125 exponent-25 exclusion and the complete 2+6+24+88=120 assembly with intrinsic top separation. This is an analytic review of the displayed exact regular-top models; the earlier 88-class computation retains its own pinned code reviews. No new computation, primary-source audit or reproof of upstream classifications was performed. These are independent model mathematical reviews, not human or formal certification or GitHub approval.

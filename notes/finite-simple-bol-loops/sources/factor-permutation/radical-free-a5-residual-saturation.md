@@ -1,7 +1,8 @@
 # Character saturation on a transitive A4 residual orbit
 
 Mira Cult
-This contributes to the [classification frontier](../../claims/0010.md). Let G=A5^Ω⋊Q with Q finite odd nilpotent acting by pure factor permutations, and let H map onto Q. Put H0=H∩A5^Ω and use the original Goursat decomposition H0=T×R into full twisted A5 strips and the correlated residual R on proper coordinates. Let I be a single Q-orbit of proper coordinates such that every actual H0-projection on I is A4. Put d_I=dim_F3 C, where C is the image of R in (A4/V4)^I. The action of Q on I is transitive. The decomposition and its preservation by actual H are [the orbit-tensor source](radical-free-a5-orbit-tensors.md); the A5 subgroup facts are pinned in [the A5 path source](radical-free-a5-path-classification.md). The module argument below is supplied here, with no independence assumption on R.
+
+**Independently reviewed theorem under pinned inputs.** This continues [classification frontier](../../claims/0010.md). Let G=A5^Ω⋊Q with Q finite odd nilpotent acting by pure factor permutations, and let H map onto Q. Put H0=H∩A5^Ω and use the original Goursat decomposition H0=T×R into full twisted A5 strips and the correlated residual R on proper coordinates. Let I be a single Q-orbit of proper coordinates such that every actual H0-projection on I is A4. Put d_I=dim_F3 C, where C is the image of R in (A4/V4)^I. The action of Q on I is transitive. The decomposition and its preservation by actual H are [the orbit-tensor source](radical-free-a5-orbit-tensors.md); the A5 subgroup facts are pinned in [the A5 path source](radical-free-a5-path-classification.md). The module argument below is supplied here, with no independence assumption on R.
 
 Assume |I|>1 and let ℓ be the least prime divisor of |I|. (For |I|=1 the projected V4 conclusion is immediate.) If d_I>|I|/ℓ, then the image of O₂(R′) in V4^I is the full product V4^I. In particular v₂(|R|)≥2|I|. The conclusion concerns a projection: it does NOT imply that the coordinate subgroup V4^I is contained in R. Couplings to A4 coordinates outside I may be diagonal and must be retained.
 
@@ -21,4 +22,9 @@ Inequality (2) is a necessary consequence, not a collision: outside coordinates 
 
 ## Evidence and remaining obligation
 
-This is an analytic proof with no computation.  The [four regular-orbit exclusion](radical-free-a5-four-regular-orbits.md) in this source revision is one application. The next obligation is to force the shadow-rank threshold, or obtain a replacement lower bound, for general mixed orbit and strip patterns. The unrestricted classification remains open.
+This is an analytic proof with no computation. Independent review of the complete exact source is recorded below. The [four regular-orbit exclusion](radical-free-a5-four-regular-orbits.md) in this source revision is one application. The next obligation is to force the shadow-rank threshold, or obtain a replacement lower bound, for general mixed orbit and strip patterns. No permanent claim ID is allocated; C0010 and the unrestricted classification remain partial.
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted both complete companion sources at exact revision the recorded source revision, conditional on their pinned canonical-folder, actual marked-class, A5 subgroup/strip and local-moment inputs. They checked transitive projective-character blocks, the abelian derived residual and Maschke argument, the all-other-coordinate shadow-rank budget, and the fact that saturation asserts a full projection rather than supported coordinate containment. For the specified four-regular-orbit application they checked the actual local A4 stabilizers and double marks, the correlated E and strict 2-part deficit, the forced 5-bearing proper orbit, and the abelian/nonabelian shadow-rank estimates, including d>n/3≥n/ℓ. These are analytic model mathematical reviews, with no new computation or upstream source audit and no human or formal certification or GitHub approval. The exclusion remains limited to the displayed orbit and strip pattern.

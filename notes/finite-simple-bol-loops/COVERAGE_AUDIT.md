@@ -1,6 +1,17 @@
 # Public coverage and researcher-readiness audit
 
-**Audit date: 16 November 2026.** This is a dated coverage assessment, not a new mathematical review. It compared the public board with active research revision `ed03ee5a0a45d9087e0619b15b7ba5cd1806d57a`. Publication is ongoing: consult the research catalogue and manifests before treating any item below as still missing. Revision pins are provenance, not separate research programmes.
+## Current source coverage
+
+The [mathematical source index](sources/README.md) now provides all 225 manuscripts of the inspected classification checkpoint, plus 16 foundational proofs, bibliography and computational sources. [The crosswalk](classification-source-map.json) lists the public manuscript paths and public content digests. This closes the previous missing-manuscript inventory at that checkpoint; it does not verify every imported theorem, evaluate structural parameter orbits, or certify all computations. The [open board](OPEN_PROBLEMS.md) owns current mathematical targets.
+
+Python source syntax compilation passed, as did the selected classical/orthogonal bound and finite odd-cross-graph parameter checks. An all-program replay and hosted visual inspection of every new page have not been performed. Newer active research may require another reconciliation.
+
+## Historical coverage audit
+
+The following dated assessment is preserved as the record of earlier gaps; its missing-source assertions are superseded by the current source index where the corresponding source is now linked.
+
+
+**Audit date: 16 November 2026.** This is a dated coverage assessment, not a new mathematical review. It compared the public board with active research revision `recorded source version`. Publication is ongoing: consult the research catalogue and manifests before treating any item below as still missing. Revision pins are provenance, not separate research programmes.
 
 ## Verdict
 
@@ -33,7 +44,7 @@ These are **source-reported, scoped model-reviewed developments**, not independe
 
 ## What “mirror everything known” should mean
 
-Mirror the reusable mathematical record: precise problems, definitions, source references, constructions, proofs, counterexamples, useful negative results, experiments and exact limitations. Preserve links between claims and their dependencies and reviews. Keep the public account coherent as the frontier moves; retain exact source revisions in supporting provenance.
+Mirror the reusable mathematical record: precise problems, definitions, source references, constructions, proofs, counterexamples, useful negative results, experiments and exact limitations. Preserve links between claims and their dependencies and reviews. Keep the public account coherent as the frontier moves; retain mathematical dependency and verification scope in supporting notes.
 
 Do not mirror raw private conversations, credentials, personal data or unrelated speculation. Do not discard an important failed reduction merely because it did not yield a theorem: if it constrains future work, summarize the failure and its evidence.
 

@@ -1,0 +1,47 @@
+# Candidate classification for the J ⊕ U radical
+
+**Scoped independent mathematical and computational reviews recorded below.** In the faithful Baer envelope of a finite simple exponent-two Bruck loop, suppose V=O₂(G) is elementary abelian, G/V≅S₅, and its F₂S₅-module is V≅J⊕U, where J=F₂⁶/⟨1⟩ for the six-point S₅ action and U=N⊗F₂C₂ is the eight-dimensional projective N-block module in [the module-block manuscript](bruck-s5-module-blocks.md). Under these exact hypotheses the argument below establishes **53 loop isomorphism classes**, conditional on its stated inputs, all of order 1536: 32 with a pure-complement stabilizer and 21 with a graph-complement stabilizer. It is a bounded continuation of [C0010](../../claims/0010.md), with no new claim ID. It neither classifies all loops of order 1536 nor all S₅-quotient envelopes. The argument and finite certificate have the separate scoped reviews recorded below.
+
+The [J-branch reductions](bruck-s5-j-branch.md) are essential dependencies: π(H)=F=N_{S₅}(P)≅F₂₀, with P of order 5; L=J^P≤W=H∩V; dim W=5; the extension is Nagy's nonsplit extension E of S₅ by J, with split U component; after conjugating by V, H=WH₀ for H₀=N_E(P); and K contains the full class C of involutions over transpositions. These deductions retain their own review qualifications. The [one-projective-block classification](bruck-s5-j-one-projective-block.md) gives the two possible stabilizer intersections after core-freeness and the mandatory outer-class collision test: W=L⊕T₁, or W=L⊕graph(ψ:J₀→T₁), where J₀=[S₅,J] has dimension 4 and T₁ is a four-dimensional F-submodule complementary to the U-socle N. In each case H₀∩J=L. Nagy, *A class of finite simple Bol loops of exponent 2*, [arXiv:0709.4544v1](https://arxiv.org/html/0709.4544v1), §5 Proposition 5.1 and Theorem 5.2, constructs folders with these respective H and the same full C. This supplies the outer–outer transversality check; it does not establish uniqueness of the radical part of K.
+
+## Exact radical transversals
+
+Nagy's Lemma 3.4(ii) and the count immediately before Proposition 5.1 give |C|=80·16=1280. Here |G|=2¹³·120, |H|=2⁵·20, and [G:H]=1536. Thus D=K∩V has 256 elements. For either normalized H, the possible D are exactly the S₅-invariant sets containing 0 and meeting each W-coset once. Necessity follows from the folder axioms. Conversely, K=C∪D has cardinality [G:H] and no H-coset collision: D–D collisions are excluded by the W-transversal property; C–C collisions by the cited Nagy folders; and mixed collisions would project a transposition into F, which contains no transpositions. Both C and D are G-invariant sets of involutions, so K is inverse closed and closed under xyx. Its transversal property extends to every conjugate of H by G-invariance. The core-freeness of H follows from the cited stabilizer classification. Generation is proved below.
+
+The [certificate](../code/verify_bruck_s5_j_u_folders.py) implements the six-point generators displayed in the proof of Nagy, arXiv:0709.4544v1, Lemma 3.3, paired with a standard five-point model whose consistency is checked by the paired group of order 120, using J as the six-point module modulo constants and U as two copies of N swapped by odd permutations. It checks the 120 paired actions and their composition, constructs F, L, J₀, T₁ and an F-equivariant **linear** isomorphism ψ, checks both W are F-stable, and enumerates all 8192 vectors in 106 S₅-orbits. For each W it forms the 256 cosets; an orbit is an eligible exact-cover row precisely if it meets no coset twice. A complete backtrack chooses an uncovered coset with the fewest available rows, requires {0}, and branches over every compatible row. Each output is independently checked to have 256 vectors and meet all 256 cosets once. There are 48 eligible rows and 56 covers in the pure case, and 39 eligible rows and 21 covers in the graph case. There is no search or output cap. The optional `--representatives` prints each cover as the minima of its constituent vector orbits; these are fixed-W sets, not intrinsically defined loop labels.
+
+## Generation and simplicity
+
+Let A=⟨C⟩. It is normal in G and projects onto S₅; consequently [V,A]=[V,S₅]=J₀⊕U≤A. Nagy, Lemma 3.3, identifies E/J₀ as the nonsplit 2.S₅, so G/(J₀⊕U)≅2.S₅. If A were proper, its image there would project onto S₅ and miss the central involution, hence give a complement to the nonsplit extension. Thus A=G, and every folder above is generating.
+
+The S₅-submodule lattice of J is 0<J₀<J, and that of U is 0<N<U. Block separation in the cited module-block result excludes cross-block extensions, so their sums are exactly the nine normal subgroups inside V. The certificate independently generates each block lattice and checks it has precisely these three members. If R◁G projects nontrivially to S₅, its image contains A₅. Then [V,R]=[V,A₅]=J₀⊕U. As L≤H complements J₀ in J and F A₅=S₅, HR=G. Hence a nontrivial proper loop quotient can only arise from one of the eight nonzero normal S≤V.
+
+For a transposition t put C_t=C_V(t), of order 128. Each of the ten transposition fibers of C is an affine coset of C_t. For any S≤V the images of those ten fibers remain disjoint, and
+
+    |KS/S| = |(D+S)/S| + 10·128/|C_t∩S|,
+    [G:HS] = 6·2^(13−dim(W+S)).
+
+Equality is the transversal criterion for projection modulo S. If it holds for nonzero S, the kernel is nontrivial because S is not contained in the core-free H; it is proper when the quotient has more than one point. Conversely, the normal-subloop criterion in [C0001](../../claims/0001.md), Theorem 2.2, makes every proper nontrivial normal subloop arise from such an S after the outside-V case above. The certificate checks the formula for all eight S and all 77 D. It finds equality only for S=U in 24 pure-complement cases; the remaining 32 pure cases and all 21 graph cases have no equality. Thus, conditional on the structural and normal-subloop inputs, 53 fixed-W D sets yield simple loops. This finite calculation does not independently verify those inputs.
+
+## Isomorphism exhaustion
+
+Every faithful generating folder isomorphism preserves V=O₂(G) and induces an automorphism of S₅, all of which are inner. Both normalized stabilizers project to F. The inducing element must normalize F; since P is characteristic in F and N_{S₅}(P)=F, N_{S₅}(F)=F. Conjugation by a lift in the target stabilizer removes the induced quotient automorphism without changing its stabilizer or G-invariant K.
+
+The adjusted automorphism restricts to an S₅-module automorphism of V. The reviewed block decomposition gives no J–U homomorphisms, End_{S₅}(J)=F₂, and End_{S₅}(U)=F₂[ε]/ε². Thus its only possibilities on V are the identity and the unit 1+ε acting on U. The latter swaps the two F-complements of the U-socle and moves each chosen W. It also cannot exchange the two types: their projections onto J have dimensions 1 and 5. The certificate checks these particular module actions and projection dimensions in its explicit model. Hence an isomorphism of normalized folders preserves the type and fixes V pointwise. It therefore sends D to itself. Conversely the same D and normalized H give the same folder. The 32+21 simple D sets are consequently 53 distinct loop isomorphism classes under the stated hypotheses; automorphisms arising from quotient-fixed cocycles do not change D when their restriction to V is identity.
+
+## Reproduction and limits
+
+Run with assertions enabled, from the repository root:
+
+```sh
+python3 problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bruck_s5_j_u_folders.py
+```
+
+The source was read before execution; Python 3.12.14 printed `pure covers 56 simple 32 U-quotients 24`, `graph covers 21 simple 21 U-quotients 0`, and `module lattices, stabilizer controls and quotient tests passed`. The certificate proves only its finite vector-model computations. The source/model identification, normal-subgroup reduction, quotient criterion, exhaustive cover search and isomorphism argument have the source-pinned reviews recorded below, conditional on their cited prior inputs. The designation `simple` in the program's output means the displayed eight numerical tests passed; it is not independent acceptance of the structural argument.
+
+## Independent reviews
+
+an independent check accepted the mathematical deductions at exact source the recorded source revision, conditional on the stated J-branch, module, W-filter and Nagy inputs and the separate computation. The review checked generation through the nonsplit 2.S₅ quotient; all normal subgroups outside V giving HR=G; the nine block-separated normal submodules in V; the quotient cardinality criterion for arbitrary normal S, not only cores; and the full quotient-automorphism correction and module-unit isomorphism argument. It did not independently execute the certificate.
+
+an independent check independently accepted the finite model and computation at the same source, conditional on those structural inputs. The reviewer checked the six-point matrices against Nagy arXiv:0709.4544v1 Lemma 3.3, the faithful paired S₅ action, all 106 vector orbits, exact-cover exhaustiveness, eight quotient tests and explicit unit controls. An independent Python 3.12.14 run returned 56 pure covers (32 passing and 24 U-quotients, 207 search nodes) and 21 graph covers (all passing, 122 nodes), with all assertions passing. Together these scopes justify the bounded 53-class result under the recorded inputs; neither review certifies other radical modules or all loops of order 1536.
+

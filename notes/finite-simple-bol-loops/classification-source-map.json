@@ -1,282 +1,1356 @@
 {
-  "schema": 1,
-  "source_repository": "Mira-Cult/math-wip",
-  "source_pr": 431,
-  "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-  "purpose": "Mathematical source provenance, not a certification of upstream proofs.",
+  "schema": 2,
+  "purpose": "Complete public mathematical manuscript index, not certification.",
   "files": [
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-orbit-tensors.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "8cae246894d024b844b3a240fc697b816cc686bf8a4f6cd28e0602d1cd34c06b",
-      "public_path": "sources/factor-permutation/radical-free-a5-orbit-tensors.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-abelian-radicals.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "136052e0177f6fd7f7bf44b5b62cb5f709893279a16ab39171d5e8bf17baecfa"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-paired-path-residual.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "4723b3c595f5079e576b68168602f0e381b7b7a289d45064ca90c4d64b897079",
-      "public_path": "sources/factor-permutation/radical-free-a5-paired-path-residual.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-all-radical-block-obstruction.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "41c953eddc5e0984ca293dde596403d086d33104036d0d1e9221147539cce0d7"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-abelian-top.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "e83c9e15c47812dd4452f445df68fce0907fb84330042c5a94890517883b2913",
-      "public_path": "sources/factor-permutation/radical-free-a5-abelian-top.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-all-radical-constraints.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "f65176cfd42812c0eaaedc3660bb1a39d5d7717e1e245dc1999f7ad37ed83a00"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-extraspecial-27.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "74af7519d568a7b031fe4e9ec0d2a4371ec46c646af457c3d16a364a80933448",
-      "public_path": "sources/factor-permutation/radical-free-a5-extraspecial-27.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-all-radical-parameterization.md",
+      "claim_family": "0053",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "f4fc6f63a491f069d38507d55454c556fcfb87b29caf69c17c310182bc8eaff4"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-stable-five-kernel-cut.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "92ce9612e0e51555832a49bd369c70490b3d3510f96bdb74df530a2f35794a01",
-      "public_path": "sources/factor-permutation/radical-free-a5-stable-five-kernel-cut.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-b3-concrete-obstruction.md",
+      "claim_family": "0052",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "87bd375a2ce100d83bdadd2fe6a07ddcf4af039eb9139fe103552bcf3c59e73d"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-psl2-odd-top-tensors.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "11bb2a5e9c6667d4eabca070e68118621a82ca8b64b327a2ab025179a2649e39",
-      "public_path": "sources/factor-permutation/radical-free-psl2-odd-top-tensors.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-central-frattini-all-quotients.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "87762ccd0ed6c0ff90e8eacdeb31a15d89a37355d27273a1492ca1958371775f"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-four-regular-orbits.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "6aac6eca63cd375ce93e8b7cd0cd82f3ea8eb256b9fda84943531e6f4d770559",
-      "public_path": "sources/factor-permutation/radical-free-a5-four-regular-orbits.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-central-frattini-block-obstruction.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "44cdc2255b5efea375aaaa8abb84e8e11e86a84e9239dbb0e37c29e7df6a4e4b"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-extraspecial-tops.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "8c59e986a4276bae2dea4f1ffd9a78dc90270fd59b7c5d385132b98274775ae3",
-      "public_path": "sources/factor-permutation/radical-free-a5-extraspecial-tops.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-central-frattini-constraints.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "e25f93950a5da60e2c3b4d6f10cd42fad6d7d2aa24978e373703c2bb0466097e"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-cyclic-top.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "689514bcd79ba014e41ff9921a7d9c8022e2f32270e685ace8f6c709b6fcf830",
-      "public_path": "sources/factor-permutation/radical-free-a5-cyclic-top.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-central-frattini-parameterization.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "77505116d9d5e3628925e3f39efefb708dc658dfdf38a409606bd0c802d2ba24"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-exponent25-orbits.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "ff11a7be1388f9fe95ff9f8306f3a27ebbbd2daa1fc3137a958358ab30fa50d4",
-      "public_path": "sources/factor-permutation/radical-free-a5-exponent25-orbits.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-class-two-radical-constraints.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "2a6fba75828ef37c11693c304d8173e4a742815dba7fb744607e0b362e691e12"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-four-transitive-orbits.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "b25e1936fb76f02a8e088fc9ff34a2426b009ea894baecfe55dbb55904b7d6cb",
-      "public_path": "sources/factor-permutation/radical-free-a5-four-transitive-orbits.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-elementary-block-obstruction.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "24b566b9ba4ede32345ec85514f4a88a71ddb1bec72dd85e3c10607f11dac601"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-order-three-support.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "32b087ac1fe43d4f16f32d92c2f00544b163b1dead7556a33533c33a30919623",
-      "public_path": "sources/factor-permutation/radical-free-a5-order-three-support.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-elementary-product-constraints.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "ace260f7c920e98733904c1daf5e3d49adb0cfbc39473bd8c966dc8d29ad7172"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-prime-power-top.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "7700c6ee96470a6061c4263fdf3847fad8b30a2472a49098f778207c0bb92b86",
-      "public_path": "sources/factor-permutation/radical-free-a5-prime-power-top.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-elementary-product-parameterization.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "7d6368c849415c8dca54edbc35f77fe61f0f50c266a17b7513dd8325d6be0d2c"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-stable-orbits.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "cc20857968a73ca63ed8a55e2032932f78813705ff4a65a00eb2f85b3fe50c5a",
-      "public_path": "sources/factor-permutation/radical-free-a5-stable-orbits.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-extraspecial-product-constraints.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "03f6564f3069ecad3ed3ea3d0816441362842e37df87a8a82c7e4a1e3ba3e91f"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-single-nilpotent-orbit.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "1e0ed41bcf727de87c52e4a1ad07a155111094140f091819c22a43fde8e0663d",
-      "public_path": "sources/factor-permutation/radical-free-a5-single-nilpotent-orbit.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-extraspecial-product-parameterization.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "c04f833230f167acebb6a806c791c5f61aebd1c2d1f46379ade4e06facfb6c96"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-rooted-paths.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "bda534a61300c4e7c525a24792a454eed86d691f6589eb4e637674093ad944a6",
-      "public_path": "sources/factor-permutation/radical-free-a5-rooted-paths.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-extraspecial-radicals.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b3e4c88a571bc86ab5abd274cf1cc5175e92e105c0733aa05632df5b118561cd"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-camina-tops.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "b7001c7799910d931d1aa29877e3bd6f1e24cfa1afde8877866eaad1a52f3006",
-      "public_path": "sources/factor-permutation/radical-free-a5-camina-tops.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-frattini-shadow.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "14e09e14bb85b7eb2647875a79ea477667f206b7371975890b0c0e65d7dab65b"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-regular-shadow-deficit.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "7083a3cf0e3b164f08c4404f50a853a2a0aa6fd69b0d481b7c6da1ec95ac63fe",
-      "public_path": "sources/factor-permutation/radical-free-a5-regular-shadow-deficit.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-j-affine-extension-constraints.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b7085eac6dfc12b690e342e62788b7904a862ce0ce0e9285cfcfdd297cc91a50"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-nonabelian-27.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "391248334f1a97586e703a1c8374659bd02cf8224e16a70588a7a67feb30f2ef",
-      "public_path": "sources/factor-permutation/radical-free-a5-nonabelian-27.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-j-exceptional-normal-form.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "92ae90e4e8870ceb1d753b21518aa8e33fb430630ca5980596c9ddb7903a5bc2"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-strip-orbit-forest.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "0ab0a94a5f71676b6c1c0168e6b0b5100eb1e442e9a5439e52e3c7c98e2be1d6",
-      "public_path": "sources/factor-permutation/radical-free-a5-strip-orbit-forest.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-j-n-frattini-exclusion.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "a72e9ee289e7d0101d0ee44705b0d5629f62cdcfedb2591d566005909a38039b"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-forest-prime-budget.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "8f652a8289917d9ebb43ef20abb3fd7050fd75ee37e8bc17f753aefd6f255b1c",
-      "public_path": "sources/factor-permutation/radical-free-a5-forest-prime-budget.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-multiple-n-frattini.md",
+      "claim_family": "0053",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "2335679e1aaeddb31d9dd201cb9767e40838cda6b0fac30eda2f7331e5ce4cca"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-residual-kernels-cuts.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "c985976b81c3d84db295b836153dc2379322d257f984de3d85ec2f5f3f054215",
-      "public_path": "sources/factor-permutation/radical-free-a5-residual-kernels-cuts.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-affine-fiber-parity.md",
+      "claim_family": "0053",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "37fcea015aa334369bad98e7ab75f212a69dc26770d0c1cc3ba8b6a0678dcb52"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-weighted-stable-kernel.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "1d35066a27f7a6b7d6e1a652298559579e9ae6e81be50e6e28b400a4fa6556e6",
-      "public_path": "sources/factor-permutation/radical-free-a5-weighted-stable-kernel.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-central-socle-obstruction.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b1a971411ff809d27eda2badc1d0242f0bf75f3c433d4578fac82446f3bde3c4"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-stable-proper-parity.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "c0b151ad4d779fc966efa21c3eb900243439e3962dfb083d14f4c649f01e2d17",
-      "public_path": "sources/factor-permutation/radical-free-a5-stable-proper-parity.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-frattini-marked-rank.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "f2bda959e64e93deacc657a1569995afac40b22e3bccbcae03d451faddcc3521"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-residual-saturation.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "78e03bc1278d856c5c8da8fc01f05380e79f86784932e1aff1ece1c5986dea65",
-      "public_path": "sources/factor-permutation/radical-free-a5-residual-saturation.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-frattini-passive-reduction.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "436707546d64e95092418f102e082219e177203c164230e67e8dc3b1705facfd"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-code-inversion.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "c523621df0e55b0908a8c4b225566ba2855d6229b3f68117e121406fbf3f3e4c",
-      "public_path": "sources/factor-permutation/radical-free-a5-code-inversion.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-frattini-quadratic-support.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "455e062aaac16b831b40160b78ce84742520cd5f9c6de3dbcfff64f7963e2b3d"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-outer-codes.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "4c779da662a2db478b0aef7ddd31a375c7f8613328839451cb6af80092188938",
-      "public_path": "sources/factor-permutation/radical-free-a5-outer-codes.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-frattini-sections.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "cd0a7828722e1cd7959f47b068d83239d07db090190573b2a782ef1eb097d4b1"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-single-abelian-orbit.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "a09637d81dc389178ee0574970917fb43e8c95c3e29db52a0e92e94c4e8c3c3f",
-      "public_path": "sources/factor-permutation/radical-free-a5-single-abelian-orbit.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-multiplicity-support.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "abbb41d0cf92ebdad47ecbb6a02813e536fce473c29d7204249b5f30d8c58a95"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-abelian-pure-pairs.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "d367cd182a5e198b1c0462feef18874fc7ae065717dd63fab7c16a2f05854f5d",
-      "public_path": "sources/factor-permutation/radical-free-a5-abelian-pure-pairs.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-nonsplit-extension-lifts.md",
+      "claim_family": "0053",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "59470f528ed49581a02a2c5079e71ca4540e41efd49e5c5c0005ccaeac2bd8c0"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-extraspecial-125.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "f82d0d4e662181d428c527580dcea80d59e59bf4ec8094ec3c9a7151237d814d",
-      "public_path": "sources/factor-permutation/radical-free-a5-extraspecial-125.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-p6-all-u-exclusion.md",
+      "claim_family": "0051",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9000948a39ca351ebc015ac49536e990610e77a7137613d82e63572729043aa1"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-transitive-pgroups.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "47e7172db7ba8df8f7eb1a5d4a16013691b995789efff09d445bea29d3c079f3",
-      "public_path": "sources/factor-permutation/radical-free-a5-transitive-pgroups.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-p6-one-u-exclusion.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "01772d5facf18a34ecd59062901bd3a9d6a1a01e5d0c4d1a8db11650ca875f9d"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-full-strip-matching.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "5eab5966d609ff62e10dee144c42d8bae744d5ae532ed263180a7d133c963315",
-      "public_path": "sources/factor-permutation/radical-free-a5-full-strip-matching.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-socle-quadratic-collision.md",
+      "claim_family": "0050",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "73920d62ed53999973f5605915b307ee4b24740b13b4730983d2b9f418db0960"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-strip-character-support.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "147cc0ba70894ddeef2237316296d051d810b854a93a22d9b2da1924bde16fb4",
-      "public_path": "sources/factor-permutation/radical-free-a5-strip-character-support.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-n-split-extension-exclusion.md",
+      "claim_family": "0053",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "30dcfc3afd9266fd01ac848208380ccc0e6c26f8d7010e00c280c6d9358c51de"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-transitive-extraspecial.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "455a9238513260b644bdf2c7f5de83c91d7feff0a3b10ab80ebeba0bb68fc75d",
-      "public_path": "sources/factor-permutation/radical-free-a5-transitive-extraspecial.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-one-m-noncentral-reduction.md",
+      "claim_family": "0049",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "d33031dd692d8d0a3d9e274afc943b0e6c168a2231134b07e27d88644c9e23d0"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-path-classification.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "39b3502e4307cf701ab6b7e7fca7be45abf443b13559f25efa5c270deebc5b6c",
-      "public_path": "sources/factor-permutation/radical-free-a5-path-classification.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-p6-semisimple-frattini.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "5e797d75c5f3885ef477b7d95ea7a8cbed819939197fca1fc3d79a4d5c32b8c4"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-stable-orbit-local.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "39312e7e01f39e420077f38e73763f6185973375bb7af0004847294ad025b5b4",
-      "public_path": "sources/factor-permutation/radical-free-a5-stable-orbit-local.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "public_path": "sources/bruck-completion/bruck-q9-central-core.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "40187974a0ace30e9b4552465e17663a63ac7b5511b3c8b01c9882d64e4706e5"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-abelian-path-parameters.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "75db004d5c3b73c5432da081048e149a4f79da5db8731d4a1675fa96a1c010ab",
+      "public_path": "sources/bruck-completion/bruck-s5-active-u-stabilizer.md",
+      "claim_family": "0054",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "e2e51efe5528da10ccc8279df4562ce0e5e3591bc154e9564360e13dd0cea794"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-dimension-five.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "026314025c556c46ea5ddf7fcf5e2850e3c3fa067de21861e8138c9df3d3debc"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-elementary-inversion.md",
+      "claim_family": "0038",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b9cdebe5c985eac45aa2c1b10f9b701a51f895857eb2adca20a3d2df0500f507"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-elementary-parameterization.md",
+      "claim_family": "0038",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "6880628f0ad4481f4681c5dc72d475565adc1b576af138afd1aa9c9e0938715c"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-j-branch.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "a62f3625aa23717733ada2dd741cf2394c817f81975e14cf5a2313cc21c8087a"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-j-n2-exclusion.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "d2258b4a8c0ce06aa32f8efbd32336f0a6b9946196386042fc1894528e36f90a"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-j-one-projective-block.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "16483a69f5fc19059177bc57d51448a1e19822f35049060ebfb5a709fedc4986"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-j-projective-family.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "d84a624873d5920b9a3f85ef18df5f48367283ef770f604c3145ec15d1ebff04"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-j-u-classification.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "f34f84027b095227594703579e1cb58f481e1cb1a59e73ab51bd8444c9a98219"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-jdual-arbitrary-n.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "0859fd868e965dba40d3261828e8e5c70585815ae67afb0152dd8d102eaa6336"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-module-blocks.md",
+      "claim_family": "0054",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "36760dd117749bdd3e1f460938577a9f75424c296c97209eb67a80157b98ead8"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-order96-exponent4.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "2604c7735527283df76e349b7e313aadafb90b466a733d613947b835a91a8443"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-p6-arbitrary-n.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "d61ac50101bdd459206d3fdf27658dc1af2944c01003070c6e3768d3f78be949"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-principal-enumeration.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "2aed85b099ae3de09841501544612f50211049c5427a534edc5dd79b4d918c27"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-principal-envelope-bound.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "06849c12af2149d90c65c8bf9ee5e56b32ee4af65d3b0c151d1d73963b74168b"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-principal-indecomposables.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "e69c6340593b4c89c64e1b372c2aa38ae419c19895056c7f3ddb6df49aa06f88"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-principal-isotypes.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "ae5bd1854fc567bfb27381ae4c63694dcc71c3b5a864fef916160fc1523984ad"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-principal-one-m.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "ee83cc7897b4ad4c4bf00c16182ae81da1247673142bb8f7af4bcaf601e75e60"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-principal-stabilizer-fixed.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "2dd0101aacc4fbf9a9065f547790134391d07c5087b9a3a83f09b859e9dd701e"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-projective-only.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "c805674805ef16d7b10d7d6a9dfdd4c6377c1e87416e227d614a8d57b782c89a"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-projective-principal-control.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "db8a9710e0dce5ece9d8f7d652f5c62f5a54165b4a1f108480e1bdd9ddbf9823"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-radical.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "118eca87bee39329c1181efdce2e85bc95df362053fbe9e8afa9c2c56e134b15"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-trivial-factor.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9affe4feb729501056f3048b0d43ecb0a1968b6627fa6a91ac09c21e0d39ab35"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-two-m-cover.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9926f6a663cc85d94f1ef0f211fe97e05c4117f39f7b1160704a9b5adf717ed6"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-two-m-support.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "816b5bcd2f409a4beba969a3dfad5602d5806492f755e36dd755f434687fb191"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-uniform-principal-support.md",
+      "claim_family": "0054",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "263343f66e9ec77b14795911ddb26bf613111683900b973698d7141d5a5ccc3c"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-v6-fiber-bounds.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "eae59d6ba544950dd57da73075688b91726212b515657bda089ed3688470bfe5"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-v6-n2-exclusion.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "a609f7bc415521c8dd9d14a27bbd26941f45871133b03c2c88d81c6df1a25d68"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-v6-projective-family.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "5bac9f776acb9939274b99dfffcc671cd02579b65ddb99ea9257c092beb6081f"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-v6-u-classification.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "e44f55ed3588c1cbca6bda5b595ffb052217d2fcf368b443b3b643bfbc58adb8"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-s5-v6dual-arbitrary-n.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "e3bcdee9bcf3d906999e3d2fb0f8efc4c182f7d73c544d0406af8e959b436fb0"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-two-n-cross-residual.md",
+      "claim_family": "0053",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "fc519b8687cf5ee2c0c82dea2e0953343bc07c1be520e5da45bf9f0182fe5521"
+    },
+    {
+      "public_path": "sources/bruck-completion/bruck-two-n-two-u-exclusion.md",
+      "claim_family": "0070",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "47336c6bcbdb3412d8a6021f557e4265a28058a8815d8abd5ef303bc299dd4a9"
+    },
+    {
+      "public_path": "sources/primitive-completion/classical-nondegenerate-subspaces.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "3f45e0dec6af95b4cc1adb6d61ad3e17d30447ebcb47d67e8d9cbf3487b92031"
+    },
+    {
+      "public_path": "sources/primitive-completion/classical-point-normalizers.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "5e006700d8a8b34a154461cd7f4d4a6341efc041a281baec6d42f301c42f9513"
+    },
+    {
+      "public_path": "sources/primitive-completion/classical-subspace-normalizers.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "c38977707740d4e2a7380b3bf7a03ad794cb2fa7d0f5ca053a1d2e14339e534f"
+    },
+    {
+      "public_path": "sources/primitive-completion/flag-incidence-obstruction.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "0e91e84ad1a7430640a4f4360f4890416a3da167ceeb2773580b8b5fa57adf70"
+    },
+    {
+      "public_path": "sources/primitive-completion/flag-transitivity-obstruction.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "8eff8208ed9a3b217219611bbd2594dc91d092318e8efde973d162bfca7aa8c9"
+    },
+    {
+      "public_path": "sources/primitive-completion/hc-prime-factor-inner-automorphisms.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "bc35bacaad371a96e3249d875626eaf00648482cb1e79b828982a3174d383d47"
+    },
+    {
+      "public_path": "sources/primitive-completion/hs-eight-sporadic-common-classes.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "aa53f0a5414b211ea7ee49a10710ab2d95cf12a32504992c29963e1e2335401a"
+    },
+    {
+      "public_path": "sources/primitive-completion/hs-psl4-odd.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "101be83bcdeb87b9e72b5e95b1acba245b3ed6ce3419e2104d1f1b65011c99b1"
+    },
+    {
+      "public_path": "sources/primitive-completion/hs-psl4-pair-obstruction.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "4871d78536eb96e28ef3da21c696e3cb8beffa2c1bc78673a83296d5f979d19d"
+    },
+    {
+      "public_path": "sources/primitive-completion/hs-psl43-all-outer-differences.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "1ac3685fbbece770847823c32cb0cf35d11f4ad253e862ea31596ebb28da706d"
+    },
+    {
+      "public_path": "sources/primitive-completion/orthogonal-odd-linear.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "be87657c32d681d3d99e7007c5d51c0bc2e519635e811a67e05b91ec3582a532"
+    },
+    {
+      "public_path": "sources/primitive-completion/radical-free-odd-linear-inversion.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "5d9b2fe263a58f6abf41c8f6ab85eab6377c031b6378bed10f2188375ea697de"
+    },
+    {
+      "public_path": "sources/primitive-completion/radical-free-unitary-inversion.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "1553a75f13d8468b2181554e09359cc488028ce16aea79510d8344340ae89e9e"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-a5-all-factors.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "6111fd21b76a68c9303f27f81d865e3ca458d05f77f70b5ea7aad23f3d110de9"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-all-simple-socles.md",
+      "claim_family": "0062",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "a9492db5982fa1b12a35541c1a671b22536e00b459ef0fcaf3c06d87d21cc165"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-alternating-all-factors.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "6f37bacb367e831e627f68836d2172bd49ac9d540418cc09832f07f57473e141"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-classical-raw-bounds.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "29bb2c2509f77ea1376e17029ad403667884b07f5dd8d6224537ffc39216603f"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-exceptional-class-bounds.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "0239226a865a3726eac2becf8d56154823175b49819f224ad107265ed9d301bc"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-exceptional-remaining.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9ccdac91137bc3099daa7cad9d00f378a76c18def1caa3e2caceaba4b6cfef56"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-finite-classical-aut-counts.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "8f4b08427d033d548c8ec322e2f9ed26971d715261b7ab0e0b158102249cecd9"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-finite-common-classes.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "1b076e374061b1584fe6cb580cfefd56f1a3b8f251dcee96b0803fa8308750ff"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-large-socles.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "e441a99d2c2001a149f6f141a5219b3315bac45be968995a8f8299043727be5c"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-linear-unitary-final-five.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "740d58b53e36dfc8d97022b47f6e6951858bccd765119f5a55ac640d3980e506"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-linear-unitary-refined-bounds.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "a4fc4339235c8360f97d3f2c7e1d815972f78ffa49727edf58cdea4141fb6c8d"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-orthogonal-raw-bounds.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "a059155f7a693176ad7426efcaa2f748af876f3d8cc5866df4b7ab781b970865"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-orthogonal-refined-bounds.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "f21c924d164b848c7ab5fbc984d1185929dfd6803ef7fe6dd8722852cfa7f41f"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-psl2-all-factors.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "035e15fbf257c55764c14be8a2d588fbddf298b1949e01d835a0fea23054d1ea"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-rank-three-linear-unitary.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "f439f0dbe5ed5562eecb598a3993ecd4ed2a590ac6347f146c958d2699095994"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-raw-involution-count.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "d8b5afccd535c5dd0c91f5fd8c1d6ca9a9e25157998356ce16c5306c269dc5f0"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-ree-all-factors.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "6996a05fa9b6ee5e7bd562cd387344649da6d962af0c65ab93b58fcd8e7766fa"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-scalar-criterion.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "f85ab9e6a7447800d4226f72df1507bc5b43df75bf587e648efca4ecf49c5bf7"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-sporadic-all.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "fed0d914fa0ff8674438b799ffd725b7f2ba3351483b1f39eec30d9ccd0560bf"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-suzuki-all-factors.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "54214e977bfcaa9cfc18df77f0c9c11013d0431ad019f3afaf948acd345110d1"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-symplectic-finite-residuals.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "eeeec79d90d37622bf58dd710f0f7c324641b88dead74ab2740f721be6288588"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-three-sporadic-socles.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "3c8c64d0fafc0e654a64477f9847cc85afbb39bac6964eca9a4b30a000c21c57"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd-unitary3-even.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "ececdfca612f5a33334252ac1ce0c21896959002757bab247be18d67e4ee798b"
+    },
+    {
+      "public_path": "sources/primitive-completion/sd3-involution-count.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "0b858bfa1ddb441cde08f8606a99479a0428576fa8d80e55cad82e83675d589b"
+    },
+    {
+      "public_path": "sources/primitive-completion/sp4-minus-bruck-exclusion.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "a03c76f94e8633395c615911f4bbc2dc5bd34093ed65749d6a8cdbaffd0c17ca"
+    },
+    {
+      "public_path": "sources/primitive-completion/symplectic-refinement-all-fields.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "8cf3a1eb62cda4cb603b9ec2fcc974627eaf5c3acf4b03e29bbce816b83780b9"
+    },
+    {
+      "public_path": "sources/primitive-completion/tw-cross-label-block-exclusion.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9eadc04c939d3915ef3e67abbf209b49f103905ac8d8763beb50c3043da5a821"
+    },
+    {
+      "public_path": "sources/primitive-completion/tw-diagonal-block-tops.md",
+      "claim_family": "0063",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "c8cfae28b74bc34e20974ef8a13d107ab8ecff4afbdc5857ed7d808eece74246"
+    },
+    {
+      "public_path": "sources/primitive-completion/tw-full-wreath-block-tops.md",
+      "claim_family": "0063",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "29adbe51d1e9d4af725bd88c2ddd936788699eed15645237220564718497b60d"
+    },
+    {
+      "public_path": "sources/primitive-completion/tw-full-wreath-locality.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "bc06b3a35880138bfe2b0431cdc22172dcf41b20593a976cb666a1c7c69cacdb"
+    },
+    {
+      "public_path": "sources/primitive-completion/tw-imprimitive-capacity-control.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9c3d346a764150de6033f415e5271e6a4cc917fe5fce6c080ab59d16bf0b6ee1"
+    },
+    {
+      "public_path": "sources/primitive-completion/tw-parity-code-subwreath.md",
+      "claim_family": "0063",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "0936bc8caefde4c5f0e963b3c4d69941a20a134820bcbb70f29b9436b5dc2d6c"
+    },
+    {
+      "public_path": "sources/primitive-completion/tw-psl2-factorwise-inversion.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "363a970e05f1ff164037d4dc6528b0eda64f2d1f35f2bca64caaf9325d14b9d5"
+    },
+    {
+      "public_path": "sources/primitive-completion/unitary-nonorthogonal.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9d23d6fde2166d803d46c898955e38c1011868b33d553fd7b64bc2b1917de311"
+    },
+    {
+      "public_path": "sources/primitive-completion/unitary-odd-dimension.md",
+      "claim_family": "0071",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "56e4e999a2baa745c78c9484409927efafe13cc6180f799976bf51c031e33336"
+    },
+    {
+      "public_path": "sources/odd-completion/affine-cyclic-prime-quotient-classification.md",
+      "claim_family": "0040",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "fed8586a8f93ff6565cdeff44e3b34e2cd1d7d24640f334303b224d36f08209c"
+    },
+    {
+      "public_path": "sources/odd-completion/elementary-two-marked-lifts.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "91168ff46cfcaa0641b73d0e293a7b2b56a64a8094ff4f81e64f0ba8f94a44f7"
+    },
+    {
+      "public_path": "sources/odd-completion/factorization-presentations.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "93959756ffdbc28476c7ec06d538de4a76dad47d1239dac7e6184dcd5f3a4f93"
+    },
+    {
+      "public_path": "sources/odd-completion/nonbruck-affine-cocycle-data.md",
+      "claim_family": "0040",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "c3d810b74d5e8942af7c13f0875973240c6517dd5a43553409e32783f79ded2d"
+    },
+    {
+      "public_path": "sources/odd-completion/nonbruck-almost-simple-radical-bridge.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "70ce6345c99c395260dc53b5ba70ceb9a32203f41b366f275975ebda176542c9"
+    },
+    {
+      "public_path": "sources/odd-completion/nonbruck-prime-transvection-orbits.md",
+      "claim_family": "0039",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "4042fadc74fed1a2b9449593a08f981dcc9d0a7a8fb56ce88c804584e13b20da"
+    },
+    {
+      "public_path": "sources/odd-completion/nonbruck-root-graph-parameters.md",
+      "claim_family": "0039",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "3c855eaea788b0e73c134d6263bdb7ae8fa84d7cdd02aa8e89f06f2ef03c046f"
+    },
+    {
+      "public_path": "sources/odd-completion/nonbruck-single-root-classification.md",
+      "claim_family": "0039",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "4ef7a414221793bfb151ecbb039e52e55a9f91a6d517d547061b7474184018c9"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-alternating-form-family.md",
+      "claim_family": "0025",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "58b4abd2cc1f3c0184348f6945c310ca3e54902aa9fabd3e8d3797e8bfcd39d0"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-central-class-two-classification.md",
+      "claim_family": "0019",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b85e28f058f663ad1a4ba231b15e762efbc020f456e6a894c8e3b2f4f70cd754"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-class-two-classification.md",
+      "claim_family": "0019",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "7334be8199c9faa16177d5bd229f2e671c8094de5d8bb64e1e47e80aa34c8754"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-class-two-coprime-center-reduction.md",
+      "claim_family": "0019",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9b1b2952b7e1b83ef79a620c3864fdec4132131cf6c6256e29343073ff1913b4"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-class-two-isotope-orbits.md",
+      "claim_family": "0020",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "7c897f66a2bdedc8c210c0b19f9c6056ab5294188d6af752735a395b10cbd0c2"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-composite-factors.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9eebce97326ab718458c06c48b9b923007bb491799ab0a530629b5a9d18ba0a7"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-coprime-metabelian-derived-classification.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "8a66580458e0c45e3976586b683e609efe01fd2cf12c9ae7b111289d83b53763"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-cross-extraspecial.md",
+      "claim_family": "0056",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "be48acaf75b032eff1fe3f023f9a5b6b4134b34af32f1403f07465a024aa24ab"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-cross-graph-family.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "6ceb513a923ed13cfc302d233f908ec1dd9edc7da1f8782f03608b2d162fd79d"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-elementary-layer-all-defects.md",
+      "claim_family": "0044",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "a5d5a2c61d2428bcf9c5a5487e37b81eabc8a90ae1a26e39aa8f21ed08c42c1f"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-elementary-layer-obstructions.md",
+      "claim_family": "0044",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b05ea1369ba739439c1a2db5caa1a8ef1a863853c239e1142ef8969ef15e395c"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-envelope-parameterization.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "3ed01ccc10fbd78f93fad5cb86b186ea7769f8099a32467f2202a74a0ae905b4"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-extraspecial-classification.md",
+      "claim_family": "0056",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "7c5f7dfd7a4da426dadbd516943fd9934bb4f27adf49b184327a469763d4bb69"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-fixed-envelope-stabilizers.md",
+      "claim_family": "0057",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "8737f104f9a38fd210d31ae7e9487f9ddf6ea48fe033581c40b2d8501a8e4e18"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-fixed-shadow-simple-example.md",
+      "claim_family": "0042",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "fe9c20538cf4b84931c82c594479a1e94791637f391d784a9d63173e8a4be2a1"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-folder-radicals.md",
+      "claim_family": "0044",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "7ef27495d55407353a63df7de8724f51e135fd1dd68d6013548e050aa09b985a"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-layers-in-even-envelopes.md",
+      "claim_family": "0058",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "bccabe6de4313971ab78555be916eb37e0f23a3e48463310bda7e9dc458588c2"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-lazard-central-classification.md",
+      "claim_family": "0055",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "48c79adc5cd052872812bd2e0947c3ddcfbf2401e486d9a9b9646e0160780018"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-matrix-pair-embedding.md",
+      "claim_family": "0024",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "06e2a0cb4db57fc88b31b7d2ca5992acbca8f7baa7795f70639c7c4d7b5babac"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-metabelian-heisenberg-control.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b9dcf76f03dd6b9babf42bc5ed0ff088a367c1f4b476caea913e425f8cd4b744"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-metabelian-residual-splitting.md",
+      "claim_family": "0057",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "c459f3acc93a479f5332573e5b27d52e65e94533c09e01600e542661c7e67a2c"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-monolithic-abelian-by-abelian-exclusion.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "5eedf19a94a9f4a8ff976d760b8c4280e242b7b6f092c23432276acb6418480f"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-monolithic-defect-two.md",
+      "claim_family": "0043",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "26dd2624fccd007d534643650ce2d90d4153c244577849f4461ee9ee75531ab4"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-monolithic-heisenberg-construction.md",
+      "claim_family": "0043",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "d9356c111bb31c0a72fef9802c750707a94e736fe24b2e4ba27bc278a85acf95"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-monolithic-heisenberg-line-family.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "5739df52e4e36237197624d81506ac8d88c4a3d0819b24f5cca2a9be166cc879"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-monolithic-heisenberg-prime-family.md",
+      "claim_family": "0043",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "be4cf8639b09afb8e6d841099a2b026e3faab1acc71f6df72b737a9dbc5910a6"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-monolithic-higher-defect-isomorphism.md",
+      "claim_family": "0043",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "96c2e4882c5a7787ac21046d70f40f4af850a97c518b3055bf721faab9dca39c"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-monolithic-paired-diagonal-exclusion.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "3090639a6d06812f48ba0469992c6b0edd7f170e8ac4ae0113c5df78da2eb67e"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-nilpotent-derived.md",
+      "claim_family": "0055",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "c903c55090e44d95b4d4b2b1c136e4c85e86100886218b094148b21f6216c4f9"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-noncentral-jordan-center-family.md",
+      "claim_family": "0041",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b55c8ea58c73993efa6fd5a38b9e0c8b0f20ecd064dacc5eb47cd9d16a35be5d"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-paired-stabilizer-splitting.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "45a81b378132a9c9da16ea19c0abd1978e4a36760931aab2f57ea8c0976c4e0a"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-prime-envelope-central-extensions.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "c168d01b8dfb2b23860eb9cf4ab3f54e486ee2a5ef65728ed275be74c22636e5"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-rigid-center-nongloop.md",
+      "claim_family": "0018",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "cb130592eb5a89a90a6819847f2bae62c5fb257bf420c02416adfd926104f4e0"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-scalar-and-prime-square-obstructions.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "97c41ca13883a2c69a190d62f6d7d188a83272b566e00c93dab3c20b5194a3b0"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-stabilizer-alignment.md",
+      "claim_family": "0057",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "aeb257ffea2e745f0ce04ccf115dac6acc148a96c98c73be2db1597ccc15e611"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-unbounded-derived-class.md",
+      "claim_family": "0021",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "1fd59c645d0adf5c8c46f6666fce3da72fa157098bd9efd9f5f8f6aee91ba4ee"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-unbounded-derived-length.md",
+      "claim_family": "0022",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "39f7d3fc2fd7ac58a554bdc0712b8d44989b764be603a9598dec0652957f96be"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-unbounded-fitting-height.md",
+      "claim_family": "0023",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "99f7b13c67a7e2f1cbed5fb00ec3116c8bde67dee6662d47328d3a3eeb998ade"
+    },
+    {
+      "public_path": "sources/odd-completion/odd-uniform-multiplicity-layers.md",
+      "claim_family": "0045",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "0619280cd585aabf390c6d9584ca2e79d191486ff2ee8138e53fc0442fb75a3f"
+    },
+    {
+      "public_path": "sources/odd-completion/paired-layer-factorization.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "7c561ed91b78bbe048ead9196c924ca9bd05ecf6688649c007062562b25ed421"
+    },
+    {
+      "public_path": "sources/odd-completion/radical-free-inner-inversion.md",
+      "claim_family": "0072",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "2135144daf18a5deb22e99185615469e38e79b518c9299a908c779bf20da005b"
+    },
+    {
+      "public_path": "sources/factor-permutation/exact-factorization-criterion.md",
+      "claim_family": "0046",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "16245347d5c0e1f1468b998818aa1d2aad1ac6944edf49ec79ce8281b6d0df97"
+    },
+    {
       "public_path": "sources/factor-permutation/radical-free-a5-abelian-path-parameters.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "claim_family": "0068",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "84b195fd1afb5a51af95d195d9251ff36dfd7582d424d6dede262bda89a0b5db"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-nilpotent-orbit-pairing.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "04781740e1b8efcfbcb48aa8b463140e04b2c45f186a36ec294c558f9b9878aa",
+      "public_path": "sources/factor-permutation/radical-free-a5-abelian-pure-pairs.md",
+      "claim_family": "0068",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "79e6fdb125b64e11187e44d2075521b951be2b384ae21553c20e4495591a6e28"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-abelian-top.md",
+      "claim_family": "0033",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9ff8d160d5eb9e2a6f7222552a174f025b8b56dc41d1d9979e3c7fa044e86922"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-camina-tops.md",
+      "claim_family": "0065",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "4f3a927cc2ff642a35b4d99b6307ee33d70161964614256133088757eef5aedf"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-code-inversion.md",
+      "claim_family": "0027",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "85184e2b2e82884c6d0cc9f21d9119394e6e5ee01f19e9ab1ba33f62e683294c"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-cyclic-top.md",
+      "claim_family": "0032",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "f33861784fc53ad8bb5b08edb9866a5ea190c80a416ae9bbd6487e255c991f5b"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-exponent25-orbits.md",
+      "claim_family": "0064",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "3ad0afb346cca56168bdf13428ef72ed0eb0ae46a488cdfa4913d6ad9d81a221"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-extraspecial-125.md",
+      "claim_family": "0064",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "aab9b56113c8f82e7ae9d18ce9d6c3f032c7cfce2086910f48d29c8a1c671042"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-extraspecial-27.md",
+      "claim_family": "0035",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "00d2da9a7b7b09ca4bf160b849e6773f615dc619fc30e5ca1cdcf7b7c476e8c9"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-extraspecial-tops.md",
+      "claim_family": "0037",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "7e1ac1aab2e58d0cfcb89311b74102d8c0fbb0130b987859f45bbfd037c83a8f"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-forest-prime-budget.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "1a50f62d3664bf28c55012dee8a5f329c5220ea87333363ffaccc9383a469771"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-four-regular-orbits.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "e2dc54f9aaf522622cd4f91c5e8802b114203e207e2e7142c4e008c6456298f0"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-four-transitive-orbits.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "7c96dfa67b8642e0357445338a0bb166091e97c89d91efebd97aa49a7ed485b8"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-full-strip-matching.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9efe11f2c141a6af220a8a909da6cf4c3ba6ae92fa5cee3a445e1c5173704b56"
+    },
+    {
       "public_path": "sources/factor-permutation/radical-free-a5-nilpotent-orbit-pairing.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "297c3e306da08df270e15a896bc8e28e2503461c680bc01cd5e43d5e976f0eb0"
     },
     {
-      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-residual-dependency-graphs.md",
-      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
-      "source_sha256": "4d9b80e6db0a944a377948dc543ba9375f0e5d659ed3e46dc72decb9fe15b17a",
+      "public_path": "sources/factor-permutation/radical-free-a5-nilpotent-path-parameters.md",
+      "claim_family": "0073",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "655360269bb961ec6b82b610e92855ce7f6fb1415b10f6e7598fb38af138a141"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-nonabelian-27.md",
+      "claim_family": "0034",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "79605685032a0c50982a1d83136691b4da1785d796d4241d4efbb86b5930d541"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-odd-top-surjectivity.md",
+      "claim_family": "0074",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "5531383510c6db0b0936e0666f4a6c04002fbd7db7a4f58aea4bebc1855c43dd"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-orbit-tensors.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "06fef9fdb2640e938842609e07a5c86898ef15686d46a214c12b648c08b641bf"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-order-three-support.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "4547b3303e6cae21cbbeb94fb4bc081c58f34ff3c43036c6ad9eb339f238de1d"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-outer-codes.md",
+      "claim_family": "0027",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "967990e457a162763d667a15aac0b54eac3dfa6ee387ded11f1650bb6c639e27"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-paired-path-residual.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "d644dc73aee1a469ec43652b1ffa871e4e103e603e6a9fcf2ec9c1310d778f63"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-path-classification.md",
+      "claim_family": "0026",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b16f8254ea1c1c2914f78361bb1f3d7146a982c24d88c1658b2fc9df8775e6cd"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-prime-power-top.md",
+      "claim_family": "0036",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "12374fb9a77932bf717309aabbe8da8985fdd0eb92ab14f08b0a41b7f08ba847"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-regular-shadow-deficit.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "bc3ebc2872f2d63a73ba25bd3ffde1b448a2543fc1909eee0cc7a232c5da846c"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-residual-affine-section.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "881731aacdd464dc4f7b9f056385e0da139efcd0264de9b83c54533d63189d75"
+    },
+    {
       "public_path": "sources/factor-permutation/radical-free-a5-residual-dependency-graphs.md",
-      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+      "claim_family": "0067",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "8ec19b1afa4c06c44ad79aa455403d35cfb8e4c4b138c1162675fbd3793f1fc1"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-residual-kernels-cuts.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "ada9a8b58946ebf23eda4f262d4c9c7e7d88d62194fc78965dce914e7a90b318"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-residual-saturation.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "292ca923385bf534fde8055d5ba6d0eda536626a36d3f8b36306862e22d0f0bc"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-rooted-paths.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "2b8f98f09248eeddf615dafc76cc90a1404232fef8983b949322decaff1b460f"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-single-abelian-orbit.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "dae828eaa1e50bd07925e6d11ec61341d610923c1b525c93b51f93aec51c9224"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-single-nilpotent-orbit.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "217b9ef1e4510c5d624b7be1056fdef447afeb24e5ed6796a4706cfe6403bb38"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-stable-five-kernel-cut.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "dd7064ff297bb9cab292754dd0a04b93b467c44599656673c79938f5688dc6be"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-stable-orbit-local.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "9dc55a2d37043af844c75ea3e083c0b0059623824ea04836402d55c25fee68de"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-stable-orbits.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "e20e3c977549bc76d358c15746edeae6315a2f13275c1eb0603a939dce159a61"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-stable-proper-parity.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "acb5e5fe19515a80d7a0ac54ef77363732cf20fa631ef06278a739c0d1ca5de5"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-strip-character-support.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "755e6f0c78c7f39bc4fe91704fded252fed6441850f5af7644edbf01cadce7ce"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-strip-orbit-forest.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b5c88225912bf054d5e4e1df05c7d15b74d22169eb3006c798e65b77b9b0e6da"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-transitive-extraspecial.md",
+      "claim_family": "0065",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "0056ad159dcb42fbf164ee2eb490581119d5752a304db9e6729a892f42f61053"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-transitive-pgroups.md",
+      "claim_family": "0065",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "6f0c2f60bb7f261d1125395224a6a20b8cf039238be5c4b29a8fa22fffaf79db"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-a5-weighted-stable-kernel.md",
+      "claim_family": "0066",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "7251351d20b93810c3490d7e38a20a059ebb832d3ee446c5556e0fd576abb6a9"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-bipartite-witness.md",
+      "claim_family": "0030",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "0bdbc62c3903fd54acbcf01da8ab1489cbe59e16730e71e053c9b74dad4a070b"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-even-psl2-paths.md",
+      "claim_family": "0026",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "d2d913aade406d7caba6a01d3b483577daa116fc9cc8edbe78c0e9dc4bd87884"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-factor-permutation-construction.md",
+      "claim_family": "0031",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "ab73d92ba99137c3eccc89a60d2b181563a6c81fcdec58d45739361f8cf50bf8"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-fixed-factors.md",
+      "claim_family": "0026",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "ed5220826d8e9da585cc7b5c3d80b0e015ec3a83496bf04e63a45c7df64b66c7"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-involution-support.md",
+      "claim_family": "0047",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "acd6de8e0d1e0fbeeefd43da94286682e9f7b4a9441a40cdabcb72df76c82d7a"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-mixed-matrix-classification.md",
+      "claim_family": "0028",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "74ac0924e016147c5e540d0f65e85d643f6faaa4681fcdc1b70e6d23481fff63"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-mixed-paths.md",
+      "claim_family": "0029",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "3132f64e609e286bad0347ad30fca17981b4995302fdb8a9fe44f4ecbac2e86e"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-mixed-simple-quotients.md",
+      "claim_family": "0059",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "b90fb17287ba856ffbbd4d9df973df00fa56bba2f911991cf153c42a45bdc982"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-paired-simple-envelopes.md",
+      "claim_family": "0059",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "3aaeadd67fdd94d6922c542e9ff254d408a5d2474b281b2826a5830369d98a39"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-path-factorizations.md",
+      "claim_family": "0059",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "1e6181da9981fef8c3567482234f701ff24b96a1000d8570234f5fc7d2ac9d7e"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-psl2-odd-top-tensors.md",
+      "claim_family": "0069",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "600ee7df50ae1a3bfddf976d45a48c6b7010b2f965f5785e57eafacfc241865a"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-psl2-path-classification.md",
+      "claim_family": "0026",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "f790eb975eab6f11f132200339ac9d2691204d07c7775e168f55b1e179a36bef"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-psl3-prime-paths.md",
+      "claim_family": "0048",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "d2f3146759be805b4908757bb1b75f1d4523568fb2063e73d03a7f0ccc3a7b3c"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-small-psl2-paths.md",
+      "claim_family": "0026",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "6c4f47d64824c08a5b44ef9f8d2488ded4cfc2cc0dc7143cb296193c86991217"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-strip-forests.md",
+      "claim_family": "0059",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "e3b5c329837ef0e896f3b78f6b810ec3f4b3ff6b77ae158a8bd7f6897cf34b18"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-symplectic-inversion.md",
+      "claim_family": "0060",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "ab62c6a3b61584b4508506a670e28be4e0364b1ed33bebb6b10eea28c0f7ff4e"
+    },
+    {
+      "public_path": "sources/factor-permutation/radical-free-three-dimensional-linear-unitary.md",
+      "claim_family": "0061",
+      "editing": "Mathematics and status qualifications retained; administrative identities and revision pins removed from prose; links made public; explicit math normalized.",
+      "public_sha256": "38af81aa21c54dc25cedaf6bf1ee4e3d9fb7830a879c54b4acdca37be762593a"
     }
   ]
 }

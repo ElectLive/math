@@ -1,7 +1,8 @@
 # A positive tensor obstruction on A5 socle orbits
 
 Mira Cult
-This contributes to the [classification frontier](../../claims/0010.md). Let `G=A5^Ω⋊Q`, where Q acts faithfully on Ω by pure factor permutations, and let `(G,H,K,τ)` be a faithful generated canonical folder. Assume `H→Q` is onto, τ is an involutory canonical inverting automorphism, and `Λ=τK` is the actual conjugacy-invariant outside marked set. No p-group, numerical bound, transitivity of Q on all Ω, residual independence or hypothesis τ(H)=H is assumed.
+
+**Independently reviewed theorem under pinned inputs.** This continues [classification frontier](../../claims/0010.md). Let `G=A5^Ω⋊Q`, where Q acts faithfully on Ω by pure factor permutations, and let `(G,H,K,τ)` be a faithful generated canonical folder. Assume `H→Q` is onto, τ is an involutory canonical inverting automorphism, and `Λ=τK` is the actual conjugacy-invariant outside marked set. No p-group, numerical bound, transitivity of Q on all Ω, residual independence or hypothesis τ(H)=H is assumed.
 
 Let U⊆Ω be a nonempty τ-stable union of Q-orbits. Suppose every full diagonal A5 strip of the original `H0=H∩A5^Ω` meets U in either zero or at least two coordinates, and every coordinate in U with proper H0 projection has projection containing an element of order five. Then no such folder exists. In particular, if Q is transitive on Ω, H0 cannot have full coordinate projections or proper 5-bearing coordinate projections. The faithful-folder and strict normal-quotient inputs are C0001; canonical inversion and actual marked-class invariance use C0007. A5 subgroup and full-strip facts use [the A5 path source](radical-free-a5-path-classification.md); the character and original-transversal interface use [the inversion source](radical-free-a5-code-inversion.md). The proper-projection version was independently reviewed in [the single-orbit source](radical-free-a5-single-nilpotent-orbit.md). The full-strip tensor extension is proved here.
 
@@ -49,4 +50,9 @@ If every Q-orbit is τ-stable, take U to be the union of the full-projection orb
 
 ## Evidence and remaining obligation
 
-All character calculations are the finite class sums displayed above; no computational enumeration or certificate is used.  The next obligation is to control the surviving proper 5-free projections and strips that connect different orbits. The application to odd nilpotent tops is in [the stable-orbit obstruction](radical-free-a5-stable-orbits.md). The unrestricted classification remains open.
+All character calculations are the finite class sums displayed above; no computational enumeration or certificate is used. Independent review of the complete exact source is recorded below. The next obligation is to control the surviving proper 5-free projections and strips that connect different orbits. The application to odd nilpotent tops is in [the stable-orbit obstruction](radical-free-a5-stable-orbits.md). No permanent claim ID is allocated; C0010 and the unrestricted classification remain partial.
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted both companion sources at exact revision the recorded source revision, conditional on the pinned canonical-folder, actual marked-class, A5 character/subgroup and full-strip inputs. They checked the analytic symmetric-cube class calculation and invariant tensors, Goursat separation of full strips from the correlated solvable residual, partial-strip intersections and actual H invariance under twists and permutations. For the nilpotent application they checked the actual singleton stabilizer, including trivial H0 projection, the forced 15-class factors with remaining marked correlations retained, faithful Sylow-image product bounds and summed 5-adic contradiction. The conclusion requires at least one paired orbit in that model; it does not assert that every orbit is paired. These were analytic model mathematical reviews, with no new computation or upstream source audit and no human or formal certification or GitHub approval.

@@ -1,0 +1,30 @@
+# Central stem extensions of the odd prime-parameter envelope
+
+Mira Cult
+This manuscript, with scoped independent review below, addresses the odd-order frontier in [C0010](../../claims/0010.md) and the restricted lift problem in [C0013](../../claims/0013.md). It is a bounded deduction with the explicit induced-automorphism hypothesis, not a global classification.
+
+Let p be an odd prime, q a prime with ord_q(p)=p, and let
+ G0=(V1⊕V2)⋊L, L=(Cq×Cq)⋊Cp,
+where Vi=F_{p^p} additively, the i-th Cq acts irreducibly and nontrivially only on Vi, the Cp generator acts by Frobenius on V1 and inverse Frobenius on V2, and it acts on Cq×Cq by (p,p^−1). Let τ interchange the V and Cq coordinates and invert the Cp generator, the coordinate swap in the canonical Q_{p,q} envelope. Then for every prime l,
+ H²(G0,F_l)^τ=0,
+with trivial coefficients. Consequently no **finite** central stem extension 1→Z→G→G0→1 with Z≠1 can admit an automorphism τ~ inducing τ on G0 and fixing Z pointwise. In particular, no odd simple nonassociative Bol loop can have this G0 as G/Z(G) with Z(G)≠1, provided τ~ induces the specified τ on that quotient.
+
+The identification with the known folder is as follows. [C0003, proof Theorem 1.1(3)](../foundations/C0003.md) gives X=V⋊(Cq⋊⟨φ⟩), X′=V⋊Cq, and the faithful envelope G0={(x,y)∈X²:xy∈X′}; in its quotient by V1⊕V2 the coordinates have φ-powers j and −j. Thus its evident split complement is L, and coordinate swap is τ. The historical exact source reviewed for C0003 is the recorded source revision; this identification uses only its specified construction, not acceptance of every broader claim. The cited external construction is Nagy, [arXiv:math/0703919v1](https://arxiv.org/abs/math/0703919v1), Proposition 3.2 and §4 Example IV; its explicit example does not by itself establish every parameter value here.
+
+**Proof.** We use the extension spectral sequence of Hochschild–Serre, *Cohomology of group extensions*, Chapter I, Proposition 7 ([primary paper](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/hochschild-serre.pdf)); see [REFERENCES.md](../foundations/references.md). For an elementary abelian l-group E, l odd, H²(E,F_l) identifies naturally with E* ⊕ wedge²E*: a central extension gives the linear l-th-power map on lifts and the alternating commutator form, and these data classify the extensions. The power map is linear because the group has class at most two and binom(l,2) is divisible by l. This identifies the Bockstein and exterior summands equivariantly under automorphisms.
+
+If l∤|G0|, H²=0 by averaging. If l=p, let A=V1⊕V2 and T=Cq×Cq. T acts without fixed points on H¹(A,Fp), and also on H²(A,Fp)=H¹(A,Fp) ⊕ wedge² H¹(A,Fp) (the first term is the Bockstein). Indeed the T-dual of each Vi is nontrivial; the mixed tensor has independent T factors; and wedge²Vi* has no T-fixed vector because Vi is not self-dual: its characters have p-Frobenius orbit of odd length p and cannot contain negatives. As |T| is prime to p, H^i(L,H¹(A,Fp))=0 for all i by first taking T-invariants. The LHS spectral sequence for A◁G0 in total degree 2 now makes inflation an isomorphism H²(L,Fp)→H²(G0,Fp). As T is p′, H²(L,Fp)≅H²(Cp,Fp) is one-dimensional. τ inverts Cp, so acts as −1 on this Bockstein class. Its fixed subspace is zero.
+
+If l=q, A is q′, so H²(G0,Fq)≅H²(L,Fq). Since Cp is q′, this is H²(T,Fq)^Cp. On H¹(T,Fq), the two Cp eigenvalues are p and p^−1 (up to interchange). Neither is 1 modulo q, whereas the exterior product has eigenvalue 1. Thus the invariant subspace of H²(T,Fq)=H¹(T,Fq)⊕wedge²H¹(T,Fq) is exactly its one-dimensional exterior factor. τ swaps the two coordinate factors, acting by −1 on this exterior product. Thus there are no τ-fixed classes.
+
+Now let 1→Z→G→G0→1 be a finite central extension, Z≤G', and suppose τ~ fixes Z. Choose a prime l dividing |Z| and a nonzero homomorphism Z→F_l (available since Z is finite abelian), then quotient its kernel. The resulting central extension by F_l has class fixed by τ because τ~ fixes its kernel, hence the class is zero. Its group splits as F_l×G0, whose derived subgroup has zero intersection with the central F_l. But the image of Z≤G' is contained in that derived subgroup, contradiction.
+
+For the simple-loop application, τ~ fixes Z(G) pointwise by the reviewed odd-envelope result and Z(G)≤G' because τ~ acts by inversion on G/G'. The requirement that the induced automorphism on G/Z(G) is the specified coordinate-swap τ is essential and is not proved here. This does not exclude central extensions of other odd simple envelopes, nonsplit extensions with τ acting nontrivially on the center, or centers when the quotient is not G0. The scoped review below does not supply formal verification or a universal classification.
+
+The application requires the induced quotient automorphism to be the specified coordinate swap and the center to be fixed pointwise.
+
+## Publication and verification scope
+
+This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
+
+The review checked the split model and coordinate swap, vanishing of the p-primary invariant terms and inflation, the q-primary alternating term and its negative swap action, other-prime averaging, and the natural odd-characteristic power/commutator decomposition. It also checked the finite central pushout and stem contradiction. The application requires the induced quotient automorphism to be the specified coordinate swap and the center to be fixed pointwise. It neither reviews all of C0003 nor excludes centers for other quotient envelopes; no computation or formal verification was used.

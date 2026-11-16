@@ -1,7 +1,8 @@
 # A global shadow-deficit obstruction for regular factor orbits
 
 Mira Cult
-This contributes to the [classification frontier](../../claims/0010.md). Let (G,H,K,τ) be a faithful generated canonical folder of a finite simple nonassociative left Bol loop, with Soc(G)=N=A5^Ω and G=N⋊Q. Assume the [actual marked-square and strip-splitting interfaces](radical-free-a5-full-strip-matching.md), and the [stable-proper local theorem](radical-free-a5-stable-orbit-local.md). The actual joint-shadow and supported-kernel interface is [the residual-kernel source](radical-free-a5-residual-kernels-cuts.md). Assume Q is finite odd nilpotent of order n>1 and acts by pure factor permutations, regularly on every Q-orbit of socle coordinates. There may be any number of stable or paired orbits and any pattern of original full strips. No proper-coordinate projection type is assumed in advance.
+
+**Independently reviewed analytic obstruction under pinned inputs.** This continues [classification frontier](../../claims/0010.md). Let (G,H,K,τ) be a faithful generated canonical folder of a finite simple nonassociative left Bol loop, with Soc(G)=N=A5^Ω and G=N⋊Q. Assume the [actual marked-square and strip-splitting interfaces](radical-free-a5-full-strip-matching.md), and the [stable-proper local theorem](radical-free-a5-stable-orbit-local.md). The actual joint-shadow and supported-kernel interface is [the residual-kernel source](radical-free-a5-residual-kernels-cuts.md). Assume Q is finite odd nilpotent of order n>1 and acts by pure factor permutations, regularly on every Q-orbit of socle coordinates. There may be any number of stable or paired orbits and any pattern of original full strips. No proper-coordinate projection type is assumed in advance.
 
 Put H0=T×R, where T is the product of the original full strips and R is the correlated proper-coordinate residual. Let A be all proper coordinates whose projection of H0 is A4, set a=|A|, and let W≤F3^A be the image of R in ∏_{i∈A}(A4/V4). Write d=dim W and h=a−d. Let ℓ be the least prime divisor of n. If
 
@@ -32,4 +33,9 @@ Scope: this is a conditional necessary criterion for arbitrary collections of re
 
 ## Evidence and remaining obligation
 
-The next obligation is to force the displayed deficit condition from actual cut and full-strip constraints, or to control configurations with repeated projective character classes when that condition fails. The unrestricted classification remains open.
+This is an analytic proof with no computation; independent review of the complete exact source is recorded below. The next obligation is to force the displayed deficit condition from actual cut and full-strip constraints, or to control configurations with repeated projective character classes when that condition fails. No permanent claim ID is allocated; C0010 and the unrestricted classification remain partial.
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted the complete source at exact revision the recorded source revision, conditional on its pinned original-folder, marked-square, local-stable and supported-kernel inputs. They checked the actual Q-action on the joint shadow, both within-row and cross-row character coincidences, the dimension versus distinct-class count, the numerical 3-part budget for arbitrary other proper types, and the semisimple actual Sylow-2 and stable-proper supported-kernel consequences. No new computation or upstream-source audit was performed. These are independent model mathematical reviews, not human or formal certification or GitHub approval. The explicit deficit condition is not proved universally.

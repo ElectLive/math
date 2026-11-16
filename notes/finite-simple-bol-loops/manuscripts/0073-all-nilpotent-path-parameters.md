@@ -1,0 +1,132 @@
+# 0073. Structural parameters for all odd nilpotent pure A₅ tops
+
+Mira Cult
+
+## Results obtained
+
+This note gives construction, exhaustion, finite admissibility tests and exact isomorphism data for the entire pure-A₅ model with odd nilpotent top, including nonzero residual graphs. The arbitrary odd surjective-top extension at the end remains a proposed argument awaiting its separate review.
+
+**Structural parameter theorem under stated inputs.** This continues [classification frontier](../claims/0010.md). The zero-graph model and path/cut interfaces are [the nilpotent zero-graph source](../sources/factor-permutation/radical-free-a5-abelian-path-parameters.md) and the abelian-path precursor. The orbit-level dependency DAG is pinned. The actual residual normal form and sign saturation are [the residual affine-section source](../sources/factor-permutation/radical-free-a5-residual-affine-section.md). These are inputs, not reviews of this manuscript. 
+
+**Scope and endpoint.** The theorem concerns every finite faithful generated canonical folder of a simple nonassociative left Bol loop with N=Soc(G)=A5^Ω and G=N⋊Q, where Q is finite odd nilpotent acting faithfully by pure factor permutations. The canonical inversion τ induces an automorphism θ on G/N=Q. The paired-path and marked-class inputs imply that Q is a {3,5}-group, τ pairs all Q-orbits, θ²=1, I={q:θ(q)=q⁻¹} generates Q, and k=|I|=[Q:C_Q(θ)]. The endpoint is construction, exhaustion, explicit finite admissibility tests and an exact isomorphism relation for this entire model, with no zero-graph assumption. Admissible parameter orbits remain unevaluated. Arbitrary outer actions, other socles, nonnilpotent tops and radical extensions are outside the scope.
+
+## Path and residual data
+
+Choose a finite odd nilpotent Q and θ∈Aut(Q) with θ²=1 and Q=⟨I⟩, where I and k are as above. Q=1 is allowed. Choose a nonempty finite collection of path components j, each with nonempty Q-set X_j=Q/J_j and length L_j≥0. Their layers 0,...,2L_j+1 are indexed by X_j; τ pairs layers (2a,2a+1), and independent diagonal A5 strips pair (2a−1,2a). On layer r the Q action is the θ^ceil(r/2)-twist of the action on X_j. Require the intersection over j of core_Q(J_j)∩θ(core_Q(J_j)) to be trivial. This is exactly faithfulness of the full factor action. Write X5 for the union of layer-0 endpoints, X3 for the union of opposite endpoints, n=|X5|=|X3| and m=Σ_j L_j|X_j|. Thus |Ω|=2(m+n). Denote the actual endpoint permutation actions by ρ5,ρ3; the latter uses θ^(L_j+1) on component j.
+
+At every endpoint fix the same standard pair C5,A4≤A5. Write A4=V4⋊C3 and D10=N_A5(C5)=C5⋊C2, choosing the C2 to be A4∩D10. Its nonidentity element lies in V4. Identify V4 with the additive group of F4 and let ζ generate its order-three rotation. These choices fix the coordinate conventions in (1).
+
+Choose an F2-linear map φ:V4^{X3}→F2^{X5}. Its orbit-level dependency graph has the path components j as vertices, with an edge j→j′ whenever some block from an input in X_j to an output in X_j′ is nonzero. Require this graph to be acyclic, including absence of loops. Every coordinate- or cycle-level dependency cycle would project to a directed closed walk in this graph, so this implies the required acyclicity for every actual marked matching. Choose C≤F3^{X3} and W≤F5^{X5}, invariant under their actual Q permutation actions, satisfying:
+
+* C has zero coordinate on every nonzero input column of φ;
+* W contains the full F5 coordinate axis at every nonzero output row of φ.
+
+Put Pφ={(x,φx):x∈V4^{X3}} and R=W⋊(Pφ⋊C), with the usual C3 rotation action on V4 and output C2 inversion action on C5. Then H0 is the independent product of all original full A5 strips and R. Let M5=F5^{X5}/W, M3=F3^{X3}/C and M_aff=M5⊕M3; require |M_aff|=k. The two modules use the actual parity-sensitive endpoint Q actions and need not be cyclic; point vectors from actual Q-orbits, fixed by their point stabilizers, generate them.
+
+Choose a cocycle η:Q→M_aff. If c(q) is any representative of η3(q), require for every q
+
+ φ·diag(ζ^{c(q)})·ρ3(q)=ρ5(q)·φ.                         (1)
+
+This is independent of the choice of c(q), because C is zero in every active input column; the displayed order fixes the convention that ρ3(q) acts first. Require η|I:I→M_aff to be bijective. Finally impose actual local endpoint types: if an output coordinate has both zero φ-row and zero W projection, the corresponding point-stabilizer η5-coordinate must surject F5; if an input coordinate has zero C projection, its point-stabilizer η3-coordinate must surject F3. These conditions are read with the actual local permutation stabilizers, not with an assumed regular Q-action.
+
+## Construction and collision
+
+Place the full strips, residual R and pure Q action into the actual A5 wreath product. Choose representative vectors for η(q) and take sign-free C5/C3 endpoint lifts for each q. Equation (1) makes them normalize Pφ modulo W: conjugating a graph sign s by a 5-translation b contributes (1−s)b∈W, since W contains all active output axes. Literal normalization of Pφ by b is not asserted. Because W and C are Q-invariant and η is a cocycle, their products differ from the lift for qr by W×C; together with H0 they generate an actual H mapping onto Q. Different vector representatives define the same H. The original selected outside involutions form the full marked class Λ, with one socle class per label in I; set K=τΛ.
+
+More explicitly, put G=A5^Ω⋊Q, with τ acting by the displayed paired swaps and θ on Q. With Y the even layers and S=A5^Y⋊Q, the same identification as in the pinned θ-twisted source gives
+
+    G={(u,v)∈S²:top(v)=θ(top(u))},
+    K={(s,s⁻¹):s∈S, top(s)∈I},     Λ=τK=τ^G.
+
+Thus |K|=60^(m+n)k. The condition |M_aff|=k gives |H0|=60^(m+n)/k and |H|=60^(m+n)|Q|/k, so [G:H]=|K|. The collision criterion is proved below. The earlier prime restriction on Q follows from |M_aff|=k and Q=⟨I⟩ by the pinned Sylow-support argument; it is not an extra assumption used to discard a top.
+
+## Exhaustion and the reflection-free gauge
+
+The pinned path theorem supplies the normalized paths and the original decomposition H0=T×R, with T the product of full strips. Its geometric normalization uses only path edges: constant outer gauges on Q-orbits remove the outer strip twists, and τ-fixed socle gauges straighten the inner twists. The same diagonal gauge along each coordinate chain makes the actual C5 and A4 endpoint frames standard. The sign-saturation source gives, in those frames, the **literal** residual form R=W⋊(Pφ⋊C), not merely a quotient form, and supplies the active-output axes in W. Its input/output graph projection and the path orbit-DAG are intrinsic. The pinned interfaces also supply surjectivity H→Q and |M_aff|=k.
+
+For completeness we spell out the remaining top-lift gauge. Write an endpoint label of h∈H, with top q, as an input V4 vector x followed by a C3 vector c, and an output C5 vector followed by a sign vector y. Put δ(h)=y+φx. Normalization of the characteristic graph in R/W gives φ diag(ζ^c)ρ3(q)=ρ5(q)φ. The product formula for the input V4 vectors is x_h+diag(ζ^c_h)ρ3(q_h)x_g; the output sign formula is y_h+ρ5(q_h)y_g. Consequently δ(hg)=δ(h)+ρ5(q_h)δ(g). It vanishes on H0, including the C3 complement because C is zero at active input columns. Thus it descends to a 1-cocycle Q→F2^{X5}. Oddness of Q gives δ(q)=b+ρ5(q)b by averaging.
+
+At each matching pair the common double involution in A4∩D10 extends along the complete τ/strip chain. For ε∈F2^{X5}, the product n_ε of these paired involutions commutes with τ and normalizes all full strips. Let A send an output bit to the corresponding input V4 double. The gauge n_ε changes the defect origin by (I+φA)ε. Every directed edge of φA is an edge of the orbit DAG, hence φA is nilpotent and I+φA is invertible. Choose ε=(I+φA)⁻¹b. Conjugate the **whole folder** by n_ε, carrying W to W′; no invariance of W under this gauge is assumed. The defect of every top lift is now zero. Sign saturation is intrinsic and transports with the conjugation.
+
+The standard C3 complement can be realigned inside the same residual subgroup: Pφ projects onto every V4 input, and a Pφ element conjugates any coordinatewise C3 complement to the chosen one. This is a change of subgroup representatives, not an additional conjugation of τ. Since im φ acts trivially on F5^{X5}/W′, the output 5-coordinate modulo W′ is a homomorphism on R/W′ and vanishes there by coprime orders. Thus the required zero-5 lifts of Pφ and C are literal. For each q multiply an actual lift by its graph element to remove its V4 input and sign output. Pure q already permutes the standardized diagonal strips. The remaining full-coordinate coefficients normalize those strips, hence lie in their product by the diagonal normalizer formula; remove them with actual T elements. The resulting lifts have only C5/C3 endpoint coefficients. They lie in the subgroup (C5^{X5}×C3^{X3})⋊Q, map onto Q, and meet H0 exactly in W′×C. Their normalization of W′ and C gives invariance under pure coordinate permutations, and their residues define the ordinary cocycle η. Its compatibility is precisely (1). Actual endpoint stabilizers give the local conditions. Since H0 now acts trivially on M_aff, the sign theorem's injection of I into its affine origin images is exactly bijectivity of η|I. This proves necessity of the displayed normal form.
+
+## The collision criterion
+
+Let h=λ1λ2∈H, with λi∈Λ, and q its top. Then q∈I² and λ1hλ1=h⁻¹. Along each q-cycle of individual factors take the A5 holonomy. The factor permutation of λ1 maps each q-cycle to a q⁻¹-cycle and preserves holonomy order, allowing inversion and an S5 twist. On an original full strip the two factor cycles have equal length ℓ: q permutes the strips, and its odd order prohibits interchanging the two coordinates on return. Thus h^ℓ fixes both starting coordinates and normalizes their graph, whose normalizer in A5² is the graph. The two actual cycle products are related by that graph automorphism. Alternating the strip and λ1 cycle bijections proceeds through the successive layers of the same finite path, although individual chains need not be Q-equivariant. It matches opposite endpoint cycles of equal length. Their common holonomy order therefore lies in {1,2,3}∩{1,2,5}={1,2}.
+
+Put r=ord(q), which is odd. The endpoint part of h^r has trivial C3 residue, so modulo W it is a point p of Pφ. It is fixed by conjugation by h. On a q-cycle of V4 inputs the holonomy has no order-three component, so the h-fixed part of that cycle is one V4 block; the fixed signs on a matched output cycle form one F2 block. The restriction of φ to these fixed cycle blocks has acyclic dependency graph: a directed cycle would project to a directed closed walk in the orbit DAG. The identity/nonidentity statuses of p on matched cycles agree, since the endpoint holonomies have common order 1 or 2 and the odd power r preserves that status. The graph-cycle criterion therefore gives p=0. All endpoint holonomies are identity, and strip matching propagates identity to every full-coordinate cycle. For q=1 this forces h=1.
+
+On M3, identity endpoint holonomies make the cycle sums of the C3 lift vanish. On M5 the same is true on zero output rows, where a reflection-free lift and every residual element have zero sign; active rows vanish in the quotient because W contains their axes. Thus η(q)∈(1−q)M_aff. If η|I is bijective, the affine action is transitive. The set I² is invariant under conjugation, being the top image of Λ²; injectivity of η on I excludes a nonidentity element of I² fixing 0, and transitivity excludes one fixing any point. Hence no nonidentity collision exists.
+
+Conversely, if η|I is not bijective, cardinality gives distinct i,j∈I with η(i)=η(j). Actual H-lifts give a zero-fixing element h=h_j⁻¹h_i with nonidentity top j⁻¹i∈I². Apply the zero-fixing lift argument of the sign-saturation source, which uses the literal residual and marked class but does not assume collision avoidance until its final contradiction. Clear the lift's C5/C3 residues by W,C. The endpoint part p of its odd r-th power belongs to Pφ and is centralized by the lift. Multiplication by p⁻¹ kills all endpoint cycle holonomies; independent original strips clear the remaining holonomies. The result is N-conjugate to pure j⁻¹i∈Λ², giving an actual nonidentity collision. This establishes H∩Λ²={1} if and only if η|I is bijective. The abstract affine argument in the pinned θ-twisted source also makes this equivalent to no nonidentity element of I² having an affine fixed point. No arbitrary change of affine origin is required here.
+
+## All original normal cuts
+
+Choose every Q-invariant retained set U of individual factors and every normal subgroup D◁Q fixing U pointwise. The corresponding normal subgroup is L=N_{Ω\U}⋊D; conversely every normal subgroup has this form, since L centralizes the retained simple factors. Let m_hit count original full strips meeting U, s the number of retained 3-endpoints, B the set of retained 5-endpoints, A the set of retained 3-endpoints, and b the number of original τ-pairs with both factors retained. Let
+
+ t=rank_F2(φ_{B,A^c}).
+
+For p=5,3 let hp be the dimension of the projected ηp(D) image in the retained permutation quotient modulo projected W or C; D fixes U, so this restriction is a homomorphism. Put a=dim π_B(W)+h5 and c=dim π_A(C)+h3. Nilpotence of Q separates the 3- and 5-primary D-lift images. The graph projection has 2-order 2^(2s+t), including signs caused by discarded V4 inputs. The full strips meeting U contribute 60^m_hit even when only one end is retained. The exact original strict normal-quotient requirement for every nontrivial proper L is
+
+  60^m_hit · 2^(2s+t) · 5^a · 3^c · |π_D(I)| > 60^b.    (2)
+
+The graph projection has the asserted rank: the retained V4 coordinates contribute 2s dimensions, and after quotienting them the only additional signs are the image of omitted inputs under φ_{B,A^c}. The 2-part cannot grow from D-lifts, since D has odd order. On retained coordinates D acts trivially, so the projected restrictions of η to D are homomorphisms. Their images in the direct sum of the retained 3- and 5-quotients split into their primary parts, giving a and c. Residual signs act trivially on the retained 5-quotient because of saturation, so they add no hidden translation class. A full strip meeting U contributes one A5 even if both coordinates remain. A top lift over D adds no new full-coordinate contribution: its coefficient is removable by the full A5 projection of a partial strip, or by the self-normalizing diagonal of a fully retained strip. Consequently
+
+    |Hbar∩Nbar|=60^m_hit ·2^(2s+t) ·5^a ·3^c,
+    |Hbar|=|Hbar∩Nbar|·|Q/D|.
+
+The exact merged-label count is the one proved in the pinned θ-twisted source. In its two-row coordinates let A0,B0⊆Y be the retained positions in the first and second rows. D fixes A0 in the ordinary action and fixes B0 through θ(D). If i,j∈I have iD=jD, put d=i⁻¹j∈D. Then θ(d)=ij⁻¹=i d⁻¹ i⁻¹∈D. Thus d also fixes B0 in the ordinary action. The inverse-label correlations on A0∩B0 agree for i,j, while a position retained on only one side has a free A5 label. Hence
+
+    |Kbar|=|π_D(I)|·60^(|U|−b).
+
+This count does not assume θ(D)=D or τ(U)=U. Substituting it and the displayed Hbar order in the strict original normal-subloop test |Kbar|>[Gbar:Hbar] gives exactly (2). The factors |Q/D| cancel. Formula (2) includes actual top lifts over D and does not assume any projected folder.
+
+Subject to the pinned canonical-folder and simple-Moufang interfaces, these conditions give a faithful simple proper Bol folder. Cardinality and marked-square avoidance give a transversal to every conjugate of H. The two-row formula and perfection of A5 generate the entire base (the products of three anti-diagonal elements give coordinate commutators), while Q=⟨I⟩ supplies top generation, exactly as in the pinned path construction. H0 contains no individual full simple factor: strips have size two and endpoint projections are proper. Since C_G(N)=1, this makes H core-free. The classification of normal subgroups used above follows by quotienting L∩N: the remaining L centralizes the retained centerless socle, so it is a pure subgroup D of the pointwise action kernel; normality in G is exactly D◁Q. Thus (2) covers every nontrivial proper normal subgroup and is equivalent to simplicity by the original criterion.
+
+To exclude associativity, H is nontrivial since Pφ has order 4^n. Enlarge H to the subgroup with arbitrary A5 coordinates except at the A4 endpoints, where their fixed A4 frames are retained, and include pure Q. This subgroup is proper and strictly contains H (it enlarges the C5/D10 endpoint projections). The faithful canonical action is therefore imprimitive, and the pinned simple nonassociative Moufang primitivity result excludes the Moufang case. Conversely every original folder in scope has the normal form and passes the local, collision and normal-cut tests already proved. This establishes construction and exhaustion within the stated model, rather than just necessary restrictions on examples.
+
+## Exact isomorphism relation
+
+Between two admissible data choose one group isomorphism σ:Q→Q′ with σθ=θ′σ, a bijection of components preserving L_j, and bijections f_j:X_j→X′_j′ satisfying f_j(qx)=σ(q)f_j(x). Transport each f_j to every layer of its path. Choose one d_j∈C4=N_S5(C5)∩N_S5(A4) constant over that whole component. Write T3,T5 for the input/output coordinate transports and D2,D3,D5 for the corresponding actions of d_j on V4, A4/V4=F3 and C5=F5. Here D3 is the parity sign and D5 is the linked F5 unit of the same C4 element. The exact equivalence is
+
+    φ′ D2 T3 = T5 φ,
+    W′=D5 T5 W,                 C′=D3 T3 C,
+    η′(q′)=(D5 T5 ⊕ D3 T3) η(σ⁻¹(q′)).                 (3)
+
+The last line uses the induced quotient-module maps. T5 in the first line acts on output bits, with no D5 scalar. No arbitrary GL(M_aff) map or extra cocycle coboundary is added.
+
+The intrinsic endpoint C5/A4 frames and original diagonal strips force a common local C4 map along each individual path chain. Its outer parity is constant on each Q-orbit, since a canonical-folder isomorphism carries pure Q into G with inner local corrections. Nonconstant even parts are controlled by the paired involution defect map I+φA0. The following argument verifies that these parts give exactly the equivalence (3).
+
+For necessity the canonical isomorphism interface preserves N, H0 and τ. Full coordinate projections and their full strips are intrinsic in H0, and actual endpoint stabilizers distinguish the 3- and 5-ends. Hence it preserves oriented paths and induces the single σ and the displayed Q-set maps. Since C_G(N)=1, its action is determined on N. After the simultaneous path map write the local frame maps as d_i∈C4, constant along each individual chain. Conjugating a pure top element gives inner local corrections, so d_i d_{q⁻¹i}⁻¹∈C4∩A5=C2; their parity is constant on each Q-orbit. Choose an orbitwise-constant baseline with those parities and write the remainder as paired even bits ε.
+
+A baseline may move the selected C3 complement. Returning a top lift to the standard C3 representatives requires a V4 correction from Pφ; its output defect is supported on active rows. This active-row subspace is Q-invariant, by (1). Average the defect cocycle within it and apply (I+φA0)⁻¹. The result is supported there as well, because φA0 has image there and is nilpotent. The correcting paired gauge changes neither quotient module: W contains the active F5 axes, and the common paired involution lies in V4 on the 3 side. It centralizes V4 and the output sign group, so it does not change the already transformed graph.
+
+Any further defect-preserving even gauge ε satisfies that (I+φA0)ε is Q-invariant. On zero output rows φA0 vanishes, so ε is itself constant on each output Q-orbit there. These constant signs are precisely the squares of orbitwise C4 elements. On active rows their effect on M5 is invisible; all paired even gauges act trivially on M3 and on the graph. Thus every actual isomorphism induces exactly (3). Conversely an orbitwise C4 path map is an actual wreath automorphism preserving G and τ; the same active-row correction puts its image in the reflection-free normal form with exactly the data (3). This proves sufficiency. 
+
+This is a structural construction and exhaustive equivalence theorem for the stated pure A5 odd-nilpotent model. It does not assert that admissible nonzero graphs exist, evaluate the parameter orbits, or settle the unrestricted C0010 objective.
+
+
+## Extension to arbitrary odd tops with surjective stabilizer
+
+**Proposed extension; independent exact-source review pending.** The same construction, exhaustion, admissibility tests and equivalence (3) hold when Q is any finite odd group, provided the original folder satisfies the explicit hypothesis H→Q surjective. In the parameter datum allow every finite odd Q with θ²=1 and Q=⟨I⟩. Remove the conclusion that all primes of Q lie in {3,5}. The equality |M_aff|=|I| still forces |I|=3^d5^e; it does not by itself control the primes dividing C_Q(θ). No surjectivity inference from normal generation is made.
+
+Here is an audit of the proofs under these broader hypotheses, rather than an application of nilpotent-scoped statements with missing assumptions.
+
+The [arbitrary odd surjective-top pairing extension](../sources/factor-permutation/radical-free-a5-nilpotent-orbit-pairing.md#extension-to-arbitrary-odd-tops-with-stabilizer-surjectivity), already proves the required orbit pairing, path geometry and opposite actual endpoint types. Its proof checks the full-strip separation, tensor/forest argument, odd local stabilizer quotients and full marked-class count without nilpotence. The endpoint residual then lies in D10^n×A4^n as before. Its 5-core W is obtained by intersection with the normal C5 product, and the quotient has normal elementary abelian Sylow-2 subgroup. The actual matched-support parity argument makes that subgroup the graph of a map on all V4 inputs and gives |R|=60^n/k. These steps use the paired geometry, odd k and the actual endpoint subgroup orders, not a Sylow decomposition of Q.
+
+The orbit-level DAG proof in the same source uses only the coordinate cycle obstruction and H-surjectivity. For a nonzero edge from one input orbit to an output orbit, every input vertex has an outgoing edge to that output orbit, by actual H-transitivity. If an orbit cycle existed, lift its successive edges indefinitely, using the paired identification of each output with its input component; finiteness gives a coordinate cycle. This is impossible by the actual support criterion. Do not import the separate refinement there that an output orbit reached by an edge has degree divisible by 3: its proof does use nilpotence and is not needed here.
+
+The sign-saturation proof uses only these residual/path interfaces, odd order of Q, surjectivity of H, and original transversality. Its coprime complement and averaging occur in the residual 2,3-group X acting on B/W, not in a Sylow subgroup of Q. Its zero-fixing lift uses the odd order of a top element to cancel endpoint and strip holonomies. The k labels in I again inject into the k-point affine quotient, giving saturation. Returning to simultaneous τ/path frames uses the vanishing homomorphism from that residual 2,3-group to a 5-group and does not use nilpotence of Q.
+
+The reflection-defect cocycle is killed by averaging over odd Q. Invertibility of I+φA follows from the orbit DAG, not group nilpotence. All actual lift, compatibility, local endpoint and cycle-holonomy arguments are unchanged with these audited inputs. The equality |I|=[Q:C_Q(θ)] follows for every odd Q by the square-root conjugacy argument for outside involutions. Thus the affine-section collision criterion still applies.
+
+For the normal cuts, D is any normal subgroup fixing the retained coordinates. The retained restriction of η is a homomorphism from D into an abelian 5-group times an abelian 3-group. Its image splits into its primary parts, for example by integer multiplication isolating each component; no nilpotence of D or Q is needed. Oddness excludes an extra 2-part. The general normal-subgroup centralizer proof, discarded-input graph rank, full-strip contributions, merged I-label count for non-θ-stable D and inequality (2) are therefore unchanged.
+
+Finally, construction, base/top generation, core-freeness and properness use only the displayed path data and Q=⟨I⟩. The isomorphism proof uses the intrinsic paths, the single automorphism of Q, orbitwise parity, and averaging within the Q-invariant active-row subspace. Each of these works for arbitrary odd Q. This supplies the same exact structural parameterization for every pure A5 odd-top folder whose actual stabilizer maps onto Q.
+
+The recorded automated review covers the nilpotent theorem only. This extension does not prove H→Q in the remaining non-surjective case; the separate [surjectivity investigation](../sources/factor-permutation/radical-free-a5-odd-top-surjectivity.md) records the actual remaining gap.
+
+
+## Verification and remaining questions
+
+Four separate automated mathematical reviews were recorded for the nilpotent source theorem, conditional on its cited inputs. The reviews did not independently reprove the upstream chain or establish historical priority. The nonnilpotent extension is explicitly proposed and has no such accepted review at this source checkpoint. No admissible parameter-orbit census or nonzero-graph existence theorem is claimed. Other socles, outer actions and radical extensions remain outside this classification.

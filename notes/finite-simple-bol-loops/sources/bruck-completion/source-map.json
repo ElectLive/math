@@ -1,0 +1,281 @@
+{
+  "scope": "Complete Bruck manuscript snapshot. Formula delimiters normalized and private review identities redacted. Mathematical statements, limitations and evidence-scope sections retained. No new proof certification claimed.",
+  "files": [
+    {
+      "public": "sources/bruck-completion/bruck-abelian-radicals.md",
+      "public_sha256": "136052e0177f6fd7f7bf44b5b62cb5f709893279a16ab39171d5e8bf17baecfa"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-all-radical-block-obstruction.md",
+      "public_sha256": "41c953eddc5e0984ca293dde596403d086d33104036d0d1e9221147539cce0d7"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-all-radical-constraints.md",
+      "public_sha256": "f65176cfd42812c0eaaedc3660bb1a39d5d7717e1e245dc1999f7ad37ed83a00"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-all-radical-parameterization.md",
+      "public_sha256": "f4fc6f63a491f069d38507d55454c556fcfb87b29caf69c17c310182bc8eaff4"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-b3-concrete-obstruction.md",
+      "public_sha256": "87bd375a2ce100d83bdadd2fe6a07ddcf4af039eb9139fe103552bcf3c59e73d"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-central-frattini-all-quotients.md",
+      "public_sha256": "87762ccd0ed6c0ff90e8eacdeb31a15d89a37355d27273a1492ca1958371775f"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-central-frattini-block-obstruction.md",
+      "public_sha256": "44cdc2255b5efea375aaaa8abb84e8e11e86a84e9239dbb0e37c29e7df6a4e4b"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-central-frattini-constraints.md",
+      "public_sha256": "e25f93950a5da60e2c3b4d6f10cd42fad6d7d2aa24978e373703c2bb0466097e"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-central-frattini-parameterization.md",
+      "public_sha256": "77505116d9d5e3628925e3f39efefb708dc658dfdf38a409606bd0c802d2ba24"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-class-two-radical-constraints.md",
+      "public_sha256": "2a6fba75828ef37c11693c304d8173e4a742815dba7fb744607e0b362e691e12"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-elementary-block-obstruction.md",
+      "public_sha256": "24b566b9ba4ede32345ec85514f4a88a71ddb1bec72dd85e3c10607f11dac601"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-elementary-product-constraints.md",
+      "public_sha256": "ace260f7c920e98733904c1daf5e3d49adb0cfbc39473bd8c966dc8d29ad7172"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-elementary-product-parameterization.md",
+      "public_sha256": "7d6368c849415c8dca54edbc35f77fe61f0f50c266a17b7513dd8325d6be0d2c"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-extraspecial-product-constraints.md",
+      "public_sha256": "03f6564f3069ecad3ed3ea3d0816441362842e37df87a8a82c7e4a1e3ba3e91f"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-extraspecial-product-parameterization.md",
+      "public_sha256": "c04f833230f167acebb6a806c791c5f61aebd1c2d1f46379ade4e06facfb6c96"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-extraspecial-radicals.md",
+      "public_sha256": "b3e4c88a571bc86ab5abd274cf1cc5175e92e105c0733aa05632df5b118561cd"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-frattini-shadow.md",
+      "public_sha256": "14e09e14bb85b7eb2647875a79ea477667f206b7371975890b0c0e65d7dab65b"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-j-affine-extension-constraints.md",
+      "public_sha256": "b7085eac6dfc12b690e342e62788b7904a862ce0ce0e9285cfcfdd297cc91a50"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-j-exceptional-normal-form.md",
+      "public_sha256": "92ae90e4e8870ceb1d753b21518aa8e33fb430630ca5980596c9ddb7903a5bc2"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-j-n-frattini-exclusion.md",
+      "public_sha256": "a72e9ee289e7d0101d0ee44705b0d5629f62cdcfedb2591d566005909a38039b"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-multiple-n-frattini.md",
+      "public_sha256": "2335679e1aaeddb31d9dd201cb9767e40838cda6b0fac30eda2f7331e5ce4cca"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-affine-fiber-parity.md",
+      "public_sha256": "37fcea015aa334369bad98e7ab75f212a69dc26770d0c1cc3ba8b6a0678dcb52"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-central-socle-obstruction.md",
+      "public_sha256": "b1a971411ff809d27eda2badc1d0242f0bf75f3c433d4578fac82446f3bde3c4"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-frattini-marked-rank.md",
+      "public_sha256": "f2bda959e64e93deacc657a1569995afac40b22e3bccbcae03d451faddcc3521"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-frattini-passive-reduction.md",
+      "public_sha256": "436707546d64e95092418f102e082219e177203c164230e67e8dc3b1705facfd"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-frattini-quadratic-support.md",
+      "public_sha256": "455e062aaac16b831b40160b78ce84742520cd5f9c6de3dbcfff64f7963e2b3d"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-frattini-sections.md",
+      "public_sha256": "cd0a7828722e1cd7959f47b068d83239d07db090190573b2a782ef1eb097d4b1"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-multiplicity-support.md",
+      "public_sha256": "abbb41d0cf92ebdad47ecbb6a02813e536fce473c29d7204249b5f30d8c58a95"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-nonsplit-extension-lifts.md",
+      "public_sha256": "59470f528ed49581a02a2c5079e71ca4540e41efd49e5c5c0005ccaeac2bd8c0"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-p6-all-u-exclusion.md",
+      "public_sha256": "9000948a39ca351ebc015ac49536e990610e77a7137613d82e63572729043aa1"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-p6-one-u-exclusion.md",
+      "public_sha256": "01772d5facf18a34ecd59062901bd3a9d6a1a01e5d0c4d1a8db11650ca875f9d"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-socle-quadratic-collision.md",
+      "public_sha256": "73920d62ed53999973f5605915b307ee4b24740b13b4730983d2b9f418db0960"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-n-split-extension-exclusion.md",
+      "public_sha256": "30dcfc3afd9266fd01ac848208380ccc0e6c26f8d7010e00c280c6d9358c51de"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-one-m-noncentral-reduction.md",
+      "public_sha256": "d33031dd692d8d0a3d9e274afc943b0e6c168a2231134b07e27d88644c9e23d0"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-p6-semisimple-frattini.md",
+      "public_sha256": "5e797d75c5f3885ef477b7d95ea7a8cbed819939197fca1fc3d79a4d5c32b8c4"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-q9-central-core.md",
+      "public_sha256": "40187974a0ace30e9b4552465e17663a63ac7b5511b3c8b01c9882d64e4706e5"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-active-u-stabilizer.md",
+      "public_sha256": "e2e51efe5528da10ccc8279df4562ce0e5e3591bc154e9564360e13dd0cea794"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-dimension-five.md",
+      "public_sha256": "026314025c556c46ea5ddf7fcf5e2850e3c3fa067de21861e8138c9df3d3debc"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-elementary-inversion.md",
+      "public_sha256": "b9cdebe5c985eac45aa2c1b10f9b701a51f895857eb2adca20a3d2df0500f507"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-elementary-parameterization.md",
+      "public_sha256": "6880628f0ad4481f4681c5dc72d475565adc1b576af138afd1aa9c9e0938715c"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-j-branch.md",
+      "public_sha256": "a62f3625aa23717733ada2dd741cf2394c817f81975e14cf5a2313cc21c8087a"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-j-n2-exclusion.md",
+      "public_sha256": "d2258b4a8c0ce06aa32f8efbd32336f0a6b9946196386042fc1894528e36f90a"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-j-one-projective-block.md",
+      "public_sha256": "16483a69f5fc19059177bc57d51448a1e19822f35049060ebfb5a709fedc4986"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-j-projective-family.md",
+      "public_sha256": "d84a624873d5920b9a3f85ef18df5f48367283ef770f604c3145ec15d1ebff04"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-j-u-classification.md",
+      "public_sha256": "f34f84027b095227594703579e1cb58f481e1cb1a59e73ab51bd8444c9a98219"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-jdual-arbitrary-n.md",
+      "public_sha256": "0859fd868e965dba40d3261828e8e5c70585815ae67afb0152dd8d102eaa6336"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-module-blocks.md",
+      "public_sha256": "36760dd117749bdd3e1f460938577a9f75424c296c97209eb67a80157b98ead8"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-order96-exponent4.md",
+      "public_sha256": "2604c7735527283df76e349b7e313aadafb90b466a733d613947b835a91a8443"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-p6-arbitrary-n.md",
+      "public_sha256": "d61ac50101bdd459206d3fdf27658dc1af2944c01003070c6e3768d3f78be949"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-principal-enumeration.md",
+      "public_sha256": "2aed85b099ae3de09841501544612f50211049c5427a534edc5dd79b4d918c27"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-principal-envelope-bound.md",
+      "public_sha256": "06849c12af2149d90c65c8bf9ee5e56b32ee4af65d3b0c151d1d73963b74168b"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-principal-indecomposables.md",
+      "public_sha256": "e69c6340593b4c89c64e1b372c2aa38ae419c19895056c7f3ddb6df49aa06f88"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-principal-isotypes.md",
+      "public_sha256": "ae5bd1854fc567bfb27381ae4c63694dcc71c3b5a864fef916160fc1523984ad"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-principal-one-m.md",
+      "public_sha256": "ee83cc7897b4ad4c4bf00c16182ae81da1247673142bb8f7af4bcaf601e75e60"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-principal-stabilizer-fixed.md",
+      "public_sha256": "2dd0101aacc4fbf9a9065f547790134391d07c5087b9a3a83f09b859e9dd701e"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-projective-only.md",
+      "public_sha256": "c805674805ef16d7b10d7d6a9dfdd4c6377c1e87416e227d614a8d57b782c89a"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-projective-principal-control.md",
+      "public_sha256": "db8a9710e0dce5ece9d8f7d652f5c62f5a54165b4a1f108480e1bdd9ddbf9823"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-radical.md",
+      "public_sha256": "118eca87bee39329c1181efdce2e85bc95df362053fbe9e8afa9c2c56e134b15"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-trivial-factor.md",
+      "public_sha256": "9affe4feb729501056f3048b0d43ecb0a1968b6627fa6a91ac09c21e0d39ab35"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-two-m-cover.md",
+      "public_sha256": "9926f6a663cc85d94f1ef0f211fe97e05c4117f39f7b1160704a9b5adf717ed6"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-two-m-support.md",
+      "public_sha256": "816b5bcd2f409a4beba969a3dfad5602d5806492f755e36dd755f434687fb191"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-uniform-principal-support.md",
+      "public_sha256": "263343f66e9ec77b14795911ddb26bf613111683900b973698d7141d5a5ccc3c"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-v6-fiber-bounds.md",
+      "public_sha256": "eae59d6ba544950dd57da73075688b91726212b515657bda089ed3688470bfe5"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-v6-n2-exclusion.md",
+      "public_sha256": "a609f7bc415521c8dd9d14a27bbd26941f45871133b03c2c88d81c6df1a25d68"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-v6-projective-family.md",
+      "public_sha256": "5bac9f776acb9939274b99dfffcc671cd02579b65ddb99ea9257c092beb6081f"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-v6-u-classification.md",
+      "public_sha256": "e44f55ed3588c1cbca6bda5b595ffb052217d2fcf368b443b3b643bfbc58adb8"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-s5-v6dual-arbitrary-n.md",
+      "public_sha256": "e3bcdee9bcf3d906999e3d2fb0f8efc4c182f7d73c544d0406af8e959b436fb0"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-two-n-cross-residual.md",
+      "public_sha256": "fc519b8687cf5ee2c0c82dea2e0953343bc07c1be520e5da45bf9f0182fe5521"
+    },
+    {
+      "public": "sources/bruck-completion/bruck-two-n-two-u-exclusion.md",
+      "public_sha256": "47336c6bcbdb3412d8a6021f557e4265a28058a8815d8abd5ef303bc299dd4a9"
+    }
+  ]
+}

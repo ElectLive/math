@@ -1,7 +1,8 @@
 # Rooted strip paths over a common transitive Q-set
 
 Mira Cult
-This contributes to the [classification frontier](../../claims/0010.md). Retain the faithful generated simple nonassociative canonical folder (G,H,K,τ), Soc(G)=N=A5^Ω and G=N⋊Q, with Q finite odd nilpotent acting faithfully by pure factor permutations. Use the [original strip-orbit forest](radical-free-a5-strip-orbit-forest.md) and [positive orbit-tensor theorem](radical-free-a5-orbit-tensors.md). No assumption τ(H)=H is made.
+
+**Independently reviewed analytic continuation under pinned inputs.** This continues [classification frontier](../../claims/0010.md). Retain the faithful generated simple nonassociative canonical folder (G,H,K,τ), Soc(G)=N=A5^Ω and G=N⋊Q, with Q finite odd nilpotent acting faithfully by pure factor permutations. Use the [original strip-orbit forest](radical-free-a5-strip-orbit-forest.md) and [positive orbit-tensor theorem](radical-free-a5-orbit-tensors.md). No assumption τ(H)=H is made.
 
 ## Incidence propagation
 
@@ -27,8 +28,13 @@ The unique proper boundary D is 5-free by the companion [component boundary argu
 
 On the other hand kE<5^N by the first, 5-adic part of the pinned four-transitive-orbit proof. More explicitly, integrality of (1) and inversion on the top abelianization force every nontrivial Sylow prime of Q to be 3 or 5. The common faithful transitive Q-set has Sylow degrees N3,N5 with N=N3N5, and v3(k)≤(N3−1)/2, v5(k)≤(N5−1)/4. Its fixed counts satisfy f≤N/3 in the pure-3 case, f≤N/5 in the pure-5 case, and f≤N/15 in the mixed case. Together with E≤16^f, the elementary inequalities sqrt(3)·16^(1/3)<5, 5^(1/4)·16^(1/5)<5 and sqrt(3)·5^(1/4)·16^(1/15)<5 give kE<5^N, exactly as in that source. Formula (1) would then require v5(kE)=N to make R a 5′-group, impossible. This proves the exclusion for every L≥1.
 
-The argument uses neither the later 3-shadow saturation estimate nor the one-third-fixed 3-group lemma from the four-orbit proof; those remain historical results at their original source pin. The present exclusion does NOT apply to a path component when additional proper Q-orbits are present: then R has their coordinates too, and the 5-free conclusion cannot be inferred for the whole residual.
+The argument uses neither the later 3-shadow saturation estimate nor the one-third-fixed 3-group lemma from the four-orbit proof; those remain historical results at their original source pin. The present exclusion does NOT apply to a path component when additional proper Q-orbits are present: then R has their coordinates too, and the 5-free conclusion cannot be inferred for the whole residual. Independent exact-source review of this extension is recorded below.
 
 ## Evidence and remaining obligation
 
-The topology applies to arbitrary factor-orbit sizes, with monotone degrees on rooted paths. The exclusion requires the entire displayed path and exactly its two proper-coordinate orbits; extra proper coordinates cannot be discarded. The next obligation is to control their correlations using the actual residual-kernel and invariant-cut constraints. The unrestricted classification remains open.
+This is an analytic argument with no computation; independent review of the complete exact source is recorded below. The topology applies to arbitrary factor-orbit sizes, with monotone degrees on rooted paths. The exclusion requires the entire displayed path and exactly its two proper-coordinate orbits; extra proper coordinates cannot be discarded. The next obligation is to control their correlations using the actual residual-kernel and invariant-cut constraints. No permanent claim ID is allocated; C0010 and the unrestricted classification remain partial.
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, an automated checker, and an automated checker independently accepted both complete companion sources at exact revision the recorded source revision, conditional on the pinned folder, orbit-tensor, local-mark, selected-class and forest inputs. They checked the disjoint 5-free boundary and proper-pair choices, forest defect bound without a strip-size cap, actual residual 5-part count and its cancellation, the correlated marked-weight binomial/2-adic estimate and the cases k=1 and Q=1. They also checked arbitrary rooted-path incidence propagation and θ-transport, the common-degree path conclusion, and the isolated whole-path 5-adic exclusion at every length. The separate nonregular prime inequalities remain necessary conditions only. No computation or fresh independent audit of the pinned input proofs was performed. These are model mathematical reviews, not human or formal certification or GitHub approval.

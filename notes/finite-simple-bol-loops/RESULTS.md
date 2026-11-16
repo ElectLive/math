@@ -123,13 +123,21 @@ The [all-path theorem, 0068](manuscripts/0068-abelian-nilpotent-path-parameters.
 
 The proof has two major reductions. [0066](manuscripts/0066-odd-top-orbit-pairing.md) forces canonical inversion to pair every factor orbit for nilpotent tops and reduces full strips to paths with opposite endpoint types. Its pairing extension covers arbitrary odd tops when the stabilizer surjects onto the top. [0067](manuscripts/0067-residual-graphs-and-abelian-splitting.md) identifies Sylow-2 correlations with a dependency graph, proves the directed-cycle collision criterion, eliminates every nonzero graph for abelian tops and proves the framed split needed for ordinary cocycle lifts.
 
-For nonabelian nilpotent tops, acyclicity alone does not eliminate nonzero graphs. Their uniform parameterization and normalization preserving the actual group, inversion, section, stabilizer and isomorphism relation remain open. General outer actions, other or mixed socles and radicals are not included in the theorem.
+A later [all-graph theorem, 0073](manuscripts/0073-all-nilpotent-path-parameters.md) supplies the normalization and structural parameterization for every odd nilpotent top in this pure-A₅ model, retaining nonzero acyclic graphs. It does not prove that admissible nonzero graphs exist or evaluate their parameter orbits. The further extension to arbitrary odd tops with surjective stabilizer is proposed and separately unreviewed; [0074](manuscripts/0074-odd-top-surjectivity-boundary.md) states the remaining surjectivity problem and a group-only control. General outer actions, other or mixed socles and radicals are not included in the theorem.
 
 The [projective-tensor exclusion, 0069](manuscripts/0069-psl2-odd-permutation-top-exclusions.md) handles a different infinite family: pure PSL₂(q) permutation envelopes for q ≡ 1 (mod 4), q outside {5,9,29}, with odd top and surjective stabilizer image; this includes all odd nilpotent tops. It does not exclude arbitrary outer lifts.
 
 The newer finite classifications now have public proofs. [0064](manuscripts/0064-extraspecial-regular-census.md) assembles **120 classes** across the four admissible odd extraspecial regular-top types, including the **88-class** exponent-25 theorem and its executable form certificate. [0065](manuscripts/0065-transitive-camina-tops.md) uses the actual permutation module and normalizer to admit nonregular faithful transitive actions and gives **128 classes** for the specified nonabelian class-two Camina-top models: 120 regular and eight nonregular. These counts apply to their exact wreath-pair groups, not all canonical groups with those quotient types.
 
 Separate automated mathematical reviews were recorded for these source stages, conditional on their upstream inputs. This public exposition is not human refereeing, formal verification or a claim of literature priority.
+
+## Further structural results and complete mathematical sources
+
+The [Bruck radical account, 0070](manuscripts/0070-bruck-radical-constraints.md) organizes the exact extension-data scheme, universal radical constraints and restricted module exclusions. This is not a claim that all radical families have been evaluated. The [primitive and simple-socle account, 0071](manuscripts/0071-primitive-and-simple-socle-reductions.md) supplies the previously missing family arguments behind the conditional diagonal, holomorph and twisted-wreath reductions. Their CFSG and local-character hypotheses remain part of the claims.
+
+The [odd and affine account, 0072](manuscripts/0072-odd-and-affine-structural-reductions.md) includes the structural classification for coprime metabelian derived groups and locates the broader odd-envelope, layer, monolithic and affine results. General odd envelopes remain open. None of these source-publication steps is a new independent proof of the mathematics.
+
+The [source index](sources/README.md) now covers every mathematical manuscript in the inspected classification checkpoint, with the foundational proofs, bibliography and executable sources needed by their local links. This removes the previously identified missing-source barrier for that checkpoint, not every mathematical dependency or verification gap. Earlier packets are retained as historical versions; the source index identifies this newer coherent snapshot. No all-program rerun, all-page hosted-render check or blanket mathematical certification is claimed.
 
 ## Further reading
 

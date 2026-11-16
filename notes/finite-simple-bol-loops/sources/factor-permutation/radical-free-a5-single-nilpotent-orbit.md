@@ -1,7 +1,8 @@
 # Exclusion of a single faithful transitive odd-nilpotent A5 factor orbit
 
 Mira Cult
-This contributes to the [classification frontier](../../claims/0010.md). Let (G,H,K,τ) be the faithful generated canonical folder of a finite simple nonassociative left Bol loop. Suppose Soc(G)=N=A5^Ω and G=N⋊Q, where Q is a nontrivial finite odd nilpotent group acting faithfully and transitively on Ω by pure factor permutations. Then no such folder exists. The prime-power case is proved first, followed by the mixed-prime extension. This does not assume that Q acts regularly or that the envelope is a paired wreath product. It treats a single factor orbit; it does not cover multiple orbits, nonnilpotent odd tops or arbitrary outer lifts.
+
+**Independently reviewed exclusion under pinned inputs.** This continues [classification frontier](../../claims/0010.md). Let (G,H,K,τ) be the faithful generated canonical folder of a finite simple nonassociative left Bol loop. Suppose Soc(G)=N=A5^Ω and G=N⋊Q, where Q is a nontrivial finite odd nilpotent group acting faithfully and transitively on Ω by pure factor permutations. Then no such folder exists. The prime-power case is proved first, followed by the mixed-prime extension. This does not assume that Q acts regularly or that the envelope is a paired wreath product. It treats a single factor orbit; it does not cover multiple orbits, nonnilpotent odd tops or arbitrary outer lifts.
 
 The faithful-folder and strict normal-quotient inputs are C0001; canonical inversion and G-conjugacy-invariance of Λ=τK use C0007. The A5 subgroup and diagonal-strip facts are those pinned in [the A5 path source](radical-free-a5-path-classification.md). The actual-H class-sum identity and the character ψ below are in the reviewed fixed-coordinate analysis [of canonical A5 inversion](radical-free-a5-code-inversion.md). No quotient loop is assumed.
 
@@ -90,4 +91,9 @@ The proper-projection argument has a useful independent scope. Let G=A5^Ω⋊Q h
 
 ## Evidence and remaining obligation
 
-This is an analytic argument with no new computation.  It extends [the odd-abelian single-orbit exclusion](radical-free-a5-single-abelian-orbit.md), independently reviewed, to all faithful transitive odd nilpotent actions in its stated entire canonical-group setting, including mixed-prime nonabelian tops. The next obligation is to control multiple factor orbits and arbitrary outer lifts, retaining the actual stabilizer correlations. The unrestricted classification remains open.
+This is an analytic argument with no new computation. Independent review of the complete exact source is recorded below. It extends [the odd-abelian single-orbit exclusion](radical-free-a5-single-abelian-orbit.md), independently reviewed, to all faithful transitive odd nilpotent actions in its stated entire canonical-group setting, including mixed-prime nonabelian tops. The next obligation is to control multiple factor orbits and arbitrary outer lifts, retaining the actual stabilizer correlations. No permanent claim ID is allocated; C0010 and the unrestricted classification remain partial.
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted the complete source at exact revision the recorded source revision, conditional on its pinned canonical-folder, actual marked-class, A5 character/subgroup and full-strip inputs. They checked H surjectivity via nilpotent normal maximal subgroups, fixed-coset lifting and actual selected weights with correlations retained, the genuine H-fixed degree-five tensor and positive outside traces, and full-strip and prime-part contradictions. They checked the faithful degree bound at p=5, the Sylow product and fixed-point formulas for mixed-prime tops, and the multiple-orbit proper-5-bearing corollary with its stated pure-action and H-surjectivity hypotheses. No new computation, upstream source audit or reproof of upstream classifications was performed. These are independent model mathematical reviews, not human or formal certification or GitHub approval.

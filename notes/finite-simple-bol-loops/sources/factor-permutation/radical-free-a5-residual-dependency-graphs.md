@@ -1,7 +1,8 @@
 # Residual dependency graphs and strict invariant cuts
 
 Mira Cult
-This contributes to the [classification frontier](../../claims/0010.md). Work in the faithful generated canonical simple nonassociative folder with Soc(G)=A5^Ω and G=A5^Ω⋊Q, where Q is finite odd nilpotent and acts faithfully by pure factor permutations. Use the [complete pairing theorem](radical-free-a5-nilpotent-orbit-pairing.md), [paired path and endpoint reduction](radical-free-a5-paired-path-residual.md), and [strict original-folder cuts](radical-free-a5-residual-kernels-cuts.md). Their original-folder, actual class-square and subgroup inputs remain pinned there. No quotient folder or independent proper residual is assumed.
+
+**Independently reviewed analytic reduction under pinned inputs.** This continues [classification frontier](../../claims/0010.md). Work in the faithful generated canonical simple nonassociative folder with Soc(G)=A5^Ω and G=A5^Ω⋊Q, where Q is finite odd nilpotent and acts faithfully by pure factor permutations. Use the [complete pairing theorem](radical-free-a5-nilpotent-orbit-pairing.md), [paired path and endpoint reduction](radical-free-a5-paired-path-residual.md), and [strict original-folder cuts](radical-free-a5-residual-kernels-cuts.md). Their original-folder, actual class-square and subgroup inputs remain pinned there. No quotient folder or independent proper residual is assumed.
 
 There are M A4-type proper endpoint coordinates and M opposite C5/D10-type coordinates. Their actual H0=H∩A5^Ω projections are respectively V4/A4 and 1/C5/D10. Let R be the correlated residual. Its order is 60^M/k, where k=[Q:C_Q(θ)] is odd, hence k=3^d5^e for d=v3(k), e=v5(k). Original full strips are independent of R and have size two. Fix any actual selected outside N-class. Its factor pairing and the original full strips give disjoint coordinate chains between opposite proper endpoints; use this matching to index both endpoint sets by 1,...,M.
 
@@ -62,11 +63,12 @@ Thus d=0 forces φ=0 by (1), and k=3 forces φ=0 by (5). For mixed 3/5 index, if
 
 ## Evidence and remaining obligation
 
-These are analytic proofs with no computation.  The graph normal form is obtained before the additional endpoint-saturation hypothesis in the preceding residual source. The cycle criterion and strict cut leave nonzero acyclic graphs with unsaturated deficits, and they do not classify the odd residuals even when φ=0. The next obligation is to control projected odd subgroups and top lifts on invariant source or sink sets, retaining actual quotient fibers. The unrestricted classification remains open.
+These are analytic proofs with no computation. Independent review of the complete exact source is recorded below. The graph normal form is obtained before the additional endpoint-saturation hypothesis in the preceding residual source. The cycle criterion and strict cut leave nonzero acyclic graphs with unsaturated deficits, and they do not classify the odd residuals even when φ=0. The next obligation is to control projected odd subgroups and top lifts on invariant source or sink sets, retaining actual quotient fibers. No permanent claim ID is allocated; C0010 and the unrestricted classification remain partial.
+
 
 ## Orbit triangularity and actual top lifts
 
-Retain the odd-nilpotent hypotheses and the graph theorem above. Form a directed graph on the Q-orbits of A4-type input coordinates, identifying each opposite output Q-orbit with its input partner by the selected alternating strip/pair paths. Draw an orbit edge if a nonzero block of φ joins coordinates in those orbits. This orbit graph is acyclic. Every edge ends at a D10 residual-projection orbit whose degree is divisible by 3. In particular φ=0 whenever all endpoint Q-orbit degrees are coprime to 3.
+**Independently reviewed continuation under pinned inputs.** Retain the odd-nilpotent hypotheses and the graph theorem above at. Form a directed graph on the Q-orbits of A4-type input coordinates, identifying each opposite output Q-orbit with its input partner by the selected alternating strip/pair paths. Draw an orbit edge if a nonzero block of φ joins coordinates in those orbits. This orbit graph is acyclic. Every edge ends at a D10 residual-projection orbit whose degree is divisible by 3. In particular φ=0 whenever all endpoint Q-orbit degrees are coprime to 3.
 
 For the first assertion, H acts on input blocks by coordinate permutations and invertible local maps and on output blocks by coordinate permutations. The two permutations need not agree under the selected path alignment, but both preserve the respective Q-orbits. If any input in an orbit has an edge to an output orbit, transitivity makes this true of every input in that orbit. A directed cycle in the orbit graph can therefore be lifted indefinitely to edges in the coordinate graph: the output coordinate reached determines the next matched input. Finiteness then gives a directed coordinate cycle, contradicting the reviewed cycle criterion. This proves orbit acyclicity, including absence of within-orbit blocks. A topological ordering of the whole orbits makes φ strictly triangular in orbit blocks; initial and final orbit unions define Q- and τ-invariant whole-component unions. No coordinate-level Q-equivariant matching is inferred.
 
@@ -97,11 +99,12 @@ The original marked-set projection has size kbar·60^(m_U+s): all retained facto
     |R_U|h > 60^s/kbar,
     kbar > 3^r5^b.
 
-No quotient folder is asserted. Subtracting a in the hidden-image estimate is necessary: its rotations are already counted in R_U. An active-input cut can discard all targets of an active input, so its original r need not be this retained r; the two must not be identified. Taking directed closures can introduce inactive inputs where hidden rotations survive. These inequalities and orbit triangularity do not yet eliminate every nonzero acyclic graph.
+No quotient folder is asserted. Subtracting a in the hidden-image estimate is necessary: its rotations are already counted in R_U. An active-input cut can discard all targets of an active input, so its original r need not be this retained r; the two must not be identified. Taking directed closures can introduce inactive inputs where hidden rotations survive. These inequalities and orbit triangularity do not yet eliminate every nonzero acyclic graph. The earlier review record does not cover these added sections; their separate exact-source review is recorded below.
+
 
 ## Abelian tops force a zero residual graph
 
-Under the paired A5 hypotheses of this manuscript, if Q is abelian then φ=0, with arbitrary orbit degrees, original path lengths and residual correlations. This is a structural elimination of the nonzero graph branch, not a classification of the remaining odd residuals.
+**Independently reviewed theorem under pinned inputs.** Under the paired A5 hypotheses of this manuscript, if Q is abelian then φ=0, with arbitrary orbit degrees, original path lengths and residual correlations. This is a structural elimination of the nonzero graph branch, not a classification of the remaining odd residuals.
 
 Canonical generatedness makes θ inversion on abelian Q: top images of K are θ-inverted and generate Q. Suppose φ≠0. Its orbit DAG has a source orbit X with an outgoing edge. All its n input coordinates have H0 projection V4. Let J≤Q be the point stabilizer on X. It is the action kernel on X because Q is abelian, and θ(J)=J. Along the corresponding whole paired path component, each Q-set is obtained from X by Q-equivariant strip bijections and θ-semilinear pair transport. Thus J fixes every coordinate of that component U, including the opposite endpoint and all full strips. U is Q- and τ-invariant and is proper, since the outgoing edge reaches a different input orbit.
 
@@ -123,7 +126,7 @@ In that pure-3 case, let U be a source active component of degree n and A the po
 
 ## Zero-graph splitting and a framed affine lift
 
-When φ=0, without assuming that every input H0 projection is A4, the residual splits as
+**Independently reviewed reduction under pinned inputs.** When φ=0, without assuming that every input H0 projection is A4, the residual splits as
 
     R=W5 × π^−1(C3) ≤ C5^X5 × A4^X3,
     π:A4^X3→F3[X3],
@@ -145,3 +148,13 @@ For q∈Q, the endpoint corrections g_i g_(q^−1 i)^−1 form an exact cobounda
 The actual H/H0 is a complement to V in this quotient, so is the graph of an ordinary 1-cocycle η:Q→V. This conclusion includes the original strip twists; no arbitrary split-extension assumption was made. Changing actual frames or their identifications can change the coordinate expression. Only transformations induced by actual folder isomorphisms may identify parameters; arbitrary GL(V) changes are not justified.
 
 This supplies necessary module and cocycle data and a split framed normalizer, not the missing complete collision, simplicity and isomorphism classification. In particular an affine transitivity test alone has not been proved equivalent to the original marked-set avoidance, and no stabilizer conjugacy to C_Q(θ) is asserted. The earlier review records do not cover these sections; their separate exact-source review follows.
+
+
+
+## Recorded source review scope
+
+Automated source reviewers an automated checker, an automated checker, an automated checker, and an automated checker independently accepted the complete source at exact revision the recorded source revision, conditional on its pinned inputs. Each read the complete preceding source the recorded source revision and verified the sole subsequent scope correction: the graph retains all correlations in the Sylow-2 quotient, while the odd residual can carry others. The last reviewer requested that correction; all four accepted the corrected revision. Their analytic reviews checked the actual W5 quotient and involution lifts, normal Sylow-2 graph, intrinsic Q-invariant columns, both directions of the determinant cycle criterion, the whole-component invariant cut without individual-chain equivariance, and exact projected 2/3/5 orders and strict inequalities. No fresh computation, full independent re-review of upstream proofs, formal verification or GitHub approval is claimed. Nonzero acyclic cases and odd residual/top data remain unresolved.
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted the complete orbit-triangularity and hidden-three-part sections at exact revision the recorded source revision, conditional on the pinned inputs. They checked orbit-cycle lifting without pointwise matching equivariance, nilpotent point-stabilizer divisibility, the actual hidden H-image rather than its full normalizer, removal of independent strips, subtraction of existing residual rotation rank, fixed-label deduplication and original strict quotient criterion including H M0=G. No new computation or full upstream reproof was performed. These are model mathematical reviews, not human/formal certification or GitHub approval; deficient acyclic cases remain open.
+
+Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted every section from the abelian-top theorem through the framed affine lift at exact revision the recorded source revision, conditional on the pinned inputs. They checked the proper source-component cut, full point-stabilizer kernel and diagonal rotation rank one, generated Sylow support and nonabelian source bound, literal V4 containment and coprime residual splitting, coherent actual endpoint frames, inner strip corrections and multiplication defect in H0, and the resulting normalizer quotient and cocycle graph. The proof leaves actual marked collisions, all simplicity cuts and the parameter isomorphism relation unresolved. No new computation or fresh upstream-source audit was performed. These are model mathematical reviews, not human/formal certification or GitHub approval.

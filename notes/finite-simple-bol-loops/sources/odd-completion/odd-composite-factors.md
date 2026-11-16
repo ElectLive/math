@@ -1,0 +1,40 @@
+# Composite-cyclic exact-factorization candidate
+
+Mira Cult
+The construction and later parameter section have separate verification scopes. Novelty beyond this workspace is unverified. This candidate extends the prime-$`q`$ exact-factorization ansatz of [C0013](../../claims/0013.md), which remains partial. It does not classify odd-order loops or assume that odd loop order implies odd multiplication-group order. The proposed proof uses [C0001](../../claims/0001.md), [C0007](../../claims/0007.md), and Nagy's [arXiv:math/0703919v1](https://arxiv.org/html/math/0703919v1), as identified below; the construction’s exact-source review is recorded below.
+
+Let p be an odd prime and n>1 an odd integer dividing (p^p−1)/(p−1), such that ord_ℓ(p)=p for every prime ℓ dividing n. Let F=F_{p^p}, ζ∈F of order n, and φ(z)=z^p. Define X=F^+⋊(C_n⋊⟨φ⟩), with the generator of C_n acting by ζ, Y1=C_n⋊⟨φ⟩, and Y0={(v,0,j):Tr(v)=j}, j∈F_p. Candidate: the exact-factorization loop Q_(X,Y0,Y1) is simple and proper of order p^{p+1}n. In particular p=5,n=781=11·71 gives order 12,203,125, outside the stated prime-q C0013 family by order.
+
+Exactness and faithful factors. Y0 is a subgroup because trace is Frobenius invariant, has |F| elements and intersects Y1 trivially; therefore X=Y0Y1. The representation of C_n on F is irreducible since ord_n(p)=p. Thus Core_X(Y0)∩F lies in ker Tr and is zero. Any normal subgroup N≤Y0 with N∩F=0 centralizes F; the faithful semilinear complement has C_X(F)=F, so N=1. Likewise Core_X(Y1)=1. Since p^j−1 is coprime to n for 1≤j<p, X'=F⋊C_n and X''=F. Thus X'Y0=X and X''Y1=X.
+
+Normal-subloop reduction. Let Ghat={(u,v)∈X×X:uv∈X'}, H=Ghat∩(Y0×Y1), K={(x,x⁻¹):x∈X}, and σ swap the two coordinates. By Nagy, arXiv:math/0703919v1, Proposition 3.2 and Lemma 3.4, the loop is left Bol and its left multiplication group is Ghat. Suppose Q has a proper nontrivial normal subloop, and extend it to a maximal proper normal subloop P. By Nagy Proposition 3.5, Q has no nontrivial abelian quotient: X'Y0=X and X''Y1=X make Q perfect. The group X and hence Ghat are solvable. If the simple quotient Q/P were associative, its left multiplication group would be a solvable simple group, hence cyclic of prime order, contrary to perfectness. Thus Q/P is simple nonassociative. Its left nucleus is trivial by C0001, so C0007 yields an automorphism of LMlt(Q/P) inverting its canonical left translations. Since σ inverts each element of K, the induced epimorphism Ghat→LMlt(Q/P) intertwines σ with that automorphism. Its nontrivial proper kernel N is therefore σ-stable. This avoids assuming that an arbitrary normal quotient has an inverting automorphism.
+
+Set A=F×F≤Ghat. We have C_Ghat(A)=A because the complement acts faithfully and semilinearly on F. Hence N∩A≠1: otherwise [N,A]=1 would give N≤A, a contradiction. The two summands of A are irreducible and inequivalent Ghat-modules, since C_n×C_n acts independently and faithfully on the two factors. Therefore N∩A is a sum of coordinate summands; σ-stability forces A≤N.
+
+Modulo A, Ghat/A=(C_n×C_n)⋊C_p where the generator acts as p on the first coordinate and p^{-1} on the second, and Hbar=(1×C_n)⋊C_p. If Nbar projects nontrivially onto C_p, its commutators with C_n×C_n contain all of C_n×C_n because p^j−1 is invertible mod n for every 1≤j<p. It follows HN=Ghat, contradicting P proper. Otherwise Nbar=B≤C_n×C_n. Then [Ghat:HN]=n/|pr1 B|. In the j-th C_p fiber, Kbar consists of elements ((a,j),(−p^{−j}a,−j)). The differences k_a⁻¹k_b form the graph D_j={(a,−p^j a):a∈C_n}. Hence its image modulo B has n/|B∩D_j| elements, and different j remain distinct. Thus
+
+|KN/N| = ∑_{j∈F_p} n/|B∩D_j| ≥ p n/|pr1 B| > [Ghat:HN],
+
+since pr1 is injective on D_j. This contradicts the necessary transversal condition in C0001 Theorem 2.2 for N to be the kernel of a normal quotient. Hence Q is simple.
+
+**Properness.** The group $`\widehat G`$ has the nontrivial proper normal subgroup $`A=F\times F`$: it is normal as the intersection of $`\widehat G`$ with the normal subgroup $`F\times F`$ of $`X\times X`$, and $`\widehat G/A`$ has order $`n^2p>1`$. Thus $`\mathop{\mathrm{LMlt}}\nolimits(Q)\cong\widehat G`$ is not simple. Nagy, `arXiv:math/0703919v1`, Lemma 2.4 states that the left multiplication group of a simple Moufang loop is simple. Since $`Q`$ is simple, it cannot be Moufang. No classification of finite simple Moufang loops is used here.
+
+**Arithmetic check.** $`11\cdot71=(5^5-1)/4=781`$ and $`5^6\cdot781=12{,}203{,}125`$. Modulo $`11`$, the powers $`5^1,\ldots,5^4`$ are $`5,3,4,9`$; modulo $`71`$ they are $`5,25,54,57`$. In both cases $`5^5\equiv1`$, so both orders are $`5`$. The construction and proof have the scoped review below. Its possible relationship to other published constructions is not checked.
+
+It does not assert literature novelty or a classification of odd-order loops.
+
+## Parameters and isomorphism within this family
+
+**Bounded deduction with the scoped review below.** The hypotheses on $`n`$ can be stated simply as $`n>1`$ and $`n\mid\Phi_p(p)=(p^p-1)/(p-1)`$, with $`p`$ an odd prime. Indeed, if a prime $`\ell`$ divides $`\Phi_p(p)`$ then $`\ell\ne p`$ and $`\ell\nmid p-1`$: otherwise $`\Phi_p(p)=1+p+\cdots+p^{p-1}\equiv p\pmod\ell`$ would make $`\ell`$ divide both $`p`$ and $`p-1`$. Since $`p^p\equiv1\pmod\ell`$ and $`p`$ is prime, $`\mathop{\mathrm{ord}}\nolimits_\ell(p)=p`$. Consequently $`\ell\equiv1\pmod p`$, so $`\ell>p`$ and $`n`$ is odd. These are exactly the arithmetic properties used in the construction above.
+
+For each admissible pair $`(p,n)`$, the construction determines one loop isomorphism class. All elements $`\zeta`$ of order $`n`$ generate the unique subgroup of order $`n`$ in $`F^\times`$; changing the generator therefore leaves the subgroup $`C_n`$, its action, and the two specified factors $`Y_0,Y_1`$ unchanged. An isomorphism between two copies of $`\mathbb F_{p^p}`$ commutes with Frobenius, preserves trace, and carries the unique order-$`n`$ scalar subgroup to the corresponding subgroup. It therefore induces an isomorphism of the exact-factorization triples and their loops. Here the trace equation $`\mathop{\mathrm{Tr}}\nolimits(v)=j`$ is part of the construction; no classification of other possible trace equations or factors is asserted.
+
+Different admissible pairs give nonisomorphic loops: the loop order is $`p^{p+1}n`$, every prime divisor of $`n`$ exceeds $`p`$, and thus $`p`$ is the smallest prime divisor of the order; the order then recovers $`n`$ as well. Conditional on the preceding simplicity and properness proof, these observations give one simple proper Bol-loop isomorphism class for each admissible $`(p,n)`$ **within this constructed family**. They do not claim exhaustiveness for odd-order Bol loops or novelty relative to the literature.
+
+## Publication and verification scope
+
+This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
+
+The review directly checked the cited Nagy statements and assumes the stated C0001 nucleus/quotient and C0007 inversion results. It does not assert literature novelty or a classification of odd-order loops. No exhaustive computation or formal verification is claimed.
+
+The review checked the prime-divisor argument, recovery of (p,n) from the loop order, invariance under field-model isomorphisms and changes of the cyclic generator. It establishes one isomorphism class per admissible pair only within this constructed family; exhaustiveness and literature novelty are not claimed.

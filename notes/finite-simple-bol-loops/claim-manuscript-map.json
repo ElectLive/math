@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001\u20130017",
-  "next_id": "0070",
+  "next_id": "0075",
   "manuscripts": [
     {
       "id": "0053",
@@ -712,6 +712,1156 @@
       "id": "0067",
       "source": "sources/factor-permutation/radical-free-a5-residual-dependency-graphs.md",
       "group": "residual-graphs-and-splitting"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-abelian-radicals.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-all-radical-block-obstruction.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-all-radical-constraints.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0053",
+      "source": "sources/bruck-completion/bruck-all-radical-parameterization.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0052",
+      "source": "sources/bruck-completion/bruck-b3-concrete-obstruction.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-central-frattini-all-quotients.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-central-frattini-block-obstruction.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-central-frattini-constraints.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-central-frattini-parameterization.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-class-two-radical-constraints.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-elementary-block-obstruction.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-elementary-product-constraints.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-elementary-product-parameterization.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-extraspecial-product-constraints.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-extraspecial-product-parameterization.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-extraspecial-radicals.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-frattini-shadow.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-j-affine-extension-constraints.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-j-exceptional-normal-form.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-j-n-frattini-exclusion.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0053",
+      "source": "sources/bruck-completion/bruck-multiple-n-frattini.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0053",
+      "source": "sources/bruck-completion/bruck-n-affine-fiber-parity.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-n-central-socle-obstruction.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-n-frattini-marked-rank.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-n-frattini-passive-reduction.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-n-frattini-quadratic-support.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-n-frattini-sections.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-n-multiplicity-support.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0053",
+      "source": "sources/bruck-completion/bruck-n-nonsplit-extension-lifts.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0051",
+      "source": "sources/bruck-completion/bruck-n-p6-all-u-exclusion.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-n-p6-one-u-exclusion.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0050",
+      "source": "sources/bruck-completion/bruck-n-socle-quadratic-collision.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0053",
+      "source": "sources/bruck-completion/bruck-n-split-extension-exclusion.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0049",
+      "source": "sources/bruck-completion/bruck-one-m-noncentral-reduction.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-p6-semisimple-frattini.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-q9-central-core.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0054",
+      "source": "sources/bruck-completion/bruck-s5-active-u-stabilizer.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-dimension-five.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0038",
+      "source": "sources/bruck-completion/bruck-s5-elementary-inversion.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0038",
+      "source": "sources/bruck-completion/bruck-s5-elementary-parameterization.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-j-branch.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-j-n2-exclusion.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-j-one-projective-block.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-j-projective-family.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-j-u-classification.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-jdual-arbitrary-n.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0054",
+      "source": "sources/bruck-completion/bruck-s5-module-blocks.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-order96-exponent4.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-p6-arbitrary-n.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-principal-enumeration.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-principal-envelope-bound.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-principal-indecomposables.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-principal-isotypes.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-principal-one-m.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-principal-stabilizer-fixed.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-projective-only.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-projective-principal-control.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-radical.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-trivial-factor.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-two-m-cover.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-two-m-support.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0054",
+      "source": "sources/bruck-completion/bruck-s5-uniform-principal-support.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-v6-fiber-bounds.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-v6-n2-exclusion.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-v6-projective-family.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-v6-u-classification.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-s5-v6dual-arbitrary-n.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0053",
+      "source": "sources/bruck-completion/bruck-two-n-cross-residual.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0070",
+      "source": "sources/bruck-completion/bruck-two-n-two-u-exclusion.md",
+      "group": "bruck-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/classical-nondegenerate-subspaces.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/classical-point-normalizers.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/classical-subspace-normalizers.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/flag-incidence-obstruction.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/flag-transitivity-obstruction.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/hc-prime-factor-inner-automorphisms.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/hs-eight-sporadic-common-classes.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/hs-psl4-odd.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/hs-psl4-pair-obstruction.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/hs-psl43-all-outer-differences.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/orthogonal-odd-linear.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/radical-free-odd-linear-inversion.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/radical-free-unitary-inversion.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-a5-all-factors.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0062",
+      "source": "sources/primitive-completion/sd-all-simple-socles.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-alternating-all-factors.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-classical-raw-bounds.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-exceptional-class-bounds.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-exceptional-remaining.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-finite-classical-aut-counts.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-finite-common-classes.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-large-socles.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-linear-unitary-final-five.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-linear-unitary-refined-bounds.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-orthogonal-raw-bounds.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-orthogonal-refined-bounds.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-psl2-all-factors.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-rank-three-linear-unitary.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-raw-involution-count.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-ree-all-factors.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-scalar-criterion.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-sporadic-all.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-suzuki-all-factors.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-symplectic-finite-residuals.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-three-sporadic-socles.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd-unitary3-even.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sd3-involution-count.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/sp4-minus-bruck-exclusion.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/symplectic-refinement-all-fields.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/tw-cross-label-block-exclusion.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0063",
+      "source": "sources/primitive-completion/tw-diagonal-block-tops.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0063",
+      "source": "sources/primitive-completion/tw-full-wreath-block-tops.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/tw-full-wreath-locality.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/tw-imprimitive-capacity-control.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0063",
+      "source": "sources/primitive-completion/tw-parity-code-subwreath.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/tw-psl2-factorwise-inversion.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/unitary-nonorthogonal.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0071",
+      "source": "sources/primitive-completion/unitary-odd-dimension.md",
+      "group": "primitive-completion"
+    },
+    {
+      "id": "0040",
+      "source": "sources/odd-completion/affine-cyclic-prime-quotient-classification.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/elementary-two-marked-lifts.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/factorization-presentations.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0040",
+      "source": "sources/odd-completion/nonbruck-affine-cocycle-data.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/nonbruck-almost-simple-radical-bridge.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0039",
+      "source": "sources/odd-completion/nonbruck-prime-transvection-orbits.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0039",
+      "source": "sources/odd-completion/nonbruck-root-graph-parameters.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0039",
+      "source": "sources/odd-completion/nonbruck-single-root-classification.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0025",
+      "source": "sources/odd-completion/odd-alternating-form-family.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0019",
+      "source": "sources/odd-completion/odd-central-class-two-classification.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0019",
+      "source": "sources/odd-completion/odd-class-two-classification.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0019",
+      "source": "sources/odd-completion/odd-class-two-coprime-center-reduction.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0020",
+      "source": "sources/odd-completion/odd-class-two-isotope-orbits.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-composite-factors.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-coprime-metabelian-derived-classification.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0056",
+      "source": "sources/odd-completion/odd-cross-extraspecial.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-cross-graph-family.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0044",
+      "source": "sources/odd-completion/odd-elementary-layer-all-defects.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0044",
+      "source": "sources/odd-completion/odd-elementary-layer-obstructions.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-envelope-parameterization.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0056",
+      "source": "sources/odd-completion/odd-extraspecial-classification.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0057",
+      "source": "sources/odd-completion/odd-fixed-envelope-stabilizers.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0042",
+      "source": "sources/odd-completion/odd-fixed-shadow-simple-example.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0044",
+      "source": "sources/odd-completion/odd-folder-radicals.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0058",
+      "source": "sources/odd-completion/odd-layers-in-even-envelopes.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0055",
+      "source": "sources/odd-completion/odd-lazard-central-classification.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0024",
+      "source": "sources/odd-completion/odd-matrix-pair-embedding.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-metabelian-heisenberg-control.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0057",
+      "source": "sources/odd-completion/odd-metabelian-residual-splitting.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-monolithic-abelian-by-abelian-exclusion.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0043",
+      "source": "sources/odd-completion/odd-monolithic-defect-two.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0043",
+      "source": "sources/odd-completion/odd-monolithic-heisenberg-construction.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-monolithic-heisenberg-line-family.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0043",
+      "source": "sources/odd-completion/odd-monolithic-heisenberg-prime-family.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0043",
+      "source": "sources/odd-completion/odd-monolithic-higher-defect-isomorphism.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-monolithic-paired-diagonal-exclusion.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0055",
+      "source": "sources/odd-completion/odd-nilpotent-derived.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0041",
+      "source": "sources/odd-completion/odd-noncentral-jordan-center-family.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-paired-stabilizer-splitting.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-prime-envelope-central-extensions.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0018",
+      "source": "sources/odd-completion/odd-rigid-center-nongloop.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-scalar-and-prime-square-obstructions.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0057",
+      "source": "sources/odd-completion/odd-stabilizer-alignment.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0021",
+      "source": "sources/odd-completion/odd-unbounded-derived-class.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0022",
+      "source": "sources/odd-completion/odd-unbounded-derived-length.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0023",
+      "source": "sources/odd-completion/odd-unbounded-fitting-height.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0045",
+      "source": "sources/odd-completion/odd-uniform-multiplicity-layers.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/paired-layer-factorization.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/radical-free-inner-inversion.md",
+      "group": "odd-completion"
+    },
+    {
+      "id": "0046",
+      "source": "sources/factor-permutation/exact-factorization-criterion.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0068",
+      "source": "sources/factor-permutation/radical-free-a5-abelian-path-parameters.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0068",
+      "source": "sources/factor-permutation/radical-free-a5-abelian-pure-pairs.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0033",
+      "source": "sources/factor-permutation/radical-free-a5-abelian-top.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0065",
+      "source": "sources/factor-permutation/radical-free-a5-camina-tops.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0027",
+      "source": "sources/factor-permutation/radical-free-a5-code-inversion.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0032",
+      "source": "sources/factor-permutation/radical-free-a5-cyclic-top.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0064",
+      "source": "sources/factor-permutation/radical-free-a5-exponent25-orbits.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0064",
+      "source": "sources/factor-permutation/radical-free-a5-extraspecial-125.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0035",
+      "source": "sources/factor-permutation/radical-free-a5-extraspecial-27.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0037",
+      "source": "sources/factor-permutation/radical-free-a5-extraspecial-tops.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-forest-prime-budget.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-four-regular-orbits.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-four-transitive-orbits.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-full-strip-matching.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-nilpotent-orbit-pairing.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0073",
+      "source": "sources/factor-permutation/radical-free-a5-nilpotent-path-parameters.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0034",
+      "source": "sources/factor-permutation/radical-free-a5-nonabelian-27.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0074",
+      "source": "sources/factor-permutation/radical-free-a5-odd-top-surjectivity.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-orbit-tensors.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-order-three-support.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0027",
+      "source": "sources/factor-permutation/radical-free-a5-outer-codes.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-paired-path-residual.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0026",
+      "source": "sources/factor-permutation/radical-free-a5-path-classification.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0036",
+      "source": "sources/factor-permutation/radical-free-a5-prime-power-top.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-regular-shadow-deficit.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-residual-affine-section.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0067",
+      "source": "sources/factor-permutation/radical-free-a5-residual-dependency-graphs.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-residual-kernels-cuts.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-residual-saturation.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-rooted-paths.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-single-abelian-orbit.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-single-nilpotent-orbit.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-stable-five-kernel-cut.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-stable-orbit-local.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-stable-orbits.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-stable-proper-parity.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-strip-character-support.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-strip-orbit-forest.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0065",
+      "source": "sources/factor-permutation/radical-free-a5-transitive-extraspecial.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0065",
+      "source": "sources/factor-permutation/radical-free-a5-transitive-pgroups.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-weighted-stable-kernel.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0030",
+      "source": "sources/factor-permutation/radical-free-bipartite-witness.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0026",
+      "source": "sources/factor-permutation/radical-free-even-psl2-paths.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0031",
+      "source": "sources/factor-permutation/radical-free-factor-permutation-construction.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0026",
+      "source": "sources/factor-permutation/radical-free-fixed-factors.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0047",
+      "source": "sources/factor-permutation/radical-free-involution-support.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0028",
+      "source": "sources/factor-permutation/radical-free-mixed-matrix-classification.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0029",
+      "source": "sources/factor-permutation/radical-free-mixed-paths.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0059",
+      "source": "sources/factor-permutation/radical-free-mixed-simple-quotients.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0059",
+      "source": "sources/factor-permutation/radical-free-paired-simple-envelopes.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0059",
+      "source": "sources/factor-permutation/radical-free-path-factorizations.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0069",
+      "source": "sources/factor-permutation/radical-free-psl2-odd-top-tensors.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0026",
+      "source": "sources/factor-permutation/radical-free-psl2-path-classification.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0048",
+      "source": "sources/factor-permutation/radical-free-psl3-prime-paths.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0026",
+      "source": "sources/factor-permutation/radical-free-small-psl2-paths.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0059",
+      "source": "sources/factor-permutation/radical-free-strip-forests.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0060",
+      "source": "sources/factor-permutation/radical-free-symplectic-inversion.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0061",
+      "source": "sources/factor-permutation/radical-free-three-dimensional-linear-unitary.md",
+      "group": "factor-permutation"
+    },
+    {
+      "id": "0070",
+      "source": "manuscripts/0070-bruck-radical-constraints.md",
+      "group": "Bruck radical constraints and proof atlas"
+    },
+    {
+      "id": "0071",
+      "source": "manuscripts/0071-primitive-and-simple-socle-reductions.md",
+      "group": "Primitive and simple-socle reductions"
+    },
+    {
+      "id": "0072",
+      "source": "manuscripts/0072-odd-and-affine-structural-reductions.md",
+      "group": "Coprime-metabelian odd classification and affine reductions"
+    },
+    {
+      "id": "0073",
+      "source": "manuscripts/0073-all-nilpotent-path-parameters.md",
+      "group": "All odd nilpotent pure-A\u2085 top parameters"
+    },
+    {
+      "id": "0074",
+      "source": "manuscripts/0074-odd-top-surjectivity-boundary.md",
+      "group": "Odd-top stabilizer-surjectivity boundary (proposed)"
     }
   ]
 }

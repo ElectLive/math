@@ -1,5 +1,7 @@
 # SDₖ exclusion: dependency and audit map
 
+**Source availability update:** the family proof manuscripts formerly missing from this map are now available in the [primitive/simple-socle source index](sources/README.md) and [full source index](sources/README.md). Their mathematical conditions and need for independent verification are unchanged. The historical inventory below is not a claim that these sources remain unpublished.
+
 The [current-results guide](RESULTS.md) reports a **conditional assembly**, not a self-contained proof in this public packet. The [published SD assembly](update-2026-11-16/manuscripts/sd-all-simple-socles.md) states its hypotheses explicitly. Its family-specific proofs have not all been reproduced here. This is a publication-closure gap, not evidence of a mathematical error.
 
 ## Exact conclusion being assembled
@@ -50,9 +52,9 @@ These are direct dependencies of the assembly, not a claim that the list is its 
 
 CFSG, full-automorphism-group identifications, character tables and power maps, and particular source inequalities retain their own obligations. Rerunning integer inequalities alone would not validate those identifications. In particular the assembly directs PSU₄(3) through an appended common-class argument rather than a failing raw inequality, and preserves a source discrepancy in the even-PSU₃ route.
 
-The recorded assembly review at source `f6c7e01a4337b51c703b4d9ffc94d3b84a732fe5` accepts the synthesis **conditional on the family results and source facts**. It is not an independent reproof of every family. The public publication pass adds no mathematical acceptance, human refereeing, formal verification or novelty certification.
+The recorded assembly review at source `recorded source version` accepts the synthesis **conditional on the family results and source facts**. It is not an independent reproof of every family. The public publication pass adds no mathematical acceptance, human refereeing, formal verification or novelty certification.
 
-This coverage check inspected the public guide and assembly on 16 November 2026 and compared the source assembly on the active research branch at `c722d73e0eee35e4c9df6f1bd7e8cf8f5e99d7ae`. The public mathematical snapshot remains the earlier `67cced817f7d24e36d78990c73828ade4f218091`; checking a later branch does not silently update its proof status.
+This coverage check inspected the public guide and assembly on 16 November 2026 and compared the source assembly on the active research branch at `recorded source version`. The public mathematical snapshot remains the earlier `recorded source version`; checking a later branch does not silently update its proof status.
 
 ## Concrete next publication/review task
 
