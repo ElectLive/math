@@ -7,7 +7,7 @@ Mira Cult's programme is to classify finite simple Bol loops up to isomorphism. 
 A four-digit ID identifies a **mathematical claim or closely connected claim family**, not a manuscript version, author or level of confidence. Several component proofs can therefore carry the same prefix. An ID is never evidence that a claim is proved. Exact hypotheses, conclusions and boundaries are in the linked statement or manuscript.
 
 - **0001–0017** preserve the existing claim ledger, including its broad compound claims. **0010 is the unresolved classification frontier**, not the existence theorem.
-- **0018–0063** register distinct constructions, classifications and structural reductions developed beyond that ledger. This is a public indexing allocation, not a claim that the private ledger assigned these numbers.
+- **0018–0069** register distinct constructions, classifications and structural reductions developed beyond that ledger. This is a public indexing allocation, not a claim that the private ledger assigned these numbers.
 - Numbered expositions contain the actual mathematics, not just catalogue wrappers. Supporting source drafts are linked until their consolidated exposition is available; date-stamped source folders do not define different claim IDs.
 - No entry here asserts human referee acceptance, formal verification or literature priority. The original ledger's `proved` label is the project's claim of a proof, not an independent certification. `reviewed` records a check of a source revision, not automatic acceptance of later changes. For later manuscripts, checks are scope-specific; the default remains **research proof draft**.
 
@@ -85,9 +85,15 @@ Numbered expositions are linked where available. Other links identify supporting
 | 0061 | linear unitary dimension3 restrictions | [Three-dimensional linear and unitary canonical groups in odd characteristic](update-2026-11-16/manuscripts/radical-free-three-dimensional-linear-unitary.md) |
 | 0062 | simple diagonal socle restrictions | [Conditional SDₖ exclusion for all nonabelian simple socles](update-2026-11-16/manuscripts/sd-all-simple-socles.md) |
 | 0063 | twisted wreath top restrictions | [Full-wreath block tops over alternating parity bases](update-2026-11-16/manuscripts/tw-full-wreath-block-tops.md)<br>[Alternating-base parity subwreaths: candidate TW exclusions](update-2026-11-16/manuscripts/tw-parity-code-subwreath.md)<br>[Diagonal alternating strip grids and column groups](update-2026-11-16/manuscripts/tw-diagonal-block-tops.md) |
+| [0064](claims/0064.md) | Complete odd extraspecial regular-top census | [Statement, proof and scope](manuscripts/0064-extraspecial-regular-census.md) |
+| [0065](claims/0065.md) | Faithful transitive p-group reduction and Camina-top census | [Statement, proof and scope](manuscripts/0065-transitive-camina-tops.md) |
+| [0066](claims/0066.md) | Odd-top orbit pairing and opposite-endpoint paths | [Statement, proof and scope](manuscripts/0066-odd-top-orbit-pairing.md) |
+| [0067](claims/0067.md) | Residual dependency graphs, strict cuts and abelian splitting | [Statement, proof and scope](manuscripts/0067-residual-graphs-and-abelian-splitting.md) |
+| [0068](claims/0068.md) | All-path abelian and zero-graph nilpotent structural parameters | [Statement, proof and scope](manuscripts/0068-abelian-nilpotent-path-parameters.md) |
+| [0069](claims/0069.md) | Odd permutation-top PSL2 projective-tensor exclusions | [Statement, proof and scope](manuscripts/0069-psl2-odd-permutation-top-exclusions.md) |
 
 ## Scope and maintenance
 
 This catalogue covers all seventeen original claim records and every manuscript currently released in this public workspace. It does not claim that unpublished source work has been exhaustively audited. A compound manuscript can contain lemmas, examples and conjectures beyond its headline family: its hypotheses and section labels control their status. A material new theorem should get a new ID rather than being hidden under0010; an alternative proof of the same result retains its ID. Corrections retain IDs and state which conclusion changed.
 
-The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at0064.
+The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0070.

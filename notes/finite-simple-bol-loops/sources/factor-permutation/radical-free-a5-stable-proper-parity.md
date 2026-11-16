@@ -1,0 +1,24 @@
+# Excluding mixed orbit patterns with all stable projections proper
+
+Mira Cult
+This contributes to the [classification frontier](../../claims/0010.md). Let (G,H,K,τ) be a faithful generated canonical folder of a finite simple nonassociative left Bol loop. Suppose Soc(G)=N=A5^Ω and G=N⋊Q, with Q finite odd nilpotent acting faithfully by pure factor permutations. If τ stabilizes at least one Q-orbit and H0=H∩N has proper coordinate projections on every τ-stable Q-orbit, then no such folder exists. The projections on τ-paired Q-orbits may be full or proper and may have arbitrary correlations. No quotient folder is assumed.
+
+The character/moment input is [the direct-sum theorem](radical-free-a5-stable-orbit-local.md), independently reviewed. The marked-square and support-parity interfaces are those in [the involution-support source](../../update-2026-11-16/manuscripts/radical-free-involution-support.md). The faithful-folder and strict normal-quotient inputs are C0001; canonical inversion and actual marked-class invariance use C0007. The elementary parity argument and the needed local square facts are given explicitly below. Nilpotence and the strict normal-quotient criterion force HN=G, so H acts transitively on each Q-orbit.
+
+Let n=|Ω|, f be the number of fixed factors of τ, and c=(n−f)/2. A τ-stable Q-orbit has odd size, so f>0. Every fixed factor lies in a τ-stable orbit. By the direct-sum theorem, every selected outside involution has a double-transposition local mark at every fixed factor, and in particular τ itself does. The quotient outside involutions of Q⋊<θ> form a single Q-conjugacy class, of size k=[Q:C_Q(θ)]. Actual Λ=τK is G-conjugacy invariant and contains τ. For each of its k top labels, all fixed local classes are therefore the unique A5 double-involution class, of size 15, and each of the c swapped pairs contributes one orbit of size 60. This is one actual N-orbit per top label; hence
+
+    |K|=k·60^c·15^f,       |H0|=60^c·4^f/k.                    (1)
+
+The latter follows from |G|=|H||K| and H→Q onto. The number k is odd. A Sylow-2 subgroup P of H0 embeds in a Sylow-2 subgroup V4^Ω of N and is therefore elementary abelian of dimension
+
+    dim_F2 P = 2c+2f.                                            (2)
+
+Fix an actual selected N-class C of outside involutions, for instance the class of τ. The square C²⊆Λ² contains every N-involution whose two coordinates on each swapped pair have matching support (both identity or both nonidentity), with arbitrary involution or identity at each fixed factor. On a swapped pair, the two nonidentity involutions can be chosen independently because A5 has one involution class; on a fixed factor, the square of the double-transposition class contains both 1 and the entire involution class: each nonidentity element of a V4 is the product of its other two nonidentity elements, and all A5 involutions are conjugate. Choices across factors are independent within the actual N-conjugacy class.
+
+For each swapped pair with projections P→V4, denote by Z_left and Z_right the subspaces where the respective projection is zero. Modulo 2, the indicator that the two supports match is
+
+    1 + 1_{Z_left} + 1_{Z_right}.
+
+Expanding the product over all c pairs counts matching-support elements of P modulo 2. Every summand is the size of an intersection imposing at most one 2-dimensional coordinate-zero condition per pair, hence at most 2c linear conditions. By (2) each such intersection has dimension at least 2f>0 and even size. Thus the total number of matching-support elements is even. It contains the identity, so it also contains a nonidentity element of P. That element lies in H0∩Λ², contradicting the original transversal criterion H∩Λ²=1. Here Λ²=K² because τ inverts K and K is inverse-closed, so the collision is in the original canonical folder.
+
+This eliminates mixed stable/paired patterns unless at least one τ-stable Q-orbit has full H0 projections. It does not separately eliminate that full cross-strip case, classify arbitrary odd tops, or prove an exact-factorization theorem. Independent review of this complete exact source is recorded below; the direct-sum input retains its separate recorded reviews. No new computation is used. The next obligation is the stable full-projection case with strips connecting different orbits. The unrestricted classification remains open.

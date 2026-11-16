@@ -1,0 +1,282 @@
+{
+  "schema": 1,
+  "source_repository": "Mira-Cult/math-wip",
+  "source_pr": 431,
+  "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+  "purpose": "Mathematical source provenance, not a certification of upstream proofs.",
+  "files": [
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-orbit-tensors.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "8cae246894d024b844b3a240fc697b816cc686bf8a4f6cd28e0602d1cd34c06b",
+      "public_path": "sources/factor-permutation/radical-free-a5-orbit-tensors.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-paired-path-residual.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "4723b3c595f5079e576b68168602f0e381b7b7a289d45064ca90c4d64b897079",
+      "public_path": "sources/factor-permutation/radical-free-a5-paired-path-residual.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-abelian-top.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "e83c9e15c47812dd4452f445df68fce0907fb84330042c5a94890517883b2913",
+      "public_path": "sources/factor-permutation/radical-free-a5-abelian-top.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-extraspecial-27.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "74af7519d568a7b031fe4e9ec0d2a4371ec46c646af457c3d16a364a80933448",
+      "public_path": "sources/factor-permutation/radical-free-a5-extraspecial-27.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-stable-five-kernel-cut.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "92ce9612e0e51555832a49bd369c70490b3d3510f96bdb74df530a2f35794a01",
+      "public_path": "sources/factor-permutation/radical-free-a5-stable-five-kernel-cut.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-psl2-odd-top-tensors.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "11bb2a5e9c6667d4eabca070e68118621a82ca8b64b327a2ab025179a2649e39",
+      "public_path": "sources/factor-permutation/radical-free-psl2-odd-top-tensors.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-four-regular-orbits.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "6aac6eca63cd375ce93e8b7cd0cd82f3ea8eb256b9fda84943531e6f4d770559",
+      "public_path": "sources/factor-permutation/radical-free-a5-four-regular-orbits.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-extraspecial-tops.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "8c59e986a4276bae2dea4f1ffd9a78dc90270fd59b7c5d385132b98274775ae3",
+      "public_path": "sources/factor-permutation/radical-free-a5-extraspecial-tops.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-cyclic-top.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "689514bcd79ba014e41ff9921a7d9c8022e2f32270e685ace8f6c709b6fcf830",
+      "public_path": "sources/factor-permutation/radical-free-a5-cyclic-top.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-exponent25-orbits.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "ff11a7be1388f9fe95ff9f8306f3a27ebbbd2daa1fc3137a958358ab30fa50d4",
+      "public_path": "sources/factor-permutation/radical-free-a5-exponent25-orbits.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-four-transitive-orbits.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "b25e1936fb76f02a8e088fc9ff34a2426b009ea894baecfe55dbb55904b7d6cb",
+      "public_path": "sources/factor-permutation/radical-free-a5-four-transitive-orbits.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-order-three-support.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "32b087ac1fe43d4f16f32d92c2f00544b163b1dead7556a33533c33a30919623",
+      "public_path": "sources/factor-permutation/radical-free-a5-order-three-support.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-prime-power-top.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "7700c6ee96470a6061c4263fdf3847fad8b30a2472a49098f778207c0bb92b86",
+      "public_path": "sources/factor-permutation/radical-free-a5-prime-power-top.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-stable-orbits.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "cc20857968a73ca63ed8a55e2032932f78813705ff4a65a00eb2f85b3fe50c5a",
+      "public_path": "sources/factor-permutation/radical-free-a5-stable-orbits.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-single-nilpotent-orbit.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "1e0ed41bcf727de87c52e4a1ad07a155111094140f091819c22a43fde8e0663d",
+      "public_path": "sources/factor-permutation/radical-free-a5-single-nilpotent-orbit.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-rooted-paths.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "bda534a61300c4e7c525a24792a454eed86d691f6589eb4e637674093ad944a6",
+      "public_path": "sources/factor-permutation/radical-free-a5-rooted-paths.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-camina-tops.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "b7001c7799910d931d1aa29877e3bd6f1e24cfa1afde8877866eaad1a52f3006",
+      "public_path": "sources/factor-permutation/radical-free-a5-camina-tops.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-regular-shadow-deficit.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "7083a3cf0e3b164f08c4404f50a853a2a0aa6fd69b0d481b7c6da1ec95ac63fe",
+      "public_path": "sources/factor-permutation/radical-free-a5-regular-shadow-deficit.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-nonabelian-27.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "391248334f1a97586e703a1c8374659bd02cf8224e16a70588a7a67feb30f2ef",
+      "public_path": "sources/factor-permutation/radical-free-a5-nonabelian-27.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-strip-orbit-forest.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "0ab0a94a5f71676b6c1c0168e6b0b5100eb1e442e9a5439e52e3c7c98e2be1d6",
+      "public_path": "sources/factor-permutation/radical-free-a5-strip-orbit-forest.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-forest-prime-budget.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "8f652a8289917d9ebb43ef20abb3fd7050fd75ee37e8bc17f753aefd6f255b1c",
+      "public_path": "sources/factor-permutation/radical-free-a5-forest-prime-budget.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-residual-kernels-cuts.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "c985976b81c3d84db295b836153dc2379322d257f984de3d85ec2f5f3f054215",
+      "public_path": "sources/factor-permutation/radical-free-a5-residual-kernels-cuts.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-weighted-stable-kernel.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "1d35066a27f7a6b7d6e1a652298559579e9ae6e81be50e6e28b400a4fa6556e6",
+      "public_path": "sources/factor-permutation/radical-free-a5-weighted-stable-kernel.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-stable-proper-parity.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "c0b151ad4d779fc966efa21c3eb900243439e3962dfb083d14f4c649f01e2d17",
+      "public_path": "sources/factor-permutation/radical-free-a5-stable-proper-parity.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-residual-saturation.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "78e03bc1278d856c5c8da8fc01f05380e79f86784932e1aff1ece1c5986dea65",
+      "public_path": "sources/factor-permutation/radical-free-a5-residual-saturation.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-code-inversion.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "c523621df0e55b0908a8c4b225566ba2855d6229b3f68117e121406fbf3f3e4c",
+      "public_path": "sources/factor-permutation/radical-free-a5-code-inversion.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-outer-codes.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "4c779da662a2db478b0aef7ddd31a375c7f8613328839451cb6af80092188938",
+      "public_path": "sources/factor-permutation/radical-free-a5-outer-codes.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-single-abelian-orbit.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "a09637d81dc389178ee0574970917fb43e8c95c3e29db52a0e92e94c4e8c3c3f",
+      "public_path": "sources/factor-permutation/radical-free-a5-single-abelian-orbit.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-abelian-pure-pairs.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "d367cd182a5e198b1c0462feef18874fc7ae065717dd63fab7c16a2f05854f5d",
+      "public_path": "sources/factor-permutation/radical-free-a5-abelian-pure-pairs.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-extraspecial-125.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "f82d0d4e662181d428c527580dcea80d59e59bf4ec8094ec3c9a7151237d814d",
+      "public_path": "sources/factor-permutation/radical-free-a5-extraspecial-125.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-transitive-pgroups.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "47e7172db7ba8df8f7eb1a5d4a16013691b995789efff09d445bea29d3c079f3",
+      "public_path": "sources/factor-permutation/radical-free-a5-transitive-pgroups.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-full-strip-matching.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "5eab5966d609ff62e10dee144c42d8bae744d5ae532ed263180a7d133c963315",
+      "public_path": "sources/factor-permutation/radical-free-a5-full-strip-matching.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-strip-character-support.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "147cc0ba70894ddeef2237316296d051d810b854a93a22d9b2da1924bde16fb4",
+      "public_path": "sources/factor-permutation/radical-free-a5-strip-character-support.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-transitive-extraspecial.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "455a9238513260b644bdf2c7f5de83c91d7feff0a3b10ab80ebeba0bb68fc75d",
+      "public_path": "sources/factor-permutation/radical-free-a5-transitive-extraspecial.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-path-classification.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "39b3502e4307cf701ab6b7e7fca7be45abf443b13559f25efa5c270deebc5b6c",
+      "public_path": "sources/factor-permutation/radical-free-a5-path-classification.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-stable-orbit-local.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "39312e7e01f39e420077f38e73763f6185973375bb7af0004847294ad025b5b4",
+      "public_path": "sources/factor-permutation/radical-free-a5-stable-orbit-local.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-abelian-path-parameters.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "75db004d5c3b73c5432da081048e149a4f79da5db8731d4a1675fa96a1c010ab",
+      "public_path": "sources/factor-permutation/radical-free-a5-abelian-path-parameters.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-nilpotent-orbit-pairing.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "04781740e1b8efcfbcb48aa8b463140e04b2c45f186a36ec294c558f9b9878aa",
+      "public_path": "sources/factor-permutation/radical-free-a5-nilpotent-orbit-pairing.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-residual-dependency-graphs.md",
+      "source_revision": "09e5ce40e11e5019240ac9003b9d8a228d615ad3",
+      "source_sha256": "4d9b80e6db0a944a377948dc543ba9375f0e5d659ed3e46dc72decb9fe15b17a",
+      "public_path": "sources/factor-permutation/radical-free-a5-residual-dependency-graphs.md",
+      "editing": "Preserved mathematical argument; removed review-administration prose and revision hashes; normalized explicit math delimiters; rewired public dependency links."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+# Marked strip–character components
+
+Mira Cult
+This contributes to the [classification frontier](../../claims/0010.md). Let (G,H,K,τ) be a faithful generated canonical folder of a finite simple nonassociative left Bol loop, with Soc(G)=N=A5^Ω and G=N⋊Q, where Q is finite odd nilpotent and acts faithfully by pure factor permutations. Put H0=H∩N=T×R, using the original full-strip and correlated proper-residual separation. Assume the [original selected-class-square interface](radical-free-a5-full-strip-matching.md) and [actual residual-isotypic and supported-kernel interface](radical-free-a5-residual-kernels-cuts.md). The local stable-proper marks use [the direct-sum theorem](radical-free-a5-stable-orbit-local.md). No independent residual projections or quotient folders are assumed. The code arguments are proved below.
+
+Fix any actual selected N-conjugacy class C⊆Λ=τK, and let σ be its involutory factor permutation. Let A be all coordinates where the proper H0-projection is A4. Let W≤C3^A be the actual residual's joint shadow and U=O2(R′). For each projective W-character class B occurring among A, let U_B be the corresponding actual isotypic component. Its coordinate image on B is a nondegenerate F4-linear code: every coordinate projection is nonzero. Call B covering if this code has no word nonzero at every coordinate of B. Every class of cardinality at most 4 is noncovering, as proved below.
+
+## A selected-class support graph
+
+Build the following finite graph of σ-matching constraints, without imposing Q- or τ-invariance on its components.
+
+* A vertex for every original full strip S, and one vertex for every projective character class B in A. Each full coordinate is carried by its strip vertex; each A4 coordinate is carried by its class vertex. The class vertex represents the whole global class, including every correlated coordinate in it.
+* For each σ-swapped pair whose two coordinates are both carried, add an edge between their vertices; loops and repeated edges are allowed. If exactly one endpoint is carried, attach a proper boundary flag to its vertex. Endpoints that are proper but not in A are uncarried, and a pair with two uncarried endpoints needs no vertex or edge.
+* A carried vertex is marked inactive if any σ-fixed coordinate it carries has the identity local class in C. Mark a class vertex covering if its actual code is covering.
+
+Every connected component contains at least one proper boundary flag, inactive vertex, or covering class vertex.
+
+Proof. Otherwise choose such a component and assign binary support 1 to all its vertices and 0 to all other carried vertices and all uncarried coordinates. Choose any A5 involution independently on each selected full strip. For each selected class B, noncovering supplies an actual u_B∈U_B nonzero at every coordinate of B; different isotypic components have disjoint character-class supports. Multiply all selected strip and residual elements in H0. The result is nonidentity and has exactly the assigned support: strip factors are independent of R, and distinct residual class supports are disjoint. Every swapped pair has matching support because each edge joins vertices in the same component, and no selected vertex has an uncarried partner. Every fixed coordinate with support 1 is active, because no selected vertex is inactive. All other coordinates are identity. The pinned local-square interface realizes these conditions simultaneously in the square C² of this one actual N-class. This contradicts H0∩C²=1.
+
+This strictly extends the closed-character-only construction: a σ-pair can join a proper class vertex to a full-strip vertex, so full-strip involutions may complete proper supports. The graph also sees actual full-strip crossing and arbitrary correlations within each character class; no other correlation is discarded.
+
+Every boundary flag ends at a proper non-A4 coordinate. If a component has no inactive vertex, no covering class and no boundary to a proper odd-order local projection, the theorem forces a boundary to a proper non-A4 even-order projection. In general odd boundaries cannot be dropped: because their local projections contain no involutions, they can force zero support. A boundary to an even-order projection is an unresolved opportunity rather than a proof of realizability, since its involutions may be correlated with other coordinates of R. Likewise a covering class of size at least five is only a possible obstruction to the full-support construction, not a surviving folder.
+
+The lemma applies for each selected class C separately. Its set of inactive flags and factor permutation σ can change with C. It gives a finite, exact necessary graph condition, not a classification or an unconditional exclusion of every stable-full orbit. The next step is to force an unflagged component, or to prove that enough even-boundary involutions can be lifted simultaneously while preserving all zero boundaries and actual residual correlations.
+
+## Actual isotypic codes and closed subsets
+
+For completeness, every proper A5 subgroup has abelian derived subgroup, and only A4 has an even derived part. Therefore R′ is abelian and U=O₂(R′) is elementary abelian, supported on A, and projects onto V4 at each coordinate of A. Conjugation by R on U factors through W. Its coordinate irreducible F2[W]-modules have dimension two and are indexed by the nonzero projective characters {±χ_i}. Maschke semisimplicity decomposes U into its actual global isotypic components U_B. Each U_B is supported on the whole class B and has nonzero projection at every coordinate there. Choosing intertwiners, including between χ_i and −χ_i, identifies these coordinate modules with one simple module with endomorphism field F4. The image of U_B is thus an F4-linear subspace of F4^B; the identification preserves zero coordinates. This image is injective because U_B is supported on B. This is an actual supported component, not a product assumption about R.
+
+An F4-vector space cannot be covered by at most four proper linear subspaces: each has at most one fourth of its vectors, and the subspaces all contain zero, so their union has strictly smaller size than the whole space. Thus at most four coordinate-zero kernels cannot cover U_B, and |B|≤4 guarantees a full-support vector. For |B|≥5 the precise obstruction is the covering condition U_B=⋃_{i∈B}ker(pr_i), not cardinality alone. A diagonal F4-line has a full-support vector at any length.
+
+As a consequence, let I⊆A be a nonempty Q- and τ-stable union of whole global character classes. If every class in I is noncovering, choose a full-support vector in each such U_B and sum them. The result has support exactly I. For any selected class its factor permutation preserves I, and every fixed coordinate in I is on a stable proper Q-orbit, with its mark a double transposition by the pinned local theorem. The same class-square argument yields a collision. Thus every such I must contain a genuine covering block, necessarily of size at least five. The support graph above also allows full strips to complete these supports and does not require Q-invariant components.
+
+## The smallest covering blocks and their deficit cost
+
+Let E≤F4^5 be a linear code with every coordinate projection nonzero and no full-support vector. Then dim_F4 E=2, and up to coordinate rescaling and permutation it is the quaternary simplex code [5,2,4]: its five coordinate kernels are all five lines in F4², and every nonzero codeword has exactly one zero.
+
+Indeed its five coordinate kernels H1,...,H5 are distinct hyperplanes, because four proper subspaces cannot cover E. Write d=dim E. H1 contains 4^{d−1} vectors, and each other Hj has 4^{d−1}−4^{d−2} vectors outside H1. These five bounds sum exactly to 4^d. Their outside-H1 parts must therefore be disjoint. For j≥3, Hj∩H2 lies inside H1 and is a codimension-two subspace, so it equals both Hj∩H1 and H1∩H2. All five hyperplanes consequently contain the same codimension-two subspace L, and their full intersection equals L. Their common intersection is zero because E embeds in its five coordinates. Thus d=2, proving the claim. The corresponding elementary 2-group has dimension four, and every nonzero element has four active coordinates.
+
+Suppose additionally that all coordinate Q-orbits are regular of common length n=|Q|>1. Put a=|A|, d=dim_F3 W and h=a−d. If a projective character class B has size b and stabilizer S≤Q, then its intersection with each regular row is empty or an S-coset of size |S|. If it meets t rows, b=t|S|. Its Q-translates give n/|S| classes on exactly those t rows, comprising all tn coordinates. Other coordinates supply at most one new projective class each, and the coordinate forms span W*. Hence
+
+    h ≥ (b−1)n/|S|.
+
+In particular a size-five covering block has either |S|=5 in one row, giving h≥4n/5, or |S|=1 across five distinct rows, giving h≥4n. If 5 does not divide n only the second case is possible. The first case reaches the boundary h=n−n/ℓ of the strict [global deficit criterion](radical-free-a5-regular-shadow-deficit.md) when ℓ=5; it does not satisfy that criterion's strict inequality. Actual H-conjugation transports these code blocks along the Q-action, preserving their dimension and support pattern. No action of τ on R or independent row factors is assumed.
+
+## Evidence and remaining obligation
+
+These are analytic proofs with no computation.  The necessary support graph, closed-subset obstruction and minimal covering-code classification do not exclude all surviving trees or construct a folder. The next obligation is to combine their genuine covering or boundary requirements with the actual order and cut budgets. The unrestricted classification remains open.

@@ -61,12 +61,9 @@ specified previously uncovered permutation action would be useful partial progre
 lying above them. Permutation of the simple factors introduces correlations that
 the already treated nonpermuting case does not capture.
 
-**Starting point and status.** The
-[nonpermuting A₅-socle assembly](advances-2026-11-16/manuscripts/radical-free-a5-code-inversion.md)
-reports a classification when every simple factor is preserved by G.
-The [regular prime-power-top reduction](advances-2026-11-16/manuscripts/radical-free-a5-prime-power-top.md)
-handles one precisely specified factor-permuting model. Neither exhausts the
-question above. Use their pinned hypotheses and review records when extending them.
+**Starting point and status.** The [nonpermuting assembly](advances-2026-11-16/manuscripts/radical-free-a5-code-inversion.md) treats envelopes preserving every factor. The [all-path parameterization](manuscripts/0068-abelian-nilpotent-path-parameters.md) now treats every odd abelian top and the zero-graph odd nilpotent branch in the pure factor-permutation model, with construction, exhaustion, exact normal-cut tests and actual isomorphism equivalence.
+
+**Next precise targets.** For nonzero acyclic residual maps φ:(F₂²)^M → F₂^M, construct complete parameters for the correlated odd residual and actual top lifts, and prove that every normalization preserves G, τ, K and H and the exact loop-isomorphism relation. Acyclicity is necessary, not yet sufficient. Separately, establish stabilizer surjectivity or parameterize its failure for nonnilpotent odd tops. Neither target covers general outer actions or all groups with A₅ socle; those remain further obligations.
 
 ## 3. Which odd prime-power regular tops are admissible?
 
@@ -99,14 +96,7 @@ families of P, or prove a structural existence criterion for arbitrary P.
 Do not quotient by arbitrary changes of basis or by cocycle coboundaries unless
 they induce the required loop isomorphisms.
 
-**Status.** General P remains unresolved. Abelian and extraspecial top groups
-have already been treated in the current research: the latest source reports
-120 classes across the odd extraspecial models, including 88 in the order-5⁵,
-exponent-25 case. Their orbit counts are therefore not proposed here as open
-problems. These are reported results for the exact model above. The subsequent
-24-class proof, 88-class orbit theorem and full assembly are not yet published
-here; the older public sources alone do not establish these counts. See the
-[results catalogue](RESULTS.md) for the complete table and its public-proof coverage.
+**Status.** General P remains unresolved. The [complete regular extraspecial census](manuscripts/0064-extraspecial-regular-census.md) proves 120 classes in the exact models, including 88 for order 5⁵ and exponent 25. The [faithful transitive Camina assembly](manuscripts/0065-transitive-camina-tops.md) extends to the stated nonregular actions and gives 128 classes. Their proofs and finite form verifier are now public; repeating these counts is not the next open problem. General module/cocycle orbit evaluation and groups outside these structural families remain open.
 
 ## 4. Classify the next odd derived-group layer
 

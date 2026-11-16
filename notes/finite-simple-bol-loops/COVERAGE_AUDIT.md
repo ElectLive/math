@@ -50,3 +50,9 @@ This distinction lets contributors choose work responsibly. It is more informati
 2. Keep a public supersession trail when a narrower open question becomes solved.
 3. Make exact-source review and computation records easy to locate.
 4. Test onboarding periodically: can someone with only this public repository reproduce a control, identify a genuine remaining lemma, and submit a scoped contribution without asking for private context?
+
+## Subsequent factor-permutation publication
+
+The later classification checkpoint has now been integrated as claims 0064–0069, with six result-centered expositions and the complete linked A₅ permutation-top source chain. The regular/transitive extraspecial and Camina counts, orbit pairing, residual-graph theorem, abelian/zero-graph nilpotent structural parameters and odd-top PSL₂ exclusions are public. The finite 88-orbit certificate was rerun and returned 500 substitutions, 12,400 forms and 88 orbits. The [source crosswalk](classification-source-map.json) identifies the inspected checkpoint.
+
+This closes the previously noted public-proof gap for those counts and provides their A₅ permutation-top dependencies. It does not close older public-coverage gaps in unrelated Bruck, odd-envelope or primitive-action branches, nor certify the complete source chain mathematically. Nonzero-graph normalization remains an open theorem, not a published exhaustion result.

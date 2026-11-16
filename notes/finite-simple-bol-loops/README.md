@@ -20,14 +20,14 @@ structural classification sought here.
 The project has developed constructions and classifications in several branches:
 
 - A proposed finite simple proper Bol loop that is neither a G-loop nor isotopic to a Bruck loop, addressing Nagy's existence question below.
-- Classifications for specified radical-free envelopes, including PSL₂(q)-power and nonpermuting A₅-socle cases; constructions and classifications also treat several factor-permuting cases.
+- Classifications for specified radical-free envelopes, including PSL₂(q)-power and nonpermuting A₅-socle cases. The [all-path structural theorem](manuscripts/0068-abelian-nilpotent-path-parameters.md) now covers every odd abelian top, and the zero-residual-graph nilpotent branch, in the pure A₅ factor-permutation model.
 - Structural results for odd-order, Bruck, affine and primitive-action branches, including families with unbounded group-theoretic complexity and concrete restrictions on possible envelopes.
 
 Each result has specific hypotheses and review status. See the [research catalogue](RESULTS.md) for precise statements, sources and limitations. These are not a classification of all finite simple Bol loops.
 
 ## Open problems
 
-- **Classify the remaining factor-permuting cases.** Classify the admissible folders and their isomorphism classes for arbitrary odd p-group regular tops, beyond the cases already analyzed.
+- **Classify the remaining factor-permuting cases.** Parameterize nonzero residual graphs without changing the group or loop data; settle nonsurjective nonnilpotent tops and general outer actions. Evaluate further admissible affine-data families where useful.
 - **Go beyond the known socle models.** Identify or classify simple Bol loops with canonical envelopes outside the PSL₂ and A₅ families already studied.
 - **Resolve nonsplit Bruck lifting.** Prove or refute compatibility of the actual extension, inversion, stabilizer and section data in the remaining cases.
 - **Make odd-layer reductions exhaustive.** Turn the current compression and extension constraints into classifications without losing multiplicity or cohomological data.

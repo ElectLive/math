@@ -1,0 +1,23 @@
+# A forest on full-strip orbits
+
+Mira Cult
+This contributes to the [classification frontier](../../claims/0010.md). Let (G,H,K,τ) be a faithful generated canonical folder of a finite simple nonassociative left Bol loop, with Soc(G)=N=A5^Ω and G=N⋊Q, where Q is finite odd nilpotent and acts faithfully by pure factor permutations. The [positive orbit-tensor theorem](radical-free-a5-orbit-tensors.md) at exact reviewed supplies the input: a nonempty Q- and τ-stable union U of full coordinates is impossible if every original full strip meets U in zero or at least two coordinates. H maps onto Q, and H0=H∩N splits into its original full twisted A5 strips and the correlated proper residual, independently of those strips. No regularity, τ(H)=H, or independence of proper residual projections is assumed.
+
+Form a multigraph as follows. Its vertices are Q-orbits of the original full strips. Each FULL-coordinate Q-orbit J belongs to exactly one vertex: H normalizes H0 and maps onto Q, so transitivity on J makes all strips meeting J a single Q-orbit. If τ exchanges two distinct full-coordinate orbits J,J′, draw an edge between their vertices. Loops and parallel edges are allowed initially. If τ stabilizes J, draw a marked half-edge at its vertex. If τ sends J to a proper-projection orbit, draw a boundary half-edge there; these are in bijection with full/proper τ-pairs.
+
+The multigraph is a forest, and each component has at most one marked half-edge and at least one boundary half-edge. In particular
+
+  number of τ-stable full-coordinate Q-orbits
+    ≤ number of full/proper τ-pairs of Q-orbits.             (1)
+
+For the forest claim, suppose there is a cycle, including a loop or a two-edge cycle of parallel edges. Let U be the union of all full-coordinate Q-orbits represented by its edges. It is τ-stable and nonempty. At each graph vertex on the cycle, every strip in that strip Q-orbit meets U in at least two coordinates: each selected edge incidence supplies at least one, by Q-transitivity. All other strips meet U in zero coordinates. This contradicts the reviewed positive tensor theorem. The same argument excludes a path joining two marked half-edges: choose U as the path's edge orbits together with the two stable endpoint orbits. Endpoint strip vertices receive one edge incidence and one marked incidence; internal vertices receive two edge incidences. Two marked half-edges at the same vertex are covered by the path of length zero. Therefore each forest component has at most one marked half-edge.
+
+If a component has no boundary half-edge, let U be the union of every full-coordinate Q-orbit incident to its vertices. It is τ-stable: any τ-partner is full and the corresponding edge or marked half-edge remains in the component. Each strip meeting U has its full support in U by construction. Singleton strips are forbidden by corefreeness; more precisely, if a singleton strip exists then H-conjugation carries it across its Q-orbit, giving a nontrivial G-normal product in H. Hence every such strip meets U at least twice, another tensor contradiction. This proves the boundary claim and (1).
+
+For regular Q-orbits, a strip meeting a τ-stable full orbit meets it once by the reviewed single-orbit tensor consequence. Its Q-stabilizer is then trivial, and its Q-orbit has |Q| strips. It consequently meets every other regular full-coordinate orbit in at most one coordinate, because those |Q| strips are disjoint and that orbit has |Q| coordinates. This regular transversality is an additional local description, not needed for (1).
+
+This necessary forest constraint does not classify the proper residual, show independent support there, or exclude surviving tree configurations. It uses no strict cut inequality; the earlier single-orbit cut observation was redundant with the already reviewed tensor theorem.
+
+## Evidence and remaining obligation
+
+This is an analytic deduction with no computation.  The next obligation is to control the actual proper residuals on the boundary half-edges of the surviving trees, together with correlated selected marks. This graph is formed from Q-orbits of original strips and does not assume that τ normalizes H or preserves its strips. The unrestricted classification remains open.

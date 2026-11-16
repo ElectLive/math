@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "original_claim_ids": "0001–0017",
-  "next_id": "0064",
+  "original_claim_ids": "0001\u20130017",
+  "next_id": "0070",
   "manuscripts": [
     {
       "id": "0053",
@@ -487,6 +487,231 @@
       "id": "0037",
       "source": "manuscripts/0037-cyclic-affine-extraspecial-tops.md",
       "group": "a5-extraspecial-top-restrictions"
+    },
+    {
+      "id": "0064",
+      "source": "manuscripts/0064-extraspecial-regular-census.md",
+      "group": "complete-odd-extraspecial-regular-top-census"
+    },
+    {
+      "id": "0065",
+      "source": "manuscripts/0065-transitive-camina-tops.md",
+      "group": "faithful-transitive-p-group-reduction-and-camina-top-census"
+    },
+    {
+      "id": "0066",
+      "source": "manuscripts/0066-odd-top-orbit-pairing.md",
+      "group": "odd-top-orbit-pairing-and-opposite-endpoint-paths"
+    },
+    {
+      "id": "0067",
+      "source": "manuscripts/0067-residual-graphs-and-abelian-splitting.md",
+      "group": "residual-dependency-graphs,-strict-cuts-and-abelian-splitting"
+    },
+    {
+      "id": "0068",
+      "source": "manuscripts/0068-abelian-nilpotent-path-parameters.md",
+      "group": "all-path-abelian-and-zero-graph-nilpotent-structural-parameters"
+    },
+    {
+      "id": "0069",
+      "source": "manuscripts/0069-psl2-odd-permutation-top-exclusions.md",
+      "group": "odd-permutation-top-psl2-projective-tensor-exclusions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-orbit-tensors.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-paired-path-residual.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0033",
+      "source": "sources/factor-permutation/radical-free-a5-abelian-top.md",
+      "group": "a5-regular-abelian-tops"
+    },
+    {
+      "id": "0035",
+      "source": "sources/factor-permutation/radical-free-a5-extraspecial-27.md",
+      "group": "a5-exponent3-order27-top"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-stable-five-kernel-cut.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0069",
+      "source": "sources/factor-permutation/radical-free-psl2-odd-top-tensors.md",
+      "group": "odd-psl2-permutation-exclusion"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-four-regular-orbits.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0037",
+      "source": "sources/factor-permutation/radical-free-a5-extraspecial-tops.md",
+      "group": "a5-extraspecial-top-restrictions"
+    },
+    {
+      "id": "0032",
+      "source": "sources/factor-permutation/radical-free-a5-cyclic-top.md",
+      "group": "a5-regular-cyclic-tops"
+    },
+    {
+      "id": "0064",
+      "source": "sources/factor-permutation/radical-free-a5-exponent25-orbits.md",
+      "group": "extraspecial-regular-census"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-four-transitive-orbits.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-order-three-support.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0036",
+      "source": "sources/factor-permutation/radical-free-a5-prime-power-top.md",
+      "group": "a5-prime-power-top-reduction"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-stable-orbits.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-single-nilpotent-orbit.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-rooted-paths.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0065",
+      "source": "sources/factor-permutation/radical-free-a5-camina-tops.md",
+      "group": "transitive-camina-tops"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-regular-shadow-deficit.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0034",
+      "source": "sources/factor-permutation/radical-free-a5-nonabelian-27.md",
+      "group": "a5-modular-order27-top"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-strip-orbit-forest.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-forest-prime-budget.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-residual-kernels-cuts.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-weighted-stable-kernel.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-stable-proper-parity.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-residual-saturation.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0027",
+      "source": "sources/factor-permutation/radical-free-a5-code-inversion.md",
+      "group": "a5-outer-code-classification"
+    },
+    {
+      "id": "0027",
+      "source": "sources/factor-permutation/radical-free-a5-outer-codes.md",
+      "group": "a5-outer-code-classification"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-single-abelian-orbit.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0068",
+      "source": "sources/factor-permutation/radical-free-a5-abelian-pure-pairs.md",
+      "group": "all-path-affine-parameters"
+    },
+    {
+      "id": "0064",
+      "source": "sources/factor-permutation/radical-free-a5-extraspecial-125.md",
+      "group": "extraspecial-regular-census"
+    },
+    {
+      "id": "0065",
+      "source": "sources/factor-permutation/radical-free-a5-transitive-pgroups.md",
+      "group": "transitive-camina-tops"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-full-strip-matching.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-strip-character-support.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0065",
+      "source": "sources/factor-permutation/radical-free-a5-transitive-extraspecial.md",
+      "group": "transitive-camina-tops"
+    },
+    {
+      "id": "0026",
+      "source": "sources/factor-permutation/radical-free-a5-path-classification.md",
+      "group": "psl2-power-classification"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-stable-orbit-local.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0068",
+      "source": "sources/factor-permutation/radical-free-a5-abelian-path-parameters.md",
+      "group": "all-path-affine-parameters"
+    },
+    {
+      "id": "0066",
+      "source": "sources/factor-permutation/radical-free-a5-nilpotent-orbit-pairing.md",
+      "group": "odd-top-orbit-and-path-reductions"
+    },
+    {
+      "id": "0067",
+      "source": "sources/factor-permutation/radical-free-a5-residual-dependency-graphs.md",
+      "group": "residual-graphs-and-splitting"
     }
   ]
 }

@@ -51,3 +51,7 @@ be useful. Describe it as such rather than advertising it as a small list of
 families or an efficient enumerator. If a parameter problem contains arbitrary
 matrix-pair equivalence, that constrains the kind of normal form one should seek;
 it does not alone prove a computational complexity lower bound.
+
+## Current pure A₅ permutation branch
+
+The [all-path theorem](manuscripts/0068-abelian-nilpotent-path-parameters.md) is a structural classification within its exact canonical-group model: all odd abelian tops and all odd nilpotent zero-graph tops, with construction, exhaustion, admissibility and exact equivalence. It leaves parameter orbits unevaluated. Nonzero nilpotent graphs, nonsurjective nonnilpotent tops and arbitrary outer actions are not covered. This distinction separates a broad solved structural slice from the unrestricted classification.

@@ -66,9 +66,9 @@ The next results concern the **exact wreath-pair models and swap inversion speci
 | Modular nonabelian C₉⋊C₃, with the specified full anti-abelianization envelope | Six classes of order 27·60²⁷ | [Modular order-27 top](advances-2026-11-16/manuscripts/radical-free-a5-nonabelian-27.md) |
 | Exponent-three nonabelian top of order 27 | Two classes of order 27·60²⁷ | [Exponent-three top](advances-2026-11-16/manuscripts/radical-free-a5-extraspecial-27.md) |
 
-For [arbitrary odd prime-power regular tops](advances-2026-11-16/manuscripts/radical-free-a5-prime-power-top.md), the construction reduces to p=3 or 5 and explicit module/cocycle tests. This is a parameterization, not a solution of all resulting orbits. The public [higher-rank extraspecial theorem](manuscripts/0037-cyclic-affine-extraspecial-tops.md) establishes existence in its sole surviving higher-rank case, order 5⁵ and exponent 25. Subsequent research reports **88 isomorphism classes** in that case and the following completed extraspecial-top table:
+For [arbitrary odd prime-power regular tops](advances-2026-11-16/manuscripts/radical-free-a5-prime-power-top.md), the construction reduces to p=3 or 5 and explicit module/cocycle tests. This is a parameterization, not a solution of all resulting orbits. The public [higher-rank extraspecial theorem](manuscripts/0037-cyclic-affine-extraspecial-tops.md) establishes existence in its sole surviving higher-rank case, order 5⁵ and exponent 25. The [complete regular extraspecial census](manuscripts/0064-extraspecial-regular-census.md) gives **88 isomorphism classes** in that case and the following table:
 
-| Extraspecial top P | Reported loop classes |
+| Extraspecial top P | Loop classes in the specified models |
 |---|---:|
 | Order 3³, exponent 3 | 2 |
 | Order 3³, exponent 9 | 6 |
@@ -78,7 +78,7 @@ For [arbitrary odd prime-power regular tops](advances-2026-11-16/manuscripts/rad
 
 The total is **120 classes in these exact regular-top models**, not 120 classes of all simple Bol loops. More precisely, set S=A₅ᴾ⋊P for the regular action and take G to be the subgroup of S×S whose two top images multiply to the identity in P/[P,P], with inversion swapping the two factors. The table concerns this specified canonical group and inversion, not arbitrary groups with an extraspecial permutation quotient.
 
-**Proof availability.** The subsequent 24-class proof, 88-class orbit theorem and complete assembly are not yet published here. These counts are reported results, not conclusions established by the older linked public manuscript or independently verified by this catalogue. Their full proofs and computational certificate remain to be presented publicly. The orbit counts are therefore no longer research targets in this programme, but general nonabelian regular tops remain open.
+**Proof availability.** The [regular census](manuscripts/0064-extraspecial-regular-census.md) and [faithful transitive Camina classification](manuscripts/0065-transitive-camina-tops.md) provide the full reductions and proofs, with a [finite form-orbit verifier](sources/factor-permutation/code/verify_a5_exponent25_form_orbits.py) for the 88-class calculation. The computation checks that finite orbit calculation, not the folder-to-loop proof.
 
 ### Odd, Bruck and affine branches
 
@@ -116,6 +116,20 @@ Several proposed Bruck radical families are excluded uniformly, not just by boun
 The [two-N residual](update-2026-11-16/manuscripts/bruck-two-n-cross-residual.md) isolates actual affine compatibility conditions for a remaining nonsplit extension. Solving a simplified shadow is not enough to construct a loop.
 
 For primitive canonical actions, the [simple-diagonal assembly](update-2026-11-16/manuscripts/sd-all-simple-socles.md) gives a **conditional** SDₖ exclusion for k≥3. Its [dependency map](SD_DEPENDENCIES.md) identifies missing family proofs, so this is not yet a self-contained public proof. Twisted-wreath exclusions cover specified [parity-code](update-2026-11-16/manuscripts/tw-parity-code-subwreath.md), [hierarchical](update-2026-11-16/manuscripts/tw-full-wreath-block-tops.md) and [diagonal-grid](update-2026-11-16/manuscripts/tw-diagonal-block-tops.md) actions. The unrestricted primitive-action problem remains open.
+
+## Uniform classifications for odd permutation tops
+
+The [all-path theorem, 0068](manuscripts/0068-abelian-nilpotent-path-parameters.md) gives construction, exhaustion, finite admissibility tests and the exact isomorphism relation in the entire pure factor-permutation model G = A₅^Ξ ⋊ Q for **every odd abelian top Q**, and for **every odd nilpotent Q whose actual residual graph is zero**. Arbitrary orbit multiplicities, unequal/nonregular actions and full-strip paths are included. The structural parameters are actual Q-sets, path lengths, F₃/F₅ quotient modules and cocycles. Their orbits remain unevaluated; this is not a claim of efficient enumeration.
+
+The proof has two major reductions. [0066](manuscripts/0066-odd-top-orbit-pairing.md) forces canonical inversion to pair every factor orbit for nilpotent tops and reduces full strips to paths with opposite endpoint types. Its pairing extension covers arbitrary odd tops when the stabilizer surjects onto the top. [0067](manuscripts/0067-residual-graphs-and-abelian-splitting.md) identifies Sylow-2 correlations with a dependency graph, proves the directed-cycle collision criterion, eliminates every nonzero graph for abelian tops and proves the framed split needed for ordinary cocycle lifts.
+
+For nonabelian nilpotent tops, acyclicity alone does not eliminate nonzero graphs. Their uniform parameterization and normalization preserving the actual group, inversion, section, stabilizer and isomorphism relation remain open. General outer actions, other or mixed socles and radicals are not included in the theorem.
+
+The [projective-tensor exclusion, 0069](manuscripts/0069-psl2-odd-permutation-top-exclusions.md) handles a different infinite family: pure PSL₂(q) permutation envelopes for q ≡ 1 (mod 4), q outside {5,9,29}, with odd top and surjective stabilizer image; this includes all odd nilpotent tops. It does not exclude arbitrary outer lifts.
+
+The newer finite classifications now have public proofs. [0064](manuscripts/0064-extraspecial-regular-census.md) assembles **120 classes** across the four admissible odd extraspecial regular-top types, including the **88-class** exponent-25 theorem and its executable form certificate. [0065](manuscripts/0065-transitive-camina-tops.md) uses the actual permutation module and normalizer to admit nonregular faithful transitive actions and gives **128 classes** for the specified nonabelian class-two Camina-top models: 120 regular and eight nonregular. These counts apply to their exact wreath-pair groups, not all canonical groups with those quotient types.
+
+Separate automated mathematical reviews were recorded for these source stages, conditional on their upstream inputs. This public exposition is not human refereeing, formal verification or a claim of literature priority.
 
 ## Further reading
 
