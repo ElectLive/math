@@ -1,0 +1,54 @@
+{
+  "source_commit": "67cced817f7d24e36d78990c73828ade4f218091",
+  "files": [
+    {
+      "path": "manuscripts/bruck-n-socle-quadratic-collision.md",
+      "github_blob_sha": "14d656cf3cc0e266a391b871c637997aa524455f",
+      "original_sha256": "9567422eff34583e4a43baacf62bab25586b14f55b2b6e2c6f16194e1bd2b4da",
+      "export_sha256": "e3bfc5d4737d9ac74d7d7c3523da9f560c290a04ef323649e9a30b262fc36559"
+    },
+    {
+      "path": "manuscripts/sd-all-simple-socles.md",
+      "github_blob_sha": "319547a75f37123e1651e7a96ae980a4b08556e0",
+      "original_sha256": "6887d67231427eb1e26eec33caa2dca3ee7bee185c92176f78c99f23d0894744",
+      "export_sha256": "5b50ae8958a71f1951f5c179cfbf696302dfb5cf19bed61e6e6f053730d9939f"
+    },
+    {
+      "path": "manuscripts/tw-full-wreath-block-tops.md",
+      "github_blob_sha": "74ac21e7a82c9ac5322ac2595a55ba9f81f8f16f",
+      "original_sha256": "5b72d2e42d2e3883cf5bc2b84ff5147884d40d148a2eb4aad49c8347ecfad26b",
+      "export_sha256": "b9578cf841468f6c4cba59c035024e3c336a487877f28f71e1632d2a96dd2e18"
+    },
+    {
+      "path": "manuscripts/bruck-one-m-noncentral-reduction.md",
+      "github_blob_sha": "7e3f18d31356dc23dafb5f5347d998a7a4e29928",
+      "original_sha256": "aca746d87fa6b77ff3f67fd33abe91e4cbfb15cb3ed50b8ec6c738469424065f",
+      "export_sha256": "ecf3e2b1e5a6f7ae0fb9ad5f04f5bd9608568a4329de00a584cd3ae6f3d5cd0f"
+    },
+    {
+      "path": "manuscripts/bruck-n-p6-all-u-exclusion.md",
+      "github_blob_sha": "36a954e35bd673beaa9f9d931609135010b4fbd1",
+      "original_sha256": "b6748ddc9fd2ecc7b18ff28d5f632a4aba93a03d7911b0dbca9863ad8a5fe790",
+      "export_sha256": "90868902813f6824c8ffe6dd70db538fdb01d51df9399c59c6e45bebaed8d02d"
+    },
+    {
+      "path": "manuscripts/affine-cyclic-prime-quotient-classification.md",
+      "github_blob_sha": "3b8c5f13ae6115d374b7dcc80700e232dec7f32d",
+      "original_sha256": "a1f213aba55915052c467f7c7132ca2295e689ba32edb6d19e20a79fdb7e6dd1",
+      "export_sha256": "7ce3da037b4ea2d4f717c40b089660fb202c9642d1fe4fb02d0538afa9421f4f"
+    },
+    {
+      "path": "manuscripts/tw-parity-code-subwreath.md",
+      "github_blob_sha": "3e436fed0a8fd1f81e21b13b3f932a441227d3a9",
+      "original_sha256": "c7928c89a590aec308a997592eda7d75191e21121727c51cbf4e3b173ddf120b",
+      "export_sha256": "c6475359faf8d669ea088cd5135aa4a34c27d4c8b2c3ae64cfbc0b06d473d80b"
+    },
+    {
+      "path": "manuscripts/tw-diagonal-block-tops.md",
+      "github_blob_sha": "fec86b290c56de6083c96996c7cb845dddcf39a6",
+      "original_sha256": "4afe5acfa67fc7dee8e7faa7e72f80e9c0365d38f238a34a9be2f34a3b8484e1",
+      "export_sha256": "28d47ae1c532671299ead624f31b9f8fc27dadc6c23d6302f3d6bfab75e945bd"
+    }
+  ],
+  "scope": "Supplemental affine/Bruck/primitive manuscripts, section-specific model-review records preserved, not a new proof audit. Contextual/dependency links not reproduced are labeled in text."
+}
