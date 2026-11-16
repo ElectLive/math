@@ -4,7 +4,18 @@ Contributions from nonassociative algebra, finite-group theory, representation
 theory, computational algebra, and proof verification are welcome. Proofs and
 structural ideas matter as much as code. AI use is welcome and should be disclosed.
 
-## A lightweight protocol
+## Share a reference
+
+Help build the [public reading list](REFERENCES.md) with sources that researchers
+and their AI tools should know about. A paper, thesis, book chapter, erratum,
+dataset or implementation can be useful even if you are not joining a proof effort.
+Open an issue or a small pull request with a link or citation and a sentence about
+its relevance. Theorem locators, convention notes and open-access copies are
+welcome but optional. You do not need to establish priority or undertake a
+literature survey. The result-packet requirements below are for mathematical
+claims, not for suggesting a reference.
+
+## A lightweight protocol for research contributions
 
 1. Open an issue naming a question or a precise statement you want to investigate.
    State whether you seek collaborators. This is coordination, not exclusive ownership.
@@ -37,7 +48,7 @@ results, and remaining limitations. "No error found" is scoped evidence, not a
 blanket endorsement of the project. A model review must be labeled as a model
 review, even when performed independently of the authoring model.
 
-Corrections, counterexamples, and prior-art identifications are first-class
+Reference suggestions, corrections, and counterexamples are first-class
 contributions. Preserve credit when a conjecture is refuted or a proof repaired.
 No new software or document license is asserted by this protocol; preserve the
 applicable source attribution and license terms.
