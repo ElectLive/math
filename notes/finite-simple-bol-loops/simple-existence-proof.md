@@ -1,3 +1,3 @@
 # A finite simple Bol loop outside G-loops and Bruck isotopes
 
-The proof is at [Non-G-loop, non-Bruck-isotope existence](non-g-loop-non-bruck-existence.md).
+See [claim 0018: non-G-loop, non-Bruck-isotope existence](0018-non-g-loop-non-bruck-existence.md).
