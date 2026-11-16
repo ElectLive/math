@@ -17,7 +17,7 @@ Do not treat missing imports as established facts. Consult [coverage](COVERAGE_A
 
 ## 2. Choose a decisive question
 
-Use [current results](CURRENT_RESULTS.md) and [open problems](OPEN_PROBLEMS.md). State what would count as progress before computing. Examples:
+Use [current results](RESULTS.md) and [open problems](OPEN_PROBLEMS.md). State what would count as progress before computing. Examples:
 - prove the converse of an existing construction;
 - show an admissible family covers a named residual case;
 - recover a parameter invariant from the unmarked loop;
