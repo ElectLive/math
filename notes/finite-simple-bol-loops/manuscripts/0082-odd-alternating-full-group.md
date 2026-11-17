@@ -4,9 +4,9 @@
 
 ## Results and proof route
 
-For every finite simple nonassociative left Bol loop Q of odd order n, the full multiplication group is Alt(Q) in its natural action, hence doubly transitive, under the cited canonical-folder, odd-envelope, almost-simple, prime-power, Li–Xia and classical-group inputs.
+For every finite simple nonassociative left Bol loop $Q$ of odd order $n$, the full multiplication group is $\operatorname{Alt}(Q)$ in its natural action, hence doubly transitive, under the cited canonical-folder, odd-envelope, almost-simple, prime-power, Li–Xia and classical-group inputs.
 
-The elementary sign lemma is independent of those classification inputs: y↦sgn(R_y) is a loop homomorphism for every finite left Bol loop. The left Bol identity gives L_x R_(xz)=R_z L_x R_x; taking signs proves multiplicativity. In odd order it is trivial, and in a simple nonassociative loop a nontrivial map would force order two.
+The elementary sign lemma is independent of those classification inputs: $y\mapsto\operatorname{sgn}(R_y)$ is a loop homomorphism for every finite left Bol loop. The left Bol identity gives $L_xR_{xz}=R_zL_xR_x$; taking signs proves multiplicativity. In odd order it is trivial, and in a simple nonassociative loop a nontrivial map would force order two.
 
 The full-group conclusion follows by exhausting the solvable-factor classification, excluding its final orthogonal case, identifying the natural alternating action, and using evenness of left and right translations. Three separate automated mathematical reviews accepted the complete conditional assembly. The standard external classifications and upstream interfaces remain dependencies, not newly reproved theorems.
 
