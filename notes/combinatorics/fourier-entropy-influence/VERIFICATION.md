@@ -9,6 +9,85 @@ publication check are distinct forms of evidence. None of this collection
 is claimed to have an end-to-end Lean proof, human-expert review, or journal
 referee acceptance.
 
+## Uniform bounds for unbounded structured interactions
+
+The complete nine-paper scientific source is
+**`78ca8efe259785d4afdacd71f29b3d75cb85b537`**, tree
+`47c92e9ac11861e1906f761d09564ba391a52463`. It extends the recoverable
+sources `2a5aa81ed41864612ec4fe5088fe82170a17f7bf`,
+`a17f79e858c8537587a8d49e2b879f10c59e7677`, and
+`72102dbe92e277f6d616f6a1201d5388992e5dd3` on the owned
+[research PR #412](https://github.com/Mira-Cult/math-wip/pull/412).
+This public continuation preserves the earlier public revision
+`3eea2807b91b3d5e4b128db0700b0d2c2dceb441` and its scientific proofs.
+Public proofs are complete relative to their local dependencies; private
+repository access is not required to read them.
+
+| Nonauthor model reviewer | Exact scientific source and scope | Outcome |
+|---|---|---|
+| `/root/uniform_positive_reduction` | Directed factors, scalar credit, one-atom repair, count extension, Boolean witness and gauge/repair barriers at 2a5aa81; notation follow-ups at a17f79e and 72102db. Excludes own recursive work. | PASS in this scope; no unresolved mathematical objection. |
+| `/root/uniform_arity_attack` | Recursive point proof, general single-point leaf closure and sharp one-level theorem at 2a5aa81, including both checkers. Excludes own directed work. | PASS. |
+| `/root/uniform_arity_attack` | Affine-forest v2 at a17f79e: all three simultaneous tree estimates, Boolean arithmetic, affine fair rank, support and witness. | PASS. |
+| `/root/uniform_boolean_attack` | Positive-support reduction and stronger absorption barriers at 2a5aa81, with editorial follow-up at a17f79e. Excludes own affine proof. | PASS. |
+| `/root/uniform_boolean_attack` | Second review of the generic pointed envelope and complete single-point closure at 2a5aa81. | PASS; additional certified enumeration of 1,056 pointed leaves. |
+| `/root/uniform_arity_attack` | Marked-set closure at 72102db: pair terms, shared edges, positivity, uniform invariant, constants, Boolean witnesses and exact construction scope. | PASS. |
+| `/root/uniform_arity_attack` | Four-cycle obstruction at 72102db: energy, ground degree, partition, nonrealizability and period distinction. The checker was originally supplied by this reviewer. | PASS; no independent software-authorship claim. |
+| `/root/uniform_arity_attack` | All-q sharp-four supplement at 78ca8efe: complete rare-leaf proof, universal coefficient estimates, fixed-q hypotheses, sharpness and independent checker rerun. | PASS. |
+| `/root/uniform_boolean_attack` | Approximation barriers at 78ca8efe: support, exact influence, certificate cost, dual norm, tight-Gram failure, costly orthogonal repair and the precise relevant Paraashar--Saurabh assumptions. | PASS; excludes exhaustive novelty review and an unverified historical theorem-number citation not used in the proofs. |
+
+Every review retrieved and matched the exact scientific files. No reviewer
+is credited with independent review of its own mathematical contribution.
+The science added at 78ca8efe preserves the earlier sources unchanged.
+Permanent claim IDs await maintainer-coordinated allocation; the public
+catalogue and canonical proof sources are updated without invented IDs.
+
+All nine scientific checkers and the separate reviewer checker passed the
+recorded runs. Observed toolchain: Python 3.12.14 with the standard library.
+The [code guide](code/README.md) gives all ten commands, complete input ranges
+and seeds. Finite computations are evidence for the stated examples and
+bounded ranges; the universal class statements have conventional proofs.
+
+| Checker | Observed verification |
+|---|---|
+| Directed factors | Exact N=12,16 Boolean transforms; 1,044 complement-cylinder factors and 100 seeded integer tensors; obstruction identities. Nonauthor reviewer also checked all 1,048,576 coefficients at N=20, with H=601/32 and I=19223/2048. |
+| Affine forests | 456,686 exhaustive own and 2,740,122 field comparisons; 4,200 own and 25,200 cross comparisons on seeded larger trees. |
+| Single-point recursion and envelope | Nine trees, thirty leaves, seventeen internal nodes, N<=12; separate exhaustive check of 1,056 pointed positive leaves. |
+| One-level products | Eight exact spectra with unequal blocks and both parities, N<=12. |
+| Positive support | 69,776 exact Boolean completions and four full-interaction examples. |
+| General marked sets | 31,704 marked instances over all 136 positive Boolean functions on n=2,3; 298 rare leaves and fifteen internal nodes, N<=15, with q=2,3,4,5,8. |
+| Sharp-four marked leaves | 32,927 marked sets, exhaustive on n=2,3,4 and selected on n=5,6,8 through q=256; seven internal nodes including depth two; exact universal coefficient identities. |
+| Approximation barriers | Four exact Walsh/edge/dual/Gram cases at N=6,8,9,12 and all 26,973 coordinate subcubes for the first three cases. |
+| Cyclic obstruction | All sixteen states, exact energy/ground degree/partition, odd-denominator and Boolean-period distinctions. |
+
+Recursive logarithm comparisons use rational enclosures from 24 atanh-series
+terms and a certified rational remainder. Printed decimal constants, entropy
+ratios and asymptotic tables are diagnostic only. The ten public checkers
+are byte-identical to the corresponding scientific sources. The supplementary
+reviewer checker uses the already published portable sibling import.
+
+The required private repository integrity suite passes all 115 tests after
+full baseline restoration. This checks repository structure and tool behavior,
+not mathematical validity. No remote CI, formal proof or human acceptance
+is inferred from that local result.
+
+### Faithful public adaptation
+
+A separate nonauthor review covers seven public proof pages, all 202 display
+expressions and their inline/prose hypotheses. A second review covers the
+directed page, all 38 displays and 198 inline expressions. A third checks
+the approximation-barrier page, whose scientific body is byte-identical to
+the reviewed source. All found no proof-affecting transcription error.
+Date differences are intentional: the public date uses America/Los_Angeles,
+while the source author dates use UTC.
+
+The adaptation uses GitHub math fences, ordinary equation-label text, and
+TeX comparison commands. The two later directed notation clarifications
+were included in canonical source 72102db before the final fidelity review.
+Scientific revisions, file hashes and actual review records are retained in
+the research workspace. Final publication binding, source readback and
+actual browser rendering are recorded in the delivery addendum; static
+fidelity checks alone do not establish that rendering occurred.
+
 ## Positive bounded-treewidth continuation
 
 The final scientific source for the new bounded-treewidth, connected-triangle

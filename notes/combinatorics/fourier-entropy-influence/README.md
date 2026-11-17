@@ -1,32 +1,49 @@
-# Fourier entropy–influence beyond forest spectra
+# Fourier entropy–influence: uniform bounds on structured interactions
 
 **Mira Cult · 16 November 2026**
 
-We prove a dimension-independent Fourier entropy–influence bound for every
-Boolean function whose **positive Fourier distribution has bounded
-treewidth**. At treewidth at most two, the explicit constant is below
-fourteen. Genuine three-variable potentials are allowed, so this includes
-and extends the entire positive pairwise treewidth-two target.
+The strongest new theorem proves **the sharp constant four** for a recursive
+class with unbounded numbers of simultaneous truth-value changes, unbounded
+depth and branching, and spectra that can require unbounded interaction
+arity. The proof pays signed Fourier interference and its pair terms.
 
-The proof factors the integer Walsh magnitudes along a tree decomposition,
-then pays local entropy by amplitude growth and coordinate influence.
-This bypasses the component-count obstruction in the earlier feedback-set
-method. A connected Boolean family has arbitrarily many overlapping
-triangle blocks and demonstrates the larger coordinate-defined class.
+For any fixed integer $`q\ge2`$, start with rare-point leaves on at least two
+coordinates, each carrying $`q`$ distinct marks including its exceptional
+point. At every node take $`m\ge2+\lceil\log_2q\rceil`$ disjoint children,
+form their product, and flip the $`q`$ concatenated marked points. Marks
+project distinctly in every child; the same $`q`$ is used throughout a
+construction. The resulting functions have positive spectrum and satisfy
 
-The earlier constant-four theorem remains stronger for positive pairwise
-cacti and graphs with a common feedback vertex. A separate forbidden-pair
-argument now preserves constant four for a stated class with genuine
-three-state edge constraints and positive forest sections. Exact Boolean
-and integer examples identify why neither argument yet handles arbitrary
-zeros or arbitrary spectral dependence.
+```math
+\boxed{H(f)\le4I(f).}
+```
 
-**General FEI remains unresolved.** The width-dependent constants are not
-a universal constant. These are conventional class theorems with complete
-proofs and scoped independent model reviews. The [catalogue](CATALOGUE.md)
-is the authoritative list of results and limitations;
-[verification](VERIFICATION.md) records source revisions and actual checks.
-No formal verification or human-expert acceptance is claimed.
+The single constant applies to the union over **all** allowed $`q`$.
+It is optimal separately for every fixed $`q`$, even when an internal node
+is required. The [complete rare-leaf proof](marked-rare-leaves.md) uses the
+[marked-set invariant](marked-set-closure.md), which also closes any
+positive Boolean leaf class with constant $`C_0`$ at constant
+$`(5/4)C_0+7`$, paid once. This gives 12 for constant-four leaves, below
+24.5 for the earlier positive width-two class, and below 28 for positive
+affine-forest leaves.
+
+Two complementary structural theorems give constant four for stated
+[directed integer factors](directed-factors.md), and a constant below
+seventeen for [affine images of positive Boolean forests](affine-forests.md).
+These hypotheses also allow interaction size to grow without bound.
+
+**General FEI remains unresolved.** No paid representation places arbitrary
+Boolean functions in these classes. The [support-completion proof](positive-support.md)
+does establish exact same-constant equivalence between unrestricted FEI
+and FEI for all positive Boolean spectra. New [representation barriers](approximation-barriers.md)
+show why ordinary coordinate certificates and pointwise approximate
+spectral norm cannot provide a universal cost proportional to influence,
+even inside the new constant-four class.
+
+The [catalogue](CATALOGUE.md) states precise scopes; [verification](VERIFICATION.md)
+pins the scientific revisions, exact/certified checks and nonauthor model
+reviews. These are complete conventional arguments under their hypotheses,
+not formal verification, human peer review, or a universal proof.
 
 ## The question and conventions
 
@@ -60,6 +77,62 @@ explicit constructions require $`C>6.454784`$ [Hod17]. This is a known
 lower bound, not a claim about the current optimal lower-bound record.
 
 ## What the proofs achieve
+
+### One constant across unbounded interactions
+
+| Class | Uniform constant | What permits unbounded interaction size |
+|---|---|---|
+| [Rare-point marked-set recursion](marked-rare-leaves.md) | $`4`$, optimal for every fixed $`q`$ | Any fixed $`q\ge2`$, exception-marked rare leaves, distinct projections, $`m\ge2+\lceil\log_2q\rceil`$ at every node; no dimension, depth or arity loss. |
+| [General marked-set closure](marked-set-closure.md) | $`(5/4)C_0+7`$ | The same construction for a positive Boolean leaf class with $`H\le C_0I`$. One constant across all allowed $`q`$, paid once. |
+| [Directed integer factors](directed-factors.md) | $`4`$ | Every factor has at most one outgoing decrease at each state; its arity and overlap with other factors are unrestricted. A precisely charged one-atom repair is included. |
+| [Affine images of positive forests](affine-forests.md) | $`4+4/\log_2(5/4)<17`$ | Arbitrary injective affine spectral maps preserve enough independent fair directions. The image can require arbitrarily large cliques. |
+| [Recursive rare-point modifications](point-modifications.md) | $`9/2`$ | Arbitrary branching, leaf sizes and depth, with a disjoint product followed by one marked truth-value flip at each node. |
+| [Closure of a controlled leaf class](point-modifications.md) | $`(3/2)C_0+17`$ | Positive Boolean leaves with a proved constant $`C_0`$ can be recursively combined without further depth loss. Constant-four leaves give $`23`$. |
+| [One-level point modification](one-point-products.md) | $`4`$, optimal for this class | Arbitrarily many unequal rare-point blocks; the positive spectrum necessarily has full interaction arity and complete minimal graph. |
+
+All relevant positivity, integrality, scalar, support and construction
+hypotheses are part of the linked statements. The directed theorem is
+stronger as a raw-entropy statement for real functions with the displayed
+actual integer amplitude factorization; it is not an assertion about
+arbitrary integer tensors normalized into Boolean spectra.
+
+The affine theorem's key structural assertion is
+
+```math
+ d\le\left(2+\frac{2}{\log_2(5/4)}\right)q,
+```
+
+where $`q`$ counts independent fair spectral bits in a positive Boolean
+forest law on $`d`$ variables. An affine injection retains at least $`q`$
+fair coordinate marginals, so its influence is at least $`q/2`$.
+The integer-tree estimate behind this is $`Z\ge2\,5^\kappa`$, proved with
+two accompanying field-comparison inequalities.
+
+The recursive theorems keep signed Fourier interference. A marked-set flip
+has an exact entropy change equal to a signed score minus relative entropy.
+Fourier pair terms and edges between marked physical inputs are retained.
+Distinct projections give a product cancellation; Walsh integrality and a
+geometric child-to-parent margin pay the correction after the flip. The
+rare-leaf improvement retains a further exact cancellation before using
+cube edge bounds. Replacing each child by its Boolean output loses its
+marked-point data, so one-output-per-child composition cannot simply be cited.
+
+The explicit prefix/bent witnesses in the directed and affine notes already
+have flat-packet bounds; their large graphs alone do not establish novelty.
+The structural theorems cover all compatible Boolean signings under their
+stated hypotheses. The two-bit-leaf full-interaction witness also has a simple entropy/dimension bound. Standard results cover some small one-level cases.
+The [references](REFERENCES.md) distinguish these overlaps from the stronger
+uniform statements and record the limits of the priority search.
+
+### Positive support is enough only if the bound is uniform over all laws
+
+For an arbitrary Boolean function, add dummy inputs and change one truth
+value. Every Walsh numerator becomes two modulo four, giving actual full
+support. The changes in entropy and influence vanish as the number of dummy
+inputs grows. The [completion proof](positive-support.md) therefore gives
+an exact same-constant equivalence between unrestricted FEI and FEI for all
+positive Boolean spectra. It does not preserve a low-width or other special
+representation, and does not prove the missing bound.
 
 ### Positive bounded treewidth has a paid local entropy bound
 

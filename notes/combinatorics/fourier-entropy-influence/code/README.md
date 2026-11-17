@@ -1,11 +1,93 @@
 # Reproducible finite checks
 
-All eight programs are byte-identical copies of the scientific sources
+The scientific programs below are byte-identical copies of the sources
 identified in [VERIFICATION.md](../VERIFICATION.md). Their historical
 manuscript filenames in docstrings are retained to preserve that identity;
 the public mapping is below. The Python programs use only the standard
 library. Python 3.11 or newer is sufficient; the C scan needs a C compiler
 and the system math library.
+
+## Current uniform-interaction checks
+
+### Uniform bounds with unbounded interaction size
+
+All ten programs below use Python 3.11+ and the standard library. The observed
+runs used Python 3.12.14. From the repository root:
+
+```sh
+python notes/combinatorics/fourier-entropy-influence/code/check_directional_integer_factors.py
+python notes/combinatorics/fourier-entropy-influence/code/check_affine_forest_entropy.py
+python notes/combinatorics/fourier-entropy-influence/code/check_recursive_point_interference.py
+python notes/combinatorics/fourier-entropy-influence/code/check_one_point_product_interference.py
+python notes/combinatorics/fourier-entropy-influence/code/check_positive_support_reduction.py
+python notes/combinatorics/fourier-entropy-influence/code/check_pointed_envelope_review.py
+python notes/combinatorics/fourier-entropy-influence/code/check_marked_set_closure.py
+python notes/combinatorics/fourier-entropy-influence/code/check_marked_set_rare_leaf_improvement.py
+python notes/combinatorics/fourier-entropy-influence/code/check_approximation_barriers_for_marked_products.py
+python notes/combinatorics/fourier-entropy-influence/code/check_cyclic_partition_obstruction.py
+```
+
+The directed checker verifies actual Boolean Walsh transforms on 12 and 16
+variables, exact formulas for odd majority-core sizes through nine, 1,044
+complement-cylinder factors, 100 integral-power factor tensors (seed
+20261117), rare-point cores through twelve variables and the multi-atom
+shaving obstruction. The independent reviewer also ran the optional
+`--boolean-ell 5` check, constructing the 20-variable truth table and all
+1,048,576 integer Walsh coefficients. Every assertion is exact.
+
+The affine checker enumerates all unlabeled connected tree shapes through
+four vertices, all roots, nonroot fields -2..2, nonzero couplings in
+{-2,-1,1,2}, and seven root fields -3..3. It performs 456,686 own partition
+bounds and 2,740,122 cross comparisons, including the product comparison
+on every nontrivial tree. Its 600 seeded trees on five through ten vertices
+add 4,200 own and 25,200 cross comparisons. High-arity coefficients and the
+strict constant bound are checked as integer identities/inequalities; the
+printed decimal constant is diagnostic.
+
+The recursive checker checks nine explicitly listed construction trees,
+thirty leaves and seventeen internal nodes, with N<=12. All Walsh/edge
+counts are exact. Entropies and pointed invariants use rational logarithm
+intervals from 24 atanh terms and a proved rational remainder. The separate
+reviewer checker exhausts all 1,056 pointed positive-spectrum Boolean leaves
+on two and three variables and certifies the generic score envelope and
+C0=4 to C=23 leaf preparation by the same interval method.
+
+The one-level checker uses eight exact spectra through N=12, with unequal
+blocks and both parities. Its full-interaction, influence, coefficient and
+chi-square assertions use integers or rational numbers; printed H/I values
+are floating diagnostics. The support checker verifies 69,776 Boolean
+completions (all functions through n=3 at every point with one/two dummy
+bits, and all n=4 functions at one fixed point with one dummy bit), plus
+four full-interaction examples through N=12. Its asymptotic table is
+explicitly diagnostic only. Finite checks do not prove universal bounds;
+the canonical manuscripts contain those proofs.
+
+The general marked-set checker exhausts all 136 positive Boolean functions
+on two and three coordinates and all their marked subsets of size at least
+two: 31,704 marked instances. It also checks 298 rare-leaf instances and
+15 internal nodes, q in {2,3,4,5,8}, maximum N=15, including adjacent leaf
+marks, nonidentical signed leaves, and exact full-interaction witnesses.
+Prime-factor log identities and rational 24-term atanh bounds certify the
+assertions; no floating threshold is used for PASS.
+
+The sharp-four supplement checks 32,927 rare marked sets: all containing the
+exceptional point for n=2,3,4, and stated selected sets on n=5,6,8 through
+q=256. Seven internal nodes have q in {2,3,4,5,8}, N<=15, including depth
+two. Universal coefficient comparisons are checked by exact polynomial
+identities, not by inferring all q from finitely many samples. This checker
+imports its sibling general marked-set checker.
+
+The approximation-barrier checker uses exact Walsh/edge/dual/Gram identities
+for (n,m)=(2,3),(2,4),(3,3),(3,4), dimensions 6,8,9,12. It exhausts 26,973
+coordinate subcubes for the first three cases. The cycle checker enumerates
+all sixteen C4 states, exact energy and ground-layer degree, partition and
+odd-denominator obstructions, and the stated Boolean period distinction.
+All ranges and any diagnostic-only quantities are explicit in the sources.
+
+Exact scientific revisions, reviewer scopes, complete proof-file hashes,
+and the full-repository integrity result are in
+[VERIFICATION.md](../VERIFICATION.md).
+
 
 ## Run the checks
 

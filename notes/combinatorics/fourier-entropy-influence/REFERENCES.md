@@ -7,6 +7,89 @@ comparisons used in this public account. The scope of the literature
 comparison is bounded; absence from this list is not a claim of novelty.
 The local proofs and exact limitations are indexed in [CATALOGUE.md](CATALOGUE.md).
 
+## Additional applicability audit for the marked-set theorem
+
+[The approximation/certificate barrier proof](approximation-barriers.md)
+checks Paraashar--Saurabh, *Fourier Entropy Bounds via Approximations*
+([arXiv:2611.06451](https://arxiv.org/abs/2611.06451)), Theorems 3.1--3.2
+and 4.1--4.5, against the exact hypotheses used here. The reviewed primary
+PDF has SHA-256
+`1dc89657a0b45c741df18eed86c8e4564f9ef2fc103d581d5af9b7a021bbc178`.
+
+Pointwise approximation and multiscale mean-square approximation are different
+hypotheses. The Gram result requires positive-semidefinite domination and
+exact total squared mass. Orthogonal pieces satisfy a special case; the
+natural signed point corrections do not. The affine indicator representation
+results cannot be replaced by an ordinary-coordinate certificate assertion.
+Our negative results concern ordinary coordinate subcubes and pointwise
+approximate norm, and explicitly leave affine parity certificates and
+mean-square approximations open. The inspected literature does not directly
+supply the general marked-set closure from an ordinary child FEI bound;
+this is a scoped applicability conclusion, not exhaustive publication
+priority or noncontainment in every known class.
+
+
+## Uniform-interaction continuation: source and applicability audit
+
+The new class theorems are in
+[directed factors](directed-factors.md),
+[affine forests](affine-forests.md),
+[recursive point modifications](point-modifications.md),
+and [one-level point interference](one-point-products.md).
+The [support reduction](positive-support.md) is an
+exact same-constant equivalence, not an FEI proof. The following primary
+sources were inspected again for applicable hypotheses and priority limits.
+
+- **OWZ11**, [primary author PDF](https://www.cs.cmu.edu/~odonnell/papers/fei.pdf),
+  Section 1.2 and Theorems 1--3. Tensorization and removal of an o(n)
+  additive error are already established there. The d-part-symmetric
+  bound is `12.04+log2 d`; applying it to the recursive construction's
+  physical leaf blocks retains an unbounded part count. Read-once decision
+  trees have the stated separate 4.88 bound.
+- **OT13**, [primary author PDF](https://www.cs.cmu.edu/~odonnell/papers/fei-composition.pdf),
+  Theorems 1--3 and FEI+ definition. A composition uses one Boolean output
+  per disjoint physical child block and a biased corrected-entropy
+  hypothesis for the outer gate. It does not permit an uncharged extra
+  all-marked flag, nor does a uniform-input child FEI bound imply every
+  needed biased outer bound.
+- **WWW14:** Andrew Wan, John Wright and Chenggang Wu, *Decision trees,
+  protocols, and the entropy-influence conjecture*,
+  [primary author PDF](https://www.cs.cmu.edu/~jswright/papers/readk.pdf),
+  Theorem 1.1 and Section 2. The bound `H<=9kI` uses k occurrences of each
+  variable in the entire decision tree. It does not mean one read per path
+  in an arbitrary branching program.
+- **ShmaloThreshold26**, [arXiv:2610.16069v1 full HTML](https://arxiv.org/html/2610.16069v1),
+  Theorems B--D, Sections 6--7 and Corollary 7.3. Arbitrary Boolean
+  combinations of m regular functions retain `11.238+3.4log2 m`;
+  the bounded-overlap theorem concerns unions/intersections. The uniform
+  read-once formula theorem admits symmetric threshold and parity gates
+  with arbitrary fan-ins and product biases. It does not automatically
+  cover arbitrary symmetric gates or reused physical variables.
+- **Carlet**, *Boolean Functions for Cryptography and Coding Theory*,
+  [author monograph](https://www.math.univ-paris13.fr/~carlet/book-fcts-Bool-vect-crypt-codes.pdf),
+  Section 2.3, printed page 89. Odd truth-table weight implies nonzero
+  Walsh transform. The completion proof repeats this elementary modulo-four
+  calculation explicitly; novelty is not claimed for the congruence.
+
+The recursive operation needs both a child's sign and its all-marked flag.
+For four leaf activations, the two child signs are encoded by `a OR b`
+and `c OR d`, while the root bit is their XOR further XOR `abcd`.
+Inputs `(1,0,1,1)` and `(1,1,1,1)` have the same child signs and different
+root signs. Thus direct one-output-per-child composition fails on the
+construction tree. This does not prove absence of every alternative known
+representation of the resulting function.
+
+The explicit prefix/bent examples witnessing growing interaction size in
+the directed and affine theorems already belong to the integer flat-packet
+class. Their graphs alone are not evidence of a new FEI class. The new
+mathematical content is the arity-free directed-load payment, the stronger
+integer-tree partition sum and Boolean fair-subspace budget, and the
+point-score invariant closing arbitrary-depth recursion. The special
+one-level two-block family is already a read-once OR of rare events.
+No exhaustive priority certification or noncontainment in every prior
+class is asserted. The exact review scopes are recorded in [VERIFICATION.md](VERIFICATION.md).
+
+
 ## External proof inputs
 
 - **[BM86]** Francisco Barahona and Ali Ridha Mahjoub, *On the cut polytope*,

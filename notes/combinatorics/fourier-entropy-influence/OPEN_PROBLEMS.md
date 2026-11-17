@@ -10,6 +10,23 @@ unbounded degree. The problems below isolate unpaid costs in the present
 proofs. Solving one must not be described as solving general FEI unless
 the additional deduction is supplied.
 
+## Universal FEI and the positive-support reduction
+
+The [full-support completion theorem](positive-support.md) now proves that
+FEI for **all** positive Boolean spectra is equivalent to full FEI with
+exactly the same constant. It uses actual Boolean point modifications,
+not a real-valued perturbation. Thus support zeros are no longer a separate
+logical obstacle to a prospective all-positive theorem. The argument does
+not place the completed function in any restricted graphical or arithmetic
+class, and does not prove either universal statement.
+
+The current uniform constants apply to [directed integer factors](directed-factors.md),
+[affine forests](affine-forests.md), and [marked-set recursive constructions](marked-set-closure.md).
+Their hypotheses allow unbounded interaction size. What remains missing
+is a representation or structural payment for arbitrary Boolean spectra.
+Putting the whole law in one positive factor does not meet the directed
+condition automatically.
+
 ## Positive pairwise spectra of treewidth two
 
 The dimension-independent FEI target for positive width-two laws is now
@@ -37,10 +54,83 @@ explicit diverging family in this class. The proved constant is
 $`O(4^{w+1}/(w+1)+\log(w+2))`$ at width $`w`$.
 
 Positive integer factors of any fixed arity already give a constant even when their
-factor graph has unbounded treewidth. The missing step is a bounded-load
-integer representation, or a different paid entropy inequality, for
-arbitrary Boolean Walsh tensors. Grouping a large bag into one factor
+factor graph has unbounded treewidth. The missing step is a paid
+representation, or a different entropy inequality, for arbitrary Boolean
+Walsh tensors. The new directed theorem replaces arity by a statewise
+decrease count; the new affine and recursive theorems use different
+structure. No one of these hypotheses is proved for arbitrary laws. Grouping a large bag into one factor
 retains its arity cost; it does not give a dimension-independent theorem.
+
+## Barriers and more precise next mechanisms
+
+The [directed-load obstruction](directed-factors.md) disproves a universal
+cheap integer gauge into factors with a fixed decrease count. For the
+$`n`$-bit rare-point law, every such factorization with count at most $`r`$
+requires
+
+```math
+\log_2K\ge(n/r-1)\log_2(2^{n-1}-1)-1,
+```
+
+while influence is $`n2^{1-n}`$. One reduced coefficient repairs that
+particular family, but a product of two $`m`$-bit rare-point phases requires
+changes at all $`2m`$ singleton spectral states before a one-decrease core
+can become possible. A paid multiblock repair must account for the joint
+signed sections and denominator; counting or discarding their labels is
+insufficient.
+
+The [marked-set closure](marked-set-closure.md) now pays every fixed
+$`q\ge2`$ with one constant, including all pair terms and shared marked
+edges. The [rare-leaf improvement](marked-rare-leaves.md) retains sharp
+constant four across all $`q`$. Thus “more than one marked point” is no
+longer the missing step. The concrete boundary is **collision of projected
+marks or overlap of physical blocks**: these destroy the product cancellation
+or geometric margin. Prove a paid collision term, or find a different
+representation with a summable signed score. Arbitrary repeated flips and
+changing $`q`$ inside a construction remain unproved. Allowing arbitrary
+leaves would merely assume the missing FEI bound at the leaves.
+
+The [approximation barriers](approximation-barriers.md) rule out two cheap
+repairs. For the stated two-mark family with $`m=2^n`$ blocks, influence is
+$`2n`$, while ordinary nonnegative coordinate-subcube cost is at least
+$`3(2^n-1)/8`$ and, for every fixed $`0\le\epsilon\lt1`$,
+
+```math
+\log_2\bigl(1+\|\widehat G\|_{1,\epsilon}\bigr)
+=\Theta_\epsilon(2^n).
+```
+
+The natural signed correction fails the exact Gram-domination assumptions
+of the imported entropy theorem; the orthogonal repair is valid but costly.
+These are obstructions to the stated conversions, not to affine parity
+certificates, mean-square approximations or all interpolation mechanisms.
+
+The [affine proof](affine-forests.md) supplies a fixed fair-direction
+fraction for positive Boolean forests. The unrestricted cyclic extension
+is false: the [four-cycle energy](cyclic-obstruction.md) has
+$`Z=40\lt2\cdot5^2`$. Its odd denominator proves it is not a Boolean Fourier
+law; independent fair padding cannot repair it. A cyclic theorem must use
+additional Boolean arithmetic or supply a different invariant. A rare-point
+law has a unique largest atom and no nonzero translation period, so no
+affine change puts it in the positive-forest class. This explains why the
+affine and point mechanisms are complementary.
+
+## Absorption still fails after removing the dominant atom
+
+The [stronger Boolean obstruction](positive-support.md) has
+
+```math
+ N=n^2 2^{n-1},\qquad I=n^2,\qquad
+ |\mathbb Ef|\le e^{-n},\qquad\max_Sp_f(S)\le e^{-2n},
+```
+
+and nevertheless $`D_2(p_f\Vert U_N)/N\to1`$ and $`L_f/N\to1`$.
+Conditioning on the nonempty spectrum preserves these limits. A single
+further point modification makes the minimal positive graph complete and
+forces factor arity $`N`$, without changing the contradiction to any fixed
+$`D\le\eta L+BI`$, $`\eta<1`$. These examples satisfy $`H\le4I`$.
+Near balance, small maximum atom and connectedness therefore do not repair
+that particular invariant. A different Boolean-sensitive quantity is needed.
 
 ## Uniform absorption fails near constants
 
