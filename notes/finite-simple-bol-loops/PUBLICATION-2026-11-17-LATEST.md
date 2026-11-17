@@ -16,7 +16,7 @@ These expositions organize the new proofs by mathematical result rather than dev
 
 ## Frozen source boundary
 
-This batch synchronizes all 77 changed classification artifacts between `80d2ceba5672716d34068266d4966147235f31d5` and `bb5a92abe1c4963c1218fbea4508987a9e88c118`, a 68-commit source interval. The per-file [source map](classification-source-map.json) preserves older pins for unchanged dependencies and records source and edited-public SHA-256 values. The boundary includes explicitly pending work and must not be read as blanket acceptance. Later moving-source commits are not silently included.
+This batch synchronizes all 77 changed classification artifacts between `80d2ceba5672716d34068266d4966147235f31d5` and `819ca88ac5b5c14369d2194a0c6ace6429a99a55`, a 69-commit source interval. The per-file [source map](classification-source-map.json) preserves older pins for unchanged dependencies and records source and edited-public SHA-256 values. The boundary includes explicitly pending work and must not be read as blanket acceptance. Later moving-source commits are not silently included.
 
 The earlier [publication](PUBLICATION-2026-11-17.md) remains the record of its own checkpoint. Claims 0092 and 0093 retain their existing graph/decomposition identities; this batch allocates 0094–0099. It does not import the restricted graph-reconstruction successor.
 
@@ -26,7 +26,7 @@ Each source retains its actual exact-source model-review records, imported class
 
 Most importantly, the historical many-factor symplectic source dispatch has unverified global coverage. Earlier global acceptances were withdrawn. The corrected Sp₆(4) row, additional induction conflict, and local deductions remain distinguishable. Direct original-stabilizer and binary full-socle proofs do not constitute acceptance of that withdrawn induction. The A₉/S₉ solvable-factor correction is included.
 
-The odd-kernel stabilizer-orbit theorem has recorded review at `8c35369a08f93f123b7a86c9dd1e91ef0c5e3be3`. The distinct elementary odd-layer lift parameterization and paired affine factor-exchange exhaustion have two exact-source model reviews each at `e8644c4779fe3ad9cc03c69f97d2ac8071a95a05`. The later all-inversions odd-field affine manuscript remains proposed with independent review pending.
+The odd-kernel stabilizer-orbit theorem has recorded review at `8c35369a08f93f123b7a86c9dd1e91ef0c5e3be3`. The distinct elementary odd-layer lift parameterization and paired affine factor-exchange exhaustion have two exact-source model reviews each at `e8644c4779fe3ad9cc03c69f97d2ac8071a95a05`. The all-inversions odd-field affine theorem received two scoped model mathematical reviews at `bb5a92abe1c4963c1218fbea4508987a9e88c118`; their records are synchronized through `819ca88ac5b5c14369d2194a0c6ace6429a99a55`. The characteristic-two factor-preserving branch remains open.
 
 ## Checks and limits
 

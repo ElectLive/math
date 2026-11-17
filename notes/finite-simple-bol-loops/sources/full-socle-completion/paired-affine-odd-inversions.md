@@ -1,6 +1,6 @@
 # All inversions for the odd-field affine square
 
-**Proposed extension of [0323:C0010](../foundations/research-C0010.md).** For every odd prime power q≥5, every finite simple proper left Bol loop whose canonical left multiplication group is abstractly ASL₂(q)² belongs to the [root-graph classification](../odd-completion/nonbruck-root-graph-parameters.md). No inversion or stabilizer type is prescribed. The converse and isomorphism criterion are those of the [paired affine theorem](paired-affine-swap-exhaustion.md), independently reviewed at `e8644c4779fe3ad9cc03c69f97d2ac8071a95a05`, conditional on its pinned canonical-folder, construction and isomorphism inputs. The field has odd characteristic, although the loops in the theorem have even order.
+**Independently reviewed extension of [0323:C0010](../foundations/research-C0010.md).** For every odd prime power q≥5, every finite simple proper left Bol loop whose canonical left multiplication group is abstractly ASL₂(q)² belongs to the [root-graph classification](../odd-completion/nonbruck-root-graph-parameters.md). No inversion or stabilizer type is prescribed. The converse and isomorphism criterion are those of the [paired affine theorem](paired-affine-swap-exhaustion.md), independently reviewed at `e8644c4779fe3ad9cc03c69f97d2ac8071a95a05`, conditional on its pinned canonical-folder, construction and isomorphism inputs. The field has odd characteristic, although the loops in the theorem have even order.
 
 Put k=F_q, p=char k, V=k², A=SL₂(q) and X=V⋊A. If q is a square, σ denotes the field involution and k₀ its fixed field. The new obligation is to rule out factor-preserving canonical inversion.
 
@@ -54,4 +54,6 @@ Represent affine elements as `(v,a)` with `(v,a)(w,b)=(v+aw,ab)`. To show `S²=X
 
 Since Λ is the entire product of the two classes, K⁻¹K=Λ²=S²×S²=G. Collision-freeness gives H=1, impossible by the positive centralizer orders above. This excludes both reflection actions. The factor-permutation result leaves only exchange, so the reviewed affine-swap exhaustion gives the claimed classification.
 
-Independent review of these odd-field deductions is pending. The argument is algebraic and requires no search over loop orders. Factor-preserving automorphisms in characteristic two require separate analysis.
+## Independent mathematical review
+
+GPT-6.1 Terra reviewers contributor 1 and contributor 2 independently accepted the new deductions at source `bb5a92abe1c4963c1218fbea4508987a9e88c118`. Both checked the automorphism calculation for non-prime fields, the field descent and determinant adjustment, the coordinate and class arguments, the p-part obstruction and the affine reversal calculation, including its unipotent case. The reviews are conditional on the linked original-folder and paired affine inputs. Neither reviewer repeated the upstream construction and isomorphism proofs or used a finite census. The characteristic-two factor-preserving branch remains open.

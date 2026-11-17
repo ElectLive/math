@@ -48,4 +48,4 @@ The source gives the exact **pointed** isomorphisms carrying the chosen layer to
 
 ## Remaining classification
 
-The [factor-swapping affine-square theorem](0099-affine-square-factor-exchange.md) gives a separate operation classification. A further all-inversions assertion for odd fields is proposed, not accepted at this boundary. General even non-Bruck operations, unbounded extension data and unpointed isomorphism orbits remain open.
+The [factor-swapping affine-square theorem](0099-affine-square-factor-exchange.md) gives a separate operation classification. The further all-inversions theorem for odd fields now also has scoped model review. General even non-Bruck operations, unbounded extension data and unpointed isomorphism orbits remain open.

@@ -1,7 +1,7 @@
 {
   "schema": 3,
   "purpose": "Mixed-history public dependency map. Top-level revision is latest synchronized source, including expressly pending proposals; it is not a blanket acceptance. Per-file revisions retain earlier unchanged sources.",
-  "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+  "source_revision": "819ca88ac5b5c14369d2194a0c6ace6429a99a55",
   "files": [
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/classical-nondegenerate-subspaces.md",
@@ -6001,8 +6001,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/PROBLEM.md",
-      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
-      "source_sha256": "79b085d4ed4d9aab51889713e788441386ecc8ae93644b921012246e573e2a22",
+      "source_revision": "819ca88ac5b5c14369d2194a0c6ace6429a99a55",
+      "source_sha256": "c351e460b784a39d95330cbb0f35532c6d69cc031be47f403ef2dd5cf35fad23",
       "historical_revisions": [
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
@@ -6222,18 +6222,19 @@
         "fa462cdffd3082b37b0f100ea7e0364a97832473",
         "feaf33e8b9f2725ac9b835a49dca95de4332171d",
         "47b07688a82d3df93f537946fe0780112200383b",
-        "80d2ceba5672716d34068266d4966147235f31d5"
+        "80d2ceba5672716d34068266d4966147235f31d5",
+        "bb5a92abe1c4963c1218fbea4508987a9e88c118"
       ],
       "public_path": "sources/foundations/problem-contract.md",
-      "public_sha256": "5d0bfb0404180666295258f81e9e71dfd7932aaf342aeb72ce38b5b35fc259c4",
+      "public_sha256": "979862efb317b6cb2e9bcbef95a6a73532be3e9b6827b8a5d4fc22f16dc37846",
       "claim_family": "",
       "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/OPEN_PROBLEMS.md",
-      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
-      "source_sha256": "038be4db0d4afb0ae019f06a0c1eff683312cd1d2acd2dc8b6575841d2fd1e1d",
+      "source_revision": "819ca88ac5b5c14369d2194a0c6ace6429a99a55",
+      "source_sha256": "88feca718f880e398ce9a1a2ed968ff879c4691826336ecfe75335b7a2615649",
       "historical_revisions": [
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
@@ -6419,10 +6420,11 @@
         "fa462cdffd3082b37b0f100ea7e0364a97832473",
         "feaf33e8b9f2725ac9b835a49dca95de4332171d",
         "47b07688a82d3df93f537946fe0780112200383b",
-        "80d2ceba5672716d34068266d4966147235f31d5"
+        "80d2ceba5672716d34068266d4966147235f31d5",
+        "bb5a92abe1c4963c1218fbea4508987a9e88c118"
       ],
       "public_path": "sources/foundations/research-frontier.md",
-      "public_sha256": "ba39559947686cbe0e5d47842e7b957333dc246f4355e458018a396ccc2e9cb7",
+      "public_sha256": "38ec8af430936e5d84026ebf6a6007ca6d952cdee7dd2846d40149470d0bc11a",
       "claim_family": "",
       "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
@@ -6446,8 +6448,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/README.md",
-      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
-      "source_sha256": "72e8bc1c2558a3b9f41443722cd345c8545518bd3f2d0ef1d1716ee7a76e257d",
+      "source_revision": "819ca88ac5b5c14369d2194a0c6ace6429a99a55",
+      "source_sha256": "03f8cc1ca0c1023ac401521e48e9d4d472ef39e2b3a7070fe17b68479ff73813",
       "historical_revisions": [
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
@@ -6571,10 +6573,11 @@
         "f831fb7a9cc3c1f90c2b32b94e002b5e6d06a413",
         "f86624c05f531304f76d6bc69aa0f0b1dc73759e",
         "47b07688a82d3df93f537946fe0780112200383b",
-        "80d2ceba5672716d34068266d4966147235f31d5"
+        "80d2ceba5672716d34068266d4966147235f31d5",
+        "bb5a92abe1c4963c1218fbea4508987a9e88c118"
       ],
       "public_path": "sources/foundations/research-overview.md",
-      "public_sha256": "0beda49249911f620a3450b129d5ab158ec4b786fbb81f61f8a5a5edb06090b2",
+      "public_sha256": "fa4fbd0bef817e31a0f42ba0b7670d7eb61a864fd96cbae2bf229567a61f8208",
       "claim_family": "",
       "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
@@ -7622,11 +7625,13 @@
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/paired-affine-odd-inversions.md",
       "public_path": "sources/full-socle-completion/paired-affine-odd-inversions.md",
-      "historical_revisions": [],
+      "historical_revisions": [
+        "bb5a92abe1c4963c1218fbea4508987a9e88c118"
+      ],
       "claim_family": "",
-      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
-      "source_sha256": "4d4526ea3e823e790defd04920fd2d2c9789b9f629cc74a399d70045dbebc6b0",
-      "public_sha256": "9d78cbdea011eb02c8c545b272327b5ac0ad6668033260934541f33126ba059c",
+      "source_revision": "819ca88ac5b5c14369d2194a0c6ace6429a99a55",
+      "source_sha256": "f74a1697398dc61016af5d1e7e4ead7f6b9bca35e124f6a614cc004e72d8e6e0",
+      "public_sha256": "647a1a5577f776ffa8cafc9346f722129f27160522cf0d286cf81adfd7c2ff3f",
       "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
     }
   ]
