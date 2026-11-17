@@ -1,0 +1,115 @@
+{
+  "publication": "deliberate completed checkpoint",
+  "files": [
+    {
+      "source_path": "manuscripts/bruck-extension-decomposition.md",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "d2c472c21ed343c28aef47ac84bb42869cabd2ab",
+      "source_sha256": "08db9198adae2eaa9653510b4aa9c54d87a807beeb474b692041e278261fa6d9",
+      "public_path": "manuscripts/bruck-extension-decomposition.md",
+      "public_sha256": "70c06375a62f5af4a9f64c48ea7a8b1ca19ca440801f12972417028b08ec2648",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "manuscripts/loop-deletion-decks.md",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "6774d7a9b58804615b282cf22366fb1820747d56",
+      "source_sha256": "9b63819dc18109f76662d564f65c505eefb7cbbccd6729b4e4e4cdf37ccb92a9",
+      "public_path": "manuscripts/loop-deletion-decks.md",
+      "public_sha256": "46a22aab7505dffbb98e5fb240903fcaa0914f2aeb190c02dba6fa8aacab7e43",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "manuscripts/loop-deck-subloop-census.md",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "bdb728ba86514f72c44123bb7b58f488483ddc1a",
+      "source_sha256": "e3a3d368e1ff0dde6fd91802526d6c9927d5b0caf7f3bddabfa5c87543f259e6",
+      "public_path": "manuscripts/loop-deck-subloop-census.md",
+      "public_sha256": "1f7104de1ba476d884ef9d52d1d41a9c7b42fa5010f6b4a59e10ddb673e99aa5",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "manuscripts/loop-defect-graphs.md",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "e7ce6da60433120f66c587c75588c85c089ef2ce",
+      "source_sha256": "37467525dd294bd9b1a7270818a06ac256a70586fc1e69268e9dcda8af437af5",
+      "public_path": "manuscripts/loop-defect-graphs.md",
+      "public_sha256": "2a2fa548a46964597a772144253b14fb5ba37d0e439f9d4c79ddcbb2bc7c0ca8",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "code/check_bruck_decomposition.py",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "f54f7bc6e778fc2209d98bda43613bd6b2bd1fba",
+      "source_sha256": "3bcdbe48a2147c8708f94820292e0382407fcbab8381384269612f8b8a063248",
+      "public_path": "code/check_bruck_decomposition.py",
+      "public_sha256": "3bcdbe48a2147c8708f94820292e0382407fcbab8381384269612f8b8a063248",
+      "executable_bytes_unchanged": true
+    },
+    {
+      "source_path": "code/check_loop_deletion_decks.py",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "5610ef825f4af9bb551acbdbc708faf999a135b5",
+      "source_sha256": "b1e7354852ca566da9c83f4ee7d9b3cd85fb2e0a9e7071251fbf492b01697bc6",
+      "public_path": "code/check_loop_deletion_decks.py",
+      "public_sha256": "b1e7354852ca566da9c83f4ee7d9b3cd85fb2e0a9e7071251fbf492b01697bc6",
+      "executable_bytes_unchanged": true
+    },
+    {
+      "source_path": "code/check_loop_deck_census.py",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "905d0026b986dd4e6a5c5eed3e661ea7bc982d14",
+      "source_sha256": "af5452f3d9bd7f5d96add27e3c9e50d5e947b61e0741f94c34d262b8aae8980b",
+      "public_path": "code/check_loop_deck_census.py",
+      "public_sha256": "af5452f3d9bd7f5d96add27e3c9e50d5e947b61e0741f94c34d262b8aae8980b",
+      "executable_bytes_unchanged": true
+    },
+    {
+      "source_path": "code/check_loop_defect_graphs.py",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "0c973ee651ecfac7cd331c2d96c9f4980a24a5d1",
+      "source_sha256": "804b0152cf09ddf3978d5ec6ec05199b3d756745feaf9cf5cb1254ec2953b241",
+      "public_path": "code/check_loop_defect_graphs.py",
+      "public_sha256": "804b0152cf09ddf3978d5ec6ec05199b3d756745feaf9cf5cb1254ec2953b241",
+      "executable_bytes_unchanged": true
+    },
+    {
+      "source_path": "REFERENCES.md",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "80663d33edf98aeb3510fe34843013d0fd14dac1",
+      "source_sha256": "7972219bf584d853a6e8b1943141554108a1516e34c20ba5a393a96cbe36becd",
+      "public_path": "REFERENCES.md",
+      "public_sha256": "449d4776b6a22b254876153cff212be754c96a8d98d326ff63412da7d703cff6",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "code/README.md",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "9b85f7ac6c49efcc49d27ac7530f639ae7834214",
+      "source_sha256": "009dc578453251bbae3559d6a36323d41f4b12c8b520ba5c2d1fb80de82e5d3d",
+      "public_path": "code/README.md",
+      "public_sha256": "f87b6eaa76252044145d6380362251d58f6613321c2be004bb17482a4c4f803d",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "evidence/loop-decomposition-review.md",
+      "source_delivery": "d4e65d9a75e6e4c58539b5b6658c438e1d402155",
+      "reviewed_science": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b",
+      "source_git_blob": "9c78107101aa027ff5d81633bb6caa5551ea8222",
+      "source_sha256": "326f1143ac1d2e460c222b7fd122753a55f4d0dad0939c6c98ef4fa91a3008d5",
+      "public_path": "evidence/loop-decomposition-review.md",
+      "public_sha256": "9cd3e02ffc341415bc8af3fa51787ddc87be5ab833b3c8145706e73b3f3d69c5",
+      "executable_bytes_unchanged": false
+    }
+  ]
+}

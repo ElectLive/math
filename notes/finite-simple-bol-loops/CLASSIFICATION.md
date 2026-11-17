@@ -1,5 +1,7 @@
 # Classification coverage index
 
+**Central extension family, separate from full-socle exclusions:** [0093](loop-decomposition/README.md) gives intrinsic direct-factor types for finite prime-exponent Bruck loops with central trilinear associators. It does not classify arbitrary extensions or nonassociative simple loops. [0092](graph-loops/README.md) gives graph-native construction and recovery, not simple-loop exhaustion.
+
 ## Current full-multiplication-socle coverage
 
 This table concerns M=Mlt(L), not the canonical G used in older parameterization tables. Every “excluded” or “reduced” label is conditional on the linked source inputs and recorded review scope.

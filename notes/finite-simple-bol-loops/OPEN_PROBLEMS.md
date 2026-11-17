@@ -1,5 +1,9 @@
 # Open problems
 
+## Intrinsic deck alignment and extension gluing
+
+For the [recognized graphical Bruck family](loop-decomposition/README.md), derive compatible domain/output alignments and central intersections from the unaligned abstract-card multiset, or prove parent uniqueness without reconstructing them. This is the remaining reconstruction conjecture, not a consequence of classifying simple factors. A central-amalgamation obstruction defeats naive gluing in a broader family, but has different parent orders; the same-order enlarged-family problem remains open. Extending direct decomposition beyond prime exponent, central associators and trilinearity is a separate target.
+
 ## Graph-native extension questions
 
 The [completed graph construction](graph-loops/README.md) leaves unmarked directed/color recovery over finite rings open. Determine the intrinsic data required to recover those richer inputs, or give an explicit obstruction. The ordinary-graph theorem is completed within its established dependencies; its subloop-count invariant deliberately loses information. A wider priority audit is separate from those mathematical conclusions.

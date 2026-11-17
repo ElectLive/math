@@ -1,5 +1,7 @@
 # Results
 
+**Decomposition checkpoint:** [Central Bruck factors and intrinsic deletion decks](loop-decomposition/README.md). Prime-exponent central/trilinear decomposition is proved; graphical deck reconstruction is equivalent to graph reconstruction, not solved.
+
 **Graph-native construction checkpoint:** [Bruck/Moufang loops and associative-subloop structure](graph-loops/README.md), with unmarked ordinary-graph recovery, marked color limits and complete proof sources. This does not solve graph reconstruction or simple-loop classification.
 
 ## Reviewed full-socle checkpoint, 17 November 2026

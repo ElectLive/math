@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0093",
+  "next_id": "0094",
   "manuscripts": [
     {
       "id": "0053",
@@ -2180,6 +2180,30 @@
       "source": "graph-loops/manuscripts/graph-cubic-loops.md",
       "group": "graph-native-loops",
       "source_revision": "9059767c0ef28809bbe17de8a71ba0a8b11d0485"
+    },
+    {
+      "id": "0093",
+      "source": "loop-decomposition/manuscripts/loop-defect-graphs.md",
+      "group": "loop-decomposition-decks",
+      "source_revision": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b"
+    },
+    {
+      "id": "0093",
+      "source": "loop-decomposition/manuscripts/bruck-extension-decomposition.md",
+      "group": "loop-decomposition-decks",
+      "source_revision": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b"
+    },
+    {
+      "id": "0093",
+      "source": "loop-decomposition/manuscripts/loop-deletion-decks.md",
+      "group": "loop-decomposition-decks",
+      "source_revision": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b"
+    },
+    {
+      "id": "0093",
+      "source": "loop-decomposition/manuscripts/loop-deck-subloop-census.md",
+      "group": "loop-decomposition-decks",
+      "source_revision": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b"
     }
   ]
 }
