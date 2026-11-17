@@ -1,5 +1,18 @@
 # Results
 
+## Reviewed full-socle checkpoint, 17 November 2026
+
+The newest completed publication advances whole full-multiplication-group families, not just isolated canonical groups. All conclusions retain their explicit canonical, classification, embedding and finite-data inputs. The unrestricted classification and the surviving natural-action loop operations remain open.
+
+- [0087: Alternating full socles force the natural action](manuscripts/0087-alternating-natural-full-action.md), without assuming solvable LMlt.
+- [0088: All 26 sporadic full socles excluded](manuscripts/0088-sporadic-full-socle-exclusion.md).
+- [0089: PSL₂ and odd-dimensional PSL/PSU full socles excluded](manuscripts/0089-classical-full-socle-exclusions.md).
+- [0090: Exceptional full-socle exclusions](manuscripts/0090-exceptional-full-socle-exclusions.md), including all F₄ and G₂.
+- [0091: Odd-kernel collision lifting and canonical center constraints](manuscripts/0091-original-mark-collision-tools.md).
+
+The [publication record](PUBLICATION-2026-11-17.md) fixes the completed source boundary, correction history, checks and remaining gaps. Later E₆/²E₆ and odd-E₇ work is not included. Earlier dated status passages below are historical where superseded by this checkpoint.
+
+
 The project seeks a classification of finite simple Bol loops up to isomorphism. Its results fall into three groups: **examples that enlarge the landscape**, **classifications of defined subclasses**, and **structural restrictions on the remaining cases**. The unrestricted classification remains open.
 
 The statements below describe the project's manuscripts. They are research proof drafts, not human-refereed or formally verified results. Some assemblies still depend on unpublished supporting arguments. The linked proofs state their hypotheses and limitations; [verification status](VERIFICATION.md) and the [dependency audit](COVERAGE_AUDIT.md) explain the remaining gaps.
@@ -16,7 +29,7 @@ The current source collection adds a conditional **natural alternating full mult
 - [0085: Exclusion of the specified two-N Bruck branch](manuscripts/0085-two-n-bruck-exclusion.md).
 - [0086: Frobenius models and proper-coordinate residuals](manuscripts/0086-frobenius-and-stable-actions.md).
 
-The later all-PSL₂ canonical-overgroup and full-socle exclusions remain proposed at the synchronized checkpoint; they are not promoted here to reviewed results. See [publication scope and verification](CLASSIFICATION_SYNC.md).
+The earlier pending all-PSL₂ status is superseded by the reviewed [classical full-socle checkpoint](manuscripts/0089-classical-full-socle-exclusions.md).
 
 ## 1. Examples that change the classification problem
 

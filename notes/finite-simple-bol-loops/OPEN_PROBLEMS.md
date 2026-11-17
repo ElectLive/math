@@ -1,8 +1,17 @@
 # Open problems
 
-## Updated boundary
+## Updated boundary, 17 November 2026
 
-The [current classification checkpoint](CLASSIFICATION_SYNC.md) closes the odd full-multiplication action question under its stated inputs and determines the full action when LMlt is solvable. The operation-level classification of the remaining natural alternating/symmetric models is still open. The specified two-N Bruck branch is excluded, not all Bruck radicals. Latest all-PSL₂ continuation sections remain proposed at this checkpoint. Use the [complete source frontier](sources/foundations/research-frontier.md) for the detailed current obligations; older topic descriptions below do not override these updated results.
+The [completed full-socle checkpoint](PUBLICATION-2026-11-17.md) supersedes earlier pending PSL₂, odd-dimensional linear/unitary, sporadic and F₄ full-socle targets. Its scope is summarized in the [classification index](CLASSIFICATION.md). These closures do not classify operations or every canonical extension.
+
+The current structural targets are:
+
+1. **Remaining full socles:** prove exclusions or construct genuine canonical folders for E₆/²E₆, odd-characteristic E₇, and the remaining even-dimensional linear/unitary, symplectic and orthogonal families. Actual factor orientations, outer extensions and embeddings must be handled; an exact canonical-group exclusion alone does not exhaust them.
+2. **Natural alternating operations:** determine which Bol multiplications can realize the surviving natural A_m/S_m full actions, m≥24, and give construction/exhaustion plus isomorphism criteria. Full-action double transitivity is not an operation classification.
+3. **Radicals and extension/gluing data:** retain the original selected marks and stabilizer when passing to components or quotients. The new odd-kernel collision lemma transports only specified involution collisions, not a complete quotient folder or extension theorem.
+4. **Previously parameterized families:** finish the admissibility/isomorphism-orbit and nonsurjective/outer-action boundaries where those hypotheses remain in the original parameterizations; no claim here declares every A₅-based loop classified.
+
+The [detailed source frontier](sources/foundations/research-frontier.md) preserves earlier proof-stage obligations and exact source scope. Superseded historical passages below do not reopen the completed full-socle families.
 
 # Open problems in the classification of finite simple Bol loops
 

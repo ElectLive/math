@@ -1,5 +1,19 @@
 # Classification coverage index
 
+## Current full-multiplication-socle coverage
+
+This table concerns M=Mlt(L), not the canonical G used in older parameterization tables. Every “excluded” or “reduced” label is conditional on the linked source inputs and recorded review scope.
+
+| Soc(M) family | Completed result | Remaining boundary |
+| --- | --- | --- |
+| Alternating | [Natural A_m/S_m action, m=|L|≥24](manuscripts/0087-alternating-natural-full-action.md), no solvable-G assumption | Operations and existence not classified |
+| All 26 sporadic groups | [Excluded](manuscripts/0088-sporadic-full-socle-exclusion.md) | Not a statement about arbitrary sporadic sections or the earlier paired construction |
+| PSL₂; odd-dimensional PSL and PSU | [Excluded for the stated simple parameters](manuscripts/0089-classical-full-socle-exclusions.md) | No general even-dimensional conclusion |
+| Suzuki, small Ree, G₂, F₄, E₈, ³D₄, even-characteristic E₇, large Ree and Tits | [Excluded for the exact parameter ranges](manuscripts/0090-exceptional-full-socle-exclusions.md) | E₆/²E₆, odd-characteristic E₇ and remaining classical families stay open |
+
+The earlier canonical-group tables remain useful but are not a disjoint partition of these full-group families. Their historical pending PSL₂ and odd-dimensional residual labels are superseded by this table; their distinct extension/operation questions are not automatically settled.
+
+
 This is the family-by-family index of **what has been classified, what has only been reduced, and what remains open** in the finite simple Bol-loop programme. It complements the [results overview](RESULTS.md), [claim catalogue](CLAIMS.md) and [open-problems board](OPEN_PROBLEMS.md).
 
 **The unrestricted classification remains open. In particular, “all A₅-based loops are classified” is not a conclusion of the current work.** A theorem about an exact canonical group does not classify every group with the same socle, composition factors or quotient.

@@ -1,5 +1,7 @@
 # Evidence and publication policy
 
+**Latest completed batch:** [17 November full-socle publication](PUBLICATION-2026-11-17.md). The dated checks below describe the earlier mirror, not this later batch.
+
 The public workspace distinguishes:
 
 - **Classical imported theorem:** an existing published result, with exact locator.

@@ -1,5 +1,18 @@
 # Finite simple Bol loops
 
+## Reviewed full-socle checkpoint, 17 November 2026
+
+The newest completed publication advances whole full-multiplication-group families, not just isolated canonical groups. All conclusions retain their explicit canonical, classification, embedding and finite-data inputs. The unrestricted classification and the surviving natural-action loop operations remain open.
+
+- [0087: Alternating full socles force the natural action](manuscripts/0087-alternating-natural-full-action.md), without assuming solvable LMlt.
+- [0088: All 26 sporadic full socles excluded](manuscripts/0088-sporadic-full-socle-exclusion.md).
+- [0089: PSL₂ and odd-dimensional PSL/PSU full socles excluded](manuscripts/0089-classical-full-socle-exclusions.md).
+- [0090: Exceptional full-socle exclusions](manuscripts/0090-exceptional-full-socle-exclusions.md), including all F₄ and G₂.
+- [0091: Odd-kernel collision lifting and canonical center constraints](manuscripts/0091-original-mark-collision-tools.md).
+
+The [publication record](PUBLICATION-2026-11-17.md) fixes the completed source boundary, correction history, checks and remaining gaps. Later E₆/²E₆ and odd-E₇ work is not included. Earlier dated status passages below are historical where superseded by this checkpoint.
+
+
 This research aims at a structural classification
 of **all finite simple Bol loops up to isomorphism**. The goal is to identify the
 families and exceptional cases, prove that they exhaust the possibilities, and

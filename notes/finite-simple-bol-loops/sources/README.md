@@ -271,3 +271,19 @@ Complete classification proof sources and dependencies for the current synchroni
 | [An actual-lift residual for two N Frattini factors](bruck-completion/bruck-two-n-cross-residual.md) | [0053](../CLAIMS.md) |
 | [Fixed-plane and socle incidence in the two-N shadow](bruck-completion/bruck-two-n-shadow-incidence.md) | [0085](../CLAIMS.md) |
 | [Excluding the two-N, two-U P₆ shadow](bruck-completion/bruck-two-n-two-u-exclusion.md) | [0070](../CLAIMS.md) |
+
+## Full-socle completion
+
+[Public theorem statements and source boundary](../PUBLICATION-2026-11-17.md).
+
+- [Alternating full actions: finite homogeneous exclusions](full-socle-completion/alternating-finite-homogeneous-exclusion.md)
+- [Large alternating full socles have the natural action](full-socle-completion/alternating-full-action-reduction.md)
+- [Exceptional socles and field-involution collisions](full-socle-completion/exceptional-field-involution-exclusions.md)
+- [Even-characteristic F₄ full multiplication socles](full-socle-completion/f4-even-full-socles.md)
+- [All G₂ full multiplication socles](full-socle-completion/g2-full-socles.md)
+- [G₂(4) as a full multiplication socle](full-socle-completion/g24-full-socle.md)
+- [All odd-dimensional linear full multiplication socles](full-socle-completion/odd-linear-full-socles.md)
+- [Involution collisions lift through odd normal kernels](full-socle-completion/odd-normal-involution-collisions.md)
+- [Excluding every sporadic full multiplication socle](full-socle-completion/sporadic-full-multiplication-exclusion.md)
+- [Suzuki and small Ree full multiplication socles](full-socle-completion/suzuki-small-ree-full-socles.md)
+- [The Tits group as a full multiplication socle](full-socle-completion/tits-full-socle.md)

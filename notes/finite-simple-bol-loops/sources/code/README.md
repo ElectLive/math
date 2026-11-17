@@ -404,3 +404,7 @@ The proposed `verify_sporadic_factor_ranks.g` checks all maximal stabilizer clas
 
 
 The proposed `verify_psl2_small_full_socles.g` supports the [all-PSL2 full-socle exclusion](../odd-completion/nonbruck-almost-simple-radical-bridge.md#proposed-exclusion-of-every-psl2-full-multiplication-socle). Run `gap -q problems/0323-finite-simple-non-moufang-bol-loops/code/verify_psl2_small_full_socles.g` using GAP 4.15.1. It constructs A5, A6, Aut(A6) and all five intermediate groups via the outer V4; checks the nonsolvable maximal A6 types; and excludes maximal indices 30 and 60 in every intermediate group. It uses core group algorithms, no network, stored subgroup tables or uncommitted inputs. These finite assertions are not a standalone loop-classification proof. Independent exact-source review is pending.
+
+## Full-socle checkpoint certificates
+
+[Exact reproduction recipes and recorded limits](REPRODUCING.md). Six new standard-library Python certificates were replayed in the 17 November publication pass; GAP certificates were preserved byte-for-byte but not replayed in this environment.

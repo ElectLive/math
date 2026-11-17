@@ -1,7 +1,7 @@
 {
   "schema": 3,
-  "purpose": "Pinned public classification source/dependency map, not independent certification.",
-  "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
+  "purpose": "Mixed-history public dependency map. Each file records its own source revision; the top-level revision is the newest completed publication checkpoint, not a claim that every file changed there.",
+  "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
   "files": [
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/classical-nondegenerate-subspaces.md",
@@ -158,8 +158,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/nonbruck-almost-simple-radical-bridge.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "e3ad3cbcfae235508f7e3aa7e0437b20e2a506eb70da5217ceb8dcbede980ddf",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "a3f345a6950e64346eaf598ea4c85f94cd1de8b7e12d02735df75113a0dc7e94",
       "historical_revisions": [
         "037cec7af0c10f7daf3172c0dd06e065be868c7b",
         "08e0fbb08fcc9b7da728e2ae6558695992ca2682",
@@ -192,12 +192,15 @@
         "e4eb963d4091f8e3daa5554f3f45b6d610b552a8",
         "e896039d004ff3882621aca115b1a39cc8fed207",
         "f448cb7258d6783674b977534f3b8ff5071ba1c0",
-        "f58660c5f48adf6d9cd3953c89680ca1de095a22"
+        "f58660c5f48adf6d9cd3953c89680ca1de095a22",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/odd-completion/nonbruck-almost-simple-radical-bridge.md",
-      "public_sha256": "fd6d3bdbd1c61bc7341fa155a7949c7a82f35788a24ade060c789d8042919fe1",
+      "public_sha256": "b764fa9c8ee4a5ea5bb34a7abef37f92c13913a99e27aae0919cccb69463c91f",
       "claim_family": "0083",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "source_git_blob": "95e43c4dd062d0bacb85a01e7f5eab0df490119b",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bruck-n-affine-fiber-parity.md",
@@ -2292,20 +2295,23 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-inner-inversion.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "f0e2b9c8982ad580eea3235c70763b45db465b0ab795989e64d812c09eb2107a",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "50ef8e712bb300c512c364304bba6503b6130b530a4f3eff8d1205b1a4a795de",
       "historical_revisions": [
         "17e56bdfb16097218249f42f10e91adcb9f5a4b8",
         "65c54aff108cc70208bf6f7271b1e5cf6a0a76bc",
         "6b719ad3026522f93cd9e0e027ae4027f6ee12df",
         "84eba0ffd4dfab4b6d64853a3131010ad2b945b8",
         "88f2b7c0260426c220b3d5ec4272fed9d7801255",
-        "a49fcc00652e8226ffab4dbc33e9d708ec835f0a"
+        "a49fcc00652e8226ffab4dbc33e9d708ec835f0a",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/odd-completion/radical-free-inner-inversion.md",
-      "public_sha256": "46937de82bb7d1072303fa86d3505cd117deecfa4291e6dbe6675112d261c64c",
+      "public_sha256": "3d1595f449c56fde6515035fe2796bd31c2497ace73d619ba6538a3b6a7e8b27",
       "claim_family": "0072",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "source_git_blob": "a3c479253495fbb3c311c878c5db51e272bdc1b5",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bruck-p6-semisimple-frattini.md",
@@ -2589,8 +2595,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/exact-factorization-criterion.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "ec706a214edb49b1f7a54282499c94c7d6cfd260fa4e7a342db906166448c8a5",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "a948374b62cd79d989b15c0418b39caba6ab1bad2817b565a513a1706cbbed7a",
       "historical_revisions": [
         "17e56bdfb16097218249f42f10e91adcb9f5a4b8",
         "4fb53fc81e05a67022f06c947b05f0aae05987af",
@@ -2605,12 +2611,15 @@
         "d9bc55095490d42e41c359bbb88b67c78f6d4998",
         "e3a39be22fe1390d3717bdeee8f81d82f6817aef",
         "e896039d004ff3882621aca115b1a39cc8fed207",
-        "ea836a5f328d6bc52913aac8fd1841a87072f5f8"
+        "ea836a5f328d6bc52913aac8fd1841a87072f5f8",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/factor-permutation/exact-factorization-criterion.md",
-      "public_sha256": "e0af06acab7d25764a717e2d6bd3f5fe87c4132be158d5f948266c746378608e",
+      "public_sha256": "9680c53d4da625313902fd4ae4511ec66c5cf02a3ac93641380f024f1f9c9c1a",
       "claim_family": "0046",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "source_git_blob": "2804d5b7831b80e7ee92cd42dfcf22f6a6885d33",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bruck-n-central-socle-obstruction.md",
@@ -3720,20 +3729,23 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-three-dimensional-linear-unitary.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "3025732a530df807055a079a586cba4573fdb0a863e7e3b69db420201229861b",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "cc490d1b89f2eedc6a0dbdbc803d788659d899f8cadb0456a14a5403ee1b4bf4",
       "historical_revisions": [
         "6d3a97daa9cf20bbae0416295c8c2374c2cd8ede",
         "88f2b7c0260426c220b3d5ec4272fed9d7801255",
         "932ead5db5f39045e2085caa6b062f6b981b2813",
         "9431ade99316d6bc62efb389492fef385b510b45",
         "b436485f3c07c3413c19b319e51e8c7bc2c3a580",
-        "fa462cdffd3082b37b0f100ea7e0364a97832473"
+        "fa462cdffd3082b37b0f100ea7e0364a97832473",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/factor-permutation/radical-free-three-dimensional-linear-unitary.md",
-      "public_sha256": "66560506324acbda2ddbf45f810c59eab346e9f7f21b40e898705de1817c36dc",
+      "public_sha256": "423b68433a7c9edf8eb9843620ee4301ed94c52a6b91b37fc9ff2d28d1e44d59",
       "claim_family": "0061",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "source_git_blob": "c9fd912ebc2c22c270bc36e63c146f16f2aa5a07",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-a5-abelian-path-parameters.md",
@@ -4006,13 +4018,17 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/proofs/C0007.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "8139cf980679f54fd3051d20ab605688d5e246fb92f16cc3ac21a111f5926d6f",
-      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "63d612bbc1c974f6777d31148a1a910e5456e41cd27e3051a92994db38d53a91",
+      "historical_revisions": [
+        "47b07688a82d3df93f537946fe0780112200383b"
+      ],
       "public_path": "sources/foundations/C0007.md",
-      "public_sha256": "2f5ee60abb93ccef81b8152f4708259e651ad420e15c14a67b333267b6028862",
+      "public_sha256": "529f978afe4af58ae7088cddc0b128362d2bba478ca565fe0f4612bd507ca300",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "source_git_blob": "51a039b218c25033d504cd3d1faf98985a125f42",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/proofs/C0017.md",
@@ -4205,18 +4221,23 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/claims/C0007.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "0deb1208c888c72678a4ba1cdb62a602b51bdc4d7b64ca7a3df49a893e073cf8",
-      "historical_revisions": [],
-      "public_path": "claims/0007.md",
-      "public_sha256": "635badf0ea6019bf2d0725971342eb470863398b474b874dd2e103979419f073",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "d45f3d5977aa21f9766bc52109ef3167371c51066ceac4a54eaadb2c17299a58",
+      "historical_revisions": [
+        "47b07688a82d3df93f537946fe0780112200383b"
+      ],
+      "public_path": "sources/foundations/research-C0007.md",
+      "public_sha256": "1da17d46d9e40605a51f3b9eb6787e8f31d24d367424063164e840f684a54f8d",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "previous_public_path": "claims/0007.md",
+      "source_git_blob": "51a6db3997fe01cdd94d64338cd0a6e73386ad4c",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/claims/C0010.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "2f67b0422245ae739628f4714d30c1e17be7be32cc06d8d8bfaf1653e1dbe019",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "da6d883c72845a72888fcdd540d8ef44a225d663145f00c22533f2fb5dd62992",
       "historical_revisions": [
         "037cec7af0c10f7daf3172c0dd06e065be868c7b",
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
@@ -4456,12 +4477,16 @@
         "f831fb7a9cc3c1f90c2b32b94e002b5e6d06a413",
         "f86624c05f531304f76d6bc69aa0f0b1dc73759e",
         "fa462cdffd3082b37b0f100ea7e0364a97832473",
-        "feaf33e8b9f2725ac9b835a49dca95de4332171d"
+        "feaf33e8b9f2725ac9b835a49dca95de4332171d",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
-      "public_path": "claims/0010.md",
-      "public_sha256": "7cf647cd6b8ebebb74edf307abb6d24a07d2cf4a3d44de47f6d7214fbe7b847a",
+      "public_path": "sources/foundations/research-C0010.md",
+      "public_sha256": "2ae725161b3c405c7d8af70c0d33c850421d06564fb4d32c18b2774d119d51e4",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "previous_public_path": "claims/0010.md",
+      "source_git_blob": "3b6da458e42e260ec506bab3e18a73c0c549b064",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/claims/C0017.md",
@@ -5712,8 +5737,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/README.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "6fefffc4fac3c2a2bef0285c7e2eb1234ed4206587a1884c3baa546664040e39",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "8f4e25070592dc74552b77a4ed22729f107c6f5ddb7500b279c6c5efca8de1b6",
       "historical_revisions": [
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
         "1228403b62d5c6abbf31272ed4cb4e300424e9d9",
@@ -5796,12 +5821,15 @@
         "f448cb7258d6783674b977534f3b8ff5071ba1c0",
         "f557a4f347fcfd010630625038b413f0eccd7449",
         "f6c7e01a4337b51c703b4d9ffc94d3b84a732fe5",
-        "fa462cdffd3082b37b0f100ea7e0364a97832473"
+        "fa462cdffd3082b37b0f100ea7e0364a97832473",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
-      "public_path": "sources/code/README.md",
-      "public_sha256": "56216d87d43818b3dadeb537cab363a547cb26a0528ca09dc96951d5704e8f0e",
+      "public_path": "sources/code/REPRODUCING.md",
+      "public_sha256": "e2137df7ef6116ecdd36a4036086aead1317ac14673fb2b014df6450625e22d4",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged. Added public staging instructions."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged. Added public staging instructions.",
+      "source_git_blob": "3a7807024293afc9c0be3d0a9a07e1690b66e213",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_nonbruck_root_graph.py",
@@ -5945,8 +5973,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/REFERENCES.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "275e7a88d04372b8a02351735cc9f1bd1351f229f8551d7a70d69ff2db8b33bc",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "884d9f4ceebfaa34779c6ae05e103dc08ac7db546dcda2c9b6b1331a5dafea68",
       "historical_revisions": [
         "1dd0e96099fe8f025c2ed416dff108fafc102481",
         "45c50ef70aaab14d396178a5381160f8f95b8de7",
@@ -5958,17 +5986,20 @@
         "850653726c3641fc0c99c3d7f575dcedc0883561",
         "a45a9da3e6de88f7f27c1178314903190b4486b4",
         "e30af949531c0ebcc9f7533b04fc1e7fc6858563",
-        "e898d8a00b1fc97431ad8092b4e51b9217650187"
+        "e898d8a00b1fc97431ad8092b4e51b9217650187",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/foundations/references.md",
-      "public_sha256": "e8bb9063fe73eaf18a9176b77bce1b61505e237a42a5858a9a0af2bb3ea53ee5",
+      "public_sha256": "e1d868ca94dc5cad187519ddff983460a94d4e54b2a8e187eb0dcb6408d2fd44",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "source_git_blob": "819d9aed3dc556f39b8c9e1422b2d3113109d3c8",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/PROBLEM.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "1bc8e133a46005d29d9b4da5af28f239ed18046d2b71a6196c024237ec1e16a9",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "7d8ef509af0c4f67f465f83d73c81156dd5cbed0daf28df709d810ce98cddb70",
       "historical_revisions": [
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
@@ -6186,17 +6217,20 @@
         "f831fb7a9cc3c1f90c2b32b94e002b5e6d06a413",
         "f86624c05f531304f76d6bc69aa0f0b1dc73759e",
         "fa462cdffd3082b37b0f100ea7e0364a97832473",
-        "feaf33e8b9f2725ac9b835a49dca95de4332171d"
+        "feaf33e8b9f2725ac9b835a49dca95de4332171d",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/foundations/problem-contract.md",
-      "public_sha256": "7fcc922ad1855a13a78c35c32038cb9ea68472f22cb6a27ee3f967c3e7ffebcc",
+      "public_sha256": "6e9798a6ae19370d7044d3539d13c6bba90378217a8e356add90c8b0d9ff4041",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "source_git_blob": "025be50a40aba3d7587d812b5d7b204ab0600642",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/OPEN_PROBLEMS.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "41e54d12f1a6c1d856c2675161a5ac036bb5cd6f275003ea691f6cf8dd9b3b14",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "9510e3ff2110f4c8dca0010e4dcb1bb95b47cb526e7026a28878a88ae53b98b1",
       "historical_revisions": [
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
@@ -6380,12 +6414,15 @@
         "f831fb7a9cc3c1f90c2b32b94e002b5e6d06a413",
         "f86624c05f531304f76d6bc69aa0f0b1dc73759e",
         "fa462cdffd3082b37b0f100ea7e0364a97832473",
-        "feaf33e8b9f2725ac9b835a49dca95de4332171d"
+        "feaf33e8b9f2725ac9b835a49dca95de4332171d",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/foundations/research-frontier.md",
-      "public_sha256": "eaacf53c657f24bb31c1b92586973f1e22c60c6fb98b0c3675e738cf3c48dbe8",
+      "public_sha256": "125cd8527497ed6588a45c8ad06cae4f3d159ec722058d70a4f3b3e12cbc0bfe",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "source_git_blob": "2bf233a4af266bf52c315e27018f0ce078d68ee2",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/computational_census.md",
@@ -6406,8 +6443,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/README.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "f3b108aa23d54a8de3548f285c40746187cdff24d480550b1abff3ceb58000fe",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "c235dc458f86014598f2c212086c8e5d4778e8756f4a444ab58781c8586c9082",
       "historical_revisions": [
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
@@ -6529,12 +6566,15 @@
         "f5231586c8dc1d47309e43de496adbffda25e54e",
         "f58660c5f48adf6d9cd3953c89680ca1de095a22",
         "f831fb7a9cc3c1f90c2b32b94e002b5e6d06a413",
-        "f86624c05f531304f76d6bc69aa0f0b1dc73759e"
+        "f86624c05f531304f76d6bc69aa0f0b1dc73759e",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/foundations/research-overview.md",
-      "public_sha256": "087c39fc0f690525775ad07a2f977febde0885a2edb5435f69bf5c733437a31c",
+      "public_sha256": "3f1143000211a81977f2d04ba52f5ff62ceb9d2ce06b4a3328f8c10ddda80a88",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "source_git_blob": "f7a7fb0164e0ba1b67f0e06a41aa0ef7ae1d27e9",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/LOOP_INTAKE.md",
@@ -6545,6 +6585,376 @@
       "public_sha256": "d5813d04c678a5dfedfaaadb71b3956611d7f845d166f3e917bcfecf626d5220",
       "claim_family": "",
       "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_a9_k3_parity_group.g",
+      "public_path": "sources/code/verify_a9_k3_parity_group.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "01bc2855cb64b2b426609442a62c194bdf590ff8d672716d63b8c662c47aaa65",
+      "source_git_blob": "18691969f205376c60dd93d9e6037979994a39d6",
+      "public_sha256": "01bc2855cb64b2b426609442a62c194bdf590ff8d672716d63b8c662c47aaa65",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_alternating_component_bound.py",
+      "public_path": "sources/code/verify_alternating_component_bound.py",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "3a39e7a5d3506112cf1f274de493894c6dc760fd3c8947f28856f05db404250e",
+      "source_git_blob": "a6b02146f6d2c9490ecc441f96cc37d72ee711d1",
+      "public_sha256": "3a39e7a5d3506112cf1f274de493894c6dc760fd3c8947f28856f05db404250e",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_alternating_k2.py",
+      "public_path": "sources/code/verify_alternating_k2.py",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "5101a0e15fd4fadb702131f920724442bc328bd6bf8feca65541a73e1a1896cb",
+      "source_git_blob": "8265eff97d6ce832d8134d4615c1538daf36ae87",
+      "public_sha256": "5101a0e15fd4fadb702131f920724442bc328bd6bf8feca65541a73e1a1896cb",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_alternating_k3.py",
+      "public_path": "sources/code/verify_alternating_k3.py",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "9d09a47fe5e646b04c8076fac31111a1ea335da853a87fb29418568c5aa9328a",
+      "source_git_blob": "69a8ddaef89b18141c2b8143b72109eca48e8d52",
+      "public_sha256": "9d09a47fe5e646b04c8076fac31111a1ea335da853a87fb29418568c5aa9328a",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_alternating_k45.py",
+      "public_path": "sources/code/verify_alternating_k45.py",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "1cd05eabd36213edda795ac5b12810f424ebbb1e2dbec97e9c80c04d3d2effe1",
+      "source_git_blob": "fae77de43a702163d04a84bb16103aa8ef8d59e1",
+      "public_sha256": "1cd05eabd36213edda795ac5b12810f424ebbb1e2dbec97e9c80c04d3d2effe1",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_alternating_solvable_stabilizer.py",
+      "public_path": "sources/code/verify_alternating_solvable_stabilizer.py",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "517ed0ed20a1dcae1636c7f140dcf3873b49c6453c37163ca21e432963819f24",
+      "source_git_blob": "4fee7c82c53840a20fded7446f83c4568c4c94d7",
+      "public_sha256": "517ed0ed20a1dcae1636c7f140dcf3873b49c6453c37163ca21e432963819f24",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_co1_full_socle.g",
+      "public_path": "sources/code/verify_co1_full_socle.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "2302de395c4ab0f0b8467a234c22cd813c01f4b23b7790cd993a0cff6b7dffd5",
+      "source_git_blob": "ed3db02a496875849746ef47e0f5da732a310c52",
+      "public_sha256": "2302de395c4ab0f0b8467a234c22cd813c01f4b23b7790cd993a0cff6b7dffd5",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_f4_sp8_q2.g",
+      "public_path": "sources/code/verify_f4_sp8_q2.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "5919b215c8eecd06d35d3b2e61b088a403639fcbf63f050889b8aafe991b8f75",
+      "source_git_blob": "106d09dd93e70c5558d55ef87058761e8b5a1194",
+      "public_sha256": "5919b215c8eecd06d35d3b2e61b088a403639fcbf63f050889b8aafe991b8f75",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_f4_triality_q2.g",
+      "public_path": "sources/code/verify_f4_triality_q2.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "0a17ae391a76ef04392a64e01e91a7772f4f9aa0f471d14642216f4b4c2fa737",
+      "source_git_blob": "f0de80cbd5692120b8373ef9334f9492c41cc009",
+      "public_sha256": "0a17ae391a76ef04392a64e01e91a7772f4f9aa0f471d14642216f4b4c2fa737",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_fi22_full_socles.g",
+      "public_path": "sources/code/verify_fi22_full_socles.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "89615610820b3312c2957ea2db6d42ce206b90879fddc05f30ee90a3688fcf0d",
+      "source_git_blob": "af9f885a80fbdb4e0217ee805504ed6660453f73",
+      "public_sha256": "89615610820b3312c2957ea2db6d42ce206b90879fddc05f30ee90a3688fcf0d",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_g24_full_factor_sieve.g",
+      "public_path": "sources/code/verify_g24_full_factor_sieve.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "63ce63765cb834ef8ccfc84914cd25b36fdee832688f7009c2aa060e6ac6c9e9",
+      "source_git_blob": "62a7cbf61711c6a0f417f38cd9a37d2f227875b8",
+      "public_sha256": "63ce63765cb834ef8ccfc84914cd25b36fdee832688f7009c2aa060e6ac6c9e9",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_g24_outer_stabilizer.g",
+      "public_path": "sources/code/verify_g24_outer_stabilizer.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "38dcdd48da005a49cbc601b3bf0cd3d5f9a582b241bb6f43451398624e0ba89c",
+      "source_git_blob": "d90158fab177f87299df9f5f58ee92c4d0b66626",
+      "public_sha256": "38dcdd48da005a49cbc601b3bf0cd3d5f9a582b241bb6f43451398624e0ba89c",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_he_ru_full_socles.g",
+      "public_path": "sources/code/verify_he_ru_full_socles.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "1be19e5a7f8499715e6bc383bb4b01d604eecb812dc43f8032f074974703fd69",
+      "source_git_blob": "e8c3cc60271ee5f3d74aa06d2e6acb0de8fe9442",
+      "public_sha256": "1be19e5a7f8499715e6bc383bb4b01d604eecb812dc43f8032f074974703fd69",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_j2_hs_full_socles.g",
+      "public_path": "sources/code/verify_j2_hs_full_socles.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "3bd32e44fe944cb07c0a7ecca2903cddaa8ce4e46dcdf566a54cbe1ecdbcc2c0",
+      "source_git_blob": "bb0b08414cb9ef7517f98dc1529a6adfc8e7d09e",
+      "public_sha256": "3bd32e44fe944cb07c0a7ecca2903cddaa8ce4e46dcdf566a54cbe1ecdbcc2c0",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_m12_transitive_nonsolvable.g",
+      "public_path": "sources/code/verify_m12_transitive_nonsolvable.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "0bf909509c71eecc7917d8101379be0fe795a18c241211de31dc1b804f7aed15",
+      "source_git_blob": "961e81325e232831732af243d451025654138144",
+      "public_sha256": "0bf909509c71eecc7917d8101379be0fe795a18c241211de31dc1b804f7aed15",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_m24_affine_factor.g",
+      "public_path": "sources/code/verify_m24_affine_factor.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "78874efb4335d325b82da96cee3674dac30882cf1ccae57b4ea7625b13134cee",
+      "source_git_blob": "9cde1f22ef8bc15cf1ddc614b0b256ea7ff3d5b6",
+      "public_sha256": "78874efb4335d325b82da96cee3674dac30882cf1ccae57b4ea7625b13134cee",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_psl43_canonical.g",
+      "public_path": "sources/code/verify_psl43_canonical.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "f75abe148e07a204b0431d0a2ddd40079c0cd484217a3ea881295c13da3fc294",
+      "source_git_blob": "911a8de983a62b744033499a2b47720bfbf146c0",
+      "public_sha256": "f75abe148e07a204b0431d0a2ddd40079c0cd484217a3ea881295c13da3fc294",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_psu9_residual.py",
+      "public_path": "sources/code/verify_psu9_residual.py",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "4d791ebbd51ec23f895c8c38a91985bb925eef1e8c5738e8dacfabb1193af7bc",
+      "source_git_blob": "11d04516aa5acbe63a0cc0a4c4c0563e16c981c7",
+      "public_sha256": "4d791ebbd51ec23f895c8c38a91985bb925eef1e8c5738e8dacfabb1193af7bc",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_remaining_sporadic_canonical.g",
+      "public_path": "sources/code/verify_remaining_sporadic_canonical.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "29e2922f6daf4b2383be0516adf697015f9e5a956f8feb12e739cdc760ce5dc4",
+      "source_git_blob": "0fd50dba0a34147ee55c2bf59f7fc90ecaf63846",
+      "public_sha256": "29e2922f6daf4b2383be0516adf697015f9e5a956f8feb12e739cdc760ce5dc4",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_reversed_finite_orthogonal.g",
+      "public_path": "sources/code/verify_reversed_finite_orthogonal.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "1feac0d361f28a4940ee1af305441de3f0cc7b21082a1dc3c18abd3484ecd9aa",
+      "source_git_blob": "873d3def2619b260d0db0287c5d5d3fd9cae8296",
+      "public_sha256": "1feac0d361f28a4940ee1af305441de3f0cc7b21082a1dc3c18abd3484ecd9aa",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_reversed_psu43_l34.g",
+      "public_path": "sources/code/verify_reversed_psu43_l34.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "2cf0ed8c0b739d97a1d387a901972665436d816c736968ba2b980112c98f810f",
+      "source_git_blob": "020332c5c4c2a35787fcf67b97339c0bfe107eb0",
+      "public_sha256": "2cf0ed8c0b739d97a1d387a901972665436d816c736968ba2b980112c98f810f",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_reversed_sporadic_marks.g",
+      "public_path": "sources/code/verify_reversed_sporadic_marks.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "bd2474df55c89c5973a5023754a4f549a5342f7872a8b65fce82cc555daae1d9",
+      "source_git_blob": "dd77133eca1a3a6f9e459b80c471f2e6e73944fd",
+      "public_sha256": "bd2474df55c89c5973a5023754a4f549a5342f7872a8b65fce82cc555daae1d9",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_single_outer_class_canonical.g",
+      "public_path": "sources/code/verify_single_outer_class_canonical.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "0ec1cddc3a92035d86673e5fdc40cbca9d89b873792376d6dc57f607685cc676",
+      "source_git_blob": "a98bcfe43c2b9c70ab64a52e6ee8580769f0b0f5",
+      "public_sha256": "0ec1cddc3a92035d86673e5fdc40cbca9d89b873792376d6dc57f607685cc676",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_sporadic_outer_solvable_max.g",
+      "public_path": "sources/code/verify_sporadic_outer_solvable_max.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "f41d3cd57d17069a78042a86de03151ee77270937f8a10272ff06f0f9bd7767e",
+      "source_git_blob": "d6741dee96348c6cb8600dbfbb9fa7646b89d97b",
+      "public_sha256": "f41d3cd57d17069a78042a86de03151ee77270937f8a10272ff06f0f9bd7767e",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_suz_full_socles.g",
+      "public_path": "sources/code/verify_suz_full_socles.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "93271600646a796ea03e4e3a26bd7b25b86e8c1d2e1876837b618850a0eacd2a",
+      "source_git_blob": "d99b30c6daf12fab69f7341d7cbaa7cd5042e770",
+      "public_sha256": "93271600646a796ea03e4e3a26bd7b25b86e8c1d2e1876837b618850a0eacd2a",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_tits_full_sieve.g",
+      "public_path": "sources/code/verify_tits_full_sieve.g",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "ebee51bfc72c36bf37a850d8e748b3494dbe67e35276ce7e64c8c1ef1053b016",
+      "source_git_blob": "a15b8a2b2f5f8bdd9210916f9f7e736cd2facf6f",
+      "public_sha256": "ebee51bfc72c36bf37a850d8e748b3494dbe67e35276ce7e64c8c1ef1053b016",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/alternating-finite-homogeneous-exclusion.md",
+      "public_path": "sources/full-socle-completion/alternating-finite-homogeneous-exclusion.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "49ef8ea3e5c2dba13e6cd0bc67d9b9ecac316d7b5bea79edd4386d8159e09977",
+      "source_git_blob": "f858a36dbde72ead2939a9032e727eff52534bcc",
+      "public_sha256": "365159db65d19187352a235820ea617eb495a7eb820d3929a94b3e798977ec78",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/alternating-full-action-reduction.md",
+      "public_path": "sources/full-socle-completion/alternating-full-action-reduction.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "629db1df5cb0b4d9ed7dab09fbec5fa682e4cf393b0e3baac09997f5af13825c",
+      "source_git_blob": "def9cf487d6477051d3f0cc7af12290e7c2e42cb",
+      "public_sha256": "1f653db28bfc56ed7ceb741277eab956da9cb96685d0355173a4db8a8c164a6c",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/exceptional-field-involution-exclusions.md",
+      "public_path": "sources/full-socle-completion/exceptional-field-involution-exclusions.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "375f359d7a9d6a7cbf2b5ba2d32370435510830aa92eb73c26c97fba38c6295b",
+      "source_git_blob": "dbff1ec4c72d46929bdb5fa53df3b6e89f5f031c",
+      "public_sha256": "5947554adc4c1726eea9287e6a0c43c5954b7dc4b5ca83d8932185024c042a54",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/f4-even-full-socles.md",
+      "public_path": "sources/full-socle-completion/f4-even-full-socles.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "f75877dfc53a6fdc9873521f3145a6b2a3aff0f214daeaca480e8eb91f55b355",
+      "source_git_blob": "0b1af76a9ed2a77e4dcb4af8604e621ce2f69923",
+      "public_sha256": "e8d08ae700fa7c5efef1c04aebc9b1cbca21082ea507ad82005504767a05090b",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/g2-full-socles.md",
+      "public_path": "sources/full-socle-completion/g2-full-socles.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "3b477bdb62baf6b499792520f9d9094544b745e30120d09f87d48726a305adaa",
+      "source_git_blob": "b6abc36f7b0919b99aeb64f08376bf73c34c548e",
+      "public_sha256": "9c1eb87a898eb4a3bf8d2140f78f8c6b521ff65f815ba7f4ba17f7f2e3e2b767",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/g24-full-socle.md",
+      "public_path": "sources/full-socle-completion/g24-full-socle.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "3e3f214d83585c9d22745d4f50319e1ad4d30e5de52a85a75fb5c0af480a440d",
+      "source_git_blob": "bc07857927c743b0f9915617644ffe3b1417de93",
+      "public_sha256": "0c33406118e7c4afcb3125060c8573a77473b11bf8cc6506069042a1516f6ee2",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/odd-linear-full-socles.md",
+      "public_path": "sources/full-socle-completion/odd-linear-full-socles.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "901cefcb61a583545376e41ade9b208319aca9372ea91e917ae037af5cc7e6ab",
+      "source_git_blob": "4304d092bee9c8fe84f48a448dee133b56629091",
+      "public_sha256": "36bfbe0ef046d81430bf9f73a5c0c184588f4a0ae388ac338cd0d8dde317e46e",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/odd-normal-involution-collisions.md",
+      "public_path": "sources/full-socle-completion/odd-normal-involution-collisions.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "023fd78854106d2ec6cdf7cbe09316d282c3456243adfc1398638282ab5ffb32",
+      "source_git_blob": "df65d4092b59f931a20a36551c4ac70ae2f771f3",
+      "public_sha256": "2ba10c63dd5a19a9caadb60a47cdff5b9d42655cd84ba4690afb956d52996f99",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/sporadic-full-multiplication-exclusion.md",
+      "public_path": "sources/full-socle-completion/sporadic-full-multiplication-exclusion.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "6c6bdbd37b8b88e3c0151959db2998841d7ba60347b787c32e6436cc58c5c046",
+      "source_git_blob": "9b9066523bf68aca2f18fa5050a24e79ed8a4085",
+      "public_sha256": "839cc306f98af18f5eff4b2138312ab25d3656a8f89345aa7aa8360a5d49b9bd",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/suzuki-small-ree-full-socles.md",
+      "public_path": "sources/full-socle-completion/suzuki-small-ree-full-socles.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "4b6c7f608569d49ab289dccd56ac408a247be7dd2721d29320077e90e69877a1",
+      "source_git_blob": "9c75a2e32cb87bd51b6a0be04c2c6c92038e7f2b",
+      "public_sha256": "d4302e923a57307275409e7141c3550242018bd9b32013172b169f9da1b8a712",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/tits-full-socle.md",
+      "public_path": "sources/full-socle-completion/tits-full-socle.md",
+      "historical_revisions": [],
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "source_sha256": "f131a2b66d6020d259e0f122b6143b355d6321721adab362a97dc5d5992d236e",
+      "source_git_blob": "c54b622884a6c97fcf75501ee54bcedb8a01752b",
+      "public_sha256": "127b59892201a6428e6b83130f1ebc358313d6065ae08b6e846b8f8d196b6129",
+      "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     }
   ]
 }

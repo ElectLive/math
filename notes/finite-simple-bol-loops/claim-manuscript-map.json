@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0087",
+  "next_id": "0092",
   "manuscripts": [
     {
       "id": "0053",
@@ -2027,6 +2027,141 @@
       "id": "0086",
       "source": "sources/factor-permutation/frobenius147-classification.md",
       "group": "frobenius147-classification"
+    },
+    {
+      "id": "0087",
+      "source": "manuscripts/0087-alternating-natural-full-action.md",
+      "group": "alternating-natural-full-action",
+      "publication_checkpoint": "80d2ceba5672716d34068266d4966147235f31d5"
+    },
+    {
+      "id": "0088",
+      "source": "manuscripts/0088-sporadic-full-socle-exclusion.md",
+      "group": "sporadic-full-socle-exclusion",
+      "publication_checkpoint": "80d2ceba5672716d34068266d4966147235f31d5"
+    },
+    {
+      "id": "0089",
+      "source": "manuscripts/0089-classical-full-socle-exclusions.md",
+      "group": "classical-full-socle-exclusions",
+      "publication_checkpoint": "80d2ceba5672716d34068266d4966147235f31d5"
+    },
+    {
+      "id": "0090",
+      "source": "manuscripts/0090-exceptional-full-socle-exclusions.md",
+      "group": "exceptional-full-socle-exclusions",
+      "publication_checkpoint": "80d2ceba5672716d34068266d4966147235f31d5"
+    },
+    {
+      "id": "0091",
+      "source": "manuscripts/0091-original-mark-collision-tools.md",
+      "group": "original-mark-collision-tools",
+      "publication_checkpoint": "80d2ceba5672716d34068266d4966147235f31d5"
+    },
+    {
+      "id": "0087",
+      "source": "sources/full-socle-completion/alternating-finite-homogeneous-exclusion.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0087",
+      "source": "sources/full-socle-completion/alternating-full-action-reduction.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0091",
+      "source": "sources/factor-permutation/exact-factorization-criterion.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0090",
+      "source": "sources/full-socle-completion/exceptional-field-involution-exclusions.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0090",
+      "source": "sources/full-socle-completion/f4-even-full-socles.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0090",
+      "source": "sources/full-socle-completion/g2-full-socles.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0090",
+      "source": "sources/full-socle-completion/g24-full-socle.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0089",
+      "source": "sources/odd-completion/nonbruck-almost-simple-radical-bridge.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0089",
+      "source": "sources/full-socle-completion/odd-linear-full-socles.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0091",
+      "source": "sources/full-socle-completion/odd-normal-involution-collisions.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0089",
+      "source": "sources/odd-completion/radical-free-inner-inversion.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0089",
+      "source": "sources/factor-permutation/radical-free-three-dimensional-linear-unitary.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0088",
+      "source": "sources/full-socle-completion/sporadic-full-multiplication-exclusion.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0090",
+      "source": "sources/full-socle-completion/suzuki-small-ree-full-socles.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0090",
+      "source": "sources/full-socle-completion/tits-full-socle.md",
+      "group": "full-socle-checkpoint",
+      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+      "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
     }
   ]
 }

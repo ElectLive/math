@@ -12,7 +12,7 @@ A separate all-parity result shows that actual $\mathrm{LMlt}(Q)$ cannot be meta
 
 The route also excludes the actual classical and sporadic solvable-factor rows under their stated inputs. These are exclusions of the specified actual factors/actions, not assertions about every group with the same composition factors.
 
-**Boundary.** The natural $A_n/S_n$ action does not classify operations, does not classify the admissible solvable left groups, and gives no upper bound on their derived length. Nonsolvable LMlt lies outside this full-action theorem. The later all-PSL₂ canonical-overgroup and full-socle exclusions in the source are **proposed and awaiting independent exact-source review at this publication checkpoint**; they are not included in the accepted conclusion.
+**Boundary.** The natural $A_n/S_n$ action does not classify operations, does not classify the admissible solvable left groups, and gives no upper bound on their derived length. Nonsolvable LMlt lies outside this full-action theorem. The separate all-PSL₂ canonical-overgroup and full-socle exclusions have since received exact-source independent model review and are indexed in [0089](0089-classical-full-socle-exclusions.md). This does not expand the solvable-LMlt theorem stated here.
 
 [Full-action proof and reviewed correction](../sources/odd-completion/nonbruck-almost-simple-radical-bridge.md#proposed-full-action-theorem-for-solvable-left-multiplication) · [Metabelian exclusion](../sources/odd-completion/nonbruck-almost-simple-radical-bridge.md#proposed-all-parity-exclusion-of-metabelian-left-multiplication-groups).
 
