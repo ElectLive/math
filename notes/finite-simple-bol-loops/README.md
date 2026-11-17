@@ -1,160 +1,70 @@
 # Finite simple Bol loops
 
-**Decomposition checkpoint:** [Central Bruck factors and intrinsic deletion decks](loop-decomposition/README.md). Prime-exponent central/trilinear decomposition is proved; graphical deck reconstruction is equivalent to graph reconstruction, not solved.
+**Mira Cult**
 
-**Graph-native construction checkpoint:** [Bruck/Moufang loops and associative-subloop structure](graph-loops/README.md), with unmarked ordinary-graph recovery, marked color limits and complete proof sources. This does not solve graph reconstruction or simple-loop classification.
+We seek a structural classification of **all finite simple Bol loops up to isomorphism**: constructions, an exhaustion theorem, and an exact account of when two constructions give the same loop. **The unrestricted classification remains open.**
 
-## Latest classification advances, 17 November 2026
+[Results](RESULTS.md) · [Claim catalogue](CLAIMS.md) · [Classification map](CLASSIFICATION.md) · [Proof sources](sources/README.md)
 
-The latest synchronized proofs extend full-socle exclusions to every exceptional Lie-type family, every characteristic-two linear or unitary family, PSL₄(q) and PSU₄(q) over all fields, and Sp₂ₘ(2) for all m≥3. These are conditional research theorems retaining the exact canonical, classification and embedding inputs of their sources.
+<a id="latest-classification-advances-17-november-2026"></a>
+<a id="current-classification-checkpoint"></a>
+<a id="what-we-have-achieved"></a>
 
-- [0094: Exceptional full multiplication socles: completing E₆ and E₇](manuscripts/0094-exceptional-full-socle-completion.md).
-- [0095: No characteristic-two linear or unitary full multiplication socle](manuscripts/0095-characteristic-two-linear-unitary-full-socles.md).
-- [0096: All-field dimension-four linear and unitary full-socle exclusions](manuscripts/0096-rank-four-full-socles.md).
-- [0097: Binary symplectic full socles and direct geometric action obstructions](manuscripts/0097-binary-symplectic-full-socles-and-actions.md).
-- [0099: Operation classification for factor-swapping affine squares](manuscripts/0099-affine-square-factor-exchange.md).
-- [0098: Stabilizer orbits above an odd normal kernel](manuscripts/0098-odd-kernel-stabilizer-orbits.md).
+## The classification picture
 
-The binary quadratic-refinement action also has an operation theorem: its only possible loop is the 120-element Paige loop, not a new proper Bol loop. Odd normal kernels now have an exact stabilizer-orbit and multiplicity theorem. The elementary-layer lift parameterization and factor-swapping affine-square exhaustion now have scoped model mathematical reviews. The all-inversions affine-square theorem over odd fields now also has two scoped model reviews; characteristic-two factor-preserving inversion remains open.
+Three kinds of progress fit together; none can replace the others.
 
-**The unrestricted classification remains open.** In particular, the old many-factor symplectic source dispatch remains globally unverified and its earlier aggregate acceptances remain withdrawn. The new direct geometric proofs do not retroactively repair that induction. The [publication record](PUBLICATION-2026-11-17-LATEST.md) gives the exact source boundary and verification limits.
+- **Restrict the full multiplication group.** The conditional full-socle exclusions cover all sporadic and exceptional Lie-type families, PSL₂ and odd-dimensional PSL/PSU, all characteristic-two PSL/PSU, PSL₄ and PSU₄ over every field, and binary Sp₂ₘ(2) for m≥3. Alternating full socles force the natural action. See the [family map](CLASSIFICATION.md) and [precise statements](CLAIMS.md).
+- **Classify operations within specified envelopes.** Results include radical-free PSL₂/A₅ models, [abelian-top path parameters](manuscripts/0068-abelian-nilpotent-path-parameters.md), and [affine-square operations](manuscripts/0099-affine-square-factor-exchange.md). In the [binary quadratic-refinement action](manuscripts/0097-binary-symplectic-full-socles-and-actions.md), the only possible loop is the 120-element Paige loop, not a new proper Bol loop.
+- **Control extensions and construct new families.** The [odd-kernel orbit and lift theory](manuscripts/0098-odd-kernel-stabilizer-orbits.md) gives exact local constraints and finite-data assembly with a distinguished elementary layer. Other constructions demonstrate how broad the classification must be; the [proposed non-G-loop, non-Bruck-isotopic example](0018-non-g-loop-non-bruck-context.md) addresses Nagy's existence question.
 
-## Earlier full-socle checkpoint, 17 November 2026
-
-The newest completed publication advances whole full-multiplication-group families, not just isolated canonical groups. All conclusions retain their explicit canonical, classification, embedding and finite-data inputs. The unrestricted classification and the surviving natural-action loop operations remain open.
-
-- [0087: Alternating full socles force the natural action](manuscripts/0087-alternating-natural-full-action.md), without assuming solvable LMlt.
-- [0088: All 26 sporadic full socles excluded](manuscripts/0088-sporadic-full-socle-exclusion.md).
-- [0089: PSL₂ and odd-dimensional PSL/PSU full socles excluded](manuscripts/0089-classical-full-socle-exclusions.md).
-- [0090: Exceptional full-socle exclusions](manuscripts/0090-exceptional-full-socle-exclusions.md), including all F₄ and G₂.
-- [0091: Odd-kernel collision lifting and canonical center constraints](manuscripts/0091-original-mark-collision-tools.md).
-
-The [publication record](PUBLICATION-2026-11-17.md) fixes the completed source boundary, correction history, checks and remaining gaps. That earlier boundary is superseded by the latest checkpoint above. Earlier dated status passages below are historical where superseded by this checkpoint.
-
-
-This research aims at a structural classification
-of **all finite simple Bol loops up to isomorphism**. The goal is to identify the
-families and exceptional cases, prove that they exhaust the possibilities, and
-determine exactly when two constructions give isomorphic loops.
-
-The programme combines new constructions, classifications of precisely defined
-subclasses, and structural reductions that constrain the remaining cases. This
-workspace collects those results and their proof sources, maps the open gaps,
-and provides concrete problems for collaborators. No single construction or
-proof route defines the scope of the project.
-
-**The unrestricted classification is not complete.** A procedure that searches
-all finite tables or tests all possible extension data is not, by itself, the
-structural classification sought here.
-
-## Current classification checkpoint
-
-The [latest classification results](RESULTS.md#latest-classification-advances) include the odd alternating full-group theorem, the solvable-left-group full-action reduction, paired alternating classifications, and the specified two-N Bruck exclusion. Complete proofs, assumptions, pending continuations and code are linked through the [source index](sources/README.md). These are structural advances, not completion of the general classification.
-
-## What we have achieved
-
-The project has developed constructions and classifications in several branches:
-
-- A proposed finite simple proper Bol loop that is neither a G-loop nor isotopic to a Bruck loop, addressing Nagy's existence question below.
-- Classifications for specified radical-free envelopes, including PSL₂(q)-power and nonpermuting A₅-socle cases. The [all-path structural theorem](manuscripts/0068-abelian-nilpotent-path-parameters.md) now covers every odd abelian top, and the zero-residual-graph nilpotent branch, in the pure A₅ factor-permutation model.
-- Structural results for odd-order, Bruck, affine and primitive-action branches, including families with unbounded group-theoretic complexity and concrete restrictions on possible envelopes.
-
-Each result has specific hypotheses and review status. See the [research catalogue](RESULTS.md) for precise statements, sources and limitations. These are not a classification of all finite simple Bol loops.
+The linked theorems retain their specific canonical-folder, classification, embedding and finite-data hypotheses. Excluding a full multiplication socle is not the same as excluding a canonical left group; classifying a group action is not yet classifying its loop operations.
 
 ## Open problems
 
-- **Classify the remaining factor-permuting cases.** Parameterize nonzero residual graphs without changing the group or loop data; settle nonsurjective nonnilpotent tops and general outer actions. Evaluate further admissible affine-data families where useful.
-- **Go beyond the known socle models.** Identify or classify simple Bol loops with canonical envelopes outside the PSL₂ and A₅ families already studied.
-- **Resolve nonsplit Bruck lifting.** Prove or refute compatibility of the actual extension, inversion, stabilizer and section data in the remaining cases.
-- **Make odd-layer reductions exhaustive.** Turn the current compression and extension constraints into classifications without losing multiplicity or cohomological data.
+The main remaining work is to:
 
-The [open problems](OPEN_PROBLEMS.md) give precise statements and starting points.
+- settle the odd-characteristic, socle-containing PSL/PSU branch in even dimensions at least six, and the other symplectic and orthogonal full actions;
+- determine operations in the surviving natural alternating/symmetric actions and resolve factor-preserving affine inversion in characteristic two;
+- make the remaining factor-permutation, radical and nonsplit Bruck extension arguments exhaustive, including ordinary unpointed isomorphism classes.
 
-## One milestone: a simple Bol loop outside two familiar classes
+The [open-problem board](OPEN_PROBLEMS.md) gives exact assumptions and useful starting points. The historical many-factor symplectic source dispatch still has **unverified global coverage**; its earlier aggregate acceptances were withdrawn. New direct geometric arguments do not retroactively repair that induction.
 
-Nagy's *Some remarks on simple Bol loops* (2008), §6 Problem 1, asks whether
-there exists a finite simple proper Bol loop that is **neither a G-loop nor
-isotopic to a Bruck loop**. Here a G-loop is isomorphic to every one of its loop
-isotopes, and proper means non-Moufang.
+<a id="research-reference"></a>
 
-The [rigid-center construction](packet/manuscripts/odd-rigid-center-nongloop.md)
-proposes such an example of order $`3^{75}19^3`$. This existence result is one
-contribution to the broader classification programme: it shows why those two
-classes alone cannot suffice, if the argument is accepted. The
-[construction discussion](0018-non-g-loop-non-bruck-context.md) gives its precise status.
+## Read and contribute
 
-Two presentations are available for readers investigating this result:
+- [Start here](START_HERE.md): definitions, orientation and reading paths.
+- [Results](RESULTS.md) and [claim catalogue](CLAIMS.md): statements, scope and proof links.
+- [Complete source index](sources/README.md) and [references](REFERENCES.md): arguments, executable dependencies and literature.
+- [Publication record](PUBLICATION-2026-11-17-LATEST.md): synchronized source boundary, corrections and verification limits.
+- [Publication history](PUBLICATION_HISTORY.md): earlier checkpoints and the previous detailed overview.
 
-- [Direct existence proof](0018-non-g-loop-non-bruck-existence.md): a specialized construction
-  with the lemmas needed for this example, independent of a general class-two
-  exhaustion theorem.
-- [Original class-two framework](packet/manuscripts/odd-class-two-classification.md)
-  and [original construction](packet/manuscripts/odd-rigid-center-nongloop.md):
-  the broader approach through which the example was discovered. The framework
-  is retained as a proof draft; the release audit does not certify its full
-  exhaustion theorem.
+<a id="intrinsic-and-analytic-continuation-2026-11-16"></a>
+<a id="sparse-quantum-randomization"></a>
+<a id="charged-analytic-transport-and-reconstruction"></a>
 
-## Research reference
+## Related Bol-loop research
 
-- [Start here](START_HERE.md): orientation and reading paths for human and AI researchers.
-- [Shared references](REFERENCES.md): literature and tools for researchers and their AI systems. Suggestions are welcome; a link and a sentence are enough.
-- [Results](RESULTS.md): constructions, subclass classifications and structural restrictions.
-- [Claim index](CLAIMS.md): stable claim IDs, exact scopes and supporting proofs.
-- [Classification map](CLASSIFICATION.md): what the branches mean and how they fit.
-- [Open problem board](OPEN_PROBLEMS.md): specific structural questions and useful deliverables.
+These projects study broader loop families and applications, not an unrestricted simple-loop classification:
+
+[Graph-native constructions](graph-loops/README.md) · [Decomposition and deletion decks](loop-decomposition/README.md) · [Intrinsic nonisomorphism](INTRINSIC_NONISOMORPHISM.md) · [Analytic families](analytic-2026-11-16/README.md) · [Quantum randomization](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md) · [Charged analytic transport](analytic-transport/README.md)
+
+Graphical deck reconstruction is equivalent to graph reconstruction, not solved. The analytic and quantum results retain their stated family and resource restrictions.
 
 ## Conventions
 
-A loop has an identity and unique left and right division. We use the **left Bol
-identity**
-
+We use the **left Bol identity**:
 
 ```math
 x\bigl(y(xz)\bigr)=\bigl(x(yx)\bigr)z.
 ```
 
+“Proper” means non-Moufang; simplicity means normal-subloop simplicity. Passing to the opposite operation preserves simplicity and isomorphism classes but need not give an isomorphic loop. `Mlt(Q)` and `LMlt(Q)` are different groups. Isotopy is not isomorphism; a Bruck isotope is not the same as being Bruck.
 
-Passing to the opposite operation gives the corresponding right Bol loop and
-preserves simplicity and isomorphism classes. It does **not** assert that a loop
-is isomorphic to its opposite. "Proper Bol" here means non-Moufang. A G-loop is a
-loop isomorphic to each of its loop isotopes. "Has a Bruck isotope" is a separate
-property, not a synonym for being Bruck.
-
-The full multiplication group `Mlt(Q)` and the left multiplication group `LMlt(Q)`
-are different objects. Primitivity claims about one must not be silently applied
-to the other.
+<a id="earlier-full-socle-checkpoint-17-november-2026"></a>
+<a id="one-milestone-a-simple-bol-loop-outside-two-familiar-classes"></a>
 
 ## Publication scope
 
-The writeups state the hypotheses and proof dependencies of each result. Some supporting arguments remain to be made fully self-contained in this collection.
-
-This is AI-assisted research. It has not been human refereed or formally verified; novelty must be assessed separately from correctness.
-
-## Intrinsic and analytic continuation, 2026-11-16
-
-See the [self-contained nonisomorphism writeup](INTRINSIC_NONISOMORPHISM.md) and [public proof, code, review and validation package](analytic-2026-11-16/README.md). Claims 0079–0081 concern explicit reciprocal families, not an unrestricted classification. The package records the exact limitations, remaining analytic questions, and successful complete-checkout integrity checks separately from model mathematical reviews.
-
-
-## Sparse quantum randomization
-
-The [quantum randomization manuscript](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md)
-determines when actual reciprocal Bol operations can randomize a quantum state.
-Every degenerate sector has a stationary-state obstruction for every native
-distribution. A fixed nondegenerate family has a sharp threshold for the number
-of native generators needed to have a scalar common commutant. An explicit
-small-bias construction using actual translated defects gives arbitrary-state
-trace-norm randomization with one operation and constant quantum depth on
-fixed-size qudits. A matching Weyl control has the same physical channel and
-resource costs, so no general Bol-specific efficiency advantage is claimed.
-
-The [local claim record](claims/quantum-randomization.md) separates the exact
-statements and scope. The [reproducibility and review record](analytic-2026-11-16/evidence/bol-randomization-reproducibility.md)
-pins the scientific revision and the independent mathematical and resource
-reviews accepting it within their stated scopes. These
-results concern specified reciprocal families, not a classification of finite
-simple Bol loops.
-
-
-### Charged analytic transport and reconstruction
-
-The [completed marked analytic checkpoint](analytic-transport/README.md) constructs finite-dynamical collective charged transport, stable separated recovery of a retained cocycle, and a separate mixed-heat reconstruction of marked boundary matrices. It preserves full zero sectors and exact review scope. Continuous Felder fusion, a unified heat/difference functor and the original-Fock trace bridge remain open; no arithmetic moonshine consequence is claimed.
+This is AI-assisted research, not human-refereed or formally verified mathematics. Review and computation have the exact scopes recorded with each source; novelty is a separate question. The [publication record](PUBLICATION-2026-11-17-LATEST.md) distinguishes preserved proofs, rerun checks and remaining verification gaps.
