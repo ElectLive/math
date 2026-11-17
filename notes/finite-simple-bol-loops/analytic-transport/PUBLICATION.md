@@ -22,4 +22,6 @@ The earlier [charged-sewing](evidence/bol-charged-sewing-review.md) and [Fourier
 
 ## Remaining publication check
 
-This package is published as a separate completed-checkpoint batch. Its landing page is scheduled for the combined hosted check after publication; a complete visual audit of every long proof remains unverified. Successful static link/hash checks are not a complete hosted rendering audit.
+This package is published as a separate completed-checkpoint batch. Its landing page was inspected in GitHub Preview in the combined successor-checkpoint check after publication, including its displayed transport equation and limitations. A complete visual audit of every long proof remains unverified. Successful static link/hash checks are not a complete hosted rendering audit.
+
+Published artifacts were independently fetched through Git and compared byte-for-byte with the intended files. No discrepancy was found.

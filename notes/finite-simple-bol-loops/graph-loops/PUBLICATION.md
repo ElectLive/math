@@ -15,6 +15,8 @@ Both unchanged standalone Python programs were freshly replayed under Python 3.1
 
 These finite checks support, but do not prove, the universal statements. Source blob hashes, reviewed scientific hashes, executable byte fidelity and public relative links/anchors were checked. The source's 115-test integrity report is inherited research evidence, not a fresh private-repository integrity run. Its skipped CI run is not called a pass.
 
-The public landing page is intended for a batched hosted-rendering check. A complete visual audit of every long proof is not certified by static checks; any remaining rendering gap is separate from source verification. Worker identifiers and ephemeral local paths are removed from the public presentation; original report hashes describe the unmodified research records.
+The public landing page was inspected in GitHub Preview after publication as part of one combined successor-checkpoint check. Its visible layout and rendered equations were accessible. A complete visual audit of every long proof is not certified; that remaining rendering gap is separate from source verification. Worker identifiers and ephemeral local paths are removed from the public presentation; original report hashes describe the unmodified research records.
 
 The public claim is [0092](../claims/0092.md). No research PR is merged, active source branch edited, or public PR opened. The broader classification claims retain their statuses.
+
+Published artifacts were independently fetched through Git and compared byte-for-byte with the intended files. No discrepancy was found.
