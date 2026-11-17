@@ -56,7 +56,7 @@ and the [30-polygon construction](tilings/collatz-30/ATTRIBUTION.md).
 
 ## Research notes
 
-- **[Prescribed prime-gap coverings](notes/number-theory/prescribed-prime-gaps/README.md):** an unconditional subexponential modulus preserving every sufficiently large even difference, a uniform primorial reduced-residue gap prefix, exact Erdős first-occurrence equivalences, and certified prime-gap witnesses through 180. Simultaneous endpoint primality remains open; no prime-gap resolution or priority claim.
+- **[Prescribed prime gaps: coverings and signed estimates](notes/number-theory/prescribed-prime-gaps/README.md):** subexponential endpoint-safe covers and a uniform primorial gap prefix; cofactor/cutoff transfer, arbitrary-modulus root counts, rough-endpoint localization and a precise absolute-marking obstruction; exact Erdős equivalences and certified witnesses through 180. Complete conventional proofs and scoped nonauthor model reviews. Signed endpoint cancellation remains open; no prime-gap resolution or priority claim.
 
 - [Theories K: a formal substitution catalogue](notes/set-theory/theories-k-substitution-catalogue.md) (2026-10-23 definitions draft). Precise first-order schemas, with established results distinguished from research reductions and outstanding proof obligations; no new full equivalence is claimed as formally verified.
 
