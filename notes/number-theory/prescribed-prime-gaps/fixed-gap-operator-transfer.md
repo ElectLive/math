@@ -270,13 +270,19 @@ F(z,\boldsymbol p,\mathfrak m).
 
 Replace its position multiplier by (FG10).
 It still has norm at most one and depends on neither active-list
-ordering nor memory coordinates.
+ordering, auxiliary projective-line variables being averaged, nor
+memory coordinates.
 
 ### Lemma FG2: stability under a position-only projection
 
-In the source's root-model expansion, replace the geometric position
-projection by any indicator $`\chi(z)`$ independent of the active lists
-and memory variables. The following statements are preserved.
+At fixed real root parameters, work within the source's existing finite
+ambient position space, retaining its positive $`\tau`$ range and
+good-state restrictions. Replace the geometric position projection by
+any indicator $`\chi(z)`$ independent of the active prime lists,
+the auxiliary projective-line variables being averaged, and the memory
+variables. The following operator statements are preserved. Root
+averaging of a root-dependent indicator requires a separate boundary
+argument, supplied for (FG10) in Section 3.
 
 1. $`G_j`$ commutes with $`P_\chi`$, because it fixes $`z`$.
    List permutations and memory-coordinate symmetrizations commute
@@ -449,6 +455,15 @@ new uniformity and exceptional-character treatment.
 ## 7. Precise conditional transfer and remaining scope
 
 The checked extension can be stated as the following contract.
+
+For each requested saving exponent $`A`$, choose the source parameters
+$`K`$ and $`A_0`$ sufficiently large, in the order and ranges required
+by the cited source estimates, and then hold them fixed as
+$`x\to\infty`$. These choices may depend on $`A`$ and the other fixed
+data. The marked family and major-arc set in (FG17) use these choices;
+the constants and large-$`x`$ threshold may depend on them. No assertion
+of every logarithmic saving for one previously fixed marked family
+and major-arc set is intended.
 
 Assume the source's unit-shift clean and dirty edge estimates
 (4.41), (4.46), (4.48)--(4.51), its memory/distinctness reconstruction

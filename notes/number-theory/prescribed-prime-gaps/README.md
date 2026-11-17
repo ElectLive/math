@@ -43,8 +43,11 @@ contribution of the unmarked sector remain open.
 | Rough-endpoint localization | The full small-divisor main term lies on endpoints avoiding the auxiliary band; absolute marking removal has an oversized unsigned budget | [Theorems 4 and 6](rough-endpoint-marking.md) |
 | Protected-class parity | A prime-free comparison retains the relevant divisor statistics, including a polylogarithmic growing-modulus range; a Chen repair needs a localized sign estimate | [ER1–ER4 and ER3u](endpoint-repair.md) |
 
-The complete proofs are self-contained apart from their explicitly cited
-classical analytic inputs. The asymptotic covering threshold is not numerical.
+The unconditional results have complete proofs with their classical analytic
+inputs explicitly cited. The fixed-gap operator transfer has a separate
+conditional proof from the listed external analytic contracts; those
+contracts have not been independently certified here.
+The asymptotic covering threshold is not numerical.
 The first-occurrence note separates a location bound from an index bound and
 states the unproved two-form input that would connect the cover to either
 Erdős question.
