@@ -62,7 +62,7 @@ claimed for this research checkpoint.
 ## Analytic continuation and exact review scope
 
 The continuation scientific source is
-`2a896050ce1449e23a486027610e3b69da969576`. It preserves the proved
+`f21358bb9cdb0fa508680af7dbb173aa49a4d4b4`. It preserves the proved
 cofactor transfer, arbitrary-modulus root counts, rough-endpoint localization,
 unsigned marking-removal obstruction and protected-class parity comparison.
 The fixed-gap operator note is conditional on its enumerated external analytic
@@ -74,7 +74,7 @@ contracts; those contracts are not independently certified here.
 | Protected-class parity | `776608cac61215dc3a9dc67dc08e1e6510c5eff7` | ER1–ER4 and ER3u, including exceptional-character/ineffectivity scope. No actual endpoint lower bound. |
 | Arbitrary-modulus root counts | `12be77e6bbb910339d7af36289fb81f909fd1242`; wording corrections ratified at `afb88d02f13fd43ea405eb136ed449fa6714365b` | Full-prime-power CRT, Fourier bound, smoothing, exact densities and finite checks. No full operator estimate. |
 | Arithmetic marking removal | `6fe18ade0e3a96f165d0fc44e02b4c84ff59cc65`; centered-contract qualifications ratified at `afb88d02f13fd43ea405eb136ed449fa6714365b` | Propositions 1–2, Lemma 3, Theorem 4/Corollary 5, Theorem 6, and conditional growing-cover extensions. No lower bound for the actual signed removal error. |
-| Fixed-gap operator interface | `2a896050ce1449e23a486027610e3b69da969576` | Independent review of the conditional implication is pending at preparation of this version. The underlying external estimates remain substantive premises. |
+| Fixed-gap operator interface | `2a896050ce1449e23a486027610e3b69da969576`; explicit independence, ambient-domain and parameter-order qualifications ratified at `f21358bb9cdb0fa508680af7dbb173aa49a4d4b4` | Nonauthor review accepts the conditional implication from the enumerated contracts. The underlying external estimates remain substantive, independently uncertified premises. |
 
 The public exposition removes private workflow/history and supplies the shared
 endpoint decomposition and fixed-gap conjugacy in full. Its four main new
@@ -108,16 +108,53 @@ their exact whole-family distribution assumptions.
 | `root-counting-moduli.md` | `21048b1055584af8d6fedbea34e70cfdd5ca5791c136fa83081308c84e0c5693` |
 | `rough-endpoint-marking.md` | `eb7a651e9495876db6e95e76ca83686b95a9d5fd552a0a16e71d93ba574a4179` |
 | `endpoint-repair.md` | `6e1f529e752f94c8bd3f0456dfd71c6cb4247f6a9a5cb9050ef8089babe3aaaf` |
-| `fixed-gap-operator-transfer.md` | `94d581d2ce99068021e1266ff90083eaeb1b7c0af5cce48fdc3392e8fdd85154` |
+| `fixed-gap-operator-transfer.md` | `3caca8df115f95e7ce41254559b871ccf2bf1cab3262673b48d5e2791addd0e3` |
 | `code/cofactor_dispersion_checks.py` | `2b4d87a042ba21880c467beace02223ac5afa3ea3b475e6d19ae94c2643105d9` |
 | `code/root_counting_checks.py` | `d6f82700bb285d5c3df1ed2b43e59308ef12b6ed3ec0ad6dab0cf1fd463c3d4e` |
 | `code/rough_endpoint_checks.py` | `8d674b5af6dc7595a4788331aed586c2c8bb5b9970436ac49c831782ed5c2d30` |
 
 ### Continuation publication checks
 
-Local file links and source-equation preservation were checked before
-publication. Live rendering and final exact-public-revision review are
-recorded after publication; they are not asserted by the preparation checks.
+Separate nonauthor model reviewers fetched the immutable public source at
+`65cf686c7a1a1fae54d0a6bc7e3c48d90e8213c0`, recomputed the Git blob and
+SHA-256 identities, and compared the full proof texts against their reviewed
+research sources. The operator qualifications and the overview's explicit
+conditional scope were then ratified at
+`c12edbbbe5b16ce461ebe08234ec991dc13fde37`. The conditional-transfer reviewer
+supplied the requested wording qualifications after independently reviewing
+the original argument; that contribution is recorded separately. No blocking
+public-consolidation defect was found within these review scopes.
+
+The shared endpoint note preserves its original calibration proof and
+supplies the coordinate-change dependency in full. The cofactor, root,
+marking, parity and operator notes preserve respectively 35, 23, 60, 35
+and 22 display equations from their scientific sources. The signed note's
+20 display equations match its source. These comparisons concern complete
+proof bodies as well as equations; they are not merely hash checks.
+
+On 16 November 2026 (America/Los_Angeles), the owner inspected GitHub's
+live rendering of the public root index, note overview and all six new
+analytic proof/interface notes at the preceding two public revisions.
+The inspected mathematical inventories were:
+
+| Page | Rendered formula elements | Observed MathML error nodes |
+|---|---:|---:|
+| Note overview | 27 | 0 |
+| Signed endpoint mass | 155 | 0 |
+| Cofactor transfer | 212 | 0 |
+| Arbitrary-modulus root counts | 165 | 0 |
+| Rough-endpoint marking | 360 | 0 |
+| Endpoint parity and Chen repair | 246 | 0 |
+| Conditional fixed-gap operator transfer | 187 | 0 |
+
+Viewport screenshots were checked at the main statements, the exact
+cutoff formula, residue densities, unsigned obstruction, centered repair,
+Chen projection, coordinate conjugacy, intermediate-mask hypotheses and
+conditional conclusion. The displayed equations, labels and surrounding
+scope statements were readable. Local file links and manifest hashes were
+checked. The public delivery PR records the verification-page inspection
+and final delivery head separately. This is publication-format evidence,
+not a full mathematical proof audit of the external premises or a CI pass.
 
 The resumed sparse checkout initially lacked original test fixtures. After
 restoring ten original inputs byte-exactly, all 114 scoped repository
