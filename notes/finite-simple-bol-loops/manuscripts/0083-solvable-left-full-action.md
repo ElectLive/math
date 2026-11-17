@@ -4,11 +4,11 @@
 
 ## Results and proof route
 
-Let $Q$ be a finite simple nonassociative left Bol loop with solvable left multiplication group. Under the explicitly cited canonical interfaces, CFSG, factorization classifications, natural-action results, character-library data and finite certificates, $\operatorname{Mlt}(Q)$ is $A_n$ or $S_n$ in its natural degree $n=|Q|\ge24$ action. It is therefore doubly transitive. For odd $n$ the preceding sign theorem sharpens the conclusion to $A_n$; the assembly does not claim that sharpening at even $n$.
+Let $Q$ be a finite simple nonassociative left Bol loop with solvable left multiplication group. Under the explicitly cited canonical interfaces, CFSG, factorization classifications, natural-action results, character-library data and finite certificates, $\mathrm{Mlt}(Q)$ is $A_n$ or $S_n$ in its natural degree $n=|Q|\ge24$ action. It is therefore doubly transitive. For odd $n$ the preceding sign theorem sharpens the conclusion to $A_n$; the assembly does not claim that sharpening at even $n$.
 
 Three separate automated mathematical reviews accepted the corrected full assembly, including a previously missed outer orientation in the finite table. Those reviews did not rerun all earlier certificates or reprove the external classifications.
 
-A separate all-parity result shows that actual $\operatorname{LMlt}(Q)$ cannot be metabelian. This needs the stated canonical-folder/inversion and odd-envelope inputs, not the almost-simple factorization classification. Its new step handles the characteristic-two layers and proves that the normalizing involution belongs to the actual selected marked set. Three separate automated reviews accepted it.
+A separate all-parity result shows that actual $\mathrm{LMlt}(Q)$ cannot be metabelian. This needs the stated canonical-folder/inversion and odd-envelope inputs, not the almost-simple factorization classification. Its new step handles the characteristic-two layers and proves that the normalizing involution belongs to the actual selected marked set. Three separate automated reviews accepted it.
 
 The route also excludes the actual classical and sporadic solvable-factor rows under their stated inputs. These are exclusions of the specified actual factors/actions, not assertions about every group with the same composition factors.
 
