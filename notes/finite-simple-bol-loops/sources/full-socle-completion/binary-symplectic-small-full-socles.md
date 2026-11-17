@@ -1,0 +1,43 @@
+# The two small simple binary symplectic full socles
+
+**Independently reviewed theorem for [0323:C0010](../foundations/research-C0010.md).** A finite simple proper left Bol loop cannot have Sp₆(2) or Sp₈(2) as the socle of its full multiplication group. Combined with the [high-rank theorem](binary-symplectic-extension-spreads.md), this excludes Sp₂ₘ(2) for all m≥3. Sp₄(2) and Sp₂(2) themselves are not simple. This assertion concerns the socle of the full group on the original loop.
+
+By [C0008](../../claims/0008.md) the group is primitive almost simple, and the outer automorphism groups of both candidate socles are trivial. Write S=M and I=M₁. For the original coset action an orbital (an orbit on ordered pairs) corresponds to a double coset D=IuI. An element g displaces every point into that orbital exactly when its whole S-conjugacy class lies in D. Indeed at a translated base point the base displacement is given by the corresponding conjugate of g. The [translation argument](binary-symplectic-extension-spreads.md#reduction-to-the-action-on-extension-field-structures) requires such an element for every nonempty orbital and, more generally, every nonempty invariant relation.
+
+## Sp₆(2)
+
+TOMLib 1.2.11, table S6(2), gives the complete maximal indices 28,36,63,120,135,315,336,960, each once. The first two are the two natural quadratic-refinement actions by their degrees and maximality. In fact the natural actions are 2-transitive: relative to a fixed quadratic refinement, the others of the same sign correspond to the nonzero singular vectors, transitive under its orthogonal group by Witt's lemma. Both actions are excluded by the [operation theorem](binary-refinement-loop-rigidity.md) at `cd10179d20a5f8c739799b664e99093a37e4e4a2`.
+
+In degree 120 the actual stabilizer suborbit lengths are 1,56,63. Thus its permutation rank is three, excluded for a proper simple Bol loop by [C0017](../../claims/0017.md) under CFSG and its separately reviewed inputs at `7b1c9e8786ceb5e7d8e6a6709adee1aefe736efd`.
+
+For degrees 63,135,315,336,960 choose a stabilizer orbit of length 30,14,18,20,252 respectively. In each case the [coset certificate](../code/verify_binary_sp6_orbitals.g) constructs the actual cosets and checks a conjugate witness **outside** the selected orbit at the base point for each of the 30 group conjugacy classes. Hence no class lies in the corresponding double coset. The seeded search only finds witnesses. The exclusion uses their verified existence for every class. The code separately computes the degree-120 rank and checks the complete maximal index list.
+
+## Sp₈(2)
+
+The [canonical-group exclusion](../factor-permutation/radical-free-symplectic-inversion.md#all-almost-simple-canonical-overgroups) at `a3358d80029053be96219bdf14727de0defbdd9d` makes G=LMlt proper. Taking a maximal subgroup containing G gives a maximal factorization with the original I as in the high-rank proof. Li–Xia, arXiv:1408.0350v3, Theorem 2.15 and Appendix A Table A.2, printed p.96, gives the allowable sides for this group. Rows 1–6 and 15–16 suffice as a containing list: P₁,P₄,N₂,Sp₄(2) wr S₂, both orthogonal groups, the extension-field group Sp₄(4).2, S₁₀, and PSL₂(17). The subspace, decomposition and orthogonal cases are already excluded by the two geometric inputs cited in the high-rank proof. We treat the last three. The group models and the unique maximal S₁₀ class also have the ATLAS and extension-field sources in [REFERENCES.md](../foundations/references.md).
+
+**The extension-field action.** Take the standard F₄ structure on a symplectic 8-space over F₂, via restriction of scalars from a 4-dimensional alternating F₄-space. Its 85 lines constitute a spread; disjointness means two spreads have no entire line in common. The [plane certificate](../code/verify_binary_sp8_planes.g) constructs a scalar J satisfying J²+J+1=0, self-adjoint under the binary alternating form B. It checks that each span of v,Jv is isotropic. To see this gives the standard model, define the F₄-valued b(v,w) by
+```
+Tr_(F₄/F₂)(t b(v,w)) = B(tv,w) for every t in F₄.
+```
+The trace pairing is perfect. Self-adjointness gives bilinearity over F₄ and isotropy of the scalar lines makes b alternating. Its nondegeneracy follows from that of B. All such E-forms have symplectic bases. A fixed matrix in the certificate is checked to take this standard spread to a disjoint one.
+
+For every one of the 81 conjugacy classes of Sp₈(2), the certificate constructs an isotropic plane U with either U=gU, or U and gU disjoint and their binary cross-pairing of rank zero or two. In each case there is a conjugate spread containing both. For rank zero start with two orthogonal F₄-lines. For rank two take the F₄-lines of a hyperbolic pair, whose binary cross-pairing is perfect. In each case choose binary bases on the two planes to match the prescribed pairing and extend the isometry of their sum by Witt's lemma. A single plane is covered by transitivity. The resulting spread shares gU with its g-image. Conjugacy gives this conclusion for every g, contradicting the required displacement into the disjointness relation on the orbit of spreads. Pull back along the original equivariant coset map, as in the high-rank proof.
+
+**The S₁₀ action.** On the binary space of even-weight vectors of length ten, quotient by the all-ones vector and use the induced symplectic dot product. The coordinate action of S₁₀ is faithful: distinct two-subsets have distinct classes in the quotient. The ten functions
+```
+q_i(x) = wt(x)/2 + x_i   (mod 2)
+```
+are distinct quadratic refinements. Taking the complement changes both terms by one, so they descend. Polarization gives the dot product. Represent each class by the vector with coordinate i zero. There are 1+126+9=136 zeros of q_i, from weights 0,4,8 on the other nine coordinates. Hence all ten forms are plus-type and constitute an invariant set C in the 136-point plus orbit.
+
+This coordinate copy is the maximal S₁₀ class. Its index is 13,056. Of the complete ATLAS maximal indices 120,136,255,2295,5355,5440,11475,13056,24192,45696,19353600, the only smaller one dividing 13,056 is 136, the plus-form stabilizer. No quadratic refinement is invariant under all permutations: on every two-subset vector it would have a common value c. Polarizing two overlapping two-subsets gives c=c+c+1, hence c=1. The zero vector in the quotient is the sum of five disjoint two-subsets, which would then have quadratic value one. The coordinate group is therefore maximal and the roster has a single class at its index. The set stabilizer of C contains this group and is proper since the full group is transitive on the plus forms. Thus S/I is the orbit of C.
+
+There exists a disjoint pair of translates of C because the mean intersection size with a uniform translate is 100/136. On the other hand, for any g choose a plus form q. There is a translate of C containing q and gq, by 2-transitivity on plus forms (or transitivity if q=gq). This translate and its g-image share gq. Again uniform displacement into disjointness fails.
+
+**The PSL₂(17) action.** Here |I|=2,448. Let B be the union of all nonidentity S-classes of size at most |I|². The [class-size certificate](../code/verify_binary_sp8_class_bound.g) from CTblLib gives |B|=15,928,575. Therefore
+```
+|IB ∪ I| ≤ 2,448 · (15,928,575 + 1) = 38,993,154,048 < |S| = 47,377,612,800.
+```
+Choose u outside that union. The double coset IuI avoids the identity and is disjoint from B since B is conjugacy-invariant and IBI=IB. Any larger class has more elements than IuI. Thus IuI contains no whole conjugacy class. This argument works for every subgroup of the indicated order without a class-fusion assumption.
+
+The two maximal-subgroup inventories, the prior geometric and rank-three theorems, and GAP's table and finite group algorithms are inputs. No permutation action on the 19,353,600 cosets in the last case has to be constructed. Three independent GPT-6.1 Terra mathematical/code reviewers accepted exact source `e65910cd81098e33fab64983d4f3ed864f630a4d` under the stated external and prior-theorem inputs. contributor 1, contributor 2 and contributor 3 checked the geometric and double-coset arguments and reran all three GAP certificates. The first and third freshly inspected Li–Xia Theorem 2.15/Table A.2 and the maximal roster. The third observed that retaining N₂ in the containing list is harmless even if the N₂ row is unavailable at rank four. The second and third independently confirmed that the first right coset is the subgroup in all eight rank-three actions. The first traced the prior C0017 spin-action proof to C0009. None re-proved the external subgroup classifications, GAP internals or all upstream workspace proofs.

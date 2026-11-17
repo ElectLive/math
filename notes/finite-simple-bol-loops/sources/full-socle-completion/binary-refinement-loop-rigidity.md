@@ -1,0 +1,57 @@
+# Loop multiplication on binary symplectic quadratic refinements
+
+**Independently reviewed theorem for [0323:C0010](../foundations/research-C0010.md).** Let V be a 2m-dimensional symplectic space over F₂, m≥3. Take either full orbit of quadratic refinements of its alternating form B under Sp(V). Suppose both the left and the right translations of a loop on this orbit belong to the induced symplectic permutation group. Then m=4, the orbit has minus type, and the loop is isomorphic to the Paige loop of order 120. Conversely the Paige loop admits this realization. In particular neither orbit supports a proper Bol loop. The forward implication requires only a loop. It allows the translation-generated group to be a proper subgroup of the symplectic group.
+
+## Coordinates and interpolation
+
+Take the identity refinement as q. Every refinement is uniquely q_v=q+B(v,−). The identity q_v(z)=q(z+v)+q(v) shows by counting zeros that q_v has the type of q exactly for v in S={q=0}. The action on labels is affine with symplectic linear parts: symplectic substitutions act linearly on differences of refinements and preserve their polar. Such an affine map preserving S preserves the function q everywhere, since it permutes the two fibers.
+
+We need the following fact about Boolean polynomial functions on V of degree at most two. Those vanishing on S are exactly 0 and q. First S spans V. In a hyperbolic basis its vectors already span the hyperbolic part. With a remaining anisotropic plane, add e+f from one hyperbolic plane to each of its two basis vectors to obtain singular vectors. This proves the spanning assertion for either sign in dimensions ≥4. For nonzero singular s, the singular vectors in its perpendicular span that perpendicular: use s and lift the spanning set of the nondegenerate quotient by its line, of dimension 2m−2≥4. A function h of degree at most two vanishing on S has h(0)=0 and alternating bilinear polar D. For singular x perpendicular to s, the vanishing at s,x,s+x gives D(s,x)=0. Therefore D(s,−)=c_s B(s,−). For orthogonal independent singular s,t, apply linearity at s+t to see c_s=c_t. For a nonorthogonal pair, their hyperbolic plane has nondegenerate perpendicular of dimension ≥4 containing a nonzero singular vector, so the same equality follows in two steps. Thus D=cB since S spans. The linear function h+cq vanishes on S and hence everywhere.
+
+Choose a basis from S. For s in S, left translation extends uniquely to y↦s+A_s y because its values on 0 and the basis determine its affine extension. The right translations have the analogous property. There is a unique bilinear map µ such that the multiplication on S extends to
+```
+F(x,y) = x+y+µ(x,y)
+```
+on V×V. Indeed set its coefficients by interpolation on pairs of basis vectors after subtracting x+y. For a basis vector in the second variable the original right translation makes the result linear after subtraction on all first-variable labels. Interpolating left translations then gives all pairs in S×S, as well as their prescribed affine extensions whenever one variable is singular.
+
+Consequently q(F(x,y))=q(x) for singular y and arbitrary x, and the analogous identity holds after swapping roles. For fixed x, the vanishing lemma gives q(F(x,y))=q(x)+c(x)q(y). Evaluating at a fixed nonsingular y shows that c has degree at most two. It equals 1 on S, so c=1+εq. If ε=0, at any nonsingular x the affine map in y would interchange the two q-fibers. Its linear part would preserve B by polarization and hence be invertible. This is impossible since the two fiber sizes are unequal, namely 2^(2m−1)±2^(m−1). Thus, globally,
+```
+q(F(x,y)) = q(x)+q(y)+q(x)q(y).                         (1)
+```
+
+## Both quadratic matrix identities
+
+Write L_x=µ(x,−), A_x=1+L_x, and use * for the adjoint under B. Polarizing (1) in y gives A_x* A_x=(1+q(x))1. For singular x the operator is invertible, so A_x A_x*=1 there as well. Apply the vanishing lemma entry by entry to get A_x A_x*=1+q(x)C for a fixed matrix C. For nonsingular x, associativity of matrix multiplication gives (1+C)A_x=A_x(A_x* A_x)=0. The nonsingular vectors affinely span V: if they lay in an affine hyperplane, the other parallel hyperplane would consist of singular vectors. Taking second differences of q there would make its direction space of dimension 2m−1 totally B-isotropic, although the maximum is m. Since A_x depends affinely on x, evaluation at x=0 now gives C=1. This establishes the reverse product identity separately.
+
+On W=V⊕V form the linear family T_x=[0,L_x; L_x*,0] and let P=[0,1;1,0] exchange the summands. The two identities give
+```
+(P+T_x)^2=(1+q(x))1,
+T_x T_y+T_y T_x=B(x,y)1.                                (2)
+```
+The second follows by taking mixed differences in x,y. This step uses identities of functions on F₂. Identifying diagonal quadratic coefficients with independent affine-linear coefficients would be invalid over this field.
+
+## The dimension constraint
+
+In the algebra generated by all T_x, each T_x² commutes with every generator by (2). Extend scalars to an algebraic closure of F₂ and pass to any simple factor of the resulting module W. The square of each chosen generator acts by a scalar there by Schur's lemma. Take a symplectic basis of V. Adding a scalar multiple of the identity to each of its 2m operators makes its square zero, preserving all anticommutators. The two operators E,D of each symplectic pair now satisfy E²=D²=0 and ED+DE=1. They generate a unital copy of Mat₂: the four matrix units are ED,E,D,DE in the usual positions, and satisfy the multiplication relations. Different pairs commute elementwise. Their product therefore yields a unital representation of the simple algebra Mat₂ tensor ⋯ tensor Mat₂ = Mat_(2^m). Its nonzero modules have dimension divisible by 2^m. Summing the dimensions of the simple factors gives 2^m dividing dim W=4m. For m=3 this fails, and for m≥5 one has 2^m>4m. Only m=4 remains.
+
+In this case dim W=16, so W over the algebraic closure is already a simple module. Any endomorphism commuting with all T_x is scalar, and an endomorphism defined over F₂ must then be scalar over F₂. By (2) the anticommutator PT_x+T_xP=q(x)1+T_x² commutes with every T_y, and hence equals ℓ(x)1 for a linear functional ℓ. Take w with B(w,x)=ℓ(x) for all x. Then P+T_w commutes with every T_x. Being scalar and having zero diagonal blocks, it vanishes. In particular L_w=1. Apply the argument also to the opposite multiplication (both translation hypotheses and (1) are symmetric). It gives a w' with µ(x,w')=x for every x. Evaluating µ(w,w') gives w=w'. Thus w is a two-sided identity for µ. Furthermore A_w=0 gives q(w)=1.
+
+## The operation and its realization
+
+Translation by w in V now takes F to the bilinear multiplication µ:
+```
+F(a+w,b+w)+w=µ(a,b).
+```
+Put N(a)=1+q(a+w)=q(a)+B(a,w). This is a nonsingular quadratic form over F₂ with N(w)=1. Equation (1) gives N(µ(a,b))=N(a)N(b) for all binary a,b. For clarity the equality also holds as a formal polynomial identity: represent the linear terms of N by diagonal squares, so both sides are homogeneous of degree two separately in a and b. Evaluation on F₂ is injective on homogeneous quadratic polynomials alone, since diagonal squares restrict to distinct linear monomials and cross terms to distinct squarefree quadratic monomials. Apply injectivity separately in each variable. Hence (V,µ,w,N) is a unital eight-dimensional composition algebra. The Hurwitz classification and splitness over finite fields identify it as the split octonion algebra. Under the translation, S is precisely its norm-one loop. Its center is trivial over F₂, and the Paige order formula gives 120, the minus orbit in dimension eight. These external inputs are Nagy–Vojtěchovský, *Octonions, simple Moufang loops and triality*, arXiv:math/0701707v1, §§3.1–3.2 and §4.1, and the [Hurwitz references](../foundations/references.md).
+
+Conversely, in that algebra with unit w, translating the norm-one set by w gives the zero set of q(x)=1+N(x+w), a refinement of the polar form of N. Left and right multiplication by norm-one elements are linear isometries of N. After translation they preserve q as affine functions on V and have symplectic linear parts. For each such linear part the natural action on refinement labels gives exactly that affine map: it preserves q and has that linear part, and the difference of two affine maps with these properties would be a translation preserving q everywhere. By nondegeneracy of B such a translation is zero. This realizes the loop on the full minus orbit.
+
+## Implication for extension fields
+
+Let E=F_(2^f), let the symplectic dimension be 2r over E, and suppose rf≥3. Send an E-valued quadratic refinement Q of B_E to Tr_(E/F₂)(Q) on the restricted space, with nondegenerate polar Tr(B_E). Every difference of two E-refinements has the form a squared E-linear functional. If nonzero, it is surjective, hence has nonzero trace as a function. Thus the trace map on refinements is injective and, by equal cardinalities 2^(2rf), bijective. Trace sends hyperbolic forms to plus forms by restriction of a totally singular half-space. The numbers of plus forms on each side are both 2^(rf−1)(2^rf+1), yielding equality of the plus sets and hence of the minus sets. After normalizing the similitude multiplier to one by the unique scalar in even characteristic, the action of the natural semilinear group respects trace even for field automorphisms. Therefore a loop in such an action also satisfies the binary theorem: the only possible operation is the Paige loop above in binary rank four. Containment in a particular smaller semilinear group would require its own realization. This excludes every proper Bol loop on both of the full natural quadratic-refinement orbits for rf≥3. Other actions of the symplectic socle remain separate.
+
+The proof is algebraic and uses no enumeration. The exact-revision review of these steps is recorded below.
+
+## Independent review
+
+Three independent mathematical reviewers accepted the theorem at exact revision `cd10179d20a5f8c739799b664e99093a37e4e4a2` under its stated composition-algebra inputs. contributor 1 checked the full deduction, including both matrix products and divisibility without a semisimplicity assumption. It opened the Nagy–Vojtěchovský preprint and retained the external classification inputs. contributor 2 checked the complete argument and directly inspected §§3.1–3.2 and 4.1 of that version for the finite-field algebra and norm-one loop results. Its separate small Boolean evaluation-matrix check found vanishing-space dimension one for either sign in binary ranks three and four, and five on the minus cone in rank two. The written proof establishes the uniform range. contributor 3 checked the central-square and opposite-product arguments, polynomial identity and original action, and the extension-field transfer, retaining the Hurwitz input. The reviews apply to the two full refinement orbits in the theorem.

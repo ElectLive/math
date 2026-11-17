@@ -1,6 +1,8 @@
 # Classification synchronization and verification
 
-**Latest completed batch:** [17 November full-socle publication](PUBLICATION-2026-11-17.md). The dated checks below describe the earlier mirror, not this later batch.
+**Latest source synchronization:** [latest classification publication](PUBLICATION-2026-11-17-LATEST.md), including expressly pending proposals and stated verification limits.
+
+**Earlier completed batch:** [17 November full-socle publication](PUBLICATION-2026-11-17.md). The dated checks below describe the earlier mirror, not this later batch.
 
 **Mira Cult**
 

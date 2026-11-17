@@ -4,7 +4,22 @@
 
 **Graph-native construction checkpoint:** [Bruck/Moufang loops and associative-subloop structure](graph-loops/README.md), with unmarked ordinary-graph recovery, marked color limits and complete proof sources. This does not solve graph reconstruction or simple-loop classification.
 
-## Reviewed full-socle checkpoint, 17 November 2026
+## Latest classification advances, 17 November 2026
+
+The latest synchronized proofs extend full-socle exclusions to every exceptional Lie-type family, every characteristic-two linear or unitary family, PSL₄(q) and PSU₄(q) over all fields, and Sp₂ₘ(2) for all m≥3. These are conditional research theorems retaining the exact canonical, classification and embedding inputs of their sources.
+
+- [0094: Exceptional full multiplication socles: completing E₆ and E₇](manuscripts/0094-exceptional-full-socle-completion.md).
+- [0095: No characteristic-two linear or unitary full multiplication socle](manuscripts/0095-characteristic-two-linear-unitary-full-socles.md).
+- [0096: All-field dimension-four linear and unitary full-socle exclusions](manuscripts/0096-rank-four-full-socles.md).
+- [0097: Binary symplectic full socles and direct geometric action obstructions](manuscripts/0097-binary-symplectic-full-socles-and-actions.md).
+- [0099: Operation classification for factor-swapping affine squares](manuscripts/0099-affine-square-factor-exchange.md).
+- [0098: Stabilizer orbits above an odd normal kernel](manuscripts/0098-odd-kernel-stabilizer-orbits.md).
+
+The binary quadratic-refinement action also has an operation theorem: its only possible loop is the 120-element Paige loop, not a new proper Bol loop. Odd normal kernels now have an exact stabilizer-orbit and multiplicity theorem. The elementary-layer lift parameterization and factor-swapping affine-square exhaustion now have scoped model mathematical reviews. A newer all-inversions affine-square argument over odd fields remains **proposed, with independent review pending**.
+
+**The unrestricted classification remains open.** In particular, the old many-factor symplectic source dispatch remains globally unverified and its earlier aggregate acceptances remain withdrawn. The new direct geometric proofs do not retroactively repair that induction. The [publication record](PUBLICATION-2026-11-17-LATEST.md) gives the exact source boundary and verification limits.
+
+## Earlier full-socle checkpoint, 17 November 2026
 
 The newest completed publication advances whole full-multiplication-group families, not just isolated canonical groups. All conclusions retain their explicit canonical, classification, embedding and finite-data inputs. The unrestricted classification and the surviving natural-action loop operations remain open.
 
@@ -14,7 +29,7 @@ The newest completed publication advances whole full-multiplication-group famili
 - [0090: Exceptional full-socle exclusions](manuscripts/0090-exceptional-full-socle-exclusions.md), including all F₄ and G₂.
 - [0091: Odd-kernel collision lifting and canonical center constraints](manuscripts/0091-original-mark-collision-tools.md).
 
-The [publication record](PUBLICATION-2026-11-17.md) fixes the completed source boundary, correction history, checks and remaining gaps. Later E₆/²E₆ and odd-E₇ work is not included. Earlier dated status passages below are historical where superseded by this checkpoint.
+The [publication record](PUBLICATION-2026-11-17.md) fixes the completed source boundary, correction history, checks and remaining gaps. That earlier boundary is superseded by the latest checkpoint above. Earlier dated status passages below are historical where superseded by this checkpoint.
 
 
 This research aims at a structural classification

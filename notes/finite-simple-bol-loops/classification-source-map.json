@@ -1,7 +1,7 @@
 {
   "schema": 3,
-  "purpose": "Mixed-history public dependency map. Each file records its own source revision; the top-level revision is the newest completed publication checkpoint, not a claim that every file changed there.",
-  "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
+  "purpose": "Mixed-history public dependency map. Top-level revision is latest synchronized source, including expressly pending proposals; it is not a blanket acceptance. Per-file revisions retain earlier unchanged sources.",
+  "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
   "files": [
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/classical-nondegenerate-subspaces.md",
@@ -158,8 +158,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/nonbruck-almost-simple-radical-bridge.md",
-      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
-      "source_sha256": "a3f345a6950e64346eaf598ea4c85f94cd1de8b7e12d02735df75113a0dc7e94",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "ee93d711fbff849a291c96a854c857ad4fe822b7a96713c8d1c97b7b22028b9f",
       "historical_revisions": [
         "037cec7af0c10f7daf3172c0dd06e065be868c7b",
         "08e0fbb08fcc9b7da728e2ae6558695992ca2682",
@@ -193,13 +193,13 @@
         "e896039d004ff3882621aca115b1a39cc8fed207",
         "f448cb7258d6783674b977534f3b8ff5071ba1c0",
         "f58660c5f48adf6d9cd3953c89680ca1de095a22",
-        "47b07688a82d3df93f537946fe0780112200383b"
+        "47b07688a82d3df93f537946fe0780112200383b",
+        "80d2ceba5672716d34068266d4966147235f31d5"
       ],
       "public_path": "sources/odd-completion/nonbruck-almost-simple-radical-bridge.md",
-      "public_sha256": "b764fa9c8ee4a5ea5bb34a7abef37f92c13913a99e27aae0919cccb69463c91f",
+      "public_sha256": "ad9d0765e98cf8b9c99d4f0e6b278a332d634e0a829febc9d0ea6d76ce8a8c6e",
       "claim_family": "0083",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
-      "source_git_blob": "95e43c4dd062d0bacb85a01e7f5eab0df490119b",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
@@ -1045,20 +1045,21 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/odd-layer-weighted-fibers.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "af17097d5433d1ed1b099f65b73c0171b9d660988407ccb212062e3469eeadf9",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "2df68573f7d177716eed4ce0bc96cf5f9160bbffa19ffa8b6617b59ff9bace41",
       "historical_revisions": [
         "17e56bdfb16097218249f42f10e91adcb9f5a4b8",
         "39a493024a9ee0839852b60f389fe28d155701b9",
         "932ead5db5f39045e2085caa6b062f6b981b2813",
         "9431ade99316d6bc62efb389492fef385b510b45",
         "c9b83d37421da818e57ef69227bd04293862540d",
-        "d40369dfce8047eee1454295612b71468f11334b"
+        "d40369dfce8047eee1454295612b71468f11334b",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/odd-completion/odd-layer-weighted-fibers.md",
-      "public_sha256": "d376f0f67656c38e3bea6f3f082f144d0cadfe6257fbdfb76d6cfaff71581253",
+      "public_sha256": "276acbc6a6f1b29bd1ada2a38ed44af4b19f1124c4bbfc07d8969b7eadfa2a45",
       "claim_family": "0072",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bruck-s5-jdual-arbitrary-n.md",
@@ -2655,18 +2656,19 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-symplectic-inversion.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "13793cb00451fe0efe5febe9ddfccada0f7121696e617b1058da2a271b19d59d",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "3ee0a6e8176e84ebe913004d551393e3dccf7602b0f6e9837daa4d9279c3c189",
       "historical_revisions": [
         "84eba0ffd4dfab4b6d64853a3131010ad2b945b8",
         "932ead5db5f39045e2085caa6b062f6b981b2813",
         "9431ade99316d6bc62efb389492fef385b510b45",
-        "d67d7d752fb8ec04aec1811fe92ce9b3ac64bcf8"
+        "d67d7d752fb8ec04aec1811fe92ce9b3ac64bcf8",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/factor-permutation/radical-free-symplectic-inversion.md",
-      "public_sha256": "73d929db7d27d8a1e004c2d4a891027447b93ed846bf42796e7e0ef31dbcb8c2",
+      "public_sha256": "628d7bffa36611f62733594a9395c55c6b4716b88752404c8a8bf471a32bd053",
       "claim_family": "0060",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/sd-scalar-criterion.md",
@@ -3213,18 +3215,19 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/radical-free-unitary-inversion.md",
-      "source_revision": "47b07688a82d3df93f537946fe0780112200383b",
-      "source_sha256": "f054da01f43d6c674b479fc53588d62e1099b3568e49440163707b0d134d38e0",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "d09ee29eb6d36cb0fe7d7ce53da4cb641343adfb046dacf4b2bed4402e0270d9",
       "historical_revisions": [
         "1ca7a62efde571600a531c8e352151faca2ab626",
         "6d3a97daa9cf20bbae0416295c8c2374c2cd8ede",
         "88f2b7c0260426c220b3d5ec4272fed9d7801255",
-        "fa462cdffd3082b37b0f100ea7e0364a97832473"
+        "fa462cdffd3082b37b0f100ea7e0364a97832473",
+        "47b07688a82d3df93f537946fe0780112200383b"
       ],
       "public_path": "sources/primitive-completion/radical-free-unitary-inversion.md",
-      "public_sha256": "30da4e5b4041acd81c9e36e59c99e4fe760b3dcd47383c2601171f76e78af346",
+      "public_sha256": "44fdf5076fed7fe50e7b1ed46d874726c4a041a10d19a16f7773c920853d9b3c",
       "claim_family": "0071",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged."
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/sd-sporadic-all.md",
@@ -4236,8 +4239,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/claims/C0010.md",
-      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
-      "source_sha256": "da6d883c72845a72888fcdd540d8ef44a225d663145f00c22533f2fb5dd62992",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "b3fc5e6532bbaca4f2ff6baf12c37240a4ab62935a77c092c8c569912fd360b1",
       "historical_revisions": [
         "037cec7af0c10f7daf3172c0dd06e065be868c7b",
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
@@ -4478,14 +4481,14 @@
         "f86624c05f531304f76d6bc69aa0f0b1dc73759e",
         "fa462cdffd3082b37b0f100ea7e0364a97832473",
         "feaf33e8b9f2725ac9b835a49dca95de4332171d",
-        "47b07688a82d3df93f537946fe0780112200383b"
+        "47b07688a82d3df93f537946fe0780112200383b",
+        "80d2ceba5672716d34068266d4966147235f31d5"
       ],
       "public_path": "sources/foundations/research-C0010.md",
-      "public_sha256": "2ae725161b3c405c7d8af70c0d33c850421d06564fb4d32c18b2774d119d51e4",
+      "public_sha256": "0fb989298730067315236ed3970072ae2a7a2c969594787f64d1879a639d14a7",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "previous_public_path": "claims/0010.md",
-      "source_git_blob": "3b6da458e42e260ec506bab3e18a73c0c549b064",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
@@ -5737,8 +5740,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/README.md",
-      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
-      "source_sha256": "8f4e25070592dc74552b77a4ed22729f107c6f5ddb7500b279c6c5efca8de1b6",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "3ce5d383efa277247f438e1cff0ec877e95ee3cdca0ed2584447436589a12a92",
       "historical_revisions": [
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
         "1228403b62d5c6abbf31272ed4cb4e300424e9d9",
@@ -5822,13 +5825,13 @@
         "f557a4f347fcfd010630625038b413f0eccd7449",
         "f6c7e01a4337b51c703b4d9ffc94d3b84a732fe5",
         "fa462cdffd3082b37b0f100ea7e0364a97832473",
-        "47b07688a82d3df93f537946fe0780112200383b"
+        "47b07688a82d3df93f537946fe0780112200383b",
+        "80d2ceba5672716d34068266d4966147235f31d5"
       ],
       "public_path": "sources/code/REPRODUCING.md",
-      "public_sha256": "e2137df7ef6116ecdd36a4036086aead1317ac14673fb2b014df6450625e22d4",
+      "public_sha256": "fcfb59aa292dd5149a45559f5e29dfa569c767c2dac1995287f00aa3334a1109",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged. Added public staging instructions.",
-      "source_git_blob": "3a7807024293afc9c0be3d0a9a07e1690b66e213",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
@@ -5973,8 +5976,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/REFERENCES.md",
-      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
-      "source_sha256": "884d9f4ceebfaa34779c6ae05e103dc08ac7db546dcda2c9b6b1331a5dafea68",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "4e27fd4f61bde56c8f6f22091521761232f0291dca4d059fbbb975cdf859fc03",
       "historical_revisions": [
         "1dd0e96099fe8f025c2ed416dff108fafc102481",
         "45c50ef70aaab14d396178a5381160f8f95b8de7",
@@ -5987,19 +5990,19 @@
         "a45a9da3e6de88f7f27c1178314903190b4486b4",
         "e30af949531c0ebcc9f7533b04fc1e7fc6858563",
         "e898d8a00b1fc97431ad8092b4e51b9217650187",
-        "47b07688a82d3df93f537946fe0780112200383b"
+        "47b07688a82d3df93f537946fe0780112200383b",
+        "80d2ceba5672716d34068266d4966147235f31d5"
       ],
       "public_path": "sources/foundations/references.md",
-      "public_sha256": "e1d868ca94dc5cad187519ddff983460a94d4e54b2a8e187eb0dcb6408d2fd44",
+      "public_sha256": "cf54241641131ec859b74953ea3c2e6ef7b041852f4448f2f1f2e5807615192e",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
-      "source_git_blob": "819d9aed3dc556f39b8c9e1422b2d3113109d3c8",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/PROBLEM.md",
-      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
-      "source_sha256": "7d8ef509af0c4f67f465f83d73c81156dd5cbed0daf28df709d810ce98cddb70",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "79b085d4ed4d9aab51889713e788441386ecc8ae93644b921012246e573e2a22",
       "historical_revisions": [
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
@@ -6218,19 +6221,19 @@
         "f86624c05f531304f76d6bc69aa0f0b1dc73759e",
         "fa462cdffd3082b37b0f100ea7e0364a97832473",
         "feaf33e8b9f2725ac9b835a49dca95de4332171d",
-        "47b07688a82d3df93f537946fe0780112200383b"
+        "47b07688a82d3df93f537946fe0780112200383b",
+        "80d2ceba5672716d34068266d4966147235f31d5"
       ],
       "public_path": "sources/foundations/problem-contract.md",
-      "public_sha256": "6e9798a6ae19370d7044d3539d13c6bba90378217a8e356add90c8b0d9ff4041",
+      "public_sha256": "5d0bfb0404180666295258f81e9e71dfd7932aaf342aeb72ce38b5b35fc259c4",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
-      "source_git_blob": "025be50a40aba3d7587d812b5d7b204ab0600642",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/OPEN_PROBLEMS.md",
-      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
-      "source_sha256": "9510e3ff2110f4c8dca0010e4dcb1bb95b47cb526e7026a28878a88ae53b98b1",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "038be4db0d4afb0ae019f06a0c1eff683312cd1d2acd2dc8b6575841d2fd1e1d",
       "historical_revisions": [
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
@@ -6415,13 +6418,13 @@
         "f86624c05f531304f76d6bc69aa0f0b1dc73759e",
         "fa462cdffd3082b37b0f100ea7e0364a97832473",
         "feaf33e8b9f2725ac9b835a49dca95de4332171d",
-        "47b07688a82d3df93f537946fe0780112200383b"
+        "47b07688a82d3df93f537946fe0780112200383b",
+        "80d2ceba5672716d34068266d4966147235f31d5"
       ],
       "public_path": "sources/foundations/research-frontier.md",
-      "public_sha256": "125cd8527497ed6588a45c8ad06cae4f3d159ec722058d70a4f3b3e12cbc0bfe",
+      "public_sha256": "ba39559947686cbe0e5d47842e7b957333dc246f4355e458018a396ccc2e9cb7",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
-      "source_git_blob": "2bf233a4af266bf52c315e27018f0ce078d68ee2",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
@@ -6443,8 +6446,8 @@
     },
     {
       "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/README.md",
-      "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
-      "source_sha256": "c235dc458f86014598f2c212086c8e5d4778e8756f4a444ab58781c8586c9082",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "72e8bc1c2558a3b9f41443722cd345c8545518bd3f2d0ef1d1716ee7a76e257d",
       "historical_revisions": [
         "06857e28349ca4529c31a9855ce12cfbb191c1b7",
         "06ec0cf2cb57e6cc5a6827128d334fc6a2b1c3c2",
@@ -6567,13 +6570,13 @@
         "f58660c5f48adf6d9cd3953c89680ca1de095a22",
         "f831fb7a9cc3c1f90c2b32b94e002b5e6d06a413",
         "f86624c05f531304f76d6bc69aa0f0b1dc73759e",
-        "47b07688a82d3df93f537946fe0780112200383b"
+        "47b07688a82d3df93f537946fe0780112200383b",
+        "80d2ceba5672716d34068266d4966147235f31d5"
       ],
       "public_path": "sources/foundations/research-overview.md",
-      "public_sha256": "3f1143000211a81977f2d04ba52f5ff62ceb9d2ce06b4a3328f8c10ddda80a88",
+      "public_sha256": "0beda49249911f620a3450b129d5ab158ec4b786fbb81f61f8a5a5edb06090b2",
       "claim_family": "",
-      "editing": "Prose identities and revision strings normalized; mathematics and review qualifications retained; relative links redirected to public counterparts. Code unchanged.",
-      "source_git_blob": "f7a7fb0164e0ba1b67f0e06a41aa0ef7ae1d27e9",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged.",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
     },
     {
@@ -6955,6 +6958,676 @@
       "source_git_blob": "c54b622884a6c97fcf75501ee54bcedb8a01752b",
       "public_sha256": "127b59892201a6428e6b83130f1ebc358313d6065ae08b6e846b8f8d196b6129",
       "presentation": "Public links and neutral review attribution; mathematical status, correction history and revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_binary_sp8_class_bound.g",
+      "public_path": "sources/code/verify_binary_sp8_class_bound.g",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "14be23dc89cdac46349d64a80ca0a44f3faa4b64c5f5a60e6d8e46cf6a405f41",
+      "public_sha256": "14be23dc89cdac46349d64a80ca0a44f3faa4b64c5f5a60e6d8e46cf6a405f41",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_e6_three_roots.py",
+      "public_path": "sources/code/verify_e6_three_roots.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "fb952ddceee4bf7d87f9ca326418662255f707e14ad95b6e9262cc5acb195a0e",
+      "public_sha256": "fb952ddceee4bf7d87f9ca326418662255f707e14ad95b6e9262cc5acb195a0e",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_e7_diagonal_torus.py",
+      "public_path": "sources/code/verify_e7_diagonal_torus.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "e79402dd594220c44bef097f1483cde3716fcc58885f6a0e416154857d79df0e",
+      "public_sha256": "e79402dd594220c44bef097f1483cde3716fcc58885f6a0e416154857d79df0e",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_e7_diagonal_union.py",
+      "public_path": "sources/code/verify_e7_diagonal_union.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "6aa9102702ae87b164c7a08e51170dd3482d135a522baf803c24ab2888569417",
+      "public_sha256": "6aa9102702ae87b164c7a08e51170dd3482d135a522baf803c24ab2888569417",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_binary_spread_32.py",
+      "public_path": "sources/code/verify_binary_spread_32.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "81ee3373531ea7e3eaf22272bb3e02c923d2f8c9ceb6a9b2f03cec1f3597f08f",
+      "public_sha256": "81ee3373531ea7e3eaf22272bb3e02c923d2f8c9ceb6a9b2f03cec1f3597f08f",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_e6_odd_c4_square.py",
+      "public_path": "sources/code/verify_e6_odd_c4_square.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "5fd4070af047bc44def0531c5e55d30afd78edbbef275ecd8ab55914003c9310",
+      "public_sha256": "5fd4070af047bc44def0531c5e55d30afd78edbbef275ecd8ab55914003c9310",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_a9_factor_correction.g",
+      "public_path": "sources/code/verify_a9_factor_correction.g",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "601cdbd3be760addf2711b9e332a4812302771b55c7d55b8142b55a3e734e397",
+      "public_sha256": "601cdbd3be760addf2711b9e332a4812302771b55c7d55b8142b55a3e734e397",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_e6_odd_semilinear.py",
+      "public_path": "sources/code/verify_e6_odd_semilinear.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "a08304e99da2f153aa347dcbf9e5399d9044524ac23fac2ccc130274fa551129",
+      "public_sha256": "a08304e99da2f153aa347dcbf9e5399d9044524ac23fac2ccc130274fa551129",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_linear_four_fieldfree.py",
+      "public_path": "sources/code/verify_linear_four_fieldfree.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "91231e6548634006318b9d67d391556b3533d84a3951b0b35e855b93a2a1218b",
+      "public_sha256": "91231e6548634006318b9d67d391556b3533d84a3951b0b35e855b93a2a1218b",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/binary-refinement-loop-rigidity.md",
+      "public_path": "sources/full-socle-completion/binary-refinement-loop-rigidity.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "9b0994541de558de7ace2a77d72bbd362de55c73c921081aea948ffe62a4c152",
+      "public_sha256": "7fe7bc735d643fb09001260f447df941fc3cb3aa30a80af8253139177b3edc79",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_psu45_canonical.g",
+      "public_path": "sources/code/verify_psu45_canonical.g",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "1cb2d1502f733611301984970d4694e421e0728a526c3519e48aca5b656da8dc",
+      "public_sha256": "1cb2d1502f733611301984970d4694e421e0728a526c3519e48aca5b656da8dc",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_g2_antiflag_small.g",
+      "public_path": "sources/code/verify_g2_antiflag_small.g",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "9e254c4dda9163ee7f2cf0afcdfd6ff12aa0d0e6542f7a3f34039268bf010849",
+      "public_sha256": "9e254c4dda9163ee7f2cf0afcdfd6ff12aa0d0e6542f7a3f34039268bf010849",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/characteristic-two-linear-full-socles.md",
+      "public_path": "sources/full-socle-completion/characteristic-two-linear-full-socles.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "b267a5a5c16a984ddb151dab1c1e916357464f3fa8c7cef77107b2588bee448d",
+      "public_sha256": "5918cd33ecc7c5847bb7e3fa4d5c84e6ae4bff39d559f1c08dcd92029b0c12ef",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_unitary_component_capacities.py",
+      "public_path": "sources/code/verify_unitary_component_capacities.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "c5e1ab0507ae6b7b9f9d1d79f3bc132ac23c9912ff41a6294eadd4e42796239f",
+      "public_sha256": "c5e1ab0507ae6b7b9f9d1d79f3bc132ac23c9912ff41a6294eadd4e42796239f",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/binary-rank-two-tensor-minus.md",
+      "public_path": "sources/full-socle-completion/binary-rank-two-tensor-minus.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "3b82a95e15b0e46f8e0a1425baaf3b57d4470c81ce6607c0ae92fe0a078a51ae",
+      "public_sha256": "a59ce6d38e031b69f57aa8ea5f3a70f4665f8c6cac6aae34e0eaa1eff3d73bce",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_even_linear_finite_pairs.g",
+      "public_path": "sources/code/verify_even_linear_finite_pairs.g",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "69e20d337247a20a831314de02b6802472be8e8ce69d121bd6fdc4db948356fb",
+      "public_sha256": "69e20d337247a20a831314de02b6802472be8e8ce69d121bd6fdc4db948356fb",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/binary-symplectic-extension-spreads.md",
+      "public_path": "sources/full-socle-completion/binary-symplectic-extension-spreads.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "58dadfb21b4ff7950cfb9bf2cb7495a08da67c51b3df08f22646e993f30d29f4",
+      "public_sha256": "e23f5db0d5bcd0a0c16a3ba7b2f4933aeb0d8322f675149cb318ae4840b5aa92",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_even_linear_parabolic_capacity.py",
+      "public_path": "sources/code/verify_even_linear_parabolic_capacity.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "6f3f2d6193128122de6423d28edca4b474b068f96bf40914c948e3e7bb53959c",
+      "public_sha256": "6f3f2d6193128122de6423d28edca4b474b068f96bf40914c948e3e7bb53959c",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/even-symplectic-field-actions.md",
+      "public_path": "sources/full-socle-completion/even-symplectic-field-actions.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "adf22b62af46840ba370afb1c4a1c4ec922a625687d0e7a75592a035effa8564",
+      "public_sha256": "18838c9e71235a91c5911e233b05a9d697405b827697c1a10db46c9e1d61ead4",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_binary_sp6_orbitals.g",
+      "public_path": "sources/code/verify_binary_sp6_orbitals.g",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "a20faebde60056ac19e046934980f5552b9b01afad7377ba787e1013fe19e2c8",
+      "public_sha256": "a20faebde60056ac19e046934980f5552b9b01afad7377ba787e1013fe19e2c8",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_tensor_a5_minus_orbits.py",
+      "public_path": "sources/code/verify_tensor_a5_minus_orbits.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "3e9a77a24420b4f7cd548730a2c8b0e62fb94364af6d7823c4fa50eb6c2a8e21",
+      "public_sha256": "3e9a77a24420b4f7cd548730a2c8b0e62fb94364af6d7823c4fa50eb6c2a8e21",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/characteristic-two-unitary-full-socles.md",
+      "public_path": "sources/full-socle-completion/characteristic-two-unitary-full-socles.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "45817849ef468f501877850cefed6cafcb256e0293ae6d0f7e22245d2c268bd7",
+      "public_sha256": "3e3c771b0ef85d780d5577d5e34f8760682bba0fe698fa2644d9ff1f9a930c0d",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/e6-odd-semilinear-full-socles.md",
+      "public_path": "sources/full-socle-completion/e6-odd-semilinear-full-socles.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "a195c850e0fe28563949ae34972018153bc20a578b5030882f4a5708ac96596a",
+      "public_sha256": "5c166060e8e4b08586f1629a2d779cfc6ab7a2c849b49cfa00cf9575f0778b39",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/e6-odd-graph-full-socles.md",
+      "public_path": "sources/full-socle-completion/e6-odd-graph-full-socles.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "b6f3729e2c85f93f690c544d44b001e19f99efa170cf0893afa43fe9b5cea949",
+      "public_sha256": "75c64129f95dc1c1a806fa212a61b5bda27fa9b000b8cb0275ca97a8de52f764",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/even-linear-characteristic-two-canonical.md",
+      "public_path": "sources/full-socle-completion/even-linear-characteristic-two-canonical.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "ae958fb6e927409dc7318f30f903ece95e2c8ee2f9e8429280347b1485af4162",
+      "public_sha256": "379b25a6e2917a5141ac447f4f86d5865ffd6bb9b237ebace0f99bdd836fb3e2",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_unitary43_rows9_12.g",
+      "public_path": "sources/code/verify_unitary43_rows9_12.g",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "ea269bdf06447036cab45edfbb65095a4846d2e15929d9bf850c0155b0c45fce",
+      "public_sha256": "ea269bdf06447036cab45edfbb65095a4846d2e15929d9bf850c0155b0c45fce",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/odd-kernel-stabilizer-orbits.md",
+      "public_path": "sources/full-socle-completion/odd-kernel-stabilizer-orbits.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "65f8d0fe74b4085732ec0ff9b86b40ee12ca485ee9c5fb1cd34d057c68c6714d",
+      "public_sha256": "d7c0a47d766bbfbbe932b00b42a3bb46595990549ae2aa75bcd48ee8461e8a5c",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/marked-involution-vector-obstruction.md",
+      "public_path": "sources/full-socle-completion/marked-involution-vector-obstruction.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "b8252a299d2d63885075675eed605c410eccb40684f33845dfaf7b746c454a6b",
+      "public_sha256": "d9355cbb512f23cef99a2e3ec3935a06f9b0f51ec54be4cb51dde1f1e8bf1a9e",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/even-linear-extension-parabolic.md",
+      "public_path": "sources/full-socle-completion/even-linear-extension-parabolic.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "26a84a41d119caf0dbdc67249f1ed08b64fd8b76d7f66bdc1d39c8ea745abcc0",
+      "public_sha256": "ffa1486030529c093e790bdc718d67c7d707546e7dc62a202dad75631316ce42",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_linear_four_semilinear.py",
+      "public_path": "sources/code/verify_linear_four_semilinear.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "be44e3725af3bf59ded450623ae243df182459e0c6df09eae249c8fc25436610",
+      "public_sha256": "be44e3725af3bf59ded450623ae243df182459e0c6df09eae249c8fc25436610",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/binary-symplectic-small-full-socles.md",
+      "public_path": "sources/full-socle-completion/binary-symplectic-small-full-socles.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "6eb5a11c9fdb869940c2e418ec51eae25f7c74869338712811247d7378d6c3e9",
+      "public_sha256": "272140d460f4396046db3a189fa4d085c4661ac49f3def9b24adffbf4b97cd4f",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/generate_linear_four_overgroups.py",
+      "public_path": "sources/code/generate_linear_four_overgroups.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "f9270865ce3e625372fff3d220df97e8c6e0a241c343bd1688abc4910f5aa4e8",
+      "public_sha256": "f9270865ce3e625372fff3d220df97e8c6e0a241c343bd1688abc4910f5aa4e8",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/e7-odd-diagonal-canonical.md",
+      "public_path": "sources/full-socle-completion/e7-odd-diagonal-canonical.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "beb77849b1f4a336103d88bd8a6516d67c3a7b91c5d4fad34140940eba810e04",
+      "public_sha256": "ecb52348838499b4c4b7dd540f3c18b7f8b4b2facf3dd7afbfdda555803845dd",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/g2-antiflag-pair.md",
+      "public_path": "sources/full-socle-completion/g2-antiflag-pair.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "e8fcf4332ac8612a1ff8f1b196e22f1ed7deb3c0954d3621ec90b9b9441f72f7",
+      "public_sha256": "50e01115f4f69ae7be7978e3b9e2c34968cdbab2665e0421652e0d1a76471fc1",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/e7-odd-diagonal-union.md",
+      "public_path": "sources/full-socle-completion/e7-odd-diagonal-union.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "e7892d2555fd1a0168b331e4bc2a14045d4787f527bfaae4a4ae1e6c919508b1",
+      "public_sha256": "2eda756e9f44539f1d786530b080aafcd2a09c8688f0734287e115e359dbfb07",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/alternating-solvable-factor-correction.md",
+      "public_path": "sources/full-socle-completion/alternating-solvable-factor-correction.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "97dcf54f367d55ea9da7cd59f25528f6a9114cbe2fa0ec668fea6d443d2f18d0",
+      "public_sha256": "040b1921fa9236aedb1449f41f3b3add1f2c4e1eaac6eb940dd52a68e16e30e7",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/g2-vector-parabolic-capacity.md",
+      "public_path": "sources/full-socle-completion/g2-vector-parabolic-capacity.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "7ee89dbca6be813598cf9268ff6bc6a117b942c2eeee65e3ecf768cf640e46ca",
+      "public_sha256": "edb31610aaf77dd4d4015bd6a2adbcf78df056f882979c9b4e16a4bb07315902",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/paired-affine-swap-exhaustion.md",
+      "public_path": "sources/full-socle-completion/paired-affine-swap-exhaustion.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "d0856b1d801e513dda1cb1072eb3fd150b476396c7c7916e26abad010b7de365",
+      "public_sha256": "f1131045b77e0ec04e88dc9453367a2eccc9fa2f21ee87a04dc463a98f76122e",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_binary_sp8_planes.g",
+      "public_path": "sources/code/verify_binary_sp8_planes.g",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "3b7a4ab0b81b65aebbb6a76ec3e528b7363dd4fca5fd0fb330252662e04aa510",
+      "public_sha256": "3b7a4ab0b81b65aebbb6a76ec3e528b7363dd4fca5fd0fb330252662e04aa510",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/even-linear-finite-factor-pairs.md",
+      "public_path": "sources/full-socle-completion/even-linear-finite-factor-pairs.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "4da2255eaaa887e7b71c9edc82b9c96ff1921aaa33ab10fe7791b12deb844363",
+      "public_sha256": "d066fea8b0f44fe0cf47003577965f5b6ed559348b0289ace60f33a9ca3c681b",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/psu45-canonical.md",
+      "public_path": "sources/full-socle-completion/psu45-canonical.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "0c1d876b9689aa20098a91a19bfef7a7b0d39926b8875afc20886c7dd550f4a1",
+      "public_sha256": "836b6c10552fc92ab2069bede05a31b701201bf9335149680ccbfe949d49a83b",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/odd-linear-four-diagonal.md",
+      "public_path": "sources/full-socle-completion/odd-linear-four-diagonal.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "9347d002ac1df57311fd89847472e8caf2cca8d5f7872f636488f62550c07a44",
+      "public_sha256": "2a27a950deff410b51e784e0fa4088e08964b8b56a3cd3f1cecd0db0cf026e8e",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/e7-odd-full-socles.md",
+      "public_path": "sources/full-socle-completion/e7-odd-full-socles.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "e3a1c552ddc111c25cfd70793018fc7367f05d3a9b6e313331ebf721c8cd5484",
+      "public_sha256": "dec4b967bdcff483a23bcf605236d9ae302295b52528250122f040bcfa79a548",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/linear-four-odd-canonical.md",
+      "public_path": "sources/full-socle-completion/linear-four-odd-canonical.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "b7f12c884c01a0b5cd1f1f7d3e519bc8208d573d0524e510f1aa599ab520b968",
+      "public_sha256": "09bab8af7dc2f10afa3b7be793f3dbc0623d3c661f2b23618d3b908d63b21fe1",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/symplectic-point-stabilizer.md",
+      "public_path": "sources/full-socle-completion/symplectic-point-stabilizer.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "80a0c1fceaaecca6ca7a78b14f7bc7c117cd48ab5f9036a1aee38e2d6b690aa3",
+      "public_sha256": "3a96e259f62f92edf2ec4a7a91bd9813196a9feb114c8a16ebf836bf3114e209",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/unitary-finite-factor-pairs.md",
+      "public_path": "sources/full-socle-completion/unitary-finite-factor-pairs.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "c5a1f2a9bcf70e6144cc5ad852fb247ab994a12926eb3c48dd0424295cba9f8d",
+      "public_sha256": "009ac188a5dd938bde7c6bf67e9dfb010cff42182279be593680ffdfc1f91733",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/extension-antiflag-pairs.md",
+      "public_path": "sources/full-socle-completion/extension-antiflag-pairs.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "115ac1352cd7af7f07fc21075d7e49618075978f392ede6c85e919de9969f93c",
+      "public_sha256": "092886fa176e68c84e84e320c981af07214a9b51fbeddc8b112d365b78710673",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/linear-four-odd-overgroups.md",
+      "public_path": "sources/full-socle-completion/linear-four-odd-overgroups.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "e2657242568ed472dc83e97ff790895386adc78f290abd5aeccb09c17a4c4d34",
+      "public_sha256": "4fdd54dab49a1ce69e02d0264640ea8a9d94379f2c9988719e993118db31ddc4",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/odd-sl2-vector-component.md",
+      "public_path": "sources/full-socle-completion/odd-sl2-vector-component.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "b33110bb55c98317436664cd86f8f22417954037552bbff2bd06de8f4e684856",
+      "public_sha256": "af8d1559ceac748f275595ffd1475bdfabca91026587c862bfcccb35dfdc8513",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/odd-unitary-four-diagonal.md",
+      "public_path": "sources/full-socle-completion/odd-unitary-four-diagonal.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "91028d5106ede6e0e6b5d18763345ec493ed006ae1a3056d7ad7e410a956dd51",
+      "public_sha256": "d78045cd2ddca2585078c6df3250b65403ace8395aff924d4a85a7f7fc2e9062",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/e6-even-diagonal-free-socles.md",
+      "public_path": "sources/full-socle-completion/e6-even-diagonal-free-socles.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "59a4a3932a0684b6050fd41d58cc1cc86dfa37a06a420cce982728db42e0516b",
+      "public_sha256": "77f528f63075fc88f7b18c9e25cff265ef2e5cac11b1cf355d8e6964e09e65dd",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/symplectic-sp64-corrected-pair.md",
+      "public_path": "sources/full-socle-completion/symplectic-sp64-corrected-pair.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "2993590108179ce21705423bb7c2a64e4ffffb101850523b8281c07d8a5dffe7",
+      "public_sha256": "a7dae5592373dc066d1ff825626af8e52604b9f34656d86d4a9ae3427b02a136",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/even-unitary-component-intersections.md",
+      "public_path": "sources/full-socle-completion/even-unitary-component-intersections.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "7bbc7d016f1c66cc361ac47786e9555a6b1961b28c099b4ceb358b9b5ef3eb3f",
+      "public_sha256": "4bc33dffba719983d3b1ad50d3040276106a14359137527d0ea1c1718e926f88",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/symplectic-decomposition-actions.md",
+      "public_path": "sources/full-socle-completion/symplectic-decomposition-actions.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "bafe9e47f5592639f6bc92aa1456bc83af25abdf2af302893059863f2695cce3",
+      "public_sha256": "1082c1b197c2a6f2ed920c6c9f69b27130cdd68830ee2a1224cc22ab35876d1c",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/twisted-e6-even-full-socles.md",
+      "public_path": "sources/full-socle-completion/twisted-e6-even-full-socles.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "566f9260a44c78b566ef4032ae169a9ccfb8f88ab99048d24724f928b83dfed4",
+      "public_sha256": "02080c6fbb604226710b41d323b443910e90f2b91439256feca4e69d30dfd30c",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/transvection-products-classical-intersections.md",
+      "public_path": "sources/full-socle-completion/transvection-products-classical-intersections.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "886d7800e95be4d8fb607a81eb7a46c04da95da4c227b1a8eb14d780e624451b",
+      "public_sha256": "16528bb79dbf26f4aa1d43dec5f8fef7c25055e1eaf55ddd8e0533005ef4f36a",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/symplectic-many-factor-stabilizers.md",
+      "public_path": "sources/full-socle-completion/symplectic-many-factor-stabilizers.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "cccb71cce7e1c5adc15af50272548f52b8e4563414a32213179d483c0f8cdac5",
+      "public_sha256": "bad7e57ffa8052e7de0f3662865fe0928f7f0b3ad62f27e0ad884c950a7eabdc",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/sp4-antiflag-capacity.md",
+      "public_path": "sources/full-socle-completion/sp4-antiflag-capacity.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "9b72a01da902b3292aa2b117807ca231fc95fb1e6ea35f8ed19b574b37adfa9c",
+      "public_sha256": "f591dbb4ac9f70d1d114471393afe0a04a353d3be04229238237038b8f4658b2",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/untwisted-e6-even-full-socles.md",
+      "public_path": "sources/full-socle-completion/untwisted-e6-even-full-socles.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "2c389e0ee0a1afe8b3caf2fbc206e5268365da735275c9b8814597c6e9608205",
+      "public_sha256": "d1244f317aa36bdad78a8bb193003bc75ef5cebfc0a39ec28585183d3e5bda91",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/symplectic-even-maximal-stabilizers.md",
+      "public_path": "sources/full-socle-completion/symplectic-even-maximal-stabilizers.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "9e64f8a282050e979d397050235fc3f897f74902ef972aec4e7c472fa285bdb4",
+      "public_sha256": "f7767f55cbfd8f1dba37aa7812b156027748d7db0c0ce02bec9e92645d885999",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/sp8-a5-square-minus-action.md",
+      "public_path": "sources/full-socle-completion/sp8-a5-square-minus-action.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "fe54f71b8f6095b618a5cdaea749264c31c6988d22a418af568614f285fac479",
+      "public_sha256": "c25e44d133208c75029782b90b30121d8b9540690e5e6059aa89d27cd05f22e3",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/unitary-four-odd-overgroups.md",
+      "public_path": "sources/full-socle-completion/unitary-four-odd-overgroups.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "ba25f92c1082fc5f87e36ca19a2f5eea319caf19f90d378f05cb7ee3eae9e209",
+      "public_sha256": "5d59c1a928cc83bdd4fdf68cbedef633572fce4c6d6e21c6fc581ad122bb586d",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/even-unitary-line-parabolic-factors.md",
+      "public_path": "sources/full-socle-completion/even-unitary-line-parabolic-factors.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "9c99a35a1e33c826d831f7134f2e21422cd0f34a7482582b838810addddb8ff6",
+      "public_sha256": "d2c6e8f926c0f84793c9f10e36322efd1625adeaab3eb87ca2fcc632699adaaf",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_unitary_four_overgroups.py",
+      "public_path": "sources/code/verify_unitary_four_overgroups.py",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "0040db6358b0d6a6b6006b0c01e4c9293045e78dfa1261f9c6b22bdf2a32d5c3",
+      "public_sha256": "0040db6358b0d6a6b6006b0c01e4c9293045e78dfa1261f9c6b22bdf2a32d5c3",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/unitary-four-odd-canonical.md",
+      "public_path": "sources/full-socle-completion/unitary-four-odd-canonical.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "dd33bfb709cc3a4b8236b23c559827a3b0e724ffcc97976982ad24ad608b4c67",
+      "public_sha256": "ef91901bba46b58cfee90d0d109346a7b637fa68c67229afb2d521077b957667",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/odd-kernel-lift-classification.md",
+      "public_path": "sources/full-socle-completion/odd-kernel-lift-classification.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "b3a7a522a2dadfcc9d0797eeedee04cfbcf84ef90e3b5b19f87fa3fe169f5016",
+      "public_sha256": "5272297f991634a9fef3ba69c5995c48cff7bdd768e432e1a1e2033486a42923",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/paired-affine-odd-inversions.md",
+      "public_path": "sources/full-socle-completion/paired-affine-odd-inversions.md",
+      "historical_revisions": [],
+      "claim_family": "",
+      "source_revision": "bb5a92abe1c4963c1218fbea4508987a9e88c118",
+      "source_sha256": "4d4526ea3e823e790defd04920fd2d2c9789b9f629cc74a399d70045dbebc6b0",
+      "public_sha256": "9d78cbdea011eb02c8c545b272327b5ac0ad6668033260934541f33126ba059c",
+      "editing": "Relative dependency links redirected to public sources; internal contributor handles neutralized; protected GitHub inline math. Mathematical statements, review qualifications and exact revision pins retained. Executable bytes unchanged."
     }
   ]
 }

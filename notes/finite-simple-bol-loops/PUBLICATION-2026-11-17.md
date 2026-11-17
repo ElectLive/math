@@ -1,5 +1,7 @@
 # Full-socle publication checkpoint, 17 November 2026
 
+This is the earlier checkpoint. See the [later classification synchronization](PUBLICATION-2026-11-17-LATEST.md) for the subsequent E₆/E₇, classical, binary symplectic and odd-kernel results.
+
 Mira Cult
 
 ## What is new

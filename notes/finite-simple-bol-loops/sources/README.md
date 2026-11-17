@@ -287,3 +287,54 @@ Complete classification proof sources and dependencies for the current synchroni
 - [Excluding every sporadic full multiplication socle](full-socle-completion/sporadic-full-multiplication-exclusion.md)
 - [Suzuki and small Ree full multiplication socles](full-socle-completion/suzuki-small-ree-full-socles.md)
 - [The Tits group as a full multiplication socle](full-socle-completion/tits-full-socle.md)
+
+## Latest classical, exceptional and odd-layer proofs
+
+These supporting proofs retain exact source review scope, corrections and pending labels. See claims 0094–0098 for the result-centered reading path.
+
+- [Correction to the alternating solvable-factor inventory](full-socle-completion/alternating-solvable-factor-correction.md).
+- [Uniform binary rank-two tensor obstruction](full-socle-completion/binary-rank-two-tensor-minus.md).
+- [Loop multiplication on binary symplectic quadratic refinements](full-socle-completion/binary-refinement-loop-rigidity.md).
+- [Binary symplectic full multiplication socles in rank at least five](full-socle-completion/binary-symplectic-extension-spreads.md).
+- [The two small simple binary symplectic full socles](full-socle-completion/binary-symplectic-small-full-socles.md).
+- [Characteristic-two full linear socles](full-socle-completion/characteristic-two-linear-full-socles.md).
+- [Full characteristic-two unitary socles: conditional assembly](full-socle-completion/characteristic-two-unitary-full-socles.md).
+- [Diagonal-free even E6 full multiplication socles](full-socle-completion/e6-even-diagonal-free-socles.md).
+- [Odd-characteristic E6 graph-only full-socle exclusion](full-socle-completion/e6-odd-graph-full-socles.md).
+- [Odd-characteristic split E6 semilinear full-socle exclusion](full-socle-completion/e6-odd-semilinear-full-socles.md).
+- [Proposed exclusion of pure diagonal canonical inversion in odd E7](full-socle-completion/e7-odd-diagonal-canonical.md).
+- [E7 odd: two diagonal mark classes cannot both be selected](full-socle-completion/e7-odd-diagonal-union.md).
+- [Odd E7 full multiplication socle: proposed completion](full-socle-completion/e7-odd-full-socles.md).
+- [Even-dimensional linear canonical overgroups in characteristic two](full-socle-completion/even-linear-characteristic-two-canonical.md).
+- [Even linear extension-field/vector-parabolic canonical orientation](full-socle-completion/even-linear-extension-parabolic.md).
+- [The remaining finite linear factor pairs](full-socle-completion/even-linear-finite-factor-pairs.md).
+- [Extension-field and subfield stabilizers over larger even fields](full-socle-completion/even-symplectic-field-actions.md).
+- [Unitary line-canonical components in rows 4–8, 14 and 16–18](full-socle-completion/even-unitary-component-intersections.md).
+- [Even-dimensional unitary line and parabolic factors](full-socle-completion/even-unitary-line-parabolic-factors.md).
+- [Extension-field antiflag pairs in characteristics two and four](full-socle-completion/extension-antiflag-pairs.md).
+- [Both G2/linear antiflag orientations](full-socle-completion/g2-antiflag-pair.md).
+- [G2 extension-field/vector-parabolic capacity](full-socle-completion/g2-vector-parabolic-capacity.md).
+- [Canonical PSL4(q) for every odd q](full-socle-completion/linear-four-odd-canonical.md).
+- [All odd-field canonical overgroups of PSL4(q)](full-socle-completion/linear-four-odd-overgroups.md).
+- [Marked involutions, odd-central components and vector stabilizers](full-socle-completion/marked-involution-vector-obstruction.md).
+- [Odd marked lifts: exact-cover assembly and pointed isomorphism](full-socle-completion/odd-kernel-lift-classification.md).
+- [Stabilizer orbits of marks above an odd normal kernel](full-socle-completion/odd-kernel-stabilizer-orbits.md).
+- [Pure diagonal canonical PSL4(q), all odd q](full-socle-completion/odd-linear-four-diagonal.md).
+- [Odd SL2 extension/vector-parabolic component exclusion](full-socle-completion/odd-sl2-vector-component.md).
+- [Pure-diagonal canonical PSU4(q), all odd q](full-socle-completion/odd-unitary-four-diagonal.md).
+- [All inversions for the odd-field affine square](full-socle-completion/paired-affine-odd-inversions.md).
+- [Exhaustion of the factor-swapping affine square](full-socle-completion/paired-affine-swap-exhaustion.md).
+- [Canonical PSU4(5): all involutory inversion labels](full-socle-completion/psu45-canonical.md).
+- [Rank-four symplectic antiflag capacity and the complete pair](full-socle-completion/sp4-antiflag-capacity.md).
+- [All A5-square embeddings in the binary symplectic minus action](full-socle-completion/sp8-a5-square-minus-action.md).
+- [Symplectic subspaces, decompositions and actual factor stabilizers](full-socle-completion/symplectic-decomposition-actions.md).
+- [Identity stabilizers for characteristic-two symplectic full socles](full-socle-completion/symplectic-even-maximal-stabilizers.md).
+- [Symplectic actual many-factor stabilizers: conditional source-branch reduction](full-socle-completion/symplectic-many-factor-stabilizers.md).
+- [Symplectic point-parabolic residual as the actual stabilizer](full-socle-completion/symplectic-point-stabilizer.md).
+- [Corrected Sp6(4) many-factor pair: canonical product side](full-socle-completion/symplectic-sp64-corrected-pair.md).
+- [Transvection products and actual classical stabilizer intersections](full-socle-completion/transvection-products-classical-intersections.md).
+- [Every even-field twisted E6 full socle: proposed assembly](full-socle-completion/twisted-e6-even-full-socles.md).
+- [Finite unitary factor pairs: rows 9–13 in both orientations](full-socle-completion/unitary-finite-factor-pairs.md).
+- [Canonical PSU4(q) for every odd q](full-socle-completion/unitary-four-odd-canonical.md).
+- [All odd-field canonical overgroups of PSU4(q)](full-socle-completion/unitary-four-odd-overgroups.md).
+- [Proposed untwisted E6 even-field full-socle assembly](full-socle-completion/untwisted-e6-even-full-socles.md).

@@ -1,5 +1,12 @@
 # Open problems
 
+## Current remaining classification boundary
+
+The [latest six result families](README.md#latest-classification-advances-17-november-2026) supersede older open-family descriptions below. In odd characteristic, the socle-containing even-dimensional PSL/PSU canonical branch remains open in dimensions at least six. Other symplectic and orthogonal full actions, surviving natural alternating/symmetric loop operations, and general extension and isomorphism classification remain open. The larger-even-field symplectic exclusions concern their stated actual stabilizers, not every field or action.
+
+The global many-factor factorization-source coverage is unverified; earlier global acceptances were withdrawn. Local corrected arguments and direct geometric exclusions retain their separate scopes. The odd-kernel orbit theorem, elementary-lift reconstruction and factor-swapping affine exhaustion have scoped model reviews. The newer odd-field all-inversions affine assertion remains proposed with review pending. No source-boundary date is an assertion that all its contents are accepted.
+
+
 ## Analytic fusion and marking boundaries
 
 The [completed charged-transport checkpoint](analytic-transport/README.md) leaves three distinct interfaces open: continuous-Cartan Felder charged fusion with all zero/carry channels; a heat-compatible fusion pentagon linking the separate heat and difference constructions; and an identification with original Fock traces. Determine which split/inversion/boundary markings may be discarded while retaining stable cocycle recovery. Existing erasure controls prevent simply forgetting all markings. These targets do not imply an arithmetic moonshine correspondence.
