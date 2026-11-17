@@ -138,3 +138,8 @@ pins the scientific revision and the independent mathematical and resource
 reviews accepting it within their stated scopes. These
 results concern specified reciprocal families, not a classification of finite
 simple Bol loops.
+
+
+### Charged analytic transport and reconstruction
+
+The [completed marked analytic checkpoint](analytic-transport/README.md) constructs finite-dynamical collective charged transport, stable separated recovery of a retained cocycle, and a separate mixed-heat reconstruction of marked boundary matrices. It preserves full zero sectors and exact review scope. Continuous Felder fusion, a unified heat/difference functor and the original-Fock trace bridge remain open; no arithmetic moonshine consequence is claimed.

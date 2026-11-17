@@ -1,5 +1,9 @@
 # Open problems
 
+## Analytic fusion and marking boundaries
+
+The [completed charged-transport checkpoint](analytic-transport/README.md) leaves three distinct interfaces open: continuous-Cartan Felder charged fusion with all zero/carry channels; a heat-compatible fusion pentagon linking the separate heat and difference constructions; and an identification with original Fock traces. Determine which split/inversion/boundary markings may be discarded while retaining stable cocycle recovery. Existing erasure controls prevent simply forgetting all markings. These targets do not imply an arithmetic moonshine correspondence.
+
 ## Intrinsic deck alignment and extension gluing
 
 For the [recognized graphical Bruck family](loop-decomposition/README.md), derive compatible domain/output alignments and central intersections from the unaligned abstract-card multiset, or prove parent uniqueness without reconstructing them. This is the remaining reconstruction conjecture, not a consequence of classifying simple factors. A central-amalgamation obstruction defeats naive gluing in a broader family, but has different parent orders; the same-order enlarged-family problem remains open. Extending direct decomposition beyond prime exponent, central associators and trilinearity is a separate target.

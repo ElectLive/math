@@ -1,0 +1,294 @@
+{
+  "analytic_extraction": {
+    "common_group": "Gamma_0(320)",
+    "exact_logarithmic_inverse_coefficients": 176,
+    "first_ratio_coefficient_at_induced_index_6561": 64560240,
+    "first_ratio_term_local": {
+      "coefficient": 9840,
+      "degree": 16
+    },
+    "symbolic_ratio": "(Delta(80tau)/Delta(160tau))^(82I) / (Delta(16tau)/Delta(32tau))^(410I)"
+  },
+  "arithmetic": "Exact F3, F81, integers, rationals, and Z[zeta_3]",
+  "convention": "A(Tx,y)=B(x,y); F_A F_B^-1=P_T; P_T eta_x=eta_Tx",
+  "limits": [
+    "No huge loop or induced set enumerated",
+    "Manual exact execution; no repository CI result claimed",
+    "No independent proof of inherited selected-loop or strict-transport interfaces",
+    "No claim that generic free-field identities imply the new geometric annihilator",
+    "No uniquely Bol analytic mechanism or historical-priority claim"
+  ],
+  "quartic_controls": {
+    "GL2_relabelings_checked": 96,
+    "class_points_each": 6569,
+    "controls": [
+      {
+        "V_cycle_counts": {
+          "1": 1,
+          "80": 82
+        },
+        "all_48_pair_order_histogram": {
+          "20": 16,
+          "80": 32
+        },
+        "distinguished_transfer_order": 80,
+        "local_class_cycle_counts": {
+          "1": 9,
+          "80": 82
+        },
+        "order_at_alpha11_beta12": 80,
+        "polynomial_low_to_high": [
+          2,
+          1,
+          0,
+          0,
+          1
+        ],
+        "scalar_rank_histogram": {
+          "0": 1,
+          "8": 8
+        }
+      },
+      {
+        "V_cycle_counts": {
+          "1": 1,
+          "16": 410
+        },
+        "all_48_pair_order_histogram": {
+          "5": 4,
+          "10": 4,
+          "16": 8,
+          "40": 16,
+          "80": 16
+        },
+        "distinguished_transfer_order": 16,
+        "local_class_cycle_counts": {
+          "1": 9,
+          "16": 410
+        },
+        "order_at_alpha11_beta12": 5,
+        "polynomial_low_to_high": [
+          2,
+          0,
+          1,
+          0,
+          1
+        ],
+        "scalar_rank_histogram": {
+          "0": 1,
+          "8": 8
+        }
+      }
+    ],
+    "group_realization_limit": "Class-two groups; no selected proper-Bol claim",
+    "same_entire_fusion_profile": true,
+    "self_adjoint_power_rank_checks": 7680
+  },
+  "rigid_local_and_symbolic": {
+    "canonical_origin_checks": 81,
+    "central_sector_identity_checks": 108,
+    "common_phase_admissible_charges": 6,
+    "common_phase_scalar_transfer_checks": 36,
+    "distinguished_transfer": {
+      "S": {
+        "1": 99,
+        "2": 132
+      },
+      "S_R_minus": {
+        "2": 96,
+        "3": 33,
+        "6": 12
+      },
+      "S_R_plus": {
+        "2": 132,
+        "3": 33
+      },
+      "minus_cyclotomic_factor_defect": [
+        -24,
+        24,
+        12,
+        -12
+      ],
+      "minus_first_odd_mode_ratio_coefficient": 1728,
+      "plus_exact_determinant_identity": true
+    },
+    "independent_pair_multiplicities": [
+      24,
+      24,
+      36,
+      36
+    ],
+    "local_points": 363,
+    "nondegenerate_charge_count": 12,
+    "nondegenerate_radical_restriction_checks": 324,
+    "nonidentity_transfer_factorization_locus": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        2
+      ]
+    ],
+    "ordered_regular_pairs": 144,
+    "relative_transfer_multiplicities": [
+      36,
+      36,
+      36,
+      36
+    ],
+    "scope": "Finite local validation; huge proper-loop hypotheses inherited",
+    "symbolic_large": {
+      "M": "3^36",
+      "V_dimension": "M^2",
+      "class_count": "3(M+2)^2",
+      "full_transfer_fixed": "9M+18",
+      "full_transfer_two_cycles": "3(M^2+M-2)/2",
+      "norm_minus_c2_c3_c6": [
+        "3(M-1)^2/2",
+        "3M+6",
+        "3(M-1)/2"
+      ],
+      "norm_minus_first_ratio_coefficient": "216 I(M-1)",
+      "norm_plus_c2_c3_c6": [
+        "3(M^2+M-2)/2",
+        "3M+6",
+        "0"
+      ]
+    }
+  },
+  "script_sha256": "4d8a76734ecc22f014d498c4d7f5dd3b511dfce437cf5977257977b68a424b17",
+  "small_fourier": {
+    "cyclic_network_traces": {
+      "1": 1,
+      "2": 9
+    },
+    "exact_cyclotomic_matrix_entries": 81,
+    "network_terms_through_length_two": 6642,
+    "relabeling_seed": 323438
+  },
+  "status": "PASS",
+  "twelve_point_ablation": {
+    "factorization_holds": [
+      true,
+      false
+    ],
+    "failure_first_odd_mode_ratio_coefficient": 144,
+    "limit": "Individual spectra agree; full joint group characters do not",
+    "mode_resolved_source_check": {
+      "all_36_truncated_coefficients_agree_in_disjoint_control": true,
+      "colors_a": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "colors_b": [
+        -1,
+        0,
+        3,
+        1,
+        1,
+        3,
+        0,
+        -1,
+        0,
+        3,
+        1,
+        1
+      ],
+      "currents": [
+        "E_a^{1,3}",
+        "E_b^{3,1}"
+      ],
+      "each_source_degree_bound": 2,
+      "fermion_species": 24,
+      "grade_bound": 3,
+      "initial_signed_wedge_states_per_trace": 311,
+      "nonzero_mixed_source_coefficients_in_product": [
+        [
+          [
+            1,
+            1,
+            1
+          ],
+          "336"
+        ],
+        [
+          [
+            2,
+            1,
+            1
+          ],
+          "96600"
+        ],
+        [
+          [
+            2,
+            2,
+            2
+          ],
+          "52176"
+        ],
+        [
+          [
+            3,
+            1,
+            1
+          ],
+          "13814472"
+        ],
+        [
+          [
+            3,
+            2,
+            2
+          ],
+          "14981808"
+        ]
+      ],
+      "one_species_trace_evaluations": 8,
+      "overlapping_control_already_fails_at_q": 144,
+      "source": "exp(t E_a^{1,3}) exp(u E_b^{3,1})"
+    },
+    "points": 12,
+    "product_profiles": [
+      {
+        "2": 3,
+        "3": 2
+      },
+      {
+        "1": 6,
+        "6": 1
+      }
+    ],
+    "same_faithful_abstract_group_relations": "C2 x C3 = C6",
+    "same_individual_cycle_profiles": true
+  }
+}

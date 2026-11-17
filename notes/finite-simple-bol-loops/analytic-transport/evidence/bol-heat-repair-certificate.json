@@ -1,0 +1,85 @@
+{
+  "arithmetic": "Exact Q[zeta_p], integers and rational numbers",
+  "associative_control": {
+    "associativity_equations": 19683,
+    "model": "Heisenberg group on F3^3",
+    "noncommutative": true,
+    "order": 27
+  },
+  "basis_and_tomography": {
+    "cases": [
+      {
+        "full_zero_algebra_dimension": 1,
+        "operator_dimension": 3,
+        "p": 3,
+        "zero_matrix_size": 1
+      },
+      {
+        "full_zero_algebra_dimension": 4,
+        "operator_dimension": 6,
+        "p": 3,
+        "zero_matrix_size": 2
+      },
+      {
+        "full_zero_algebra_dimension": 9,
+        "operator_dimension": 9,
+        "p": 3,
+        "zero_matrix_size": 3
+      },
+      {
+        "full_zero_algebra_dimension": 1,
+        "operator_dimension": 5,
+        "p": 5,
+        "zero_matrix_size": 1
+      },
+      {
+        "full_zero_algebra_dimension": 4,
+        "operator_dimension": 10,
+        "p": 5,
+        "zero_matrix_size": 2
+      }
+    ],
+    "orthogonality_equations": 1493,
+    "reconstructed_exact_coefficients": 251
+  },
+  "finite_sampling_control": {
+    "bound": "M*((1-R^(-N))^(-2)-1)",
+    "exact_geometric_tail_controls": 24,
+    "floating_point_theta_samples": false
+  },
+  "limits": "Finite controls, not proofs of analytic convergence, contour estimates, or a combined charged-fusion functor",
+  "modular_generators": {
+    "Fourier_normalization": "F_unnormalized F_unnormalized*=p I",
+    "exact_S_T_conjugation_equations": 824,
+    "metaplectic_phase_used": false
+  },
+  "proper_cubic_control": {
+    "charged_mark_dimension": 9,
+    "common_charged_characteristic_polynomial": "(t^3-1)^3",
+    "equal_labeled_left_translation_cycle_types": 27,
+    "exact_marked_conjugation_equations": 54,
+    "full_matrix_reconstruction_each": true,
+    "left_Bol_equations": 39366,
+    "nonflexible_witness_in_each": true,
+    "orders": [
+      27,
+      27
+    ],
+    "parameters": [
+      0,
+      1
+    ],
+    "r_1_probe_coefficients": [
+      "3*zeta_3",
+      "3"
+    ],
+    "zero_algebra": "Mat_3"
+  },
+  "scalar_phase_control": {
+    "distinguishing_marked_coefficients": 9,
+    "equal_spectrum_matrices": "V and zeta_3 V, characteristic polynomial t^3-1",
+    "graph_only_phase_erasure_equations": 81
+  },
+  "script_sha256": "8a1c206c7fe54a8035cac9ad8ebb8af9a88bed57daa6a81e80aae20bf18b66c5",
+  "status": "PASS"
+}

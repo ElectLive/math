@@ -1,0 +1,146 @@
+{
+  "arithmetic": "Exact F3, Z[zeta_3], polynomials and rationals",
+  "charged_representations": {
+    "F_move_and_inverse_basis_checks": 1344,
+    "charged_fusion_generator_basis_checks": 34992,
+    "exact_monomial_representation_checks": 6561,
+    "regular_sum_charge_pairs": 72,
+    "regular_tree_triples": 336,
+    "scope": "Finite intertwiner equations; universal pentagon proved in CH2"
+  },
+  "cubic_associative_quotient": [
+    {
+      "associative_triples": 19683,
+      "closure_rounds": 1,
+      "congruence_classes": 9,
+      "each_class_size": 3,
+      "left_right_context_checks": 4374,
+      "left_witness": [
+        2,
+        2,
+        1
+      ],
+      "parameter_k": 0,
+      "quotient": "additive F3^2",
+      "right_witness": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "associative_triples": 19683,
+      "closure_rounds": 1,
+      "congruence_classes": 9,
+      "each_class_size": 3,
+      "left_right_context_checks": 4374,
+      "left_witness": [
+        2,
+        2,
+        1
+      ],
+      "parameter_k": 1,
+      "quotient": "additive F3^2",
+      "right_witness": [
+        1,
+        2,
+        1
+      ]
+    }
+  ],
+  "geometric_degree_carry": {
+    "exact_carry_pairs": 729,
+    "exact_projective_automorphy_basis_checks": 24,
+    "exact_triple_cocycle_checks": 19683,
+    "finite_charge_count": 27,
+    "nonsplit_cyclic_charge_restrictions": 18,
+    "normalized_dual_labels": [
+      1,
+      2
+    ],
+    "normalized_dual_output_label": 3,
+    "rank3_normalized_bundle_degrees": [
+      1,
+      2
+    ],
+    "rank9_normalized_bundle_degrees": [
+      3,
+      6
+    ],
+    "scope": "Geometric degree labels, not conformal weights",
+    "true_dual_labels": [
+      1,
+      -1
+    ],
+    "true_dual_output_label": 0
+  },
+  "limits": [
+    "No huge multiplication table or induced set",
+    "No independent review of inherited proper-loop interfaces",
+    "No CI, formal verification, or analytic convergence proof",
+    "Geometric degree is not conformal weight",
+    "No nonabelian fusion-compatible analytic connection is certified"
+  ],
+  "rigid_matrix_and_gauge": {
+    "charge_junction_gauge_checks": 2187,
+    "exact_polynomial_adjugate_entries": 16,
+    "exact_polynomial_determinant_identity": "det B=(y^2-yz-z^2+xz)^2",
+    "fixed_raw_epsilon2_boundary_phases": [
+      1,
+      0,
+      2
+    ],
+    "full_b_rank_histogram": {
+      "0": 1,
+      "2": 8,
+      "4": 18
+    },
+    "graph_transport_gauge_phase_checks": 729,
+    "large_field_trace_rank_histogram": {
+      "0": 1,
+      "36": 8,
+      "72": 18
+    },
+    "limit": "Graph-only closed networks erase shifts; separately fixed marks do not",
+    "matrix_source": "2a25b81e3efe5bdd8a3923e27c94aef16a559094 equations(1)-(2)"
+  },
+  "script_sha256": "a5c3f12f0d348b83c7fd27b56d4b2807bfc3b2f8e401536afa1427cde1010630",
+  "status": "PASS",
+  "zero_algebras": [
+    {
+      "case": "one_degree_nondegenerate",
+      "common_zero_dimension": 1,
+      "irreducible_dimension": 3,
+      "matrix_block_size": 1,
+      "scalar_blocks": 1
+    },
+    {
+      "case": "two_degrees_nondegenerate",
+      "common_zero_dimension": 9,
+      "irreducible_dimension": 9,
+      "matrix_block_size": 3,
+      "scalar_blocks": 1
+    },
+    {
+      "case": "two_degrees_isotropic",
+      "common_zero_dimension": 9,
+      "irreducible_dimension": 9,
+      "matrix_block_size": 1,
+      "scalar_blocks": 9
+    },
+    {
+      "case": "two_degrees_dependent",
+      "common_zero_dimension": 27,
+      "irreducible_dimension": 9,
+      "matrix_block_size": 3,
+      "scalar_blocks": 3
+    },
+    {
+      "case": "two_degrees_identity",
+      "common_zero_dimension": 81,
+      "irreducible_dimension": 9,
+      "matrix_block_size": 9,
+      "scalar_blocks": 1
+    }
+  ]
+}

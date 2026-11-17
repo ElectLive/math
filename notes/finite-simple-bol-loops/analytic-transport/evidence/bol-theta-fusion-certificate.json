@@ -1,0 +1,43 @@
+{
+  "arithmetic": "Exact rational arithmetic; no floating-point theta evaluation",
+  "limits": [
+    "Finite algebraic controls; universal proofs belong to TH1--TH5",
+    "No numerical convergence or Serre-duality certification",
+    "Signed coordinate transport retains every relative coordinate and descent data",
+    "No dimension-reducing signed-degree horizontal sewing",
+    "No Felder dynamical fusion or Bol-specific analytic identity"
+  ],
+  "mixed_kernel_weyl_residue": {
+    "exact_residue_identity_columns": 68,
+    "exact_weyl_sandwich_and_transport_equations": 10448,
+    "identity": "sum_(r,s) W_(r,s)=p*I"
+  },
+  "p3_k1_l1_defect": {
+    "contributing_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "exact_coefficient": "3/2",
+    "input_component": "sum_n q^(3*n^2/2)*w^n, squared",
+    "monomial": "q^(3/2)*w",
+    "operator": "H_(2/3)/(2*pi*i)"
+  },
+  "positive_isogeny_cases": 147,
+  "rational_heat_symbol_cases": 90,
+  "script_sha256": "ee2e52ccfe8ba15c7f123ed6852b1bc751a39c9cdd2b31cf5cf99cd8852e9445",
+  "signed_and_zero_channels": {
+    "all_five_full_forms_nonsingular": true,
+    "all_five_root_slopes_zero": true,
+    "finite_jet_nonclosure_controls": 48,
+    "four_input_pentagon_edges": 5,
+    "signed_two_coordinate_cases": 300
+  },
+  "status": "PASS",
+  "vector_theta_exponent_checks": 2940
+}

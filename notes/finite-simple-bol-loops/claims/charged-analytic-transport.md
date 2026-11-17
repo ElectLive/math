@@ -1,0 +1,17 @@
+# Charged analytic transport: local claim index
+
+**Mira Cult**
+
+This record uses manuscript-local labels only. It neither reserves nor allocates a permanent numeric claim ID and does not promote the open classification claim. Begin with the [reader's overview](../analytic-transport/README.md).
+
+| Labels | Completed scope | Boundary |
+| --- | --- | --- |
+| DD1–DD8, CT1–CT7 | [All-charge finite dynamical twist](../analytic-transport/manuscripts/bol-dynamical-fusion-construction.md) and [collective operator intertwining and analytic coherence](../analytic-transport/manuscripts/bol-collective-charged-transport.md), with zero channels, carries, true duals and marked Chern/modular law | Finite base and collective tensor rule; not continuous Felder fusion or a heat connection |
+| SA1–SA5, SA3a | [Stable cocycle recovery](../analytic-transport/manuscripts/bol-shifted-analytic-fusion.md), explicit finite-amplitude errors and a separate proper-Bol ordered-transport gap | Fixed split/inversion/boundary data; observables remain determined by complete marked finite matrices |
+| HT1–HT6 | [Full marked boundary reconstruction](../analytic-transport/manuscripts/bol-heat-sewing-repair.md), including matrix zero modes, contour stability, finite sampling and modular covariance | Separate mixed-heat observable, not old Fock traces or a unified heat/fusion functor |
+| AR1–AR4, SY1–SY6, TH1–TH5 | [Finite rigidity](../analytic-transport/manuscripts/bol-finite-dynamical-rigidity.md), [separate-symbol obstruction](../analytic-transport/manuscripts/bol-fusion-symbol-obstruction.md), [local heat obstruction and retained-coordinate repair](../analytic-transport/manuscripts/bol-theta-fusion-connection.md) | Only their explicit finite, holomorphic, separate-symbol and positive-slope architectures |
+| GS1–GS6, CH1–CH6 | [Gaussian contraction](../analytic-transport/manuscripts/bol-charged-gaussian-sewing.md), [charged modules and coherent carry/dual channels](../analytic-transport/manuscripts/bol-charged-heisenberg-obstruction.md) | Standard Gaussian baseline and marked finite charged modules; analytic limit has explicit trace-class hypotheses |
+| CE1–CE7, FN1–FN4, LC1–LC3 | [Charged-exchange analysis](../analytic-transport/manuscripts/bol-charged-exchange.md), [ordinary tensor naturality obstruction](../analytic-transport/manuscripts/bol-fusion-naturality-obstruction.md), [actual-product local-current obstruction](../analytic-transport/manuscripts/bol-local-current-obstruction.md) | Not universal obstructions to altered tensor rules, dynamical shifts or narrower marked architectures |
+| FS1–FS8, HR1–HR6 | [Fourier-sewn support identities](../analytic-transport/manuscripts/bol-fourier-sewing.md) and [holonomy architecture boundaries](../analytic-transport/manuscripts/bol-holonomy-rigidity.md) | Finite marked support premises and standard analytic lifts; not Bol-exclusive elliptic kernels or arithmetic moonshine |
+
+Latest scientific pin: `625f6060200a6f165c33d98afe80b8091a1280e5`; delivery: `ed6f9ed28225465f0491e5d6e39b2609c8da5d50`. Earlier reviewed science pins are retained in the complete public evidence. These are complete written research arguments with scoped independent automated-model reviews, not human or formal certification. External constructions and strict marked-isomorphism/isotope interfaces retain their inherited qualifications. See [review and verification](../analytic-transport/PUBLICATION.md).

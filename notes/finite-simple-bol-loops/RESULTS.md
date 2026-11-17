@@ -202,3 +202,8 @@ physical operations, correlations and resource costs. The structural theorems
 do not establish a general randomization advantage over the applicable standard
 baselines. The exact source revision and accepted independent model reviews are
 recorded with the [reproducibility evidence](analytic-2026-11-16/evidence/bol-randomization-reproducibility.md).
+
+
+### Charged analytic transport and reconstruction
+
+The [completed marked analytic checkpoint](analytic-transport/README.md) constructs finite-dynamical collective charged transport, stable separated recovery of a retained cocycle, and a separate mixed-heat reconstruction of marked boundary matrices. It preserves full zero sectors and exact review scope. Continuous Felder fusion, a unified heat/difference functor and the original-Fock trace bridge remain open; no arithmetic moonshine consequence is claimed.

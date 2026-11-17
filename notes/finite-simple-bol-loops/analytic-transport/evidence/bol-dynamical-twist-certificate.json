@@ -1,0 +1,104 @@
+{
+  "Fourier_algebras": {
+    "Fourier_product_phase_pairs": 19683,
+    "exact_associative_triples": 1594323,
+    "fiber_algebra_dimension": 81,
+    "fiber_center_dimension": 1,
+    "identity_twist_center_dimension": 81,
+    "reconstructed_parameter_forms": 3,
+    "scope": "All fibers Mat_9; Fourier marks reconstruct b_lambda"
+  },
+  "arithmetic": "Exact F3, integers and root-of-unity exponents",
+  "auxiliary_bundle_action": {
+    "integer_lift_and_shifted_carry_checks": 2187,
+    "scope": "Unitarity and degree/carry controls; full Chern horizontality is proved in DD5a",
+    "true_dual_zero_carry_checks": 243,
+    "unitary_total_expectation_H_basis_images": 729,
+    "unitary_total_expectation_neutral_character_basis_images": 2187
+  },
+  "limits": [
+    "Finite dynamical parameter, no continuous q-connection",
+    "Auxiliary projective modules are not the physical linear modules",
+    "No new isotope separator or analytic rigidity is certified",
+    "No huge loop or field extension is enumerated"
+  ],
+  "projective_and_expectation": {
+    "expectation_intertwiner_generator_checks": 3645,
+    "projective_composition_affine_basis_checks": 531441,
+    "scope": "All group pairs; affine basis tests cover dependence on t"
+  },
+  "rigid_completion": {
+    "compatible_symmetric_S": [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "matrix_degree_bound": 4,
+    "order19_Frobenius_orbit": [
+      1,
+      3,
+      9,
+      8,
+      5,
+      15,
+      7,
+      2,
+      6,
+      18,
+      16,
+      10,
+      11,
+      14,
+      4,
+      12,
+      17,
+      13
+    ],
+    "rigid_field_degree": 18,
+    "scope": "Nonvanishing follows symbolically from DD6; no F_(3^18) enumeration"
+  },
+  "script_sha256": "d00fa6c0257bb05456ea6f8489c7491139c7644530dff49fd20ace2e26d65581",
+  "shifted_fusion": {
+    "all_H_charge_triple_basis_states": 59049,
+    "all_five_fourfold_trees_linear_basis_checks": 1944,
+    "mixed_full_neutral_character_checks": 59049,
+    "parameter_dependent_first_coordinates": [
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "scope": "Fourfold maps linear in coordinates; all eight basis vectors tested",
+    "shifted_true_dual_triangle_basis_checks": 162
+  },
+  "status": "PASS"
+}

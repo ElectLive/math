@@ -1,0 +1,32 @@
+{
+  "arithmetic": "Exact finite fields and complex rationals",
+  "differential_difference": {
+    "genuinely_changed_first_axis_symbols": 5832,
+    "moving_completion_charge_covariance": 4374,
+    "noncentral_first_axis_operator_identities": 8748,
+    "noncentral_second_axis_phase_identities": 8748,
+    "omitting_base_transport_failures": 2592,
+    "transported_holonomy_pair_equations": 216
+  },
+  "limits": [
+    "Finite controls, not universal mathematical proofs",
+    "Collective tensor rule, not ordinary primitive connections",
+    "No CE/Fock identification or full SL2 descent claimed",
+    "Analytic norm convergence is proved in CT and SA"
+  ],
+  "modular": {
+    "exact_Chern_metric_identities": 1617,
+    "holonomy_scalar_phases_are_one": 3234,
+    "level_6_matrices": 49,
+    "modular_gauge_group_laws": 192,
+    "signed_degree_gauge_products": 4851
+  },
+  "script_sha256": "1ae52d343ea7c8d33bda715127f5f876939d962a04d7aec0d7d41e8d59852444",
+  "status": "PASS",
+  "zero_and_carries": {
+    "actual_zero_degree_inputs": 45,
+    "carry_cocycles": 81,
+    "true_dual_integer_equations": 405,
+    "unit_base_difference_retained": true
+  }
+}

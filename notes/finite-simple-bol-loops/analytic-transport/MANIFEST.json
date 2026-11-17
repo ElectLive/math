@@ -1,0 +1,448 @@
+{
+  "science": "625f6060200a6f165c33d98afe80b8091a1280e5",
+  "delivery": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+  "presentation_changes": "Neutralized internal identities and ownership; public dependency links; GitHub math fences. Executables and JSON unchanged. Original source and review pins retained. Markdown whitespace normalized.",
+  "files": [
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/check_bol_modular_packet.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "22bec5e976caf7cd71b82c3d8d83e1d8fb1c1b602cd6856087d75699eb3187cd",
+      "public_path": "analytic-transport/code/check_bol_modular_packet.py",
+      "public_sha256": "22bec5e976caf7cd71b82c3d8d83e1d8fb1c1b602cd6856087d75699eb3187cd"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_charged_sewing.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "a5c3f12f0d348b83c7fd27b56d4b2807bfc3b2f8e401536afa1427cde1010630",
+      "public_path": "analytic-transport/code/verify_bol_charged_sewing.py",
+      "public_sha256": "a5c3f12f0d348b83c7fd27b56d4b2807bfc3b2f8e401536afa1427cde1010630"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_collective_transport.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "1ae52d343ea7c8d33bda715127f5f876939d962a04d7aec0d7d41e8d59852444",
+      "public_path": "analytic-transport/code/verify_bol_collective_transport.py",
+      "public_sha256": "1ae52d343ea7c8d33bda715127f5f876939d962a04d7aec0d7d41e8d59852444"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_coordinate_packet.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "6a6fcd560d2ca2674aaa775b290bfd6a43dea16eb1d6bf337821e2f8300f0b1d",
+      "public_path": "analytic-transport/code/verify_bol_coordinate_packet.py",
+      "public_sha256": "6a6fcd560d2ca2674aaa775b290bfd6a43dea16eb1d6bf337821e2f8300f0b1d"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_cubic_isotopes.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "2c44749bdd2cd050ccdb718d57639bb83aa61b9d98e410f40fbbc937bbd72c8b",
+      "public_path": "analytic-transport/code/verify_bol_cubic_isotopes.py",
+      "public_sha256": "2c44749bdd2cd050ccdb718d57639bb83aa61b9d98e410f40fbbc937bbd72c8b"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_dynamical_fusion.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "911024063a6b874a717a343c4b8cccce309d8cd0f72117a7c84145f17725f156",
+      "public_path": "analytic-transport/code/verify_bol_dynamical_fusion.py",
+      "public_sha256": "911024063a6b874a717a343c4b8cccce309d8cd0f72117a7c84145f17725f156"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_dynamical_twist.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "d00fa6c0257bb05456ea6f8489c7491139c7644530dff49fd20ace2e26d65581",
+      "public_path": "analytic-transport/code/verify_bol_dynamical_twist.py",
+      "public_sha256": "d00fa6c0257bb05456ea6f8489c7491139c7644530dff49fd20ace2e26d65581"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_fourier_sewing.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "4d8a76734ecc22f014d498c4d7f5dd3b511dfce437cf5977257977b68a424b17",
+      "public_path": "analytic-transport/code/verify_bol_fourier_sewing.py",
+      "public_sha256": "4d8a76734ecc22f014d498c4d7f5dd3b511dfce437cf5977257977b68a424b17"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_gaussian_sewing.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "363bc9ccc60635259f44c516b14d8c3208e2cf8b81e5006c0f1f4bb01ef9935d",
+      "public_path": "analytic-transport/code/verify_bol_gaussian_sewing.py",
+      "public_sha256": "363bc9ccc60635259f44c516b14d8c3208e2cf8b81e5006c0f1f4bb01ef9935d"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_genus_one.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "bbad4611b12c4dac11c8a842fc5df6e0b58bdc78f382887b6f0a07936d8a1aea",
+      "public_path": "analytic-transport/code/verify_bol_genus_one.py",
+      "public_sha256": "bbad4611b12c4dac11c8a842fc5df6e0b58bdc78f382887b6f0a07936d8a1aea"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_graded_fusion.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "45f9f7bb52fb7129e174ac88de702fc3fde2ab5ef654b69e848779c4a023587f",
+      "public_path": "analytic-transport/code/verify_bol_graded_fusion.py",
+      "public_sha256": "45f9f7bb52fb7129e174ac88de702fc3fde2ab5ef654b69e848779c4a023587f"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_heat_repair.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "8a1c206c7fe54a8035cac9ad8ebb8af9a88bed57daa6a81e80aae20bf18b66c5",
+      "public_path": "analytic-transport/code/verify_bol_heat_repair.py",
+      "public_sha256": "8a1c206c7fe54a8035cac9ad8ebb8af9a88bed57daa6a81e80aae20bf18b66c5"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_shifted_analytic.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "3cb48cf71b5b307e2959d264ecb1d322a8a4c7816f864fd71dd9e9163bfcb632",
+      "public_path": "analytic-transport/code/verify_bol_shifted_analytic.py",
+      "public_sha256": "3cb48cf71b5b307e2959d264ecb1d322a8a4c7816f864fd71dd9e9163bfcb632"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/code/verify_bol_theta_fusion.py",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "ee2e52ccfe8ba15c7f123ed6852b1bc751a39c9cdd2b31cf5cf99cd8852e9445",
+      "public_path": "analytic-transport/code/verify_bol_theta_fusion.py",
+      "public_sha256": "ee2e52ccfe8ba15c7f123ed6852b1bc751a39c9cdd2b31cf5cf99cd8852e9445"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-analytic-rigidity-review.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "73ebba6166cdda32f53db16b075227e23168f8e8b6cc99535f1a4b9782bc6864",
+      "public_path": "analytic-transport/evidence/bol-analytic-rigidity-review.md",
+      "public_sha256": "d373582acd192b7b8c4aa759a12a97093d1b6613c4867c458ebafed63a02156d"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-charged-sewing-certificate.json",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "0a0d049efe26fde4f298d0386a5ce7e5ab992f193267a0f13e1a2b9c2d2dfe5d",
+      "public_path": "analytic-transport/evidence/bol-charged-sewing-certificate.json",
+      "public_sha256": "0a0d049efe26fde4f298d0386a5ce7e5ab992f193267a0f13e1a2b9c2d2dfe5d"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-charged-sewing-certificate.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "9331667ebbfc14f39594ecd0bab5089bbc7a38ab8a5610a41a3bde4a1fc513e0",
+      "public_path": "analytic-transport/evidence/bol-charged-sewing-certificate.md",
+      "public_sha256": "0e1238a1d6f36cd5b04ba0552ce3df703b71a4c354632e337a6a44ad9e5f9fec"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-charged-sewing-review.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "c7024edc0471ab7ff6c166804cf73cc2c34822795c2ed3ecc1f022d8e6aa4ce1",
+      "public_path": "analytic-transport/evidence/bol-charged-sewing-review.md",
+      "public_sha256": "b5c7f0a1305ab8be982b6d0c31eb7af39f0aab5a3bd4d1efb42ca844eab5a754"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-collective-transport-certificate.json",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "6bdc082b9c8552aece77279888ce2b29b39c0b14baffe40b5dc24e248ab4dffe",
+      "public_path": "analytic-transport/evidence/bol-collective-transport-certificate.json",
+      "public_sha256": "6bdc082b9c8552aece77279888ce2b29b39c0b14baffe40b5dc24e248ab4dffe"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-collective-transport-certificate.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "94918f4dc287d91a95f5c98c342887ac8ccd695f9d4f0d71232e1f98d8842fc5",
+      "public_path": "analytic-transport/evidence/bol-collective-transport-certificate.md",
+      "public_sha256": "94918f4dc287d91a95f5c98c342887ac8ccd695f9d4f0d71232e1f98d8842fc5"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-dynamical-fusion-certificate.json",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "9402ffcd0074ce1efa43cc39d3e0ab37e298675c6d39274ed3d095fcf56c51f5",
+      "public_path": "analytic-transport/evidence/bol-dynamical-fusion-certificate.json",
+      "public_sha256": "9402ffcd0074ce1efa43cc39d3e0ab37e298675c6d39274ed3d095fcf56c51f5"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-dynamical-fusion-certificate.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "369c20ed35959ccce16422bed30fe9c03bc41525059bb6d950762de4d5d431b3",
+      "public_path": "analytic-transport/evidence/bol-dynamical-fusion-certificate.md",
+      "public_sha256": "db944b68c068672ebfafc84e6758bc80405b4874e7c9fd4fa3795f2875cef3bb"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-dynamical-payoff-review.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "683dbd4624dd5c4babe41762c95fde40436ecdb8e8d54a43091198dc1c392552",
+      "public_path": "analytic-transport/evidence/bol-dynamical-payoff-review.md",
+      "public_sha256": "61d13ff5314f9c2c2e8f35ba2b3e860802bbbeca322a01468fa7a83bbbd516a1"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-dynamical-twist-certificate.json",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "53e0bed59abb2b618347f6b31ba532ce43c08cd4ea1f81d5fa2b5112cc80a263",
+      "public_path": "analytic-transport/evidence/bol-dynamical-twist-certificate.json",
+      "public_sha256": "53e0bed59abb2b618347f6b31ba532ce43c08cd4ea1f81d5fa2b5112cc80a263"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-dynamical-twist-certificate.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "9c5f5e5c7710c983e181203d5ec4bed345f14785ab47b6f18dafb223e658548b",
+      "public_path": "analytic-transport/evidence/bol-dynamical-twist-certificate.md",
+      "public_sha256": "b759ef75fcbcbcfe16fdb00da0da6c10f1cd085db6e29333f21ddc97d8059d38"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-fourier-sewing-certificate.json",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "67fbc06f510824b4060372dfca0cd97ca716184404a72cab37e04b03ed11de85",
+      "public_path": "analytic-transport/evidence/bol-fourier-sewing-certificate.json",
+      "public_sha256": "67fbc06f510824b4060372dfca0cd97ca716184404a72cab37e04b03ed11de85"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-fourier-sewing-certificate.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "6a1ece6ea755e43bbac720eda0640c6a4e8bbd6db540e0d25d1241621818fd5a",
+      "public_path": "analytic-transport/evidence/bol-fourier-sewing-certificate.md",
+      "public_sha256": "439687fec424d78b1622945f3ed445a4fdc3cf0aa5711620f046246ae009eb20"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-gaussian-sewing-certificate.json",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "c0ca712dbe522e0b05e66eebd7d893204cc5607bd287f3fc4c1c5525cb640d7d",
+      "public_path": "analytic-transport/evidence/bol-gaussian-sewing-certificate.json",
+      "public_sha256": "c0ca712dbe522e0b05e66eebd7d893204cc5607bd287f3fc4c1c5525cb640d7d"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-gaussian-sewing-certificate.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "a6afa07ec41801d1451fd4214e18f44156b001df9a1923f9f42293dfabe1853f",
+      "public_path": "analytic-transport/evidence/bol-gaussian-sewing-certificate.md",
+      "public_sha256": "ccf22002b0a8c73daed349f5b1b8c77b51381cc93043fd269beeb15a9b2b34c9"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-genus-one-review.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "054a3e9a1e61cd3b84cf2118300070210b67fa9190f262874a0505e0c2d8878e",
+      "public_path": "analytic-transport/evidence/bol-genus-one-review.md",
+      "public_sha256": "1fc68bcc8df40ce43b025a9e410d53e564b133829cdba3a364351409459f26e6"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-graded-review.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "bee118cbb0aeab18915ee38036042950a58adf70f553bc383f7454529f629a57",
+      "public_path": "analytic-transport/evidence/bol-graded-review.md",
+      "public_sha256": "5991e2e3836fe53ad7f27902acf6d8496ee2a31ae54e9729bc53fafbbee05a27"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-heat-repair-certificate.json",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "0a70181b80c7bc58840ce92851c1cdadbd16a875ae0a5fec38bab0150ab68aa4",
+      "public_path": "analytic-transport/evidence/bol-heat-repair-certificate.json",
+      "public_sha256": "0a70181b80c7bc58840ce92851c1cdadbd16a875ae0a5fec38bab0150ab68aa4"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-heat-repair-certificate.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "267e6034a3646133fde2d91e757b1f5732a13170cc3f1fc4ba5b9095f8a6a66d",
+      "public_path": "analytic-transport/evidence/bol-heat-repair-certificate.md",
+      "public_sha256": "eb51be27648c18a530cfe5b78e6c29885056aaa4e61c24b887cc80d462acecd1"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-modular-review.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "07f6232f38283ed0219eb616f595d91bd41807fd5c84a08a39ccd3e2095a66f0",
+      "public_path": "analytic-transport/evidence/bol-modular-review.md",
+      "public_sha256": "894cdcc15cf30c2201360ef7ad303050aa648400a6a6505a1af0b3d0acfe2a62"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-shifted-analytic-certificate.json",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "1dba1136619a091eefafccb2058e9b5e55d9deff16bcdf12dcb9fe438c24ad4f",
+      "public_path": "analytic-transport/evidence/bol-shifted-analytic-certificate.json",
+      "public_sha256": "1dba1136619a091eefafccb2058e9b5e55d9deff16bcdf12dcb9fe438c24ad4f"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-shifted-analytic-certificate.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "6a6e775b4501ae98ca009da421ccc1777a172a5a92e0814683f0cd7647fc2868",
+      "public_path": "analytic-transport/evidence/bol-shifted-analytic-certificate.md",
+      "public_sha256": "6a6e775b4501ae98ca009da421ccc1777a172a5a92e0814683f0cd7647fc2868"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/evidence/bol-theta-fusion-certificate.json",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "3c0216bc62d2a1b4d09090732236f2e3afcfe188cb04ac1078ed7c3abab04b9b",
+      "public_path": "analytic-transport/evidence/bol-theta-fusion-certificate.json",
+      "public_sha256": "3c0216bc62d2a1b4d09090732236f2e3afcfe188cb04ac1078ed7c3abab04b9b"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-charged-exchange.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "eaa3627de23b6364c059e80a8364cf207048c1cb08566ab97ff3b0c21715994b",
+      "public_path": "analytic-transport/manuscripts/bol-charged-exchange.md",
+      "public_sha256": "21cddf41fd53ab4e8a696af12e405a40f1e18453f849a880808824832a67eb07"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-charged-gaussian-sewing.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "257139d98b639af00c8b827d3ac2b467c3a631d7b43208e760c162f9873d790f",
+      "public_path": "analytic-transport/manuscripts/bol-charged-gaussian-sewing.md",
+      "public_sha256": "d0e2cf34c6aac274311f96cf3d463c1a5bf969e1f3df9d1cbeba2e710c283c5c"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-charged-heisenberg-obstruction.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "b66260fc437f86b850ebee56823416e0ea087a3d3f4b4e7840e67013fc21c2eb",
+      "public_path": "analytic-transport/manuscripts/bol-charged-heisenberg-obstruction.md",
+      "public_sha256": "3da5bb63bc54b1179de3c1a64eab57c2dc2e644e5a228787b953df797f5dfc0e"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-cocycle-packets.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "179d22a20e96f7582b1103f1326c69063dfdb1f44640e9cb57246b51312b47b4",
+      "public_path": "analytic-transport/manuscripts/bol-cocycle-packets.md",
+      "public_sha256": "39beb929fc6eb0a6a4e22e05b2efb8a0f3a3eae9e974b77a5c8ec7d471dcc6db"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-collective-charged-transport.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "1300b070345b792e6a129a1d4647d5a753601b01890f357de528f20e51628dbe",
+      "public_path": "analytic-transport/manuscripts/bol-collective-charged-transport.md",
+      "public_sha256": "a249479ded590c882839f353bb26bc8e479bb4eb081910904352c0b4497c4418"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-correlation-geometry.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "0c1efc43bbd30a67da15b0be6bfd2dc3c33abae568fb6da1cffa226138a5a155",
+      "public_path": "analytic-transport/manuscripts/bol-correlation-geometry.md",
+      "public_sha256": "766a04001f0d7a7535fd41c475e9e8b1bd2811dbd40ac68fe0e69e348af0f763"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-cubic-isotopes.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "a3049f06adcddc9bc74a7430c1ccb2d03ee9f59c4e964da6501e6736511abbac",
+      "public_path": "analytic-transport/manuscripts/bol-cubic-isotopes.md",
+      "public_sha256": "512a5f6ce1915d9e993d1c3ca8d70b1db06aa8c4c86adb724df538abac899ca3"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-dynamical-fusion-construction.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "21ca458a47ea35ad8c9949f3920684a2464191903a661b71e1d442ba889c0e57",
+      "public_path": "analytic-transport/manuscripts/bol-dynamical-fusion-construction.md",
+      "public_sha256": "5e9973462282848b4e17fbd021d312c998c1e600faeb0a50bf8f02f7f928c292"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-fermion-sewing.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "68a311845be1ebb898fd5de3d05a42b06aa936ba24798a435d8b00c6203d2bdb",
+      "public_path": "analytic-transport/manuscripts/bol-fermion-sewing.md",
+      "public_sha256": "c13dae46b69b203b4e24d70efbef6344d9ab942e94cb13c0a4189bada1534150"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-finite-dynamical-rigidity.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "ba614f7956e19dc919fed500a80394b4f72a3d38acd06e3d0dd5bfcf3d7be529",
+      "public_path": "analytic-transport/manuscripts/bol-finite-dynamical-rigidity.md",
+      "public_sha256": "8c32ae0505e1973d212b6afedb6839e931352688c3ba5b376a4af1c0e5bf4fa1"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-fourier-sewing.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "248bf6a19f5393756e203fc495c477faf03c7bbf7aa3e00c460a6d5f19f16e74",
+      "public_path": "analytic-transport/manuscripts/bol-fourier-sewing.md",
+      "public_sha256": "220f910d75558678e8e65b7b57cebe769228512fd088de75aa487c9211625d68"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-fusion-naturality-obstruction.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "9834bacddf7b2bf79ca4bee4f0f7cd9e3d7a982b3d256349f044ea08ae601b3a",
+      "public_path": "analytic-transport/manuscripts/bol-fusion-naturality-obstruction.md",
+      "public_sha256": "9248944bd072fb535422ef05cb7417877d86b8612c020625d9d3d81ba233ecbd"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-fusion-symbol-obstruction.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "9563151413ded4f4b12a47f2c677e9f35d0d2da0334b81b8bf78fa1a79008389",
+      "public_path": "analytic-transport/manuscripts/bol-fusion-symbol-obstruction.md",
+      "public_sha256": "822427cc20c0b39724ea004281bc9d781baa7888fd530ad7c6dab332c4bab005"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-genus-one-architecture.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "bbed5e07d6972dc786dcd05e826d4082efe40a72b0b317184a8fa4f0e414caee",
+      "public_path": "analytic-transport/manuscripts/bol-genus-one-architecture.md",
+      "public_sha256": "4fb0e872a0fc4ae4fa3ad8de47e132cf7b590f343e9137872eca743a3760257d"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-genus-one-correlations.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "18c5758b70cc39e036bb4243e566db8b3dd5fe5e707a44dcc5705dfb2f6dce92",
+      "public_path": "analytic-transport/manuscripts/bol-genus-one-correlations.md",
+      "public_sha256": "3cfd3975578cf14030ddd6ffbe7272b20329daccfc378206648392b55d23dee9"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-genus-one-kernel.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "10da19bf9e4e22d64f4aac506a89486fd7df0a15420cf93d9c9f85f0112733b1",
+      "public_path": "analytic-transport/manuscripts/bol-genus-one-kernel.md",
+      "public_sha256": "49595119aa49c7627e2233c2f7741e2b38fa119e432369b2bf387fe4fda224ea"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-graded-architecture-audit.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "4e92d74d9589e943acdaa3ae14c3d2ff6690e2101b0b119350c07a63e5af2afd",
+      "public_path": "analytic-transport/manuscripts/bol-graded-architecture-audit.md",
+      "public_sha256": "2bf61199908a61046011b8b2298a874520a9512e83271d4f50ba714d26326aa6"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-heat-sewing-repair.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "e5aac86246d5d4d5df4eff07805a74c8fde46f11f1de77a90a37f08856c4b8e9",
+      "public_path": "analytic-transport/manuscripts/bol-heat-sewing-repair.md",
+      "public_sha256": "7ddbf297d9ef8fcbd76c494eb2438a8e91917304f7db9a49c7f4e0704edbce7d"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-holonomy-rigidity.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "abc633048d0ec178da7d6f4f8fab989178a3cb7e52f6a6d15c1793bed69627d2",
+      "public_path": "analytic-transport/manuscripts/bol-holonomy-rigidity.md",
+      "public_sha256": "ac1cfc8cac4acb163c723eee67ca8dfaacf378b9d318e68b5b1cc7886a8e41cb"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-local-current-obstruction.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "903fa89740065947657f8521feb24b7a94bfee5b3cd4ff3f3ba7efbf3aa07ef8",
+      "public_path": "analytic-transport/manuscripts/bol-local-current-obstruction.md",
+      "public_sha256": "39fb20a2fffa91a83c8496e2bd878549950096e65c58f41096c4128e1d006898"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-modular-packets.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "0c28cf860e196506354116afe0eaff6204b442cdabc5979bd738609990e5ead6",
+      "public_path": "analytic-transport/manuscripts/bol-modular-packets.md",
+      "public_sha256": "d267a4174309cb1fd39fe746fd016e970ec37b20a651ee5652943fa6c9075b9d"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-shifted-analytic-fusion.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "6d3aad689c56796fe23a2bba1811f331f6f67b22d74780fa641bfdc5c9222dbc",
+      "public_path": "analytic-transport/manuscripts/bol-shifted-analytic-fusion.md",
+      "public_sha256": "d1bb901b146c2a4fe39c454e6df0446207b68f1f3e67b099711f1a6c8db6b18f"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-theta-fusion-connection.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "2857622c177b58fb352a180303a61edd1fbc47854ff59c12f3f8997efc1ceada",
+      "public_path": "analytic-transport/manuscripts/bol-theta-fusion-connection.md",
+      "public_sha256": "e855713fc1ebb6706c36ab29fee4aa74e1593854361626ed70dc1cf9e7ba8cba"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-translation-class-fusion.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "97becefceda6b2ff6a834cab5f0554773c62298f5db77a05741d353cb837fc59",
+      "public_path": "analytic-transport/manuscripts/bol-translation-class-fusion.md",
+      "public_sha256": "b8b9c17fe90e72a10030b236f561b829c28d025964d857987d43a002fa453d7d"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/bol-translation-fock.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "0cad520b2fe5ae1b99831e748b9dc598ba7ab5318552f1b1b95d614e0de5b8d0",
+      "public_path": "analytic-transport/manuscripts/bol-translation-fock.md",
+      "public_sha256": "d3670b464ba5684d5dccebbc3b5e341639071c2e1f764b31cc551e73c4a43621"
+    },
+    {
+      "source_path": "problems/0323-finite-simple-non-moufang-bol-loops/REFERENCES.md",
+      "source_revision": "ed6f9ed28225465f0491e5d6e39b2609c8da5d50",
+      "source_sha256": "99600c288725ca57c1b1ccc841059c746fe8df031f34cc43ee8842b1c7fcd2e3",
+      "public_path": "analytic-transport/REFERENCES.md",
+      "public_sha256": "ca1dd791418a6acc78ecbeab402602840a8e4707eee67f4596529d2aad2bb93f"
+    }
+  ]
+}

@@ -142,3 +142,8 @@ The local record distinguishes complete written proofs from finite executable
 corroboration and links independent model review addenda accepting the pinned
 scientific revision within their stated scopes. It states the operation model and the absence of a
 demonstrated general Bol-specific efficiency advantage.
+
+
+## Charged analytic transport: local labels
+
+The [charged analytic transport record](claims/charged-analytic-transport.md) indexes the completed finite-dynamical collective construction, stable separated cocycle recovery, separate mixed-heat boundary reconstruction and their scoped obstructions. It includes the preceding Fourier/charged-sewing dependencies. These manuscript-local labels allocate no permanent numeric IDs and do not change the open classification claim. [Results, proofs and remaining interfaces](analytic-transport/README.md).

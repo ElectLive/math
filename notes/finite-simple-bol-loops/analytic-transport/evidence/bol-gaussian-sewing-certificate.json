@@ -1,0 +1,41 @@
+{
+  "arithmetic": "exact rational exterior algebra and determinants",
+  "bordered_zero_modes": {
+    "border_covariance_checks": 17,
+    "checks": [
+      "zero-mode saturation",
+      "M->M+A V+U B",
+      "weight n-h",
+      "zero-basis transport"
+    ]
+  },
+  "finite_gaussian": {
+    "diagonal_singular_examples": 4,
+    "invertible_source_formulas": 4,
+    "nondiagonal_singular_examples": 1,
+    "singular_example": "Z_diag(a,0)=a*bareta2*eta2+bareta1*eta1*bareta2*eta2",
+    "singular_pivot_sewing_orders": 3
+  },
+  "limits": [
+    "No continuum convergence check",
+    "No numerical theta or modularity check",
+    "No new interacting theory",
+    "No inherited Bol input reverified"
+  ],
+  "quartic_escape": "nonzero fourth coefficient with zero second coefficients",
+  "schur_complement": {
+    "effective_matrix": [
+      [
+        "6",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "nontrivial_schur_source_identity": true
+  },
+  "script_sha256": "363bc9ccc60635259f44c516b14d8c3208e2cf8b81e5006c0f1f4bb01ef9935d",
+  "status": "PASS"
+}

@@ -1,0 +1,85 @@
+{
+  "arithmetic": "Exact integers, rationals and finite fields",
+  "charged_intertwiner_control": {
+    "exact_delta_basis_intertwiner_equations": 1458,
+    "regular_sum_pairs_including_degenerate_inputs": 6
+  },
+  "grid_symbol_control": {
+    "canonical_fusion_is_equivariant": true,
+    "canonical_fusion_normalizes_separate_symbols": false,
+    "first_axis_equivariant_supports": 162,
+    "intersection": 0,
+    "joint_traceless_span_dimension": 8,
+    "joint_unital_span_dimension": 9,
+    "predicted_grid_normalizers": 72,
+    "separate_symbol_normalizers": 72,
+    "separate_traceless_dimensions": [
+      4,
+      4
+    ],
+    "support_permutations_examined": 362880
+  },
+  "joint_zero_control": [
+    {
+      "center_dimension": 1,
+      "charges": [
+        1,
+        1
+      ],
+      "dimension_growth_factor": 9,
+      "joint_fixed_dimension": 9,
+      "matrix_block_size": 3,
+      "separately_fixed_tensor_dimension": 1
+    },
+    {
+      "center_dimension": 9,
+      "charges": [
+        1,
+        2
+      ],
+      "dimension_growth_factor": 9,
+      "joint_fixed_dimension": 9,
+      "matrix_block_size": 1,
+      "separately_fixed_tensor_dimension": 1
+    }
+  ],
+  "limits": [
+    "Local Heisenberg controls, not an enumerated simple proper Bol loop",
+    "Full separate principal-symbol hypothesis is essential",
+    "No test of arbitrary shared-q or restricted trace systems",
+    "No analytic convergence, flatness or pentagon certified here",
+    "No independent review of inherited classification interfaces"
+  ],
+  "parameter_span_control": [
+    {
+      "all_regular_splits_traceless_span": 8,
+      "all_regular_splits_unital_span": 9,
+      "one_regular_split_unital_span": 9,
+      "prime": 3,
+      "projective_directions": 4
+    },
+    {
+      "all_regular_splits_traceless_span": 24,
+      "all_regular_splits_unital_span": 25,
+      "one_regular_split_unital_span": 17,
+      "prime": 5,
+      "projective_directions": 6
+    },
+    {
+      "all_regular_splits_traceless_span": 48,
+      "all_regular_splits_unital_span": 49,
+      "one_regular_split_unital_span": 25,
+      "prime": 7,
+      "projective_directions": 8
+    },
+    {
+      "all_regular_splits_traceless_span": 120,
+      "all_regular_splits_unital_span": 121,
+      "one_regular_split_unital_span": 41,
+      "prime": 11,
+      "projective_directions": 12
+    }
+  ],
+  "script_sha256": "911024063a6b874a717a343c4b8cccce309d8cd0f72117a7c84145f17725f156",
+  "status": "PASS"
+}
