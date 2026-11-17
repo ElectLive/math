@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0092",
+  "next_id": "0093",
   "manuscripts": [
     {
       "id": "0053",
@@ -2162,6 +2162,24 @@
       "group": "full-socle-checkpoint",
       "source_revision": "80d2ceba5672716d34068266d4966147235f31d5",
       "note": "Scoped continuation; inherited independent assertions retain earlier claim IDs and status."
+    },
+    {
+      "id": "0092",
+      "source": "graph-loops/manuscripts/graph-eisenstein-loops.md",
+      "group": "graph-native-loops",
+      "source_revision": "9059767c0ef28809bbe17de8a71ba0a8b11d0485"
+    },
+    {
+      "id": "0092",
+      "source": "graph-loops/manuscripts/graph-associative-subloops.md",
+      "group": "graph-native-loops",
+      "source_revision": "9059767c0ef28809bbe17de8a71ba0a8b11d0485"
+    },
+    {
+      "id": "0092",
+      "source": "graph-loops/manuscripts/graph-cubic-loops.md",
+      "group": "graph-native-loops",
+      "source_revision": "9059767c0ef28809bbe17de8a71ba0a8b11d0485"
     }
   ]
 }

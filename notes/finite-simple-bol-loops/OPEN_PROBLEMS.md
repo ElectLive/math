@@ -1,5 +1,9 @@
 # Open problems
 
+## Graph-native extension questions
+
+The [completed graph construction](graph-loops/README.md) leaves unmarked directed/color recovery over finite rings open. Determine the intrinsic data required to recover those richer inputs, or give an explicit obstruction. The ordinary-graph theorem is completed within its established dependencies; its subloop-count invariant deliberately loses information. A wider priority audit is separate from those mathematical conclusions.
+
 ## Updated boundary, 17 November 2026
 
 The [completed full-socle checkpoint](PUBLICATION-2026-11-17.md) supersedes earlier pending PSL₂, odd-dimensional linear/unitary, sporadic and F₄ full-socle targets. Its scope is summarized in the [classification index](CLASSIFICATION.md). These closures do not classify operations or every canonical extension.

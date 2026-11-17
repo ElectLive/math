@@ -1,0 +1,85 @@
+{
+  "publication": "deliberate completed checkpoint",
+  "files": [
+    {
+      "source_path": "manuscripts/graph-cubic-loops.md",
+      "source_delivery": "7653409e6155cd87c7f91ba810b155f517c7f44b",
+      "reviewed_science": "9059767c0ef28809bbe17de8a71ba0a8b11d0485",
+      "source_git_blob": "378504a5839de4e03da1ab592f642d8c26f94d7c",
+      "source_sha256": "4f88fd9c3ff47e89dfcc9bb3cb59cf4ddb0567bee33450b5cbc7ca6fe1eef1fe",
+      "public_path": "manuscripts/graph-cubic-loops.md",
+      "public_sha256": "999406af3689be6fe35045140acc04deefaa338a5434fc7c72fc3e1d76a8a7b4",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "manuscripts/graph-eisenstein-loops.md",
+      "source_delivery": "7653409e6155cd87c7f91ba810b155f517c7f44b",
+      "reviewed_science": "9059767c0ef28809bbe17de8a71ba0a8b11d0485",
+      "source_git_blob": "e331416278e12ce577fdf5ea0a0a234a8c44bb8a",
+      "source_sha256": "3a94ee7f1280555ea1ae5e32e1cc4c8f67dbb83890ffe415156bfda746155ad8",
+      "public_path": "manuscripts/graph-eisenstein-loops.md",
+      "public_sha256": "a0e370a1260457f31c8e0ce37f201575ace428cc2a244a65d153508c10cafccf",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "manuscripts/graph-associative-subloops.md",
+      "source_delivery": "7653409e6155cd87c7f91ba810b155f517c7f44b",
+      "reviewed_science": "9059767c0ef28809bbe17de8a71ba0a8b11d0485",
+      "source_git_blob": "0317c9114cad1679293231dad80867674cb32ec6",
+      "source_sha256": "bddd0ea1cce8f1da70051be58bb2ea050f5b7118a542aacfc2dcd725aad606bf",
+      "public_path": "manuscripts/graph-associative-subloops.md",
+      "public_sha256": "7fd66ff32dc77282437585fe1d13836f9827f56bbc770d4ae917dfab411f6aef",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "code/check_graph_loop_laws.py",
+      "source_delivery": "7653409e6155cd87c7f91ba810b155f517c7f44b",
+      "reviewed_science": "9059767c0ef28809bbe17de8a71ba0a8b11d0485",
+      "source_git_blob": "cbd7978e646ef9bbf49e63b9ae7ca9bad182759f",
+      "source_sha256": "b31826553aae04a12979479063505d06f3999d8ceb54ad7bb845358ea6c5961f",
+      "public_path": "code/check_graph_loop_laws.py",
+      "public_sha256": "b31826553aae04a12979479063505d06f3999d8ceb54ad7bb845358ea6c5961f",
+      "executable_bytes_unchanged": true
+    },
+    {
+      "source_path": "code/check_graph_subloops.py",
+      "source_delivery": "7653409e6155cd87c7f91ba810b155f517c7f44b",
+      "reviewed_science": "9059767c0ef28809bbe17de8a71ba0a8b11d0485",
+      "source_git_blob": "c36334625f3100dc532ce88a048a8c71b7e4f598",
+      "source_sha256": "355d88f8e45559ba1e57b1019ae6ab718d7e0d76f2e88cd5bf5f83c81b93829f",
+      "public_path": "code/check_graph_subloops.py",
+      "public_sha256": "355d88f8e45559ba1e57b1019ae6ab718d7e0d76f2e88cd5bf5f83c81b93829f",
+      "executable_bytes_unchanged": true
+    },
+    {
+      "source_path": "REFERENCES.md",
+      "source_delivery": "7653409e6155cd87c7f91ba810b155f517c7f44b",
+      "reviewed_science": "9059767c0ef28809bbe17de8a71ba0a8b11d0485",
+      "source_git_blob": "829a57d4f59fc502b8188a752f061c67c2f060cb",
+      "source_sha256": "87361979a14ce656806e32f0758a5bb31e62d14ba1cbcefaae94578c222572af",
+      "public_path": "REFERENCES.md",
+      "public_sha256": "a57b03fd02d91cfb7f04ce27fc2154ce62bf7e855c22d65fb0036b272197a2fe",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "code/README.md",
+      "source_delivery": "7653409e6155cd87c7f91ba810b155f517c7f44b",
+      "reviewed_science": "9059767c0ef28809bbe17de8a71ba0a8b11d0485",
+      "source_git_blob": "85c51333799c2330f3c421513b69af4b55ad7a8e",
+      "source_sha256": "0880843a0b4ae2fa89bcaf71d8d1a68487d8f313686732b649a6fa59910b2e32",
+      "public_path": "code/README.md",
+      "public_sha256": "9baf7785a710deed481f8f056805389cc57480ed9eb9cac0775b84635d106078",
+      "executable_bytes_unchanged": false
+    },
+    {
+      "source_path": "evidence/graph-loops-review.md",
+      "source_delivery": "7653409e6155cd87c7f91ba810b155f517c7f44b",
+      "reviewed_science": "9059767c0ef28809bbe17de8a71ba0a8b11d0485",
+      "source_git_blob": "9af9513c407ab4ea4e04a3606b62b6654cda29c3",
+      "source_sha256": "58dc5d7ac25a2dfd14bb814bb5b9f3c293dc222c0e6ecf9a597759902eb18aec",
+      "public_path": "evidence/graph-loops-review.md",
+      "public_sha256": "2b544c50251e3e4579af35b9767c26aaef91d472a93a1e42f7939d9d6ad7859f",
+      "executable_bytes_unchanged": false
+    }
+  ]
+}

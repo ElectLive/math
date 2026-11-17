@@ -118,11 +118,13 @@ Numbered expositions are linked where available. Other links identify supporting
 | [0090](claims/0090.md) | Exceptional full multiplication socle exclusions | [Statement, proof and scope](manuscripts/0090-exceptional-full-socle-exclusions.md) |
 | [0091](claims/0091.md) | Original-mark collision lifting and canonical center constraints | [Statement, proof and scope](manuscripts/0091-original-mark-collision-tools.md) |
 
+| [0092](claims/0092.md) | Graph-native Bruck/Moufang loops and associative subloops | [Statements and proof](graph-loops/README.md) |
+
 ## Scope and maintenance
 
 This catalogue covers all seventeen original claim records and every manuscript currently released in this public workspace. It does not claim that unpublished source work has been exhaustively audited. A compound manuscript can contain lemmas, examples and conjectures beyond its headline family: its hypotheses and section labels control their status. A material new theorem should get a new ID rather than being hidden under0010; an alternative proof of the same result retains its ID. Corrections retain IDs and state which conclusion changed.
 
-The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0092.
+The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0093.
 
 
 ## Manuscript-local QR labels, no permanent numeric allocation

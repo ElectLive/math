@@ -1,5 +1,7 @@
 # Finite simple Bol loops
 
+**Graph-native construction checkpoint:** [Bruck/Moufang loops and associative-subloop structure](graph-loops/README.md), with unmarked ordinary-graph recovery, marked color limits and complete proof sources. This does not solve graph reconstruction or simple-loop classification.
+
 ## Reviewed full-socle checkpoint, 17 November 2026
 
 The newest completed publication advances whole full-multiplication-group families, not just isolated canonical groups. All conclusions retain their explicit canonical, classification, embedding and finite-data inputs. The unrestricted classification and the surviving natural-action loop operations remain open.
