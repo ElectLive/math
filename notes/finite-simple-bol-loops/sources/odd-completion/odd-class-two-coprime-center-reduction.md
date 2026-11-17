@@ -1,17 +1,18 @@
 # Coprime center action on every class-two derived Sylow factor
 
-Mira Cult
-Let Q be a finite simple nonassociative odd left Bol loop with canonical faithful generating folder (G,H,K), canonical inversion τ and nilpotent D=G′. Fix a nontrivial Sylow p-subgroup P of D of nilpotency class at most two, with **arbitrary exponent**. Put Z=Z(P), U=P/Z, A=G/D and B=A_{p′}. The action of A on U and Z is well defined because D centralizes Z and acts trivially on U. The endpoint is
+**Mira Cult**
 
-C_U(B)=0,    [Z,B]=1.                              (1)
+**Continuation of [0323:C0010](../../claims/0010.md), with the scoped independent reviews below.** Let Q be a finite simple nonassociative odd left Bol loop with canonical faithful generating folder (G,H,K), canonical inversion τ and nilpotent D=G′. Fix a nontrivial Sylow p-subgroup P of D of nilpotency class at most two, with **arbitrary exponent**. Put Z=Z(P), U=P/Z, A=G/D and B=A_{p′}. The action of A on U and Z is well defined because D centralizes Z and acts trivially on U. The endpoint is
 
-Only the selected Sylow factor is assumed class two; the other Sylow factors may have higher class. This excludes coprime center action, not own-p action. The [reviewed Jordan-center family](odd-noncentral-jordan-center-family.md), source the recorded source revision, shows that own-p center action can be nontrivial with unbounded Jordan length. The gap tested here is whether the coprime part can also move Z; a positive answer to (1) supplies a universal hypothesis for a subsequent class-two parameterization, not the parameterization itself.
+    C_U(B)=0,    [Z,B]=1.                              (1)
 
-The inputs are the reviewed odd-envelope identities G=HD and |H|=|C_G(τ)|, τ inverting A, and K the full τ-inverted set transversal to every conjugate of H. Their source pins are the recorded source revision, the recorded source revision and the FKP application the recorded source revision, recorded in [odd-folder-radicals.md](odd-folder-radicals.md). The [faithful stabilizer-action lemma](odd-folder-radicals.md#faithful-stabilizer-action-on-the-derived-group), accepted at the recorded source revision, gives H∩Z(D)=1. No projected section is assumed to be a quotient loop.
+Only the selected Sylow factor is assumed class two; the other Sylow factors may have higher class. This excludes coprime center action, not own-p action. The [reviewed Jordan-center family](odd-noncentral-jordan-center-family.md), source [the source revision](https://github.com/Mira-Cult/math-wip/commit/379317e583fa1e0c9171d526562c4f7e484d7d19), shows that own-p center action can be nontrivial with unbounded Jordan length. The gap tested here is whether the coprime part can also move Z; a positive answer to (1) supplies a universal hypothesis for a subsequent class-two parameterization, not the parameterization itself.
+
+The inputs are the reviewed odd-envelope identities G=HD and |H|=|C_G(τ)|, τ inverting A, and K the full τ-inverted set transversal to every conjugate of H. Their source pins are [the source revision](https://github.com/Mira-Cult/math-wip/commit/e896039d004ff3882621aca115b1a39cc8fed207), [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d) and the FKP application [the source revision](https://github.com/Mira-Cult/math-wip/commit/ab4059e6a9b8d5876e2bffa993bb98e7dac69025), recorded in [odd-folder-radicals.md](odd-folder-radicals.md). The [faithful stabilizer-action lemma](odd-folder-radicals.md#faithful-stabilizer-action-on-the-derived-group), accepted at [the source revision](https://github.com/Mira-Cult/math-wip/commit/379317e583fa1e0c9171d526562c4f7e484d7d19), gives H∩Z(D)=1. No projected section is assumed to be a quotient loop.
 
 ## Additive structure and a local Hall alignment
 
-Use the canonical Lie ring of an odd class-two group: addition is xy[x,y]^{−1/2}, with central commutator as bracket. Unique halving exists in every finite odd abelian subgroup. The class-two identities verify the abelian additive law, biadditivity, and equivalence of group subgroups/normal subgroups with additive subrings/ideals. This is the arbitrary-exponent interface already used in the [central class-two theorem](odd-central-class-two-classification.md), source the recorded source revision; no elementary-group or exponent-p identification is made. Write L for this finite abelian p-group with bracket, and σ for τ on L,U,Z. The induced alternating biadditive pairing β:U×U→Z has zero radical by the definition of Z.
+Use the canonical Lie ring of an odd class-two group: addition is xy[x,y]^{−1/2}, with central commutator as bracket. Unique halving exists in every finite odd abelian subgroup. The class-two identities verify the abelian additive law, biadditivity, and equivalence of group subgroups/normal subgroups with additive subrings/ideals. This is the arbitrary-exponent interface already used in the [central class-two theorem](odd-central-class-two-classification.md), source [the source revision](https://github.com/Mira-Cult/math-wip/commit/598fa119be327480c829af2a9beb709b02886bc4); no elementary-group or exponent-p identification is made. Write L for this finite abelian p-group with bracket, and σ for τ on L,U,Z. The induced alternating biadditive pairing β:U×U→Z has zero radical by the definition of Z.
 
 Let S=H∩P and W=SZ/Z≤U. Since S∩Z=1, S is abelian and maps isomorphically onto W; W is isotropic for β. It is A-invariant because H surjects onto A and normalizes S. Write D_{p′} for the product of the other Sylow factors and Ḡ=G/D_{p′}. In the inverse image of B⋊⟨τ̂⟩ in Ḡ⋊⟨τ̂⟩, P is a normal Hall p-subgroup. Schur–Zassenhaus gives a complement; conjugating its outside involution by P makes it contain the actual τ̂. Its B-part B₀ is therefore τ-stable and inverted by τ, and acts on P lifting the given action on U,Z.
 
@@ -19,12 +20,12 @@ The inverse image of B in the image H̄ has normal p-kernel S. Choose a B-comple
 
 Coprime averaging on finite abelian p-groups gives σ-stable decompositions
 
-U=F⊕M,   F=U^B,   M=[U,B],
+    U=F⊕M,   F=U^B,   M=[U,B],
     Z=Z₀⊕Z_m,   Z₀=Z^B,   Z_m=[Z,B].                (2)
 
 The identity G=HD and D=G′ imply U=W+[U,A]: the H-derived contribution lies in W and the remaining commutators give A-displacements. Averaging gives F=(W∩F)+[F,A_p]. The finite p-group Nakayama argument forces F≤W: on the quotient, reduction modulo p gives a module generated by its own p-group augmentation ideal, hence zero, and finite p-group Nakayama then makes the quotient zero. Thus
 
-W=F⊕W_m,   W_m=W∩M.                              (3)
+    W=F⊕W_m,   W_m=W∩M.                              (3)
 
 Coprime fixed-point lifting, or the isomorphism S→W, identifies S^B with F. The fixed subgroup C=P^B equals S^B Z₀, since both sides have precisely F as image modulo Z. It is abelian: F≤W is isotropic, and Z is central in P.
 
@@ -32,7 +33,7 @@ Coprime fixed-point lifting, or the isomorphism S→W, identifies S^B with F. Th
 
 We claim
 
-|A_p| |F₋| ≤ |(Z₀)₊|.                            (4)
+    |A_p| |F₋| ≤ |(Z₀)₊|.                            (4)
 
 Here ± denote σ eigensubgroups, using the idempotents (1±σ)/2 on odd abelian groups. Let E=N_{Ḡ}(B₀). The preimage of B is normal in Ḡ, and its B-complements are P-conjugate. Thus the Frattini argument makes E→A onto, with kernel P∩E=C_P(B₀)=C. The same argument inside the aligned H̄ gives H̄∩E→A onto with kernel S^B. Let E_p be the inverse image of A_p in E. It is a σ-stable p-group, and H̄_p=H̄∩E_p maps onto A_p with kernel S^B.
 
@@ -46,36 +47,30 @@ The τ-fixed subgroup of E_p is C^τ, since τ inverts its odd A_p quotient. Out
 
 The primewise original order identity is
 
-|A_p| |W|=|Z₊| |U₊|.                             (5)
+    |A_p| |W|=|Z₊| |U₊|.                             (5)
 
 Indeed |H|_p=|A_p||S| and fixed points in the τ-stable central extension Z→P→U lift under the coprime involution. For every B-moving finite abelian p-group Y with σ inverting B, we have |Y₊|=|Y₋|. To see this, apply the p-power filtration. Coprime B-fixed points are exact on its layers, so those layers have no trivial B-character. Over a splitting field the nontrivial characters occur in distinct inverse pairs, exchanged by σ because B has odd order. The plus and minus dimensions agree on each layer, and the idempotents (1±σ)/2 preserve the filtration. Multiplying the layer sizes proves the assertion.
 
 Apply this to M and Z_m in (2). Combining (3)–(5) yields
 
-|W_m|² ≥ |M| |Z_m|.                              (6)
+    |W_m|² ≥ |M| |Z_m|.                              (6)
 
 No additive splitting of P over Z is required for the next step. Let s:W→S⊂L be the actual inverse of the projection S→W. It is additive and B-equivariant. Set
 
-I=W∩σW=F⊕I_m,   I_m=I∩M,
+    I=W∩σW=F⊕I_m,   I_m=I∩M,
     J(w)=s(w)−σs(σw) ∈ Z   (w∈I).                   (7)
 
 Both terms project to w, so J is central. It is B-equivariant and satisfies J(σw)=−σJ(w). If 0≠w∈ker J has σw=−w, then σs(w)=−s(w): the corresponding actual nonidentity element of S is τ-inverted and lies in H∩K, impossible. Thus the kernel has no negative element.
 
 Let T=ker(J|I_m). It is B- and σ-stable. Since its negative subgroup vanishes and 2 is invertible, σ is the identity on T. The relation σbσ=b⁻¹ then makes b=b⁻¹ on T for every b∈B. Its action has odd order, so it is trivial. But T lies in the B-moving summand, which has no B-fixed point; hence T=0. Equivariance puts J(I_m) in Z_m, and therefore
 
-|I_m|≤|Z_m|.                                     (8)
+    |I_m|≤|Z_m|.                                     (8)
 
 Now
 
-|W+σW|=|F| |W_m|²/|I_m|
+    |W+σW|=|F| |W_m|²/|I_m|
            ≥|F| |M| |Z_m|/|I_m| ≥|F| |M|=|U|.
 
 Since W+σW≤U, equality holds. Every element of I is β-orthogonal to W and σW because both are isotropic. It is therefore orthogonal to all U and belongs to the zero radical. Thus I=0 and F=0. The same equalities in (6)–(8) force Z_m=0. This proves (1) for arbitrary exponent, without assuming a split additive central extension or homocyclic factors.
 
-The result does not make the own-p action on Z trivial, provide a stabilizer alignment up to isomorphism, classify higher-class factors or address nonnilpotent D.
-
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-Each checked the actual Hall alignment and common-complement lift, both normalizer surjections, the primewise bound without quotient-folder assumptions, finite p-group augmentation and inverse-weight arguments, the intrinsic actual-stabilizer map, and the order/isotropy conclusion. Their acceptances retain the cited odd-envelope, faithful-stabilizer-action and class-two Lie-ring interfaces and Schur–Zassenhaus. No computation, fresh primary-source audit, formal verification or literature-novelty claim is made. The result does not make the own-p action on Z trivial, provide a stabilizer alignment up to isomorphism, classify higher-class factors or address nonnilpotent D. Its intended next use is to remove the coprime-center hypothesis from a separate bimap/action/cocycle parameterization for the entire nilpotent class-two branch.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/30d3ddf2d4a99650d08b4add502402a383f91447), reviewers contributor 1, contributor 2 and contributor 3 independently accepted this complete arbitrary-exponent reduction. Each checked the actual Hall alignment and common-complement lift, both normalizer surjections, the primewise bound without quotient-folder assumptions, finite p-group augmentation and inverse-weight arguments, the intrinsic actual-stabilizer map, and the order/isotropy conclusion. Their acceptances retain the cited odd-envelope, faithful-stabilizer-action and class-two Lie-ring interfaces and Schur–Zassenhaus. No computation, fresh primary-source audit, formal verification or literature-novelty claim is made. The result does not make the own-p action on Z trivial, provide a stabilizer alignment up to isomorphism, classify higher-class factors or address nonnilpotent D. Its intended next use is to remove the coprime-center hypothesis from a separate bimap/action/cocycle parameterization for the entire nilpotent class-two branch.

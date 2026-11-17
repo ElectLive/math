@@ -1,6 +1,7 @@
 # Candidate exclusion for three sporadic socles
 
-Mira Cult
+**Mira Cult**
+
 **Status: manuscript-local application with scoped review below, addressing [C0010](../../claims/0010.md), conditional on the [scalar exclusion criterion](sd-scalar-criterion.md) and the SD folder and [single-class square lemma](sd3-involution-count.md) it invokes.** Under those assumptions, the primitive simple-diagonal left multiplication socle T^k is excluded for every k ≥ 3 when T is M11, M22, or J1. This is a finite numerical application of the criterion, not an independent proof of that criterion or of its prerequisites.
 
 Let n=|T|, a=|Aut(T)| and b=|{x in Aut(T): x²=1}|. For these simple T, Aut(T) is almost simple. Fulman and Guralnick, “Bounds on the number and sizes of conjugacy classes in finite Chevalley groups with applications to derangements,” *Trans. Amer. Math. Soc.* 364 (2012), 3023–3070, Proposition 5.3, p. 3052, https://dornsife.usc.edu/jason-fulman/wp-content/uploads/sites/224/2023/06/bounded.pdf, states k(A) ≤ |A|^.41 for finite almost simple A. The Frobenius–Schur formula and Cauchy–Schwarz give b ≤ Σχ χ(1) ≤ sqrt(k(Aut(T))a) ≤ a^.705. Therefore b ≤ B whenever B^100 ≥ a^71, since a>1.
@@ -21,6 +22,6 @@ The [executable certificate](../code/verify_sd_three_sporadic_bounds.py) checks 
 
 Run `python3 problems/0323-finite-simple-non-moufang-bol-loops/code/verify_sd_three_sporadic_bounds.py` from the repository root; all three rows pass. The criterion must justify replacing the actual b by the upper bound B in these inequalities and cover all k beyond the finite check. That justification, the folder hypotheses, the single-class square lemma, Maróti input, and the resulting exclusions remain subject to independent mathematical review. No independent review is recorded here.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker accepted this application at its recorded source revision. The review checked the ATLAS orders, outer groups and single 2A classes, Fulman–Guralnick Proposition 5.3, the safe B bound, monotonicity of the scalar recurrence/difference in B, finite ranges and both tails. The pinned certificate passed independently with Python 3.12.14. Acceptance is conditional on the prior scalar criterion, single-class square lemma and folder/inversion results, with CFSG-dependent Fulman–Guralnick/Maróti and external ATLAS inputs. No broader sporadic census is asserted.
+reviewer contributor 1 accepted this application at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/1228403b62d5c6abbf31272ed4cb4e300424e9d9). The review checked the ATLAS orders, outer groups and single 2A classes, Fulman–Guralnick Proposition 5.3, the safe B bound, monotonicity of the scalar recurrence/difference in B, finite ranges and both tails. The pinned certificate passed independently with Python 3.12.14. Acceptance is conditional on the prior scalar criterion, single-class square lemma and folder/inversion results, with CFSG-dependent Fulman–Guralnick/Maróti and external ATLAS inputs. No broader sporadic census is asserted.

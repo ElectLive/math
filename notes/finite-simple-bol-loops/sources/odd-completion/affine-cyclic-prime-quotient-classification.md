@@ -1,11 +1,13 @@
 # Solvable p-prime affine complements with cyclic p quotient
 
-Mira Cult
+**Mira Cult**
+
 Scoped classification for [C0010](../../claims/0010.md), with exact-source reviews below: this classifies, up to loop isomorphism, the exact-factorization loops constructed from **all** nontranslation regular subgroups in the following affine family. It does not classify other affine complements or all loops of the same orders. No parity restriction is imposed on p or |T|; the loop has odd order precisely when both p and |T| are odd. This extends the group mechanism in odd-unbounded-fitting-height.md, using [C0001 Theorem 2.2](../foundations/C0001.md)'s exact normal-subloop criterion rather than the odd-only τ-stable criterion.
+
 
 ## Dependency and review scope
 
-The canonical folder and normal-subloop interface is [C0001](../../claims/0001.md), Theorems 1.4 and 2.2; its historical claim review is pinned at the recorded source revision. The exact-factorization, faithfulness, nonsimplicity and properness interfaces are [C0002 Proposition 1.1](../foundations/C0002.md); its scoped transversality and ordering repairs were, while its aggregate review remains unreviewed. The existing [unbounded-Fitting construction](odd-unbounded-fitting-height.md) provides a model for the commutator mechanism, not a review of this general theorem. The deductions below have the separate exact-source mathematical reviews recorded at the end. The upstream pins alone do not certify the present result, and no computation or formal verification is claimed.
+The canonical folder and normal-subloop interface is [C0001](../../claims/0001.md), Theorems 1.4 and 2.2; its historical claim review is pinned at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45). The exact-factorization, faithfulness, nonsimplicity and properness interfaces are [C0002 Proposition 1.1](../foundations/C0002.md); its scoped transversality and ordering repairs were reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/f445cdb19c036db7275eacfc1a0a28fac56f910d), while its aggregate review remains unreviewed. The existing [unbounded-Fitting construction](odd-unbounded-fitting-height.md) provides a model for the commutator mechanism, not a review of this general theorem. The deductions below have the separate exact-source mathematical reviews recorded at the end. The upstream pins alone do not certify the present result, and no computation or formal verification is claimed.
 
 ## Data
 
@@ -13,11 +15,11 @@ Let p be any prime, T a nontrivial finite solvable p′-group, and φ an automor
 
 For every nonzero φ-invariant functional ℓ∈V* define W=ker ℓ and
 
-Y_ℓ={(v,φ^i): i∈Fp, ℓ(v)=i} ≤ X,    Y₁=S.             (1)
+    Y_ℓ={(v,φ^i): i∈Fp, ℓ(v)=i} ≤ X,    Y₁=S.             (1)
 
 Nonzero invariant ℓ exist because a p-element acts unipotently on the dual. Every Y_ℓ is regular on V, and every nontranslation regular Y≤X is S-conjugate to Y_ℓ, with ℓ uniquely determined once the Sylow alignment π(Y)=⟨φ⟩ is chosen; different alignments can identify parameters. The factorization X=Y_ℓ S is exact. Each associated Nagy loop is simple and proper, conditional on [C0001](../../claims/0001.md)–[C0002](../../claims/0002.md). Two data sets (p,T,φ,V,ℓ) and (p̃,T̃,φ̃,Ṽ,ℓ̃) yield isomorphic loops iff p=p̃ and there exist an Fp-linear isomorphism L:V→Ṽ and a group isomorphism β:S→S̃ such that
 
-L(sv)=β(s)L(v),     β(φ)=φ̃^r,     ℓ̃ = r ℓ L⁻¹       (2)
+    L(sv)=β(s)L(v),     β(φ)=φ̃^r,     ℓ̃ = r ℓ L⁻¹       (2)
 
 for some r∈Fp*. Here β(s) acts through the specified faithful representation on Ṽ. This permits comparison of distinct groups/modules as well as different ℓ in one group. For a fixed (S,V), quotient the invariant nonzero functionals by the actual normalizer action described by (2). No closed orbit count is asserted.
 
@@ -43,7 +45,7 @@ The properness argument in [C0002 Proposition 1.1](../foundations/C0002.md) appl
 
 The two axes of M are exactly the minimal normal subgroups of G, since every nontrivial normal subgroup meets M. They are distinguished by H: H∩(V×1)=W×1 is nontrivial (dim V≥2), whereas H∩(1×V)=1. Any folder isomorphism therefore preserves their order. Moreover
 
-C_G(1×V)=X′×V,    O^p(C_G(1×V))=X′×1,
+    C_G(1×V)=X′×V,    O^p(C_G(1×V))=X′×1,
 
 and similarly for the other axis. Here O^p is the intersection of normal subgroups with p-group quotient. Indeed X′=V⋊T has no nontrivial p-group quotient: any map to a p-group kills the p′-group T and then kills [V,T]=V. The V factor has p-power order. These subgroups intrinsically recover both X′ coordinate axes.
 
@@ -57,8 +59,4 @@ The theorem does not assert a Fitting-height value without additional hypotheses
 
 More generally, retain p arbitrary, nontrivial solvable p′-group T, φ of order dividing p, S=T⋊Cp, and a faithful S-module V whose restriction to T is irreducible, with dim V≥2; here Cp is a formal complement, including when φ acts trivially on T. For any nontranslation regular Y, Sylow conjugacy in S aligns π(Y) with Cp. Put D=T′[T,φ]◁T. Since [V,T]=V, we have X′=V⋊D. The image of X′Y in S is D⟨φ⟩, so X′Y<X iff D<T. In this case [C0002 Proposition 1.1](../foundations/C0002.md)'s exact-factorization necessity gives a proper nontrivial normal subloop; the required core-freeness holds as before since V is irreducible and C_X(V)=V. On the other hand, D=T iff φ−1 is surjective on T_ab, equivalently fixed-point-free: φ has p-power order coprime to |T_ab|, so fixed points and coinvariants are simultaneously trivial. Therefore, within these ambient hypotheses and assuming C0001/C0002, the loop constructed from a nontranslation regular Y is simple iff φ acts fixed-point-freely on T_ab. The forward condition forces the automorphism φ to have exact order p because a nontrivial solvable group has nontrivial abelianization. No other ambient family is covered.
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-Each checked arbitrary primes including 2, coprime fixed-free passage to quotients, Sylow alignment and all nontranslation regular subgroups, every normal-subgroup case without τ-stability or split-normal assumptions, ordered-axis recovery through H and O^p centralizers, the cross-data isomorphism criterion, and the nonsimple converse. Properness retains the cited simple-Moufang primitivity input. No computation, formal verification or fresh primary-source audit was performed.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/2a25b81e3efe5bdd8a3923e27c94aef16a559094), reviewers contributor 1 and contributor 2 independently accepted the complete theorem under the specifically cited C0001 Theorems 1.4/2.2 and C0002 Proposition 1.1 interfaces, not C0002 in aggregate. Each checked arbitrary primes including 2, coprime fixed-free passage to quotients, Sylow alignment and all nontranslation regular subgroups, every normal-subgroup case without τ-stability or split-normal assumptions, ordered-axis recovery through H and O^p centralizers, the cross-data isomorphism criterion, and the nonsimple converse. Properness retains the cited simple-Moufang primitivity input. No computation, formal verification or fresh primary-source audit was performed.

@@ -41,4 +41,3 @@ assert 18+12-rank(basis+socall)==4
 assert any(values(U(Dc[i],0))[0]!=0 for i in range(4))
 assert any(values(f^U(Dc[i],1))[0]==0 and values(f^U(Dc[i],1))[1]!=0 for i in range(4))
 print('F20-stable c=1 b=3 shadow control passed; no pure P6_S; rank=18')
-

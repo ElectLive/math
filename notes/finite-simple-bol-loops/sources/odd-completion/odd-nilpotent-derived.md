@@ -1,27 +1,28 @@
 # The nilpotent-derived odd-envelope route
 
-Mira Cult
+**Mira Cult**
+
 This continuation belongs to [0323:C0010](../../claims/0010.md) and 0323.NONBRUCK_ODD, with the scoped independent reviews below. Its bounded question is whether the reviewed exclusion of metabelian canonical envelopes extends to envelopes whose derived subgroup is nilpotent. This would still be weaker than excluding all groups of Fitting height at most two: a nilpotent quotient by the Fitting subgroup need not be abelian. The deductions below restrict the case and refute a proposed group-theoretic shortcut. The later [cross-coupled construction](odd-cross-extraspecial.md), with independent reviews recorded there, now establishes that nilpotent derived groups with extraspecial Sylow factors do occur in simple proper odd loops. The remaining task is their structural classification, not universal exclusion.
 
-Use a finite simple nonassociative odd-order left Bol loop Q with canonical faithful generating folder (G,H,K), inverting automorphism τ, D=G′ and A=G/D. The [derived-envelope deductions](odd-folder-radicals.md#derived-envelope-constraints-on-the-fixed-stabilizer) give G=HD, C_G(τ)≤D, |H|=|C_G(τ)|, and faithful transitivity of D. The general strict-defect input at the recorded source revision gives |H∩L|<|C_L(τ)| for every nontrivial proper τ-stable normal L. Their oddness, inversion and source qualifications remain in the linked manuscript. Assume in the next two sections that D is nilpotent.
+Use a finite simple nonassociative odd-order left Bol loop Q with canonical faithful generating folder (G,H,K), inverting automorphism τ, D=G′ and A=G/D. The [derived-envelope deductions](odd-folder-radicals.md#derived-envelope-constraints-on-the-fixed-stabilizer) reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/e896039d004ff3882621aca115b1a39cc8fed207) give G=HD, C_G(τ)≤D, |H|=|C_G(τ)|, and faithful transitivity of D. The general strict-defect input at [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d) gives |H∩L|<|C_L(τ)| for every nontrivial proper τ-stable normal L. Their oddness, inversion and source qualifications remain in the linked manuscript. Assume in the next two sections that D is nilpotent.
 
 ## Sylow restrictions and scalar inversion
 
 Write D=∏_p D_p and S=H∩D=∏_p S_p, with S_p=H∩D_p. Each D_p is characteristic in D, hence normal in G and τ-stable. The subgroup core_{D_p}(S_p) is normalized by H, by D_p and by the other Sylow factors, so is normal in G=HD and contained in H. It is therefore trivial. In particular Z(D_p)∩S_p=1, and the center acts semiregularly on D_p/S_p. Thus
 
-|Q|=∏_p [D_p:S_p],       |Z(D_p)| divides [D_p:S_p].
+    |Q|=∏_p [D_p:S_p],       |Z(D_p)| divides [D_p:S_p].
 
 This is an equality of cardinalities, not a product decomposition of Q. If D has class at most two, each S_p is abelian, since S_p′≤S_p∩Z(D_p)=1; this does not make S_p trivial.
 
 The centralizer and stabilizer orders also give the exact identity
 
-|A|=|C_D(τ)|/|S|=∏_p |C_{D_p}(τ)|/|S_p|.
+    |A|=|C_D(τ)|/|S|=∏_p |C_{D_p}(τ)|/|S_p|.
 
 For every nonzero D_p the corresponding ratio is a positive power of p strictly greater than one, by strict defect (D_p<G because nontrivial solvable G has nontrivial abelianization). Also S_p<D_p by core-freeness. Consequently the prime-divisor sets satisfy
 
-π(G)=π(D)=π(A)=π(|Q|).
+    π(G)=π(D)=π(A)=π(|Q|).
 
-In particular, each prime occurring in the nilpotent derived subgroup must also occur in the abelian quotient. These sets contain at least two primes by [C0011](../../claims/0011.md), proof §§1–2, scoped review the recorded source revision. No bound on the number or powers of these primes follows.
+In particular, each prime occurring in the nilpotent derived subgroup must also occur in the abelian quotient. These sets contain at least two primes by [C0011](../../claims/0011.md), proof §§1–2, scoped review [the source revision](https://github.com/Mira-Cult/math-wip/commit/932ead5db5f39045e2085caa6b062f6b981b2813). No bound on the number or powers of these primes follows.
 
 Fix p and put V=D_p/Φ(D_p). The G-action on this elementary abelian group factors through the odd abelian group A, because D_p acts trivially and the other Sylow factors centralize D_p. The involution τ cannot commute with this A-action. Indeed τ induces inversion on A, so if it commuted, the compatibility identity τρ(a)τ⁻¹=ρ(a⁻¹) would give ρ(a)²=1; oddness forces the entire A-action to be trivial. Quotient G by N=Φ(D_p)∏_{r≠p}D_r. Its derived subgroup D/N≅V would then be central. Since G/N=(HN/N)(D/N), its derived subgroup would equal (HN/N)′ and lie in HN/N. Hence D_p=S_pΦ(D_p). A proper subgroup of a finite p-group lies in a maximal subgroup containing its Frattini subgroup, so this equality forces S_p=D_p, contradicting core-freeness.
 
@@ -37,11 +38,11 @@ One proposed extension of the metabelian proof was to choose a minimal supplemen
 
 The following construction is a finite group with specified subgroups and an involution, **not a Bol folder**. Work over F₇ and let V=X⊕Y with dim X=dim Y=4 and alternating form
 
-⟨(x,y),(x′,y′)⟩=xᵀy′−yᵀx′.
+    ⟨(x,y),(x′,y′)⟩=xᵀy′−yᵀx′.
 
 Let P=V×F₇ with product (v,z)(w,t)=(v+w,z+t+½⟨v,w⟩). Bilinearity gives associativity; its commutator form is the displayed nondegenerate form, so P has order 7⁹, exponent seven and Z(P)=P′={(0,z)}. Set
 
-T = [[0,1],[0,0]],
+    T = [[0,1],[0,0]],
     J = [[0,I₂],[-I₂,0]],
     R = diag(T,Tᵀ),        B=I₄+R.
 
@@ -88,11 +89,15 @@ Inputs: odd-folder-radicals.md reviewed strict-defect and derived-envelope resul
 
 The cross-coupled family now supplies surviving nilpotent D. The remaining question is to classify all admissible nilpotent-derived folders using the full inverted section and its transversality; no necessity theorem for that family is established. Neither a quotient of a core-free group action nor a nilpotent supplement automatically supplies the missing loop quotient or conjugacy. The control uses explicit matrix identities and finite-group calculations, not a computational search.
 
+reviewers contributor 1 and contributor 2 independently accepted this manuscript at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/27e40560748edba10af80088d99264cd25fab1d5), conditional on the cited odd-folder, strict-defect, derived-envelope and C0011 inputs. They checked the Sylow/core and prime-support assertions, the nonscalar Frattini-action argument, and the subgroup nonconjugacy extension. They checked the explicit block matrices, extraspecial group, core-free pairwise nonconjugate complements, inversion action and mismatched centralizer order in the control. Neither review uses a computation or formal verification, proves a nilpotent-derived exclusion, or treats the control as a Bol folder.
+
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6033272fbbd42f39c07ae59808ca122c9d60348e), reviewers contributor 1 and contributor 3 independently accepted the extraspecial Sylow-factor section, conditional on the cited canonical-folder, strict-defect, derived-envelope and marked-class inputs. Both checked the centrality argument, the necessary H′ contribution to U=W+[U,A], averaging and p-group coinvariants, the nonsemisimple generalized-dihedral multiplicity proof, the exponent deduction and the exact BCH/marked-section formula. They accepted the disjoint stabilizer shadows and the explicitly limited scope. Their reviews neither reprove all upstream results nor exclude nilpotent derived groups or every extraspecial factor. No computation or formal verification was used.
+
 ## Fixed-point obstruction on every derived Sylow factor
 
-Let Q be a finite simple nonassociative odd left Bol loop with canonical (G,H,K,τ), and assume D=G′ is nilpotent. Put A=G/D. For every nontrivial Sylow p-factor P of D, let D_{p′} be the product of the others and B=A_{p′}. In G/D_{p′}, choose a complement B₀ to P in the inverse image of B. Such complements exist and are P-conjugate by Schur–Zassenhaus. The claimed necessary condition is
+**Continuation of 0323:C0010, with the scoped independent reviews below.** Let Q be a finite simple nonassociative odd left Bol loop with canonical (G,H,K,τ), and assume D=G′ is nilpotent. Put A=G/D. For every nontrivial Sylow p-factor P of D, let D_{p′} be the product of the others and B=A_{p′}. In G/D_{p′}, choose a complement B₀ to P in the inverse image of B. Such complements exist and are P-conjugate by Schur–Zassenhaus. The claimed necessary condition is
 
-C_P(B₀)≠1.                                         (12)
+    C_P(B₀)≠1.                                         (12)
 
 This does not assume class two, exponent p, center centrality or a split original envelope. The coprime action is specified through the actual local complement; (12) is independent of its choice. The inputs are the reviewed odd full marked transversal and prime-support/no-normal-Hall results linked above, and the Schur–Zassenhaus version recorded in REFERENCES.md. The precise remaining gap is classifying the folders that satisfy (12), rather than mistaking this obstruction for exhaustion.
 
@@ -104,14 +109,6 @@ The reviewed prime-support result gives A_p≠1. Choose a nonidentity p-element 
 
 A useful centerless consequence follows. If Z(G)=1, then Z(P)^{B₀}=1 for every P. Otherwise its subgroup of elements of order dividing p contains a nonzero B-fixed vector; the commuting p-group A_p acting on this vector space has a nonzero fixed vector. D centralizes Z(P), so this gives a nonidentity element of Z(G), contradiction. Coprime fixed-point lifting in P→P/Z(P), together with (12), therefore gives
 
-Z(P)^{B₀}=1,   (P/Z(P))^{B₀}≠1.                    (13)
+    Z(P)^{B₀}=1,   (P/Z(P))^{B₀}≠1.                    (13)
 
-In the class-two case the second group is an abelian p-group, identifying the unclassified centerless branch as one with fixed quotient elements but no fixed central elements. In the reviewed central-center branch, by contrast, the quotient has no B-fixed elements and the entire center is fixed. Conditions (12)–(13) neither assert that a centerless simple example exists nor exclude it. At exact source the recorded source revision, Automated mathematical reviewers an independent checker and an independent checker independently accepted this subsection. Both checked the two Hall-normalizer arguments, actual stabilizer conjugation, cyclic p-element lift, outside-involution lift and correction, and the centerless corollary. Their acceptances retain the pinned prime-support, marked-transversal and Schur–Zassenhaus inputs. No computation, formal verification or novelty claim is made.
-
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-They checked the Sylow/core and prime-support assertions, the nonscalar Frattini-action argument, and the subgroup nonconjugacy extension. They checked the explicit block matrices, extraspecial group, core-free pairwise nonconjugate complements, inversion action and mismatched centralizer order in the control. Neither review uses a computation or formal verification, proves a nilpotent-derived exclusion, or treats the control as a Bol folder.
-
-Both checked the centrality argument, the necessary H′ contribution to U=W+[U,A], averaging and p-group coinvariants, the nonsemisimple generalized-dihedral multiplicity proof, the exponent deduction and the exact BCH/marked-section formula. They accepted the disjoint stabilizer shadows and the explicitly limited scope. Their reviews neither reprove all upstream results nor exclude nilpotent derived groups or every extraspecial factor. No computation or formal verification was used.
+In the class-two case the second group is an abelian p-group, identifying the unclassified centerless branch as one with fixed quotient elements but no fixed central elements. In the reviewed central-center branch, by contrast, the quotient has no B-fixed elements and the entire center is fixed. Conditions (12)–(13) neither assert that a centerless simple example exists nor exclude it. At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/2c55b3347a1b65d9475902db9575bf6647431fb2), reviewers contributor 2 and contributor 4 independently accepted this subsection. Both checked the two Hall-normalizer arguments, actual stabilizer conjugation, cyclic p-element lift, outside-involution lift and correction, and the centerless corollary. Their acceptances retain the pinned prime-support, marked-transversal and Schur–Zassenhaus inputs. No computation, formal verification or novelty claim is made.

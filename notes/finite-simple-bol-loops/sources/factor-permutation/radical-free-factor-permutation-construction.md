@@ -1,14 +1,14 @@
 # Radical-free canonical groups with unbounded factor-permutation cycles
 
-Mira Cult
+**Mira Cult**
 
-**Independently reviewed under the pinned inputs.** This construction belongs to [classification frontier](../../claims/0010.md). It shows why an exhaustive classification must allow the canonical group to permute its simple socle factors. It is not an isomorphism classification or a claim of literature novelty.
+**Independently reviewed under the pinned inputs.** This construction belongs to [0323-finite-simple-non-moufang-bol-loops:C0010](../../claims/0010.md). It shows why an exhaustive classification must allow the canonical group to permute its simple socle factors. It is not an isomorphism classification or a claim of literature novelty.
 
 ## Statement and inputs
 
 Let T be a finite nonabelian simple group with an exact factorization T=AB, where A,B are nontrivial, A∩B=1, and χ:A→C_p is onto for a prime p. There is a finite simple proper left Bol loop of order p|T|^p whose entire faithful canonical left multiplication group has socle T^(2p), trivial solvable radical, and quotient C_p acting as two cycles of length p on the simple factors. Such cycle lengths are unbounded, as shown below.
 
-We use the exact-factorization folder construction in [the canonical criterion](exact-factorization-criterion.md), reviewed, and the faithful generated-folder, exact normal-subloop criterion and simple-Moufang LMlt primitivity input [Claim 0001](../../claims/0001.md), reviewed (Lemma 1.2 for primitivity). These are the stated loop-theoretic inputs; all group calculations needed for this new construction are given here. No identification with the full multiplication group is used.
+We use the exact-factorization folder construction in [the canonical criterion](exact-factorization-criterion.md), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/e3a39be22fe1390d3717bdeee8f81d82f6817aef), and the faithful generated-folder, exact normal-subloop criterion and simple-Moufang LMlt primitivity input [C0001](../../claims/0001.md), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45) (Lemma 1.2 for primitivity). These are the stated loop-theoretic inputs; all group calculations needed for this new construction are given here. No identification with the full multiplication group is used.
 
 ## Exact factorization of a cyclic wreath group
 
@@ -59,10 +59,9 @@ Take T=A₅, A=A₄, B=C₅ and χ:A₄→A₄/V₄=C₃. The construction gives
 
 For unbounded lengths, take q=3^f with f an odd prime, and choose any prime p dividing (q−1)/2. This integer is odd and greater than one. The order of 3 modulo p divides f but is not one, since an odd prime does not divide 3−1. Hence ord_p(3)=f, so f divides p−1 and p≥2f+1. As odd primes f are unbounded, so are these p.
 
-Let T=PSL₂(q), A a Borel subgroup, and B a nonsplit torus normalizer. Since q≡3 mod4, their orders q(q−1)/2 and q+1 are coprime and multiply to |T|, giving T=AB exactly. These subgroups and their structure are the inputs in [the reviewed all-field paired table](radical-free-psl2-path-classification.md#all-field-paired-psl-assembly); its source locators retain their stated qualifications. The Borel quotient C_((q−1)/2) surjects onto C_p. Thus the construction realizes unbounded prime cycle lengths without any additional prime-distribution theorem. It supplies an infinite construction family, not exhaustion of factor-permuting canonical groups.
+Let T=PSL₂(q), A a Borel subgroup, and B a nonsplit torus normalizer. Since q≡3 mod4, their orders q(q−1)/2 and q+1 are coprime and multiply to |T|, giving T=AB exactly. These subgroups and their structure are the inputs in [the reviewed all-field paired table](radical-free-psl2-path-classification.md#all-field-paired-psl-assembly) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/e30af949531c0ebcc9f7533b04fc1e7fc6858563); its source locators retain their stated qualifications. The Borel quotient C_((q−1)/2) surjects onto C_p. Thus the construction realizes unbounded prime cycle lengths without any additional prime-distribution theorem. It supplies an infinite construction family, not exhaustion of factor-permuting canonical groups.
 
 
+## Independent mathematical review
 
-## Recorded source review scope
-
-Automated source reviewers an automated checker, an automated checker, and an automated checker independently accepted this entire construction at exact source the recorded source revision, conditional on its pinned exact-factorization, canonical-folder, normal-quotient, subgroup and Moufang-primitivity inputs. They checked the cyclic-wreath exact factorization, actual generation and faithfulness of G, complete five-subgroup normal list, all strict simplicity inequalities, intermediate subgroup proving properness, the A₅ example, and the elementary q=3^f argument for unbounded prime cycle lengths. No new computation, source-classification reproof or novelty assessment was performed. These are model mathematical reviews, not human or formal certification.
+reviewers contributor 1, contributor 2, and contributor 3 independently accepted this entire construction at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/ad7b7d0df9910463839b2e8607fbfec3ddbe2f5e), conditional on its pinned exact-factorization, canonical-folder, normal-quotient, subgroup and Moufang-primitivity inputs. They checked the cyclic-wreath exact factorization, actual generation and faithfulness of G, complete five-subgroup normal list, all strict simplicity inequalities, intermediate subgroup proving properness, the A₅ example, and the elementary q=3^f argument for unbounded prime cycle lengths. No new computation, source-classification reproof or novelty assessment was performed. These are model mathematical reviews, not human or formal certification.

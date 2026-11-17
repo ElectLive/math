@@ -1,7 +1,8 @@
 # Elementary normal layers in odd simple Bol envelopes
 
-Mira Cult
-**Structural deductions for [0323:C0010](../../claims/0010.md), with exact-source reviews below.** Let $`Q`$ be a finite simple nonassociative odd-order left Bol loop, and let $`(G,H,K,\tau)`$ be its faithful canonical generating folder and inversion automorphism. The source inputs are the full-inverted-set theorem and fixed-normal lemma in [odd-folder-radicals](odd-folder-radicals.md), independently; the strict-defect iff simplicity criterion at the recorded source revision; the odd-envelope source application at the recorded source revision; and $`G=HG'`$, $`C_G(\tau)\le G'`$, $`|H|=|C_G(\tau)|`$ at the recorded source revision. The prime-power exclusion in [C0011](../../claims/0011.md) is used only where stated. The deductions in this manuscript have the separate exact-source reviews recorded below; the cited pins preserve their own input scopes.
+**Mira Cult**
+
+**Structural deductions for [0323:C0010](../../claims/0010.md), with exact-source reviews below.** Let $`Q`$ be a finite simple nonassociative odd-order left Bol loop, and let $`(G,H,K,\tau)`$ be its faithful canonical generating folder and inversion automorphism. The source inputs are the full-inverted-set theorem and fixed-normal lemma in [odd-folder-radicals](odd-folder-radicals.md), independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d); the strict-defect iff simplicity criterion at [the source revision](https://github.com/Mira-Cult/math-wip/commit/65a3e58df517df59656ab948ac9d122208f62c4a); the odd-envelope source application at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ab4059e6a9b8d5876e2bffa993bb98e7dac69025); and $`G=HG'`$, $`C_G(\tau)\le G'`$, $`|H|=|C_G(\tau)|`$ at [the source revision](https://github.com/Mira-Cult/math-wip/commit/e896039d004ff3882621aca115b1a39cc8fed207). The prime-power exclusion in [C0011](../../claims/0011.md) is used only where stated. The deductions in this manuscript have the separate exact-source reviews recorded below; the cited pins preserve their own input scopes.
 
 ## A uniform multitransversal through any elementary layer
 
@@ -80,7 +81,7 @@ Coprime fixed-point lifting also gives
 
 Hence p divides $`|G/V|`$: V is not a normal Hall subgroup. If $`G=H C_G(V)`$, H acts irreducibly on V; $`H\cap V`$ is H-invariant and proper by core-freeness, so it is zero. The exact multiplicity in (1) is then $`|V_+|`$. A transitive V would be regular because it is abelian, giving $`|Q|=|V|`$, contrary to C0011. Thus $`HV<G`$.
 
-If in addition G′ is metabelian, the independently accepted [nilpotent-residual splitting](odd-metabelian-residual-splitting.md) at the recorded source revision applies: its nonzero nilpotent residual $`R=\gamma_\infty(G')`$ is abelian, $`G'=R\rtimes N`$ with N nilpotent, and the action of the specified p′-Hall of N on $`R_p`$ has no common nonzero fixed vector. Monolithicity forces R to be a p-group and contain V. Therefore V is noncentral and in the mixed-eigenspace case. This is a structural reduction, not a classification or a proof that such a folder exists.
+If in addition G′ is metabelian, the independently accepted [nilpotent-residual splitting](odd-metabelian-residual-splitting.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/7530ae6eeeb0614d7c94ed6ab1f6761f3493ab88) applies: its nonzero nilpotent residual $`R=\gamma_\infty(G')`$ is abelian, $`G'=R\rtimes N`$ with N nilpotent, and the action of the specified p′-Hall of N on $`R_p`$ has no common nonzero fixed vector. Monolithicity forces R to be a p-group and contain V. Therefore V is noncentral and in the mixed-eigenspace case. This is a structural reduction, not a classification or a proof that such a folder exists.
 
 ## An irreducible coprime-complement exclusion
 
@@ -92,11 +93,11 @@ If θ acts nontrivially on B, then some $`b^{-1}\tau(b)\ne1`$ belongs to $`B_0\c
 
 Thus any surviving monolithic folder avoids this configuration. The exclusion does not apply merely because B is a p′-subgroup: normality, θ-stability, containment in J, and irreducibility on V are all required. No computation, formal verification, or classification is claimed by this manuscript.
 
-The results are necessary structural restrictions, not a sufficient lifting criterion or a classification of monolithic groups.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/958dd0d834610aa5b6a7a73b323eb62145aeec99), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the complete manuscript under its cited full-inverted-set, strict-defect, fixed-normal/odd-center, C0011 and metabelian-residual inputs. All three checked constant inverted fibers and every projected stabilizer coset, the odd-solvable-group chief induction and central Hall-kernel argument, the resulting overlap p-core, every monolithic consequence, and the nonsplit irreducible-complement exclusion using the actual τ and temporary H-conjugation. The reviews do not assume a quotient loop, τ-stability of H, or split extensions. No computation, fresh primary-source audit or formal verification was performed. The results are necessary structural restrictions, not a sufficient lifting criterion or a classification of monolithic groups.
 
 ## Parallel affine fibers at defect one
 
-Retain the elementary normal layer and odd-folder hypotheses above, and suppose
+**Independently reviewed continuation.** Retain the elementary normal layer and odd-folder hypotheses above, and suppose
 
 ```math
 \delta=\dim V_+-\dim(H\cap V)=1.
@@ -120,6 +121,8 @@ are distinct parallel hyperplanes and partition $`V/W_x`$. In particular, their 
 Indeed, an element in the fiber of $`k_i`$ has the form $`vk_i`$, $`v\in V`$, and is inverted by $`\tau`$ exactly when $`v\in N_i`$. The outside involution $`\mathop{\mathrm{Int}}\nolimits(k_i)\tau`$ is conjugate to $`\tau`$ in the odd extension, so $`\dim N_i=\dim V_-`$. Moreover $`(vk_i)H=(v+v_i)xH`$. Transversality of $`K`$ to the $`H`$-cosets therefore makes the sets (8) disjoint and exhaustive, and makes $`N_i\to V/W_x`$ injective. Since $`\dim W_x=\dim V_+-1`$, the quotient has dimension $`\dim V_-+1`$, so every set (8) is an affine hyperplane. Two affine hyperplanes with different directions intersect; disjointness forces all directions to agree.
 
 Equivalently, for each chosen $`x`$, a nonzero line in $`(V/W_x)^*`$ annihilates all the images of the $`N_i`$. The line may vary with the projected coset and with $`x`$; no globally invariant functional follows from this argument. This is a necessary condition on the original folder, not a sufficient lifting criterion or an assertion that $`\bar K`$ is a quotient transversal.
+
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/d65384d34ad0cb77635020a3bbe93dc1b3eb3b6b), reviewers contributor 1 and contributor 2 independently accepted the full defect-one affine-fiber deduction, conditional on the reviewed [the source revision](https://github.com/Mira-Cult/math-wip/commit/958dd0d834610aa5b6a7a73b323eb62145aeec99) multitransversal and odd-folder inputs. They checked the actual coset orientations, transported W_x, negative space of Int(k_i)τ, nonsplit lift formula, injectivity and partition, and forced parallelism. Neither review asserts a global invariant dual functional, a sufficient lifting criterion or a quotient loop. No computation or formal verification was performed.
 
 ## An exact defect-one lift criterion
 
@@ -222,12 +225,4 @@ Generation can also be reduced to linear algebra over $`V`$. First require that 
 
 Finally, $`C_G(\tau)\cap N_G(H)`$ acts by conjugation on the quotient cosets and their dual data, but a one-orbit reduction is not automatic. In the reviewed Heisenberg control, $`N_L(J)=JZ(T)`$ and $`C_L(\theta)\cap N_L(J)=1`$, while $`[L:J]=49`$. Other symmetries may exist in a particular extension; their orbit reductions require a separate proof.
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-All three checked constant inverted fibers and every projected stabilizer coset, the odd-solvable-group chief induction and central Hall-kernel argument, the resulting overlap p-core, every monolithic consequence, and the nonsplit irreducible-complement exclusion using the actual τ and temporary H-conjugation. The reviews do not assume a quotient loop, τ-stability of H, or split extensions. No computation, fresh primary-source audit or formal verification was performed. The results are necessary structural restrictions, not a sufficient lifting criterion or a classification of monolithic groups.
-
-They checked the actual coset orientations, transported W_x, negative space of Int(k_i)τ, nonsplit lift formula, injectivity and partition, and forced parallelism. Neither review asserts a global invariant dual functional, a sufficient lifting criterion or a quotient loop. No computation or formal verification was performed.
-
-Both checked the nonsplit extension/involution equations, globally coherent stabilizer cochain, actual inverted-fiber equation and left-coset offsets, both directions of the hyperplane partition test, all-conjugate propagation, gauge invariance and the generation test with every inverted quotient label. Their scope retains separate faithfulness, generation and simplicity tests and asserts neither a quotient loop nor all-odd exhaustion. No computation or formal verification was performed. This paragraph records their reviews and was not part of the examined source.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/7171a4e11376839d09b2a76544fed0c941b2507e), reviewers contributor 1 and contributor 2 independently accepted the entire exact defect-one lift criterion, conditional on the cited prior odd-folder and strict-defect interfaces. Both checked the nonsplit extension/involution equations, globally coherent stabilizer cochain, actual inverted-fiber equation and left-coset offsets, both directions of the hyperplane partition test, all-conjugate propagation, gauge invariance and the generation test with every inverted quotient label. Their scope retains separate faithfulness, generation and simplicity tests and asserts neither a quotient loop nor all-odd exhaustion. No computation or formal verification was performed. This paragraph records their reviews and was not part of the examined source.

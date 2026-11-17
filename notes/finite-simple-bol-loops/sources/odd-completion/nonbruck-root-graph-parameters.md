@@ -1,6 +1,7 @@
 # Root-graph parameters for an even affine family
 
-Mira Cult
+**Mira Cult**
+
 This manuscript-local parameterization concerns [C0010](../../claims/0010.md) and the exact-factorization family in [C0004](../../claims/0004.md); it allocates no claim ID. Its construction, isomorphism and counting arguments have the scoped independent reviews below, conditional on the cited folder inputs. The appended exhaustion argument has separate scoped reviews at the source recorded below. Together they classify all nontranslation regular subgroups in this natural SL₂(q) affine family and the loops they construct, not all even non-Bruck loops or all loops of the orders below. Literature novelty of the parameterization is unverified.
 
 ## Data and construction theorem
@@ -15,14 +16,14 @@ $$\gamma_\phi(x,y)=u(\phi(y)),\qquad B_\phi=\{(v,\gamma_\phi(v)):v\in V\}\le X.$
 
 Let $`Q_\phi`$ be the left Bol loop of the exact factorization $`X=B_\phi A`$ using the construction in [C0002, Proposition 1.1](../foundations/C0002.md). The following holds, conditional on the precise C0001/C0002/C0004 folder and isomorphism results:
 
-1. Every $`Q_\phi`$ is finite simple proper left Bol, has order $`q^3(q^2-1)`$, and belongs to the $`\tau(H)\ne H`$ even branch of [PROBLEM](../../START_HERE.md).
+1. Every $`Q_\phi`$ is finite simple proper left Bol, has order $`q^3(q^2-1)`$, and belongs to the $`\tau(H)\ne H`$ even branch of [PROBLEM](../foundations/problem-contract.md).
 2. For fixed $`q`$, $`Q_\phi\cong Q_\psi`$ if and only if there exist $`c,d\in\mathbb F_q^\times`$ and $`j\in\{0,\ldots,f-1\}`$ such that
 
-$$\psi(x)=c\,\bigl[\phi(d\,x^{p^{-j}})\bigr]^{p^j}\qquad(x\in\mathbb F_q),\tag{1}$$
+   $$\psi(x)=c\,\bigl[\phi(d\,x^{p^{-j}})\bigr]^{p^j}\qquad(x\in\mathbb F_q),\tag{1}$$
 
-where $`p^{-j}`$ denotes the inverse Frobenius automorphism on $`\mathbb F_q`$. Different $`q`$ give different loop orders. Thus the indicated finite orbit space is explicit isomorphism data for this subfamily; no efficiency or whole-order census is claimed.
+   where $`p^{-j}`$ denotes the inverse Frobenius automorphism on $`\mathbb F_q`$. Different $`q`$ give different loop orders. Thus the indicated finite orbit space is explicit isomorphism data for this subfamily; no efficiency or whole-order census is claimed.
 
-The source construction is Nagy, *Representations of loops in groups and projective planes*, DSc dissertation, title page 2014, [primary PDF](https://real-d.mtak.hu/722/7/NagyGaborPeter_doktori_mu.pdf), Proposition 3.12 and Corollary 3.13, printed pp. 34–35. It uses right Bol conventions; taking opposites transports the construction. The source's hypotheses are checked below. C0004, Theorem 1.1 and Theorem 2.1(1)–(3), have two scoped independent reviews at source revision the recorded source revision; its exact isomorphism theorem remains an explicit conditional input here. Those reviews do not review this new parameterization.
+The source construction is Nagy, *Representations of loops in groups and projective planes*, DSc dissertation, title page 2014, [primary PDF](https://real-d.mtak.hu/722/7/NagyGaborPeter_doktori_mu.pdf), Proposition 3.12 and Corollary 3.13, printed pp. 34–35. It uses right Bol conventions; taking opposites transports the construction. The source's hypotheses are checked below. C0004, Theorem 1.1 and Theorem 2.1(1)–(3), have two scoped independent reviews at source revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/87a0895eec2cf7b690dafab5ca3292fb05147a03); its exact isomorphism theorem remains an explicit conditional input here. Those reviews do not review this new parameterization.
 
 ## Construction and branch
 
@@ -131,6 +132,10 @@ There are also at least $`f`$ explicit classes, represented by $`\phi_k(x)=x^{p^
 
 Nagy's dissertation §5.4, Problems 5.14–5.15, printed p. 57, asks historically for a simple Bol loop neither a $`G`$-loop nor an isotope of a Bruck loop, and for a finite simple proper Bol loop with primitive one-sided multiplication group. The present exact-factorization loops are $`G`$-loops and have imprimitive one-sided multiplication group under the cited construction results, so this subfamily does not settle either question. This source comparison is not a current literature or novelty audit.
 
+## Independent review of construction and counts
+
+reviewers contributor 1 and contributor 2 independently accepted the construction, full isomorphism criterion, support and divisor formulas, and lower bounds at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/8ad35e2dbed5179f70be146d73b61ae80bde5555), conditional on C0001/C0002/C0004 and canonical inversion inputs. The needed C0004 Theorem 1.1 and Theorem 2.1(1)–(3) have separate scoped acceptances at [the source revision](https://github.com/Mira-Cult/math-wip/commit/87a0895eec2cf7b690dafab5ca3292fb05147a03). Both checked arbitrary characteristic, noninvertible nonzero maps, the possible SL₂ center, the full semilinear normalizer, and both independent Burnside derivations. Both read and independently ran the pinned certificate with Python 3.12.14, reproducing binary field orbit counts 3,9,91 and the stated formula comparisons. The computations check parameter data, not loop identities or an all-loop census. These reviews do not audit source novelty, the dissertation comparison or the C0004 aggregate. **They do not cover the following exhaustion extension, which was added after this source revision.**
+
 ## Exhaustion of the natural-module affine family
 
 Let $`q=p^f\ge4`$, $`V=\mathbb F_q^2`$, $`A=\mathop{\mathrm{SL}}\nolimits_2(q)`$, and $`X=V\rtimes A`$. Every subgroup $`Y\le X`$ acting regularly on $`V`$ is conjugate by an element of $`A`$ to $`B_\phi`$ for some $`\mathbb F_p`$-linear map $`\phi:\mathbb F_q\to\mathbb F_q`$. The zero map gives the translation group $`V`$; all other maps give the nontranslation regular subgroups studied above. Consequently, subject to the earlier C0004 construction and isomorphism interface equations (1)–(4) classify **all loops arising from the nontranslation regular subgroups in this natural-module affine exact-factorization family**. They do not classify all simple Bol loops of the same orders or all even non-Bruck envelopes. The graph map is unique after fixing the conjugating element and the resulting choice of $`U`$; different choices are accounted for by the isomorphism action above.
@@ -157,10 +162,4 @@ $$Y=\{(x,y,\phi(y)):x,y\in\mathbb F_q\}=B_\phi.$$
 
 This equality also shows $`Y=V`$ exactly when $`\phi=0`$. For nonzero $`\phi`$, the construction and isomorphism results above apply. This finishes the exhaustion. $`\square`$
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-The needed C0004 Theorem 1.1 and Theorem 2.1(1)–(3) have separate scoped acceptances at the recorded source revision. Both checked arbitrary characteristic, noninvertible nonzero maps, the possible SL₂ center, the full semilinear normalizer, and both independent Burnside derivations. Both read and independently ran the pinned certificate with Python 3.12.14, reproducing binary field orbit counts 3,9,91 and the stated formula comparisons. The computations check parameter data, not loop identities or an all-loop census. These reviews do not audit source novelty, the dissertation comparison or the C0004 aggregate. **They do not cover the following exhaustion extension, which was added after this source revision.**
-
-Both checked the Sylow conjugation inside SL₂(q), the group law and alternating form in every characteristic, the isotropic dimension contradiction, regularity and the full-preimage graph conclusion. The consequent loop classification uses the construction, isomorphism and count interface separately reviewed at the recorded source revision; it does not concern other affine modules or all loops of the displayed orders. These are independent mathematical argument reviews, with no additional computation or formal verification.
+reviewers contributor 1 and contributor 2 independently accepted this exhaustion argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/508e8f23a95c6817e9ec3c1b29ff4d5836caa843). Both checked the Sylow conjugation inside SL₂(q), the group law and alternating form in every characteristic, the isotropic dimension contradiction, regularity and the full-preimage graph conclusion. The consequent loop classification uses the construction, isomorphism and count interface separately reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/8ad35e2dbed5179f70be146d73b61ae80bde5555); it does not concern other affine modules or all loops of the displayed orders. These are independent mathematical argument reviews, with no additional computation or formal verification.

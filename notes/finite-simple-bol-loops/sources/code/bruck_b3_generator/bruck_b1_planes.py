@@ -54,4 +54,3 @@ for kind in ('J','P6'):
     u,v=plane[:2]
     if all(q(coeff,embed(u,s)^embed(v,t))==0 for s in range(16) for t in range(16)):good.append(plane)
    print('ell',ell,'cross',c,'good',good)
-

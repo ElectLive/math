@@ -1,6 +1,8 @@
 # Marked sections with standard N-block bulk
 
-**Theorem with the scoped independent reviews below.** This continues [0323:C0010](../../claims/0010.md) under the hypotheses and group splitting of [the passive reduction](bruck-n-frattini-passive-reduction.md) at the recorded source revision, and its bounded-stabilizer section independently reviewed at the recorded source revision. In particular use the actual normal form
+**Mira Cult**
+
+**Theorem with the scoped independent reviews below.** This continues [0323:C0010](../../claims/0010.md) under the hypotheses and group splitting of [the passive reduction](bruck-n-frattini-passive-reduction.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/b40066d01085772606b1d1160d58c033b8ba3302), and its bounded-stabilizer section independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/3212d7209ab79153be9d2fc2eb632ac904b27805). In particular use the actual normal form
 
 ```math
 G=E\ltimes Y,\quad H=H_0\ltimes T,\quad \tau(E)=E,\quad \tau|_Y=1,
@@ -113,7 +115,7 @@ These conditions constrain the original labels but do not prove that any label s
 
 ## Independent review
 
-Independent checks an independent check, an independent check and an independent check independently accepted the full manuscript at exact source the recorded source revision, conditional on the cited group/stabilizer reductions, N-block and F20 facts, marked-image and canonical-folder inputs. All checked the marked product convention and complete collision conditions, core equality, generation and 2-power statements, full-group pointed isomorphism scope, all normal-subgroup triples, formulas (5)-(6), the arbitrary-normal-subgroup quotient argument, strict simplicity test and 5/6 mass identity. All read the exact standalone verifier and independently ran the committed source with the pinned Python 3.12 runtime; the folder and small-order reviewers specified 3.12.14. The two complements, all ten fixed-space intersections and spanning check passed. This verifies the finite controls separately from the uniform mathematical deduction. The reviews do not classify label solutions, bounded active groups or their isomorphism orbits, and do not constitute a fresh primary-source audit or formal certification.
+reviewers contributor 1, contributor 2 and contributor 3 independently accepted the full manuscript at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/2b1b53d7bd2a061b2e174c52d31a8876bf5ed142), conditional on the cited group/stabilizer reductions, N-block and F20 facts, marked-image and canonical-folder inputs. All checked the marked product convention and complete collision conditions, core equality, generation and 2-power statements, full-group pointed isomorphism scope, all normal-subgroup triples, formulas (5)-(6), the arbitrary-normal-subgroup quotient argument, strict simplicity test and 5/6 mass identity. All read the exact standalone verifier and independently ran the committed source with the pinned Python 3.12 runtime; the folder and small-order reviewers specified 3.12.14. The two complements, all ten fixed-space intersections and spanning check passed. This verifies the finite controls separately from the uniform mathematical deduction. The reviews do not classify label solutions, bounded active groups or their isomorphism orbits, and do not constitute a fresh primary-source audit or formal certification.
 
 ## Structural applicability to the two-N normal form
 
@@ -145,5 +147,4 @@ Thus the earlier proof supplies the indicated formulas after replacing its narro
 
 ## Independent review of the two-N transport
 
-At exact source the recorded source revision, Independent checks an independent check, an independent check and an independent check independently accepted the structural transport, conditional on the two-N stabilizer deduction reviewed at that source and the pinned original-section/module/canonical-folder inputs. All checked the passive complement identity, original-section collision and size conditions, core and conditional generation tests, pointed isomorphism scope, normal-subgroup triples, image/index formulas, strict simplicity and mass identities with their original hypotheses. No new computation or primary-source audit was claimed. This review does not classify labels or their isomorphism orbits.
-
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/ced6706720b08adb94f4497534b2208f5c1a3d51), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the structural transport, conditional on the two-N stabilizer deduction reviewed at that source and the pinned original-section/module/canonical-folder inputs. All checked the passive complement identity, original-section collision and size conditions, core and conditional generation tests, pointed isomorphism scope, normal-subgroup triples, image/index formulas, strict simplicity and mass identities with their original hypotheses. No new computation or primary-source audit was claimed. This review does not classify labels or their isomorphism orbits.

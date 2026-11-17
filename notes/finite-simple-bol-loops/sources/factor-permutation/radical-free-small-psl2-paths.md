@@ -1,8 +1,8 @@
 # Four exceptional prime PSL₂ path classifications
 
-Mira Cult
+**Mira Cult**
 
-**Independently reviewed continuation of [classification frontier](../../claims/0010.md).** In the faithful canonical setting G=PSL₂(p)^k×PSL₂(p)^k with inversion swapping the two blocks, every finite simple nonassociative Bol folder is a single k-edge path for p=7,11,19,29. The exhaustive endpoint list and number of loop-isomorphism classes for each k≥1 are:
+**Independently reviewed continuation of [0323:C0010](../../claims/0010.md).** In the faithful canonical setting G=PSL₂(p)^k×PSL₂(p)^k with inversion swapping the two blocks, every finite simple nonassociative Bol folder is a single k-edge path for p=7,11,19,29. The exhaustive endpoint list and number of loop-isomorphism classes for each k≥1 are:
 
 | p | Endpoints, up to reversal | Number |
 | --- | --- | --- |
@@ -11,7 +11,7 @@ Mira Cult
 | 19 | (19:9,D₂₀) | 1 |
 | 29 | (29:7,A₅) | 1 |
 
-All these paths exist, are proper and non-Bruck under the reviewed construction, and retain its exact isomorphism criterion. The dependencies are the [strip-forest theorem](radical-free-strip-forests.md), [path construction/isomorphism source](radical-free-path-factorizations.md) and the recorded source revision, and the canonical-folder, CFSG and Dickson inputs pinned in [the preceding PSL₂ classification](radical-free-psl2-path-classification.md). Here D_n denotes a dihedral group of order n. Throughout, c is the forest component count, ℓ its proper-coordinate leaf count, and R the joint leaf projection of H, with |R|=|T|^(ℓ−c). Finite subgroup containment and orbit data used below have the [asserted GAP certificate](../code/verify_psl2_small_endpoints.g); its classification-algorithm assumptions remain explicit.
+All these paths exist, are proper and non-Bruck under the reviewed construction, and retain its exact isomorphism criterion. The dependencies are the [strip-forest theorem](radical-free-strip-forests.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/6d3a97daa9cf20bbae0416295c8c2374c2cd8ede), [path construction/isomorphism source](radical-free-path-factorizations.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/1818e2c44bee176638f1212fd8b36c6a8a92e5ba) and [the source revision](https://github.com/Mira-Cult/math-wip/commit/c1be0daa47ca5f6befeb96378bc1937544acbde1), and the canonical-folder, CFSG and Dickson inputs pinned in [the preceding PSL₂ classification](radical-free-psl2-path-classification.md). Here D_n denotes a dihedral group of order n. Throughout, c is the forest component count, ℓ its proper-coordinate leaf count, and R the joint leaf projection of H, with |R|=|T|^(ℓ−c). Finite subgroup containment and orbit data used below have the [asserted GAP certificate](../code/verify_psl2_small_endpoints.g); its classification-algorithm assumptions remain explicit.
 
 ## p=7
 
@@ -79,13 +79,9 @@ For uniqueness, all A5 subgroups are fused by Aut(T): the asserted GAP 4.15.1 ce
 
 ## Finite subgroup evidence and review scope
 
-The producers read and ran the underlying asserted GAP 4.15.1 checks; the coordinator assembled and ran the canonical certificate linked above. At p=7 and p=29 it checks the two maximal exceptional T-classes and their PGL fusion. At p=11 it checks the complete subgroup-class counts at orders 11,12,55,60, the A₄/D₁₂ types, normalizers, A₄ containment in both A₅ classes, automorphism fusion, and the intersection counts giving simultaneous endpoint orbits. The program may use GAP library classifications and subgroup algorithms. It does not independently prove those algorithms or the infinite-k forest arguments. All new proofs and the canonical certificate have the independent exact-source reviews below; none classifies arbitrary envelopes containing these simple factors.
+The producers read and ran the underlying asserted GAP 4.15.1 checks; the project assembled and ran the canonical certificate linked above. At p=7 and p=29 it checks the two maximal exceptional T-classes and their PGL fusion. At p=11 it checks the complete subgroup-class counts at orders 11,12,55,60, the A₄/D₁₂ types, normalizers, A₄ containment in both A₅ classes, automorphism fusion, and the intersection counts giving simultaneous endpoint orbits. The program may use GAP library classifications and subgroup algorithms. It does not independently prove those algorithms or the infinite-k forest arguments. All new proofs and the canonical certificate have the independent exact-source reviews below; none classifies arbitrary envelopes containing these simple factors.
 
 
 ## Independent mathematical and code review
 
-
-
-## Recorded source review scope
-
-Automated source reviewers an automated checker, an automated checker and an automated checker independently accepted all four all-k proofs and the canonical endpoint certificate at exact revision the recorded source revision, conditional on the pinned canonical-folder, strict-quotient, path-isomorphism and subgroup-classification inputs. All checked Sylow independence, actual original-folder support collisions, normal subgroup containment, Scott/Goursat separation, preservation of possible p=7 graph correlations until the strict quotient step, the p=19 order-three collision, p=29 parity, and exact endpoint orbits. Each read, extracted and independently ran the exact committed GAP source with GAP 4.15.1; all assertions passed. an automated checker had inspected the Guralnick–Zieve statements in earlier work; no reviewer claimed a fresh independent proof of Dickson or GAP's subgroup algorithms. These are model mathematical/code reviews, not human or formal certification, and do not extend to arbitrary overgroups of these factors.
+reviewers `review_s5_h3`, `review_hs_full` and `review_small_order_complete` independently accepted all four all-k proofs and the canonical endpoint certificate at exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/184bc5f1b24d05d4dac1860060c6189afefda70c), conditional on the pinned canonical-folder, strict-quotient, path-isomorphism and subgroup-classification inputs. All checked Sylow independence, actual original-folder support collisions, normal subgroup containment, Scott/Goursat separation, preservation of possible p=7 graph correlations until the strict quotient step, the p=19 order-three collision, p=29 parity, and exact endpoint orbits. Each read, extracted and independently ran the exact committed GAP source with GAP 4.15.1; all assertions passed. `review_s5_h3` had inspected the Guralnick–Zieve statements in earlier work; no reviewer claimed a fresh independent proof of Dickson or GAP's subgroup algorithms. These are model mathematical/code reviews, not human or formal certification, and do not extend to arbitrary overgroups of these factors.

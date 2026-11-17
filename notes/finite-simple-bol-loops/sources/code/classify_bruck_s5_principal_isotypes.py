@@ -73,4 +73,3 @@ for j,g in enumerate(clusters):
  if a!=b:print('distinguish 7,8 probe',j,a,b)
 
 assert len(hom(clusters[6][0][1],X))==1 and len(hom(clusters[6][0][1],Y))==2
-

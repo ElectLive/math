@@ -181,4 +181,3 @@ if args.representatives:
   print('representative',label,'columns c=',Q[0],'d=',Q[1],flush=True)
  for i,cl in enumerate(clusters2):
   print('cluster',i,'extension labels',[label for label,_ in cl],flush=True)
-

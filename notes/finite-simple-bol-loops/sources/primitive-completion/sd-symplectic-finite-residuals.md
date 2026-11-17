@@ -1,7 +1,8 @@
 # Exact raw-F3 checks for finite symplectic residuals
 
-Mira Cult
-For T=PSp4(q), let n=|T|, a=|Aut(T)| and b=#{x∈Aut(T):x²=1}. The independently reviewed [raw-F3 criterion](sd-raw-involution-count.md) at its recorded source revision excludes all primitive SD_k, k≥3, under its stated folder, semiregularity and CFSG-dependent inputs whenever n≥2²⁰ and b³+3ab<n². The following exact counts and applications have the scoped review below.
+**Mira Cult**
+
+For T=PSp4(q), let n=|T|, a=|Aut(T)| and b=#{x∈Aut(T):x²=1}. The independently reviewed [raw-F3 criterion](sd-raw-involution-count.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499) excludes all primitive SD_k, k≥3, under its stated folder, semiregularity and CFSG-dependent inputs whenever n≥2²⁰ and b³+3ab<n². The following exact counts and applications have the scoped review below.
 
 ## Odd fields
 
@@ -31,6 +32,6 @@ Python 3.12.14 printed `symplectic finite residual checks passed`. This verifies
 
 No generic-class-number screen failure is interpreted as a possible loop. Together with the [classical raw screen and its refined symplectic section](sd-classical-raw-bounds.md), the [finite common-class PSp4(3), PSp4(4) certificates](sd-finite-common-classes.md), and the [PSL₂ family](sd-psl2-all-factors.md) for PSp4(2)'s derived subgroup A₆, these calculations would cover every simple PSp₂ᵣ(q), r≥2, under the stated dependencies. PSp4(2) itself is nonsimple. This is a conditional proposed symplectic-family result, not a global census. The source, the linear-algebra classification, and the action on outer cosets remain subject to independent review.
 
-## Source verification and limitations and family conclusion
+## Scoped independent review and family conclusion
 
-automated reviewers a separate automated checker accepted this manuscript and the appended refined symplectic screen in sd-classical-raw-bounds.md at its recorded source revision. The review checked the FG/Gallagher rational bounds and grid/tail coverage; odd SO5 involution counts; even square-zero rank-one/two counts; field and graph-field cosets against Burness Proposition 3.43(i)–(ii), Remark 3.44 and the proof of Proposition 3.52; and the ATLAS Sp6(2) data. Both pinned certificates passed independently with Python 3.12.14. Together with the separately reviewed small cases, these results exclude every simple symplectic socle in the stated SD_k setting, k≥3, conditional on the raw theorem, upstream folder results, prior finite common-class/PSL2 reviews and cited published inputs. No broader census or unrestricted Bol-loop classification is established.
+reviewer contributor 1 accepted this manuscript and the appended refined symplectic screen in sd-classical-raw-bounds.md at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/1228403b62d5c6abbf31272ed4cb4e300424e9d9). The review checked the FG/Gallagher rational bounds and grid/tail coverage; odd SO5 involution counts; even square-zero rank-one/two counts; field and graph-field cosets against Burness Proposition 3.43(i)–(ii), Remark 3.44 and the proof of Proposition 3.52; and the ATLAS Sp6(2) data. Both pinned certificates passed independently with Python 3.12.14. Together with the separately reviewed small cases, these results exclude every simple symplectic socle in the stated SD_k setting, k≥3, conditional on the raw theorem, upstream folder results, prior finite common-class/PSL2 reviews and cited published inputs. No broader census or unrestricted Bol-loop classification is established.

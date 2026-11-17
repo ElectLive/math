@@ -1,7 +1,8 @@
 # Candidate scalar criterion and Sz(8) application
 
-Mira Cult
-This manuscript-local criterion on [C0010](../../claims/0010.md), continuing the [general SD counting argument](sd-a5-all-factors.md) at its recorded source revision. It assumes the same upstream primitive Bol-folder and inversion results as the all-PSL₂ manuscript. No new permanent claim ID is allocated. The large-top-group estimate uses the CFSG-based theorem of Maróti. The numerical criterion is logically conditional on those folder results and on the stated finite simple group hypotheses; computation alone does not certify them. The [single-involution-class square lemma](sd3-involution-count.md) supplies the square-class hypothesis under its stated assumptions; the criterion keeps it explicit.
+**Mira Cult**
+
+This manuscript-local criterion on [C0010](../../claims/0010.md), continuing the [general SD counting argument](sd-a5-all-factors.md) at source [the source revision](https://github.com/Mira-Cult/math-wip/commit/266152034b2f190313d253c4d55df0d4f85f68c2). It assumes the same upstream primitive Bol-folder and inversion results as the all-PSL₂ manuscript. No new permanent claim ID is allocated. The large-top-group estimate uses the CFSG-based theorem of Maróti. The numerical criterion is logically conditional on those folder results and on the stated finite simple group hypotheses; computation alone does not certify them. The [single-involution-class square lemma](sd3-involution-count.md) supplies the square-class hypothesis under its stated assumptions; the criterion keeps it explicit.
 
 ## Criterion
 
@@ -24,7 +25,7 @@ If P contains A_k and k≥K, the forbidden-prime matching argument applies: a to
 
     U_j(k)=[k!/(2^j j!(k−2j−1)!)](a/n²)^j(b/n)^(k−2j−1).
 
-At k=K their sum is at most F'_K(b)/n^(K−1)=K F_{K−1}(b)/n^(K−1)<1. For k≥K, U_j(k+1)/U_j(k)=[(k+1)/(k−2j)](b/n)≤[2r/(r+2)](b/n)<1, because b≤c<n/2. Thus the surviving sum is <1 for all k≥K. The two top cases cover every primitive top image.
+At k=K their sum is at most F'_K(b)/n^(K−1)=K F_{K−1}(b)/n^(K−1)<1. For k≥K, U_j(k+1)/U_j(k)=\[(k+1)/(k−2j)\](b/n)≤\[2r/(r+2)\](b/n)<1, because b≤c<n/2. Thus the surviving sum is <1 for all k≥K. The two top cases cover every primitive top image.
 
 ## Sz(8)
 
@@ -47,6 +48,6 @@ print('passed')
 
 The source group data and square-class argument give a candidate exclusion for Sz(8)^k for all k≥3, conditional on the upstream folder/inversion results. The comparison certificate was executed with Python 3; the new proof and its source inputs have the scoped independent review below; the upstream hypotheses retain their own review scopes.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker accepted this argument at its recorded source revision, conditional on the stated folder/inversion hypotheses, the earlier fixed-identity counting lemma and the CFSG-dependent Maróti bound. The review checked the finite criterion and/or all-Suzuki inequalities as applicable, the top-coset count, forbidden-cycle argument, and directly inspected the cited Suzuki sources. The embedded Sz(8) integer certificate in the scalar-criterion manuscript passed with Python 3.12.14. This is a review of the displayed conditional argument, not an independent reproof of the external group results or a classification of all primitive Bol folders.
+reviewer contributor 1 accepted this argument at exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/d56438e1c2d95e11bda2de0f79e4546c25ac6a10), conditional on the stated folder/inversion hypotheses, the earlier fixed-identity counting lemma and the CFSG-dependent Maróti bound. The review checked the finite criterion and/or all-Suzuki inequalities as applicable, the top-coset count, forbidden-cycle argument, and directly inspected the cited Suzuki sources. The embedded Sz(8) integer certificate in the scalar-criterion manuscript passed with Python 3.12.14. This is a review of the displayed conditional argument, not an independent reproof of the external group results or a classification of all primitive Bol folders.

@@ -68,4 +68,3 @@ if sol:
  vectors=[1<<i for i in range(30)]; samples=vectors+[x^y for x,y in itertools.combinations(vectors,2)]
  img=[evalform(v)^evalform(tact(v))^evalform(v^tact(v)) for v in samples]
  print('marked d rank mod im',rank(im+img)-rank(im))
-

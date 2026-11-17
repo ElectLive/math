@@ -1,11 +1,12 @@
 # Odd simple Bol loops with unbounded derived nilpotency class
 
-Mira Cult
-For every integer c≥2, the endpoint proved here is an explicit finite simple proper odd left Bol loop whose canonical left multiplication group G has nilpotent derived subgroup G′ of class exactly c, with Z(G′)≤Z(G). This rules out any universal nilpotency-class bound even in the central-center odd branch. It is a construction theorem, not exhaustion or an isomorphism classification of all higher-class envelopes. The [reviewed class-two parameterization](odd-central-class-two-classification.md), source the recorded source revision, is the baseline; the remaining gap tested here is whether higher classes actually occur in simple folders.
+**Mira Cult**
+
+**Continuation of [0323:C0010](../../claims/0010.md), with the scoped independent reviews below.** For every integer c≥2, the endpoint proved here is an explicit finite simple proper odd left Bol loop whose canonical left multiplication group G has nilpotent derived subgroup G′ of class exactly c, with Z(G′)≤Z(G). This rules out any universal nilpotency-class bound even in the central-center odd branch. It is a construction theorem, not exhaustion or an isomorphism classification of all higher-class envelopes. The [reviewed class-two parameterization](odd-central-class-two-classification.md), source [the source revision](https://github.com/Mira-Cult/math-wip/commit/598fa119be327480c829af2a9beb709b02886bc4), is the baseline; the remaining gap tested here is whether higher classes actually occur in simple folders.
 
 Fix distinct odd primes p,q>c, let r=ord_q(p), s=ord_p(q), E=F_{p^r}, F=F_{q^s}, and choose λ∈E×, η∈F× of orders q,p respectively. The construction below has order
 
-p^{(c+1)r} q^{2rs+1}.                                (1)
+    p^{(c+1)r} q^{2rs+1}.                                (1)
 
 There are two distinct primes larger than every fixed c, so this supplies every claimed class under the stated interfaces. No literature-novelty claim is made.
 
@@ -15,13 +16,13 @@ Let L⁺ be the E-Lie algebra with basis x,y₁,…,y_c and nonzero basic bracke
 
 Let τ_P exchange the copies and fix z. Let b generate A_q=C_q and act on the first copy by
 
-x↦λx,   y_j↦λ^{−(c−j)}y_j,
+    x↦λx,   y_j↦λ^{−(c−j)}y_j,
 
 with inverse weights on the second copy. The bracket relations are preserved; z is fixed; τ_P inverts b. Every noncentral weight is nontrivial since q>c. Give x,y₁,x′,y₁′ degree one, y_j,y_j′ degree j and z degree c; this grading agrees with the lower central filtration from degree two onward.
 
 Regard L as an F_p-Lie algebra. Since c<p, the BCH/Lazard correspondence gives an exponent-p group P with this underlying set, class c and center Ez. The precise source is [d’Elbée–Müller–Ramsey–Siniora, arXiv:2310.17595v3](../foundations/references.md#lazard-bch-interface), §2.3, Facts 2.13 and 2.14, including subgroups, ideals and automorphisms. Restriction of scalars leaves the bracket chains and center unchanged. Both τ_P and A_q act as group automorphisms. Define
 
-𝔰_P=Ex ⊕ ⊕_{j=1}^{c−1}Ey_j′,    S_P=exp(𝔰_P).
+    𝔰_P=Ex ⊕ ⊕_{j=1}^{c−1}Ey_j′,    S_P=exp(𝔰_P).
 
 This subalgebra is abelian; it is A_q-invariant, disjoint from its τ-image and the center, and complementary to its τ-image modulo the center. A_q acts without nonzero fixed vectors on 𝔰_P and on L/Ez, even for every nonidentity power of b.
 
@@ -29,12 +30,12 @@ Put A_p=(E,+), identified with Z_P=Z(P), and choose an F_p-basis to write a∈A_
 
 Take the exponent-q extraspecial group Q with coordinates W⊕W⊕F_q and product
 
-(u,v,t)(u′,v′,t′)
+    (u,v,t)(u′,v′,t′)
       =(u+u′,v+v′,t+t′+½[β(u,v′)+β(v,u′)]).
 
 Let τ_Q swap u,v and fix t, while a acts by (R(a),R(a)⁻¹,1). A_q acts trivially on Q and A_p trivially on P. Set
 
-A=A_p×A_q,   G=(P×Q)⋊A,
+    A=A_p×A_q,   G=(P×Q)⋊A,
     τ=(τ_P,τ_Q) with inversion on A,
     S_Q={(u,0,0):u∈W},
     H=(S_P×S_Q)⋊{a z(a):a∈A},
@@ -43,7 +44,7 @@ where z:A→Z_P×Z_Q identifies A_p with E and b with the unit generator of Z_Q=
 
 The A-action on P×Q is faithful. Its commutator subgroup is P×Q. For P, the fixed-free action on L/Z_P gives full commutator image on P/P′ by coprime averaging; Z_P≤P′=Φ(P), so the Frattini generation argument applies. For Q, the common fixed space of A_p on Q/Z_Q is zero, and the same argument applies with Φ(Q)=Z_Q. Thus
 
-G′=P×Q,   class(G′)=c,   Z(G)=Z_P×Z_Q=Z(G′).        (2)
+    G′=P×Q,   class(G′)=c,   Z(G)=Z_P×Z_Q=Z(G′).        (2)
 
 These Frattini equalities use exponent-p and exponent-q in this construction; they are not imported into the arbitrary-exponent class-two theorem.
 
@@ -51,7 +52,7 @@ These Frattini equalities use exponent-p and exponent-q in this construction; th
 
 Put K={g∈G:τ(g)=g⁻¹}, and Λ=τ̂^G=τ̂K in G⋊⟨τ̂⟩. Oddness gives this single outside-involution class. The swaps and fixed centers give
 
-|C_P(τ)|=p^{(c+1)r},    |C_Q(τ)|=q^{2rs+1},
+    |C_P(τ)|=p^{(c+1)r},    |C_Q(τ)|=q^{2rs+1},
     |H|=|C_G(τ)|=p^{(c+1)r}q^{2rs+1},   |G|=|H|².
 
 Hence |K|=[G:H]. We prove H∩Λ²=1 by showing that no nonidentity h∈H is inverted by an outside involution. Every element of Λ² is inverted by one of its two involution factors.
@@ -68,11 +69,11 @@ Let N◁G be τ-stable, L_P=N∩P, L_Q=N∩Q, C_P=L_P∩Z_P and C_Q=L_Q∩Z_Q. W
 
 By the Lazard ideal correspondence, log L_P is an F_p-subspace and ideal. Coprime A_q averaging splits it into its central part C_P and a part V with no trivial A_q-weight; the averaging projection on L itself is exactly its projection onto Ez. It commutes with τ. Projection along V₋ injects 𝔰_P∩log L_P into V₊, because 𝔰_P and τ𝔰_P are disjoint modulo the center. Consequently
 
-|C_{L_P}(τ)|/|S_P∩L_P|≥p^{dim_Fp C_P}.              (3)
+    |C_{L_P}(τ)|/|S_P∩L_P|≥p^{dim_Fp C_P}.              (3)
 
 The analogous half-space argument in Q gives
 
-|C_{L_Q}(τ)|/|S_Q∩L_Q|≥q^{dim_Fq C_Q}.              (4)
+    |C_{L_Q}(τ)|/|S_Q∩L_Q|≥q^{dim_Fq C_Q}.              (4)
 
 Any nontrivial normal L_P or L_Q meets its respective center.
 
@@ -82,12 +83,12 @@ Project hτ(h)∈N∩(P×Q) to P. Its logarithm is BCH(s,τs) plus twice the pre
 
 The kernel of H∩N→J is (S_P∩L_P)×(S_Q∩L_Q). Thus (3)–(4) imply
 
-|C_N(τ)|/|H∩N|
+    |C_N(τ)|/|H∩N|
       ≥p^{dim C_P−dim J_p}q^{dim C_Q−dim J_q},          (5)
 
 with nonnegative exponents. If T_p=T_q=1 and N≠1, a nonzero local normal subgroup meets its center and gives strict defect. If T_q=1 and T_p≠1, some nonzero T_p element acts nontrivially on Q/Z_Q, by faithfulness. Its commutators force L_Q≠1, hence C_Q=Z_Q, whereas J_q=1. The defect is strict.
 
-If T_q≠1, then T_q=A_q. A lift acts fixed-point-freely on P/Z_P, so its commutators have full image on P/P′; the Frattini argument forces L_P=P. If T_p is proper in A_p, then dim C_P=r>dim J_p and the defect is again strict. Finally, if T_q=A_q and T_p=A_p, commutators with all of A_p give full Q/Z_Q, so Q≤N as well and N=G. All proper nontrivial τ-stable N therefore have strict defect. The reviewed criterion at the recorded source revision proves simplicity. This invocation retains its maximal-simple-quotient argument and the cited canonical inversion interfaces.
+If T_q≠1, then T_q=A_q. A lift acts fixed-point-freely on P/Z_P, so its commutators have full image on P/P′; the Frattini argument forces L_P=P. If T_p is proper in A_p, then dim C_P=r>dim J_p and the defect is again strict. Finally, if T_q=A_q and T_p=A_p, commutators with all of A_p give full Q/Z_Q, so Q≤N as well and N=G. All proper nontrivial τ-stable N therefore have strict defect. The reviewed criterion at [the source revision](https://github.com/Mira-Cult/math-wip/commit/65a3e58df517df59656ab948ac9d122208f62c4a) proves simplicity. This invocation retains its maximal-simple-quotient argument and the cited canonical inversion interfaces.
 
 ## A direct Moufang witness
 
@@ -95,19 +96,15 @@ The subgroup G₀=(Z_P×Q)⋊A suffices for a local multiplication calculation. 
 
 Its multiplication is
 
-(u,t_p,t_q)·(v,s_p,s_q)
+    (u,t_p,t_q)·(v,s_p,s_q)
       =(u+R(t_p)v, t_p+s_p, t_q+s_q−β(u,v)).            (6)
 
 Choose a∈A_p with R(a)≠1, v with (R(a)−1)v≠0, and w with β((R(a)−1)v,w)≠0. Let X=(0,a,0), Y=(v,0,0), Z=(w,0,0). The two sides (XY)(ZX) and (X(YZ))X have equal vector and A_p coordinates, but their F_q central entries are −β(R(a)v,w) and −β(v,w). They differ, proving properness directly. There is no use of CFSG or the simple Moufang classification.
 
 ## Scope and verification boundary
 
-The new proof depends on the precise Lazard source and the already reviewed full-inverted-set, faithful-folder and strict-defect interfaces. The source audit inspected arXiv:2310.17595v3, §2.3, Facts 2.13–2.14; a separate preliminary source/properness audit by an independent checker also checked them. These inspections do not certify this full construction. The exact-source independent mathematical acceptances are recorded below. No computational certificate, formal verification or literature novelty is claimed.
+The new proof depends on the precise Lazard source and the already reviewed full-inverted-set, faithful-folder and strict-defect interfaces. Root directly inspected arXiv:2310.17595v3, §2.3, Facts 2.13–2.14; a separate preliminary source/properness audit by contributor 1 also checked them. These inspections do not certify this full construction. The exact-source independent mathematical acceptances are recorded below. No computational certificate, formal verification or literature novelty is claimed.
 
 This proves the central-center nilpotent-derived branch has no universal nilpotency-class bound under the stated inputs. It leaves the classification of the higher-class data, possible noncentral centers, nonnilpotent derived groups and all remaining even branches open. The parameters above are construction inputs, not a proved complete isomorphism invariant or an exhaustion theorem.
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-All three checked the paired filiform Lie algebra, weights and field-degree handling, graded marked-inversion obstruction, transversal sizes, core-freeness, generation, arbitrary τ-stable normal-subgroup defects, central-label inclusions via ideals and averaging, all torus-image cases, and the explicit ambient-loop Moufang witness. Their acceptances retain the cited Lazard and previously reviewed folder/strict-defect interfaces. Reviewer an independent checker also directly inspected the exact Lazard source and separately checked the restricted properness calculation; the other two relied on the recorded source inspection. No reviewer used a computation or asserted formal verification, novelty, an isomorphism classification of this family, or global exhaustion.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/722ba8c289c96dfd87c98f9a5ab3dcb8b2080998), reviewers contributor 2, contributor 3 and contributor 1 independently accepted the full construction theorem. All three checked the paired filiform Lie algebra, weights and field-degree handling, graded marked-inversion obstruction, transversal sizes, core-freeness, generation, arbitrary τ-stable normal-subgroup defects, central-label inclusions via ideals and averaging, all torus-image cases, and the explicit ambient-loop Moufang witness. Their acceptances retain the cited Lazard and previously reviewed folder/strict-defect interfaces. Reviewer contributor 1 also directly inspected the exact Lazard source and separately checked the restricted properness calculation; the other two relied on the recorded source inspection. No reviewer used a computation or asserted formal verification, novelty, an isomorphism classification of this family, or global exhaustion.

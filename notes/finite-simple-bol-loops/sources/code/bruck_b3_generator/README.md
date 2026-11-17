@@ -10,4 +10,3 @@ python3 ../verify_bruck_b3_noncentral.py
 ```
 
 Compare the two JSON objects after parsing (formatting differs). `bruck_crossed_system_fast.py` constructs solutions of the generating equations; the separate verifier checks all crossed-action and factor-associativity identities and the actual orbit/collision calculation. Neither source classifies arbitrary quadratic maps, involutions or stabilizers. The proof and review status are in `../../manuscripts/bruck-b3-concrete-obstruction.md`. Keep generated data and logs outside Git.
-

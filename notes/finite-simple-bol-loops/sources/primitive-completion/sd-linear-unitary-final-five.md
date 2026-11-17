@@ -1,7 +1,8 @@
 # Five linear/unitary raw-F3 residuals
 
-Mira Cult
-This provisional work on [C0010](../../claims/0010.md) introduces no claim ID. For the reviewed [raw-F3 criterion](sd-raw-involution-count.md) at its recorded source revision, set n=|T|, a=|Aut(T)|, b=#{α∈Aut(T):α²=1}. It suffices to provide B≥b with B³+3aB<n² and n≥2²⁰. All five cases below pass; the new source deductions and application are not independently reviewed. The criterion remains conditional on its upstream folder, factor-action, cyclic semiregularity and CFSG-dependent inputs.
+**Mira Cult**
+
+This provisional work on [C0010](../../claims/0010.md) introduces no claim ID. For the reviewed [raw-F3 criterion](sd-raw-involution-count.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499), set n=|T|, a=|Aut(T)|, b=#{α∈Aut(T):α²=1}. It suffices to provide B≥b with B³+3aB<n² and n≥2²⁰. All five cases below pass; the new source deductions and application are not independently reviewed. The criterion remains conditional on its upstream folder, factor-action, cyclic semiregularity and CFSG-dependent inputs.
 
 ## Full-automorphism upper bound for four cases
 
@@ -31,6 +32,6 @@ The bundled Python 3.12.14 run passed all assertions.
 
 The code checks only arithmetic; its inputs and the group theory need independent review. Together with the [refined linear/unitary bounds](sd-linear-unitary-refined-bounds.md) and [finite classical automorphism counts](sd-finite-classical-aut-counts.md), these cases leave PSU₄(3), treated by the appended common-class argument in the finite-count manuscript, among PSL_d(q) and PSU_d(q) with d≥4. The small PSL₄(2)≅A₈ and PSU₄(2)≅PSp₄(3) cases are handled separately by the [alternating-socle argument](sd-alternating-all-factors.md) and [finite common-class certificate](sd-finite-common-classes.md), respectively. This conclusion is conditional on the cited screening and finite-count inputs, and uses that separate common-class argument for PSU₄(3). Failure of a sufficient screen is not a possible-loop assertion.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker accepted this argument at its recorded source revision, conditional on Burness Proposition 3.14, Kleidman–Liebeck group data and the previously reviewed scalar/folder screens. The review confirmed that Burness bounds the full automorphism group, checked the split/nonsplit PGL and symmetric/alternating graph-coset counts for PSL4(5), and ran the pinned Python certificate. Together with the simultaneously reviewed finite classical counts/PSU4(3) argument and the earlier small A8/PSp4(3) cases, the cited routes cover every simple linear and unitary socle in the SD_k setting, k≥3. This is not a classification of arbitrary primitive Bol multiplication groups.
+reviewer contributor 1 accepted this argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16), conditional on Burness Proposition 3.14, Kleidman–Liebeck group data and the previously reviewed scalar/folder screens. The review confirmed that Burness bounds the full automorphism group, checked the split/nonsplit PGL and symmetric/alternating graph-coset counts for PSL4(5), and ran the pinned Python certificate. Together with the simultaneously reviewed finite classical counts/PSU4(3) argument and the earlier small A8/PSp4(3) cases, the cited routes cover every simple linear and unitary socle in the SD_k setting, k≥3. This is not a classification of arbitrary primitive Bol multiplication groups.

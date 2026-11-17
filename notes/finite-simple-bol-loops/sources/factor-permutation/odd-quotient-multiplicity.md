@@ -1,8 +1,8 @@
 # Uniform multiplicity in odd canonical quotients
 
-Mira Cult
+**Mira Cult**
 
-**Proposed, awaiting independent review**, continuing [0323:C0010](../../claims/0010.md). Let $`(G,H,K,\tau)`$ be the faithful generated canonical folder of a finite simple nonassociative left Bol loop. Let $`1<N<G`$ be normal and $`\tau`$-stable, and put $`Q=G/N`$, $`\theta`$ for the induced involution, and $`U=HN/N`$. Assume $`|Q|`$ is odd. The original folder, all-conjugate transversality and normal-subloop interfaces are [C0001](../../claims/0001.md) and [C0007](../foundations/C0007.md) with scoped review. All deductions below use actual $`H,K`$, not an assumed quotient folder.
+**Independently reviewed, conditional on the pinned inputs**, continuing [0323:C0010](../../claims/0010.md). Let $`(G,H,K,\tau)`$ be the faithful generated canonical folder of a finite simple nonassociative left Bol loop. Let $`1<N<G`$ be normal and $`\tau`$-stable, and put $`Q=G/N`$, $`\theta`$ for the induced involution, and $`U=HN/N`$. Assume $`|Q|`$ is odd. The original folder, all-conjugate transversality and normal-subloop interfaces are [C0001](../../claims/0001.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45) and [C0007](../foundations/C0007.md) with scoped review at [the source revision](https://github.com/Mira-Cult/math-wip/commit/932ead5db5f39045e2085caa6b062f6b981b2813). All deductions below use actual $`H,K`$, not an assumed quotient folder.
 
 Define
 
@@ -65,3 +65,34 @@ Projection to the first $`P`$ maps $`I`$ bijectively onto $`P`$ and $`U`$ onto $
 
 The maximal subgroup $`U`$ has core the second $`C_7`$-axis, which $`\theta`$ swaps with the first. Normal subgroups inside $`C_7^2`$ are 1, the two eigenspaces and $`C_7^2`$; a normal subgroup with nontrivial $`C_3`$-image contains $`C_7^2`$, since its commutator with that group is all of it. Thus the only proper nontrivial $`\theta`$-stable normal subgroup is $`C_7^2`$. In the corresponding $`C_3`$ quotient, the image of $`U`$ is all of $`C_3`$, $`\theta`$ acts by inversion, and $`r=3`$. Hence this example satisfies the uniformity, generation and invariant-normal-cut conditions above. It is top-only group data, not a Bol-loop construction or evidence of a compatible socle and stabilizer.
 
+## Independent mathematical review
+
+reviewers contributor 1, contributor 2, contributor 3, and contributor 4 independently accepted the complete manuscript at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/508ed66f7323592d4ac8b74efc943b1e3072211a). Their acceptance is conditional on the pinned canonical-folder and original normal-subloop interfaces and the explicitly cited Feit–Thompson theorem. They checked actual marked-fiber uniformity, every conjugate stabilizer coset, the U=Q generation case, the affine complement obstruction including modular actions, the Fitting/H¹ complement argument, the primitive maximal-core consequence and the order-147 top-only control. They did not independently audit the full odd-order theorem or reprove all upstream inputs; no new computation is claimed. These are model mathematical reviews, not human/formal certification or GitHub approval.
+
+## Paired affine sections and finite descent
+
+**Independently reviewed, conditional on the pinned inputs.** The following extends only the necessary odd-quotient restrictions above and relies on their exact reviewed source [the source revision](https://github.com/Mira-Cult/math-wip/commit/508ed66f7323592d4ac8b74efc943b1e3072211a). It asserts neither a folder construction nor a classification of the possible intervening kernels.
+
+Let `(Q,θ,U)` be any nontrivial θ-stable quotient of the original data, with `U<Q`. Choose a maximal subgroup `A≥U`, write `M=core_Q(A)` and `M*=θ(M)`, and put
+
+`P=Q/(M∩M*)`, `L1=Q/M`, `L2=Q/M*`.
+
+The reviewed maximal-core theorem gives `M≠M*`. Both `L_i` are odd primitive solvable groups, and each has a unique minimal normal subgroup `V_i`, elementary abelian and regular in its primitive action. The involution exchanges the two quotients, so `|V1|=|V2|=v=p^d`.
+
+The natural map `P→L1×L2` is injective and subdirect. The kernel of its **first** projection is `M/(M∩M*)`, whose image in `L2` is a nontrivial normal subgroup and therefore contains `V2`. Similarly, the second projection kernel contains `V1` in the first coordinate. Consequently `P` contains a normal θ-stable subgroup `W=V1×V2` with independent coordinate supports, and θ exchanges its two factors. Write `B=P/W`. It embeds subdirectly in `(L1/V1)×(L2/V2)`. It need not be a common quotient of the two affine point stabilizers, nor is `B` necessarily `Q/(MM*)`.
+
+Let `U_P` and `U_B` denote the images of `U` in `P` and `B`. Since `U≤A`, its first primitive projection fixes the chosen point, and hence `U_P∩W≤V2`. Write `|U_P∩W|=v/p^e`, with `e≥0`. Denoting by `I_X` the inverted set of the induced involution on an odd quotient `X`, one has
+
+`|I_P|=v|I_B|`, and `[P:U_P]=v p^e[B:U_B]`.  (3)
+
+For the first equality, each outside involution of `B` lifts to an outside involution of the odd-kernel extension, and its action exchanges `V1,V2`. Its negative eigenspace on `W` has order `v`, giving exactly `v` involutory lifts. The second equality follows from the displayed intersection. The reviewed original-folder uniformity theorem applies separately to `P` and, when nontrivial, to `B`, via their full preimages in `G`. It follows that
+
+`p^e[B:U_B]` divides `|I_B|`, and `|I_B|/(p^e[B:U_B])≥3`.  (4)
+
+Here `B` is necessarily nontrivial: if `B=1`, (3) would give `|I_P|/[P:U_P]=1/p^e`, contradicting the reviewed multiplicity lower bound for `P`. In particular, `p∤|I_B|` forces `e=0`, so `U_P` contains all of `V2`. These statements retain the actual stabilizer image; no assumption `U=Q` is made.
+
+If `U_B<B`, repeat the construction on `(B,θ,U_B)`. Otherwise stop. The procedure is finite: at each paired section the quotient order strictly decreases, since `W` is nontrivial. Each intermediate quotient is nontrivial and inherits the original uniform-multiplicity statement by taking its full preimage in `G`. At a section, the exact multiplicity relation is `r_P=r_B/p^e`. The initial quotient `Q→P` can have a nontrivial θ-stable kernel `M∩M*`; no equality between `r_Q` and `r_P` follows. Thus this is a finite necessary descent through paired affine **sections**, interspersed with possible nontrivial quotient kernels, not a filtration in which every factor has the displayed form. The terminal stabilizer image is the whole terminal quotient, whose multiplicity remains at least three. No converse, direct global bound, or compatible Bol folder is asserted.
+
+### Review of the paired-section continuation
+
+reviewers contributor 1, contributor 2, contributor 3, and contributor 4 independently accepted the complete paired-affine-section and finite-descent addition at [the source revision](https://github.com/Mira-Cult/math-wip/commit/5a5f6193f758463d419fe5bddb00920985487f20), conditional on the reviewed odd-quotient and odd-solvability inputs. They checked the projection kernels, independent affine factors, subdirect residual quotient, nonsplit involution-lift count, stabilizer intersection, multiplicity relation, nontrivial residual and finite descent with possible intervening kernels. No construction, classification, fresh primary-source audit, upstream reproof or computation is certified by this review; it is model mathematical review, not formal GitHub approval.

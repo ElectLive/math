@@ -1,7 +1,8 @@
 # Exclusion for small Ree socles in all SD_k
 
-Mira Cult
-This manuscript-local argument on [C0010](../../claims/0010.md) is conditional on the primitive left-Bol folder and inversion results and the [SD counting and semiregularity arguments](sd-a5-all-factors.md) at its recorded source revision. Under those upstream hypotheses, the conclusion is that no primitive SD_k left multiplication group has socle T^k with T=²G₂(q), q=3^f≥27, f odd, and k≥3. It makes no assertion that all primitive Bol groups have diagonal type. The exceptional q=3 is not a nonabelian simple Ree group in this family and is not treated here; its derived group PSL₂(8) is covered separately.
+**Mira Cult**
+
+This manuscript-local argument on [C0010](../../claims/0010.md) is conditional on the primitive left-Bol folder and inversion results and the [SD counting and semiregularity arguments](sd-a5-all-factors.md) at source [the source revision](https://github.com/Mira-Cult/math-wip/commit/266152034b2f190313d253c4d55df0d4f85f68c2). Under those upstream hypotheses, the conclusion is that no primitive SD_k left multiplication group has socle T^k with T=²G₂(q), q=3^f≥27, f odd, and k≥3. It makes no assertion that all primitive Bol groups have diagonal type. The exceptional q=3 is not a nonabelian simple Ree group in this family and is not treated here; its derived group PSL₂(8) is covered separately.
 
 ## Group data and square classes
 
@@ -51,4 +52,4 @@ Using the factor-action injection and the general count truncated at one transpo
 
 For k≥3, each summand decreases with k: the successive ratios are ((k+1)/k)x and ((k+1)/(k−2))x, each <1 since x<1/1000. At k=3 the sum is 3x²+3y<1. This contradiction covers every k≥3.
 
-Independent automated reviewers a separate automated checker accepted this argument at its recorded source revision, conditional on the stated prior folder, inversion, counting and semiregularity results and the CFSG-dependent Maróti bound. The reviewer inspected the cited primary group data, the square-class deduction, all inequalities and both top-group cases. This does not reprove the source group facts or upstream folder machinery.
+Independent reviewer contributor 1 accepted this argument at exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/7b1c9e8786ceb5e7d8e6a6709adee1aefe736efd), conditional on the stated prior folder, inversion, counting and semiregularity results and the CFSG-dependent Maróti bound. The reviewer inspected the cited primary group data, the square-class deduction, all inequalities and both top-group cases. This does not reprove the source group facts or upstream folder machinery.

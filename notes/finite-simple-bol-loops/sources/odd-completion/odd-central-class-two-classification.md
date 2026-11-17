@@ -1,13 +1,14 @@
 # Odd Bol loops with central class-two derived Sylow factors
 
-Mira Cult
-The precise endpoint is construction, exhaustion and an isomorphism criterion for every finite simple nonassociative odd left Bol loop Q whose canonical left multiplication group G has nilpotent derived subgroup D=G′, and whose nontrivial Sylow factors P_i have exponent p_i, class at most two and Z(P_i)≤Z(G). The primes p_i are distinct and odd. The baseline is the [extraspecial-derived classification](odd-extraspecial-classification.md); the new gap is arbitrary elementary center rank under the stated class and centrality hypotheses. No assertion is made about noncentral Sylow centers, higher class or exponent, nonnilpotent D, or even loops.
+**Mira Cult**
+
+**Continuation of [0323:C0010](../../claims/0010.md), with scoped reviews of the exponent-p case and the exponent-free continuation below.** The precise endpoint is construction, exhaustion and an isomorphism criterion for every finite simple nonassociative odd left Bol loop Q whose canonical left multiplication group G has nilpotent derived subgroup D=G′, and whose nontrivial Sylow factors P_i have exponent p_i, class at most two and Z(P_i)≤Z(G). The primes p_i are distinct and odd. The baseline is the [extraspecial-derived classification](odd-extraspecial-classification.md), independently accepted at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dce010e03e56d50af4fbfbb4aba69806228ec518); the new gap is arbitrary elementary center rank under the stated class and centrality hypotheses. No assertion is made about noncentral Sylow centers, higher class or exponent, nonnilpotent D, or even loops.
 
 The proposed result below gives tensor and linear-operator parameters, a finite central-subspace closure test for simplicity, and an explicit linear equivalence. Unlike the rank-one case, it does not give a closed character/partition normal form for those tensor orbits. Its quantifiers and completion criterion concern this structural branch only.
 
 ## Inputs and notation
 
-Use the canonical odd folder (G,H,K,τ) and the reviewed inputs from [the derived-envelope analysis](odd-folder-radicals.md#derived-envelope-constraints-on-the-fixed-stabilizer), source the recorded source revision: G=HD, τ induces inversion on A=G/D, C_G(τ)≤D, |H|=|C_G(τ)|, and K is the full τ-inverted set. In G⋊⟨τ̂⟩ all outside involutions form Λ=τ̂K; Λ²=K² is G-conjugacy invariant and meets every conjugate of H only in 1. The strict-defect/equality criterion is the version, with its maximal-simple-quotient qualification. The isotope input is the principal-isotope interface. The earlier [necessity theorem](odd-extraspecial-classification.md#splitting-and-simultaneous-local-alignment) at the recorded source revision supplies an elementary complement lemma whose hypotheses do not require a rank-one center. Schur–Zassenhaus is the source version recorded in REFERENCES.md (Craven 2012, §2.1, Theorem 2.1).
+Use the canonical odd folder (G,H,K,τ) and the reviewed inputs from [the derived-envelope analysis](odd-folder-radicals.md#derived-envelope-constraints-on-the-fixed-stabilizer), source [the source revision](https://github.com/Mira-Cult/math-wip/commit/e896039d004ff3882621aca115b1a39cc8fed207): G=HD, τ induces inversion on A=G/D, C_G(τ)≤D, |H|=|C_G(τ)|, and K is the full τ-inverted set. In G⋊⟨τ̂⟩ all outside involutions form Λ=τ̂K; Λ²=K² is G-conjugacy invariant and meets every conjugate of H only in 1. The strict-defect/equality criterion is the version reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/65a3e58df517df59656ab948ac9d122208f62c4a), with its maximal-simple-quotient qualification. The isotope input is the principal-isotope interface reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ea836a5f328d6bc52913aac8fd1841a87072f5f8). The earlier [necessity theorem](odd-extraspecial-classification.md#splitting-and-simultaneous-local-alignment) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/7941d518a3142819b44a75b089c1386b206e87f1) supplies an elementary complement lemma whose hypotheses do not require a rank-one center. Schur–Zassenhaus is the source version recorded in REFERENCES.md (Craven 2012, §2.1, Theorem 2.1).
 
 Put Z_i=Z(P_i), U_i=P_i/Z_i, S_i=H∩P_i and W_i=S_iZ_i/Z_i. Each Z_i is elementary abelian. It is fixed pointwise by τ: otherwise a nonzero negative central line is a proper τ-stable normal subgroup N with |C_N(τ)|=|H∩N|=1, contradicting strict defect. Core-freeness gives H∩Z_i=1. The commutator induces a Z_i-valued alternating form Ω_i on U_i, with zero radical by definition of the center. Since [S_i,S_i]≤H∩Z_i, S_i is elementary abelian and W_i is isotropic. It is A-invariant because G=HD. Write B_i=A_{p_i′}.
 
@@ -19,7 +20,7 @@ The scalar-center proof of shadow avoidance cannot simply be invoked here: a non
 
 The class-two exponent-p_i BCH model is a vector space U_i⊕Z_i with group law adding half the commutator. Averaging a linear section over the coprime group B₀⋊⟨τ̂⟩ makes it equivariant. The conjugated S_i is then the graph of a linear B₀-map W_i→Z_i. Because W_i^{B_i}=0 and Z_i is trivial, this map is zero. Any nonzero w∈W_i∩(U_i)₋ would therefore lift to an actual element of this conjugate of H that is inverted by τ. It would belong to H^g∩K, a contradiction. The collision is in the original P_i and folder, not an assumed quotient folder. Inner conjugation does not change W_i, so
 
-W_i∩(U_i)₋=0.                                      (1)
+    W_i∩(U_i)₋=0.                                      (1)
 
 The space W_i∩τ(W_i) is A- and τ-stable. By (1) τ acts identically there; since τ inverts A, the odd-order A-action there is trivial. It is therefore zero because U_i^{B_i}=0.
 
@@ -27,11 +28,11 @@ For completeness, the central-character bound of the pinned necessity theorem wo
 
 Set a_i=log_{p_i}|A_{p_i}|, z_i=dim Z_i, w_i=dim W_i and u_i^+=dim(U_i)₊. The fixed-element and stabilizer order comparison gives
 
-a_i+w_i=z_i+u_i^+.
+    a_i+w_i=z_i+u_i^+.
 
 Projection along (U_i)₋ in (1) gives w_i≤u_i^+, hence a_i≥z_i. Equality follows from χ-injectivity. The nontrivial B_i weights pair with their distinct inverses under τ, so u_i^+=dim U_i/2 even when the own-prime action is not semisimple. Consequently
 
-A_{p_i}≅Z_i,   U_i=W_i⊕τ(W_i),   w_i=dim U_i/2.      (2)
+    A_{p_i}≅Z_i,   U_i=W_i⊕τ(W_i),   w_i=dim U_i/2.      (2)
 
 These statements hold for the original shadows. For the original H, an element of H∩C_G(τ) lies in H∩D; each shadow is in W_i∩τ(W_i)=0 and each remaining central coordinate is in H∩Z_i=1. Thus H∩C_G(τ)=1. The order equalities give |H|=|Q| and G=C_G(τ)H. As before H acts regularly on Λ, and the pinned principal-isotope interface gives the G-loop property. Every prime of A occurs in D, since |H|=|C_G(τ)| and C_G(τ)≤D.
 
@@ -39,13 +40,13 @@ These statements hold for the original shadows. For the original H, an element o
 
 The elementary complement lemma applies componentwise to U_i and U_i/W_i. The fiber-product and actual-folder alignment proof in the reviewed [global splitting](odd-extraspecial-classification.md#global-splitting-and-preservation-of-the-original-loop) now applies without a rank-one condition: choose an inverted A-complement in G/Z(D), align H modulo Z(D), and replace the aligning conjugation by one in C_G(τ) using G=C_G(τ)H. Hence the original loop is preserved up to folder isomorphism. If E is the preimage of that A-complement, E∩H maps isomorphically onto A and splits the central extension. The map c↦τ(c)c is injective on E∩H and, by (2), has the same order as Z(D). Halving this central character gives an inverted complement identified with A=∏_iZ_i and
 
-H=(∏_iS_i)⋊{a z(a):a∈A},                            (3)
+    H=(∏_iS_i)⋊{a z(a):a∈A},                            (3)
 
 where z:A→Z(D) is the fixed coordinate identification.
 
 Set β_i(x,y)=Ω_i(x,τy) on W_i. It is an alternating Z_i-valued bilinear map with zero radical. Coordinates based on the actual S_i and τ(S_i) have no central shear, since the complement normalizes both. Thus
 
-P_i=W_i⊕W_i⊕Z_i,
+    P_i=W_i⊕W_i⊕Z_i,
     Ω_i((x,y),(x′,y′))=β_i(x,y′)+β_i(y,x′),
     (v,z)(v′,z′)=(v+v′,z+z′+½Ω_i(v,v′)),
     τ(x,y,z)=(y,x,z),
@@ -58,7 +59,7 @@ Conversely the precise input data are: a finite set of at least two distinct odd
 
 The full inverted set K above a∈A has coordinates (x,−ρ_i(a)⁻¹x,0). In a product of two such elements lying in H, the second coordinate forces x′=−ρ_i(b)x and the central coordinate becomes
 
-½[β_i(x,ρ_i(a)⁻¹x)+β_i(x,ρ_i(b)x)]=0.
+    ½[β_i(x,ρ_i(a)⁻¹x)+β_i(x,ρ_i(b)x)]=0.
 
 Self-adjointness and alternation imply both vector-valued terms vanish in odd characteristic. The central labels z(ab) in H then force ab=1, and the first coordinate vanishes too. Therefore H∩K²=1. The full outside-involution class makes K² conjugacy invariant, and |K|=[G:H]=|A|∏|W_i|; the inverse- and sandwich-closed set K gives a Bol folder.
 
@@ -66,7 +67,7 @@ Coprime averaging gives [U_i,B_i]=U_i. Since Φ(P_i)=P_i′=Z_i, commutators wit
 
 Right-H coset coordinates (u_i,t_i)∈W_i×Z_i have product
 
-(u,t)·(v,s)=(u_i+ρ_i(t)v_i, t_i+s_i−β_i(u_i,v_i))_i. (5)
+    (u,t)·(v,s)=(u_i+ρ_i(t)v_i, t_i+s_i−β_i(u_i,v_i))_i. (5)
 
 The two half-commutator terms in the reviewed operator coordinate calculation cancel exactly as vectors in Z_i, so its derivation applies to (4). This can also be checked directly by multiplying the section (−ρ_i(−t)u_i,u_i,0) over −t and then removing the torus and first-vector coordinates on the right.
 
@@ -74,20 +75,20 @@ The two half-commutator terms in the reviewed operator coordinate calculation ca
 
 Let N◁G be τ-stable, with L=N∩D=∏L_i. Put C_i=L_i∩Z_i, V_i=L_iZ_i/Z_i≤U_i and T=π_A(N). Each V_i is A- and τ-stable and
 
-Ω_i(V_i,U_i)⊆C_i.                                  (6)
+    Ω_i(V_i,U_i)⊆C_i.                                  (6)
 
 The subgroup L_i/C_i is the graph of a linear map V_i→Z_i/C_i: its commutator is zero modulo C_i by (6). This map is B_i-equivariant. Since V_i^{B_i}=0 and Z_i/C_i is trivial, the map is zero. Hence L_i consists exactly of all (v,c) with v∈V_i,c∈C_i.
 
 For n=d a∈N, normality under the pure complement A makes the vector of d fixed modulo V_i under B_i. Exactness of coprime invariants gives (U_i/V_i)^{B_i}=0, so that vector lies in V_i. Multiplication by an element of L reduces n to a z. Its product with its τ-image is z²∈∏C_i; oddness gives z∈∏C_i, so a∈N. Therefore
 
-N=(∏_i(V_i×C_i))⋊T,
+    N=(∏_i(V_i×C_i))⋊T,
     (ρ_i(t)⊕ρ_i(t)⁻¹−1)U_i⊆V_i for all t∈T.            (7)
 
 Conversely any A,τ-stable V_i, subspaces C_i≤Z_i and subgroup T≤A satisfying (6)–(7) give a τ-stable normal subgroup. In checking conjugates of a torus element by u∈U_i, the BCH central correction is a scalar multiple of Ω_i(u,(t−1)u). This lies in C_i because (t−1)u∈V_i and (6) holds; the vector condition alone is not being substituted for the group calculation.
 
 Write T_i=T∩A_i≤Z_i, and d_i^+=dim(V_i)₊, w_i′=dim(V_i∩W_i). The actual H-intersection has torus image T∩∏C_i and kernel ∏(V_i∩W_i). Since fixed elements of N have zero odd A-coordinate,
 
-|C_N(τ)|/|H∩N|
+    |C_N(τ)|/|H∩N|
       = ∏_i p_i^{dim C_i+d_i^+−w_i′−dim(T_i∩C_i)}.      (8)
 
 Each exponent is nonnegative: V_i∩W_i injects into (V_i)₊ by projection, and dim(T_i∩C_i)≤dim C_i. Equality holds precisely when all exponents are zero. The pinned criterion gives simplicity iff every proper nontrivial tuple has strict defect.
@@ -96,12 +97,12 @@ Each exponent is nonnegative: V_i∩W_i injects into (V_i)₊ by projection, and
 
 The normal-subgroup test reduces further and does not require enumeration of V_i or T. For a tuple of subspaces C_i≤Z_i, identify C=∏C_i≤A and put
 
-X_i(C)=Σ_{c∈C}(ρ_i(c)−1)W_i,
+    X_i(C)=Σ_{c∈C}(ρ_i(c)−1)W_i,
     F(C)_i=C_i+span_Fpi{β_i(x,w):x∈X_i(C), w∈W_i}.       (9)
 
 Call C closed if F(C)=C. The exact simplicity criterion is
 
-the only closed C are 0 and A.                      (10)
+    the only closed C are 0 and A.                      (10)
 
 Indeed if C is a nonzero proper closed tuple, take V_i=X_i(C)⊕τ(X_i(C)) and T=C. Commutativity makes X_i(C) A-invariant; it is stable under inverse operators too. Closure is exactly the central condition (6) for these V_i, and (7) holds by definition. The corresponding N_C is nontrivial and proper because its A-image is C. The swap has fixed dimension dim X_i(C), its W_i-intersection has that same dimension, and T_i=C_i. Thus every exponent in (8) is zero, giving nonsimplicity.
 
@@ -115,7 +116,7 @@ For every i, W_i≠0 and W_i^{B_i}=0 guarantee a nontrivial cross-prime action �
 
 A loop isomorphism preserves D, its distinct-prime Sylow factors, centers, S_i, and the unique inversion automorphism. Faithfulness gives Z(G)=Z(D). As in the scalar-center proof, the complement in H is intrinsically {h∈H:τ(h)h∈Z(G)}: complementary W_i and τW_i components vanish precisely for a pure twisted torus element. The central character identifies its action on A with its action on Z(D). Thus two input data give isomorphic loops iff the prime sets agree and there are linear bijections T_i:W_i→W_i′ and E_i:Z_i→Z_i′, with E=∏E_i also acting on A, such that
 
-E_i β_i(x,y)=β_i′(T_i x,T_i y),
+    E_i β_i(x,y)=β_i′(T_i x,T_i y),
     T_i ρ_i(a)=ρ_i′(E(a)) T_i  for every a∈A.             (11)
 
 Necessity follows from the intrinsic complement and commutators. Conversely (x,y,z)↦(T_i x,T_i y,E_i z), a↦E(a), defines a BCH group isomorphism preserving τ,H,K, so it gives a loop isomorphism. This is a finite explicit linear equivalence test at fixed dimensions. No classification of these tensor orbits by a short discrete list, efficiency bound, or universal bound on dimensions is asserted.
@@ -128,11 +129,15 @@ Take E=F₂₇, ζ∈E× of order 13 and η=3∈F₁₃× of order 3. Set Z₃=A
 
 For any central subspaces C₃,C₁₃, a nonzero first coordinate in C₃ forces the first central axis of C₁₃ into F(C); a nonzero second coordinate forces its second axis. A nonzero first coordinate in C₁₃ forces the second central axis of C₃, and a nonzero second coordinate forces its first axis. A nontrivial scalar minus one is invertible on the targeted plane, whose pairing spans exactly that output axis. These four implications form the cycle
 
-3₁ → 13₁ → 3₂ → 13₂ → 3₁.
+    3₁ → 13₁ → 3₂ → 13₂ → 3₁.
 
 Any nonzero central-subspace tuple, including one with only diagonal lines, has a nonzero coordinate and therefore propagates all four axes. Thus the only closed tuples are 0 and A. Criterion (10) makes the resulting loop simple; the direct witness proves it proper. Its order is 3¹⁴·13⁶, and its derived Sylow centers each have rank two, so it lies outside the extraspecial-derived branch. These conclusions depend on the preceding exponent-p theorem, with the scoped reviews recorded below.
 
 The standalone [central-subspace certificate](../code/verify_odd_vector_center_closure.py) enumerates the six subspaces of F₃² and sixteen subspaces of F₁₃² and applies these exact axis rules to all 96 pairs. Root read it before running bundled Python 3.12.14 with assertions enabled. Only zero/full were fixed, and every nonzero seed reached the full tuple in at most three iterations. The script implements neither finite fields nor loop multiplication, and does not prove the folder, normal-form or simplicity theorem. The certificate has the scoped independent proof/code review recorded below.
+
+## Independent review of the exponent-p case
+
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/15ecc63d113f7362e625c2b7d5c3d97a8d6ec6fd), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the complete exponent-p parameterization. All three checked the coprime BCH alignment and original-folder collision, central-character equality, global splitting, normal-subgroup graphs and lifts, BCH central correction, both closure-criterion directions with C_i⊆T_i, properness, intrinsic-complement equivalence, and the rank-two-center cycle. Their acceptances retain the pinned folder, defect, complement and isotope interfaces. They explicitly distinguish this finite tensor/operator equivalence test from a closed list of tensor orbits. Reviewer contributor 3 also read and accepted the certificate and independently ran its pinned source with bundled Python 3.12 and assertions enabled, reproducing all 96 tuples, only zero/full fixed, and the three-iteration bound. The other two reviewers did not audit or run that optional certificate. No formal verification or novelty audit is asserted.
 
 ## Arbitrary odd exponent: extended endpoint
 
@@ -142,7 +147,7 @@ The standalone [central-subspace certificate](../code/verify_odd_vector_center_c
 
 A finite odd class-two group P has a canonical abelian additive group L with addition
 
-x+y=xy[x,y]⁻¹ᐟ²,
+    x+y=xy[x,y]⁻¹ᐟ²,
 
 using the convention [x,y]=x⁻¹y⁻¹xy. Unique square roots exist in the odd central commutator subgroup. The class-two commutator identities show this addition is commutative and associative, that the commutator is biadditive, and that the original product is x+y+½[x,y]. The underlying p-primary group L need not have exponent p. Automorphisms preserve these operations. Conversely a finite abelian p-group with an alternating biadditive central bracket and zero triple brackets gives the group by that product. Subgroups correspond to additive subgroups closed under the bracket: in one direction the commutator and its unique odd-order half lie in the subgroup, and in the other the displayed product stays in it. This supplies the BCH operations used here without assuming a vector-space structure.
 
@@ -152,7 +157,7 @@ The proof U^B=0 still works. Coprime averaging is an idempotent endomorphism of 
 
 Choose the actual B⋊⟨τ̂⟩ complement in G/D_{p′} and temporarily align the image of H by P-conjugacy exactly as in the exponent-p proof. On its action on the BCH group L, coprime averaging gives the stronger statement
 
-L=C_L(B)⊕[L,B]=Z⊕[L,B].                            (12)
+    L=C_L(B)⊕[L,B]=Z⊕[L,B].                            (12)
 
 Indeed fixed points are exact for a coprime action on finite abelian p-groups; Z is fixed and U^B=0, so C_L(B)=Z. The additive complement [L,B] maps isomorphically onto U and is τ-stable because τ normalizes B. Thus the central additive extension splits equivariantly here; no general splitting theorem for abelian p-group extensions is assumed. The aligned S is the graph of a B-homomorphism W→Z. Since W^B=0, averaging gives W=[W,B], and such a homomorphism is zero. Therefore W∩U₋=0 by the same actual H^g∩K collision. The shadow is unchanged by inner conjugacy. The A,τ-stable subgroup W∩τW has no negative part, so τ is the identity there; τ inverts odd A, forcing its action trivial, and U^B=0 then gives W∩τW=0.
 
@@ -162,11 +167,11 @@ The elementary complement lemma in the pinned necessity theorem applies to a fin
 
 Fixed-point lifting and the stabilizer comparison now give the cardinality equation
 
-|A_p| |W|=|Z| |U₊|.
+    |A_p| |W|=|Z| |U₊|.
 
 Projection W→U₊ is injective since W∩U₋=0. It follows that |A_p|=|Z| and |W|=|U₊|, and χ identifies A_p with Z as finite abelian groups. Furthermore |U₊|=|U₋|. Each p-adic layer p^rU/p^{r+1}U has no B-fixed vector, by exactness of coprime invariants. Over a splitting field its nontrivial B-weights are paired with their distinct inverses by τ, giving equal plus/minus dimensions. Since 2 is invertible, the τ-eigenspace idempotents commute with the p-adic filtration, so these layer counts multiply to equality of |U₊| and |U₋|. Together with W∩τW=0, this proves
 
-U=W⊕τW,    |W|²=|U|,    A_p≅Z(P).                 (13)
+    U=W⊕τW,    |W|²=|U|,    A_p≅Z(P).                 (13)
 
 The original stabilizer again has H∩C_G(τ)=1: its shadow in each W∩U₊ is zero, and it avoids the center. Counts give |H|²=|G| and G=C_G(τ)H. The componentwise complement and actual-folder alignment argument therefore applies, and the central character splits G and identifies A with Z(D) exactly as before. Actual S and τS remove all central shears, producing (3)–(4) over finite abelian p-groups. In the split coordinates, quotienting by the subgroup generated by the values of β shows, as before, that D=G′ requires those values to generate all Z. This proves necessity of the stated exponent-free data.
 
@@ -180,7 +185,7 @@ For a τ-stable N◁G, define the additive subgroups V_i,C_i and T as above. A s
 
 The defect formula becomes
 
-|C_N(τ)|/|H∩N|
+    |C_N(τ)|/|H∩N|
       = ∏_i (|C_i|/|T_i∩C_i|)
              (|(V_i)₊|/|V_i∩W_i|).                    (14)
 
@@ -190,10 +195,6 @@ Finally the intrinsic complement {h∈H:τ(h)h∈Z(G)} and its central-character
 
 These arguments give an exponent-free parameterization of the central class-two derived-Sylow branch, with the scoped independent reviews below. They introduce no new computation. The reviewed exponent-p example and its finite certificate do not verify the new exponent-free claims. Noncentral Sylow centers, higher nilpotency class and nonnilpotent derived groups remain outside the result.
 
-## Publication and verification scope
+## Independent review of the arbitrary-exponent continuation
 
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-All three checked the coprime BCH alignment and original-folder collision, central-character equality, global splitting, normal-subgroup graphs and lifts, BCH central correction, both closure-criterion directions with C_i⊆T_i, properness, intrinsic-complement equivalence, and the rank-two-center cycle. Their acceptances retain the pinned folder, defect, complement and isotope interfaces. They explicitly distinguish this finite tensor/operator equivalence test from a closed list of tensor orbits. Reviewer an independent checker also read and accepted the certificate and independently ran its pinned source with bundled Python 3.12 and assertions enabled, reproducing all 96 tuples, only zero/full fixed, and the three-iteration bound. The other two reviewers did not audit or run that optional certificate. No formal verification or novelty audit is asserted.
-
-All checked odd BCH and subgroup correspondence, coprime additive splitting without a general abelian-extension splitting assumption, the central-character and p-adic weight arguments, original-folder alignment, generation without Φ(P)=Z, normal-subgroup graphs and lifts, the order defect formula, closure and order-p seeds, and the finite abelian-bimap equivalence. The acceptances retain the pinned earlier interfaces and concern only class-two derived Sylow factors with centers central in G. No new computation, formal verification or literature-novelty audit was performed; a closed normal form for all bimap orbits is not claimed.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/598fa119be327480c829af2a9beb709b02886bc4), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the complete arbitrary-exponent continuation. All checked odd BCH and subgroup correspondence, coprime additive splitting without a general abelian-extension splitting assumption, the central-character and p-adic weight arguments, original-folder alignment, generation without Φ(P)=Z, normal-subgroup graphs and lifts, the order defect formula, closure and order-p seeds, and the finite abelian-bimap equivalence. The acceptances retain the pinned earlier interfaces and concern only class-two derived Sylow factors with centers central in G. No new computation, formal verification or literature-novelty audit was performed; a closed normal form for all bimap orbits is not claimed.

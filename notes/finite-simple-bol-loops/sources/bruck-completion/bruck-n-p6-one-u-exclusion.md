@@ -1,12 +1,14 @@
 # Excluding the P₆ plus one U N-Frattini shadow
 
+**Mira Cult**
+
 **Theorem with scoped independent reviews, continuing [0323:C0010](../../claims/0010.md).** In the faithful simple nonassociative Bruck-envelope setting of [the marked-rank theorem](bruck-n-frattini-marked-rank.md), suppose $`G/P\cong S_5`$, $`P`$ has class at most two and exponent at most four, $`\Phi(P)=Z\cong N`$, and
 
 ```math
 P/Z\cong P_6\oplus U.
 ```
 
-Conditional on the central-socle and invariant-functional deductions in [the independently reviewed obstruction](bruck-n-central-socle-obstruction.md) at the recorded source revision, on the reviewed marked-rank and quadratic-component inputs there, and on the finite identity checked below, no such envelope exists. The theorem and certificate have the scoped exact-source reviews below. This excludes one shadow, not the remaining $`N`$-Frattini family.
+Conditional on the central-socle and invariant-functional deductions in [the independently reviewed obstruction](bruck-n-central-socle-obstruction.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/bf11794257554b943a1b26ca15acd861f9faaa7f), on the reviewed marked-rank and quadratic-component inputs there, and on the finite identity checked below, no such envelope exists. The theorem and certificate have the scoped exact-source reviews below. This excludes one shadow, not the remaining $`N`$-Frattini family.
 
 ## The fixed vector and the finite cross-map identity
 
@@ -69,5 +71,4 @@ The source author ran it using the bundled Python 3.12.14; it printed `P6 one-U 
 
 ## Independent review
 
-At exact source the recorded source revision, Independent checks an independent check, an independent check and an independent check independently accepted the full exclusion, conditional on the pinned central-socle, invariant-functional, marked-rank, component and folder inputs. All checked the fixed-vector normalization, completeness and restrictions of the cross-map space, the full nonzero bilinear restriction and both kernel-plane contradictions, and the remaining square-row argument. All read the exact verifier and its three imported scripts, extracted the four committed files, and independently ran the certificate with the pinned Python 3.12 runtime; the folder and small-order reviewers specified 3.12.14. The printed cross-map checks passed. The script verifies the finite representation identities, while the scoped proof reviews cover the envelope deduction. No fresh primary-source audit, formal certification or exclusion for larger b is asserted.
-
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/1a8a1eddcdfaeb5fab6f3e7682a37c5597a3b522), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the full exclusion, conditional on the pinned central-socle, invariant-functional, marked-rank, component and folder inputs. All checked the fixed-vector normalization, completeness and restrictions of the cross-map space, the full nonzero bilinear restriction and both kernel-plane contradictions, and the remaining square-row argument. All read the exact verifier and its three imported scripts, extracted the four committed files, and independently ran the certificate with the pinned Python 3.12 runtime; the folder and small-order reviewers specified 3.12.14. The printed cross-map checks passed. The script verifies the finite representation identities, while the scoped proof reviews cover the envelope deduction. No fresh primary-source audit, formal certification or exclusion for larger b is asserted.

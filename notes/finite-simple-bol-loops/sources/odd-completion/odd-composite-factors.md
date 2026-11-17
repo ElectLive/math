@@ -1,7 +1,8 @@
 # Composite-cyclic exact-factorization candidate
 
-Mira Cult
-The construction and later parameter section have separate verification scopes. Novelty beyond this workspace is unverified. This candidate extends the prime-$`q`$ exact-factorization ansatz of [C0013](../../claims/0013.md), which remains partial. It does not classify odd-order loops or assume that odd loop order implies odd multiplication-group order. The proposed proof uses [C0001](../../claims/0001.md), [C0007](../../claims/0007.md), and Nagy's [arXiv:math/0703919v1](https://arxiv.org/html/math/0703919v1), as identified below; the construction’s exact-source review is recorded below.
+**Mira Cult**
+
+**The construction has the scoped independent review below. The later parameter section has a separate review obligation.** Novelty beyond this workspace is unverified. This candidate extends the prime-$`q`$ exact-factorization ansatz of [C0013](../../claims/0013.md), which remains partial. It does not classify odd-order loops or assume that odd loop order implies odd multiplication-group order. The proposed proof uses [C0001](../../claims/0001.md), [C0007](../../claims/0007.md), and Nagy's [arXiv:math/0703919v1](https://arxiv.org/html/math/0703919v1), as identified below; the construction’s exact-source review is recorded below.
 
 Let p be an odd prime and n>1 an odd integer dividing (p^p−1)/(p−1), such that ord_ℓ(p)=p for every prime ℓ dividing n. Let F=F_{p^p}, ζ∈F of order n, and φ(z)=z^p. Define X=F^+⋊(C_n⋊⟨φ⟩), with the generator of C_n acting by ζ, Y1=C_n⋊⟨φ⟩, and Y0={(v,0,j):Tr(v)=j}, j∈F_p. Candidate: the exact-factorization loop Q_(X,Y0,Y1) is simple and proper of order p^{p+1}n. In particular p=5,n=781=11·71 gives order 12,203,125, outside the stated prime-q C0013 family by order.
 
@@ -13,7 +14,7 @@ Set A=F×F≤Ghat. We have C_Ghat(A)=A because the complement acts faithfully an
 
 Modulo A, Ghat/A=(C_n×C_n)⋊C_p where the generator acts as p on the first coordinate and p^{-1} on the second, and Hbar=(1×C_n)⋊C_p. If Nbar projects nontrivially onto C_p, its commutators with C_n×C_n contain all of C_n×C_n because p^j−1 is invertible mod n for every 1≤j<p. It follows HN=Ghat, contradicting P proper. Otherwise Nbar=B≤C_n×C_n. Then [Ghat:HN]=n/|pr1 B|. In the j-th C_p fiber, Kbar consists of elements ((a,j),(−p^{−j}a,−j)). The differences k_a⁻¹k_b form the graph D_j={(a,−p^j a):a∈C_n}. Hence its image modulo B has n/|B∩D_j| elements, and different j remain distinct. Thus
 
-|KN/N| = ∑_{j∈F_p} n/|B∩D_j| ≥ p n/|pr1 B| > [Ghat:HN],
+ |KN/N| = ∑_{j∈F_p} n/|B∩D_j| ≥ p n/|pr1 B| > [Ghat:HN],
 
 since pr1 is injective on D_j. This contradicts the necessary transversal condition in C0001 Theorem 2.2 for N to be the kernel of a normal quotient. Hence Q is simple.
 
@@ -21,7 +22,7 @@ since pr1 is injective on D_j. This contradicts the necessary transversal condit
 
 **Arithmetic check.** $`11\cdot71=(5^5-1)/4=781`$ and $`5^6\cdot781=12{,}203{,}125`$. Modulo $`11`$, the powers $`5^1,\ldots,5^4`$ are $`5,3,4,9`$; modulo $`71`$ they are $`5,25,54,57`$. In both cases $`5^5\equiv1`$, so both orders are $`5`$. The construction and proof have the scoped review below. Its possible relationship to other published constructions is not checked.
 
-It does not assert literature novelty or a classification of odd-order loops.
+reviewer contributor 1 accepted the construction and simplicity/properness argument at exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/168f7a4e4cef8e5b6824b58f9cbdaf0ba05f23ea), including factor cores and commutators, solvability/perfectness, inversion descent, the two coordinate modules, quotient-fiber count and the sample arithmetic. The review directly checked the cited Nagy statements and assumes the stated C0001 nucleus/quotient and C0007 inversion results. It does not assert literature novelty or a classification of odd-order loops. No exhaustive computation or formal verification is claimed.
 
 ## Parameters and isomorphism within this family
 
@@ -31,10 +32,4 @@ For each admissible pair $`(p,n)`$, the construction determines one loop isomorp
 
 Different admissible pairs give nonisomorphic loops: the loop order is $`p^{p+1}n`$, every prime divisor of $`n`$ exceeds $`p`$, and thus $`p`$ is the smallest prime divisor of the order; the order then recovers $`n`$ as well. Conditional on the preceding simplicity and properness proof, these observations give one simple proper Bol-loop isomorphism class for each admissible $`(p,n)`$ **within this constructed family**. They do not claim exhaustiveness for odd-order Bol loops or novelty relative to the literature.
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-The review directly checked the cited Nagy statements and assumes the stated C0001 nucleus/quotient and C0007 inversion results. It does not assert literature novelty or a classification of odd-order loops. No exhaustive computation or formal verification is claimed.
-
-The review checked the prime-divisor argument, recovery of (p,n) from the loop order, invariance under field-model isomorphisms and changes of the cyclic generator. It establishes one isomorphism class per admissible pair only within this constructed family; exhaustiveness and literature novelty are not claimed.
+reviewer contributor 1 accepted the parameter simplification and within-family isomorphism argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499), conditional on the construction previously reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/168f7a4e4cef8e5b6824b58f9cbdaf0ba05f23ea). The review checked the prime-divisor argument, recovery of (p,n) from the loop order, invariance under field-model isomorphisms and changes of the cyclic generator. It establishes one isomorphism class per admissible pair only within this constructed family; exhaustiveness and literature novelty are not claimed.

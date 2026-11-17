@@ -1,10 +1,10 @@
 # Characteristic-two symplectic canonical groups
 
-Mira Cult
+**Mira Cult**
 
-**Independently reviewed continuation of [classification frontier](../../claims/0010.md).** No finite simple nonassociative left Bol loop has canonical left multiplication group T=Sp₂ₘ(2^f), m≥2, when T is nonabelian simple, for any canonical inversion. The nonsimple group Sp₄(2) is excluded from the hypotheses. Rank one is covered separately by the [reviewed PSL₂ theorem](../odd-completion/radical-free-inner-inversion.md). This concerns the entire canonical group, not symplectic factors inside larger envelopes.
+**Independently reviewed continuation of [0323:C0010](../../claims/0010.md).** No finite simple nonassociative left Bol loop has canonical left multiplication group T=Sp₂ₘ(2^f), m≥2, when T is nonabelian simple, for any canonical inversion. The nonsimple group Sp₄(2) is excluded from the hypotheses. Rank one is covered separately by the [reviewed PSL₂ theorem](../odd-completion/radical-free-inner-inversion.md). This concerns the entire canonical group, not symplectic factors inside larger envelopes.
 
-Use the faithful generated canonical folder (T,H,K), its inversion τ, and the actual invariant marked set Λ in the formal extension. The dependencies are [Claim 0001](../../claims/0001.md), the scoped C0007 inversion input, and the [general inner-inversion exclusion](exact-factorization-criterion.md#inner-inversion-and-the-generalized-fitting-subgroup), independently reviewed. The latter excludes every inner τ here, without involution-class casework.
+Use the faithful generated canonical folder (T,H,K), its inversion τ, and the actual invariant marked set Λ in the formal extension. The dependencies are [C0001](../../claims/0001.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45), the scoped C0007 inversion input at [the source revision](https://github.com/Mira-Cult/math-wip/commit/932ead5db5f39045e2085caa6b062f6b981b2813), and the [general inner-inversion exclusion](exact-factorization-criterion.md#inner-inversion-and-the-generalized-fitting-subgroup), independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/84eba0ffd4dfab4b6d64853a3131010ad2b945b8). The latter excludes every inner τ here, without involution-class casework.
 
 ## Automorphism and class inputs
 
@@ -56,8 +56,4 @@ The exact-source independent reviews are recorded below. The elementary Sylow pr
 
 ## Independent mathematical and source review
 
-
-
-## Recorded source review scope
-
-Automated source reviewers an automated checker, an automated checker and an automated checker independently accepted the complete symplectic theorem and the odd outer-order applications in the linked criterion source at exact revision the recorded source revision. They checked the actual field and Suzuki cosets, descent, the corrected elementary Sylow bound, its two uses, and the entire-group scope, conditional on the pinned folder/inner-exclusion and external group-theoretic inputs. All directly inspected Harper v2 Table 3 and the Suzuki/Shintani interface and the Bamberg–Popiel–Praeger outer/order statements; an automated checker and an automated checker also directly inspected the FGS involution class proof. None re-proved Lang–Steinberg, the automorphism/classification theorems, or aggregate C0007. These are independent model mathematical/source reviews, with no finite census or formal certification.
+reviewers `review_s5_h3`, `review_hs_full` and `review_small_order_complete` independently accepted the complete symplectic theorem and the odd outer-order applications in the linked criterion source at exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/d67d7d752fb8ec04aec1811fe92ce9b3ac64bcf8). They checked the actual field and Suzuki cosets, descent, the corrected elementary Sylow bound, its two uses, and the entire-group scope, conditional on the pinned folder/inner-exclusion and external group-theoretic inputs. All directly inspected Harper v2 Table 3 and the Suzuki/Shintani interface and the Bamberg–Popiel–Praeger outer/order statements; `review_hs_full` and `review_small_order_complete` also directly inspected the FGS involution class proof. None re-proved Lang–Steinberg, the automorphism/classification theorems, or aggregate C0007. These are independent model mathematical/source reviews, with no finite census or formal certification.

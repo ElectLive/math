@@ -94,4 +94,3 @@ f=functools.lru_cache(None)(f)
 mul=functools.lru_cache(None)(mul)
 def mult(a,b):return (a[0]^b[0],a[1]^b[1]^f(a[0],b[0]))
 print('fast mode: exhaustive audits omitted')
-

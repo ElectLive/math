@@ -87,4 +87,3 @@ if not bad:
   if ((piv[i]&sol).bit_count()&1)^((piv[i]>>NV)&1):sol|=1<<i
  assert all((((row&sol).bit_count()^(row>>NV))&1)==0 for row in rows)
  print('one correction as integer:',sol)
-

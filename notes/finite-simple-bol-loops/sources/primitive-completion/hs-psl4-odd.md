@@ -1,6 +1,7 @@
 # Candidate uniform HS Case A exclusion for odd PSL4(q)
 
-Mira Cult
+**Mira Cult**
+
 Scoped independently reviewed result for [C0010](../../claims/0010.md) and [C0014](../../claims/0014.md), conditional on the stated Case A folder inputs, standard classical-group automorphism and finite-field form facts, and the displayed exact rational certificate: no factor-preserving HS folder has socle factors T=PSL4(q), for any odd prime power q. This does not concern arbitrary primitive types. It strengthens the q=3 calculation without contradicting the accepted single-pair obstruction: the latter does not impose the size and B-conjugacy closure of the entire Λ.
 
 ## The case q≡3 mod 4: involutory automorphism roster
@@ -55,6 +56,6 @@ If an involution has a nontrivial field component, then q=s² and its field comp
 
 Thus C0014's two nonidentity components both capture I, contradicting their required trivial intersection. Combining the two congruence cases gives the stated candidate exclusion for every odd q. The common-class argument in this section and the source applications await independent mathematical review.
 
-## Source verification and limitations
+## Independent review
 
-automated reviewers a separate automated checker accepted the conditional exclusion at its recorded source revision. The review checked the odd-field automorphism roster, centralizer factors and orbit splitting, nonsymplectic captured class and all four conservative pair counts for q≡3 mod 4, and the determinant-one linear, graph and field/graph-field witnesses for q≡1 mod 4. An independent GAP run verified all shifted numerator and denominator coefficient inequalities. The review retains the stated Case A folder/inversion, Burness, classical automorphism and finite-field form dependencies. Its scope is factor-preserving HS Case A for PSL₄(q) with odd q only, not all HS configurations or arbitrary primitive types.
+reviewer contributor 1 accepted the conditional exclusion at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/32b5918c4b3fa3b2686185006b80d41b1ece76aa). The review checked the odd-field automorphism roster, centralizer factors and orbit splitting, nonsymplectic captured class and all four conservative pair counts for q≡3 mod 4, and the determinant-one linear, graph and field/graph-field witnesses for q≡1 mod 4. An independent GAP run verified all shifted numerator and denominator coefficient inequalities. The review retains the stated Case A folder/inversion, Burness, classical automorphism and finite-field form dependencies. Its scope is factor-preserving HS Case A for PSL₄(q) with odd q only, not all HS configurations or arbitrary primitive types.

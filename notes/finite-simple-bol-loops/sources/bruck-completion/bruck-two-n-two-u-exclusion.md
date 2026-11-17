@@ -1,5 +1,7 @@
 # Excluding the two-N, two-U P₆ shadow
 
+**Mira Cult**
+
 **Scoped exclusion**, continuing [0323:C0010](../../claims/0010.md). In the faithful simple nonassociative Bruck-envelope setting of [the multiple-N source](bruck-multiple-n-frattini.md), suppose $`G/P\cong S_5`$, $`P`$ has class at most two and exponent at most four, and
 
 ```math
@@ -8,7 +10,7 @@ Z=\Phi(P)\cong N^2,\qquad V=P/Z\cong P_6\oplus U^2.
 
 Subject to the cited inputs and the new finite check below, no such envelope exists. This is not a loop-order census, a quotient-folder argument, or an exclusion for larger $`U`$-multiplicity.
 
-The original marked-rank and fiber inputs are reviewed at the recorded source revision; the multiple-N transport, including the invariant-functional pushout and actual-lift conditions, is reviewed at the recorded source revision. The affine-fiber parity and the actual fixed-line polar constraint are independently reviewed at the recorded source revision. The paired module and full component solver inputs are in [the quadratic-support source](bruck-n-frattini-quadratic-support.md) at the recorded source revision. The finite enumeration and arbitrary-central-multiplicity stable-shadow bound have the independent exact-source reviews recorded below.
+The original marked-rank and fiber inputs are reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/123933cc594b601dd317d62b333a949d20431d35); the multiple-N transport, including the invariant-functional pushout and actual-lift conditions, is reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/6fe18de73836f5babe8bff5be255ff80fc864fb7). The affine-fiber parity and the actual fixed-line polar constraint are independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/3c3cafff03f9e9d79640b68f03883c22e57210d6). The paired module and full component solver inputs are in [the quadratic-support source](bruck-n-frattini-quadratic-support.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/b40066d01085772606b1d1160d58c033b8ba3302). The finite enumeration and arbitrary-central-multiplicity stable-shadow bound have the independent exact-source reviews recorded below.
 
 ## Necessary shadow conditions
 
@@ -64,5 +66,4 @@ Root read and ran the certificate with its committed imports using Python 3.12.1
 
 ## Independent review
 
-Three independent Independent checks proof/code reviewers — an independent check, an independent check and an independent check — accepted the proof and certificate at exact source the recorded source revision, conditional on the cited envelope, marked-fiber, affine-parity, fixed-line and module-component inputs. Each extracted the exact committed verifier and its three imports to a separate temporary directory and ran Python 3.12.14. All obtained scalar dimension 11, d-zero dimension 8, all 155 planes and the stated six survivors, and checked the actual stable-shadow rank contradiction. These are model reviews and exact finite checks, not formal certification or a classification of larger multiplicities.
-
+Three independent proof/code reviewers — `review_folder_criterion`, `review_psl2_allq` and `review_small_order_complete` — accepted the proof and certificate at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/a1f42ac3a21ce22edef96845f6cdf379511b2a51), conditional on the cited envelope, marked-fiber, affine-parity, fixed-line and module-component inputs. Each extracted the exact committed verifier and its three imports to a separate temporary directory and ran Python 3.12.14. All obtained scalar dimension 11, d-zero dimension 8, all 155 planes and the stated six survivors, and checked the actual stable-shadow rank contradiction. These are model reviews and exact finite checks, not formal certification or a classification of larger multiplicities.

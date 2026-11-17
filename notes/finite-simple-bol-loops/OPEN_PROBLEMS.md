@@ -1,3 +1,9 @@
+# Open problems
+
+## Updated boundary
+
+The [current classification checkpoint](CLASSIFICATION_SYNC.md) closes the odd full-multiplication action question under its stated inputs and determines the full action when LMlt is solvable. The operation-level classification of the remaining natural alternating/symmetric models is still open. The specified two-N Bruck branch is excluded, not all Bruck radicals. Latest all-PSL₂ continuation sections remain proposed at this checkpoint. Use the [complete source frontier](sources/foundations/research-frontier.md) for the detailed current obligations; older topic descriptions below do not override these updated results.
+
 # Open problems in the classification of finite simple Bol loops
 
 These are mathematical targets, not a maintenance backlog. Each would close a

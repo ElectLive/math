@@ -46,4 +46,3 @@ v=xx[0];avg=0
 for i in range(5):avg^=act((power(p[0],i),power(p[1],i)),v)
 assert avg==63
 print('F C4 fourth-power shadow',v,'C5 average',avg,'= constant')
-

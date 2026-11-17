@@ -1,7 +1,8 @@
 # HS Case A: eight sporadic and Tits socles
 
-Mira Cult
-This result, with the scoped review recorded below, addresses [C0010](../../claims/0010.md) and the factor-preserving HS Case A of [C0014](../../claims/0014.md). Under the C0014 Case A necessary condition, its folder/inversion dependencies, and the external character-table, fusion and group-identification inputs below, Case A is excluded when T is M₁₂, J₂, HS, He, Suz, HN, Fi₂₄′ or ²F₄(2)′. This is not a classification of all HS groups or of finite Bol loops.
+**Mira Cult**
+
+This manuscript-local result, with the scoped review recorded below, addresses [C0010](../../claims/0010.md) and the factor-preserving HS Case A of [C0014](../../claims/0014.md). Under the C0014 Case A necessary condition, its folder/inversion dependencies, and the external character-table, fusion and group-identification inputs below, Case A is excluded when T is M₁₂, J₂, HS, He, Suz, HN, Fi₂₄′ or ²F₄(2)′. No new claim ID is allocated. This is not a classification of all HS groups or of finite Bol loops.
 
 C0014 states that Case A requires two nonidentity involutory automorphisms α₁, α₂ of T with (α₁^T)² ∩ (α₂^T)² = {1}. The table computations below show a stronger contrary condition: for each of these eight groups there is a single Aut(T)-invariant nonidentity T-involution class J contained in (α^T)² for **every** nonidentity involutory α ∈ Aut(T). Thus the required intersection contains J, a contradiction. The separate centralizer-product necessary condition is not needed.
 
@@ -44,6 +45,6 @@ gap -q -b problems/0323-finite-simple-non-moufang-bol-loops/code/verify_hs_eight
 
 An isolated build from the pinned release printed eight `common-class checks passed` lines. The script exits nonzero when an explicit check fails. Its computations are conditional on the source tables and fusions and do not independently establish their correctness, the group identifications, C0014, or its upstream dependencies. The scoped independent mathematical and source review is recorded below.
 
-## Source verification and limitations
+## Independent review
 
-a separate automated checker accepted all eight common-class exclusions at its recorded source revision, conditional on the C0014 Case A nondegeneracy/disjointness inputs and their folder/inversion dependencies, and the published group/table/fusion data. The reviewer independently checked all eight full-Aut `InfoText` identifications and T→A `ALF` records, the five table-file hashes, fusion injectivity, complete inner/outer class lists and the positive-coefficient interpretation. The specified GAP 4.15.1 / CTblLib 1.3.11 run exited zero and reproduced all eight rows, including the Tits empty outer-involution list. This is not an independent construction of the character tables and does not settle HS for arbitrary Lie-type socles.
+contributor 1 accepted all eight common-class exclusions at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/359875203abdbf7033ab04843fba2197aac2aafe), conditional on the C0014 Case A nondegeneracy/disjointness inputs and their folder/inversion dependencies, and the published group/table/fusion data. The reviewer independently checked all eight full-Aut `InfoText` identifications and T→A `ALF` records, the five table-file hashes, fusion injectivity, complete inner/outer class lists and the positive-coefficient interpretation. The specified GAP 4.15.1 / CTblLib 1.3.11 run exited zero and reproduced all eight rows, including the Tits empty outer-involution list. This is not an independent construction of the character tables and does not settle HS for arbitrary Lie-type socles.

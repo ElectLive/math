@@ -1,5 +1,7 @@
 # A split-extension obstruction for the P₆ multiple-N branch
 
+**Mira Cult**
+
 **Scoped theorem continuing [0323:C0010](../../claims/0010.md).** Let $`(G,H,K,\tau)`$ be a faithful canonical envelope of a finite simple nonassociative Bruck loop of 2-power exponent. Suppose $`G/P\cong S_5`$, $`P=O_2(G)`$ has class at most two and exponent at most four, and
 
 ```math
@@ -9,7 +11,7 @@ Z=\Phi(P)\cong N^a,\qquad V=P/Z\cong P_6\oplus U^b,
 
 If, additionally, the **actual group extension splits**, $`G=P\rtimes S_5`$, then no such envelope exists. The conclusion leaves nonsplit extensions over $`P`$, other Frattini modules and other principal shadows open. Independent exact-source reviews are recorded below.
 
-The original envelope and marked-image inputs are those cited in [the multiple-N source](bruck-multiple-n-frattini.md). Its relative-$`H^1`$ displacement argument is reviewed at the recorded source revision. The affine marked-fiber parity and unique $`C_3`$-fixed orbit are reviewed for arbitrary $`a`$ in [the parity theorem](bruck-n-affine-fiber-parity.md) at the recorded source revision. The $`N`$-block, projectivity and cohomology inputs are pinned in [the N-block source](bruck-s5-module-blocks.md) at the recorded source revision. All their recorded scope and source qualifications remain in force.
+The original envelope and marked-image inputs are those cited in [the multiple-N source](bruck-multiple-n-frattini.md). Its relative-$`H^1`$ displacement argument is reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/39a493024a9ee0839852b60f389fe28d155701b9). The affine marked-fiber parity and unique $`C_3`$-fixed orbit are reviewed for arbitrary $`a`$ in [the parity theorem](bruck-n-affine-fiber-parity.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/3c3cafff03f9e9d79640b68f03883c22e57210d6). The $`N`$-block, projectivity and cohomology inputs are pinned in [the N-block source](bruck-s5-module-blocks.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499). All their recorded scope and source qualifications remain in force.
 
 ## A pure double transposition in H
 
@@ -75,7 +77,7 @@ The ordinary group extension
 1\longrightarrow V\longrightarrow G/Z\longrightarrow S_5\longrightarrow1
 ```
 
-has a class in $`H^2(S_5,V)`$. The $`N`$-block source at the recorded source revision gives projectivity of $`U`$, so $`H^2(S_5,U)=0`$. Since $`P_6=\mathop{\mathrm{Ind}}\nolimits_{F_{20}}^{S_5}\mathbb F_2`$, Shapiro's lemma and the normal odd subgroup $`C_5\lhd F_{20}`$ give
+has a class in $`H^2(S_5,V)`$. The $`N`$-block source at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499) gives projectivity of $`U`$, so $`H^2(S_5,U)=0`$. Since $`P_6=\mathop{\mathrm{Ind}}\nolimits_{F_{20}}^{S_5}\mathbb F_2`$, Shapiro's lemma and the normal odd subgroup $`C_5\lhd F_{20}`$ give
 
 ```math
 H^2(S_5,V)\cong H^2(F_{20},\mathbb F_2)
@@ -108,5 +110,4 @@ The argument retains the actual $`H`$-lift and the norm ambiguity, and makes no 
 
 ## Independent review
 
-Three independent Independent checks mathematical reviewers — an independent check, an independent check and an independent check — accepted both proofs at exact source the recorded source revision. Each checked the actual split-complement argument, the auxiliary outside involution and forced selected orbit, and the nonzero quotient-extension class with its C4 norm ambiguity and C5 average. Acceptance is conditional on the cited envelope, multiple-N, affine-fiber and cohomology inputs. These are model reviews, with no new computational, formal or primary-source certification. Nonsplit even multiplicities remain open.
-
+Three independent mathematical reviewers — `review_s5_h3`, `review_hs_full` and `review_presentations` — accepted both proofs at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/a1f42ac3a21ce22edef96845f6cdf379511b2a51). Each checked the actual split-complement argument, the auxiliary outside involution and forced selected orbit, and the nonzero quotient-extension class with its C4 norm ambiguity and C5 average. Acceptance is conditional on the cited envelope, multiple-N, affine-fiber and cohomology inputs. These are model reviews, with no new computational, formal or primary-source certification. Nonsplit even multiplicities remain open.

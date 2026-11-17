@@ -1,8 +1,8 @@
 # Transitive odd tops for PSL₂(7): a trace reduction
 
-Mira Cult
+**Mira Cult**
 
-**Independently reviewed, conditional on the pinned inputs.** This is a bounded continuation of [0323-finite-simple-non-moufang-bol-loops:C0010](../../claims/0010.md), not a classification. Let `(G,H,K,τ)` be the faithful generated canonical folder of a finite simple nonassociative left Bol loop, with `G=T^Ω⋊Q`, `T=PSL₂(7)`, and `Q` an arbitrary finite odd group acting faithfully and transitively by pure factor permutations. Neither `H→Q` surjectivity nor nilpotence of `Q` is assumed. Use the canonical-folder and strict original normal-quotient inputs [C0001](../../claims/0001.md), inversion and actual marked-class input [C0007](../foundations/C0007.md), and the `PSL₂(7)` characters, subgroups and marked-square/parity inputs in [the fixed-factor source](radical-free-fixed-factors.md). Those source qualifications remain in force.
+**Independently reviewed, conditional on the pinned inputs.** This is a bounded continuation of [0323-finite-simple-non-moufang-bol-loops:C0010](../../claims/0010.md), not a classification. Let `(G,H,K,τ)` be the faithful generated canonical folder of a finite simple nonassociative left Bol loop, with `G=T^Ω⋊Q`, `T=PSL₂(7)`, and `Q` an arbitrary finite odd group acting faithfully and transitively by pure factor permutations. Neither `H→Q` surjectivity nor nilpotence of `Q` is assumed. Use the canonical-folder and strict original normal-quotient inputs [C0001](../../claims/0001.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45), inversion and actual marked-class input [C0007](../foundations/C0007.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/932ead5db5f39045e2085caa6b062f6b981b2813), and the `PSL₂(7)` characters, subgroups and marked-square/parity inputs in [the fixed-factor source](radical-free-fixed-factors.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/4e99b12bc07d8e6b35e1960f42b83b05e8666f84). Those source qualifications remain in force.
 
 Write `|Ω|=2c+f`, where `f>0` counts the fixed factors of `τ`; `|Ω|` is odd. The local outer coset of `τ` is constant on the sole `Q`-orbit. Put `H0=H∩T^Ω`, `H_Q=HN/N` for `N=T^Ω`, `t=[Q:H_Q]`, and `k=[Q:C_Q(θ)]`, where `θ` is induced by `τ` on `Q`. Both `k` and `t` are odd. Let `Λ=τK` be the actual selected outside set. Its top labels are all `k` outside-involution labels, and it consists of complete actual `N`-classes above them.
 
@@ -62,5 +62,40 @@ The outer case is excluded under the pinned inputs. The inner case remains open 
 
 ## Independent mathematical review
 
-Four separate automated mathematical reviews accepted the complete source, conditional on its pinned canonical-folder, local-character, subgroup and class-square inputs. They checked the outer nonabelian Sylow parity, actual H-orbit direct sums, singleton exclusion, degree-eight character, selected-family trace and valuation constraints, centralizer transitivity and Boolean-family counterexample. One reviewer independently ran a small arithmetic/enumeration check of the displayed polynomial values and cyclic subset-orbit counts; another reviewer independently checked those arithmetic values. These checks do not realize a folder. No fresh primary-source audit or independent reproof of all upstream inputs was performed. These are model mathematical reviews, not human/formal certification or GitHub approval; the inner case remains open.
+reviewers contributor 1, contributor 2, contributor 3, and contributor 4 independently accepted the complete source at [the source revision](https://github.com/Mira-Cult/math-wip/commit/4ebe09e5bf919efb7dbe0508fc6472e2570eaea7), conditional on its pinned canonical-folder, local-character, subgroup and class-square inputs. They checked the outer nonabelian Sylow parity, actual H-orbit direct sums, singleton exclusion, degree-eight character, selected-family trace and valuation constraints, centralizer transitivity and Boolean-family counterexample. The paired-simple reviewer independently ran a small arithmetic/enumeration check of the displayed polynomial values and cyclic subset-orbit counts; the strip-forest reviewer independently checked those arithmetic values. These checks do not realize a folder. No fresh primary-source audit or independent reproof of all upstream inputs was performed. These are model mathematical reviews, not human/formal certification or GitHub approval; the inner case remains open.
 
+## The full order equation and its numerical limits
+
+**Independently reviewed continuation, conditional on the pinned inputs.** Retain the inner-case hypotheses and notation above. The general original-folder multiplicity theorem in [odd quotient multiplicity](odd-quotient-multiplicity.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/508ed66f7323592d4ac8b74efc943b1e3072211a) gives an odd integer
+
+ `r=k/t≥3`.
+
+Let `R` be the order of the actual odd proper-coordinate residual of `H0`, and put `d=c+f−s`. The original class count gives the exact equation
+
+ `r R F(21)=168^d`,  `d≥(f+1)/2`.                         (3)
+
+Thus `F(21)` has no prime divisor outside `{2,3,7}`, and its 2-part is exactly `2^(3d)`; the 3- and 7-valuations are at most `d`. These conditions are stronger than (1)–(2) and the earlier 33-position control does not satisfy them.
+
+Nevertheless, even the full displayed order divisibility, odd transitivity and any fixed number of derivative equations at `−3` do not by themselves exclude an abstract Boolean-pattern family. Begin with
+
+ `F9(z)=9z²+57z³+99z⁴+27z⁵`.
+
+Direct calculation yields
+
+ `F9(−3)=0`,  `F9(21)=8^5·3^4·7²`,  `168^5/F9(21)=3·7³`.
+
+This is the weight enumerator of a `C9`-invariant family on nine cyclic positions. Choose one size-nine orbit of weight two; six size-nine orbits and the unique size-three orbit of weight three; eleven size-nine orbits of weight four; and three size-nine orbits of weight five. These exist: there are `36/9=4` weight-two orbits; the 84 weight-three subsets consist of one orbit of size three and `(84−3)/9=9` orbits of size nine; and each of the 126 subsets of weight four or five has orbit size nine, giving 14 orbits at each weight. A proper-period nonconstant binary pattern on nine positions has period three, so its weight is divisible by three; this also verifies the orbit assertions. The resulting action is regular and odd transitive.
+
+For any odd positive integer `n`, take the Cartesian product of `n` copies of this family on `n` labeled blocks of nine positions. Simultaneous cyclic rotation within all blocks and cyclic permutation of the blocks give a regular `C9×Cn` action on the `f=9n` positions. The weight enumerator is `F=F9^n`, so it has a root of multiplicity at least `n` at `−3`, and
+
+ `d=5n≥(9n+1)/2`,
+ `F(21)=8^(5n)3^(4n)7^(2n)`,
+ `168^d/F(21)=(3·7³)^n`.
+
+The latter quotient is an odd integer at least three. Every coefficient satisfies the binomial bound because this is an actual family of subsets. Consequently, imposing any prescribed finite number of derivative vanishings at `−3`, together with (3) merely as a numerical divisibility condition and odd-transitive pattern symmetry, is insufficient for exclusion. The construction does **not** produce an actual `Q,θ,H,R,Λ` or a folder, and does not check fixed-point centralizer realization, class-square collisions, transversality or normal cuts. It is not a claim that the unreviewed derivative equations hold for the original folder.
+
+There is also an elementary partial exclusion at the pattern level. Suppose the odd-transitive symmetry group contains a transitive `p`-subgroup for a prime `p≠3,7`. Its orbits on subsets have `p`-power sizes, and only the empty and full subsets are fixed. From `F(−3)=0` modulo `3`, the empty-set coefficient is zero. Reduction modulo `p` then makes the full-set coefficient zero as well, because `p≠3`. Every remaining selected subset orbit has size divisible by `p`, so `p` divides `F(21)`, contrary to (3). This applies to such a transitive `p`-subgroup only; it does not treat `p=3,7` or arbitrary odd-transitive groups.
+
+### Review of the full-order continuation
+
+reviewers contributor 1, contributor 2, contributor 3, and contributor 4 independently accepted the complete full-order equation and numerical-limits addition at [the source revision](https://github.com/Mira-Cult/math-wip/commit/5a5f6193f758463d419fe5bddb00920985487f20), conditional on the reviewed multiplicity and trace inputs. They checked the actual residual order equation, C9 subset-orbit counts, arbitrary odd products, derivative multiplicity and transitive p-subgroup exclusion. The paired-simple reviewer independently ran the displayed F9 arithmetic; the strip-forest reviewer independently verified those values. These controls remain abstract pattern families, not folders. No fresh primary-source audit or reproof of all upstream inputs was performed; these are model mathematical reviews, not formal GitHub approval.

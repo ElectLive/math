@@ -1,6 +1,7 @@
 # Candidate SD exclusion for large socles with a common involution class
 
-Mira Cult
+**Mira Cult**
+
 This independently reviewed manuscript-local argument on [C0010](../../claims/0010.md) uses the primitive left-Bol folder and inversion results and the [SD counting and semiregularity arguments](sd-a5-all-factors.md). It proposes the following conditional conclusion, not an all-socle classification.
 
 Let T be a finite nonabelian simple group of order n≥2²⁰. Suppose T has an Aut(T)-invariant T-conjugacy class J of involutions such that J⊆(α^T)² for every nonidentity involution α∈Aut(T). Under the upstream folder and inversion hypotheses, no primitive SD_k left multiplication group has socle T^k for any k≥3. The [common-class fixed-identity argument](sd-alternating-all-factors.md#a-common-involution-class-replaces-uniqueness) explains this hypothesis and does not require J to be the only involution class. In particular, the [single-class square lemma](sd3-involution-count.md) supplies it when T has one involution class, within the scope of that lemma and its dependencies.
@@ -53,4 +54,4 @@ Since y<Dy<1/16 and x<1/4, c/n=max(x,√y)<1/4. The last expression is therefore
 The result and its common-class hypothesis require independent mathematical review. It reduces only the eligible socles below 2²⁰ to a finite residual set; it neither proves that every simple group has such a class nor enumerates the residual groups. The source theorems, original folder and inversion results, and all status/review qualifications remain separate dependencies.
 
 
-automated reviewers a separate automated checker accepted this argument at its recorded source revision, directly checking Fulman–Guralnick Proposition 5.3, Kohl Theorem 1 and Maróti Corollary 1.2, and checking the Frobenius–Schur estimate, prime construction, endpoint inequalities, monotonicity and both top cases. The common-class and upstream folder/semiregularity hypotheses remain explicit. A later typographical source clarification notes that Kohl actually states the stronger base-two logarithmic bound; the weaker inequality used in the reviewed proof is unchanged.
+reviewer contributor 1 accepted this argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/698ce5f6d50e7186f205a63f4a2c413145775915), directly checking Fulman–Guralnick Proposition 5.3, Kohl Theorem 1 and Maróti Corollary 1.2, and checking the Frobenius–Schur estimate, prime construction, endpoint inequalities, monotonicity and both top cases. The common-class and upstream folder/semiregularity hypotheses remain explicit. A later typographical source clarification notes that Kohl actually states the stronger base-two logarithmic bound; the weaker inequality used in the reviewed proof is unchanged.

@@ -1,9 +1,10 @@
 # Selected marked involutions over an elementary two-layer
 
-Mira Cult
-The result gives exact local-label and cross-mark collision conditions for a selected union of involution classes above an elementary abelian normal 2-subgroup. It allows even groups, nonsplit extensions, several marked classes and τ=id. It is an elementary-layer recognition interface, not a structural classification of finite simple Bol loops.
+**Mira Cult**
 
-The canonical faithful folder and normal left nucleus inputs are [C0001](../../claims/0001.md), with aggregate review at the recorded source revision. The direct inversion construction is [C0007, Theorem 1.1(1)](../foundations/C0007.md); the C0011 review record says reviewer an independent checker checked that construction and the relevant C0001 nucleus/folder inputs. The C0007 aggregate metadata remains unreviewed. The present deduction has the independent exact-source reviews recorded below. It does not import the odd-group full-inverted-set theorem or assume a quotient loop.
+**Scoped independently reviewed manuscript-local continuation of [0323:C0010](../../claims/0010.md).** The result gives exact local-label and cross-mark collision conditions for a selected union of involution classes above an elementary abelian normal 2-subgroup. It allows even groups, nonsplit extensions, several marked classes and τ=id. It is an elementary-layer recognition interface, not a structural classification of finite simple Bol loops.
+
+The canonical faithful folder and normal left nucleus inputs are [C0001](../../claims/0001.md), with aggregate review at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45). The direct inversion construction is [C0007, Theorem 1.1(1)](../foundations/C0007.md); the C0011 review record says reviewer `review_foundations` checked that construction and the relevant C0001 nucleus/folder inputs at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/932ead5db5f39045e2085caa6b062f6b981b2813). The C0007 aggregate metadata remains unreviewed. The present deduction has the independent exact-source reviews recorded below. It does not import the odd-group full-inverted-set theorem or assume a quotient loop.
 
 ## The canonical marked model is universal
 
@@ -11,7 +12,7 @@ Let Q be any finite simple proper left Bol loop, and let G=LMlt(Q), H be its ide
 
 For completeness, the short C0007 argument constructs inversion directly on this faithful G. Suppose k₁⋯k_m has k₁⁻¹⋯k_m⁻¹=1. Then k_m⋯k₁=1, and repeated sandwich closure gives
 
-(k₁⋯k_m)u=k₁⋯k_m u k_m⋯k₁ ∈K for every u∈K.
+    (k₁⋯k_m)u=k₁⋯k_m u k_m⋯k₁ ∈K for every u∈K.
 
 At u=1 the product is some L_a∈K. For each y, L_aL_y belongs to K and sends 1 to a*y, so it equals L_{a*y}; hence a∈N_λ(Q)=1. Interchanging k_i and k_i⁻¹ gives the converse word relation. Thus k₁⋯k_m↦k₁⁻¹⋯k_m⁻¹ defines the unique automorphism τ of G inverting K, and τ²=1. This uses no descent of an automorphism through the kernel of a doubled envelope.
 
@@ -21,29 +22,29 @@ Use a **formal external** group E=G⋊⟨t⟩ with t²=1 inducing τ, even when 
 
 More generally let G be a finite group, τ∈Aut(G) with τ²=1, E=G⋊⟨t⟩ the formal extension, H≤G, and Λ⊂tG an E-conjugacy-invariant set of involutions containing t. Let V◁G be an elementary abelian 2-group invariant under τ. Write L=G/V, J=HV/V, W=H∩V and π:E→E/V. For each quotient mark λ̄∈π(Λ), choose an actual marked lift λ₀∈Λ, and set
 
-T_λ=conj_{λ₀}|V,  Z_λ=ker(1+T_λ),  I_λ=(1−T_λ)V.       (1)
+    T_λ=conj_{λ₀}|V,  Z_λ=ker(1+T_λ),  I_λ=(1−T_λ)V.       (1)
 
 The action T_λ depends only on λ̄, because V is abelian. It satisfies T_λ²=1 and I_λ≤Z_λ. Every involutory lift of λ̄ is vλ₀ for a unique v∈Z_λ. Conjugation by V translates v through I_λ. Thus its V-orbits are the affine cosets in
 
-H¹(⟨λ̄⟩,V)=Z_λ/I_λ.                                   (2)
+    H¹(⟨λ̄⟩,V)=Z_λ/I_λ.                                   (2)
 
 Let A_{λ̄}⊂Z_λ/I_λ be the labels of the V-orbits actually contained in Λ. These are not arbitrary: conjugation in E relates the label sets over conjugate quotient marks. No quotient-folder assertion is made. The selected mark cardinality is
 
-|Λ|=Σ_{λ̄∈πΛ}|A_{λ̄}|·2^{dim I_λ}.                    (3)
+    |Λ|=Σ_{λ̄∈πΛ}|A_{λ̄}|·2^{dim I_λ}.                    (3)
 
 The formula uses the actual selected labels, and fibers can have different dimensions over different quotient marks.
 
 If H∩Λ²=1, then for every selected mark
 
-W∩I_λ=0.                                               (4)
+    W∩I_λ=0.                                               (4)
 
 Indeed λ₀^vλ₀ runs through I_λ as v runs through V, and both factors are marked. Distinct selected labels above the same λ̄ also remain distinct in the further quotient
 
-(Z_λ/I_λ)/image(W∩Z_λ).                               (5)
+    (Z_λ/I_λ)/image(W∩Z_λ).                               (5)
 
 Otherwise adjust representatives within their marked V-orbits so that their product is a nonidentity element of W, contradicting H∩Λ²=1. Because (4) embeds W∩Z_λ in Z_λ/I_λ, this gives the necessary bound
 
-|A_{λ̄}|≤2^{dim H¹(⟨λ̄⟩,V)−dim(W∩Z_λ)}.               (6)
+    |A_{λ̄}|≤2^{dim H¹(⟨λ̄⟩,V)−dim(W∩Z_λ)}.               (6)
 
 These are selected-class restrictions in characteristic two; they do not assert that the label set is full, a subgroup, or a subspace.
 
@@ -51,15 +52,15 @@ These are selected-class restrictions in characteristic two; they do not assert 
 
 Let λ̄,μ̄ be **distinct** elements of πΛ with j=λ̄μ̄∈J. Choose actual marked lifts λ₀,μ₀ and h_j∈H lifting j. Set
 
-c=λ₀μ₀h_j⁻¹∈V.
+    c=λ₀μ₀h_j⁻¹∈V.
 
 For selected labels represented by v∈Z_λ and w∈Z_μ, all pairs of lifts in their respective V-orbits have product V-coordinates, relative to h_j, in
 
-c+v+T_λw+I_λ+T_λ I_μ.
+    c+v+T_λw+I_λ+T_λ I_μ.
 
 Because j≠1, any product lying in the H-fiber W h_j is nonidentity. Therefore H∩Λ²=1 forces, for every such selected label pair,
 
-c+v+T_λw ∉ W+I_λ+T_λ I_μ.                             (7)
+    c+v+T_λw ∉ W+I_λ+T_λ I_μ.                             (7)
 
 The condition is independent of the representatives v,w of their V-orbits. If the subspace on the right is V, the two quotient marks cannot both occur. This cross-mark condition allows different actions and different local H¹ spaces; it does not require a quotient loop or permit replacing actual marked labels by all abstract lifts.
 
@@ -75,7 +76,7 @@ Necessity was proved above. For sufficiency, take λ,μ∈Λ with λμ∈H. Thei
 
 For a chosen Λ as above, set K=tΛ⊂G. If the three equivalent collision conditions hold and
 
-|Λ|=[G:H],                                              (8)
+    |Λ|=[G:H],                                              (8)
 
 then K is a transversal to H and every G-conjugate of H: Λ²=K⁻¹K is G-conjugacy-invariant, so the collision condition gives an injection into every coset space, and (8) gives surjectivity. Because Λ is an invariant involution set containing t, K contains 1, is inverse-closed and is sandwich-closed. If in addition ⟨K⟩=G and Core_G(H)=1, the standard faithful Bol-folder interface applies. For a simple proper-loop classification one must separately enforce the exact normal-subloop and non-Moufang conditions and then identify the canonical τ; the conditions above do not imply them.
 
@@ -120,10 +121,6 @@ Choose one representative $`x`$ of each $`Q`$-conjugacy class of involutions in 
 
 The obstruction (10) can exclude quotient marks, and centralizer orbit sizes restrict possible selected-fiber cardinalities. These are structural restrictions on the selected set; they do not by themselves solve the collision equations (4)–(7), establish generation or simplicity, give isomorphism orbits, or bound the global complexity of the loop. Its exact-source independent reviews are recorded below.
 
-Generation, core-freeness, simplicity and global exhaustion remain separate.
+## Independent mathematical review
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-All checked the direct inversion construction, formal external C2, selected rather than full marked set, local H¹ conditions, exact cross-mark necessity and sufficiency, cardinality/transversality interface, H² obstruction, and affine transporter and centralizer-orbit formulas. Generation, core-freeness, simplicity and global exhaustion remain separate. No computation or fresh aggregate C0007 review was claimed; these are independent model reviews, not formal certification.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/ced6706720b08adb94f4497534b2208f5c1a3d51), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the full manuscript, conditional on the cited C0001 and scoped C0007 inversion inputs. All checked the direct inversion construction, formal external C2, selected rather than full marked set, local H¹ conditions, exact cross-mark necessity and sufficiency, cardinality/transversality interface, H² obstruction, and affine transporter and centralizer-orbit formulas. Generation, core-freeness, simplicity and global exhaustion remain separate. No computation or fresh aggregate C0007 review was claimed; these are independent model reviews, not formal certification.

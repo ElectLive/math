@@ -1,28 +1,29 @@
 # Matrix-pair similarity inside simple odd Bol loops
 
-Mira Cult
-This gives an explicit uniform embedding of simultaneous similarity of two matrices over Fp into isomorphism of the simple proper odd Bol G-loops in the [alternating-form family](odd-alternating-form-family.md), whose construction and isomorphism criterion were reviewed. The present embedding has the separate mathematical reviews recorded below. It makes no complexity-class hardness assertion and does not classify all simple Bol loops.
+**Mira Cult**
+
+**Continuation of [0323:C0010](../../claims/0010.md), with exact-source reviews below.** This gives an explicit uniform embedding of simultaneous similarity of two matrices over Fp into isomorphism of the simple proper odd Bol G-loops in the [alternating-form family](odd-alternating-form-family.md), whose construction and isomorphism criterion were reviewed at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/2a25b81e3efe5bdd8a3923e27c94aef16a559094). The present embedding has the separate mathematical reviews recorded below. It makes no complexity-class hardness assertion and does not classify all simple Bol loops.
 
 ## Theorem and construction
 
 Fix odd primes p,q with p dividing q−1, and put r=ord_q(p) and E=F_(p^r). For every n≥1, an explicit construction associates to each pair (A,B)∈M_n(Fp)² a simple proper odd Bol G-loop L(A,B) of order
 
-p^[r(44n+22)+5] q^11,                                  (1)
+    p^[r(44n+22)+5] q^11,                                  (1)
 
 such that
 
-L(A,B) ≅ L(A′,B′)
+    L(A,B) ≅ L(A′,B′)
       iff there is S∈GL_n(Fp) with A′=SAS^−1 and B′=SBS^−1.  (2)
 
 The construction outputs five alternating matrices of size 44n+22 over Fp, interpreted as E-matrices and passed to the reviewed family with k=5. Thus, for fixed p,q, the matrix-data output has polynomial size in n; this is a compact parameter encoding, not an explicit multiplication table for the loop.
 
 Let U=Fp^n⊕Fp^n. Write P=diag(I_n,0), and put
 
-D=[[0,I_n],[0,0]],   D_A=[[0,A],[0,0]],   D_B=[[0,B],[0,0]].
+    D=[[0,I_n],[0,0]],   D_A=[[0,A],[0,0]],   D_B=[[0,B],[0,0]].
 
 On X=U⊕U*, use the ordered coordinates (U₁,U₂,U₁*,U₂*) and define
 
-J=[[0,I_(2n)],[-I_(2n),0]],   F(T)=diag(T,Tᵀ).         (3)
+    J=[[0,I_(2n)],[-I_(2n),0]],   F(T)=diag(T,Tᵀ).         (3)
 
 The four matrices JF(P), JF(D), JF(D_A), JF(D_B) are alternating. No multiplicativity of F is asserted.
 
@@ -33,7 +34,7 @@ For i=1,2,3,4 put dᵢ=i(2n+1). Add symplectic spaces C₀,C₁,…,C₄, with d
 
 Their common radical is zero because B₀ is nonsingular. They are Fp-linearly independent: restriction of a relation to C₀ forces the coefficient of B₀ to vanish, then restriction to each Cᵢ forces the coefficient of Bᵢ to vanish. The total dimension is
 
-dim(X⊕C)=4n+2+2Σ_(i=1)^4 i(2n+1)=44n+22.
+    dim(X⊕C)=4n+2+2Σ_(i=1)^4 i(2n+1)=44n+22.
 
 The tuple meets the reviewed family's input hypotheses. Its order is therefore (1).
 
@@ -43,13 +44,13 @@ Suppose first that the five active forms J, JF(P), JF(D), JF(D_A), JF(D_B) are m
 
 Set X₂=ker F(P), and K=ker(F(D)|X₂). In the ordered coordinates (U₁,U₂,U₁*,U₂*), one has X₂=U₂⊕U₂* and K=U₂*. The map F(D) induces an isomorphism
 
-X₂/K → im(F(D)|X₂)=U₁.
+    X₂/K → im(F(D)|X₂)=U₁.
 
 Both F(D_A) and F(D_B) vanish on K and map X₂ into U₁. Composing the induced maps X₂/K→U₁ with the inverse of the induced F(D) map recovers A and B, respectively, on X₂/K≅Fp^n. These subspaces and maps are intrinsic to the four operators. Thus an intertwiner yields simultaneous similarity of the original ordered pair, with no transpose or dual ambiguity. The argument works over every extension field.
 
 Conversely, if A′=SAS^−1 and B′=SBS^−1, put T=diag(S,S) on U and L_X=diag(T,T^−ᵀ) on U⊕U*. Then L_XᵀJL_X=J and, for each of the four active forms,
 
-L_Xᵀ (JF(M′)) L_X = JF(M),
+    L_Xᵀ (JF(M′)) L_X = JF(M),
 
 where M runs through P,D,D_A,D_B and M′ is its primed counterpart. This proves the converse active congruence with the indicated orientation.
 
@@ -59,7 +60,7 @@ For i=1,…,4 the rank of Bᵢ lies in the interval [2dᵢ,2dᵢ+4n]. Consecutiv
 
 With B₀ fixed, write Bᵢ=B₀Tᵢ. A labeled congruence induces simultaneous similarity of the four operators Tᵢ. Their module on X⊕C splits as the active module M(A,B) on X and a fixed marker module C, independent of (A,B). If two output tuples are congruent, then
 
-M(A,B)⊕C ≅ M(A′,B′)⊕C.                               (4)
+    M(A,B)⊕C ≅ M(A′,B′)⊕C.                               (4)
 
 The modules are finite-dimensional modules over the free associative algebra on four generators. They have finite length, so the Krull–Schmidt cancellation argument below applies to (4). Hence M(A,B)≅M(A′,B′); the intrinsic quotient above gives simultaneous similarity of (A,B) and (A′,B′). Conversely, the active congruence from S extends by the identity on C. This proves the iff statement for tuple congruence over any field extension of Fp.
 
@@ -73,12 +74,8 @@ All output matrices have entries in Fp. Consequently every θ∈Gal(E/Fp) fixes 
 
 If the tuples are E-congruent, the preceding section gives an E-linear simultaneous similarity of the two Fp-defined pairs. Restriction of scalars turns that similarity into an Fp-module isomorphism
 
-M_pair(A,B)^r ≅ M_pair(A′,B′)^r.
+    M_pair(A,B)^r ≅ M_pair(A′,B′)^r.
 
 Krull–Schmidt cancellation gives M_pair(A,B)≅M_pair(A′,B′) over Fp, which is exactly simultaneous similarity by a matrix S∈GL_n(Fp). The converse follows by scalar extension and the explicit congruence above. Applying the reviewed family isomorphism theorem proves (2), conditional on that interface.
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-They checked the alternating forms, independent markers, disjoint rank intervals, ordered-pair recovery without dual ambiguity, the symplectic converse, ordinary module cancellation rather than an assumed symplectic cancellation, the inline finite-dimensional Krull–Schmidt argument, scalar descent and the dimension/order formulas. The family source is pinned at the recorded source revision; its later review-delivery commit is the recorded source revision. The historical source itself correctly said review pending. an independent checker treated the family as a conditional input and did not independently verify that later attribution. No computation, formal verification or new primary-source audit was performed. The conclusion is the exact orbit embedding, not a complexity-class hardness assertion or unrestricted loop classification.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/52fe4d027acd8a70f2872a19971c6c0e5cbbeb42), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the full embedding conditional on the alternating-form family and its strict loop-isomorphism criterion. They checked the alternating forms, independent markers, disjoint rank intervals, ordered-pair recovery without dual ambiguity, the symplectic converse, ordinary module cancellation rather than an assumed symplectic cancellation, the inline finite-dimensional Krull–Schmidt argument, scalar descent and the dimension/order formulas. The family source is pinned at [the source revision](https://github.com/Mira-Cult/math-wip/commit/2a25b81e3efe5bdd8a3923e27c94aef16a559094); its later review-delivery commit is [the source revision](https://github.com/Mira-Cult/math-wip/commit/825681f0ee689b3e20c82ce2e297a6e5c74cd4d2). The historical source itself correctly said review pending. contributor 2 treated the family as a conditional input and did not independently verify that later attribution. No computation, formal verification or new primary-source audit was performed. The conclusion is the exact orbit embedding, not a complexity-class hardness assertion or unrestricted loop classification.

@@ -1,5 +1,7 @@
 # Candidate J ⊕ U stabilizer and outer-class filter
 
+**Mira Cult**
+
 This bounded continuation with scoped independent review below of [C0010](../../claims/0010.md) assumes the setup and cohomological reductions in [the J-branch manuscript](bruck-s5-j-branch.md): a faithful simple exponent-two Bruck envelope with elementary abelian radical V=J⊕U, J=F₂⁶/1 and U the 8-dimensional N-block projective module, quotient S₅, π(H)=F=N_{S₅}(P)≅F₂₀, and the nonsplit Nagy extension. We use the [block-module identifications](bruck-s5-module-blocks.md) and earlier necessary restrictions, not a new classification of all folders. In particular L=J^P≤W=H∩V, W has dimension 5, and the entire involution class above the ten transpositions is forced into K. Hence |Q|=1536. The J-branch constraints, forced class and H-normalization argument have their separate scoped review at the same source as the review below.
 
 ## F-submodules and core-freeness
@@ -24,5 +26,4 @@ These facts classify W and settle the mandatory outer-class collision filter und
 
 ## Independent review
 
-an independent check accepted this stabilizer and outer-class filter at exact source the recorded source revision, conditional on the J-branch normalization, forced class and listed module inputs, which that reviewer did not separately re-prove. The review checked all seven lines and five unit orbits, core-freeness, the graph-to-socle collision and the source-based full outer-class transversality. It directly inspected Nagy arXiv:0709.4544v1 §5 Proposition 5.1 and Theorem 5.2 at k=1, including the right-sided convention. This review does not classify D=K∩V or the resulting loops. The upstream J-branch argument has the separate review by an independent check at the same source, as recorded there.
-
+contributor 1 accepted this stabilizer and outer-class filter at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/527aa14d458a5b7d43cef2be7faef4c90033b975), conditional on the J-branch normalization, forced class and listed module inputs, which that reviewer did not separately re-prove. The review checked all seven lines and five unit orbits, core-freeness, the graph-to-socle collision and the source-based full outer-class transversality. It directly inspected Nagy arXiv:0709.4544v1 §5 Proposition 5.1 and Theorem 5.2 at k=1, including the right-sided convention. This review does not classify D=K∩V or the resulting loops. The upstream J-branch argument has the separate review by contributor 2 at the same source, as recorded there.

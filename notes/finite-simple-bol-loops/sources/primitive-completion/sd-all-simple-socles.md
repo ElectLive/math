@@ -1,7 +1,8 @@
 # Conditional SDₖ exclusion for all nonabelian simple socles
 
-Mira Cult
-It is conditional and has the scoped independent assembly review recorded below. It records the all-socle consequence of the linked family arguments, not a classification of finite simple Bol loops.
+**Mira Cult**
+
+This manuscript-local assembly introduces no claim ID. It is conditional and has the scoped independent assembly review recorded below. It records the all-socle consequence of the linked family arguments, not a classification of finite simple Bol loops.
 
 ## Conditional theorem and interface
 
@@ -35,8 +36,8 @@ Under CFSG, every nonabelian finite simple group appears in a row below. Each ro
 
 ## Review and source limits
 
-Earlier finite-classical and final-five applications were reviewed by a separate automated checker, and refined orthogonal and exceptional-class applications by a separate automated checker, at its recorded source revision; their source qualifications remain in the respective manuscripts. The family manuscripts retain their exact source-pinned reviews and external-data qualifications. The completed assembly review is recorded below. It is conditional on those full family assertions and on folder/inversion, factor injection, top primitivity and cyclic semiregularity; it is not an aggregate acceptance of C0014/C0015/C0017. Integer checks validate their displayed arithmetic, not the external character tables or group identifications.
+Earlier finite-classical and final-five applications were reviewed by contributor 1, and refined orthogonal and exceptional-class applications by contributor 2, at [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16); their source qualifications remain in the respective manuscripts. The family manuscripts retain their exact source-pinned reviews and external-data qualifications. The completed assembly review is recorded below. It is conditional on those full family assertions and on folder/inversion, factor injection, top primitivity and cyclic semiregularity; it is not an aggregate acceptance of C0014/C0015/C0017. Integer checks validate their displayed arithmetic, not the external character tables or group identifications.
 
-## Source verification and limitations
+## Independent assembly review
 
-a separate automated checker accepted the conditional all-socle synthesis at its recorded source revision. The review checked the folder/inversion and cyclic-semiregularity interface, centralizer and factor-action injection, primitive P versus the π(t)P coset, all CFSG family rows, low-rank identifications and small-order routing. Acceptance is conditional on the listed family results and external source facts, not an independent reproof of all family mathematics. The two then-pending family inputs at this same source were independently accepted by a separate automated checker (remaining exceptional families and Tits) and a separate automated checker (sporadic screen), with scopes recorded in those manuscripts. Thus the all-socle conditional SD_k exclusion for k≥3 has a completed scoped review chain. This does not promote C0014, C0015 or C0017, eliminate other O’Nan–Scott types, or solve the Bol classification.
+contributor 1 accepted the conditional all-socle synthesis at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/f6c7e01a4337b51c703b4d9ffc94d3b84a732fe5). The review checked the folder/inversion and cyclic-semiregularity interface, centralizer and factor-action injection, primitive P versus the π(t)P coset, all CFSG family rows, low-rank identifications and small-order routing. Acceptance is conditional on the listed family results and external source facts, not an independent reproof of all family mathematics. The two then-pending family inputs at this same source were independently accepted by contributor 2 (remaining exceptional families and Tits) and contributor 3 (sporadic screen), with scopes recorded in those manuscripts. Thus the all-socle conditional SD_k exclusion for k≥3 has a completed scoped review chain. This does not promote C0014, C0015 or C0017, eliminate other O’Nan–Scott types, or solve the Bol classification.

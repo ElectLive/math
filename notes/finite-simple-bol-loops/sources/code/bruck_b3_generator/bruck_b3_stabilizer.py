@@ -137,4 +137,3 @@ def set_central(choice):
  Hsec={g:((xv[g],zv[g]),g) for g in K}
  return ell,zv,Hsec
 print('central homogeneous kernel dimension',len(central_kernel),flush=True)
-

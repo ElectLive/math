@@ -1,5 +1,7 @@
 # Uniform linear principal-module support for S₅ envelopes
 
+**Mira Cult**
+
 **Scoped independent mathematical review recorded below.** Let $`m\ge0`$ and let $`X`$ be a finite-dimensional $`\mathbb F_2S_5`$-module with exactly $`m`$ composition factors isomorphic to $`M`$, all other composition factors trivial. Then $`X\cong X_0\oplus A`$, with $`A`$ a sign-only module and $`\dim X_0\le112m`$. Here sign-only means that $`A_5`$ acts trivially, so $`A`$ is a direct sum of copies of the trivial module and the two-dimensional regular $`\mathbb F_2C_2`$-module $`R`$.
 
 Under the faithful Baer-envelope hypotheses in [the S₅ radical analysis](bruck-s5-radical.md)—a finite simple exponent-2 right Bruck loop, elementary abelian $`V=O_2(G)`$, and $`G/V\cong S_5`$—suppose the principal block of $`V`$ has exactly $`m`$ $`M`$-factors and its N-block is $`N^a\oplus U^b`$, with $`U=N\otimes R`$. The proposed consequences are
@@ -10,13 +12,13 @@ Under the faithful Baer-envelope hypotheses in [the S₅ radical analysis](bruck
 ```
 
 
-These are linear bounds *in* $`m`$, not a bound on $`m`$, $`b`$, or the total radical. They neither construct an envelope nor assert any splitting of its group extension. ; this continues [C0010](../../claims/0010.md).
+These are linear bounds *in* $`m`$, not a bound on $`m`$, $`b`$, or the total radical. They neither construct an envelope nor assert any splitting of its group extension. No permanent claim ID is allocated; this continues [C0010](../../claims/0010.md).
 
 ## Inputs
 
-Nagy [arXiv:0709.4544v1](https://arxiv.org/html/0709.4544v1), Lemma 4.1, gives the absolutely irreducible $`\mathbb F_2S_5`$-modules $`\mathbf1,M,N`$ of dimensions $`1,4,4`$, and the restrictions to $`F=F_{20}`$: $`M|_F`$ and $`N|_F`$ are isomorphic projective simple modules with endomorphism ring $`\mathbb F_2`$. The projectivity of $`U`$, separation of the $`N`$-block, and its decomposition as $`N^a\oplus U^b`$ are in [bruck-s5-module-blocks.md](bruck-s5-module-blocks.md), reviewed by an independent check at the recorded source revision. The finite calculation $`\mathop{\mathrm{Ext}}\nolimits^1_{S_5}(M,M)=0`$ is in [the dimension-nine analysis](bruck-s5-radical.md#dimension-nine-aggregate-review), reviewed by the same reviewer at the recorded source revision.
+Nagy [arXiv:0709.4544v1](https://arxiv.org/html/0709.4544v1), Lemma 4.1, gives the absolutely irreducible $`\mathbb F_2S_5`$-modules $`\mathbf1,M,N`$ of dimensions $`1,4,4`$, and the restrictions to $`F=F_{20}`$: $`M|_F`$ and $`N|_F`$ are isomorphic projective simple modules with endomorphism ring $`\mathbb F_2`$. The projectivity of $`U`$, separation of the $`N`$-block, and its decomposition as $`N^a\oplus U^b`$ are in [bruck-s5-module-blocks.md](bruck-s5-module-blocks.md), reviewed by contributor 1 at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499). The finite calculation $`\mathop{\mathrm{Ext}}\nolimits^1_{S_5}(M,M)=0`$ is in [the dimension-nine analysis](bruck-s5-radical.md#dimension-nine-aggregate-review), reviewed by the same reviewer at [the source revision](https://github.com/Mira-Cult/math-wip/commit/168f7a4e4cef8e5b6824b58f9cbdaf0ba05f23ea).
 
-The invariant-functional obstruction used below is in [bruck-s5-principal-envelope-bound.md](bruck-s5-principal-envelope-bound.md#proposed-invariant-functional-obstruction), reviewed at the recorded source revision. The general envelope fiber counts and inequalities are recorded in [bruck-s5-v6-fiber-bounds.md](bruck-s5-v6-fiber-bounds.md#two-independent-capacity-inequalities), with Baumeister–Stein [arXiv:0908.2597v1](https://arxiv.org/html/0908.2597v1), Lemmas 4.1 and 4.5, as source. The new arguments in this manuscript are not covered by those prior reviews.
+The invariant-functional obstruction used below is in [bruck-s5-principal-envelope-bound.md](bruck-s5-principal-envelope-bound.md#proposed-invariant-functional-obstruction), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16). The general envelope fiber counts and inequalities are recorded in [bruck-s5-v6-fiber-bounds.md](bruck-s5-v6-fiber-bounds.md#two-independent-capacity-inequalities), with Baumeister–Stein [arXiv:0908.2597v1](https://arxiv.org/html/0908.2597v1), Lemmas 4.1 and 4.5, as source. The new arguments in this manuscript are not covered by those prior reviews.
 
 ## The projective cover of M
 
@@ -112,5 +114,4 @@ These deductions use the N-block only as a module and use no quotient by it as a
 
 ## Independent review
 
-Independent checks an independent check accepted this argument at exact source the recorded source revision, conditional on the cited prior Ext, block and envelope inputs. The review checked the symmetric-algebra projective-cover dimensions, socle embedding in an injective hull, maximal sign-only quotient and Ext-row support, including m=0. It checked the invariant-functional injection, P-fixed projection and core-free socle argument for the envelope bounds, with no quotient-loop assumption. Neither m nor U multiplicity nor total radical dimension is bounded; this is a structural support result, not an envelope classification. No computation or formal verification was used.
-
+reviewer contributor 1 accepted this argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/32b5918c4b3fa3b2686185006b80d41b1ece76aa), conditional on the cited prior Ext, block and envelope inputs. The review checked the symmetric-algebra projective-cover dimensions, socle embedding in an injective hull, maximal sign-only quotient and Ext-row support, including m=0. It checked the invariant-functional injection, P-fixed projection and core-free socle argument for the envelope bounds, with no quotient-loop assumption. Neither m nor U multiplicity nor total radical dimension is bounded; this is a structural support result, not an envelope classification. No computation or formal verification was used.

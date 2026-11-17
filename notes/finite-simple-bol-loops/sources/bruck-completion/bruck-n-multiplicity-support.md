@@ -1,5 +1,7 @@
 # Polynomial active support for multiple N Frattini factors
 
+**Mira Cult**
+
 **Theorem with scoped independent reviews, continuing [0323:C0010](../../claims/0010.md).** Let $`(G,H,K)`$ be the faithful canonical envelope of a finite simple nonassociative Bruck loop of 2-power exponent. Assume $`G/P\cong S_5`$, $`P=O_2(G)`$ has class at most two and exponent at most four, and
 
 ```math
@@ -32,7 +34,7 @@ where $`Y\cong U^s`$, $`T`$ is a direct sum of the standard $`F_{20}`$-stable co
 
 These are polynomial bounds on the number of active module blocks, not on $`b`$ or the passive multiplicity $`s`$. They do not split the original section $`K`$, classify label orbits, or assert a quotient loop. The generalization in this manuscript has the exact-source reviews recorded below.
 
-The marked-fiber and paired module inputs are those of [the marked-rank source](bruck-n-frattini-marked-rank.md), reviewed at the recorded source revision. The arbitrary-$`a`$ quadratic socle bound $`c\le\lfloor3a/2\rfloor`$ is independently accepted at the recorded source revision. The $`U`$-component and pair restrictions are reviewed in [the quadratic-support source](bruck-n-frattini-quadratic-support.md) at the recorded source revision; the two-$`N`$ support and group/involution construction is reviewed at the recorded source revision. The structural original-section transport in [the section manuscript](bruck-n-frattini-sections.md) is recorded at the recorded source revision. The proofs below state the changes needed for arbitrary $`a`$; the cited two-$`N`$ reviews do not themselves certify them.
+The marked-fiber and paired module inputs are those of [the marked-rank source](bruck-n-frattini-marked-rank.md), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/123933cc594b601dd317d62b333a949d20431d35). The arbitrary-$`a`$ quadratic socle bound $`c\le\lfloor3a/2\rfloor`$ is independently accepted at [the source revision](https://github.com/Mira-Cult/math-wip/commit/1d4b306b5e94e1b2c0fb0a85809e374bca0f4327). The $`U`$-component and pair restrictions are reviewed in [the quadratic-support source](bruck-n-frattini-quadratic-support.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/b40066d01085772606b1d1160d58c033b8ba3302); the two-$`N`$ support and group/involution construction is reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/39a493024a9ee0839852b60f389fe28d155701b9). The structural original-section transport in [the section manuscript](bruck-n-frattini-sections.md) is recorded at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ced6706720b08adb94f4497534b2208f5c1a3d51). The proofs below state the changes needed for arbitrary $`a`$; the cited two-$`N`$ reviews do not themselves certify them.
 
 ## Marked capacity and the top shadow
 
@@ -129,12 +131,12 @@ Under (2), the structural hypotheses used in [the original-section and simplicit
 
 ## Independent mathematical review
 
-At exact source the recorded source revision, Independent checks an independent check, an independent check and an independent check independently accepted the full manuscript, conditional on the pinned marked-fiber, socle-bound, fixed-component, projectivity and original-section inputs. All checked the arbitrary-a capacity and top shadow, nonlinear socle reservation without vanishing marked map, simultaneous residue/epsilon rank bounds with reserved and complementary pairings, freshly recomputed square rows, and B(a). They checked the actual group/involution splitting, all a central graph copies in the actual stabilizer projection, H(a) and its cubic upper bound, active-group order and structural section transport. No new computation or primary-source audit was claimed. The result bounds active module blocks only; it does not bound b or the passive multiplicity, split K, or solve the remaining section and isomorphism constraints.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/17e56bdfb16097218249f42f10e91adcb9f5a4b8), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the full manuscript, conditional on the pinned marked-fiber, socle-bound, fixed-component, projectivity and original-section inputs. All checked the arbitrary-a capacity and top shadow, nonlinear socle reservation without vanishing marked map, simultaneous residue/epsilon rank bounds with reserved and complementary pairings, freshly recomputed square rows, and B(a). They checked the actual group/involution splitting, all a central graph copies in the actual stabilizer projection, H(a) and its cubic upper bound, active-group order and structural section transport. No new computation or primary-source audit was claimed. The result bounds active module blocks only; it does not bound b or the passive multiplicity, split K, or solve the remaining section and isomorphism constraints.
 
 <a id="proposed-extension-to-the-j-principal-shadow"></a>
 ## Extension to the J principal shadow
 
-**Appendix with the scoped independent reviews below.** The main theorem and its the recorded source revision review remain stated for $`P_6`$. Suppose instead that all the same envelope hypotheses hold with
+**Appendix with the scoped independent reviews below.** The main theorem and its [the source revision](https://github.com/Mira-Cult/math-wip/commit/17e56bdfb16097218249f42f10e91adcb9f5a4b8) review remain stated for $`P_6`$. Suppose instead that all the same envelope hypotheses hold with
 
 ```math
 V=P/Z\cong J\oplus U^b,\qquad Z=\Phi(P)\cong N^a.
@@ -150,13 +152,13 @@ The base dimension is five rather than six. The $`J`$ deduction has the exact-so
 
 ### The quadratic socle bound for J
 
-Let $`T\cong N^c`$ be the actual $`W`$-shadow intersection with $`\mathop{\mathrm{soc}}\nolimits(U^b)`$, and fix a selected marked involution $`\lambda`$ above $`t`$. The proof of the arbitrary-$`a`$ $`P_6`$ quadratic bound at the recorded source revision uses the freeness $`C_V(t)=(1+t)V`$ to establish
+Let $`T\cong N^c`$ be the actual $`W`$-shadow intersection with $`\mathop{\mathrm{soc}}\nolimits(U^b)`$, and fix a selected marked involution $`\lambda`$ above $`t`$. The proof of the arbitrary-$`a`$ $`P_6`$ quadratic bound at [the source revision](https://github.com/Mira-Cult/math-wip/commit/1d4b306b5e94e1b2c0fb0a85809e374bca0f4327) uses the freeness $`C_V(t)=(1+t)V`$ to establish
 
 ```math
 \beta(C_T(t),C_V(t))\subseteq I=(1+t)Z.                        \tag{12}
 ```
 
-Although $`J|_{\langle t\rangle}`$ need not be free, (12) remains valid. The $`U`$-fixed part is $`(1+t)U^b`$, and for $`tm=m`$, equivariance gives $`\beta(m,(1+t)u)=(1+t)\beta(m,u)`$. The **full unrestricted** $`S_5`$-space $`\mathop{\mathrm{Hom}}\nolimits(J\otimes U,N)`$ is one-dimensional, generated by augmentation on $`J`$ times top on $`U`$; hence every $`J`$-to-$`U`$ cross map annihilates the $`U`$-socle, including against all of $`C_J(t)`$. This is the full-space component calculation, prior to imposing $`d=0`$, in [the quadratic-support source](bruck-n-frattini-quadratic-support.md#fixed-components), reviewed at the recorded source revision, and its linked [fixed-component verifier](../code/verify_bruck_n_quadratic_support.py).
+Although $`J|_{\langle t\rangle}`$ need not be free, (12) remains valid. The $`U`$-fixed part is $`(1+t)U^b`$, and for $`tm=m`$, equivariance gives $`\beta(m,(1+t)u)=(1+t)\beta(m,u)`$. The **full unrestricted** $`S_5`$-space $`\mathop{\mathrm{Hom}}\nolimits(J\otimes U,N)`$ is one-dimensional, generated by augmentation on $`J`$ times top on $`U`$; hence every $`J`$-to-$`U`$ cross map annihilates the $`U`$-socle, including against all of $`C_J(t)`$. This is the full-space component calculation, prior to imposing $`d=0`$, in [the quadratic-support source](bruck-n-frattini-quadratic-support.md#fixed-components), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/b40066d01085772606b1d1160d58c033b8ba3302), and its linked [fixed-component verifier](../code/verify_bruck_n_quadratic_support.py).
 
 Also $`C_T(t)\subseteq(1+t)U^b`$ because $`U|_{\langle t\rangle}`$ is free. These are the two points needed to transport the actual-displacement proof: with $`I=(1+t)Z`$, the subgroup of actual displacements of elements above $`C_V(t)`$ has dimension $`a+\mathop{\mathrm{rank}}\nolimits\ell_\lambda`$; the quadratic discrepancy on $`C_T(t)`$, scalarized by its injective image on $`(1+t)T`$, has no nonzero zero. The same parity argument therefore gives
 
@@ -185,5 +187,4 @@ Finally, the structural original-section, core/generation and normal-triple form
 
 ## Independent review of the J extension
 
-Independent checks an independent check, an independent check and an independent check independently accepted the separate J appendix at exact source the recorded source revision, conditional on the full unrestricted J–U component identification, marked-fiber and actual-lift inputs and the reviewed P6 support/section arguments. They checked that socle annihilation replaces transposition freeness precisely where required in the discrepancy proof, the J capacity and top-shadow bound, conservative mixed-row count, actual group/stabilizer transport including central graphs, and base dimension five in the group-order bound. This review preserves the separate P6 provenance and does not classify the remaining sections or assert a product for K. No new computation or primary-source audit was claimed.
-
+reviewers contributor 1, contributor 2 and contributor 3 independently accepted the separate J appendix at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/3c3cafff03f9e9d79640b68f03883c22e57210d6), conditional on the full unrestricted J–U component identification, marked-fiber and actual-lift inputs and the reviewed P6 support/section arguments. They checked that socle annihilation replaces transposition freeness precisely where required in the discrepancy proof, the J capacity and top-shadow bound, conservative mixed-row count, actual group/stabilizer transport including central graphs, and base dimension five in the group-order bound. This review preserves the separate P6 provenance and does not classify the remaining sections or assert a product for K. No new computation or primary-source audit was claimed.

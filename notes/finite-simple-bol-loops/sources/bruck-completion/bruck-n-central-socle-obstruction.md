@@ -1,6 +1,8 @@
 # Central socle shadows in an N-Frattini envelope
 
-**Theorem with scoped independent reviews, continuing [0323:C0010](../../claims/0010.md).** Retain the faithful simple nonassociative Bruck-envelope hypotheses and notation of [the marked-rank theorem](bruck-n-frattini-marked-rank.md), at exact source the recorded source revision: $`A=G/P\cong S_5`$, $`P`$ has class at most two and exponent at most four, $`Z=\Phi(P)\cong N`$,
+**Mira Cult**
+
+**Theorem with scoped independent reviews, continuing [0323:C0010](../../claims/0010.md).** Retain the faithful simple nonassociative Bruck-envelope hypotheses and notation of [the marked-rank theorem](bruck-n-frattini-marked-rank.md), at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/123933cc594b601dd317d62b333a949d20431d35): $`A=G/P\cong S_5`$, $`P`$ has class at most two and exponent at most four, $`Z=\Phi(P)\cong N`$,
 
 ```math
 V=P/Z\cong X\oplus U^b,\qquad X\in\{J,P_6\},
@@ -12,7 +14,7 @@ $`W=H\cap P`$, and $`q:V\to Z`$ has polar $`\beta`$. In particular $`W`$ is elem
 \beta(v,tv)\in(1+t)Z\quad\text{for every }v\in V,                \tag{1}
 ```
 
-for a transposition $`t\in S_5`$. The $`N`$-block decomposition used below is [the reviewed block theorem](bruck-s5-module-blocks.md), at the recorded source revision. The quadratic-support rank argument is [the reviewed support theorem](bruck-n-frattini-quadratic-support.md), at the recorded source revision. The present deduction has the scoped exact-source reviews below. It gives a necessary condition, not an envelope classification.
+for a transposition $`t\in S_5`$. The $`N`$-block decomposition used below is [the reviewed block theorem](bruck-s5-module-blocks.md), at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499). The quadratic-support rank argument is [the reviewed support theorem](bruck-n-frattini-quadratic-support.md), at [the source revision](https://github.com/Mira-Cult/math-wip/commit/b40066d01085772606b1d1160d58c033b8ba3302). The present deduction has the scoped exact-source reviews below. It gives a necessary condition, not an envelope classification.
 
 ## The actual-lift obstruction
 
@@ -86,7 +88,7 @@ This conclusion concerns the quadratic datum and the actual stabilizer shadow un
 
 ## Invariant functionals and an excluded J branch
 
-**Further deductions with the scoped reviews below.** These use the preceding actual-lift lemma, the marked-rank and quadratic-component inputs already cited, and the central-extension detection used in [the principal-envelope bound](bruck-s5-principal-envelope-bound.md), independently reviewed at the recorded source revision. In particular, detection of a central $`C_2`$-extension of $`S_5`$ by its restrictions to $`F_{20}`$ and a transposition was used at the recorded source revision and the recorded source revision, under the source qualifications recorded in the principal-envelope manuscript. The following extends its elementary-radical pushout argument to the present possibly nonabelian $`P`$; that extension has the scoped reviews below.
+**Further deductions with the scoped reviews below.** These use the preceding actual-lift lemma, the marked-rank and quadratic-component inputs already cited, and the central-extension detection used in [the principal-envelope bound](bruck-s5-principal-envelope-bound.md), independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16). In particular, detection of a central $`C_2`$-extension of $`S_5`$ by its restrictions to $`F_{20}`$ and a transposition was used at [the source revision](https://github.com/Mira-Cult/math-wip/commit/65c54aff108cc70208bf6f7271b1e5cf6a0a76bc) and [the source revision](https://github.com/Mira-Cult/math-wip/commit/71f7eae94a6d7ce43563047929bd0be7e8fe1285), under the source qualifications recorded in the principal-envelope manuscript. The following extends its elementary-radical pushout argument to the present possibly nonabelian $`P`$; that extension has the scoped reviews below.
 
 First, restriction to $`\overline W`$ is injective on $`S_5`$-invariant linear functionals $`V\to\mathbb F_2`$. Suppose a nonzero invariant functional $`a`$ vanishes on $`\overline W`$, and let $`L`$ be the kernel of its pullback $`P\to\mathbb F_2`$. Then $`L\lhd G`$, $`Z\le L`$, and $`G/L`$ is a central $`C_2`$-extension of $`S_5`$. The image of $`H`$ complements its central kernel over $`F_{20}`$, because $`H\cap P=W\le L`$.
 
@@ -121,7 +123,7 @@ In particular they exclude $`X=J`$ with $`b=0`$ or $`b=1`$, since an alternating
 
 ## Independent review
 
-At exact source the recorded source revision, Independent checks an independent check, an independent check and an independent check independently accepted the full manuscript, conditional on the pinned N-block, marked-rank, quadratic-component/support and central-extension detection inputs and their recorded source qualifications. All checked the actual elementary lift and transposition-rank splitting, the F20-to-S5 stability and core contradiction, the nonabelian-radical pushout including triviality of the induced involution and the actual transposition lift, the mandatory fixed dimension and the all-b J exclusion. No new computation was required or claimed. Their acceptance covers these necessary restrictions and exclusions, not the remaining P6 or nonzero-residue J branches, a fresh primary-source audit or formal verification.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/bf11794257554b943a1b26ca15acd861f9faaa7f), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the full manuscript, conditional on the pinned N-block, marked-rank, quadratic-component/support and central-extension detection inputs and their recorded source qualifications. All checked the actual elementary lift and transposition-rank splitting, the F20-to-S5 stability and core contradiction, the nonabelian-radical pushout including triviality of the induced involution and the actual transposition lift, the mandatory fixed dimension and the all-b J exclusion. No new computation was required or claimed. Their acceptance covers these necessary restrictions and exclusions, not the remaining P6 or nonzero-residue J branches, a fresh primary-source audit or formal verification.
 
 ## A rank bound for any stable stabilizer shadow
 
@@ -234,5 +236,4 @@ whose transposition rank is $`2+4u+(2r-2u)=2+2r+2u\ge4`$. This contradicts (8). 
 
 ## Independent review of stable shadows
 
-At exact source the recorded source revision, Independent checks an independent check, an independent check and an independent check independently accepted the stable-shadow rank bound and both appended J exclusions, conditional on the earlier central-socle/invariant-functional, marked-rank and pair-restriction inputs. All checked the actual elementary preimage with its possible P-induced shear, the discrepancy injection, the two scalar alternating forms, the nonsingular dimension bound and the explanation of epsilon-stability. They also checked the pure-socle condition and equality argument in the singular case when the whole J is in the shadow, and the constructed stable U/N summands. No new computation was required. Their scope excludes nonsingular C0 and whole-J shadows, not every J case or the exceptional mixed graph.
-
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/cdfe466523a3358d1636f517f51664f3c7c51e22), reviewers contributor 1, contributor 2 and contributor 4 independently accepted the stable-shadow rank bound and both appended J exclusions, conditional on the earlier central-socle/invariant-functional, marked-rank and pair-restriction inputs. All checked the actual elementary preimage with its possible P-induced shear, the discrepancy injection, the two scalar alternating forms, the nonsingular dimension bound and the explanation of epsilon-stability. They also checked the pure-socle condition and equality argument in the singular case when the whole J is in the shadow, and the constructed stable U/N summands. No new computation was required. Their scope excludes nonsingular C0 and whole-J shadows, not every J case or the exceptional mixed graph.

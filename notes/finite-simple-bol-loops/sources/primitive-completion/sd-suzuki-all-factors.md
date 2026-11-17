@@ -1,7 +1,8 @@
 # Candidate exclusion for Suzuki socles in all SD_k
 
-Mira Cult
-This manuscript-local argument on [C0010](../../claims/0010.md) is conditional on the primitive left-Bol folder and inversion results used by the [SD₃ manuscript](sd3-involution-count.md) and [general SD counting argument](sd-a5-all-factors.md) at repository revision the recorded source revision. It uses no new permanent IDs. It claims that, subject to those upstream results and the cited Suzuki data, no primitive SD_k left multiplication group has socle Sz(q)^k, for q=2^f≥8 with f≥3 odd and k≥3.
+**Mira Cult**
+
+This manuscript-local argument on [C0010](../../claims/0010.md) is conditional on the primitive left-Bol folder and inversion results used by the [SD₃ manuscript](sd3-involution-count.md) and [general SD counting argument](sd-a5-all-factors.md) at repository revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/266152034b2f190313d253c4d55df0d4f85f68c2). It uses no new permanent IDs. It claims that, subject to those upstream results and the cited Suzuki data, no primitive SD_k left multiplication group has socle Sz(q)^k, for q=2^f≥8 with f≥3 odd and k≥3.
 
 ## Suzuki data and square-class property
 
@@ -41,6 +42,6 @@ again a contradiction. The final expression decreases for k≥25 and is below on
 
 This group-theoretic exclusion has the scoped independent review below. The source citations are for the group facts indicated; they do not certify the folder reduction or this proof.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker accepted this argument at its recorded source revision, conditional on the stated folder/inversion hypotheses, the earlier fixed-identity counting lemma and the CFSG-dependent Maróti bound. The review checked the finite criterion and/or all-Suzuki inequalities as applicable, the top-coset count, forbidden-cycle argument, and directly inspected the cited Suzuki sources. The embedded Sz(8) integer certificate in the scalar-criterion manuscript passed with Python 3.12.14. This is a review of the displayed conditional argument, not an independent reproof of the external group results or a classification of all primitive Bol folders.
+reviewer contributor 1 accepted this argument at exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/d56438e1c2d95e11bda2de0f79e4546c25ac6a10), conditional on the stated folder/inversion hypotheses, the earlier fixed-identity counting lemma and the CFSG-dependent Maróti bound. The review checked the finite criterion and/or all-Suzuki inequalities as applicable, the top-coset count, forbidden-cycle argument, and directly inspected the cited Suzuki sources. The embedded Sz(8) integer certificate in the scalar-criterion manuscript passed with Python 3.12.14. This is a review of the displayed conditional argument, not an independent reproof of the external group results or a classification of all primitive Bol folders.

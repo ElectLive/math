@@ -6,6 +6,18 @@ The statements below describe the project's manuscripts. They are research proof
 
 Throughout, “canonical group” means the faithful left multiplication group with its distinguished translations, identity stabilizer and inversion. It does not mean the full multiplication group.
 
+## Latest classification advances
+
+The current source collection adds a conditional **natural alternating full multiplication group theorem for every odd-order simple nonassociative Bol loop**, and a conditional natural **A_n/S_n full-action theorem whenever LMlt is solvable**. These determine the full permutation action, not the loop operation. The unrestricted classification remains open.
+
+- [0082: Odd simple Bol loops have alternating full multiplication group](manuscripts/0082-odd-alternating-full-group.md).
+- [0083: Solvable left multiplication: full action and exclusions](manuscripts/0083-solvable-left-full-action.md).
+- [0084: Paired alternating and other simple-group models](manuscripts/0084-paired-simple-classifications.md).
+- [0085: Exclusion of the specified two-N Bruck branch](manuscripts/0085-two-n-bruck-exclusion.md).
+- [0086: Frobenius models and proper-coordinate residuals](manuscripts/0086-frobenius-and-stable-actions.md).
+
+The later all-PSL₂ canonical-overgroup and full-socle exclusions remain proposed at the synchronized checkpoint; they are not promoted here to reviewed results. See [publication scope and verification](CLASSIFICATION_SYNC.md).
+
 ## 1. Examples that change the classification problem
 
 ### Outside both G-loops and Bruck isotopes

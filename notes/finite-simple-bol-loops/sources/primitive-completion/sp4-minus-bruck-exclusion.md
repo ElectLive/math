@@ -1,7 +1,8 @@
 # A conditional exclusion for the Sp4 minus-refinement action
 
-Mira Cult
-This is a route with the scoped independent review recorded below for the rank-three reduction in [C0017](../../claims/0017.md) and the residual frontier [C0010](../../claims/0010.md). It is not a proof of the CFSG-free aggregate claim [C0016](../../claims/0016.md). The final group-theoretic step invokes the CFSG-dependent Bruck-loop structure theorem. The argument covers $`q=2^f`$ for every $`f\ge2`$; its $`q=4`$ geometric input is the local argument linked below, which has the scoped review at its recorded source revision recorded in C0016. The $`f\ge3`$ extension and the assembled argument have the scoped review below.
+**Mira Cult**
+
+This is a route with the scoped independent review recorded below for the rank-three reduction in [C0017](../../claims/0017.md) and the residual frontier [C0010](../../claims/0010.md). It is not a proof of the CFSG-free aggregate claim [C0016](../../claims/0016.md). The final group-theoretic step invokes the CFSG-dependent Bruck-loop structure theorem. The argument covers $`q=2^f`$ for every $`f\ge2`$; its $`q=4`$ geometric input is the local argument linked below, which has the scoped review at [the source revision](https://github.com/Mira-Cult/math-wip/commit/a02c94ee44243d7ab1efff303dc49198b62844ef) recorded in C0016. The $`f\ge3`$ extension and the assembled argument have the scoped review below.
 
 ## Geometric setup and inputs
 
@@ -114,6 +115,6 @@ Every $`2`$-element of $`\mathop{\mathrm{GL}}\nolimits_2(q)`$ has order at most 
 
 Subject to the stated geometric inputs, this excludes left Bol loops in the full semilinear action for all $`f\ge2`$ using the cited CFSG-dependent Bruck theorem. The assembled argument has the scoped independent review below; it does not by itself certify C0017 or the unrestricted classification.
 
-## Source verification and limitations
+## Scoped independent review
 
-At exact revision the recorded source revision, a separate automated checker independently accepted the all-field exclusion for $`q=2^f\ge4`$, under the stated CFSG-dependent Baumeister–Stein theorem and standard refinement/Arf and Witt facts. The review checked the coefficient cases, both-side displacement argument, Bruck conversion, fixed-space and parabolic cases, and the order-four obstruction. It directly checked Theorem 1(c)(1),(3) and Remark 1.1(2) in the versioned primary source, and used the earlier bounded $`q=4`$ review at its recorded source revision. It is not an aggregate C0016/C0017 review or a CFSG-free proof.
+At exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/5c011bc5e8b375a1e85058811590bf0d672198f2), contributor 1 independently accepted the all-field exclusion for $`q=2^f\ge4`$, under the stated CFSG-dependent Baumeister–Stein theorem and standard refinement/Arf and Witt facts. The review checked the coefficient cases, both-side displacement argument, Bruck conversion, fixed-space and parabolic cases, and the order-four obstruction. It directly checked Theorem 1(c)(1),(3) and Remark 1.1(2) in the versioned primary source, and used the earlier bounded $`q=4`$ review at [the source revision](https://github.com/Mira-Cult/math-wip/commit/a02c94ee44243d7ab1efff303dc49198b62844ef). It is not an aggregate C0016/C0017 review or a CFSG-free proof.

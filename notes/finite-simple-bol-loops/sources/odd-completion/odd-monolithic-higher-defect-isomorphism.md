@@ -1,11 +1,12 @@
 # Isomorphism classes of higher-defect Heisenberg loops
 
-Mira Cult
-This is scoped to the explicit lex-support family in [the higher-defect construction](odd-monolithic-defect-two.md), exact reviewed source the recorded source revision, not all simple odd loops or all folders on its envelope. Let E=F_{3^6}, F₀=F_{3^3}; M,M′ are good F₀-lines, U≤M and U′≤M′ are respective F₃-lines, and (b₁+U,b₂+U), (b₁′+U′,b₂′+U′) are ordered F₃-bases of the respective two-dimensional quotients.
+**Mira Cult**
+
+**Theorem with scoped independent reviews, continuing [0323:C0010](../../claims/0010.md).** This is scoped to the explicit lex-support family in [the higher-defect construction](odd-monolithic-defect-two.md), exact reviewed source [the source revision](https://github.com/Mira-Cult/math-wip/commit/b40066d01085772606b1d1160d58c033b8ba3302), not all simple odd loops or all folders on its envelope. Let E=F_{3^6}, F₀=F_{3^3}; M,M′ are good F₀-lines, U≤M and U′≤M′ are respective F₃-lines, and (b₁+U,b₂+U), (b₁′+U′,b₂′+U′) are ordered F₃-bases of the respective two-dimensional quotients.
 
 Claim: the displayed loops are isomorphic exactly when there are h∈F₀× and j∈{0,2,4} such that
 
-M′=h M^{3^j}, U′=h U^{3^j},
+  M′=h M^{3^j}, U′=h U^{3^j},
   b_i′+U′=h b_i^{3^j}+U′ for i=1,2.                         (1)
 
 Sufficiency: take c∈R the unique square root of 3^j in F₇×. The map Σv_u e_u↦hΣv_u^{3^j}e_{cu}, with uniform coordinate scaling c, intertwines x_i↦x_i^c, y_i↦y_i^c, z↦z^{c²}, a_i↦a_i. It commutes with σ, preserves the lexicographic residue support and sends W and the two graph classes as in (1). Thus it identifies canonical folders and loops.
@@ -28,19 +29,21 @@ The same normalizer and lex-order argument works for r=3: the central-product qu
 
 Let q≡7 mod 12 be prime, d=ord_q(3), m=d/2, and 1≤r≤m; assume the Fourier minor hypothesis in the reviewed higher-defect construction. Set E=F_{3^d} and F₀=F_{3^m}. For a good F₀-line M choose an F₃-subspace U≤M of codimension r and an ordered basis (b_i+U) of M/U. The preceding proof gives the following full within-family isomorphism criterion: two such loops are isomorphic if and only if there are h∈F₀× and an even j modulo d with
 
-M′=hM^{3^j},  U′=hU^{3^j},  b_i′+U′=h b_i^{3^j}+U′  (1≤i≤r).  (2)
+    M′=hM^{3^j},  U′=hU^{3^j},  b_i′+U′=h b_i^{3^j}+U′  (1≤i≤r).  (2)
 
 For necessity, O_q(J)=X and θ-commutation preserve X and Y and impose the same P on both; the central commutator gives PᵀP=3^jI. Normalizing A forces P to be monomial, including an a priori coordinate permutation. Since q≡7 mod 12, both −1 and 3 are quadratic nonresidues. The support test on each coordinate axis forces every nonzero monomial entry to be a residue; the lex-order test on two coordinates of opposite residue sign excludes every nonidentity permutation. Every diagonal entry is therefore the unique residue square root of 3^j; in particular j is even and all entries agree. Thus A is fixed coordinatewise. When U≠0 the E-span of W has support S_r; when U=0 it has support S_r−{0}, and adjoining the fixed origin recovers S_r. The coordinate and cocycle comparison is otherwise unchanged. The converse uses the same common scaling/Frobenius map as above.
 
 This is an orbit criterion, not an asserted closed orbit count for general q and r. It includes the reviewed r=1 line criterion and the q=7 counts above. The independent exact-source mathematical reviews below do not assert a general all-odd classification or unbounded defect.
 
-This classifies the stated construction family, not arbitrary higher-defect loops or all stabilizers on these envelopes; no literature-priority or unbounded-defect assertion is made.
+## Independent review
+
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/1a8a1eddcdfaeb5fab6f3e7682a37c5597a3b522), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the full within-family orbit criterion for all admitted q and r and the q=7 counts 168 and 3024, conditional on the reviewed higher-defect construction, its Fourier-minor hypothesis and canonical-folder/cohomology inputs. All checked the tau-compatible complement alignment, absence of hidden X/Y/A twists, monomial normalizer and lexicographic support restriction, common scalar and even Frobenius, ordered origin cohomology data, U=0 support recovery and freeness arguments. No new computation was used or claimed. This classifies the stated construction family, not arbitrary higher-defect loops or all stabilizers on these envelopes; no literature-priority or unbounded-defect assertion is made.
 
 ## Proposed closed count for the uniform family
 
 **Deduction with the scoped independent reviews below, from the reviewed orbit criterion above.** Under its hypotheses, m is odd: q-1 has exactly one factor of two, and the reviewed nonresidue condition on 3 makes ord_q(3)=2m even. Consequently gcd(m,2k)=gcd(m,k). Put
 
-Q=3^m+1,   g_k=gcd(m,k),
+    Q=3^m+1,   g_k=gcd(m,k),
     a_k=gcd(9^k−1,Q)−gcd(9^k−1,q)        (0≤k<m).
 
 In particular a₀=Q−q. The number of isomorphism classes in the displayed q,r family is
@@ -59,22 +62,14 @@ The data U and its ordered quotient basis are equivalent to a surjective F₃-li
 
 The coinvariant space F₀/(Frob₉^k−1)F₀ has F₃-dimension g, since its dimension equals that of the fixed field F_{3^g}. The number of surjections from it to F₃^r is ∏_{i=0}^{r−1}(3^g−3^i). For each k the fixed-data count is therefore
 
-a_k · (3^m−1)/(3^g−1) · ∏_{i=0}^{r−1}(3^g−3^i).
+    a_k · (3^m−1)/(3^g−1) · ∏_{i=0}^{r−1}(3^g−3^i).
 
 Dividing the sum by m(3^m−1) cancels the i=0 factor and gives (3), including its zero convention. No assumption that a Frobenius-fixed line is pointwise fixed is used: its scalar factor is absorbed into α.
 
 For q=7, m=3, (3) gives 168 and 3024 at r=2 and r=3. For q=19, m=9 and r=2, its nine summands before dividing by 9 are
 
-387007200, 0, 0, 648, 0, 0, 648, 0, 0,
+    387007200, 0, 0, 648, 0, 0, 648, 0, 0,
 
 so the count is 43000944. The integer arithmetic is a check of the displayed formula, not an independent review or a census of other constructions.
 
-This is a uniform within-family count, not an exhaustive census of other loops, an infinitude assertion or formal verification.
-
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-All checked the tau-compatible complement alignment, absence of hidden X/Y/A twists, monomial normalizer and lexicographic support restriction, common scalar and even Frobenius, ordered origin cohomology data, U=0 support recovery and freeness arguments. No new computation was used or claimed. This classifies the stated construction family, not arbitrary higher-defect loops or all stabilizers on these envelopes; no literature-priority or unbounded-defect assertion is made.
-
-All checked odd m, setwise-fixed lines with arbitrary scalar twists, the relative norm condition and cyclic conjugacy, ordered quotient-basis/surjection correspondence, coinvariant dimension, cancellation and zero/empty-product cases. Each independently checked the q=19,r=2 arithmetic, obtaining the displayed summands and 43,000,944; the HS reviewer also checked the q=7 controls. This is a uniform within-family count, not an exhaustive census of other loops, an infinitude assertion or formal verification.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/cdfe466523a3358d1636f517f51664f3c7c51e22), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the closed-count deduction, conditional on the earlier orbit criterion, one-factor fixed-good-line count and minor hypothesis. All checked odd m, setwise-fixed lines with arbitrary scalar twists, the relative norm condition and cyclic conjugacy, ordered quotient-basis/surjection correspondence, coinvariant dimension, cancellation and zero/empty-product cases. Each independently checked the q=19,r=2 arithmetic, obtaining the displayed summands and 43,000,944; the HS reviewer also checked the q=7 controls. This is a uniform within-family count, not an exhaustive census of other loops, an infinitude assertion or formal verification.

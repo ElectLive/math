@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0082",
+  "next_id": "0087",
   "manuscripts": [
     {
       "id": "0053",
@@ -1897,6 +1897,136 @@
       "id": "0081",
       "source": "analytic-2026-11-16/manuscripts/bol-action-compatible-transfer.md",
       "group": "intrinsic-and-analytic-bol"
+    },
+    {
+      "id": "0082",
+      "source": "manuscripts/0082-odd-alternating-full-group.md",
+      "group": "odd-alternating-full-group"
+    },
+    {
+      "id": "0083",
+      "source": "manuscripts/0083-solvable-left-full-action.md",
+      "group": "solvable-left-full-action"
+    },
+    {
+      "id": "0084",
+      "source": "manuscripts/0084-paired-simple-classifications.md",
+      "group": "paired-simple-classifications"
+    },
+    {
+      "id": "0085",
+      "source": "manuscripts/0085-two-n-bruck-exclusion.md",
+      "group": "two-n-bruck-exclusion"
+    },
+    {
+      "id": "0086",
+      "source": "manuscripts/0086-frobenius-and-stable-actions.md",
+      "group": "frobenius-and-stable-actions"
+    },
+    {
+      "id": "0072",
+      "source": "sources/odd-completion/odd-layer-weighted-fibers.md",
+      "group": "odd-layer-weighted-fibers"
+    },
+    {
+      "id": "0078",
+      "source": "sources/factor-permutation/radical-free-psl27-transitive-odd-trace.md",
+      "group": "radical-free-psl27-transitive-odd-trace"
+    },
+    {
+      "id": "0086",
+      "source": "sources/factor-permutation/a5-metabelian-residual-normal-form.md",
+      "group": "a5-metabelian-residual-normal-form"
+    },
+    {
+      "id": "0084",
+      "source": "sources/primitive-completion/paired-psl-singer-parabolic.md",
+      "group": "paired-psl-singer-parabolic"
+    },
+    {
+      "id": "0086",
+      "source": "sources/factor-permutation/radical-free-a5-stable49-exclusion.md",
+      "group": "radical-free-a5-stable49-exclusion"
+    },
+    {
+      "id": "0085",
+      "source": "sources/bruck-completion/bruck-b3-identity-inversion-phase.md",
+      "group": "bruck-b3-identity-inversion-phase"
+    },
+    {
+      "id": "0077",
+      "source": "sources/factor-permutation/radical-free-psl2-transitive-odd-tops.md",
+      "group": "radical-free-psl2-transitive-odd-tops"
+    },
+    {
+      "id": "0086",
+      "source": "sources/factor-permutation/frobenius-top-proper-image-families.md",
+      "group": "frobenius-top-proper-image-families"
+    },
+    {
+      "id": "0084",
+      "source": "sources/primitive-completion/paired-alternating-product-classification.md",
+      "group": "paired-alternating-product-classification"
+    },
+    {
+      "id": "0085",
+      "source": "sources/bruck-completion/bruck-two-n-shadow-incidence.md",
+      "group": "bruck-two-n-shadow-incidence"
+    },
+    {
+      "id": "0076",
+      "source": "sources/factor-permutation/radical-free-a5-nonsurjective-paired-support.md",
+      "group": "radical-free-a5-nonsurjective-paired-support"
+    },
+    {
+      "id": "0084",
+      "source": "sources/primitive-completion/paired-simple-nonproduct-construction.md",
+      "group": "paired-simple-nonproduct-construction"
+    },
+    {
+      "id": "0084",
+      "source": "sources/primitive-completion/paired-alternating-nonproduct-classification.md",
+      "group": "paired-alternating-nonproduct-classification"
+    },
+    {
+      "id": "0084",
+      "source": "sources/primitive-completion/paired-alternating-dickson-multiplicity.md",
+      "group": "paired-alternating-dickson-multiplicity"
+    },
+    {
+      "id": "0075",
+      "source": "sources/factor-permutation/odd-quotient-multiplicity.md",
+      "group": "odd-quotient-multiplicity"
+    },
+    {
+      "id": "0084",
+      "source": "sources/primitive-completion/paired-alternating-sign-bridge.md",
+      "group": "paired-alternating-sign-bridge"
+    },
+    {
+      "id": "0086",
+      "source": "sources/factor-permutation/frobenius-singleton-strip-family.md",
+      "group": "frobenius-singleton-strip-family"
+    },
+    {
+      "id": "0084",
+      "source": "sources/primitive-completion/paired-alternating-sharp2hom.md",
+      "group": "paired-alternating-sharp2hom"
+    },
+    {
+      "id": "0084",
+      "source": "sources/primitive-completion/paired-sporadic-classification.md",
+      "group": "paired-sporadic-classification"
+    },
+    {
+      "id": "0084",
+      "source": "sources/primitive-completion/paired-ambivalent-alternating-classification.md",
+      "group": "paired-ambivalent-alternating-classification"
+    },
+    {
+      "id": "0086",
+      "source": "sources/factor-permutation/frobenius147-classification.md",
+      "group": "frobenius147-classification"
     }
   ]
 }

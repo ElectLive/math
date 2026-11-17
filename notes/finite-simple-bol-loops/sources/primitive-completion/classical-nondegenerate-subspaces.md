@@ -1,7 +1,8 @@
 # Natural actions on nondegenerate classical subspaces
 
-Mira Cult
-**Status:** Independently reviewed under the exact scope recorded below. This continues the residual `0323-finite-simple-non-moufang-bol-loops:C0010` frontier. Its loop consequences depend on C0008 Lemma 2.1. The groups below are the explicitly stated natural semilinear groups; identifying them with full almost-simple action stabilizers is a separate obligation. No CFSG is used in the proposed geometric argument.
+**Mira Cult**
+
+**Status:** Independently reviewed under the exact scope recorded below. This continues the residual `0323-finite-simple-non-moufang-bol-loops:C0010` frontier and introduces no claim ID. Its loop consequences depend on C0008 Lemma 2.1. The groups below are the explicitly stated natural semilinear groups; identifying them with full almost-simple action stabilizers is a separate obligation. No CFSG is used in the proposed geometric argument.
 
 ## Completion lemma
 
@@ -30,4 +31,4 @@ For orthogonal nondegenerate subspace actions, completion must preserve the pres
 Independent review should check Witt completion and extension in all dimensions and characteristics, transitivity and faithful action conventions, the disjointness UOD deduction, orthogonal-complement equivariance, the exact upstream unitary $`\eta`$ result and its pin, and the symplectic two-plane counterexample. These proposed action-specific exclusions do not resolve the general primitive almost-simple classification.
 
 
-automated reviewers a separate automated checker accepted the argument at its recorded source revision, checking Witt completion in all finite characteristics, the dimension bounds, disjointness, orthogonal complementation and the symplectic two-plane counterexample. The review assumes C0008 Lemma 2.1 and, for unitary k=2, q≥3, the eta obstruction reviewed at its recorded source revision. It covers the stated natural actions, not arbitrary almost-simple action interfaces, orthogonal spaces, or q=2 unitary two-planes.
+reviewer contributor 1 accepted the argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/698ce5f6d50e7186f205a63f4a2c413145775915), checking Witt completion in all finite characteristics, the dimension bounds, disjointness, orthogonal complementation and the symplectic two-plane counterexample. The review assumes C0008 Lemma 2.1 and, for unitary k=2, q≥3, the eta obstruction reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/13e21094894aed868a16d7859db036ca7cfc1a69). It covers the stated natural actions, not arbitrary almost-simple action interfaces, orthogonal spaces, or q=2 unitary two-planes.

@@ -1,7 +1,8 @@
 # An obstruction for incidence-flag actions
 
-Mira Cult
-**Status:** Independently reviewed under the exact scope recorded below. This is a bounded continuation of `0323-finite-simple-non-moufang-bol-loops:C0010` and no CFSG assumption. The loop consequence uses C0008 Lemma 2.1. The theorem concerns the specified action on graph edges; the occurrence, primitivity, and full almost-simple stabilizer of a particular classical flag action are separate questions.
+**Mira Cult**
+
+**Status:** Independently reviewed under the exact scope recorded below. This is a bounded continuation of `0323-finite-simple-non-moufang-bol-loops:C0010`, with no new claim ID and no CFSG assumption. The loop consequence uses C0008 Lemma 2.1. The theorem concerns the specified action on graph edges; the occurrence, primitivity, and full almost-simple stabilizer of a particular classical flag action are separate questions.
 
 ## Theorem
 
@@ -28,4 +29,4 @@ More generally, let $`P`$ act on a set $`\Omega`$ preserving an equivalence rela
 Independent review should check the edge-action conventions, the symplectic incidence example and small fields, and any use of the result in a specific primitive almost-simple classification.
 
 
-automated reviewers a separate automated checker accepted the argument at its recorded source revision, checking both type-preserving and type-swapping automorphisms, the twin-free condition, the symplectic q≥2 example, the six-cycle boundary and faithful-quotient deduction. The loop consequence uses C0008 Lemma 2.1. The review does not identify the full group or primitivity of any other almost-simple flag action.
+reviewer contributor 1 accepted the argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/698ce5f6d50e7186f205a63f4a2c413145775915), checking both type-preserving and type-swapping automorphisms, the twin-free condition, the symplectic q≥2 example, the six-cycle boundary and faithful-quotient deduction. The loop consequence uses C0008 Lemma 2.1. The review does not identify the full group or primitivity of any other almost-simple flag action.

@@ -1,5 +1,7 @@
 # Affine transposition fibers for J with multiple N factors
 
+**Mira Cult**
+
 **Scoped constraints**, continuing [0323:C0010](../../claims/0010.md). Let $`(G,H,K)`$ be a faithful canonical envelope of a finite simple nonassociative Bruck loop of 2-power exponent. Put $`P=O_2(G)`$, suppose $`P`$ has class at most two and exponent at most four, and assume
 
 ```math
@@ -9,7 +11,7 @@ G/P\cong S_5,\qquad Z=\Phi(P)\cong N^a,\qquad
 
 Here $`J=P_6/\langle\mathbf1\rangle`$, with $`P_6`$ the six-point permutation module; $`N`$ is the deleted five-point simple and $`U=N\otimes\mathbb F_2[C_2]`$, with sign action on the second factor. In particular $`J`$ is not its dual. The conclusions concern actual selected marked fibers. They neither construct a quotient loop nor assume every involution lift is selected.
 
-The J cohomology and restriction inputs are [the dimension-five source](bruck-s5-dimension-five.md) at the recorded source revision and its independent $`H^3`$ certificate at the recorded source revision, with the Nagy normalizer restriction in [bruck-s5-radical.md](bruck-s5-radical.md). The N-block cohomology is reviewed at the recorded source revision. The original marked-fiber and quadratic identity inputs are reviewed at the recorded source revision, and their J/multiple-N setting and socle bounds at the recorded source revision. Independent exact-source reviews of the extension and selected-fiber deductions are recorded below.
+The J cohomology and restriction inputs are [the dimension-five source](bruck-s5-dimension-five.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/266152034b2f190313d253c4d55df0d4f85f68c2) and its independent $`H^3`$ certificate at [the source revision](https://github.com/Mira-Cult/math-wip/commit/418b4d50d1d6deb2e72182e867f1b1f70450fa92), with the Nagy normalizer restriction in [bruck-s5-radical.md](bruck-s5-radical.md). The N-block cohomology is reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499). The original marked-fiber and quadratic identity inputs are reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/123933cc594b601dd317d62b333a949d20431d35), and their J/multiple-N setting and socle bounds at [the source revision](https://github.com/Mira-Cult/math-wip/commit/3c3cafff03f9e9d79640b68f03883c22e57210d6). Independent exact-source reviews of the extension and selected-fiber deductions are recorded below.
 
 ## Extension coordinates and relative inversion
 
@@ -109,5 +111,4 @@ This excludes the nonzero transposition-restriction extension types for every od
 
 ## Independent review
 
-Three independent Independent checks mathematical reviewers — an independent check, an independent check and an independent check — accepted the extension coordinates, both actual affine shadow torsors and the odd-multiplicity transposition-bit obstruction at exact source the recorded source revision, conditional on the cited cohomology, module and marked-fiber inputs. Each checked the common intrinsic map, vanishing square obstruction, selected-origin count and actual centralizer exchange. No new computation or primary-source audit was performed. These are necessary constraints, not a realization theorem or a full J-branch exclusion.
-
+Three independent mathematical reviewers — `review_s5_h3`, `review_hs_full` and `review_presentations` — accepted the extension coordinates, both actual affine shadow torsors and the odd-multiplicity transposition-bit obstruction at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/4c93742a59ccdd786f23598f0374f674c6f75fff), conditional on the cited cohomology, module and marked-fiber inputs. Each checked the common intrinsic map, vanishing square obstruction, selected-origin count and actual centralizer exchange. No new computation or primary-source audit was performed. These are necessary constraints, not a realization theorem or a full J-branch exclusion.

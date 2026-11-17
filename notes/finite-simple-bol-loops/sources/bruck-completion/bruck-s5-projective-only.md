@@ -1,12 +1,14 @@
 # Candidate projective-only N-block reduction
 
+**Mira Cult**
+
 **Scoped independent mathematical and computational review recorded below.** Let (G,H,K) be the faithful Baer envelope of a finite simple exponent-two Bruck loop, with V=O₂(G) elementary abelian, G/V≅S₅, and exactly one composition factor M in the principal {1,M}-block. Under the previously reviewed envelope and module inputs cited below, the argument establishes, under those inputs, that
 
     V ≅ X ⊕ U^b,    X∈{J,V₆},    b≥0,
 
 where J=F₂⁶/⟨1⟩, V₆ is its indicated nonsplit six-dimensional extension, N is the four-dimensional natural even-weight module and U=N⊗F₂C₂. In particular, no direct N-summand survives. This is a bounded continuation of [C0010](../../claims/0010.md), with no new claim ID. It does not classify the remaining U^b branches or make a claim for arbitrarily many M factors.
 
-The [principal stabilizer reduction](bruck-s5-principal-stabilizer-fixed.md#independent-four-model-review-and-remaining-envelope-candidates), at exact source the recorded source revision and its stated dependencies, leaves X=J or V₆. The [N-block decomposition](bruck-s5-module-blocks.md), reviewed at the recorded source revision, gives the complementary block as N^a⊕U^b. The [J-branch](bruck-s5-j-branch.md), reviewed at the recorded source revision, and [V₆ fiber bounds](bruck-s5-v6-fiber-bounds.md), reviewed at that same revision, provide the branch-specific W and transposition-fiber hypotheses below. The new argument has its separate review below.
+The [principal stabilizer reduction](bruck-s5-principal-stabilizer-fixed.md#independent-four-model-review-and-remaining-envelope-candidates), at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/ab4059e6a9b8d5876e2bffa993bb98e7dac69025) and its stated dependencies, leaves X=J or V₆. The [N-block decomposition](bruck-s5-module-blocks.md), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499), gives the complementary block as N^a⊕U^b. The [J-branch](bruck-s5-j-branch.md), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/527aa14d458a5b7d43cef2be7faef4c90033b975), and [V₆ fiber bounds](bruck-s5-v6-fiber-bounds.md), reviewed at that same revision, provide the branch-specific W and transposition-fiber hypotheses below. The new argument has its separate review below.
 
 ## Shared fixed/image witness
 
@@ -49,5 +51,4 @@ The two explicit a=2, b=0 obstruction computations in [the J⊕N² manuscript](b
 
 ## Independent review
 
-an independent check accepted this uniform reduction at exact source the recorded source revision, conditional on the cited prior J/V₆, cohomology, module and fiber inputs. The review read the dependency chain and independently ran the shared certificate with Python 3.12.14, reproducing the paired S₅ action, full-rank F-intertwiner and all fixed/image identities. It checked the zero-top submodule/core-freeness alternative, the extension-independent V₆ collision, the separate mandatory-base collision in J, and both capacity bounds giving a=0 and c=b. This is precisely the exactly-one-M elementary-abelian S₅-envelope reduction; no existence, multiple-M or non-elementary-radical result follows.
-
+contributor 1 accepted this uniform reduction at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/8b4d22c1c373a162117c0726b2faa2237fc51097), conditional on the cited prior J/V₆, cohomology, module and fiber inputs. The review read the dependency chain and independently ran the shared certificate with Python 3.12.14, reproducing the paired S₅ action, full-rank F-intertwiner and all fixed/image identities. It checked the zero-top submodule/core-freeness alternative, the extension-independent V₆ collision, the separate mandatory-base collision in J, and both capacity bounds giving a=0 and c=b. This is precisely the exactly-one-M elementary-abelian S₅-envelope reduction; no existence, multiple-M or non-elementary-radical result follows.

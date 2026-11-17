@@ -1,8 +1,10 @@
 # Finite extension cover for one-M principal modules
 
+**Mira Cult**
+
 **Finite extension cover with scoped independent review recorded below.** Let $`X`$ be an $`\mathbb F_2S_5`$-module with exactly one composition factor $`M`$ and all other factors trivial. The construction below gives a finite superset of the possible indecomposable summands containing $`M`$. It does not classify modules up to isomorphism or classify loop envelopes.
 
-This manuscript continues [C0010](../../claims/0010.md), allocates no claim ID, and uses the one-$`M`$ support theorem in [bruck-s5-principal-one-m.md](bruck-s5-principal-one-m.md), independently reviewed at exact source the recorded source revision. The enumeration and optional envelope filter below have not been reviewed. The $`N`$-block and group extensions, stabilizers, sections and simplicity remain outside this parametrization.
+This manuscript continues [C0010](../../claims/0010.md), allocates no claim ID, and uses the one-$`M`$ support theorem in [bruck-s5-principal-one-m.md](bruck-s5-principal-one-m.md), independently reviewed at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/1228403b62d5c6abbf31272ed4cb4e300424e9d9). The enumeration and optional envelope filter below have not been reviewed. The $`N`$-block and group extensions, stabilizers, sections and simplicity remain outside this parametrization.
 
 ## Complete parameter domain
 
@@ -58,5 +60,4 @@ With `--envelope-filter`, the program computes $`h_0`$ from the span of the gene
 
 ## Scoped independent review
 
-Independent checks an independent check accepted the analytic 567-class cover and its implementation at exact source the recorded source revision, conditional on the reviewed support and cohomology inputs. The reviewer checked the complete parameter domain, Hom action, Cayley cocycle propagation, nullspace and coboundary quotient, block conversion and relators. Both Python 3.12.14 modes passed independently: 567 fixed-kernel/quotient extension classes and 6302 labelled presentations after the necessary envelope filter. The reviewed source predates the new indecomposability mode, which has its own review boundary in [the indecomposable manuscript](bruck-s5-principal-indecomposables.md). These are not isomorphism counts and do not classify H, K, group extensions or loops.
-
+reviewer contributor 1 accepted the analytic 567-class cover and its implementation at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16), conditional on the reviewed support and cohomology inputs. The reviewer checked the complete parameter domain, Hom action, Cayley cocycle propagation, nullspace and coboundary quotient, block conversion and relators. Both Python 3.12.14 modes passed independently: 567 fixed-kernel/quotient extension classes and 6302 labelled presentations after the necessary envelope filter. The reviewed source predates the new indecomposability mode, which has its own review boundary in [the indecomposable manuscript](bruck-s5-principal-indecomposables.md). These are not isomorphism counts and do not classify H, K, group extensions or loops.

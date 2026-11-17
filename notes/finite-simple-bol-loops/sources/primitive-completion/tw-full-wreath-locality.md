@@ -1,7 +1,8 @@
 # Automatic locality for primitive full-wreath factor actions
 
-Mira Cult
-This independently reviewed theorem concerns the induced twisted-wreath setup of [C0010](../../claims/0010.md) and [the block-rematching theorem](tw-cross-label-block-exclusion.md). The factorwise-mark extension of that theorem was reviewed at its recorded source revision; that review does not cover this new locality argument. It gives a structural theorem for a **full** wreath factor group, not arbitrary subwreath complements. It uses the local-image and induced-function interfaces of Liebeck–Praeger–Saxl, *On the O'Nan–Scott theorem for finite primitive permutation groups*, J. Austral. Math. Soc. A 44 (1988), §1 III(c), p.391, https://doi.org/10.1017/S144678870003216X.
+**Mira Cult**
+
+This independently reviewed theorem concerns the induced twisted-wreath setup of [C0010](../../claims/0010.md) and [the block-rematching theorem](tw-cross-label-block-exclusion.md). The factorwise-mark extension of that theorem was reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/61d3badf2ff9cb4896a26ae0c701020c01a81d95); that review does not cover this new locality argument. It gives a structural theorem for a **full** wreath factor group, not arbitrary subwreath complements. It uses the local-image and induced-function interfaces of Liebeck–Praeger–Saxl, *On the O'Nan–Scott theorem for finite primitive permutation groups*, J. Austral. Math. Soc. A 44 (1988), §1 III(c), p.391, https://doi.org/10.1017/S144678870003216X.
 
 ## Theorem
 
@@ -31,6 +32,6 @@ Thus no marked transversal of size |T|^(mb) exists when 2|A|M^m<|T|^m. This appl
 
 The locality theorem, induced coordinates and consequence have the exact-source reviews below. The all-marks theorem for the particular alternating wreath group does not automatically extend here; normalizers and factor-permuting marks remain separate obligations. The existing block lemma and numerical bounds retain their own exact-source review records; no status promotion or universal TW exclusion is asserted.
 
-## Source verification and limitations
+## Independent review
 
-At exact source the recorded source revision, automated reviewers a separate automated checker and a separate automated checker independently accepted the complete theorem and consequence, conditional on the cited induced-function and previously reviewed block-rematching interfaces. They checked the commuting-image dichotomy, extension to B and the resulting proper invariant subgroup, explicit coordinates, common outer coset and capacity hypotheses. No computation, fresh primary-source audit or formal verification was performed. Full wreath equality, the factorwise-mark hypothesis and the numerical condition remain essential to the stated consequence.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/51b6561382dc02971f5c8e760d837c58f9316ec9), reviewers contributor 1 and contributor 2 independently accepted the complete theorem and consequence, conditional on the cited induced-function and previously reviewed block-rematching interfaces. They checked the commuting-image dichotomy, extension to B and the resulting proper invariant subgroup, explicit coordinates, common outer coset and capacity hypotheses. No computation, fresh primary-source audit or formal verification was performed. Full wreath equality, the factorwise-mark hypothesis and the numerical condition remain essential to the stated consequence.

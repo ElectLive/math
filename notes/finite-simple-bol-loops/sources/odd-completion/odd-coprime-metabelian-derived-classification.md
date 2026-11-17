@@ -1,15 +1,16 @@
 # Odd simple Bol loops with coprime metabelian derived group
 
-Mira Cult
-The endpoint is structural construction, exhaustion, exact finite admissibility and simplicity tests, and complete loop-isomorphism data for every finite simple nonassociative odd left Bol loop whose canonical group G has
+**Mira Cult**
 
-G′=M⋊T,   M,T abelian,   (|M|,|T|)=1,   [T,M]=M.       (1)
+**Continuation of [0323:C0010](../../claims/0010.md), with three independent exact-source acceptances recorded below.** The endpoint is structural construction, exhaustion, exact finite admissibility and simplicity tests, and complete loop-isomorphism data for every finite simple nonassociative odd left Bol loop whose canonical group G has
+
+    G′=M⋊T,   M,T abelian,   (|M|,|T|)=1,   [T,M]=M.       (1)
 
 M and T are nontrivial. No restriction is placed on the prime overlap of A=G/G′ with either one. The extension over G′ need not split, and exact-factorization necessity is not assumed. The parameters below use finite abelian groups, actions, extension cocycles and subgroups of the resulting metabelian group. They do not enumerate arbitrary solvable groups or loop tables, but no short orbit list or efficiency bound is supplied. This branch does not include all nonnilpotent derived groups.
 
-The reviewed [Q_{p,q} calculation](odd-stabilizer-alignment.md#the-known-simple-family-realizes-the-orbit-obstruction) at the recorded source revision, using C0003 at the recorded source revision, gives actual simple examples with M=(F_{p^p}⁺)² and T=C_q². Since each q-factor acts nontrivially on its p-module, G′ is nonnilpotent. This already rules out universal nilpotence of the canonical derived group. The simple-folder input here is the repository's reviewed proof; Nagy's original Example IV reports computer-checked simplicity of Q1053 and does not supply that entire analytic proof.
+The reviewed [Q_{p,q} calculation](odd-stabilizer-alignment.md#the-known-simple-family-realizes-the-orbit-obstruction) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9d806247691956ef2dfb7a39ff32fe2934fde351), using C0003 at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45), gives actual simple examples with M=(F_{p^p}⁺)² and T=C_q². Since each q-factor acts nontrivially on its p-module, G′ is nonnilpotent. This already rules out universal nilpotence of the canonical derived group. The simple-folder input here is the repository's reviewed proof; Nagy's original Example IV reports computer-checked simplicity of Q1053 and does not supply that entire analytic proof.
 
-The new argument uses the canonical inversion/folder interfaces C0001/C0007, odd-envelope G=HG′ and solvability at the recorded source revision and the recorded source revision, full inversion at the recorded source revision, and the strict-defect iff simplicity criterion at the recorded source revision. Their statements and qualifications remain in [odd-folder-radicals.md](odd-folder-radicals.md). No quotient loop is assumed below.
+The new argument uses the canonical inversion/folder interfaces C0001/C0007, odd-envelope G=HG′ and solvability at [the source revision](https://github.com/Mira-Cult/math-wip/commit/e896039d004ff3882621aca115b1a39cc8fed207) and [the source revision](https://github.com/Mira-Cult/math-wip/commit/ab4059e6a9b8d5876e2bffa993bb98e7dac69025), full inversion at [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d), and the strict-defect iff simplicity criterion at [the source revision](https://github.com/Mira-Cult/math-wip/commit/65a3e58df517df59656ab948ac9d122208f62c4a). Their statements and qualifications remain in [odd-folder-radicals.md](odd-folder-radicals.md). No quotient loop is assumed below.
 
 ## Actual splitting over the characteristic module
 
@@ -17,13 +18,13 @@ Start with a loop satisfying (1). Then M=G″ is characteristic and τ-stable. C
 
 Schur–Zassenhaus in G′⋊⟨τ̂⟩ gives a complement to its normal Hall subgroup M, and conjugacy of the outside involutions lets it contain the actual τ̂. Its intersection with G′ is therefore a τ-stable complement T. Since M is abelian, N_M(T)=C_M(T)=1. Hall-complement conjugacy in the normal subgroup G′ gives the Frattini argument
 
-G=M⋊L,   L=N_G(T),   T◁L,   L/T=A,   L′=T.             (2)
+    G=M⋊L,   L=N_G(T),   T◁L,   L/T=A,   L′=T.             (2)
 
 L is τ-stable. Write θ=τ|L, σ=τ|M and ρ for the L-action on M. This is an actual splitting over M; no splitting of T→L→A or of G′→G→A is asserted.
 
 Let W=H∩M and identify J=HM/M≤L. Then TJ=L, W is J-invariant and C=J∩T is normal in L: it is normalized by J and centralized by the abelian T. The actual H is the graph, modulo W, of a cocycle η∈Z¹(J,M/W). Coprime averaging on C shows that every such cocycle has the form
 
-η(j)=v−ρ(j)v+η₀(j),   v∈M/W,
+    η(j)=v−ρ(j)v+η₀(j),   v∈M/W,
     η₀∈Z¹(J/C,(M/W)^C), inflated to J.                     (3)
 
 Indeed first subtract a coboundary to kill η|C. The cocycle identity and normality of C then make the remaining values C-fixed and constant on C-cosets. Conversely (3) is always a cocycle. The coordinate v is retained: conjugating H alone to remove it can change the loop, so exhaustion up to actual loop isomorphism may not discard it. Nonunique v,η₀ descriptions are handled by the final equivalence relation through their actual η.
@@ -34,29 +35,29 @@ For the reviewed Q_{p,q} family, W=(ker Tr)×0, C=1×C_q and (M/W)^C≅F_p; J/C�
 
 Choose nontrivial odd finite abelian M,T with coprime orders, an odd finite abelian A, an A-action on T, and a normalized 2-cocycle ξ:A×A→T. Define
 
-L=T×A,
+    L=T×A,
     (t,a)(s,b)=(t+a·s+ξ(a,b),ab).                         (4)
 
 Require L′=T. This can be tested in the abelian T by requiring it to be generated by (a−1)T and ξ(a,b)−ξ(b,a). These are precisely the commutator generators modulo [T,A]. Thus an unsplit extension is allowed without enumerating arbitrary L.
 
 Specify an involution θ of L inducing inversion on A. Equivalently choose θ_T∈Aut(T) and d:A→T with d(1)=0 and
 
-θ_T²=1,   θ_T(a·t)=a⁻¹·θ_T(t),
+    θ_T²=1,   θ_T(a·t)=a⁻¹·θ_T(t),
     θ_T ξ(a,b)+d(ab)=d(a)+a⁻¹·d(b)+ξ(a⁻¹,b⁻¹),
     θ_T d(a)+d(a⁻¹)=0,                                (5)
 
 and put θ(t,a)=(θ_T(t)+d(a),a⁻¹). Choose an L-action ρ on M and an involution σ of M satisfying
 
-M^T=0,   σρ(l)σ=ρ(θl).                              (6)
+    M^T=0,   σρ(l)σ=ρ(θl).                              (6)
 
 Choose J≤L with TJ=L. This subgroup choice can itself be encoded entirely by an A-invariant C≤T and a cochain κ:A→T/C with κ(1)=0 and
 
-κ(ab)=κ(a)+a·κ(b)+ξ(a,b) mod C:
+    κ(ab)=κ(a)+a·κ(b)+ξ(a,b) mod C:
     J={(t,a):t+C=κ(a)}.                                (7)
 
 Every such J has J∩T=C, and conversely every supplementary J has this form. Choose a J-invariant W≤M, v and η₀ as in (3), and use their actual cocycle η. Set
 
-G=M⋊ρ L,   τ(m,l)=(σm,θl),
+    G=M⋊ρ L,   τ(m,l)=(σm,θl),
     H={(m,j):j∈J, m+W=η(j)}.                           (8)
 
 All groups are odd and solvable. Equations (2), (4) and (6) give G′=M⋊T and G″=M. Require H≠1 and the tests below. The derivation above proves that every loop in the endpoint admits these data, retaining its actual H and τ. Conversely the tests prove that accepted data yield a simple nonassociative loop in the endpoint.
@@ -65,20 +66,20 @@ All groups are odd and solvable. Equations (2), (4) and (6) give G′=M⋊T and 
 
 Put K_L={l∈L:θl=l⁻¹} and Q_l=ker(1+ρ(l)σ)≤M for l∈K_L. Then the full τ-inverted set is
 
-K=⋃_{l∈K_L}{(u,l):u∈Q_l}.                           (9)
+    K=⋃_{l∈K_L}{(u,l):u∈Q_l}.                           (9)
 
 Require
 
-|W||J|=|M^σ||L^θ|,                                (10)
+    |W||J|=|M^σ||L^θ|,                                (10)
 
 and for every l,n∈K_L with j=l⁻¹n∈J require
 
-(Q_n−Q_l) ∩ ρ(l)(η(j)+W)=∅       if j≠1,
+    (Q_n−Q_l) ∩ ρ(l)(η(j)+W)=∅       if j≠1,
     Q_l ∩ ρ(l)W={0}                  if j=1.            (11)
 
 The values η(j)+W denote actual cosets, not selected lifts. Formula (11) is exactly H∩K²=1, since
 
-(u,l)⁻¹(v,n)=(ρ(l)⁻¹(v−u),l⁻¹n).
+    (u,l)⁻¹(v,n)=(ρ(l)⁻¹(v−u),l⁻¹n).
 
 The full outside-involution class in odd G gives G-invariance of K². Also |K|=|G|/|C_G(τ)| and C_G(τ)=M^σ⋊L^θ, so (10) makes |K|=[G:H]. Hence (10)–(11) are equivalent to the full-conjugate transversal property. Full inversion supplies inverse- and sandwich-closure, yielding a Bol folder.
 
@@ -88,7 +89,7 @@ Generation is automatic. The subgroup P=⟨K⟩ is normal: a conjugate gkg⁻¹ 
 
 Every normal subgroup N◁G corresponds uniquely to the following data:
 
-I≤M invariant under L;
+    I≤M invariant under L;
     R◁L with (ρ(r)−1)M≤I for all r∈R;
     ψ:R→M/I an ordinary homomorphism,
     ψ(lrl⁻¹)=ρ(l)ψ(r) for all l∈L,r∈R.                 (12)
@@ -99,11 +100,11 @@ Test core-freeness using all triples (12), without a τ-stability restriction. S
 
 For simplicity restrict to triples (12) satisfying
 
-σI=I,   θR=R,   ψ(θr)=σψ(r).                        (13)
+    σI=I,   θR=R,   ψ(θr)=σψ(r).                        (13)
 
 These are exactly the τ-stable normals. Coprime fixed-point lifting through N→R and intersection of cosets give
 
-|C_N(τ)|=|I^σ||R^θ|,
+    |C_N(τ)|=|I^σ||R^θ|,
     |H∩N|=|W∩I| · #{j∈J∩R:η(j)=ψ(j) in M/(W+I)}.     (14)
 
 Require the first quantity in (14) to be strictly larger than the second for every nonidentity proper triple (12)–(13). The reviewed strict-defect iff simplicity criterion makes this necessary and sufficient. All tests concern finite extension, module, kernel and subgroup data; their finite nature is not an efficiency or uniform parameter bound.
@@ -112,7 +113,7 @@ Require the first quantity in (14) to be strictly larger than the second for eve
 
 Two accepted data give isomorphic loops iff there are group isomorphisms α:M→M′ and β:L→L′ and a cocycle b∈Z¹(L,M′), for the action transported through β, satisfying
 
-α ρ(l)=ρ′(βl)α,   ασ=σ′α,   βθ=θ′β,
+    α ρ(l)=ρ′(βl)α,   ασ=σ′α,   βθ=θ′β,
     b(θl)=σ′b(l),
     αW=W′,   βJ=J′,
     αη(j)+b(j)=η′(βj) mod W′ for every j∈J.            (15)
@@ -121,10 +122,4 @@ Sufficiency is the actual group isomorphism (m,l)↦(αm+b(l),βl), which preser
 
 This relation also handles the nonuniqueness of ξ sections, the original stabilizer displacement v and different decompositions of η in (3). It concerns actual loops, not isotopy classes. If only proper/non-Moufang loops are wanted, a finite identity test on the selected section extracts exactly that subclass; no extra unproved properness assertion is used.
 
-The endpoint is the whole branch (1), not all metabelian-derived or all odd simple loops, and it leaves the other structural branches unchanged.
-
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-Each checked the characteristic module and actual Hall-normalizer splitting, explicit extension/involution and supplement equations, retention of the actual stabilizer cocycle, kernel/coset transversal and generation arguments, all normal triples and the distinction between core-freeness and τ-stable simplicity tests, and the complete complement-cocycle isomorphism criterion. They retained the branch scope and the external C0003 input for the known family; none reaudited all of C0003. No computation, formal verification or literature novelty is claimed. The endpoint is the whole branch (1), not all metabelian-derived or all odd simple loops, and it leaves the other structural branches unchanged.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/502e493a5c9b0f400d3bcca67efe76439f27e2d3), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the complete theorem under the cited canonical-folder, odd-envelope, full-inversion and strict-defect interfaces. Each checked the characteristic module and actual Hall-normalizer splitting, explicit extension/involution and supplement equations, retention of the actual stabilizer cocycle, kernel/coset transversal and generation arguments, all normal triples and the distinction between core-freeness and τ-stable simplicity tests, and the complete complement-cocycle isomorphism criterion. They retained the branch scope and the external C0003 input for the known family; none reaudited all of C0003. No computation, formal verification or literature novelty is claimed. The endpoint is the whole branch (1), not all metabelian-derived or all odd simple loops, and it leaves the other structural branches unchanged.

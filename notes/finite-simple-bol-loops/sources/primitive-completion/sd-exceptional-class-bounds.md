@@ -1,7 +1,8 @@
 # Candidate exceptional-family raw involution bounds
 
-Mira Cult
-This result, with scoped independent review below, concerns [C0010](../../claims/0010.md) treats simple T in the families G₂(q), q≥3; ³D₄(q), q≥2; and ²F₄(Q), Q=2^f≥8 with f odd. Subject to the [raw-F₃ SD criterion](sd-raw-involution-count.md) and its primitive-folder and inversion dependencies, it excludes primitive SD_k left multiplication groups with socle T^k for every k≥3. No common involution class is assumed. These checks do not cover the Tits group or assert a census of simple groups.
+**Mira Cult**
+
+This manuscript-local result, with scoped independent review below, concerns [C0010](../../claims/0010.md) treats simple T in the families G₂(q), q≥3; ³D₄(q), q≥2; and ²F₄(Q), Q=2^f≥8 with f odd. Subject to the [raw-F₃ SD criterion](sd-raw-involution-count.md) and its primitive-folder and inversion dependencies, it excludes primitive SD_k left multiplication groups with socle T^k for every k≥3. No common involution class is assumed. These checks do not cover the Tits group or assert a census of simple groups.
 
 Put n=|T|, t=|Out(T)|, a=tn, and b=|{x∈Aut(T):x²=1}|. Fulman–Guralnick, [*Bounds on the number and sizes of conjugacy classes in finite Chevalley groups with applications to derangements*](https://doi.org/10.1090/S0002-9947-2012-05427-4), Trans. AMS 364 (2012), Lemma 2.1(1)–(2), p.3027 and Table 1, p.3049, give k(Aut T)≤t k(T) and the simple-group class bounds below. The Frobenius–Schur identity and Cauchy–Schwarz give b²≤a k(Aut T). It suffices to show n≥2²⁰ and b³+3ab<n². All conclusions depend on the cited group data and upstream criterion, and need independent review.
 
@@ -31,6 +32,6 @@ The last inequality holds already at Q=8 and decreases thereafter; n≥2²⁰. T
 
 Run `python3 problems/0323-finite-simple-non-moufang-bol-loops/code/verify_sd_exceptional_class_bounds.py` from the repository root. The script checks finite integer cases and rational endpoints; it does not certify the group data, asymptotic derivations, or the upstream criterion.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker accepted the exceptional-family estimates at its recorded source revision, conditional on the stated raw criterion, folder inputs and cited group data. The review checked FG class bounds, outer automorphism data, inequalities and endpoints, and independently ran the Python 3.12.14 certificate. After an initial access failure, the reviewer verified the cited Wilson PDF (SHA-256 `4d1f7cb4cc86e726b7d0a8d671dcb3532f22233d5ce1adc07f5d0779d66614eb`) and directly checked printed p. 138, equation (4.77) and §4.8.3 for the triality order, simplicity and field automorphisms. Himstedt–Huang §6 was directly checked; the DOI above corrects an erroneous older PDF footer. This source-link correction does not change the reviewed mathematics. No global simple-group census or unrestricted loop classification follows.
+reviewer contributor 1 accepted the exceptional-family estimates at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16), conditional on the stated raw criterion, folder inputs and cited group data. The review checked FG class bounds, outer automorphism data, inequalities and endpoints, and independently ran the Python 3.12.14 certificate. After an initial access failure, the reviewer verified the cited Wilson PDF (SHA-256 `4d1f7cb4cc86e726b7d0a8d671dcb3532f22233d5ce1adc07f5d0779d66614eb`) and directly checked printed p. 138, equation (4.77) and §4.8.3 for the triality order, simplicity and field automorphisms. Himstedt–Huang §6 was directly checked; the DOI above corrects an erroneous older PDF footer. This source-link correction does not change the reviewed mathematics. No global simple-group census or unrestricted loop classification follows.

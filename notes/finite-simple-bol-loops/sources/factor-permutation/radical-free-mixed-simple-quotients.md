@@ -1,8 +1,8 @@
 # Mixed paired simple factors: quotient restrictions and a construction
 
-Mira Cult
+**Mira Cult**
 
-Independently reviewed investigation for [classification frontier](../../claims/0010.md), using the [paired-envelope](radical-free-paired-simple-envelopes.md) and [full-strip forest](radical-free-strip-forests.md) interfaces, independently reviewed respectively and the recorded source revision. The restrictions and the final mixed-type simple-folder construction have independent exact-source reviews recorded below. No mixed-type classification is claimed. The canonical-folder transversality and normal-subloop criterion are dependencies; the maximal-strip argument uses only elementary subgroup theory.
+Independently reviewed investigation for [0323:C0010](../../claims/0010.md), using the [paired-envelope](radical-free-paired-simple-envelopes.md) and [full-strip forest](radical-free-strip-forests.md) interfaces, independently reviewed respectively at [the source revision](https://github.com/Mira-Cult/math-wip/commit/4c93742a59ccdd786f23598f0374f674c6f75fff) and [the source revision](https://github.com/Mira-Cult/math-wip/commit/6d3a97daa9cf20bbae0416295c8c2374c2cd8ede). The restrictions and the final mixed-type simple-folder construction have independent exact-source reviews recorded below. No mixed-type classification is claimed. The canonical-folder transversality and normal-subloop criterion are dependencies; the maximal-strip argument uses only elementary subgroup theory.
 
 ## Precise two-type consequence of simplicity
 
@@ -56,9 +56,9 @@ Next bounded obligation: in a concrete pair of types, classify possible nontrivi
 
 ## A simple mixed A5 and PSL2(7) folder
 
-Independently reviewed C0010 construction, conditional on the faithful generated-folder and exact normal-subloop criteria of [Claim 0001](../../claims/0001.md), the scoped canonical-inversion input of [C0007](../foundations/C0007.md), and the [Bruck-stabilizer criterion](exact-factorization-criterion.md#bruck-stabilizers-and-necessary-witness-tests). It supplies a concrete simple proper non-Bruck loop of order 10080 with mixed paired canonical group, not an exhaustion of all mixed folders.
+Independently reviewed C0010 construction, conditional on the faithful generated-folder and exact normal-subloop criteria of [C0001](../../claims/0001.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45), the scoped canonical-inversion input of [C0007](../foundations/C0007.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/932ead5db5f39045e2085caa6b062f6b981b2813), and the [Bruck-stabilizer criterion](exact-factorization-criterion.md#bruck-stabilizers-and-necessary-witness-tests) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/d9bc55095490d42e41c359bbb88b67c78f6d4998). It supplies a concrete simple proper non-Bruck loop of order 10080 with mixed paired canonical group, not an exhaustion of all mixed folders.
 
-The subgroup embeddings D₁₀,A₄≤A₅ and 7:3,S₄≤PSL₂(7) are the Dickson inputs of the reviewed [A₅ classification](radical-free-a5-path-classification.md) and [small-prime classification](radical-free-small-psl2-paths.md). The latter includes the finite S₄ embedding/fusion certificate; no new computation is used here.
+The subgroup embeddings D₁₀,A₄≤A₅ and 7:3,S₄≤PSL₂(7) are the Dickson inputs of the reviewed [A₅ classification](radical-free-a5-path-classification.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ad94accf574f89bf1e8487bb046cf30fb685cd0c) and [small-prime classification](radical-free-small-psl2-paths.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/184bc5f1b24d05d4dac1860060c6189afefda70c). The latter includes the finite S₄ embedding/fusion certificate; no new computation is used here.
 
 Let T=A5 and U=PSL2(7). Choose D=D10 and A=A4 in T, and B=7:3 and S=S4 in U. Let ε:D→C2 be the quotient by its normal C5, δ:S→C2 the sign homomorphism, λ:A→C3 the quotient by V4, and μ:B→C3 the quotient by its normal C7. Choose identifications of these quotients and put
 
@@ -89,6 +89,7 @@ Thus this construction refutes single-simple-type necessity in the paired canoni
 
 ## Independent review
 
+reviewers `review_hs_full`, `review_small_order_complete` and `review_s5_h3` independently accepted the complete source at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ada92bab7c75898127ee367a33f68329ed3cdacc), conditional on the pinned canonical-folder, normal-subloop, paired-strip, Moufang, inversion, Bruck and subgroup-embedding inputs. Each checked the Goursat image/kernel conditions, maximal-type composition-factor splitting and strict tree bound, the failed control, and every part of the actual order-10080 construction: independent quotient equations, original-H collision, faithfulness/generation, all retained-coordinate quotients including non-τ-stable kernels, properness, non-Bruckness and exact-factorization identification. No new computation or fresh primary-source audit was performed. Their acceptances neither classify all mixed types nor establish literature novelty.
 
 
 ## Complete base-model exhaustion
@@ -101,7 +102,7 @@ In particular the base model has one loop-isomorphism class, of order 10080, and
 
 ### Inputs and notation
 
-The actual marked set is K={(t,t^-1,u,u^-1):t∈T,u∈U}; its product square consists of pairs whose coordinates are conjugate inverses in each simple factor. This follows because every outside involution for the paired inversion is conjugate to the canonical involution. The faithful-folder and exact normal-subloop criteria are [Claim 0001](../../claims/0001.md); the mixed-density and maximal-type splitting arguments have the independent exact-source reviews in this canonical source. In particular |H|=|K|=60·168=10080, H∩K²=1, Core_G(H)=1, and the two type projections H_T≤T² and H_U≤U² satisfy
+The actual marked set is K={(t,t^-1,u,u^-1):t∈T,u∈U}; its product square consists of pairs whose coordinates are conjugate inverses in each simple factor. This follows because every outside involution for the paired inversion is conjugate to the canonical involution. The faithful-folder and exact normal-subloop criteria are [C0001](../../claims/0001.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45); the mixed-density and maximal-type splitting arguments have the independent exact-source reviews in this canonical source at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ada92bab7c75898127ee367a33f68329ed3cdacc). In particular |H|=|K|=60·168=10080, H∩K²=1, Core_G(H)=1, and the two type projections H_T≤T² and H_U≤U² satisfy
 
  |H_T|>60,    |H_U|>168.                                            (1)
 
@@ -135,15 +136,9 @@ All D10 are Sylow-5 normalizers in A5, and all A4 are point stabilizers. D10 act
 
 For U, the pinned finite certificate proves the two S4 classes fuse under PGL2(7). The 7:3 Borels are conjugate, and any fixed S4 acts transitively on the eight Sylow-7 subgroups: each point stabilizer is contained in a 7:3 and has order dividing gcd(24,21)=3, so every orbit has size at least eight. Therefore the pair (7:3,S4) is unique under Aut(U), and the coordinate automorphism acts simultaneously on each U pair. Pair swaps likewise commute with τ. It follows that every necessary H is in the same canonical-folder automorphism orbit as the displayed mixed folder.
 
-Existence and all fourteen proper nontrivial normal-coordinate quotient checks are already established for a=b=1 in the reviewed [the mixed-path source](radical-free-mixed-paths.md) (or the base construction). Those sources also establish properness, non-Bruckness, and the exact-factorization interpretation. The automorphisms above preserve τ and K, giving the claimed loop-isomorphism classification conditional on the cited inputs. No order-10080 multiplication table is enumerated.
+Existence and all fourteen proper nontrivial normal-coordinate quotient checks are already established for a=b=1 in the reviewed [the mixed-path source](radical-free-mixed-paths.md), source [the source revision](https://github.com/Mira-Cult/math-wip/commit/9d1c0af909166459fbbeb87b881c28dff353aa3f) (or the base construction at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ada92bab7c75898127ee367a33f68329ed3cdacc)). Those sources also establish properness, non-Bruckness, and the exact-factorization interpretation. The automorphisms above preserve τ and K, giving the claimed loop-isomorphism classification conditional on the cited inputs. No order-10080 multiplication table is enumerated.
 
 
 ### Independent review of the appended continuation
 
-
-
-## Recorded source review scope
-
-Automated source reviewers an automated checker, an automated checker and an automated checker independently accepted the complete source at the recorded source revision, conditional on the pinned canonical-folder, normal-subloop, paired-strip, Moufang, inversion, Bruck and subgroup-embedding inputs. Each checked the Goursat image/kernel conditions, maximal-type composition-factor splitting and strict tree bound, the failed control, and every part of the actual order-10080 construction: independent quotient equations, original-H collision, faithfulness/generation, all retained-coordinate quotients including non-τ-stable kernels, properness, non-Bruckness and exact-factorization identification. No new computation or fresh primary-source audit was performed. Their acceptances neither classify all mixed types nor establish literature novelty.
-
-Automated source reviewers an automated checker, `audit_c9_full` and an automated checker independently accepted the appended continuation at exact source the recorded source revision, conditional on the cited folder, subgroup, finite-fusion and witness inputs. Their scoped reviews covered the base-model exhaustion, endpoint and family-isomorphism law, and atom-graph connectedness/bridge deductions in the three linked manuscripts. They did not perform a fresh primary-source audit or rerun the earlier finite certificates. These are model mathematical reviews, not human or formal certification, and do not establish a general classification or literature novelty.
+reviewers `review_paired_simple`, `audit_c9_full` and `review_folder_criterion` independently accepted the appended continuation at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6f17ba6210a02e02707d49f0a47fb89de46dfffa), conditional on the cited folder, subgroup, finite-fusion and witness inputs. Their scoped reviews covered the base-model exhaustion, endpoint and family-isomorphism law, and atom-graph connectedness/bridge deductions in the three linked manuscripts. They did not perform a fresh primary-source audit or rerun the earlier finite certificates. These are model mathematical reviews, not human or formal certification, and do not establish a general classification or literature novelty.

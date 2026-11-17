@@ -1,6 +1,8 @@
 # Abelian radicals in finite Bruck envelopes
 
-**Deductions with the scoped independent reviews below.** Let (G,H,K) be the faithful canonical Baer envelope of a finite simple nonassociative right Bruck loop X of 2-power exponent, with abelian P=O₂(G), W=P∩H and D=P∩K. No exponent bound of 2 or 4 is assumed. This continues [C0010](../../claims/0010.md), with no new claim ID. The Bruck-envelope results of Baumeister–Stein, [arXiv:0908.2597v1](https://arxiv.org/html/0908.2597v1), Theorem 1 and Lemmas 3.2(1)–(2), 3.4 and 4.1–4.5, supply the inversion automorphism τ, τ|H=1, τ(k)=k⁻¹, P=WD and the stated quotient and fiber descriptions. The corresponding P=WD locator is Lemma 4.3 in v2. The [Frattini-shadow manuscript](bruck-frattini-shadow.md) records acceptance of its initial constraints at the recorded source revision; its core and all-support bounds have the separate acceptance at the recorded source revision. The elementary product input is reviewed at the recorded source revision. These are input reviews; the separate reviews below cover this manuscript.
+**Mira Cult**
+
+**Deductions with the scoped independent reviews below.** Let (G,H,K) be the faithful canonical Baer envelope of a finite simple nonassociative right Bruck loop X of 2-power exponent, with abelian P=O₂(G), W=P∩H and D=P∩K. No exponent bound of 2 or 4 is assumed. This continues [C0010](../../claims/0010.md), with no new claim ID. The Bruck-envelope results of Baumeister–Stein, [arXiv:0908.2597v1](https://arxiv.org/html/0908.2597v1), Theorem 1 and Lemmas 3.2(1)–(2), 3.4 and 4.1–4.5, supply the inversion automorphism τ, τ|H=1, τ(k)=k⁻¹, P=WD and the stated quotient and fiber descriptions. The corresponding P=WD locator is Lemma 4.3 in v2. The [Frattini-shadow manuscript](bruck-frattini-shadow.md) records acceptance of its initial constraints at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9009bb98c97148e7cf250344f714528b1620b0a9); its core and all-support bounds have the separate acceptance at [the source revision](https://github.com/Mira-Cult/math-wip/commit/70a2e52726484645897e9b64c33dd9b7563d7d18). The elementary product input is reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/b88cd1d25a469cc06277febc9f20725ed68934f4). These are input reviews; the separate reviews below cover this manuscript.
 
 ## Inversion and the radical section
 
@@ -26,7 +28,7 @@ If X has exponent 2, every element of K is an involution, so τ fixes the genera
 
 ## Higher-power layers
 
-Return to the general 2-power-exponent setting, still assuming simplicity and the cited product quotient A=G/P, with A′=∏PSL₂(qᵢ). Since P is abelian, Φ(P)=2P. The reviewed Frattini functional-injection argument at the recorded source revision gives
+Return to the general 2-power-exponent setting, still assuming simplicity and the cited product quotient A=G/P, with A′=∏PSL₂(qᵢ). Since P is abelian, Φ(P)=2P. The reviewed Frattini functional-injection argument at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9009bb98c97148e7cf250344f714528b1620b0a9) gives
 
 
 ```math
@@ -59,7 +61,7 @@ For a transposition t, P-twisted conjugacy moves each element of the t-fiber thr
 
 This necessary condition alone does not prove elementaryness: for the free Z/4 swap module the subgroup 2P is not contained in (1+t)P.
 
-More generally, return to any of the product quotients A above. Let V=P/2P, W̄=W2P/2P and n=|V:W̄|. Since D/2P is an exact transversal, its shadow cardinality is exactly n. For each nonempty component support I, use the notation r_I, ρ_I and s_I from the reviewed [all-support shadow bounds](bruck-frattini-shadow.md#core-reduced-module-and-all-support-shadow-bounds) at the recorded source revision. If 2P≠0, strict total shadow overlap and the individual lower bounds force at least one nonempty I to satisfy
+More generally, return to any of the product quotients A above. Let V=P/2P, W̄=W2P/2P and n=|V:W̄|. Since D/2P is an exact transversal, its shadow cardinality is exactly n. For each nonempty component support I, use the notation r_I, ρ_I and s_I from the reviewed [all-support shadow bounds](bruck-frattini-shadow.md#core-reduced-module-and-all-support-shadow-bounds) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/70a2e52726484645897e9b64c33dd9b7563d7d18). If 2P≠0, strict total shadow overlap and the individual lower bounds force at least one nonempty I to satisfy
 
 
 ```math
@@ -99,7 +101,7 @@ Equivalently, the cyclic decomposition has at least four factors of order at lea
 
 ## Independent review
 
-Independent checks an independent check and an independent check independently accepted this manuscript through (5) at exact source the recorded source revision, conditional on its cited Baumeister–Stein and previously reviewed product and Frattini-shadow inputs. Both checked inversion on the abelian radical, the core-free image argument, radical periodicity, higher-layer coinvariants, strict shadow overlap, the nontrivial-head obstruction, and the S₅ homocyclic exclusion and mixed-exponent lower bound. The latter reviewer relied on the earlier direct inspection of Baumeister–Stein v1 Lemmas 3.2, 3.4 and 4.1–4.5. Neither review proves elementaryness for all abelian radicals, treats arbitrary nonabelian radicals, or supplies a classification. No computation or formal verification was used.
+reviewers contributor 1 and contributor 2 independently accepted this manuscript through (5) at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/457858c2fe7b8865a5e7682173361aaec551537c), conditional on its cited Baumeister–Stein and previously reviewed product and Frattini-shadow inputs. Both checked inversion on the abelian radical, the core-free image argument, radical periodicity, higher-layer coinvariants, strict shadow overlap, the nontrivial-head obstruction, and the S₅ homocyclic exclusion and mixed-exponent lower bound. The latter reviewer relied on the earlier direct inspection of Baumeister–Stein v1 Lemmas 3.2, 3.4 and 4.1–4.5. Neither review proves elementaryness for all abelian radicals, treats arbitrary nonabelian radicals, or supplies a classification. No computation or formal verification was used.
 
 ## Further norm-image constraint
 
@@ -114,5 +116,4 @@ Indeed a nonzero norm in W gives two selected lifts in the same right-folder H-c
 
 These are necessary conditions in the original envelope, not assertions about a quotient folder. They neither classify the mixed-exponent radicals nor imply the conditions are sufficient.
 
-Independent checks an independent check accepted the norm-image intersection and both counting inequalities at exact source the recorded source revision, conditional on the previously reviewed inversion result and original fiber formula. The reviewer checked the coset collision, norm-orbit count and full inversion solution bound. No sufficiency, classification, computation or formal verification is claimed.
-
+reviewer contributor 2 accepted the norm-image intersection and both counting inequalities at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/e684b2ef774d331b786e72b49df5d9d812362f25), conditional on the previously reviewed inversion result and original fiber formula. The reviewer checked the coset collision, norm-orbit count and full inversion solution bound. No sufficiency, classification, computation or formal verification is claimed.

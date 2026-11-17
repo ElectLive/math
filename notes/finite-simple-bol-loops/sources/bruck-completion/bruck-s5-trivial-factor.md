@@ -1,12 +1,14 @@
 # Candidate trivial-factor obstruction for S₅ envelopes
 
+**Mira Cult**
+
 **Scoped independent mathematical review recorded below.** Let $`(G,H,K)`$ be the faithful Baer envelope of a finite simple exponent-2 right Bruck loop. Suppose $`V=O_2(G)`$ is elementary abelian and $`G/V\cong S_5`$. Then the $`\mathbb F_2S_5`$-module $`V`$ has a trivial composition factor.
 
 This manuscript continues [C0010](../../claims/0010.md), allocates no claim ID, and uses the stabilizer, section and fiber facts from [bruck-s5-radical.md](bruck-s5-radical.md). The proposed conclusion concerns the stated elementary-abelian radical and does not classify its extensions or the loops.
 
 ## Dependencies
 
-Nagy, [arXiv:0709.4544v1](https://arxiv.org/html/0709.4544v1), Lemma 4.1, lists the simple $`\mathbb F_2S_5`$-modules $`\mathbf1,M,N`$, describes their actions and shows both four-dimensional modules restrict to the same projective irreducible $`F_{20}`$-module. The [dimension-nine radical argument](bruck-s5-radical.md) records a scoped independent review at source the recorded source revision of the finite calculations $`H^1(S_5,M\otimes M)=0`$ and $`H^2(S_5,M)=0`$, and of the relevant module identifications. The [radical-bound argument](bruck-s5-radical.md) supplies the separately reviewed $`H^2(S_5,N)=0`$. The [N-block manuscript](bruck-s5-module-blocks.md) records a scoped independent review at the recorded source revision of separation of the $`N`$-block from the $`\{\mathbf1,M\}`$-block, the decomposition of an $`N`$-only module as $`N^a\oplus U^b`$, and projectivity of $`U=N\otimes\mathbb F_2C_2`$. The reviews are separate; none reviewed the new deduction below.
+Nagy, [arXiv:0709.4544v1](https://arxiv.org/html/0709.4544v1), Lemma 4.1, lists the simple $`\mathbb F_2S_5`$-modules $`\mathbf1,M,N`$, describes their actions and shows both four-dimensional modules restrict to the same projective irreducible $`F_{20}`$-module. The [dimension-nine radical argument](bruck-s5-radical.md) records a scoped independent review at source [the source revision](https://github.com/Mira-Cult/math-wip/commit/168f7a4e4cef8e5b6824b58f9cbdaf0ba05f23ea) of the finite calculations $`H^1(S_5,M\otimes M)=0`$ and $`H^2(S_5,M)=0`$, and of the relevant module identifications. The [radical-bound argument](bruck-s5-radical.md) supplies the separately reviewed $`H^2(S_5,N)=0`$. The [N-block manuscript](bruck-s5-module-blocks.md) records a scoped independent review at [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499) of separation of the $`N`$-block from the $`\{\mathbf1,M\}`$-block, the decomposition of an $`N`$-only module as $`N^a\oplus U^b`$, and projectivity of $`U=N\otimes\mathbb F_2C_2`$. The reviews are separate; none reviewed the new deduction below.
 
 ## Proposed proof
 
@@ -40,5 +42,4 @@ This proves the proposed obstruction, conditional on the cited inputs and indepe
 
 ## Scoped independent review
 
-Independent checks an independent check accepted the trivial-factor obstruction at exact source the recorded source revision, under the displayed envelope hypotheses and cited reviewed inputs. The review checked the M-only semisimplicity and block decomposition, H² vanishings, F20 normalization, free restrictions of M and U, S3 orbit lengths and the mod-3 forced pure-transposition collision. The conclusion requires a trivial composition factor; it does not remove any sign-only summand from an envelope. This is independent model review, not human or formal certification.
-
+reviewer contributor 1 accepted the trivial-factor obstruction at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/1228403b62d5c6abbf31272ed4cb4e300424e9d9), under the displayed envelope hypotheses and cited reviewed inputs. The review checked the M-only semisimplicity and block decomposition, H² vanishings, F20 normalization, free restrictions of M and U, S3 orbit lengths and the mod-3 forced pure-transposition collision. The conclusion requires a trivial composition factor; it does not remove any sign-only summand from an envelope. This is independent model review, not human or formal certification.

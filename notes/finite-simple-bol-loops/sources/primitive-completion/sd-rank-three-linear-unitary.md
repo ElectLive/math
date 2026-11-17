@@ -1,6 +1,7 @@
 # Three-dimensional linear and unitary socles: common involution class and finite checks
 
-Mira Cult
+**Mira Cult**
+
 This independently reviewed manuscript-local argument on [C0010](../../claims/0010.md) uses the independently reviewed [large-socle theorem](sd-large-socles.md), its primitive Bol-folder, inversion, general square-class and CFSG-dependent estimates, and the matching recurrence and top-group tails in the [scalar criterion](sd-scalar-criterion.md). The natural matrix dimension is three; the groups have Lie rank two. No permutation-rank assertion is made. The group PSU₃(2) is not simple and is outside this scope. It claims no independent verification of those sources or arguments. Under those hypotheses it would exclude all T^k, k≥3, for T=PSL₃(q), q≥2, and for simple T=PSU₃(q), q≥3.
 
 ## Common class
@@ -33,4 +34,4 @@ Run `python3 problems/0323-finite-simple-non-moufang-bol-loops/code/verify_sd_ra
 The integer checks were run and passed; they do not review the source facts or the candidate large-socle theorem. Independent mathematical review remains required.
 
 
-automated reviewers a separate automated checker accepted the argument and certificate at its recorded source revision. The reviewer checked the involution lifts and class non-splitting, dimension-three group orders and the threshold, every listed ATLAS order/outer order, the safe upper parameter and recurrence/tail monotonicity, and ran the six-case certificate with Python 3.12.14. The existing large-socle theorem, scalar criterion, single-class square lemma and even-unitary single-class argument remain explicit dependencies. The disputed separate even-unitary outer-involution formula is not used.
+reviewer contributor 1 accepted the argument and certificate at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/168f7a4e4cef8e5b6824b58f9cbdaf0ba05f23ea). The reviewer checked the involution lifts and class non-splitting, dimension-three group orders and the threshold, every listed ATLAS order/outer order, the safe upper parameter and recurrence/tail monotonicity, and ran the six-case certificate with Python 3.12.14. The existing large-socle theorem, scalar criterion, single-class square lemma and even-unitary single-class argument remain explicit dependencies. The disputed separate even-unitary outer-involution formula is not used.

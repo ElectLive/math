@@ -1,7 +1,8 @@
 # Candidate A₅ SD_k exclusion for every primitive top group
 
-Mira Cult
-This manuscript-local argument has scoped independent review under the hypotheses recorded below. It uses no new claim IDs. The all-factor-count conclusion uses CFSG through Maróti’s primitive-group bound; the alternating-top subargument does not invoke that bound. It is conditional on the folder and inversion results invoked in `problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/sd3-involution-count.md`; in particular, it does not independently establish the upstream loop-theoretic construction. The relevant existing interfaces are `finite-simple-non-moufang-bol-loops:C0010`, `:C0014`, and their C0001/C0007 dependencies. The earlier upstream source examined is the recorded source revision.
+**Mira Cult**
+
+This manuscript-local argument has scoped independent review under the hypotheses recorded below. It uses no new claim IDs. The all-factor-count conclusion uses CFSG through Maróti’s primitive-group bound; the alternating-top subargument does not invoke that bound. It is conditional on the folder and inversion results invoked in `problems/0323-finite-simple-non-moufang-bol-loops/manuscripts/sd3-involution-count.md`; in particular, it does not independently establish the upstream loop-theoretic construction. The relevant existing interfaces are `finite-simple-non-moufang-bol-loops:C0010`, `:C0014`, and their C0001/C0007 dependencies. The earlier upstream source examined is [the source revision](https://github.com/Mira-Cult/math-wip/commit/932ead5db5f39045e2085caa6b062f6b981b2813).
 
 ## Folder setting and semiregularity
 
@@ -101,4 +102,4 @@ If P contains A_k, the seven-cycle argument above covers every k≥3. Therefore 
 
 The table and rational value were calculated with Python 3 integer arithmetic from the displayed recurrence and formula. The proof has scoped independent review; those reviewers did not separately audit the upstream assumptions. The top-group hypothesis is on G's image P; no primitivity assumption is made for the top image of G̃. The resulting arbitrary-top exclusion remains conditional on the upstream folder and inversion results with the review scope below.
 
-automated reviewers a separate automated checker accepted exact revision the recorded source revision conditional on C0001/C0007. The review checked diagonal conjugate products, injectivity, top primitivity, alternating-top cycle constructions, the arbitrary-top coset count, and exact arithmetic for k=3,…,32 and 66·13³²<15³² with Python 3.12.14. The reviewer directly inspected Maróti Corollary 1.2 and its CFSG reliance. This is a scoped mathematical review, not acceptance of upstream aggregate claims or general folder exhaustiveness.
+reviewer contributor 1 accepted exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/65c54aff108cc70208bf6f7271b1e5cf6a0a76bc) conditional on C0001/C0007. The review checked diagonal conjugate products, injectivity, top primitivity, alternating-top cycle constructions, the arbitrary-top coset count, and exact arithmetic for k=3,…,32 and 66·13³²<15³² with Python 3.12.14. The reviewer directly inspected Maróti Corollary 1.2 and its CFSG reliance. This is a scoped mathematical review, not acceptance of upstream aggregate claims or general folder exhaustiveness.

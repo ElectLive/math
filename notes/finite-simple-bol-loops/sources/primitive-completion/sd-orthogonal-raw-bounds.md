@@ -1,7 +1,8 @@
 # Candidate orthogonal raw-R screen
 
-Mira Cult
-This result, with scoped review below, concerns [C0010](../../claims/0010.md) checks the B_r and D_r^± raw-R screen. It assumes the candidate [raw-F₃ SD criterion](sd-raw-involution-count.md), the [classical R estimate](sd-classical-raw-bounds.md) and their folder, inversion and classification-dependent inputs. Put q=p^f, n=|T|, t=|Out(T)|, R=n/(t³q^(3r)); only n≥2²⁰ and R>1030² are in scope. These are sufficient screens and their failure is not evidence for a loop.
+**Mira Cult**
+
+This manuscript-local result, with scoped review below, concerns [C0010](../../claims/0010.md) checks the B_r and D_r^± raw-R screen. It assumes the candidate [raw-F₃ SD criterion](sd-raw-involution-count.md), the [classical R estimate](sd-classical-raw-bounds.md) and their folder, inversion and classification-dependent inputs. Put q=p^f, n=|T|, t=|Out(T)|, R=n/(t³q^(3r)); only n≥2²⁰ and R>1030² are in scope. These are sufficient screens and their failure is not evidence for a loop.
 
 ## Sources and group formulas
 
@@ -41,6 +42,6 @@ Using the exact n,t formulas above, [the exact arithmetic certificate](../code/v
 
 B₂ with q=3,4 has n<2²⁰ and q=2 is nonsimple; these are not included in that R-failure list. B_r(q)=C_r(q) for q even, and B₂(q)=C₂(q) for odd q as well; avoid double counting with the symplectic screen. The r3,q5 check was explicitly added after finding the faulty conservative endpoint. Run `python3 problems/0323-finite-simple-non-moufang-bol-loops/code/verify_sd_orthogonal_raw_bounds.py` from the repository root; the script passed. Its finite comparisons do not certify the cited source theorems, monotonicity, the folder argument, or any global simple-group census.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker accepted the orthogonal raw-R screen at its recorded source revision, conditional on the earlier raw SD criterion and displayed group-theoretic inputs. The review inspected Kleidman–Liebeck's order/index tables and automorphism theorem, including plus-D4 triality and B/C identifications, and checked the product bounds, corrected rank-three endpoint, monotone tails and finite-grid coverage. The pinned exact-arithmetic certificate passed independently under Python 3.12.14. This covers only the stated ranges and retains all folder and CFSG dependencies; it is not a global simple-group census.
+reviewer contributor 1 accepted the orthogonal raw-R screen at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/1228403b62d5c6abbf31272ed4cb4e300424e9d9), conditional on the earlier raw SD criterion and displayed group-theoretic inputs. The review inspected Kleidman–Liebeck's order/index tables and automorphism theorem, including plus-D4 triality and B/C identifications, and checked the product bounds, corrected rank-three endpoint, monotone tails and finite-grid coverage. The pinned exact-arithmetic certificate passed independently under Python 3.12.14. This covers only the stated ranges and retains all folder and CFSG dependencies; it is not a global simple-group census.

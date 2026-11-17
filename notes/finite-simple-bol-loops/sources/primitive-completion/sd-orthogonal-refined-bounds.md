@@ -1,7 +1,8 @@
 # Sharper orthogonal raw-F₃ screen using class numbers
 
-Mira Cult
-This conditional argument for [C0010](../../claims/0010.md) has scoped independent review below and is conditional on the no-common-class raw-F₃ criterion and its primitive Bol-folder and inversion inputs. It refines the exact R≤1030² finite grid in [the orthogonal raw screen](sd-orthogonal-raw-bounds.md); a remaining parameter is only a failure of the sufficient upper bound, not evidence for an SD loop. Only simple groups of order n≥2²⁰ are considered.
+**Mira Cult**
+
+This manuscript-local candidate for [C0010](../../claims/0010.md) has scoped independent review below and is conditional on the no-common-class raw-F₃ criterion and its primitive Bol-folder and inversion inputs. It refines the exact R≤1030² finite grid in [the orthogonal raw screen](sd-orthogonal-raw-bounds.md); a remaining parameter is only a failure of the sufficient upper bound, not evidence for an SD loop. Only simple groups of order n≥2²⁰ are considered.
 
 Let T be one of the B_r(q) or D_r^±(q) groups and t=|Out(T)|, a=tn. Fulman–Guralnick, *Bounds on the number and sizes of conjugacy classes in finite Chevalley groups*, Trans. AMS 364 (2012), Lemma 2.1(1)–(2), p.3027, Table 2, p.3050, and Corollary 1.2(3), p.3025, https://doi.org/10.1090/S0002-9947-2012-05427-4, give k(Aut T)≤min(t k(T),100q^r), with these Table 2 bounds:
 
@@ -41,6 +42,6 @@ The input is GAP 4.15.1's bundled CTblLib 1.3.11: [release archive](https://gith
 
 Combining these checks with the preceding class-bound screen eliminates the four displayed D₄ residual parameters, and B₃(3); B₃(2) and the displayed B₂ residuals require other arguments. The [refined symplectic screen](sd-classical-raw-bounds.md) supplies additional overlapping B₂/B₃ checks, subject to its stated scope. No census is claimed. These additions have not received independent mathematical review.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker accepted the refined orthogonal screen at its recorded source revision, conditional on the raw criterion, inherited group-order and tail inputs, and published CTblLib identifications. The review checked the FG constants and Gallagher deduction, ran the Python 3.12.14 certificate, and independently queried all three full automorphism tables with GAP 4.15.1 / CTblLib 1.3.11. Sizes, square-map selections, centralizers and both table-file SHA-256 hashes agree. The remaining B2/B3 entries are covered by the separately reviewed symplectic route; no other primitive action type is excluded here.
+reviewer contributor 1 accepted the refined orthogonal screen at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16), conditional on the raw criterion, inherited group-order and tail inputs, and published CTblLib identifications. The review checked the FG constants and Gallagher deduction, ran the Python 3.12.14 certificate, and independently queried all three full automorphism tables with GAP 4.15.1 / CTblLib 1.3.11. Sizes, square-map selections, centralizers and both table-file SHA-256 hashes agree. The remaining B2/B3 entries are covered by the separately reviewed symplectic route; no other primitive action type is excluded here.

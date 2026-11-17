@@ -1,9 +1,10 @@
 # Monolithic odd folders with higher elementary-layer defect
 
-Mira Cult
-The endpoint is a counterexample to the assertion that every finite simple proper odd Bol loop has a proper elementary τ-stable normal layer of defect one. The displayed construction gives a loop of order 3^149·7³ whose unique nontrivial elementary normal subgroup in its canonical envelope has defect two. The exact-source reviews below cover the Fourier-origin and outside-normalizer calculations and the full construction. It does not claim all odd loops are covered by any defect bound or that a quotient inverted set is a quotient-loop transversal.
+**Mira Cult**
 
-The source interfaces are the full-inversion and strict-defect results in [odd-folder-radicals](odd-folder-radicals.md), independently and the recorded source revision, the elementary-layer conventions in [odd-elementary-layer-obstructions](odd-elementary-layer-obstructions.md), and the reviewed q=7 Schrödinger, Fourier and forbidden-line computations in [odd-monolithic-heisenberg-prime-family](odd-monolithic-heisenberg-prime-family.md). The prime-family theorem and its Fourier inputs were independently, with analytic minor criteria at the recorded source revision. Properness uses [C0001, Lemma 1.2](../foundations/C0001.md#lemma-12-moufang-normalizer-and-primitivity-obstruction).
+**Continuation of [0323:C0010](../../claims/0010.md), with scoped independent reviews below.** The endpoint is a counterexample to the assertion that every finite simple proper odd Bol loop has a proper elementary τ-stable normal layer of defect one. The displayed construction gives a loop of order 3^149·7³ whose unique nontrivial elementary normal subgroup in its canonical envelope has defect two. The exact-source reviews below cover the Fourier-origin and outside-normalizer calculations and the full construction. It does not claim all odd loops are covered by any defect bound or that a quotient inverted set is a quotient-loop transversal.
+
+The source interfaces are the full-inversion and strict-defect results in [odd-folder-radicals](odd-folder-radicals.md), independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d) and [the source revision](https://github.com/Mira-Cult/math-wip/commit/65a3e58df517df59656ab948ac9d122208f62c4a), the elementary-layer conventions in [odd-elementary-layer-obstructions](odd-elementary-layer-obstructions.md), and the reviewed q=7 Schrödinger, Fourier and forbidden-line computations in [odd-monolithic-heisenberg-prime-family](odd-monolithic-heisenberg-prime-family.md). The prime-family theorem and its Fourier inputs were independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/7171a4e11376839d09b2a76544fed0c941b2507e), with analytic minor criteria at [the source revision](https://github.com/Mira-Cult/math-wip/commit/123933cc594b601dd317d62b333a949d20431d35). Properness uses [C0001, Lemma 1.2](../foundations/C0001.md#lemma-12-moufang-normalizer-and-primitivity-obstruction), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45).
 
 ## Data and elementary layer
 
@@ -17,13 +18,13 @@ The T-action is faithful: a nonzero shift changes a basis index, a nonzero diago
 
 Put
 
-S={(i,j): i∈R, j∈F₇} ∪ {(0,j): j∈R} ∪ {(0,0)},
+    S={(i,j): i∈R, j∈F₇} ∪ {(0,j): j∈R} ∪ {(0,0)},
     W=Ue_{0,0} ⊕ ⊕_{(i,j)∈S−{(0,0)}} Ee_{i,j},
     H=<W,x₁,x₂,b₁e_{0,0}a₁,b₂e_{0,0}a₂>.
 
 The displayed support has 25 points and is J=<x₁,x₂,A>-invariant; the origin graph is a subgroup because A fixes e_{0,0}. The quotient image H V/V is J. We have dim_F₃ V=294, dim V_+=147 by semilinear descent, and dim W=24·6+1=145. Consequently
 
-δ(V)=dim V_+−dim(H∩V)=2,
+    δ(V)=dim V_+−dim(H∩V)=2,
     |H|=3^147·7²=|C_G(τ)|,    [G:H]=3^149·7³.             (1)
 
 For the equality H∩V=W, the two graph coefficients are independent modulo U and x₁,x₂ have order 7; the graph defines a homomorphism A→λF₀/U. Also |C_L(θ)|=7², since θ inverts A and fixes one dimension in each plane of T/Z while negating the center.
@@ -32,11 +33,11 @@ For the equality H∩V=W, the two graph coefficients are independent modulo U an
 
 Let A₀=(ζ^{ij})_{i∈N,j∈R}, F=(ζ^{ij})_{i,j∈F₇}. The cited q=7 computation gives A₀ invertible and A₀1=t1 with t≠0. Index rows by −(S−{0}) and columns by S−{0}. The block for first-coordinate N against R is A₀⊗F. Its Schur complement is
 
-(1−1ᵀA₀⁻¹1)A₀=A₀,
+    (1−1ᵀA₀⁻¹1)A₀=A₀,
 
 because 1ᵀ1=3=0 in E. Thus this 24×24 minor is invertible. Adjoining the origin row and column gives origin Schur complement 1 by the same calculation. Consequently E^S∩σ(E^S) is one-dimensional over E, its origin projection is injective, and on that line σ sends the origin coefficient c to bar(c). Heisenberg shifts translate S and multiply its basis coordinates by powers of ζ. The same row/column scaling gives the same minor and changes the induced origin action to c↦ζ^k bar(c). Therefore a σ-negative intersection vector has its origin coefficient in one of the seven excluded lines. The A-action preserves W. It follows that W avoids the negative space of every conjugate of σ by L. Outside involutions of G⋊<τhat> are G-conjugate to τhat, and conjugation by V does not change their action on V; hence
 
-W∩V_-^g=0 for every marked outside involution g.            (2)
+    W∩V_-^g=0 for every marked outside involution g.            (2)
 
 We now test all possible nonidentity elements of H against the full product Λ² of marked outside involutions. Write the L-image as x₁^u x₂^v a, a=a₁^i a₂^j. On T/Z every conjugate of θ swaps the two axes in each plane, whereas L preserves each axis. Thus a nonzero x-exponent in an inactive coordinate prevents inversion. In the active coordinates conjugation by an appropriate x_i in H removes the x-exponent. If a=1, (2) and the same axis test rule out inversion. If a≠1 and h is inverted, then h³∈W is also inverted; (2) gives h³=1, so its cyclic cohomology class lies in H¹(<a>,V).
 
@@ -48,7 +49,7 @@ The a-orbits on the basis indices have size one or three. The latter give zero H
 
 The V-component of an actual outside involution contributes a vector of the form (1−ρ(a⁻¹))v₀ when conjugating a lift of a; this is a coboundary and vanishes in H¹(<a>,V). Thus its induced action may be checked in the quotient extension L⋊<θ>. For an outside element t d θ, t∈T,d∈A, to normalize <a>, it must send a to a⁻¹, hence t∈C_T(a). This centralizer is the common center times the full Heisenberg groups of the inactive coordinates: active-plane eigenvalues 2^i and 4^i have no fixed vectors. On cohomology, full activity gives c↦ζ^k bar(c). For one inactive coordinate, the operator is the one-variable Fourier/conjugation operator followed by an inactive Heisenberg monomial and an A-permutation; the A-permutation preserves R and 0. Conjugation by a square root in A removes d while preserving the support and its origin coordinate. The remaining outside involution tθ is conjugate to θ inside the θ-stable inactive Heisenberg group, including the common center, by odd involution conjugacy. The cited q=7 translated-support calculation therefore applies to the entire partial-label support, including every arbitrary E-coefficient: a negative class has its origin coefficient in one of the seven excluded lines. The full-active formula gives the same conclusion. Thus
 
-H∩Λ²=1.                                                      (3)
+    H∩Λ²=1.                                                      (3)
 
 This condition and |H|=|C_G(τ)| give the full odd Bol transversal, including all H-conjugates; they do not require a quotient loop.
 
@@ -56,7 +57,7 @@ This condition and |H|=|C_G(τ)| give the full odd Bol transversal, including al
 
 Let N◁L be θ-stable. If N∩T=1, then [N,T]=1; C_L(T)=Z(T), so N=1. Otherwise N∩T contains Z(T). The four A-character lines of T/Z(T) are distinct and θ swaps the two in each coordinate plane. Hence N∩T is the full preimage of a sum of k∈{0,1,2} of these planes. If U_N≤A is the image of N, normality forces every plane on which U_N acts nontrivially to be selected, so s=dim_F₃U_N≤k. Modulo N∩T, projection of N to the inactive plane group is a homomorphism from the 3-group U_N to a 7-group, hence zero. Thus N=(N∩T)⋊U_N. Conversely these subgroups are normal and θ-stable. For k≥1,
 
-|C_N(θ)|=7^k,       |J∩N|=7^k 3^s.                           (4)
+    |C_N(θ)|=7^k,       |J∩N|=7^k 3^s.                           (4)
 
 For N=1 or Z(T), both quantities are 1. Since H∩V=W, the strict-defect fixed/stabilizer ratio for the preimage of N is 3^{2−s}. If s=2, both planes are selected and N=L. Every proper preimage therefore has strict ratio greater than one. Monolithicity ensures every nontrivial normal subgroup of G contains V, so the reviewed strict-defect criterion gives simplicity using (3).
 
@@ -70,16 +71,12 @@ Finally, every nontrivial elementary normal subgroup E₀ of G contains V. Since
 
 Let S_r consist of 0 and those nonzero index vectors whose first nonzero coordinate is a quadratic residue. Its size is (q^r+1)/2. Let W contain all E-coordinate lines at S_r−{0} and an F₃-subspace U of a good F₀-line at 0, where U has codimension r. Take r graph labels b_i whose images form a basis of that line modulo U, and take all x_i in the stabilizer. The elementary-layer defect is r, and the loop order is
 
-3^{m q^r+r} q^{r+1}.                                         (5)
+    3^{m q^r+r} q^{r+1}.                                         (5)
 
 The tensor minor has an inductive block proof. Put A₀=(ζ^{ij})_{i∈N,j∈R} and F_q=(ζ^{ij})_{i,j∈F_q}. The first block is A₀⊗F_q^{⊗(r−1)}. Its complement on the remaining indices is exactly the (r−1)-factor minor, because A₀1=t1, t≠0, and 1ᵀA₀⁻¹1=|R|/t=0 in characteristic three. The origin Schur complement is 1 at every step. Support translations and phases act by row and column scalings. For a nonzero torus label, cyclic cohomology retains the indices in its inactive coordinates, on which the restricted support is S_{r−k} for the number r−k of inactive factors; the same induction excludes negative classes with graph coefficient in the selected good line. For every active set, first remove the A-part of a normalizing outside involution by an A-square-root, which preserves the restricted support and origin, and then conjugate within the inactive central product by odd involution conjugacy. Active Fourier factors contribute 1 at the origin in cyclic cohomology. Thus the lower-rank support calculation applies to every coherent graph coefficient. The reviews below include this all-label induction.
 
 For the normal-subgroup step, T/Z has r pairs of distinct A-characters, each pair exchanged by θ. A θ-stable normal subgroup contains the preimage of k complete coordinate planes; its A-image U_N is supported on those planes. The inactive projection is a homomorphism from the 3-group U_N to a q-group and vanishes. The fixed/stabilizer ratio is then 3^{r−dim U_N}, strictly greater than one unless U_N=A, which forces all planes and the whole quotient. The preceding argument gives a simple proper loop with V as the sole nontrivial elementary normal subgroup, now with defect r. This is not an unbounded-defect claim: the verified minor inputs give r≤3 for q=7 and r≤9 for q=19.
 
-This establishes the stated finite-defect family under its hypotheses, not unbounded defect, infinitely many admissible primes, all-odd classification, novelty or formal verification.
+## Independent review
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-Their acceptance retains the reviewed prime-family Fourier-minor and translated-support inputs, the full odd-folder and strict-defect interfaces, and the elementary Moufang-primitivity obstruction. All checked the faithful central-product module, lexicographic minor and origin Schur complement, cyclic cohomology for every partial torus label, outside-normalizer and vector coboundary reductions, exhaustive invariant normal-subgroup lattice, strict ratios, canonical generation, core-freeness, properness and uniqueness of the elementary normal subgroup. No new computation or fresh primary-source audit was claimed. This establishes the stated finite-defect family under its hypotheses, not unbounded defect, infinitely many admissible primes, all-odd classification, novelty or formal verification.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/b40066d01085772606b1d1160d58c033b8ba3302), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the explicit defect-two construction and its conditional higher-defect extension. Their acceptance retains the reviewed prime-family Fourier-minor and translated-support inputs, the full odd-folder and strict-defect interfaces, and the elementary Moufang-primitivity obstruction. All checked the faithful central-product module, lexicographic minor and origin Schur complement, cyclic cohomology for every partial torus label, outside-normalizer and vector coboundary reductions, exhaustive invariant normal-subgroup lattice, strict ratios, canonical generation, core-freeness, properness and uniqueness of the elementary normal subgroup. No new computation or fresh primary-source audit was claimed. This establishes the stated finite-defect family under its hypotheses, not unbounded defect, infinitely many admissible primes, all-odd classification, novelty or formal verification.

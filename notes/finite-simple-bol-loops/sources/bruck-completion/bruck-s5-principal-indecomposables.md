@@ -1,6 +1,8 @@
 # One-M principal indecomposable candidates
 
-This manuscript-local computation continues [C0010](../../claims/0010.md) and the [567-extension cover](bruck-s5-principal-enumeration.md). It assumes the cover and the [one-M support theorem](bruck-s5-principal-one-m.md), and the envelope consequences below also assume the [principal-envelope bound](bruck-s5-principal-envelope-bound.md). The cover and its generator construction were reviewed at source the recorded source revision under the recorded review scope; the new splitting test and deductions have the scoped independent review recorded below. 
+**Mira Cult**
+
+This manuscript-local computation continues [C0010](../../claims/0010.md) and the [567-extension cover](bruck-s5-principal-enumeration.md). It assumes the cover and the [one-M support theorem](bruck-s5-principal-one-m.md), and the envelope consequences below also assume the [principal-envelope bound](bruck-s5-principal-envelope-bound.md). The cover and its generator construction were reviewed at source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16) under the recorded review scope; the new splitting test and deductions have the scoped independent review recorded below. No claim ID is allocated.
 
 ## Splitting test and completeness
 
@@ -42,5 +44,4 @@ The new mode reports the table, labels, bound and tail count and asserts 28, 14 
 
 ## Independent review
 
-an independent check accepted the splitting test and deductions at exact source the recorded source revision, conditional on the previously reviewed cover and envelope inputs. The reviewer checked the generator Hom equations and complete nullspaces, the unique M-containing summand argument, the bilinear residue test, and specifically the swap-basis unit residue a+b with all four controls. An independent Python 3.12.14 run of the exported pinned script with `--indecomposable` reproduced all 28 representatives, the dimension/h₀ table, bound 14 and 161 labelled tails. This acceptance does not remove duplicates, bound the N-block, assert sharpness or classify envelopes or loops.
-
+contributor 1 accepted the splitting test and deductions at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/f6c7e01a4337b51c703b4d9ffc94d3b84a732fe5), conditional on the previously reviewed cover and envelope inputs. The reviewer checked the generator Hom equations and complete nullspaces, the unique M-containing summand argument, the bilinear residue test, and specifically the swap-basis unit residue a+b with all four controls. An independent Python 3.12.14 run of the exported pinned script with `--indecomposable` reproduced all 28 representatives, the dimension/h₀ table, bound 14 and 161 labelled tails. This acceptance does not remove duplicates, bound the N-block, assert sharpness or classify envelopes or loops.

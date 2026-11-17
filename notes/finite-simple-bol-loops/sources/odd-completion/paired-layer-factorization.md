@@ -1,11 +1,12 @@
 # A paired-layer extension criterion for an exact-factorization witness
 
-Mira Cult
-This sufficient condition is not asserted to follow from defect one and is not an exhaustiveness theorem. It addresses the frontier in [C0010](../../claims/0010.md) and uses the [intrinsic exact-factorization criterion](../factor-permutation/exact-factorization-criterion.md). A precommit independent check considered the argument and its corrected lifting step; it is not an exact-revision review.
+**Mira Cult**
+
+**Scoped independent review recorded below.** This sufficient condition is not asserted to follow from defect one and is not an exhaustiveness theorem. It addresses the frontier in [C0010](../../claims/0010.md) and uses the [intrinsic exact-factorization criterion](../factor-permutation/exact-factorization-criterion.md). A precommit independent check considered the argument and its corrected lifting step; it is not an exact-revision review.
 
 Let $`(G,H,K)`$ be the canonical faithful generating folder of a finite simple nonassociative left Bol loop, with $`H`$ its identity stabilizer and $`K`$ its left translations. Let $`\tau\in\mathop{\mathrm{Aut}}\nolimits(G)`$ satisfy $`\tau^2=1`$ and $`\tau(k)=k^{-1}`$ for every $`k\in K`$; the invoked existence and uniqueness are described in the linked intrinsic criterion. Suppose $`V,W=\tau(V)`$ are distinct normal elementary abelian $`p`$-subgroups of $`G`$ with $`V\cap W=1`$, $`A=VW=V\times W`$, and $`C_G(A)=A`$. Put $`C=C_G(W)`$. Assume $`|C/A|`$ is prime to $`p`$, and $`C/A`$ acts nontrivially and irreducibly on $`V`$. Write bar for images in $`G/A`$, and put $`D=H\cap A`$. Suppose in addition
 
-(i)  |H|=|V| |C/A|;
+ (i)  |H|=|V| |C/A|;
  (ii) D=(H∩V)×(H∩W);
  (iii) Hbar∩(Cbar·τ(Cbar))=(Hbar∩Cbar)(Hbar∩τ(Cbar)).
 
@@ -25,8 +26,6 @@ The quotient splitting (iii) records a second, genuinely separate graph obstruct
 
 The existing [C0003](../../claims/0003.md) exact-factorization construction has $`X=\mathbb F_{27}^+\rtimes(C_{13}\rtimes C_3)`$, $`X'=\mathbb F_{27}^+\rtimes C_{13}`$, and generated folder $`\widehat G=\{(u,v)\in X^2:uv\in X'\}`$. Its coordinate swap is the inverting automorphism, and its paired elementary abelian normal subgroups are $`V=\mathbb F_{27}\times1`$ and $`W=1\times\mathbb F_{27}`$. The identity stabilizer has order $`|H|=|X'|=27\cdot13`$, whereas $`|V|=27`$. Thus $`V`$ itself fails the index condition $`[\widehat G:V]=|K|`$, even though $`H\cap(V\times W)=(\ker\mathop{\mathrm{Tr}}\nolimits)\times0`$ has defect one relative to the fixed space of the swap. The known exact-factorization witness extends $`V`$ to $`X'\times1`$, an extension of index $`13`$. This control relies on the stated C0003 construction; it does not show that every paired layer admits such an extension.
 
-## Publication and verification scope
+## Scoped independent review
 
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-The review checked uniqueness of the complement, normality, the swapped intersection and index, the quotient graph-splitting equivalence, and the p′-projection proof of HN∩A=DV. The Q_{3,13} control agrees with the cited folder data. All displayed hypotheses remain requirements; none is derived here from defect one or loop simplicity alone. No computation, formal proof or exhaustiveness claim is involved.
+reviewer contributor 1 accepted this sufficient criterion at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/1228403b62d5c6abbf31272ed4cb4e300424e9d9), relying on the previously reviewed intrinsic criterion and stated C0003 control data. The review checked uniqueness of the complement, normality, the swapped intersection and index, the quotient graph-splitting equivalence, and the p′-projection proof of HN∩A=DV. The Q_{3,13} control agrees with the cited folder data. All displayed hypotheses remain requirements; none is derived here from defect one or loop simplicity alone. No computation, formal proof or exhaustiveness claim is involved.

@@ -1,11 +1,12 @@
 # A cross-coupled extraspecial candidate outside the exact-factorization route
 
-Mira Cult
+**Mira Cult**
+
 **Result with the scoped independent reviews below.** This is a continuation of [0323:C0010](../../claims/0010.md) and 0323.NONBRUCK_ODD, with no new permanent claim ID. The bounded obligation is to test whether every simple nonassociative odd Bol folder has a minimal normal subgroup exchanged with a distinct subgroup by its canonical inversion. Such a pair is necessary for the intrinsic exact-factorization witness: a nontrivial normal N disjoint from τ(N) contains a minimal normal M with M≠τ(M), and conversely distinct minimal normals have trivial intersection.
 
 The construction below gives a finite simple proper left Bol loop of order 3⁷·13³=4,804,839 with canonical LMlt center C₃×C₁₃ and exactly those two central factors as its minimal normal subgroups. Both are fixed pointwise by τ. Under the cited interfaces, this refutes both the paired-minimal necessity and exact-factorization exhaustiveness, and realizes nilpotent derived subgroup with extraspecial Sylow factors. The loop lies outside the Bruck-isotopy route by the reviewed odd-envelope nonconjugacy theorem. This is a counterexample to a workspace conjecture, not a complete classification or a claim of literature novelty; novelty has not been audited.
 
-The interfaces are the faithful-folder correspondence in [C0001](../../claims/0001.md), canonical inversion in [C0007](../../claims/0007.md), the [odd strict-defect simplicity criterion](odd-folder-radicals.md#candidate-simplicity-criterion-using-τ-stable-normal-subgroups) independently, and the [intrinsic witness](../factor-permutation/exact-factorization-criterion.md). The proof gives the full section, transversality, faithfulness, generation and normal-subgroup calculation explicitly. It uses neither an enumerated multiplication table nor an assumption that arbitrary normal-subgroup projections are folders.
+The interfaces are the faithful-folder correspondence in [C0001](../../claims/0001.md), canonical inversion in [C0007](../../claims/0007.md), the [odd strict-defect simplicity criterion](odd-folder-radicals.md#candidate-simplicity-criterion-using-τ-stable-normal-subgroups) independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/65a3e58df517df59656ab948ac9d122208f62c4a), and the [intrinsic witness](../factor-permutation/exact-factorization-criterion.md). The proof gives the full section, transversality, faithfulness, generation and normal-subgroup calculation explicitly. It uses neither an enumerated multiplication table nor an assumption that arbitrary normal-subgroup projections are folders.
 
 ## Construction
 
@@ -95,19 +96,19 @@ If $`\pi(N)=A`$, commutators with $`P_3`$ and $`P_{13}`$ force both into $`N`$. 
 
 ## Simplicity, properness and the failed witness
 
-All hypotheses of the cited strict-defect criterion are now supplied by the folder construction. Equations (3) and (6), together with the full-image case, give strict defect for every nontrivial proper τ-stable normal N. Hence the loop is simple. The criterion uses a maximal proper normal subloop if one exists, so that its quotient is simple and has an inverting translation-group automorphism; it does not presume this for an arbitrary quotient. Its exact dependency and source qualifications remain as recorded at the recorded source revision.
+All hypotheses of the cited strict-defect criterion are now supplied by the folder construction. Equations (3) and (6), together with the full-image case, give strict defect for every nontrivial proper τ-stable normal N. Hence the loop is simple. The criterion uses a maximal proper normal subloop if one exists, so that its quotient is simple and has an inverting translation-group automorphism; it does not presume this for an arbitrary quotient. Its exact dependency and source qualifications remain as recorded at [the source revision](https://github.com/Mira-Cult/math-wip/commit/65a3e58df517df59656ab948ac9d122208f62c4a).
 
 The loop is nonassociative: a group loop has regular left multiplication group and trivial identity stabilizer, whereas the faithful generating folder here has H≠1. It is non-Moufang using the finite simple Moufang baseline, with its CFSG qualification: Nagy–Vojtěchovský, *Octonions, simple Moufang loops and triality*, arXiv:math/0701707v1, §4.1 Theorem 4.1 and §6.3 Theorem 6.7/Corollary 6.8, as pinned in [REFERENCES.md](../foundations/references.md). All finite nonassociative simple Moufang loops are Paige loops of even order, while this order is odd. No explicit Moufang-identity witness is supplied by this proof.
 
 The center of G is exactly Z₃×Z₁₃. A central element has trivial torus image because each torus acts faithfully on the opposite extraspecial shadow; within D the center is exactly that product. Every nontrivial normal subgroup inside D contains one of these centers, while any normal subgroup with nontrivial torus image contains an opposite extraspecial group and hence its center. Thus Z₃ and Z₁₃ are the only minimal normal subgroups, both fixed pointwise by τ. If 1≠N◁G, choose one of these minimal normals M≤N. Then M=τ(M)≤N∩τ(N). Consequently there is no nontrivial τ-disjoint normal subgroup, and in particular no intrinsic exact-factorization witness. The separately reviewed odd-center obstruction gives the same conclusion.
 
-The reviewed odd-envelope nonconjugacy result at the recorded source revision, followed by the Bruck-isotopy equivalence at the recorded source revision, places this simple odd loop outside the Bruck-isotopic class as well. The construction and simplicity argument have the scoped acceptances below. They refute the proposed two-construction exhaustive map and require a broader description; they do not complete the classification.
+The reviewed odd-envelope nonconjugacy result at [the source revision](https://github.com/Mira-Cult/math-wip/commit/e896039d004ff3882621aca115b1a39cc8fed207), followed by the Bruck-isotopy equivalence at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ea836a5f328d6bc52913aac8fd1841a87072f5f8), places this simple odd loop outside the Bruck-isotopic class as well. The construction and simplicity argument have the scoped acceptances below. They refute the proposed two-construction exhaustive map and require a broader description; they do not complete the classification.
 
 ## Coordinate formula and explicit Moufang failure
 
 **Deduction with the scoped independent reviews below.** Fix η=3∈F₁₃ and keep ζ∈E=F₂₇ of order 13. Identify the cosets G/H with tuples (u,a;v,b), where u∈E², a∈F₃, v∈F₁₃² and b∈F₁₃. A coset has the unique representative ((0,u,a),(0,v,b)) in D after canceling the torus with H and then removing the first coordinates with S₃×S₁₃. The multiplication is
 
-(u,a;v,b)·(u′,a′;v′,b′)
+    (u,a;v,b)·(u′,a′;v′,b′)
       = (u+ζ^b u′, a+a′+Tr_{E/F₃}(uᵀJ u′);
          v+3^a v′, b+b′+vᵀJ v′).                  (7)
 
@@ -115,11 +116,11 @@ The exponents are interpreted modulo 13 and 3 respectively. To verify (7), right
 
 For e₁=(1,0), e₂=(0,1) over F₁₃, take
 
-x=(0,1;0,0),    y=(0,0;e₁,0),    z=(0,0;e₂,0).
+    x=(0,1;0,0),    y=(0,0;e₁,0),    z=(0,0;e₂,0).
 
 Direct substitution gives
 
-(xy)(zx) = (0,2;3(e₁+e₂),3),
+    (xy)(zx) = (0,2;3(e₁+e₂),3),
     (x(yz))x = (0,2;3(e₁+e₂),1).
 
 Thus the defining Moufang identity in PROBLEM.md fails. This supplies a direct properness proof without using the CFSG-qualified Moufang classification in the earlier reviewed source, conditional on the coordinate identification just proved. The coordinate addition has its own review status below.
@@ -128,21 +129,21 @@ Thus the defining Moufang identity in PROBLEM.md fails. This supplies a direct p
 
 **Deduction with the scoped independent reviews below.** This example remains isomorphic to each of its loop isotopes. Indeed H∩C_G(τ)=1: fixedness forces both odd torus labels to vanish, after which the symplectic swaps fix no nonzero element of S₃×S₁₃. Since |H|=|Λ|, H acts regularly on Λ=τ̂^G by conjugacy. For each k∈K choose h∈H with hτ̂h⁻¹=τ̂k. Conjugacy invariance of Λ then gives
 
-hKh⁻¹=(τ̂k)Λ=k⁻¹K.
+    hKh⁻¹=(τ̂k)Λ=k⁻¹K.
 
-Conjugation by h preserves H, so it identifies the original folder with every shifted folder (G,H,k⁻¹K). The arbitrary-principal-isotope calculation in [the reviewed isotope criterion](../factor-permutation/exact-factorization-criterion.md#bruck-isotopy-as-a-stabilizer-conjugacy-test), covers every loop isotope. Consequently this is a G-loop. Being outside the exact-factorization construction does not mean being outside the G-loop class. In particular this example does not solve Nagy's historical question about simple Bol loops that are neither G-loops nor Bruck isotopes. No literature-novelty assertion follows.
+Conjugation by h preserves H, so it identifies the original folder with every shifted folder (G,H,k⁻¹K). The arbitrary-principal-isotope calculation in [the reviewed isotope criterion](../factor-permutation/exact-factorization-criterion.md#bruck-isotopy-as-a-stabilizer-conjugacy-test), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ea836a5f328d6bc52913aac8fd1841a87072f5f8), covers every loop isotope. Consequently this is a G-loop. Being outside the exact-factorization construction does not mean being outside the G-loop class. In particular this example does not solve Nagy's historical question about simple Bol loops that are neither G-loops nor Bruck isotopes. No literature-novelty assertion follows.
 
 ## Uniform family for every pair of odd primes
 
 **Extension with the scoped independent reviews below.** Let p<q be distinct odd primes, r=ord_q(p), s=ord_p(q), and m,n positive integers. Put E=F_{p^r}, F=F_{q^s}, W_p=E^{2m}, W_q=F^{2n}, and choose scalars ζ∈E and η∈F of orders q and p. Use standard alternating matrices J_p,J_q of sizes 2m,2n. The cross-coupled construction gives a simple proper left Bol G-loop of order
 
-p^{2mr+1} q^{2ns+1}.                            (8)
+    p^{2mr+1} q^{2ns+1}.                            (8)
 
 Its canonical left multiplication group has nilpotent derived subgroup P_p×P_q, with extraspecial factors of orders p^{4mr+1}, q^{4ns+1}, and center C_p×C_q. The latter two factors are its only minimal normal subgroups, both fixed by τ. Thus every member has no intrinsic exact-factorization witness and lies outside the Bruck-isotopic route. The construction choices below give one isomorphism class for each tuple (p<q,m,n), and different such tuples give nonisomorphic loops within this family. No assertion of exhaustiveness among all simple Bol loops, all nilpotent-derived envelopes or all loops of these orders is made.
 
 Use the preceding trace-Heisenberg definition on W_p⊕W_p* and W_q⊕W_q*, now taking traces to F_p and F_q. Let a_q act by (ζ,ζ⁻¹) on P_p and a_p by (η,η⁻¹) on P_q, with own-prime and central actions trivial. Set G=(P_p×P_q)⋊(C_p×C_q), define τ by (x,y,z)↦(J_i y,J_i⁻¹x,z) and a_i↦a_i⁻¹, and let
 
-H=(S_p×S_q)⋊⟨a_p z_p,a_q z_q⟩,
+    H=(S_p×S_q)⋊⟨a_p z_p,a_q z_q⟩,
     K={g∈G : τ(g)=g⁻¹}.
 
 Here S_i is the first-coordinate additive subgroup and z_i is the unit generator of the prime-field center. The matrix verification, twisted-generator subgroup calculation and local inversion criterion above use only odd distinct primes, a nontrivial prime-order scalar and an isotropic coordinate subspace. They therefore apply verbatim in these dimensions. In particular |H|=|C_G(τ)|=p^{2mr+1}q^{2ns+1}, the same four torus-label cases give H∩Λ²=1, and hence K is a transversal to every conjugate of H. The core-freeness proof again reduces to the prime-order extraspecial centers, while A⊂K and [P_p,a_q]=P_p, [P_q,a_p]=P_q give generation. This establishes the faithful generating Bol folder uniformly, including even r or s.
@@ -151,17 +152,17 @@ Here S_i is the first-coordinate additive subgroup and z_i is the unit generator
 
 The finite example used inequivalent reciprocal constituents. The uniform proof does not need that condition. Let 1≠L◁G be τ-stable with L≤P_ℓ, where ℓ is p or q. Normality under the extraspecial P_ℓ forces its prime-order center Z_ℓ into L. Put V=L/Z_ℓ and
 
-a=dim_Fℓ V₊,    w=dim_Fℓ(V∩W_ℓ).
+    a=dim_Fℓ V₊,    w=dim_Fℓ(V∩W_ℓ).
 
 Since τ interchanges the complementary coordinate halves, (V∩W_ℓ)∩V₋=0. Projection along V₋ is injective on V∩W_ℓ, so w≤a. Coprime fixed-point lifting and the full central fiber give
 
-|C_L(τ)| / |L∩S_ℓ| = ℓ^{1+a−w} ≥ ℓ.           (9)
+    |C_L(τ)| / |L∩S_ℓ| = ℓ^{1+a−w} ≥ ℓ.           (9)
 
 This remains valid for self-dual scalar modules and diagonal mixed submodules. For L=1 the ratio is one.
 
 Now let N◁G be τ-stable. If N≤D=P_p×P_q, its Sylow factors split and (9) gives strict defect whenever N≠1. If its image in A=C_p×C_q is all A, commutators with both extraspecial groups force N=G. Suppose instead that its image is ⟨a_ℓ⟩. As before, N contains the opposite full extraspecial group P_{ℓ′}, and
 
-N=P_{ℓ′}⋊N_ℓ,
+    N=P_{ℓ′}⋊N_ℓ,
     N_ℓ=N∩(P_ℓ×⟨a_ℓ⟩),    L=N_ℓ∩P_ℓ.
 
 If Z_ℓ is not contained in L, normality forces L=1 and a lift of a_ℓ to have central coordinate. τ-stability then forces that coordinate zero, so N_ℓ=⟨a_ℓ⟩. Its fixed and actual H-intersection contributions are both one. Otherwise Z_ℓ≤L; invariance under the opposite scalar and invertibility of that scalar minus one on the invariant quotient imply that the P_ℓ component of an a_ℓ lift belongs to L. Thus N_ℓ=L×⟨a_ℓ⟩. The local H contribution is ℓ|S_ℓ∩L| and the fixed contribution is |C_L(τ)|, with ratio ℓ^{a−w}≥1 by (9). The opposite full factor contributes the strict ratio ℓ′. Fixed elements of the semidirect product have trivial a_ℓ coordinate, since τ inverts it; no direct-product fixed-point formula is assumed. These cases prove strict defect for every proper nontrivial τ-stable normal subgroup. The already reviewed maximal-simple-quotient criterion therefore gives simplicity for all parameters.
@@ -172,7 +173,7 @@ The center and minimal-normal arguments are unchanged: Z(G)=Z_p×Z_q, and every 
 
 The same coset calculation yields
 
-(u,a;v,b)·(u′,a′;v′,b′)
+    (u,a;v,b)·(u′,a′;v′,b′)
       = (u+ζ^b u′, a+a′+Tr_{E/F_p}(uᵀJ_pu′);
          v+η^a v′, b+b′+Tr_{F/F_q}(vᵀJ_qv′)).    (10)
 
@@ -182,14 +183,12 @@ Finite-field choices up to isomorphism preserve trace. To see that primitive sca
 
 Exchanging p,q and m,n simply exchanges the two factors. Once p<q is imposed, the prime factorization of (8) recovers p,q and then m,n because r,s are determined by them. Different allowed tuples therefore have different orders and cannot be isomorphic. These are a complete parameter identification and separation for this construction, not a census of arbitrary loops at those orders. The two-prime uniform extension has the scoped independent reviews below; no general computational certificate is claimed.
 
-The standalone [coordinate certificate](../code/verify_odd_cross_extraspecial.py) uses F₂₇=F₃[t]/(t³−t+1), the first encoding of an order-13 element, and η=3. It supplies the finite coordinate operations, compares them with independently implemented Heisenberg semidirect products and coset reduction on fixed-seed samples, and evaluates the displayed Moufang witness. It enumerates neither the whole loop nor all normal subgroups. Sampled Bol identities and the integrity check do not prove universal Bol or simplicity; those assertions rest on the algebraic proof.  Two independent proof/code reviews of the exact coordinate source are recorded below.
+## Evidence and independent review
 
-## Publication and verification scope
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/62978672415973eb0f8043c6976d06b317a52d42), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the full construction, transversality, faithfulness, generation, strict-defect simplicity and center/minimal-normal deductions. All checked the cross-character decomposition with arbitrary multiplicity subspaces and both single-torus-image cases, and separately inspected the maximal-simple-quotient proof of the invoked strict-defect criterion. Their acceptances retain C0001/C0007's precisely used interfaces, the reviewed isotope and intrinsic-witness results, and the CFSG-qualified Moufang baseline used in that source. They did not perform formal verification or a literature-novelty audit. Their reviews do not cover the later coordinate formula, direct Moufang witness or G-loop paragraph above.
 
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
+The standalone [coordinate certificate](../code/verify_odd_cross_extraspecial.py) uses F₂₇=F₃[t]/(t³−t+1), the first encoding of an order-13 element, and η=3. It supplies the finite coordinate operations, compares them with independently implemented Heisenberg semidirect products and coset reduction on fixed-seed samples, and evaluates the displayed Moufang witness. It enumerates neither the whole loop nor all normal subgroups. Sampled Bol identities and the integrity check do not prove universal Bol or simplicity; those assertions rest on the algebraic proof. Root read the complete script before running it. Two independent proof/code reviews of the exact coordinate source are recorded below.
 
-All checked the cross-character decomposition with arbitrary multiplicity subspaces and both single-torus-image cases, and separately inspected the maximal-simple-quotient proof of the invoked strict-defect criterion. Their acceptances retain C0001/C0007's precisely used interfaces, the reviewed isotope and intrinsic-witness results, and the CFSG-qualified Moufang baseline used in that source. They did not perform formal verification or a literature-novelty audit. Their reviews do not cover the later coordinate formula, direct Moufang witness or G-loop paragraph above.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/55720403eb03a5aad1e4c6c55769a972ffe69e52), contributor 1 and contributor 2 independently accepted the coordinate formula, explicit Moufang failure and G-loop deduction, conditional on the earlier construction and reviewed isotope interface. Both audited the full certificate before independently running its pinned source with bundled Python 3.12.14, reproducing the 104 section/identity/inverse controls, 500 group-coset/Bol samples and witness coordinates 3 versus 1. The direct identity failure removes the need for the finite simple Moufang classification in the properness proof. Their reviews do not turn sampled checks into proofs of universal identities or simplicity, and do not claim novelty or formal verification.
 
-Both audited the full certificate before independently running its pinned source with bundled Python 3.12.14, reproducing the 104 section/identity/inverse controls, 500 group-coset/Bol samples and witness coordinates 3 versus 1. The direct identity failure removes the need for the finite simple Moufang classification in the properness proof. Their reviews do not turn sampled checks into proofs of universal identities or simplicity, and do not claim novelty or formal verification.
-
-Both checked that the full-folder argument survives all field degrees, the eigenspace inequality replacing reciprocal-character inequivalence, all τ-stable normal-image cases, the trace Moufang witness, regular H action, scalar-generator and alternating-basis identifications, and order-based parameter separation. Their acceptances retain the previously reviewed folder, strict-defect and isotope interfaces, and cover this constructed family only. They do not classify other nilpotent-derived envelopes, establish literature novelty or provide formal verification; no new computation was used.
+reviewers contributor 1 and contributor 2 independently accepted the uniform two-prime extension at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/3b47eee4f5bfb43983b5ba474dff3689796eb9ad). Both checked that the full-folder argument survives all field degrees, the eigenspace inequality replacing reciprocal-character inequivalence, all τ-stable normal-image cases, the trace Moufang witness, regular H action, scalar-generator and alternating-basis identifications, and order-based parameter separation. Their acceptances retain the previously reviewed folder, strict-defect and isotope interfaces, and cover this constructed family only. They do not classify other nilpotent-derived envelopes, establish literature novelty or provide formal verification; no new computation was used.

@@ -1,14 +1,14 @@
 # Full strips and forests in paired simple envelopes
 
-Mira Cult
+**Mira Cult**
 
-**Independently reviewed continuation of [classification frontier](../../claims/0010.md).** Let $`(G,H,K,\tau)`$ be the faithful generated canonical folder of a finite simple nonassociative left Bol loop, with
+**Independently reviewed continuation of [0323:C0010](../../claims/0010.md).** Let $`(G,H,K,\tau)`$ be the faithful generated canonical folder of a finite simple nonassociative left Bol loop, with
 
 ```math
 G=N\times N,\qquad N=T^k,\qquad \tau(x,y)=(y,x),
 ```
 
-where $`T`$ is finite nonabelian simple. The full marked set and the normal-quotient criterion used below are those in [the paired-simple manuscript](radical-free-paired-simple-envelopes.md) and [the path manuscript](radical-free-path-factorizations.md), with the faithful-folder and normal-subloop interfaces of [Claim 0001](../../claims/0001.md). The involution-class input is Fried–Guralnick–Saxl, *Schur covers and Carlitz's conjecture*, Lemma 12.1, [authors' PDF §12 p. 26](https://www.math.uci.edu/~mfried/paplist-ff/sch-carlitz.pdf), as scoped in the paired-simple manuscript; it uses CFSG.
+where $`T`$ is finite nonabelian simple. The full marked set and the normal-quotient criterion used below are those in [the paired-simple manuscript](radical-free-paired-simple-envelopes.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/4c93742a59ccdd786f23598f0374f674c6f75fff) and [the path manuscript](radical-free-path-factorizations.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/c1be0daa47ca5f6befeb96378bc1937544acbde1), with the faithful-folder and normal-subloop interfaces of [C0001](../../claims/0001.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9431ade99316d6bc62efb389492fef385b510b45). The involution-class input is Fried–Guralnick–Saxl, *Schur covers and Carlitz's conjecture*, Lemma 12.1, [authors' PDF §12 p. 26](https://www.math.uci.edu/~mfried/paplist-ff/sch-carlitz.pdf), as scoped in the paired-simple manuscript; it uses CFSG.
 
 All outside involutions form one $`G`$-class. Consequently the actual mark is full,
 
@@ -57,7 +57,6 @@ Finally, if the entire graph is a single component without leaves, select an inv
 
 These conclusions do **not** assert that the forest is connected or that $`R`$ is the product of its leaf projections: $`R`$ may correlate leaves in different components. The reviewed graph-to-path theorem assumes independent vertex groups, so it cannot be applied to (2) until that residual interface is established. No classification or outside-path example is claimed.
 
+## Independent mathematical review
 
-## Recorded source review scope
-
-Automated source reviewers an automated checker, an automated checker and an automated checker independently accepted exact source the recorded source revision, conditional on the pinned canonical-folder/normal-quotient interfaces and the CFSG-dependent FGS invariant involution class. They checked both Goursat steps, strictness for every proper union of components, and the forest boundary cases including trivial proper projections, loops, parallel edges and leafless components. No reviewer freshly audited the primary classification source or ran a computation. The reviews do not establish connectedness or independence of the proper-coordinate subgroup R.
+reviewers `review_folder_criterion`, `review_psl2_allq` and `review_small_order_complete` independently accepted exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6d3a97daa9cf20bbae0416295c8c2374c2cd8ede), conditional on the pinned canonical-folder/normal-quotient interfaces and the CFSG-dependent FGS invariant involution class. They checked both Goursat steps, strictness for every proper union of components, and the forest boundary cases including trivial proper projections, loops, parallel edges and leafless components. No reviewer freshly audited the primary classification source or ran a computation. The reviews do not establish connectedness or independence of the proper-coordinate subgroup R.

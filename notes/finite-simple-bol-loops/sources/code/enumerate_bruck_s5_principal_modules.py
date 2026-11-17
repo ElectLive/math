@@ -227,4 +227,3 @@ if args.indecomposable:
  print('representative labels (quotient,a,b,index,cocycle,dimension,h0)',labels)
  print('maximum principal-block bound',max(3*d-8-2*h for d,h in indecomp),'labelled tails',indecomp_tails)
  assert sum(indecomp.values())==28 and max(3*d-8-2*h for d,h in indecomp)==14 and indecomp_tails==161
-

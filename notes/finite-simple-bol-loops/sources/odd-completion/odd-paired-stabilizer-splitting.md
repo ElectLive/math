@@ -1,7 +1,8 @@
 # Stabilizer splitting on paired odd-envelope layers
 
-Mira Cult
-This bounded argument concerns the residual frontier in [C0010](../../claims/0010.md) and the local splitting hypothesis in [paired-layer-factorization.md](paired-layer-factorization.md). It does not claim that every odd-order loop has an odd left multiplication group, that the displayed hypotheses always hold, or that exact-factorization presentations are exhaustive.
+**Mira Cult**
+
+**Scoped independent mathematical review recorded below.** This bounded argument concerns the residual frontier in [C0010](../../claims/0010.md) and the local splitting hypothesis in [paired-layer-factorization.md](paired-layer-factorization.md). It does not claim that every odd-order loop has an odd left multiplication group, that the displayed hypotheses always hold, or that exact-factorization presentations are exhaustive.
 
 Let $`(G,H,K)`$ be the canonical faithful generating left Bol folder of a finite simple nonassociative loop, with **$`|G|`$ odd**, and let $`\tau\in\mathop{\mathrm{Aut}}\nolimits(G)`$ invert every member of $`K`$. Let $`V`$ and $`W=\tau(V)`$ be distinct minimal normal elementary abelian subgroups of $`G`$; put $`A=V\times W`$ and $`d=\dim_{\mathbb F_p}V=\dim_{\mathbb F_p}W`$. The odd-envelope results in [odd-folder-radicals.md](odd-folder-radicals.md) give $`K=\{g\in G:\tau(g)=g^{-1}\}`$ and the strict defect $`|H\cap A|<|C_A(\tau)|=p^d`$. Put $`D=H\cap A`$.
 
@@ -45,10 +46,6 @@ The coordinate factors are distinct minimal normal subgroups, since $`\mathop{\m
 
 The irreducibility and orbit-avoidance hypotheses above are sufficient conditions only. In particular, splitting on $`A`$ alone does not provide the index and quotient-splitting conditions required by the linked paired-layer witness criterion.
 
-These remain sufficient criteria, not universal splitting or odd-LMlt assertions.
+## Independent review
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-The review checked the projection/irreducibility and Goursat arguments without semisimplicity, the conjugate anti-diagonal avoidance criterion, and the Q₃,₁₃ control. It also checked the nonsimple control's automorphism and inverted-set formula, coset slopes, faithfulness, generation, minimal normal factors and proper quotient onto C₁₃, with equality rather than strict defect. No computation was needed. These remain sufficient criteria, not universal splitting or odd-LMlt assertions.
+contributor 1 accepted this argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/e8f8c9609eaa8e9fd6fbc29acf92e9b4c835462c), conditional on the cited odd-envelope strict-defect/full-inverted-set results, folder transversality and C0003 data. The review checked the projection/irreducibility and Goursat arguments without semisimplicity, the conjugate anti-diagonal avoidance criterion, and the Q₃,₁₃ control. It also checked the nonsimple control's automorphism and inverted-set formula, coset slopes, faithfulness, generation, minimal normal factors and proper quotient onto C₁₃, with equality rather than strict defect. No computation was needed. These remain sufficient criteria, not universal splitting or odd-LMlt assertions.

@@ -1,6 +1,8 @@
 # Candidate bounded active U-coordinates in a stabilizer
 
-**Stabilizer normal form with scoped independent review below.** Assume a faithful Baer envelope of a finite simple exponent-two Bruck loop, V=O₂(G) elementary abelian, G/V≅S₅. Let the principal block have m M composition factors, and use the reviewed support theorem in [bruck-s5-uniform-principal-support.md](bruck-s5-uniform-principal-support.md) at the recorded source revision to write
+**Mira Cult**
+
+**Stabilizer normal form with scoped independent review below.** Assume a faithful Baer envelope of a finite simple exponent-two Bruck loop, V=O₂(G) elementary abelian, G/V≅S₅. Let the principal block have m M composition factors, and use the reviewed support theorem in [bruck-s5-uniform-principal-support.md](bruck-s5-uniform-principal-support.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/32b5918c4b3fa3b2686185006b80d41b1ece76aa) to write
 
 V=X₀⊕A⊕N^a⊕U^b,   A=1^u⊕R^v,  R=F₂C₂, U=N⊗R,
 
@@ -8,7 +10,7 @@ d₀=dim X₀≤112m, a≤110m+1. Put W=H∩V. We propose that an S₅-module au
 
 W = W_active ⊕ T_standard^s,
 
-where T_standard is an F₂₀-invariant 4-dimensional complement to soc(U)=N in U, W_active lies in X₀⊕A⊕N^a⊕U^{b−s}, and b−s≤111m+1. The automorphism need not preserve the original W; this is a normal form up to module automorphism. It does not imply a corresponding product decomposition of the loop, its section K, or its normal subloops. This continues [C0010](../../claims/0010.md)  The deduction has the scoped independent review recorded below.
+where T_standard is an F₂₀-invariant 4-dimensional complement to soc(U)=N in U, W_active lies in X₀⊕A⊕N^a⊕U^{b−s}, and b−s≤111m+1. The automorphism need not preserve the original W; this is a normal form up to module automorphism. It does not imply a corresponding product decomposition of the loop, its section K, or its normal subloops. This continues [C0010](../../claims/0010.md) without allocating a new claim ID. The deduction has the scoped independent review recorded below.
 
 Let F=F₂₀=N_{S₅}(P), P=C₅. P averaging is exact and F-equivariant. Since A is P-trivial and Y=N^a⊕U^b is P-fixed-free, W^P lies in X₀^P⊕A. For the P-nonfixed part, put S=N|F, an absolutely irreducible projective 4D F-module with End_F(S)=F₂. Nagy arXiv:0709.4544v1 Lemma 4.1 identifies M|F≅N|F≅S, and each U|F is S⊕S. Choose the same fixed F-complement to soc(U) in every copy of U. Multiplication by ε identifies that complement with the socle, so the dual-number matrix shears used below are S₅-module automorphisms in these coordinates; no lift to an extension-group automorphism is assumed. The multiplicity coordinates identify
 
@@ -52,5 +54,4 @@ No independent review of this manuscript has occurred; the cited review applies 
 
 ## Independent review
 
-Independent checks an independent check accepted this module-level normal form at exact source the recorded source revision, conditional on the reviewed support, N-block and fiber inputs. The review checked the compatible F-complement and dual-number shears, injective projection of the kernel graph, section adjustment, selection of T₀ disjoint from the socle image, and retention of all kernel graphs and P-fixed data in the active part. It checked the capacity arithmetic and bound 111m+1, including small b. It does not establish a lift of the automorphism to a fixed extension G, a normalization of K, a loop product or a bound on m or total U multiplicity. No computation or formal verification was used.
-
+reviewer contributor 1 accepted this module-level normal form at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/7ee728cc65fcaa28ffac8850185d0fdfe9a8bc48), conditional on the reviewed support, N-block and fiber inputs. The review checked the compatible F-complement and dual-number shears, injective projection of the kernel graph, section adjustment, selection of T₀ disjoint from the socle image, and retention of all kernel graphs and P-fixed data in the active part. It checked the capacity arithmetic and bound 111m+1, including small b. It does not establish a lift of the automorphism to a fixed extension G, a normalization of K, a loop product or a bound on m or total U multiplicity. No computation or formal verification was used.

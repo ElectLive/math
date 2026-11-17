@@ -1,5 +1,7 @@
 # Class-two exponent-four radical constraints
 
+**Mira Cult**
+
 **Argument with scoped independent review below.** Let X be a finite simple nonassociative right Bruck loop with faithful Baer envelope (G,H,K), P=O₂(G), and A=G/P≅∏ᵢPGL₂(qᵢ), where e≥1 and qᵢ=9 or a Fermat prime at least 5. Assume
 
 
@@ -10,7 +12,7 @@
 
 We do not assume Φ(P) central in G, P extraspecial, or X of exponent 2. Put F=Φ(P), V=P/F, W=P∩H, S=W∩F and U=WF/F. For a class-two group of exponent at most four, F=P²[P,P] is elementary abelian and central in P. Indeed (xy)⁴=x⁴y⁴[y,x]⁶ and [x,y]⁴=1 give [x,y]²=1, whence [x²,y]=1; squares and commutators are therefore central involutions. Let r=dim F and s=dim S. This continues [C0010](../../claims/0010.md); no new ID or classification is asserted.
 
-Baumeister–Stein [arXiv:0908.2597v1](https://arxiv.org/html/0908.2597v1), Theorem 1 and Lemmas 3.2(1)–(2), 3.4 and 4.1–4.5, under the full faithful Bruck-envelope hypotheses, supply A, B=HP/P=∏Bᵢ for the point-stabilizing Borels, P=(P∩H)(P∩K), canonical inversion τ, marked-section conjugacy invariance, and the full singleton-support fiber classes. The [Frattini-shadow manuscript](bruck-frattini-shadow.md#core-reduced-module-and-all-support-shadow-bounds) provides the core-reduced module bound and its $`m\ge1`$ conclusion, independently reviewed at the recorded source revision, conditional on its cited inputs. Those earlier reviews cover the inputs; the new arguments have the separate scoped review below.
+Baumeister–Stein [arXiv:0908.2597v1](https://arxiv.org/html/0908.2597v1), Theorem 1 and Lemmas 3.2(1)–(2), 3.4 and 4.1–4.5, under the full faithful Bruck-envelope hypotheses, supply A, B=HP/P=∏Bᵢ for the point-stabilizing Borels, P=(P∩H)(P∩K), canonical inversion τ, marked-section conjugacy invariance, and the full singleton-support fiber classes. The [Frattini-shadow manuscript](bruck-frattini-shadow.md#core-reduced-module-and-all-support-shadow-bounds) provides the core-reduced module bound and its $`m\ge1`$ conclusion, independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/70a2e52726484645897e9b64c33dd9b7563d7d18), conditional on its cited inputs. Those earlier reviews cover the inputs; the new arguments have the separate scoped review below.
 
 ## Square and commutator maps on the shadow
 
@@ -121,5 +123,4 @@ Moreover every k∈K has k²∈P because its image in A is an involution or iden
 
 ## Independent review
 
-Independent checks an independent check independently accepted this argument at exact source the recorded source revision, conditional on the cited Baumeister–Stein and core-reduced Frattini inputs. The review checked elementary central-in-P Φ, q(C)=0 without assuming Φ central in G, the identity action of τ on Φ, the marked rank bound r−s, the commutator-form and cocycle bounds on fixed vectors, and the sharper dimension and exponent conclusions. No numerical computation, formal verification or unrestricted radical-class assertion was made.
-
+reviewer contributor 1 independently accepted this argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6b719ad3026522f93cd9e0e027ae4027f6ee12df), conditional on the cited Baumeister–Stein and core-reduced Frattini inputs. The review checked elementary central-in-P Φ, q(C)=0 without assuming Φ central in G, the identity action of τ on Φ, the marked rank bound r−s, the commutator-form and cocycle bounds on fixed vectors, and the sharper dimension and exponent conclusions. No numerical computation, formal verification or unrestricted radical-class assertion was made.

@@ -1,5 +1,7 @@
 # A quadratic marked collision on two socle copies
 
+**Mira Cult**
+
 **Theorem with scoped independent reviews, continuing of [0323:C0010](../../claims/0010.md).** In the faithful simple nonassociative Bruck-envelope setting of [the N-Frattini marked-rank theorem](bruck-n-frattini-marked-rank.md), assume $`G/P\cong S_5`$, $`P`$ has class at most two and exponent at most four, $`Z=\Phi(P)\cong N`$, and
 
 ```math
@@ -12,9 +14,9 @@ Let $`W=H\cap P`$, and let $`c`$ be the $`N|_{F_{20}}`$-multiplicity of the inte
 c\le1.                                                             \tag{1}
 ```
 
-Subject also to [the exceptional J normal form](bruck-j-exceptional-normal-form.md) at exact source the recorded source revision and its separately recorded independent reviews, this excludes the entire $`X=J`$ branch of the displayed N-Frattini hypotheses. It does not exclude $`P_6`$ or classify the remaining Bruck envelopes.
+Subject also to [the exceptional J normal form](bruck-j-exceptional-normal-form.md) at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/5325d80926fe96073e800134e60fe9902f15bcce) and its separately recorded independent reviews, this excludes the entire $`X=J`$ branch of the displayed N-Frattini hypotheses. It does not exclude $`P_6`$ or classify the remaining Bruck envelopes.
 
-The marked identity and its $`d=0`$ consequence are from [the marked-rank source](bruck-n-frattini-marked-rank.md), reviewed at the recorded source revision. Its lifted-socle discrepancy is reviewed at the recorded source revision. The mandatory $`\dim W=4b+5`$, and the $`J`$-to-$`U`$ cross-map description, are in [the central-socle obstruction](bruck-n-central-socle-obstruction.md) at the recorded source revision; the reviewed block and component interfaces cited there remain dependencies. The present quadratic collision has the scoped exact-source reviews below.
+The marked identity and its $`d=0`$ consequence are from [the marked-rank source](bruck-n-frattini-marked-rank.md), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/123933cc594b601dd317d62b333a949d20431d35). Its lifted-socle discrepancy is reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ceb13792291dc825dc9dc4f1cfeaf6a190deba6e). The mandatory $`\dim W=4b+5`$, and the $`J`$-to-$`U`$ cross-map description, are in [the central-socle obstruction](bruck-n-central-socle-obstruction.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/bf11794257554b943a1b26ca15acd861f9faaa7f); the reviewed block and component interfaces cited there remain dependencies. The present quadratic collision has the scoped exact-source reviews below.
 
 ## Fixed socle vectors and marked variation
 
@@ -98,11 +100,10 @@ The latter is the product of $`\lambda`$ with a $`P`$-conjugate of $`\lambda`$, 
 
 ## Consequence for the J branch
 
-The reviewed $`J,C_0=0`$ exclusion and whole-$`J`$-in-shadow exclusion, together with the separately reviewed exceptional normal form at the recorded source revision, leave only a shadow whose pure socle intersection is $`N^2`$: it is the sum of the first two active socles, while the third socle occurs only in the mixed graph. Thus the remaining $`J`$ case has $`c=2`$, contrary to (1). Conditional on the cited inputs and this new collision, no displayed $`N`$-Frattini envelope with $`X=J`$ exists.
+The reviewed $`J,C_0=0`$ exclusion and whole-$`J`$-in-shadow exclusion, together with the separately reviewed exceptional normal form at [the source revision](https://github.com/Mira-Cult/math-wip/commit/5325d80926fe96073e800134e60fe9902f15bcce), leave only a shadow whose pure socle intersection is $`N^2`$: it is the sum of the first two active socles, while the third socle occurs only in the mixed graph. Thus the remaining $`J`$ case has $`c=2`$, contrary to (1). Conditional on the cited inputs and this new collision, no displayed $`N`$-Frattini envelope with $`X=J`$ exists.
 
 The argument is entirely in the original group and uses no projected quotient folder, orbit census, or temporary computation. Its choice-independence and class-two quadratic calculation have the scoped exact-source reviews below.
 
 ## Independent review
 
-At exact source the recorded source revision, Independent checks an independent check, an independent check and an independent check independently accepted the full collision proof and its J-branch consequence, conditional on the pinned marked-rank, module/component, actual-lift, canonical-folder and exceptional-normal-form inputs. All checked independence under arbitrary noncommuting lift changes, the displacement product formula and alternating polar, the actual discrepancy image on R and its polar radical, the four-dimensional scalar quadratic, and the final R and central-I adjustments producing an original marked collision. No new computation was required. Their scope is c at most one for J and P6 and exclusion of the displayed J branch, not the still-separate P6 deduction or unrestricted Bruck envelopes.
-
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/c4154e4d8cfbe1485491f6ec0b57567f8a18e396), reviewers contributor 1, contributor 2 and contributor 3 independently accepted the full collision proof and its J-branch consequence, conditional on the pinned marked-rank, module/component, actual-lift, canonical-folder and exceptional-normal-form inputs. All checked independence under arbitrary noncommuting lift changes, the displacement product formula and alternating polar, the actual discrepancy image on R and its polar radical, the four-dimensional scalar quadratic, and the final R and central-I adjustments producing an original marked collision. No new computation was required. Their scope is c at most one for J and P6 and exclusion of the displayed J branch, not the still-separate P6 deduction or unrestricted Bruck envelopes.

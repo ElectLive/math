@@ -15,6 +15,10 @@ proof route defines the scope of the project.
 all finite tables or tests all possible extension data is not, by itself, the
 structural classification sought here.
 
+## Current classification checkpoint
+
+The [latest classification results](RESULTS.md#latest-classification-advances) include the odd alternating full-group theorem, the solvable-left-group full-action reduction, paired alternating classifications, and the specified two-N Bruck exclusion. Complete proofs, assumptions, pending continuations and code are linked through the [source index](sources/README.md). These are structural advances, not completion of the general classification.
+
 ## What we have achieved
 
 The project has developed constructions and classifications in several branches:

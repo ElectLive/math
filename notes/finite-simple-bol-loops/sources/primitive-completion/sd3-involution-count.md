@@ -1,6 +1,7 @@
 # Candidate exclusion of primitive SD₃ left multiplication groups
 
-Mira Cult
+**Mira Cult**
+
 The A₅ counting argument has received scoped independent model review under the stated upstream hypotheses; the all-PSL₂(q) extension also has scoped independent review as recorded below. It is a manuscript-local attack on [C0010](../../claims/0010.md), using the [C0014](../../claims/0014.md) diagonal setup. It allocates no new claim ID and changes no claim status, and it assumes the exact canonical folder and inversion results noted below. Independent mathematical review is required.
 
 ## A₅ case
@@ -108,10 +109,10 @@ where $`(q^2-1)(q^2-13)>100q^2/3`$ for $`q\ge8`$. The remaining prime powers $`4
 
 ## Exact repository dependencies
 
-The canonical nucleus, inversion and folder results invoked above are C0001 Theorems 1.4–1.5 and 2.2 and C0007 Theorem 1.1. The initial source examined was the recorded source revision; the scoped review below applies only to its stated source and scope. The A₅ automorphism structure is recorded on the [ATLAS A₅ page](https://brauer.maths.qmul.ac.uk/Atlas/alt/A5/); the involution counts are also derived directly above.
+The canonical nucleus, inversion and folder results invoked above are C0001 Theorems 1.4–1.5 and 2.2 and C0007 Theorem 1.1. The initial source examined was [the source revision](https://github.com/Mira-Cult/math-wip/commit/79b70a50b19bc728b349a2a6ed2bd958391e8b6e); the scoped review below applies only to its stated source and scope. The A₅ automorphism structure is recorded on the [ATLAS A₅ page](https://brauer.maths.qmul.ac.uk/Atlas/alt/A5/); the involution counts are also derived directly above.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker examined exact revision the recorded source revision and accepted the A₅ counting argument conditional on the invoked nucleus-normality and inversion results in C0001 and C0007. Scope: centralizer and injectivity, both factor-action cases, swap-product calculation, and the count 2311 < 3600. The reviewer did not independently audit those upstream results or the general PSL₂ source premises. This is not claim-wide review of C0014, nor a classification result.
+reviewer contributor 1 examined exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/66d1f655f5e8f57a04ec82a851113f2d1f1ee386) and accepted the A₅ counting argument conditional on the invoked nucleus-normality and inversion results in C0001 and C0007. Scope: centralizer and injectivity, both factor-action cases, swap-product calculation, and the count 2311 < 3600. The reviewer did not independently audit those upstream results or the general PSL₂ source premises. This is not claim-wide review of C0014, nor a classification result.
 
-automated reviewers a separate automated checker accepted the all-PSL₂(q) extension at its recorded source revision, conditional on the invoked C0001/C0007 results. Scope: the square-class lemma, field-coset Hilbert 90 count, SD₃ counting cases and all parameter inequalities. The reviewer directly inspected Guralnick–Zieve Lemma A.3; the full Glauberman publisher text was inaccessible to that reviewer, who corroborated the standard isolated-involution consequence. The producer separately inspected the publisher’s Theorem 4 statement. No claim-wide upstream review is implied.
+reviewer contributor 2 accepted the all-PSL₂(q) extension at exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/65c54aff108cc70208bf6f7271b1e5cf6a0a76bc), conditional on the invoked C0001/C0007 results. Scope: the square-class lemma, field-coset Hilbert 90 count, SD₃ counting cases and all parameter inequalities. The reviewer directly inspected Guralnick–Zieve Lemma A.3; the full Glauberman publisher text was inaccessible to that reviewer, who corroborated the standard isolated-involution consequence. The producer separately inspected the publisher’s Theorem 4 statement. No claim-wide upstream review is implied.

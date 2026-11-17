@@ -1,6 +1,7 @@
 # An odd-envelope quotient constraint
 
-Mira Cult
+**Mira Cult**
+
 This manuscript addresses the odd-envelope part of the residual
 classification in [C0010](../../claims/0010.md). The separate
 [exact-factorization criterion](../factor-permutation/exact-factorization-criterion.md) gives a
@@ -27,9 +28,14 @@ The projection of K to ⟨a⟩ is surjective. Also K∩V=ker(σ+1) is nonzero, a
 
 The loop is not simple: HV=V is proper and H∩V=E=C_V(τ), so the quotient criterion of odd-folder-radicals.md gives a surjective homomorphism onto the order-q loop with kernel K∩V of order p^m. For a concrete example take p=3, q=7, m=3, so |G|=3^6·7 and |Q|=3^3·7. Thus mixed ± eigenspaces in a τ-stable minimal normal subgroup cannot be ruled out using only odd order, faithfulness, generation and the Bol folder axioms; simplicity is essential. This does not answer whether simplicity can rule them out.
 
+## Scoped independent review
+
+At exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/15ec5fb55fba8e614b180cff75e95516031285b6), contributor 1 accepted the counting identity, quotient-transversality criterion, simplicity obstruction and mixed-eigenspace control under the stated odd-order and involution hypotheses, upstream folder criterion and standard complement conjugacy. The control has quotient order 7 and kernel order 27 at the stated parameters. This review makes no assertion that every odd-order Bol loop has odd-order multiplication group, proves no exhaustiveness and supplies no simple example; no computation or formal verification was performed.
+## Further structural reductions
+
 The equality alternative in the earlier manuscript can be removed entirely for a simple nonassociative Q. Let A≠1 be any τ-stable **abelian** normal subgroup of odd G, not necessarily elementary abelian. Odd order gives A=A₊×A₋, the fixed and inverted subgroups. The same complement-conjugacy and counting proof gives |H∩A|≤|A₊|, with equality exactly when K mod A is a transversal, and then the projection is a loop homomorphism with kernel A₋. In fact the inequality is always strict. If A₋=1, equality would imply A≤H, contrary to core-freeness. If A₋≠1 and HA<G, equality gives a proper nontrivial kernel, contrary to simplicity. If HA=G, the abelian normal subgroup A is regular in the faithful action, so H∩A=1. Equality would imply A₊=1, hence K∩A=A; regularity gives |K|=|A|, so K=A and generation forces G=A, an associative contradiction. Thus
 
-|H∩A| < |C_A(τ)|                          (1)
+    |H∩A| < |C_A(τ)|                          (1)
 
 for every nontrivial τ-stable abelian normal A. This is a necessary condition for simple nonassociative loops, not a proof of their nonexistence. In particular, the accumulated defect in any such normal layer never vanishes; taking a sum of minimal modules cannot force equality unless it contradicts simplicity or leaves the hypotheses. If τ inverts a nontrivial abelian τ-stable normal subgroup A, (1) is impossible. Applied to the inverted subgroup of Z(G), this proves τ fixes Z(G) pointwise.
 
@@ -37,15 +43,17 @@ Suppose V is an elementary abelian τ-stable minimal normal subgroup of G, so G 
 
 For the graph-pairing bookkeeping, let A=V⊕W be a τ-stable normal direct sum of two τ-stable elementary abelian G-modules over the same F_p. Set D=H∩A, D_V=D∩V, D_W=D∩W, and let P_V,P_W be the projections of D. All these are H-invariant. Goursat's lemma for subspaces gives a canonical H-module isomorphism
 
-P_V/D_V ≅ P_W/D_W,
+    P_V/D_V ≅ P_W/D_W,
 
 with common dimension t=dim D−dim D_V−dim D_W. Writing a=dim C_V(τ), b=dim C_W(τ), d_V=dim D_V, d_W=dim D_W, counting in the earlier manuscript yields d_V≤a and d_W≤b, while (1) yields the strict graph bound
 
-t < (a−d_V)+(b−d_W).                     (2)
+    t < (a−d_V)+(b−d_W).                     (2)
 
 for any simple nonassociative Q (A nonzero). Thus any off-diagonal graph can recover at most the sum of the two individual defects minus one. A graph requires a common nonzero H-module subquotient of V and W; in particular, if those restricted H-modules have disjoint composition-factor sets, t=0. For completely reducible restrictions it suffices that they share no irreducible constituents. This is a necessary restriction on how radical layers can be coupled; it does not say they must couple, and nonsemisimple modular restrictions require the subquotient formulation.
 
 For the known Q_{p,q} folder with odd p, the two minimal G-normal modules are interchanged by τ, rather than individually τ-stable. Their sum A=V×V has dim A₊=p while dim(H∩A)=p−1; the strict defect is one, so (1) permits the construction. This check uses only the stated C0003 folder data; it does not establish C0013's unproved absorption. The remaining substantive question is whether the outer-involution and strict graph constraints can be combined with the Bol transversality condition to eliminate a τ-stable mixed irreducible V, or to force a useful τ-paired layer. Neither follows from these observations alone.
+
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/9d09b4c9fc854462d1888a528ffd5c7567d141ed), contributor 1 accepted these further reductions, subject to restricting the final Q_{p,q} check to odd p as now stated. The review checked all equality cases including HA=G, the central and outer-involution consequences, and the H-subquotient argument, using the earlier reviewed quotient criterion and the stated C0003 data. No exhaustiveness or odd-envelope assertion for every Bol loop follows.
 
 ## Stabilizer displacement and repeated modules
 
@@ -61,7 +69,8 @@ $$Y_0=\{(m_1,\ldots,m_k;0,j):\sum_i c_i\mathop{\mathrm{Tr}}\nolimits_{F/\mathbb 
 
 If $`r_j\equiv p^s r_i\pmod q`$ for distinct indices, choose $`(a,b)\ne(0,0)`$ with $`c_i a+c_j b=0`$. The subgroup $`D\cong F^+`$ supported on those two coordinates as $`(az,bz^{p^s})`$ is normal in $`X`$ and lies in $`Y_0`$: Frobenius identifies the modules and preserves trace. Thus $`Y_0`$ is not core-free. Moreover $`Y_0,Y_1`$ form an exact factorization, as $`|Y_0|=|M|`$ and $`Y_0\cap Y_1=1`$; their images give an exact factorization of $`X/D`$. The natural quotient induces a surjective homomorphism between the associated ambient exact-factorization loops with kernel $`D`$, which is nontrivial and proper. Hence the original loop is not simple. This applies also when $`p=2`$ and does not establish C0013's absorption or the exhaustiveness of the distinct-orbit family.
 
-Automated mathematical reviewers an independent checker accepted this final section, relying on the earlier section. The review covers the stabilizer identity and strict displacement, the stated Feit–Thompson/solvable-group input, and the repeated-module normal graph and proper quotient-loop kernel, including p=2 and zero coefficients. It does not establish C0013 absorption or distinct-orbit exhaustiveness. No computation or formal verification is used.
+
+reviewer contributor 1 accepted this final section at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/698ce5f6d50e7186f205a63f4a2c413145775915), relying on the earlier section reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9d09b4c9fc854462d1888a528ffd5c7567d141ed). The review covers the stabilizer identity and strict displacement, the stated Feit–Thompson/solvable-group input, and the repeated-module normal graph and proper quotient-loop kernel, including p=2 and zero coefficients. It does not establish C0013 absorption or distinct-orbit exhaustiveness. No computation or formal verification is used.
 
 ## Strict defect for every proper invariant normal subgroup
 
@@ -69,15 +78,17 @@ This extension has the scoped review below. Let (G,H,K) be a finite faithful gen
 
 For every nontrivial proper τ-stable normal subgroup N◁G, not necessarily abelian,
 
-|H∩N| < |C_N(τ)|.                                        (1)
+    |H∩N| < |C_N(τ)|.                                        (1)
 
 Indeed, τ induces an automorphism of order dividing two on G/N. Complement conjugacy in N⋊⟨τ⟩ shows C_G(τ) maps onto C_{G/N}(τ), so |C_{G/N}(τ)|=|C|/|C_N(τ)|. It also shows the image Kbar of K is the full inverted subset of G/N: the involutions τKbar form the full conjugacy class of τ and every conjugator lifts. Thus
 
-|Kbar|/[G:HN] = |C_N(τ)|/|H∩N|.
+ |Kbar|/[G:HN] = |C_N(τ)|/|H∩N|.
 
 The image Kbar covers G/HN, making the ratio at least 1. Equality is equivalent to transversality, in which case the quotient triple (G/N,HN/N,Kbar) is a Bol folder and K→Kbar a surjective loop homomorphism with kernel K∩N. If K∩N is nontrivial, simplicity makes the kernel the entire loop; then K⊆N and generation forces N=G, contrary to properness. If K∩N=1, the full inverted subset of N is trivial. Odd-order complement conjugacy then gives |N:C_N(τ)|=1, so C_N(τ)=N; equality would give N≤H, contradicting core_G(H)=1. Thus the inequality is strict.
 
 A second conclusion holds independently of the strict inequality: every τ-stable normal subgroup N on which τ acts trivially is central. For n∈N and k∈K, the element knk⁻¹∈N is τ-fixed, whereas applying τ gives k⁻¹nk. Thus k² centralizes n. Since G has odd order, k∈⟨k²⟩, so k centralizes n; K generates G. The reviewed abelian-radical result says τ fixes Z(G) pointwise, so the τ-fixed normal subgroups are precisely the central subgroups. This is a structural necessary condition; it neither implies that the loop has odd G from its order nor classifies the loops or proves an exact factorization.
+
+reviewer contributor 1 accepted the final general normal-subgroup section at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d), relying on the prior reviewed odd-folder results. The review checked complement conjugacy for arbitrary odd N, centralizer surjectivity, the full inverted image, and transversality to every conjugate of HN/N (by projection of the original conjugate transversals and equality of sizes). It checked both simplicity-kernel extremes and the fixed-normal-if-and-only-if-central conclusion. The odd-order G hypothesis remains explicit; no odd-envelope theorem for all odd-order loops or classification follows. No computation or formal verification was performed.
 
 ## Source application to odd-order loops
 
@@ -85,23 +96,26 @@ A second conclusion holds independently of the strict inequality: every τ-stabl
 
 Thus the earlier odd-G results apply to the canonical envelope of a simple nonassociative odd-order left Bol loop when their other stated hypotheses are satisfied, including the involution, conjugacy-invariance, and strict-defect hypotheses where invoked. This removes no other assumption and gives no classification.
 
+contributor 2 accepted this source application at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/ab4059e6a9b8d5876e2bffa993bb98e7dac69025) after directly checking FKP v2 Example 5.1, Proposition 6.1 and Theorem 4.14, including its general radical-quotient case, and the independent Theorem 6.7 route. No Bruck or radical-free hypothesis is needed; the later Lemma 6.22 is not used. This applies to the canonical faithful generated envelope and retains the other hypotheses of the earlier results. Published-version numbering remains unverified, and no unrestricted classification follows.
+
 ## No proper normal Hall subgroup
 
-**Scoped independent review below.** Under the canonical odd-order simple nonassociative Bol-loop hypotheses just applied, G has no nontrivial proper normal Hall subgroup. This uses the general strict-defect section and the odd-envelope source application, retaining their folder/inversion inputs.
+**Scoped independent review below.** Under the canonical odd-order simple nonassociative Bol-loop hypotheses just applied, G has no nontrivial proper normal Hall subgroup. This uses the general strict-defect section reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d) and the odd-envelope source application reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ab4059e6a9b8d5876e2bffa993bb98e7dac69025), retaining their folder/inversion inputs.
 
 Suppose N is a nontrivial proper normal Hall π-subgroup of G. Every π-subgroup maps trivially to the π′-group G/N and is contained in N. Thus N is characteristic, in particular τ-stable. Both H∩N and C_G(τ)∩N are π-groups; their respective quotients in H and C_G(τ) embed in G/N and have π′-order. Consequently
 
-|H∩N|=|H|_π=|C_G(τ)|_π=|C_N(τ)|,
+    |H∩N|=|H|_π=|C_G(τ)|_π=|C_N(τ)|,
 
 contradicting the strict defect. This elementary Hall argument requires no additional coprime lifting theorem.
 
 In particular no proper normal Sylow subgroup can occur. If G is monolithic with elementary abelian unique minimal normal subgroup M of characteristic p and M<G, then p divides |G/M|. Otherwise M would be normal Hall. The case M=G would make the faithful generated folder associative. This excludes the preceding Frobenius mixed-eigenspace control as a simple envelope, but does not exclude monolithic groups with p dividing |G/M|, force τ-paired minimal modules, or establish an exact-factorization witness. No new computation is used.
 
-It neither forces paired minimal modules nor classifies the remaining groups; no computation or formal verification was used.
+reviewer contributor 1 accepted the no-normal-Hall section at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/e2e4609612cf6de99be9d2456c339b18d4a04173), conditional on the pinned strict-defect and odd-envelope source inputs. The review checked characteristicity, the equal π-parts, the strict-defect contradiction and the monolithic consequence, including the associative case M=G. It neither forces paired minimal modules nor classifies the remaining groups; no computation or formal verification was used.
+
 
 ## Proposed mixed-module stabilizer obstruction
 
-**Scoped independent review below.** The strict-defect input is the result above, and oddness of the canonical envelope uses the source application above. Let p be an odd prime and q a prime with ord_q(p)=p. Put T=C_q×C_q and A=T⋊⟨t⟩, where t has order p and acts on the two q-coordinates by multiplication by p and p^−1. Let α interchange the two coordinates and invert t. Let V be a nonzero finite elementary abelian p-group with an F_p A-module structure and an involution σ satisfying σ(a v)=α(a)σ(v). Assume:
+**Scoped independent review below.** The strict-defect input is the result reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d) above, and oddness of the canonical envelope uses the source application reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ab4059e6a9b8d5876e2bffa993bb98e7dac69025) above. Let p be an odd prime and q a prime with ord_q(p)=p. Put T=C_q×C_q and A=T⋊⟨t⟩, where t has order p and acts on the two q-coordinates by multiplication by p and p^−1. Let α interchange the two coordinates and invert t. Let V be a nonzero finite elementary abelian p-group with an F_p A-module structure and an involution σ satisfying σ(a v)=α(a)σ(v). Assume:
   (i) each of the two coordinate C_q subgroups acts fixed-point-freely on V;
   (ii) d_+=dim_Fp C_V(σ) is divisible by p.
 Use the semidirect convention $`(v,a)(w,b)=(v+a w,ab)`$, set $`G=V\rtimes A`$, and define $`\tau(v,a)=(\sigma v,\alpha a)`$. Then G with this involution cannot be the canonical envelope and inverting automorphism of a finite simple nonassociative odd-order Bol loop.
@@ -122,7 +136,8 @@ Moreover G_ab≅C_p and τ induces inversion on it: [A,V]=V and A′=C_q². The 
 
 Thus mixed irreducibility, monolithicity, odd solvability, inversion on abelianization, full inverted-set generation, and p dividing |G/V| coexist; they alone do not force a paired minimal normal. The exclusion above uses the additional simple-folder stabilizer and strict-defect constraints.
 
-It does not assert a Bol folder for the control or an exhaustive description of odd envelopes.
+reviewer contributor 1 accepted the mixed-module obstruction and irreducible monolithic control at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/9009bb98c97148e7cf250344f714528b1620b0a9), conditional on the pinned strict-defect and odd-envelope inputs. The review checked the fixed subgroup, projected stabilizer order, invariant q-axis and modular dimension contradiction, then the explicit module’s irreducibility, faithful action, mixed eigenspaces, monolithicity and full inverted-set generation. It does not assert a Bol folder for the control or an exhaustive description of odd envelopes. No computation or formal verification was used.
+
 
 ## Proposed modular defect congruence
 
@@ -136,7 +151,7 @@ Proof. Coprime complement conjugacy gives a surjection C_G(τ)→C_A(α), whose 
  |J|=|H|/|H∩V| = p^(c−w)|C_A(α)|.
 Set δ=c−w≥1. Since J≤A, δ≤v_p([A:C_A(α)])=m. The prime q divides |J|, so J has a subgroup B of order q. It acts on the F_p-space V (the action of A is well-defined because V is abelian), with no nonzero fixed vector. Maschke's theorem for B implies every B-invariant subspace is a sum of nontrivial irreducibles, each of dimension r=ord_q(p). Thus r divides dim(H∩V)=w, yielding δ≡c mod r. No split extension, irreducibility of V, solvability of J, or monolithic condition is assumed.
 
-Source inputs: Foguel–Kinyon–Phillips arXiv:math/0208231v2, Proposition 6.1 and Theorem 4.14 give odd G; C0007 proof Theorem 1.1(1) gives τ; odd-folder-radicals.md gives full inverted set, centralizer lifting, and strict defect for proper τ-stable normal subgroups (reviewed at recorded source version; FKP source application reviewed recorded source version). Standard coprime representation facts are used as shown.
+Source inputs: Foguel–Kinyon–Phillips arXiv:math/0208231v2, Proposition 6.1 and Theorem 4.14 give odd G; C0007 proof Theorem 1.1(1) gives τ; odd-folder-radicals.md gives full inverted set, centralizer lifting, and strict defect for proper τ-stable normal subgroups (reviewed at the recorded source revision; FKP source application reviewed the recorded source revision). Standard coprime representation facts are used as shown.
 
 ## Uniform higher-p-length monolithic test
 
@@ -150,31 +165,34 @@ The Fp A-module V is irreducible: each F-line has q²-character (p^j,p^−j); tw
 
 For every odd prime p and k≥1 a suitable q exists by the elementary argument below. Thus this excludes an infinite sequence of concrete mixed, monolithic, unbounded p-index quotient models. It does not exclude arbitrary monolithic groups or prove any exact factorization.
 
-**Prime existence, with scoped independent review.** Put N=p^(k−1) and S=Σ_{i=0}^{p−1}p^{iN}>1. Then S≡1 (mod p), so any prime divisor q of S differs from p. Since (p^N−1)S=p^{p^k}−1, the order of p modulo q divides p^k. If it were a proper divisor, it would divide N, making S≡p (mod q) and forcing q=p, a contradiction. Thus every prime divisor q of S has order exactly p^k. Automated mathematical reviewers an independent checker subsequently accepted this committed elementary argument. This discharges the prime-existence qualification on the preceding review without invoking an external primitive-prime-divisor theorem.
+reviewer contributor 1 accepted the modular defect congruence and higher-p-length model at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/457858c2fe7b8865a5e7682173361aaec551537c), conditional on the reviewed strict-defect and odd-envelope inputs. The review checked coprime centralizer lifting, modular dimensions without splitness, the separate forced-axis argument where the generic fixed-free hypothesis fails, irreducibility, faithfulness, mixed eigenspaces, monolithicity and full inverted-set generation. The reviewer requested a justification of the asserted infinite supply of primes; the following new argument was supplied afterward and was not present at that source revision. No computation or formal verification was used.
+
+**Prime existence, with scoped independent review.** Put N=p^(k−1) and S=Σ_{i=0}^{p−1}p^{iN}>1. Then S≡1 (mod p), so any prime divisor q of S differs from p. Since (p^N−1)S=p^{p^k}−1, the order of p modulo q divides p^k. If it were a proper divisor, it would divide N, making S≡p (mod q) and forcing q=p, a contradiction. Thus every prime divisor q of S has order exactly p^k. reviewer contributor 1 subsequently accepted this committed elementary argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/e684b2ef774d331b786e72b49df5d9d812362f25). This discharges the prime-existence qualification on the preceding review without invoking an external primitive-prime-divisor theorem.
 
 ## Candidate simplicity criterion using τ-stable normal subgroups
 
 **Lemma with scoped independent reviews below.** Let (G,H,K) be a finite faithful generating left Bol folder, with G of odd order and an automorphism τ satisfying τ(k)=k⁻¹ for every k∈K. Assume the full-inverted-set and centralizer-ratio conclusions of the earlier odd-folder argument. Then its loop Q is simple if and only if
 
-|H∩N| < |C_N(τ)|
+    |H∩N| < |C_N(τ)|
 
 for every nontrivial proper τ-stable normal subgroup N◁G. This criterion includes associative simple loops; it does not assert that the kernel of every loop quotient is τ-stable.
 
-Proof. The reviewed ratio argument at the recorded source revision gives, for each such N,
+Proof. The reviewed ratio argument at [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d) gives, for each such N,
 
-|KN/N| / [G:HN] = |C_N(τ)| / |H∩N| ≥ 1,
+    |KN/N| / [G:HN] = |C_N(τ)| / |H∩N| ≥ 1,
 
 and equality exactly when the projected section is a transversal. If equality holds, C0001's quotient criterion gives a loop homomorphism with kernel K∩N. This kernel is nontrivial: core_G(H)=1 prevents nontrivial N from lying in H, while transversality gives |K∩N|=[N:H∩N]>1. If HN<G the quotient is nontrivial, so Q is not simple. If HN=G, equality forces |KN/N|=1, hence K⊆N; generation would give N=G, contrary to properness. Thus simplicity implies strict inequality.
 
 Conversely, suppose Q is not simple. Extend a nontrivial proper normal subloop to a maximal proper normal subloop P, and let S=Q/P. Then S is a nontrivial simple left Bol loop, and the natural epimorphism
 
-ρ:G → LMlt(S)
+    ρ:G → LMlt(S)
 
 sends each left translation to the corresponding quotient translation. Its kernel N is normal and nontrivial: if 1≠p∈P, then L_p∈N and L_p≠1 by faithfulness. It is proper because LMlt(S) is nontrivial. The preimage under ρ of the identity stabilizer in LMlt(S) is HN: if g sends the identity of Q into p∈P, then L_p∈N and L_p⁻¹g∈H. Hence [G:HN]=|S|>1.
 
 If S is nonassociative, C0001's nucleus-normality and simplicity give trivial left nucleus, so the invoked part of C0007 provides an automorphism τ' of LMlt(S) inverting its translations. If S is associative, it is a simple group of odd order and is solvable because LMlt(S) is a quotient of the odd-order solvable group G; hence S is cyclic of prime order, and inversion is an automorphism τ'. In either case ρτ=τ'ρ on the generating set K, so N is τ-stable. C0001's quotient criterion yields |KN/N|=[G:HN]. The displayed ratio then gives |H∩N|=|C_N(τ)|, contradicting strict inequality. ∎
 
-This equivalence uses a maximal proper normal subloop so that the quotient is simple; it gives no τ-stability assertion for kernels of arbitrary quotients. It does not prove the intrinsic exact-factorization witness or supply an unrestricted classification. Automated mathematical reviewers an independent checker and an independent checker independently accepted this equivalence, conditional on C0001, C0007, the reviewed odd-group full-inverted-set and centralizer-ratio results, and odd-order solvability. Both checked the necessity argument, nontrivial proper kernel of the action on the maximal simple quotient, the equality of its stabilizer preimage with HN, inversion in the nonassociative and associative quotient cases, and τ-stability from agreement on the generating translations. Neither review asserts τ-stability for kernels of arbitrary quotients, an exact-factorization witness or a classification. No computation or formal verification was used.
+This equivalence uses a maximal proper normal subloop so that the quotient is simple; it gives no τ-stability assertion for kernels of arbitrary quotients. It does not prove the intrinsic exact-factorization witness or supply an unrestricted classification. reviewers contributor 1 and contributor 3 independently accepted this equivalence at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/65a3e58df517df59656ab948ac9d122208f62c4a), conditional on C0001, C0007, the reviewed odd-group full-inverted-set and centralizer-ratio results, and odd-order solvability. Both checked the necessity argument, nontrivial proper kernel of the action on the maximal simple quotient, the equality of its stabilizer preimage with HN, inversion in the nonassociative and associative quotient cases, and τ-stability from agreement on the generating translations. Neither review asserts τ-stability for kernels of arbitrary quotients, an exact-factorization witness or a classification. No computation or formal verification was used.
+
 
 ## Proposed irreducible rank-two quotient obstruction
 
@@ -191,15 +209,16 @@ Since τ implements α and V is irreducible, swapping λ's coordinates is p^h t^
 
 Since ℓ has order n, n divides q−1. As q is odd, q≥2n+1=2p^k+1. Also q divides p^r−1, so r>k. In the second case p^{r/2}≡−1 mod q, so q divides p^{r/2}+1; that quotient is even, yielding p^{r/2}+1≥2q and hence r/2>k. Therefore neither residue class c mod r has a representative δ in [1,k], contradicting δ≡c mod r.
 
-This proves a bounded nonsplit extension exclusion for faithful irreducible modules; it does not imply all odd simple envelopes have a quotient A of this form, all such groups are monolithic, or exact-factorization exhaustiveness. Canonical oddness and strict defect use FKP arXiv:math/0208231v2, Proposition 6.1 and Theorem 4.14, and the general normal-subgroup section above. The FKP source application was independently. Induced module claim is proved by transitivity in the text; fixed-space descent can be proved elementarily by choosing a nonzero fixed vector via finite-field Hilbert 90. No computation is claimed for this section.
+This proves a bounded nonsplit extension exclusion for faithful irreducible modules; it does not imply all odd simple envelopes have a quotient A of this form, all such groups are monolithic, or exact-factorization exhaustiveness. Canonical oddness and strict defect use FKP arXiv:math/0208231v2, Proposition 6.1 and Theorem 4.14, and the general normal-subgroup section above reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d). The FKP source application was independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ab4059e6a9b8d5876e2bffa993bb98e7dac69025). Induced module claim is proved by transitivity in the text; fixed-space descent can be proved elementarily by choosing a nonzero fixed vector via finite-field Hilbert 90. No computation is claimed for this section.
 
-Automated mathematical reviewers an independent checker independently accepted the irreducible rank-two quotient obstruction, conditional on the pinned odd-envelope and strict-defect inputs. The review checked the forced q-axis, the faithful irreducible module decomposition and multiplicity one, the Frobenius reflection and fixed-space alternatives, the inequalities excluding every allowed defect, and the fact that the extension need not split. It does not assert exhaustiveness for odd envelopes or an exact-factorization witness.
+
+reviewer contributor 4 independently accepted the irreducible rank-two quotient obstruction at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/0e6e9e245ae75d4d814b6ae0a6f27a2d95174ad2), conditional on the pinned odd-envelope and strict-defect inputs. The review checked the forced q-axis, the faithful irreducible module decomposition and multiplicity one, the Frobenius reflection and fixed-space alternatives, the inequalities excluding every allowed defect, and the fact that the extension need not split. It does not assert exhaustiveness for odd envelopes or an exact-factorization witness.
 
 ## Proposed fixed stabilizer intersection and eigenspace geometry
 
-These further deductions have the **scoped independent review below**. Use the canonical faithful generating folder of a finite simple nonassociative odd-order left Bol loop, with the oddness, full-inverted-set and strict-defect inputs pinned above. The result says τ fixes Z(G) pointwise. Then
+These further deductions have the **scoped independent review below**. Use the canonical faithful generating folder of a finite simple nonassociative odd-order left Bol loop, with the oddness, full-inverted-set and strict-defect inputs pinned above. The result reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d) says τ fixes Z(G) pointwise. Then
 
-N_G(K)=C_G(τ),   H∩τ(H)=LInn(Q)∩Aut(Q),
+    N_G(K)=C_G(τ),   H∩τ(H)=LInn(Q)∩Aut(Q),
 
 where the final intersection is inside Sym(Q). A τ-fixed element normalizes the full inverted set K. Conversely, if g normalizes K, comparison of τ(gkg⁻¹) with (gkg⁻¹)⁻¹ for every k∈K shows τ(g)⁻¹g∈Z(G). This element is τ-inverted and τ-fixed, hence has order at most two and is trivial in odd G. Thus N_G(K)=C_G(τ). A permutation h∈H fixes 1 and is a loop automorphism exactly when it normalizes the set of left translations, proving the second equality via the already reviewed H∩τ(H)=C_H(τ).
 
@@ -211,15 +230,17 @@ There is also a limitation on this avoidance test. For every odd-order linear gr
 
 Finally B=H∩τ(H) contains W∩V₊, giving
 
-|B|≥p^{max(0,w−b)}=p^{max(0,a−b−δ)}.
+    |B|≥p^{max(0,w−b)}=p^{max(0,a−b−δ)}.
 
 Centralizer lifting and |H|=|C_G(τ)| give 1≤δ≤v_p([G/V:C_{G/V}(τ)]) by the previously reviewed quotient count. Thus B=1 would require δ≥a−b. If a−b exceeds that index valuation, every simple folder with the prescribed layer would have B≠1. No such folder is constructed here, and neither universal triviality of B nor a monolithic-envelope exclusion is asserted. No computation is used.
 
-Automated mathematical reviewers an independent checker independently accepted the fixed-stabilizer and eigenspace-geometry section, conditional on the pinned odd-envelope, center, strict-defect and known-control inputs. The review checked both normalizer identities, the fixed-subloop argument and nonsimple product control, disjoint projective orbit unions and automatic avoidance, and the stabilizer-size/valuation bounds. It establishes neither a simple-folder example nor universal triviality of the intersection or a monolithic-envelope exclusion; no computation or formal verification was used.
+
+reviewer contributor 1 independently accepted the fixed-stabilizer and eigenspace-geometry section at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/8ad35e2dbed5179f70be146d73b61ae80bde5555), conditional on the pinned odd-envelope, center, strict-defect and known-control inputs. The review checked both normalizer identities, the fixed-subloop argument and nonsimple product control, disjoint projective orbit unions and automatic avoidance, and the stabilizer-size/valuation bounds. It establishes neither a simple-folder example nor universal triviality of the intersection or a monolithic-envelope exclusion; no computation or formal verification was used.
+
 
 ## Proposed stabilizer displacement cocycle
 
-**Section with scoped independent review below.** Source context: C0001 faithful-folder and transversal correspondence, C0007 canonical inverting involution, C0010 odd frontier, and odd-folder-radicals.md strict-defect/full-inverted-set inputs (reviewed at recorded source version; FKP oddness source application at recorded source version). No universal exact-factorization assertion is claimed.
+**Section with scoped independent review below.** Source context: C0001 faithful-folder and transversal correspondence, C0007 canonical inverting involution, C0010 odd frontier, and odd-folder-radicals.md strict-defect/full-inverted-set inputs (reviewed at the recorded source revision; FKP oddness source application at the recorded source revision). No universal exact-factorization assertion is claimed.
 
 Let (G,H,K) be the canonical folder of a finite simple nonassociative odd-order Bol loop, τ its inverting involution, and V a nonzero τ-stable elementary abelian normal p-subgroup. Put σ=τ|V, V=V+⊕V−, W=H∩V, A=G/V, J=HV/V, J0=J∩C_A(τbar), B=H∩τ(H)=C_H(τ), D=W∩V+. Write a=dim V+, b=dim V−, w=dim W, d=dim D.
 
@@ -235,7 +256,7 @@ Here ker c is a subgroup, and c(x)=c(y) iff y^−1 x∈ker c, so the fibers are 
   |B|=p^d|ker c|,   [J0:ker c]≤p^{b−w+d}.
 In particular, if B=1 then d=0 and c is injective as a set, so |J0|≤p^{b−w}. More generally |J0|>p^{b−w+d} forces ker c≠1 and B≠1. This is a quotient-cocycle obstruction to trivial fixed stabilizer that uses H's subgroup closure and works without a splitting of G over V. It remains conditional: no simple folder is constructed for which the inequality holds.
 
-A complementary exact identity, derived in the source, is
+A complementary exact identity, derived by the collaborating agent contributor 5, is
   K∩Hτ(H)={h τ(h)^−1:h∈H},  |K∩Hτ(H)|=[H:B].
 Indeed, if hτ(j)∈K then τ(jh)=(jh)^−1; since jh∈H and K is the full inverted set, jh∈H∩K=1. Conversely hτ(h)^−1∈K. Two such values agree exactly when their h arguments differ by an element of C_H(τ)=B. This identity uses the product set Hτ(H), not a claim that it is a subgroup.
 
@@ -259,7 +280,7 @@ Indeed, semisimplicity of L on E gives a direct sum of irreducible F_p L-modules
 
 More generally, if B=1 and L≤J0 has order prime to p, then L has a regular orbit on E under its linear action. Indeed H¹(L,E)=0 by averaging: c|L is a coboundary, c(l)=l·x−x for some x∈E, and injectivity of c forces C_L(x)=1. Conversely, existence of a regular orbit alone does not construct an admissible folder or ensure B=1. No computation or formal verification is claimed.
 
-No universal triviality of H∩τ(H), exact-factorization exhaustiveness or new simple-loop existence follows; no computation or formal verification was used.
+reviewer contributor 1 independently accepted the displacement-cocycle, paired-quotient and regular-orbit sections at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/0aef10b81068306fe6beb6f8a925fd9ecbfa9fc3), conditional on the pinned odd-folder and full-inverted-set inputs. The review checked the quotient action and nonsplit cocycle, exact sequence and coset bounds, product-set identity, qualitative centralizer kernel, prime-q rank bound, and averaging argument. The paired quotient deduction and Q_{p,q} control were checked under the stated C0003 folder data. No universal triviality of H∩τ(H), exact-factorization exhaustiveness or new simple-loop existence follows; no computation or formal verification was used.
 
 ## Derived-envelope constraints on the fixed stabilizer
 
@@ -278,7 +299,7 @@ For transitivity, HG′=G. The kernel of G′ on G/H is core_{G′}(H∩G′). T
 
 The term “A divides Q” above is numerical: Q is not asserted to have a quotient isomorphic to A. Indeed simplicity and nonassociativity preclude any nontrivial group quotient. In Q_{p,q}, A≅C_p, |H|=p^p q, |Q|=p^{p+1}q and [G′:C]=p^p q, agreeing with the bounds. The normal closure of B may still be a nontrivial proper τ-stable subgroup of G; strict defect alone has not eliminated it.
 
-Inputs: C0001 faithful-folder and quotient projection; C0007 inversion on K; FKP arXiv:math/0208231v2 Proposition 6.1 and Theorem 4.14 for odd canonical G, source review recorded source version; full inverted set and fixed-normal-central theorem in this manuscript reviewed recorded source version; Feit–Thompson odd-order solvability; C0003 Theorem 1.1(3) for the control. The independent reviews below are conditional on these inputs; no new computation is claimed.
+Inputs: C0001 faithful-folder and quotient projection; C0007 inversion on K; FKP arXiv:math/0208231v2 Proposition 6.1 and Theorem 4.14 for odd canonical G, source review the recorded source revision; full inverted set and fixed-normal-central theorem in this manuscript reviewed the recorded source revision; Feit–Thompson odd-order solvability; C0003 Theorem 1.1(3) for the control. The independent reviews below are conditional on these inputs; no new computation is claimed.
 
 ### Stabilizer nonconjugacy and exclusion of metabelian envelopes
 
@@ -288,13 +309,13 @@ Suppose now that G is metabelian and put D=G′. By (3), D is a faithful transit
 
 Fix a prime p dividing |D| and let D_p be the p-primary component. Write H=P×U with P its Sylow p-subgroup and U its p′-Hall subgroup. Averaging over U splits
 
-D_p = D_p^U ⊕ [D_p,U].
+    D_p = D_p^U ⊕ [D_p,U].
 
 Both terms are P-invariant. Since D_p=[D_p,H], the first term M=D_p^U would satisfy M=[M,P]. But if M≠0, the nonzero F_pP-module M/pM has a nonzero quotient with trivial P-action: its dual has a nonzero fixed vector, as follows by counting P-orbits in the dual vector space. Thus M/[M,P]≠0, a contradiction. Hence D_p^U=0.
 
 For completeness, every additive 1-cocycle δ:H→D_p is a coboundary. Since |U| is invertible on D_p, averaging its restriction to U gives b=|U|⁻¹∑_{u∈U}δ(u) with δ(u)=b−u·b. Subtract this coboundary to arrange δ|_U=0. The commuting elements u∈U and x∈P then give
 
-u·δ(x) = δ(ux) = δ(xu) = δ(x),
+    u·δ(x) = δ(ux) = δ(xu) = δ(x),
 
 so δ(x)∈D_p^U=0. Therefore the adjusted cocycle vanishes on all of H. Summing over primary components proves H¹(H,D)=0. Because D is characteristic, τ(H) is another complement to D in D⋊H. Every such complement is the graph of a 1-cocycle H→D; a coboundary is removed by D-conjugation. Thus τ(H) is G-conjugate to H, contradicting the preceding nonconjugacy theorem. This proves (4).
 
@@ -310,34 +331,16 @@ If N is nilpotent, HN<G. Otherwise P=H∩N is a proper subgroup of N, normalized
 
 This is a genuine normal-closure restriction, not an exclusion of B≠1. It leaves a proper intransitive nilpotent normal closure compatible with the strict-defect inequalities, and it does not imply equality |H∩N|=|C_N(τ)|. The known non-Bruck product control is nonsimple and has such an equality, but it does not decide the simple-loop case.
 
+### Independent review of the derived-envelope deductions
+
+reviewers contributor 4 and contributor 1 independently accepted the entire derived-envelope section and its subsections at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/e896039d004ff3882621aca115b1a39cc8fed207), conditional on the stated canonical-folder, odd-order, full-inverted-set, fixed-normal, strict-defect and C0003 inputs. They checked the abelianization homomorphism and divisor bounds, faithful derived-subgroup action, marked-class nonconjugacy argument, metabelian exclusion including the shared-prime averaging step, and nilpotent normal-closure restriction. They checked the numerical Q_{p,q} control against its cited construction, without reviewing all of C0003. A third independent reviewer, contributor 6, accepted specifically the stabilizer nonconjugacy and metabelian-exclusion subsection at that exact source; this narrower review excludes the following normal-closure subsection. No computation or formal verification was performed. The reviews do not establish B=1, exact-factorization necessity, a bound on remaining derived length, or an odd-loop classification.
+
 ## Faithful stabilizer action on the derived group
 
 **Bounded deduction for 0323:C0010, with the scoped independent reviews below.** If a group G has a normal subgroup D, G=HD and core_G(H)=1, then H∩C_G(D)=1. Indeed this intersection is normalized by H, because H normalizes D, and centralized by D. It is therefore normal in HD=G and contained in H, so core-freeness makes it trivial.
 
 Apply the reviewed identity G=HG′ above to a canonical simple nonassociative odd Bol folder. Then H acts faithfully on D=G′ by conjugation, and H∩Z(D)=1, without any assumption that D is nilpotent or Z(D) central in G. If D is nilpotent with class-two Sylow factors, each S_i=H∩P_i is abelian: its commutator lies in S_i∩Z(P_i), and Z(P_i)≤Z(D). This gives genuine necessary stabilizer constraints for the noncentral-center branch. It does not force Z(D)≤Z(G), a split extension over D, disjointness of H and τ(H), or a G-loop property. The separate noncentral-center construction retains its own review boundary.
 
-The derived-length lower bound is attained by the later [cross-coupled extraspecial family](odd-cross-extraspecial.md): its canonical G has nonabelian class-two derived subgroup and derived length three. That construction also refutes the attempted universal paired-minimal step toward exact-factorization necessity. It does not give an upper bound on derived length for arbitrary simple odd Bol loops.
+The derived-length lower bound is attained by the later [cross-coupled extraspecial family](odd-cross-extraspecial.md), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/3b47eee4f5bfb43983b5ba474dff3689796eb9ad): its canonical G has nonabelian class-two derived subgroup and derived length three. That construction also refutes the attempted universal paired-minimal step toward exact-factorization necessity. It does not give an upper bound on derived length for arbitrary simple odd Bol loops.
 
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-The control has quotient order 7 and kernel order 27 at the stated parameters. This review makes no assertion that every odd-order Bol loop has odd-order multiplication group, proves no exhaustiveness and supplies no simple example; no computation or formal verification was performed. ## Further structural reductions
-
-The review checked all equality cases including HA=G, the central and outer-involution consequences, and the H-subquotient argument, using the earlier reviewed quotient criterion and the stated C0003 data. No exhaustiveness or odd-envelope assertion for every Bol loop follows.
-
-The review checked complement conjugacy for arbitrary odd N, centralizer surjectivity, the full inverted image, and transversality to every conjugate of HN/N (by projection of the original conjugate transversals and equality of sizes). It checked both simplicity-kernel extremes and the fixed-normal-if-and-only-if-central conclusion. The odd-order G hypothesis remains explicit; no odd-envelope theorem for all odd-order loops or classification follows. No computation or formal verification was performed.
-
-No Bruck or radical-free hypothesis is needed; the later Lemma 6.22 is not used. This applies to the canonical faithful generated envelope and retains the other hypotheses of the earlier results. Published-version numbering remains unverified, and no unrestricted classification follows.
-
-The review checked characteristicity, the equal π-parts, the strict-defect contradiction and the monolithic consequence, including the associative case M=G. It neither forces paired minimal modules nor classifies the remaining groups; no computation or formal verification was used.
-
-The review checked the fixed subgroup, projected stabilizer order, invariant q-axis and modular dimension contradiction, then the explicit module’s irreducibility, faithful action, mixed eigenspaces, monolithicity and full inverted-set generation. It does not assert a Bol folder for the control or an exhaustive description of odd envelopes. No computation or formal verification was used.
-
-The review checked coprime centralizer lifting, modular dimensions without splitness, the separate forced-axis argument where the generic fixed-free hypothesis fails, irreducibility, faithfulness, mixed eigenspaces, monolithicity and full inverted-set generation. The reviewer requested a justification of the asserted infinite supply of primes; the following new argument was supplied afterward and was not present at that source revision. No computation or formal verification was used.
-
-The review checked the quotient action and nonsplit cocycle, exact sequence and coset bounds, product-set identity, qualitative centralizer kernel, prime-q rank bound, and averaging argument. The paired quotient deduction and Q_{p,q} control were checked under the stated C0003 folder data. No universal triviality of H∩τ(H), exact-factorization exhaustiveness or new simple-loop existence follows; no computation or formal verification was used.
-
-They checked the abelianization homomorphism and divisor bounds, faithful derived-subgroup action, marked-class nonconjugacy argument, metabelian exclusion including the shared-prime averaging step, and nilpotent normal-closure restriction. They checked the numerical Q_{p,q} control against its cited construction, without reviewing all of C0003. A third independent reviewer, an independent checker, accepted specifically the stabilizer nonconjugacy and metabelian-exclusion subsection at that exact source; this narrower review excludes the following normal-closure subsection. No computation or formal verification was performed. The reviews do not establish B=1, exact-factorization necessity, a bound on remaining derived length, or an odd-loop classification.
-
-No computation or further classification conclusion is asserted.
+At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/379317e583fa1e0c9171d526562c4f7e484d7d19), reviewers contributor 1, contributor 6 and contributor 4 separately accepted this faithful-stabilizer-action subsection and its class-two consequence, conditional on the previously reviewed G=HG′ identity. No computation or further classification conclusion is asserted.

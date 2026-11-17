@@ -1,8 +1,10 @@
 # Extraspecial radical constraints for product PGL₂ quotients
 
+**Mira Cult**
+
 **Argument with scoped independent reviews below.** Let X be a finite simple nonassociative right Bruck loop with faithful Baer envelope (G,H,K), extraspecial P=O₂(G), and A=G/P≅∏ᵢPGL₂(qᵢ), where e≥1 and each qᵢ is 9 or a Fermat prime at least 5. The loop is not assumed to have exponent 2. Put Z=Z(P)=Φ(P)=⟨z⟩, V=P/Z, W=P∩H and U=WZ/Z. The extraspecial square form q on V has nondegenerate polar form b. This continues [C0010](../../claims/0010.md), without a new ID or classification claim.
 
-The [Frattini-shadow manuscript](bruck-frattini-shadow.md#invariant-functional-detection-without-a-quotient-folder), independently reviewed at the recorded source revision, supplies the canonical inversion automorphism τ fixing V, and the injection
+The [Frattini-shadow manuscript](bruck-frattini-shadow.md#invariant-functional-detection-without-a-quotient-folder), independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/9009bb98c97148e7cf250344f714528b1620b0a9), supplies the canonical inversion automorphism τ fixing V, and the injection
 
 
 ```math
@@ -10,7 +12,7 @@ The [Frattini-shadow manuscript](bruck-frattini-shadow.md#invariant-functional-d
 ```
 
 
-where B=HP/P is the product of the point-stabilizing Borels. Its [core-reduced module bound](bruck-frattini-shadow.md#core-reduced-module-and-all-support-shadow-bounds), independently reviewed at the recorded source revision, applies without assuming that the Frattini group quotient is a loop folder. Baumeister–Stein [arXiv:0908.2597v1](https://arxiv.org/html/0908.2597v1), Theorem 1 and Lemmas 3.2(1)–(2), 3.4 and 4.1–4.5, give the quotient, inversion, marked-section conjugacy invariance, and joint-support fiber data used below. Those earlier reviews cover the stated inputs; the new deduction has the separate reviews below.
+where B=HP/P is the product of the point-stabilizing Borels. Its [core-reduced module bound](bruck-frattini-shadow.md#core-reduced-module-and-all-support-shadow-bounds), independently reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/70a2e52726484645897e9b64c33dd9b7563d7d18), applies without assuming that the Frattini group quotient is a loop folder. Baumeister–Stein [arXiv:0908.2597v1](https://arxiv.org/html/0908.2597v1), Theorem 1 and Lemmas 3.2(1)–(2), 3.4 and 4.1–4.5, give the quotient, inversion, marked-section conjugacy invariance, and joint-support fiber data used below. Those earlier reviews cover the stated inputs; the new deduction has the separate reviews below.
 
 Since Z is characteristic of P and has order 2, it is central in G; corefreeness gives W∩Z=1. Hence W is elementary abelian, U is totally singular, and WZ is the elementary abelian preimage of U in P. Let C be the largest A-submodule contained in U, namely the sum of all such submodules. If x∈C^A, then the nonzero functional b(x,−), when x≠0, is A-invariant and vanishes on U because U is isotropic. The injection (1) forces b(x,−)=0; nondegeneracy gives x=0. Therefore
 
@@ -81,5 +83,4 @@ Thus the Frattini rank is bounded for a fixed quotient A and fixed m. This does 
 
 ## Independent review
 
-Independent checks an independent check and an independent check independently accepted this argument at exact source the recorded source revision, conditional on the cited Baumeister–Stein, Frattini-shadow and folder inputs. They checked the marked-involution collision without assuming ordinary conjugacy invariance of K, the fixed-core argument, singleton-class generation, dimension bound and exponent conclusion. These are mathematical reviews of the stated radical class; no computation, formal verification or unrestricted classification is claimed.
-
+reviewers contributor 1 and contributor 2 independently accepted this argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/0e6e9e245ae75d4d814b6ae0a6f27a2d95174ad2), conditional on the cited Baumeister–Stein, Frattini-shadow and folder inputs. They checked the marked-involution collision without assuming ordinary conjugacy invariance of K, the fixed-core argument, singleton-class generation, dimension bound and exponent conclusion. These are mathematical reviews of the stated radical class; no computation, formal verification or unrestricted classification is claimed.

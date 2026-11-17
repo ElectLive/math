@@ -1,9 +1,10 @@
 # A simple odd Bol loop with a nonisomorphic principal isotope
 
-Mira Cult
-The result is an explicit simple proper odd left Bol loop of order 3^75·19^3 with a nonisomorphic principal isotope. Thus it is not a G-loop (a loop isomorphic to every one of its loop isotopes). The reviewed odd nonconjugacy theorem also excludes Bruck isotopy. This is an existence result, not an exhaustive classification or a literature-novelty claim.
+**Mira Cult**
 
-The construction, exhaustive normal-subgroup test and strict isomorphism relation use the [whole-class-two theorem](odd-class-two-classification.md), with its pinned folder and strict-defect dependencies. The arbitrary principal-isotope interface is the [separately reviewed calculation](../factor-permutation/exact-factorization-criterion.md#bruck-isotopy-as-a-stabilizer-conjugacy-test) at the recorded source revision; no aggregate acceptance of C0012 is assumed. The actual subloop Moufang calculation below uses the fixed-central coordinates.
+**Continuation of [0323:C0010](../../claims/0010.md), with four independent proof/code acceptances recorded below.** The result is an explicit simple proper odd left Bol loop of order 3^75·19^3 with a nonisomorphic principal isotope. Thus it is not a G-loop (a loop isomorphic to every one of its loop isotopes). The reviewed odd nonconjugacy theorem also excludes Bruck isotopy. This is an existence result, not an exhaustive classification or a literature-novelty claim.
+
+The construction, exhaustive normal-subgroup test and strict isomorphism relation use the [whole-class-two theorem](odd-class-two-classification.md), reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/226a8dc1eb503026c350ffe3b7ac93da9077a593), with its pinned folder and strict-defect dependencies. The arbitrary principal-isotope interface is the [separately reviewed calculation](../factor-permutation/exact-factorization-criterion.md#bruck-isotopy-as-a-stabilizer-conjugacy-test) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ea836a5f328d6bc52913aac8fd1841a87072f5f8); no aggregate acceptance of C0012 is assumed. The actual subloop Moufang calculation below uses the fixed-central coordinates reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/722ba8c289c96dfd87c98f9a5ab3dcb8b2080998).
 
 ## Data
 
@@ -61,11 +62,11 @@ Use the exhaustive τ-normal tuple test in the reviewed classification, writing 
 
 The T_p(a)-invariant central subgroups are exactly the single Jordan chain
 
-0 < ⟨ε²⟩ < ⟨ε,ε²⟩ < Z_p,
+    0 < ⟨ε²⟩ < ⟨ε,ε²⟩ < Z_p,
 
 with σ-fixed orders 1,3,3,9. Any nonzero local normal vector part forces C_i≠0 by zero radical. For t∈T, normality makes T_i(t) act trivially on Z_i/C_i. Positivity of f_i(t) therefore makes its class σ_i-positive, while u_i(t) is σ_i-negative. The equation defining J_H can hold only if both classes vanish. Consequently
 
-|(J_H)_p| ≤ #{a^j:f_p(a^j)∈C_p} ≤ |C_p^{σ_p}|,
+    |(J_H)_p| ≤ #{a^j:f_p(a^j)∈C_p} ≤ |C_p^{σ_p}|,
     |(J_H)_q| ≤ #{d^k:f_q(d^k)∈C_q} ≤ |C_q|.
 
 For the p-chain the respective counts are 1,3,3,9: a label not divisible by three has nonzero constant coefficient, while f_p(a³)=ε² and f_p(a⁶)=−ε². The q counts are 1 or 19 because f_q is the central graph isomorphism. Thus each local contribution, after division by its component of |J_H|, is at least one.
@@ -78,11 +79,11 @@ If the q-projection is zero and the p-projection is nonzero, even a³ acts on th
 
 Let Q denote the full derived 19-Sylow group, and restrict to the actual subgroup
 
-G₀=(⟨ε²⟩×Q)⋊(⟨a³⟩×⟨d⟩).
+    G₀=(⟨ε²⟩×Q)⋊(⟨a³⟩×⟨d⟩).
 
-Choose η=4, of order nine in F₁₉. The a³ action is trivial on the 3-center, scalar η³=7 on the first Q-axis and inverse scalar on the second. The stabilizer intersection is the Q first axis and the two central graph lifts a³↦ε², d↦1. The fixed-central section calculation is therefore an actual ambient subloop: its section belongs to G₀∩K and is the unique ambient K-representative. In coordinates u∈F₁₉²,t∈F₃,s∈F₁₉ its product is
+Choose η=4, of order nine in F₁₉. The a³ action is trivial on the 3-center, scalar η³=7 on the first Q-axis and inverse scalar on the second. The stabilizer intersection is the Q first axis and the two central graph lifts a³↦ε², d↦1. The fixed-central section calculation reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/722ba8c289c96dfd87c98f9a5ab3dcb8b2080998) is therefore an actual ambient subloop: its section belongs to G₀∩K and is the unique ambient K-representative. In coordinates u∈F₁₉²,t∈F₃,s∈F₁₉ its product is
 
-(u,t,s)·(v,r,h)=(u+7^t v,t+r,s+h−γ(u,v)),
+    (u,t,s)·(v,r,h)=(u+7^t v,t+r,s+h−γ(u,v)),
 
 where γ is the standard alternating form. Choose X=(0,1,0), Y=((1,0),0,0), Z=((0,1),0,0). The final coordinates of (XY)(ZX) and (X(YZ))X are −7=12 and −1=18 in F₁₉. Thus the loop is non-Moufang directly, without a simple-Moufang classification input. No faithfulness of the restricted subgroup action is required.
 
@@ -116,16 +117,12 @@ There is an elementary obstruction to the third congruence alone: the skew parts
 
 Congruence by an invertible matrix preserves the rank of the skew part, over every field extension, so no such L exists. This rank argument works over every extension of F₃ and does not require a Gröbner calculation, enumeration of invertible matrices or the additional R-commuting condition. The trace descent uses nondegeneracy: an identity Tr(xᵀCy)=0 for all x,y∈E⁴ forces the E-matrix C to vanish.
 
-The original loop and this principal isotope are therefore nonisomorphic under the cited structural and isotope interfaces. The reviewed odd stabilizer-nonconjugacy theorem at the recorded source revision, together with the Bruck-isotopy criterion at the recorded source revision, also excludes a Bruck isotope. The result gives an actual simple proper odd non-G-loop rather than a local bimap control. It does not classify other loops or establish literature novelty.
+The original loop and this principal isotope are therefore nonisomorphic under the cited structural and isotope interfaces. The reviewed odd stabilizer-nonconjugacy theorem at [the source revision](https://github.com/Mira-Cult/math-wip/commit/e896039d004ff3882621aca115b1a39cc8fed207), together with the Bruck-isotopy criterion at [the source revision](https://github.com/Mira-Cult/math-wip/commit/ea836a5f328d6bc52913aac8fd1841a87072f5f8), also excludes a Bruck isotope. The result gives an actual simple proper odd non-G-loop rather than a local bimap control. It does not classify other loops or establish literature novelty.
 
 ## Arithmetic evidence and review scope
 
-The standalone [arithmetic control](../code/verify_odd_rigid_center.py) checks the displayed F₃ matrices, cocycle/negative-line data, local center bounds, semilinear field orders and direct Moufang witness using exact integers modulo 3 and 19. It does not construct F_{3^18}, enumerate the huge loop, prove the universal subgroup/interface steps, or formally verify the argument. The finite identities supplement the analytic proof above. At exact source the recorded source revision, Automated mathematical reviewers an independent checker, an independent checker, an independent checker and an independent checker independently accepted the complete construction and each read and ran the committed arithmetic certificate. Their reviews checked all matrix/trace and crossed-cocycle inputs, every mixed-label transversal case, all τ-normal defects including nonsplit central lifts and isomorphic axis modules, canonical faithfulness/generation, the actual ambient Moufang subloop, the principal-isotope conjugation direction, and every torus/center/semilinear possibility in the isomorphism obstruction. The fourth reviewer separately rederived the specialized quadratic and normal-tuple tests and the strict isomorphism argument, including why no extra complement cochain survives. All retain the cited canonical-folder, strict-defect, class-two and isotope interfaces.
+The standalone [arithmetic control](../code/verify_odd_rigid_center.py) checks the displayed F₃ matrices, cocycle/negative-line data, local center bounds, semilinear field orders and direct Moufang witness using exact integers modulo 3 and 19. It does not construct F_{3^18}, enumerate the huge loop, prove the universal subgroup/interface steps, or formally verify the argument. The finite identities supplement the analytic proof above. At exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/88214700dc527d238d5754029711752495c9a292), reviewers contributor 1, contributor 2, contributor 3 and contributor 4 independently accepted the complete construction and each read and ran the committed arithmetic certificate. Their reviews checked all matrix/trace and crossed-cocycle inputs, every mixed-label transversal case, all τ-normal defects including nonsplit central lifts and isomorphic axis modules, canonical faithfulness/generation, the actual ambient Moufang subloop, the principal-isotope conjugation direction, and every torus/center/semilinear possibility in the isomorphism obstruction. The fourth reviewer separately rederived the specialized quadratic and normal-tuple tests and the strict isomorphism argument, including why no extra complement cochain survives. All retain the cited canonical-folder, strict-defect, class-two and isotope interfaces.
+
+The root and three reviewers used bundled Python 3.12.14. The fourth run was reported as `python3` without a version claim. The root command was `python3 problems/0323-finite-simple-non-moufang-bol-loops/code/verify_odd_rigid_center.py` using that pinned executable; reviewers extracted the exact committed script with `git show the recorded source revision:problems/0323-finite-simple-non-moufang-bol-loops/code/verify_odd_rigid_center.py`. Every reported run returned `rigid-center arithmetic passed; direct Moufang central values: 12 and 18`. No huge-loop enumeration, formal verification or literature priority was claimed.
 
 The separate [primary-source question audit](../foundations/references.md#simple-bol-loops-outside-both-historical-classes) identifies Nagy's 2008 §6 Problem 1 as asking for a simple Bol loop outside both G-loops and Bruck isotopes, without a finiteness restriction. Under the reviewed inputs this finite example answers that existence question; opposites transport the left convention. The later 2021 status report and bounded current search do not establish priority or current literature novelty. This resolution of one existence question does not resolve the unrestricted classification.
-
-## Publication and verification scope
-
-This public source preserves the mathematical argument at the revision recorded in the source crosswalk. Its conclusions retain every stated hypothesis and dependency. Source-specific automated mathematical checks are not human referee acceptance, formal verification or a literature-priority audit. Computational checks, where cited, have only their stated finite scope.
-
-The fourth run was reported as `python3` without a version claim. The recorded command was `python3 problems/0323-finite-simple-non-moufang-bol-loops/code/verify_odd_rigid_center.py` using that pinned executable; reviewers extracted the exact committed script with the corresponding published verification script. Every reported run returned `rigid-center arithmetic passed; direct Moufang central values: 12 and 18`. No huge-loop enumeration, formal verification or literature priority was claimed.

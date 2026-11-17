@@ -22,7 +22,7 @@ A four-digit ID identifies a **mathematical claim or closely connected claim fam
 | [0005](claims/0005.md) | Wreath-Socle Simple Exact-Factorization Family, Universal LMlt Evenness, and Cross-Family Isotopy Separation | proved; reviewed |
 | [0006](claims/0006.md) | Principal Isotopy-Orbit Theorem for Centerless Exponent-2 Left Bol Loops and Complete 4-Loop N_96^op Isotopy Census | proved; reviewed |
 | [0007](claims/0007.md) | Twisted Involution Obstruction Theory and Infinite Non-Abelian Simple and Almost-Simple LMlt(Q) Exclusions | proved; unreviewed |
-| [0008](claims/0008.md) | Unconditional Almost-Simplicity of the Full Multiplication Group Mlt(Q) | proved; unreviewed |
+| [0008](claims/0008.md) | Unconditional Almost-Simplicity of the Full Multiplication Group Mlt(Q) | proved; reviewed |
 | [0009](claims/0009.md) | 0323/S1 Orbital Displacement Exclusions for Infinite Rank >= 3 Almost-Simple Families and Hurwitz-Paige Moufang Collapse on F_2-Quadrics | proved; unreviewed |
 | [0010](claims/0010.md) | Residual Classification Frontier for 0323, Surviving Primitive LMlt(Q) Regimes, and Rank >= 4 Frontier for 0323/S1 | open; unreviewed |
 | [0011](claims/0011.md) | Universal Prime-Power Order Nonexistence, Minimum Order ∣Q∣ >= 24, and Unconditional Uniqueness of Q_24 | proved; unreviewed |
@@ -106,11 +106,17 @@ Numbered expositions are linked where available. Other links identify supporting
 | [0080](claims/0080.md) | Non-scalar fusion and two-rate matrix mixing | [Statement, proof and scope](analytic-2026-11-16/manuscripts/bol-nonscalar-intertwiners.md) |
 | [0081](claims/0081.md) | Action-compatible local conductor transfer | [Statement, proof and scope](analytic-2026-11-16/manuscripts/bol-action-compatible-transfer.md) |
 
+| [0082](claims/0082.md) | Odd simple Bol loops have alternating full multiplication group | [Scope and complete proof links](manuscripts/0082-odd-alternating-full-group.md) |
+| [0083](claims/0083.md) | Solvable left multiplication: full action and exclusions | [Scope and complete proof links](manuscripts/0083-solvable-left-full-action.md) |
+| [0084](claims/0084.md) | Paired alternating and other simple-group models | [Scope and complete proof links](manuscripts/0084-paired-simple-classifications.md) |
+| [0085](claims/0085.md) | Exclusion of the specified two-N Bruck branch | [Scope and complete proof links](manuscripts/0085-two-n-bruck-exclusion.md) |
+| [0086](claims/0086.md) | Frobenius models and proper-coordinate residuals | [Scope and complete proof links](manuscripts/0086-frobenius-and-stable-actions.md) |
+
 ## Scope and maintenance
 
 This catalogue covers all seventeen original claim records and every manuscript currently released in this public workspace. It does not claim that unpublished source work has been exhaustively audited. A compound manuscript can contain lemmas, examples and conjectures beyond its headline family: its hypotheses and section labels control their status. A material new theorem should get a new ID rather than being hidden under0010; an alternative proof of the same result retains its ID. Corrections retain IDs and state which conclusion changed.
 
-The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0082.
+The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0087.
 
 
 ## Manuscript-local QR labels, no permanent numeric allocation

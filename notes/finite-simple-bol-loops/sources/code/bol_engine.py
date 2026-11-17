@@ -1385,4 +1385,3 @@ def exact_factorization_bol_loop(
             row_l[j] = u
 
     return Loop(loop_table, name=name, validate_loop=True)
-

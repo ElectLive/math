@@ -1,6 +1,7 @@
 # Candidate no-common-class scalar exclusion
 
-Mira Cult
+**Mira Cult**
+
 This is a manuscript-local result with the scoped independent review below on [C0010](../../claims/0010.md), using the folder, factor-action injectivity and cyclic semiregularity results of [the SD counting manuscript](sd-a5-all-factors.md) and the numerical class-number/outer-automorphism bounds and sources in [the large-socle manuscript](sd-large-socles.md). It does not assume one involution class or a common square class.
 
 Let T be a finite nonabelian simple group of order n≥2²⁰, put a=|Aut(T)| and b=#{α∈Aut(T):α²=1}, and suppose
@@ -72,6 +73,6 @@ Both displayed summands decrease as integer d increases for d≥10: the polynomi
 
 There are distinct involutions I+N of ranks 1 and 2 for d≥4, and rank is conjugacy-invariant in GL_d(2); hence T has at least two involution classes. Applying the no-common-class scalar theorem yields the conditional all-k exclusion for this infinite family. The elementary count and its application are included in the scoped review below; this is not a classification of primitive Bol groups.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker accepted the raw involution-count theorem and its PSL_d(2), d≥10 application at its recorded source revision. The review checked the initial bounds, recurrence, alternating and nonalternating top-group tails, absence of any common-class assumption, and the inner/outer matrix counts and numerical endpoints. Acceptance retains the stated folder, factor-action injectivity, cyclic semiregularity, CFSG-dependent class-number and permutation-group inputs. It is independent model review, not a classification of primitive Bol groups or formal certification.
+reviewer contributor 1 accepted the raw involution-count theorem and its PSL_d(2), d≥10 application at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/dec9a5f13aa4504ed2e1cb81d7cc1df4ea1aa499). The review checked the initial bounds, recurrence, alternating and nonalternating top-group tails, absence of any common-class assumption, and the inner/outer matrix counts and numerical endpoints. Acceptance retains the stated folder, factor-action injectivity, cyclic semiregularity, CFSG-dependent class-number and permutation-group inputs. It is independent model review, not a classification of primitive Bol groups or formal certification.

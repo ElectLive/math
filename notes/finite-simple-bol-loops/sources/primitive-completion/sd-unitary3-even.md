@@ -1,7 +1,8 @@
 # Exclusion for even-characteristic PSU₃ socles in all SD_k
 
-Mira Cult
-This manuscript-local argument on [C0010](../../claims/0010.md) is conditional on the primitive left-Bol folder and inversion results and the [SD counting and semiregularity arguments](sd-a5-all-factors.md) at its recorded source revision. Under those upstream hypotheses, the conclusion is that no primitive SD_k left multiplication group has socle T^k with T=PSU₃(q), q=2^f≥4, and k≥3. This is an exclusion for one diagonal socle family, not a classification of primitive Bol groups. The field-involution count and all-parameter argument have the scoped independent review below.
+**Mira Cult**
+
+This manuscript-local argument on [C0010](../../claims/0010.md) is conditional on the primitive left-Bol folder and inversion results and the [SD counting and semiregularity arguments](sd-a5-all-factors.md) at source [the source revision](https://github.com/Mira-Cult/math-wip/commit/266152034b2f190313d253c4d55df0d4f85f68c2). Under those upstream hypotheses, the conclusion is that no primitive SD_k left multiplication group has socle T^k with T=PSU₃(q), q=2^f≥4, and k≥3. This is an exclusion for one diagonal socle family, not a classification of primitive Bol groups. The field-involution count and all-parameter argument have the scoped independent review below.
 
 ## Unitary involutions
 
@@ -72,8 +73,8 @@ print('passed')
 
 The certificate was run with Python 3 and passed. The finite arithmetic and new argument have the independent review below, under the stated upstream dependencies.
 
-## Source verification and limitations and finite control
+## Scoped independent review and finite control
 
-At exact revision the recorded source revision, a separate automated checker accepted the all-q, all-k argument conditional on the stated folder, inversion, square-class and CFSG-dependent primitive-group inputs. The reviewer checked semilinear normalization, descent, the symmetric-form classification, projective centralizer and all bounds, and ran the five-field integer certificate with Python 3.12.14. The reviewer directly inspected the conflicting Jones statement and did not use it to corroborate the new count.
+At exact revision [the source revision](https://github.com/Mira-Cult/math-wip/commit/9d09b4c9fc854462d1888a528ffd5c7567d141ed), contributor 1 accepted the all-q, all-k argument conditional on the stated folder, inversion, square-class and CFSG-dependent primitive-group inputs. The reviewer checked semilinear normalization, descent, the symmetric-form classification, projective centralizer and all bounds, and ran the five-field integer certificate with Python 3.12.14. The reviewer directly inspected the conflicting Jones statement and did not use it to corroborate the new count.
 
-A separately written [GF(16) matrix enumeration](../code/verify_unitary3_q4_involutions.py) enumerates all 312000 unitary matrices and 62400 projective classes. Directly testing A times its fourth-power conjugate for being scalar gives 1040 projective semilinear involutions; there are also 60 unitary matrices with entries in F₄. The producer ran Python 3.12.14. Independent reviewer a separate automated checker accepted this certificate at its recorded source revision, inspecting its field arithmetic, exhaustive orthonormal-basis construction, matrix-product convention, scalar quotient and coverage of projective similitudes. Python 3.12.14 reproduced the counts. The direct count of 1040 is independent of the separately printed quotient 62400/60; the code does not by itself prove projective-centralizer equality or the all-q formula.
+A separately written [GF(16) matrix enumeration](../code/verify_unitary3_q4_involutions.py) enumerates all 312000 unitary matrices and 62400 projective classes. Directly testing A times its fourth-power conjugate for being scalar gives 1040 projective semilinear involutions; there are also 60 unitary matrices with entries in F₄. The producer ran Python 3.12.14. Independent reviewer contributor 1 accepted this certificate at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/422cbf355aca69cc71a290176176f4169dcbd18e), inspecting its field arithmetic, exhaustive orthonormal-basis construction, matrix-product convention, scalar quotient and coverage of projective similitudes. Python 3.12.14 reproduced the counts. The direct count of 1040 is independent of the separately printed quotient 62400/60; the code does not by itself prove projective-centralizer equality or the all-q formula.

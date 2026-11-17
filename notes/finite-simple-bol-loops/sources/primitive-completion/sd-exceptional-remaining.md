@@ -1,7 +1,8 @@
 # Candidate raw-F3 inequality for five exceptional families
 
-Mira Cult
-Conditional on the primitive-folder and raw-F3 inputs in the repository manuscript [raw-F₃ criterion](sd-raw-involution-count.md), the following excludes SD_k with k≥3 and socle T^k for T=F4(q), E6(q), ²E6(q), E7(q), or E8(q), each q=p^f≥2. This conditional argument for [C0010](../../claims/0010.md) has the scoped independent review recorded below and makes no global classification claim.
+**Mira Cult**
+
+Conditional on the primitive-folder and raw-F3 inputs in the repository manuscript [raw-F₃ criterion](sd-raw-involution-count.md), the following excludes SD_k with k≥3 and socle T^k for T=F4(q), E6(q), ²E6(q), E7(q), or E8(q), each q=p^f≥2. This manuscript-local candidate for [C0010](../../claims/0010.md) has the scoped independent review recorded below and makes no global classification claim.
 
 Let n=|T|, t=|Out T|, a=tn and b=#{x∈Aut(T):x²=1}. Put (r,D)=(4,52),(6,78),(6,78),(7,133),(8,248) in the order of the families above. Fulman–Guralnick, Trans. AMS 364 (2012), Lemma 2.1(1)–(2), p3027, and Table 1, p3049, https://dornsife.usc.edu/jason-fulman/wp-content/uploads/sites/224/2023/06/bounded.pdf, give k(Aut T)≤t k(T)≤8tq^r. The stated simple-group bound follows by passing to the simple central quotient of the simply connected form. The explicit twisted ²E6 entry uses q, without an almost-simple twisted-rank interpretation. Frobenius–Schur and Cauchy–Schwarz give b²≤a k(Aut T), so b<3tq^(r/2) sqrt(n).
 
@@ -34,6 +35,6 @@ Therefore the raw-F₃ criterion applies subject to that criterion, its upstream
 
 Run `python3 problems/0323-finite-simple-non-moufang-bol-loops/code/verify_sd_exceptional_remaining.py` for exact endpoint and Tits arithmetic. It does not verify the group data or the upstream criterion.
 
-## Source verification and limitations
+## Independent review
 
-a separate automated checker accepted this argument at its recorded source revision, conditional on the raw-F₃ criterion, folder/inversion machinery and cited group data. The review checked the Fulman–Guralnick class bounds and central quotients, Gallagher and Frobenius–Schur steps, Craven–Oliver–Semeraro orders, Lucchini–Marion–Tracey outer orders, normalized-factor bound, exponents and uniform rational endpoint. The Python 3.12.14 certificate passed independently. A separate GAP 4.15.1 / CTblLib 1.3.11 query reproduced the Tits table order, square-map positions and centralizers and checked the `ctotwis1.tbl` hash. Published table correctness and identification remain external inputs; this review does not certify the all-socle assembly.
+contributor 1 accepted this argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/f6c7e01a4337b51c703b4d9ffc94d3b84a732fe5), conditional on the raw-F₃ criterion, folder/inversion machinery and cited group data. The review checked the Fulman–Guralnick class bounds and central quotients, Gallagher and Frobenius–Schur steps, Craven–Oliver–Semeraro orders, Lucchini–Marion–Tracey outer orders, normalized-factor bound, exponents and uniform rational endpoint. The Python 3.12.14 certificate passed independently. A separate GAP 4.15.1 / CTblLib 1.3.11 query reproduced the Tits table order, square-map positions and centralizers and checked the `ctotwis1.tbl` hash. Published table correctness and identification remain external inputs; this review does not certify the all-socle assembly.

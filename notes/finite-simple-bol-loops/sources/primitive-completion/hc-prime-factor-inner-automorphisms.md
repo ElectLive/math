@@ -1,7 +1,8 @@
 # Candidate prime-factor HC exclusions with inner automorphisms
 
-Mira Cult
-This conditional argument addresses [C0010](../../claims/0010.md), using the HC folder and shared-transposition interfaces in [C0014](../../claims/0014.md) and [C0015](../../claims/0015.md). It has the scoped independent review recorded below. It concerns primitive `HC` with a prime number of simple factors in each regular minimal normal subgroup, under the separate hypotheses stated below; it does not exclude general `HC` or other O'Nan–Scott types.
+**Mira Cult**
+
+This manuscript-local candidate addresses [C0010](../../claims/0010.md), using the HC folder and shared-transposition interfaces in [C0014](../../claims/0014.md) and [C0015](../../claims/0015.md). It has the scoped independent review recorded below and introduces no claim ID. It concerns primitive `HC` with a prime number of simple factors in each regular minimal normal subgroup, under the separate hypotheses stated below; it does not exclude general `HC` or other O'Nan–Scott types.
 
 ## Conditional statement and interface
 
@@ -25,20 +26,16 @@ The product $`\mu\mu^h\in G`$ has trivial factor top. Its first $`B_1`$ restrict
 
 Independent conjugation by $`B`$ changes each fixed inner restriction throughout its $`T`$-conjugacy class and changes the parameter of a swapped restriction throughout its inner coset. Select $`u_1\in C_u`$ and $`v_2\in C_v`$ with $`z=u_1v_2\ne1`$. Such a choice exists: a nonidentity class in centerless $`T`$ has more than one element. Put $`v_1=\gamma^{-1}(v_2)\in C_v`$ and $`u_2=\gamma^{-1}(u_1)\in C_u`$. After independent $`B`$-conjugation of $`\mu`$ and $`\mu^h`$, choose their fixed restrictions as $`(\iota_{u_1},\iota_{v_1})`$ and $`(\iota_{v_2},\iota_{u_2})`$. Their product restricts to
 
-
-```math
-(\iota_z,\iota_{\gamma^{-1}(z^{-1})})
-```
-
+$$
+ (\iota_z,\iota_{\gamma^{-1}(z^{-1})})
+$$
 
 on $`B_1`$. Choose the swapped parameters of these conjugates to be $`\gamma`$ and $`\eta'=\iota_{z^{-1}}\gamma`$, respectively. The latter is available since $`[\eta']=[\eta]`$. Their product restricts on $`B_2`$ as
 
-
-```math
-(\gamma\eta'^{-1},\gamma^{-1}\eta')
+$$
+ (\gamma\eta'^{-1},\gamma^{-1}\eta')
  =(\iota_z,\iota_{\gamma^{-1}(z^{-1})}).
-```
-
+$$
 
 It therefore induces the same automorphism on the two socles and lies in $`H`$ by the preceding identification. It is nonidentity because $`z\ne1`$ and $`T`$ is centerless. Both factors belong to $`\Lambda`$ by $`G`$-conjugacy invariance, contradicting $`\Lambda^2\cap H=\{1\}`$.
 
@@ -71,11 +68,7 @@ Let $`c`$ generate $`P`$. Choose $`h_0\in H`$ with common factor action $`c`$, p
 
 Take $`\lambda=t\in\Lambda`$ and $`\mu=\lambda^h\in\Lambda`$. On a socle, if $`\lambda`$ has reflection top $`\sigma`$, then $`\mu`$ has top $`c^{-1}\sigma c`$ and their product top is
 
-
-```math
-\sigma(c^{-1}\sigma c)=c^2,
-```
-
+$$\sigma(c^{-1}\sigma c)=c^2,$$
 
 independent of $`\sigma`$, since $`\sigma c^{-1}\sigma=c`$. As $`r`$ is odd, $`c^2`$ is a nontrivial $`r`$-cycle, and this is the common product top on both socles. The same formula covers distinct reflections $`a`$ and $`b`$.
 
@@ -87,6 +80,6 @@ The resulting product $`x`$ induces the pure matched $`c^2`$ on both socles. The
 
 Together with the two-factor theorem above, the candidate therefore excludes primitive HC with a prime number of factors in each socle when $`\mathop{\mathrm{Out}}\nolimits(T)=1`$. This assembly and its monomial-cycle normalization have the scoped review below; it says nothing about composite factor counts or arbitrary outer automorphism groups. The existing two-factor theorem retains its weaker, separately stated hypotheses.
 
-## Source verification and limitations
+## Independent review
 
-a separate automated checker accepted both the two-factor result and the odd-prime Out(T)=1 extension at its recorded source revision, conditional on the stated C0014/C0015 folder, Case-B and shared-pair inputs and Feit–Thompson (source details in [REFERENCES.md](../foundations/references.md)). The review checked matched factor/outer actions and H-membership, arbitrary matched-swap h and independent B-conjugations, mixed orientations, the centralizer-of-P prime-degree argument, affine reflections, construction of the pure h, and trivial cycle monodromy giving a nonidentity stabilizer collision. This does not certify the upstream HC results or exclude composite factor counts and arbitrary outer automorphism groups.
+contributor 1 accepted both the two-factor result and the odd-prime Out(T)=1 extension at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/e8f8c9609eaa8e9fd6fbc29acf92e9b4c835462c), conditional on the stated C0014/C0015 folder, Case-B and shared-pair inputs and Feit–Thompson (source details in [REFERENCES.md](../foundations/references.md)). The review checked matched factor/outer actions and H-membership, arbitrary matched-swap h and independent B-conjugations, mixed orientations, the centralizer-of-P prime-degree argument, affine reflections, construction of the pure h, and trivial cycle monodromy giving a nonidentity stabilizer collision. This does not certify the upstream HC results or exclude composite factor counts and arbitrary outer automorphism groups.

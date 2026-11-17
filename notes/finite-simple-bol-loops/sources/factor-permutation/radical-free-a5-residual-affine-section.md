@@ -1,8 +1,8 @@
 # The residual sign action and affine sections
 
-Mira Cult
+**Mira Cult**
 
-**Independently reviewed theorem under pinned inputs.** This is a bounded continuation of [classification frontier](../../claims/0010.md). Its endpoint is the sign-saturation theorem below, not a classification of top lifts or simple loops.
+**Independently reviewed theorem under pinned inputs.** This is a bounded continuation of [0323-finite-simple-non-moufang-bol-loops:C0010](../../claims/0010.md). Its endpoint is the sign-saturation theorem below, not a classification of top lifts or simple loops.
 
 ## Scope and pinned interfaces
 
@@ -17,7 +17,7 @@ The actual path theorem splits H0 into m independent size-two full A5 strips and
 
 Thus Pφ is the full Sylow-2 subgroup, with φ:V4^n→F2^n, and X/Pφ=C. Put dim C=n−d and dim W=n−e, so k=3^d5^e. No independence of the coordinates of W or C is assumed.
 
-These interfaces are the [complete pairing theorem](radical-free-a5-nilpotent-orbit-pairing.md), the [opposite-endpoint path theorem](radical-free-a5-paired-path-residual.md), and the [actual residual graph](radical-free-a5-residual-dependency-graphs.md). The geometric path normalization in the [all-path parameterization](radical-free-a5-abelian-path-parameters.md#exhaustion-and-path-normalization), and its θ-twisted extension, are used only through simultaneous τ/strip/endpoint framing, before their zero-graph affine conclusions. Their construction and zero-graph hypotheses are not imported for a nonzero graph. Canonical-folder and marked-transversal inputs retain the pins in those sources.
+These interfaces are the [complete pairing theorem](radical-free-a5-nilpotent-orbit-pairing.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/daca2c9ba715982cedaaa41048d4866825a9a631), the [opposite-endpoint path theorem](radical-free-a5-paired-path-residual.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/4a1fa394b8ad0e2d92d8161aab14d2c9018db8bf), and the [actual residual graph](radical-free-a5-residual-dependency-graphs.md) at [the source revision](https://github.com/Mira-Cult/math-wip/commit/2c9ce30fab64a9893118f4230d296d88f5867c00). The geometric path normalization in the [all-path parameterization](radical-free-a5-abelian-path-parameters.md#exhaustion-and-path-normalization), source [the source revision](https://github.com/Mira-Cult/math-wip/commit/b7d77177234743dffcf34a82ca2f281ed4d75305), and its θ-twisted extension at [the source revision](https://github.com/Mira-Cult/math-wip/commit/15fce885e821514fbe06d7501f9746c838063cf9), are used only through simultaneous τ/strip/endpoint framing, before their zero-graph affine conclusions. Their construction and zero-graph hypotheses are not imported for a nonzero graph. Canonical-folder and marked-transversal inputs retain the pins in those sources.
 
 ## Sign-saturation theorem
 
@@ -89,9 +89,4 @@ This last conclusion is an interface for the subsequent study of actual top lift
 
 The proof is analytic. Its dependencies and exact source revisions are listed above; no new computation or literature claim is used. It eliminates nontrivial sign-character contributions to the 5-deficit in the stated actual-folder model, while leaving possible nonzero dependency graphs and the unrestricted classification open. Repository integrity checks test metadata and tooling only.
 
-
-
-
-## Recorded source review scope
-
-Automated source reviewers an automated checker, an automated checker, an automated checker, and an automated checker independently accepted the complete manuscript at exact source the recorded source revision, conditional on its pinned inputs. They checked the actual endpoint affine action, complement/averaging normalization, pure-top marked classes through whole-folder gauges, endpoint-only odd-power correction and independent full-strip cycle clearing, the injection I→V/E, sign saturation, and simultaneous-frame return. They did not independently reprove every upstream input, run computations or conduct a fresh primary-source audit. These are model mathematical reviews, not human/formal certification or GitHub approval; they establish the scoped necessary theorem and frame interface, not existence or the unrestricted classification.
+reviewers contributor 1, contributor 2, contributor 3, and contributor 4 independently accepted the complete manuscript at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/09b5565e7223b0b8a9b5dafbb646dbfa3f29a0de), conditional on its pinned inputs. They checked the actual endpoint affine action, complement/averaging normalization, pure-top marked classes through whole-folder gauges, endpoint-only odd-power correction and independent full-strip cycle clearing, the injection I→V/E, sign saturation, and simultaneous-frame return. They did not independently reprove every upstream input, run computations or conduct a fresh primary-source audit. These are model mathematical reviews, not human/formal certification or GitHub approval; they establish the scoped necessary theorem and frame interface, not existence or the unrestricted classification.

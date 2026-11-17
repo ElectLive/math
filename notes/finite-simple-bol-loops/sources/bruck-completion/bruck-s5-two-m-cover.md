@@ -1,8 +1,10 @@
 # Candidate fixed-free two-M cover and support count
 
+**Mira Cult**
+
 **Finite module classification with scoped independent review recorded below.** This manuscript considers finite $`\mathbb F_2S_5`$-modules with exactly two composition factors $`M`$ and all remaining factors trivial, in the notation of [bruck-s5-radical.md](bruck-s5-radical.md). It proposes ten fixed-free isotypes, four of them indecomposable, and gives a finite support-subspace cover for arbitrary such modules. It does not classify group extensions, stabilizers, sections, envelopes, or loops.
 
-This continues [C0010](../../claims/0010.md) and allocates no new claim ID. The fixed-free $`J`$-submodule and general support theorem in [bruck-s5-two-m-support.md](bruck-s5-two-m-support.md) were independently accepted at exact source the recorded source revision. The 17 one-$`M`$ isotypes and their exact intertwiner enumeration were reviewed at the recorded source revision, conditional on the one-$`M`$ cover at the recorded source revision and its splitting test at the recorded source revision; see [bruck-s5-principal-isotypes.md](bruck-s5-principal-isotypes.md). The new computations below are not covered by those reviews.
+This continues [C0010](../../claims/0010.md) and allocates no new claim ID. The fixed-free $`J`$-submodule and general support theorem in [bruck-s5-two-m-support.md](bruck-s5-two-m-support.md) were independently accepted at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/8b091f64620504d07eadfe4186f265eb5afc18e2). The 17 one-$`M`$ isotypes and their exact intertwiner enumeration were reviewed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/359875203abdbf7033ab04843fba2197aac2aafe), conditional on the one-$`M`$ cover at [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16) and its splitting test at [the source revision](https://github.com/Mira-Cult/math-wip/commit/f6c7e01a4337b51c703b4d9ffc94d3b84a732fe5); see [bruck-s5-principal-isotypes.md](bruck-s5-principal-isotypes.md). The new computations below are not covered by those reviews.
 
 ## Fixed-free extension cover
 
@@ -22,7 +24,7 @@ For an arbitrary two-$`M`$ principal module $`X`$, let $`A\cong\mathbf1^a\oplus 
 
 Independent $`GL_a(\mathbb F_2)`$, $`GL_b(\mathbb F_2)`$ row operations reduce each tuple to a basis of its span followed by zeroes; the unsupported sign summands split. Thus a pair of subspaces of the two Ext spaces suffices to cover the supported classes, with a chosen basis for each subspace. Further automorphisms may identify different pairs, and arbitrary additional split sign tails remain. By Shapiro the relevant dimensions are $`e_1=\dim H^1(S_5,Q^*)`$ and $`e_R=\dim H^1(A_5,Q^*)`$.
 
-The program computes these dimensions using the dual-matrix and all-Cayley-edge routine in [verify_s5_principal_h1_bounds.py](../code/verify_s5_principal_h1_bounds.py), last changed at the recorded source revision, checking group orders 120 and 60. The row entries are $`(\dim Q,e_1,e_R,\text{subspace pairs},\dim Q+e_1+2e_R)`$:
+The program computes these dimensions using the dual-matrix and all-Cayley-edge routine in [verify_s5_principal_h1_bounds.py](../code/verify_s5_principal_h1_bounds.py), last changed at [the source revision](https://github.com/Mira-Cult/math-wip/commit/1228403b62d5c6abbf31272ed4cb4e300424e9d9), checking group orders 120 and 60. The row entries are $`(\dim Q,e_1,e_R,\text{subspace pairs},\dim Q+e_1+2e_R)`$:
 
 | Candidate $`Q`$ | Dimensions and support count |
 | --- | --- |
@@ -52,5 +54,4 @@ The new Hom cocycle construction, fixed-space and idempotent checks, isotype clu
 
 ## Independent review
 
-Independent checks an independent check accepted this manuscript and its certificate at exact source the recorded source revision, conditional on the pinned prior one-M isotypes, J-embedding and sibling helper routines. The review checked completeness of the 20 quotient presentations and 48 extension classes, all-Cayley-edge Hom cocycles and principal quotient, fixed-space and exhaustive idempotent tests, invertible-intertwiner clustering, the ten isotypes and four indecomposable isotypes, and the dual H¹ and Gaussian-subspace counts. An independent Python 3.12.14 run reproduced the displayed results. The review accepts 7,994 pairs as a surjective support cover of dimension at most 22, not an isotype count; the script does not construct those extension matrices. No loop, envelope, N-block or split-tail classification is asserted.
-
+reviewer contributor 1 accepted this manuscript and its certificate at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/691940048ad65ae4db2c13576e210d973e6e5f81), conditional on the pinned prior one-M isotypes, J-embedding and sibling helper routines. The review checked completeness of the 20 quotient presentations and 48 extension classes, all-Cayley-edge Hom cocycles and principal quotient, fixed-space and exhaustive idempotent tests, invertible-intertwiner clustering, the ten isotypes and four indecomposable isotypes, and the dual H¹ and Gaussian-subspace counts. An independent Python 3.12.14 run reproduced the displayed results. The review accepts 7,994 pairs as a surjective support cover of dimension at most 22, not an isotype count; the script does not construct those extension matrices. No loop, envelope, N-block or split-tail classification is asserted.

@@ -1,7 +1,8 @@
 # Candidate exact HS Case A pair obstruction for PSL4(q)
 
-Mira Cult
-This result with scoped independent review below for [C0010](../../claims/0010.md) concerns only the necessary pair conditions of [C0014](../../claims/0014.md); it does not construct a folder or loop. Let q≡3 (mod 4), T=PSL4(q), α a symplectic graph involution and β a projective reflection (a split PGL involution with 1- and 3-dimensional eigenspaces). Then both necessary conditions hold:
+**Mira Cult**
+
+This manuscript-local result with scoped independent review below for [C0010](../../claims/0010.md) concerns only the necessary pair conditions of [C0014](../../claims/0014.md); it does not construct a folder or loop. Let q≡3 (mod 4), T=PSL4(q), α a symplectic graph involution and β a projective reflection (a split PGL involution with 1- and 3-dimensional eigenspaces). Then both necessary conditions hold:
 
   C(α) ∩ C(β)={1},  |C_T(α)| |C_T(β)| > |T|,
 
@@ -19,6 +20,6 @@ Finally C_T(α) contains PSp4(q), of order |Sp4(q)|/2. The block diagonal subgro
 
 The explicitly displayed α and β suffice to demonstrate the obstruction. No classification of graph automorphisms, folder construction, or conclusion that an HS Case A loop exists is asserted. The independent mathematical review is recorded below.
 
-## Source verification and limitations
+## Independent review
 
-a separate automated checker accepted this explicit-pair obstruction at its recorded source revision. The review checked Cartan-image self-adjointness and transported alternating forms, even polynomial ranks and the square characteristic polynomial, reflection-product eigenvalue and unipotent arguments, the Pfaffian obstruction with central ±I and determinant adjustment, and the centralizer-product lower bound. It establishes joint insufficiency of the two C0014 necessary tests in this family, not existence of a folder or a classification of automorphism types. No files were edited during the review.
+contributor 1 accepted this explicit-pair obstruction at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/c314e6ed0153240a4712b08d59288501f560f977). The review checked Cartan-image self-adjointness and transported alternating forms, even polynomial ranks and the square characteristic polynomial, reflection-product eigenvalue and unipotent arguments, the Pfaffian obstruction with central ±I and determinant adjustment, and the centralizer-product lower bound. It establishes joint insufficiency of the two C0014 necessary tests in this family, not existence of a folder or a classification of automorphism types. No files were edited during the review.

@@ -1,7 +1,8 @@
 # Transitive flag actions with type permutations
 
-Mira Cult
-**Status:** Scoped independent review recorded below. This is a bounded continuation of [0323-finite-simple-non-moufang-bol-loops:C0010](../../claims/0010.md). Its loop consequence uses C0008 Lemma 2.1. No classification of primitive almost-simple actions or identification of a full action normalizer is assumed or claimed.
+**Mira Cult**
+
+**Status:** Scoped independent review recorded below. This is a bounded continuation of [0323-finite-simple-non-moufang-bol-loops:C0010](../../claims/0010.md), with no new claim ID. Its loop consequence uses C0008 Lemma 2.1. No classification of primitive almost-simple actions or identification of a full action normalizer is assumed or claimed.
 
 ## Abstract flag theorem
 
@@ -19,11 +20,7 @@ Then no element of $`P`$ sends every flag to a distinct adjacent flag. Consequen
 Now suppose $`g`$ induces a nonidentity permutation $`\pi`$ of the types. Let $`S`$ be its set of moved types and $`s=|S|\ge2`$. If a flag $`F`$ and $`gF`$ are adjacent, they share at least $`s-1`$ objects whose types lie in $`S`$. For each $`i\in S`$, let $`X_i(F)`$ be 1 if $`g`$ sends the type-$`i`$ constituent of $`F`$ to its type-$`\pi(i)`$ constituent, and 0 otherwise. Since a flag has exactly one object of each type, $`\sum_{i\in S}X_i(F)`$ counts precisely the shared objects of moved types. Thus it is at least $`s-1`$ for every flag.
 
 Fix $`i\in S`$ and an occurring type-$`i`$ object $`v`$. Flag transitivity implies $`T_v`$ is transitive on flags containing $`v`$, and therefore on their occurring type-$`\pi(i)`$ constituents; all such constituents have the same number of completing flags. By hypothesis 4 there are at least three, and $`g(v)`$ selects at most one. Thus a uniformly random flag satisfies $`\mathbb E X_i\le1/3`$. Summing,
-
-```math
-\mathbb E\!\left[\sum_{i\in S}X_i\right]\le s/3<s-1,
-```
-
+$$\mathbb E\!\left[\sum_{i\in S}X_i\right]\le s/3<s-1,$$
 contrary to the pointwise lower bound. This eliminates every possible type permutation.
 
 For the loop consequence choose adjacent flags $`e,a`$, with $`e`$ the identity. C0008 Lemma 2.1 gives that the left translation $`L_a`$ sends every flag to a distinct member of the orbital of $`(e,a)`$, hence to an adjacent flag. That contradicts the first assertion. $`\square`$
@@ -44,4 +41,4 @@ In particular, a type permutation acting transitively on $`J`$ is permitted by t
 
 Independent review should check the expectation count, faithfulness hypothesis for the entire $`P_0`$ rather than only $`T`$, the partial-flag projection and thickness arguments, and the exact action interface for any named classical group. The rank-two incidence-graph proof in [flag-incidence-obstruction.md](flag-incidence-obstruction.md) has different hypotheses and does not require flag transitivity.
 
-automated reviewers a separate automated checker accepted this manuscript at its recorded source revision under its displayed hypotheses, conditional on C0008 UOD for the loop consequence. The review checked type-preserving propagation, faithfulness of the entire type-preserving kernel, the uniform conditional distribution and expectation inequality, projected galleries and thickness, and the sufficient almost-simple faithfulness interface. Standard building incidence/gallery properties and the previously reviewed UOD are inputs. It does not classify full normalizers or primitive actions or identify the conditional D4 triality case. No computation or formal verification was used.
+reviewer contributor 1 accepted this manuscript at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/95f226ac6c02b0153f3c226d823518e0891c1f1d) under its displayed hypotheses, conditional on C0008 UOD for the loop consequence. The review checked type-preserving propagation, faithfulness of the entire type-preserving kernel, the uniform conditional distribution and expectation inequality, projected galleries and thickness, and the sufficient almost-simple faithfulness interface. Standard building incidence/gallery properties and the previously reviewed UOD are inputs. It does not classify full normalizers or primitive actions or identify the conditional D4 triality case. No computation or formal verification was used.

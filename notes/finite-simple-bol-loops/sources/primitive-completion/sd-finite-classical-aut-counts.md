@@ -1,6 +1,7 @@
 # Finite classical automorphism involution counts
 
-Mira Cult
+**Mira Cult**
+
 This application, with scoped independent review below, concerns [C0010](../../claims/0010.md) uses the [raw-involution criterion](sd-raw-involution-count.md) for finite simple socles T of order n ≥ 2²⁰. Its exclusions remain conditional on that criterion and its upstream primitive-folder, inversion and group-theoretic assumptions. The complete character tables identified below are external computational inputs, not proofs of their own correctness or of those assumptions.
 
 Let a = |Aut(T)| and let b count elements α ∈ Aut(T) with α² = 1, including the identity. The following full automorphism-group table data give the exact b values conditional on the tables and their identifications. The strict raw criterion b³ + 3ab < n² passes for six rows and fails for the starred row. A failure is not evidence that a loop exists.
@@ -65,6 +66,6 @@ gap -q -b problems/0323-finite-simple-non-moufang-bol-loops/code/verify_sd_u43_c
 
 The isolated build from the pinned archive printed `U4(3) common-class table checks passed`. The script exits with a nonzero status on a failed check. Its table calculations do not verify the external tables or replace review of the lemma and upstream hypotheses.
 
-## Source verification and limitations
+## Scoped independent review
 
-automated reviewers a separate automated checker accepted the six raw-count applications and the PSU4(3) common-class argument at its recorded source revision, conditional on external CTblLib tables/fusions and the prior raw, square-class and large-socle results. The reviewer independently extracted all seven centralizer lists using GAP 4.15.1 / CTblLib 1.3.11, checked all six file hashes and all seven MOT full-Aut identification texts, and ran both pinned certificates. The PSU4(3) proof correctly uses T-conjugacy through index-two extensions and complete Aut-fusion coverage. The raw PSU4(3) inequality still fails; the common-class alternative is the accepted route. Published table correctness remains an external input.
+reviewer contributor 1 accepted the six raw-count applications and the PSU4(3) common-class argument at exact source [the source revision](https://github.com/Mira-Cult/math-wip/commit/6a563df3804682acb6bd4191fff2ac749cb0bd16), conditional on external CTblLib tables/fusions and the prior raw, square-class and large-socle results. The reviewer independently extracted all seven centralizer lists using GAP 4.15.1 / CTblLib 1.3.11, checked all six file hashes and all seven MOT full-Aut identification texts, and ran both pinned certificates. The PSU4(3) proof correctly uses T-conjugacy through index-two extensions and complete Aut-fusion coverage. The raw PSU4(3) inequality still fails; the common-class alternative is the accepted route. Published table correctness remains an external input.
