@@ -88,6 +88,32 @@ the research workspace. Final publication binding, source readback and
 actual browser rendering are recorded in the delivery addendum; static
 fidelity checks alone do not establish that rendering occurred.
 
+## Uniformity publication readback and rendering
+
+The public scientific publication is
+**`d438f8d05aad3ed920944fde718e7779af1a6234`**, tree
+`5efd38d3165393c2bca9caaa87f0446074c5deb1`. All nine new proof pages were
+independently read back at that exact revision and matched byte-for-byte
+to the separately reviewed public adaptations. Their SHA-256 and Git blob
+identities are preserved in the scoped fidelity records. The ten checkers
+match the canonical scientific sources. The earlier public scientific pages
+and programs are preserved; no earlier proof was silently replaced.
+
+The coordinator inspected the actual GitHub rendering of the overview,
+sharp-four supplement, general marked-set proof and catalogue. The displayed
+theorem, invariant, construction formulas, comparison symbols, equation
+labels and theorem tables rendered correctly in the inspected views, with
+no observed mathematical-rendering error. This was a publication check,
+not another mathematical review or a claim to have visually inspected every
+equation in every document. The static audit checked 27 Markdown files and
+332 relative file links, with balanced fences and no missing file target.
+
+The complete scientific revision remains 78ca8efe in the research repository.
+This delivery addendum changes only publication metadata. The latest full
+public branch head and checkpoint disposition are recorded in
+[PR #4](https://github.com/Mira-Cult/math/pull/4); the branch remains open
+for maintainer-coordinated integration. Full FEI remains unresolved.
+
 ## Positive bounded-treewidth continuation
 
 The final scientific source for the new bounded-treewidth, connected-triangle
