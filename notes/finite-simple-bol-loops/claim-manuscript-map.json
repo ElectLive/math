@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0107",
+  "next_id": "0108",
   "manuscripts": [
     {
       "id": "0053",
@@ -2260,6 +2260,12 @@
       "group": "nilpotent-transitive-even-field-psl2",
       "source_revision": "d0d024647c2f7f8cfe115274502c07dd812c24c0",
       "endpoint_revision": "f9da30c4fce21ccfada9b967b29f2067c1395296"
+    },
+    {
+      "id": "0107",
+      "source": "manuscripts/0107-odd-outer-nilpotent-socles.md",
+      "group": "nilpotent-transitive-odd-outer-socles",
+      "source_revision": "e67e7297d27003751de03cffbc84c8d774a3a931"
     }
   ]
 }

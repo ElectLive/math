@@ -83,6 +83,19 @@ python3 sources/code/check_f9_honest_normalizer_lifts.py
 
 The [geometry constructions](sources/code/verify_coherent_tuple_mark_moment.py) cover all 57 actual proper nontrivial A₅ subgroups and the 68 sublines over the field of sixteen; the [independent geometry check](sources/code/check_d0_tuple_geometry_independent.py) includes a trace-one negative control, a twisted subline over the field of 64, and 3,600 paired products. The [field-code check](sources/code/verify_a5_nilpotent_field_code.py) distinguishes liftable field graphs from 24 usable countercontrols on four sites; a [separate implementation](sources/code/check_f9_honest_normalizer_lifts.py) constructs a genuine 40-point action with stabilizer of order 80, two nonregular eight-site groups, and 320 independently transported reflection products. These finite replays are not a search over all groups.
 
+## Odd outer automorphisms and the principal color fiber
+
+The [odd-outer theorem](manuscripts/0107-odd-outer-nilpotent-socles.md) was independently AI-reviewed at scientific revision `e67e7297d27003751de03cffbc84c8d774a3a931`, proof Git object `72fafab228498d13e27eb701461f924ba5289cd1`. The audit passed without a requested correction; its SHA-256 is `62e055441754f18e55c4d888312416e456b9e010bf6d111cf44e2d1474d9fd6c`. It covers the actual color module, its shared-prime cohomology, the principal physical fiber, and the sign contradiction for an entire homogeneous socle and transitive nilpotent factor group. It uses the separately recorded projection and tuple theorems and the cited inner-inversion and simple-group inputs, not a new formal verification of them. It does not impose an abelian-color conclusion on a nonabelian local permutation action.
+
+From this notes directory run:
+
+```sh
+python3 sources/code/verify_nilpotent_colored_socle_descent.py
+python3 sources/code/check_e67_mixed_colors_and_physical_block.py
+```
+
+The [first implementation](sources/code/verify_nilpotent_colored_socle_descent.py) includes all 4,608 binary bar equations on a 12-site nilpotent group, a shifted case with a zero principal block but a nonzero off-diagonal block and five moving subgroup classes. The [separate implementation](sources/code/check_e67_mixed_colors_and_physical_block.py) includes 144 unrestricted mixed-primary generator cocycles, 768 labeled involutions on a non-Cartesian orbit, and 21 genuine inner classes in the field of size 128. Neither finite computation exhausts candidate loops.
+
 ## Contributions
 
 Under Mira Cult’s research direction, OpenAI models contributed the mathematical arguments, finite checks, independent review and public exposition. The research record used here does not identify the exact model version for each contribution. Neither model review nor a successful finite replay is human peer review, a proof-assistant formalization or a general loop census.
