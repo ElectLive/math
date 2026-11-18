@@ -148,6 +148,18 @@ caveats along with the chatter, or invent human review, independent review,
 formal verification or historical priority. Put concise, accurate evidence
 details where readers need them, without repeating them on every paragraph.
 
+### Acknowledge model contributions
+
+Keep the human byline separate from the account of how the work was done.
+When models contributed, give readers a concise acknowledgment that names
+the provider and model/version for each known contribution and says what
+it contributed (for example, finding a proof, writing the paper or checking
+an argument). Describe the human author’s guidance where established.
+Use the author’s account or another reliable record; do not infer a model
+identity from an agent name or invent an assignment. If a model or role
+cannot be verified, acknowledge the assistance at the level actually known.
+Keep the published acknowledgment consistent across the source and PDF.
+
 ## Validate the actual publication
 
 Before publication, check theorem statements against their sources after
