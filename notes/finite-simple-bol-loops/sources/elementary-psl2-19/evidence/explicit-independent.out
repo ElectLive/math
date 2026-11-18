@@ -1,0 +1,10 @@
+faithful projective group nontrivial class closures all full; class sizes: [1, 171, 180, 180, 342, 342, 342, 342, 380, 380, 380, 380]
+JSON c5965e0fdc104b529bf3eac790bac48d83e1c8ef03d8cb04f284893eaeb53ddb PSL size, Borel, involutions, projected inverter pairs by j=0..8: 3420 171 171 [0, 171, 171, 171, 171, 171, 171, 171, 171]
+X/Y, w-minus X/w-minus Y; both Borel checks (linear and all cocycle products): 117 119 58 60 29241
+full actual two-sign collision rank vs augmented, j=1..8: [(118, 119), (118, 119), (117, 118), (118, 119), (118, 119), (117, 118), (118, 119), (118, 119)]
+actual torus compression ranks: 116 117
+primal normal-core rows (old, next, J, Z; Y and X intermediate dimensions): [(58, 0, 0, 20, [117, 115, 111, 105, 95, 81, 61, 31, 20], [21, 0]), (0, 0, 0, 0, [59, 6, 0], [1, 0])]
+Y fixed, X and Y coinvariants, H central rank; f-only and cocycle-only: 0 0 1 1 1 0
+author right-alternative certificate j=8 e0 confirmed; all four power orders account exactly for all 11980068666096208069421198863397366931543170850252340709340 elements
+countercontrols: altered first f-bit breaks B-linearity; f=0 fails rank; d=0 gives a physical zero-vector r^j collision at all eight j
+direct failed right alternativity (j, first failed coordinate, nonzero value): [(1, 1, 2), (2, 1, 2), (3, 1, 1), (4, 2, 2), (5, 3, 1), (6, 1, 2), (7, 1, 1), (8, 1, 1)]

@@ -1,0 +1,8 @@
+PSL2(19) 3420 actual projective permutations; B=171; 1368 true nonvertical inverters in eight B-orbits.
+Whole group action degree 117 checked on spanning cyclic vectors: 1.
+Whole group action degree 119 checked on spanning cyclic vectors: 1.
+Full vertical injection 58/58, minus surplus 60-58=2; actual bottom compressed ranks 116 -> 117.
+Eight full unsimplified marked-square obstruction ranks: [(118, 119), (118, 119), (117, 118), (118, 119), (118, 119), (117, 118), (118, 119), (118, 119)]
+Actual right-alternative failure at x=wH, y=e_0: residual coordinate 1 equals 1.
+All-cut descent (old,new,J,Z): [(58, 0, 0, 20), (0, 0, 0, 0)] ; trivial quotient dimensions 0,1 and stabilizer central rank one.
+PASS; this proof checks the supplied finite input, not historical novelty or unrestricted classification.

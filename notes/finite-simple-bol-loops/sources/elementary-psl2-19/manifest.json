@@ -1,0 +1,18 @@
+{
+  "data_source": "a62ed7be932309f66f389a7d82d1dc0ad4433a70",
+  "proof_source": "b0d934df3d80bfc5b60d1995b22c6eb2eb06f675",
+  "review_record": "9aaac7af038d81c27b6637485dbdbc70b0fa9229",
+  "canonical_json_sha256": "c5965e0fdc104b529bf3eac790bac48d83e1c8ef03d8cb04f284893eaeb53ddb",
+  "claim": "0112: one fixed finite simple proper left Bol loop, not a classification or priority certification",
+  "files": {
+    "manuscripts/0112-elementary-radical-example.md": "19d01589d8ba5191504d931597b2e5d24898a84684391a9ee3802075019b6d9c",
+    "sources/elementary-psl2-19/README.md": "4dc6002501fa65fc44013e1118955180f0e63d2f312610274d990c696d62f3c0",
+    "sources/elementary-psl2-19/code/check_explicit_bol_datum_independent.py": "e2582a589d9bace1ef9236886311123de195de81eb853bf9d0f4da86f6c688ca",
+    "sources/elementary-psl2-19/code/rebuild_from_atlas.py": "3314b02c9d58581d94311efc5d32a25640a6fec638c1bb75924e3fe260974134",
+    "sources/elementary-psl2-19/code/verify_explicit_psl2_19_bol.py": "8e042754e4ff3a1a345cc57a1dc811d651ade557716eb9c81ed6059852c1292b",
+    "sources/elementary-psl2-19/evidence/explicit-independent.out": "6954392eec80d71983f227b0a0e7a001ff8912c07daac2a2526cec202319ffea",
+    "sources/elementary-psl2-19/evidence/explicit-standalone.out": "62b9d232d233d1d30ea58d3bf0a55179df548209500c49b0f434553c17a74f51",
+    "sources/elementary-psl2-19/evidence/frozen-audit.txt": "80e047343ee5c5148c343ae79161ac5e4215abf070429f81721e167ecba31dfe",
+    "sources/elementary-psl2-19/evidence/psl2-19-explicit-matrix-input.json.zlib.b64": "8b1901f6fb7a61168ba90d2218de01692b9f3a6b11f5dd39dd0e56959f8524d7"
+  }
+}

@@ -10,6 +10,10 @@ We seek a structural classification of **all finite simple Bol loops up to isomo
 <a id="current-classification-checkpoint"></a>
 <a id="what-we-have-achieved"></a>
 
+## A construction: a simple loop of exponent six
+
+[A simple left Bol loop of exponent six](manuscripts/0112-elementary-radical-example.md) has order $`20\cdot3^{119}`$ and no element of order five, even though five divides its order. Its faithful left multiplication group is $`(\mathbb F_3^{236},+)\rtimes\operatorname{PSL}_2(19)`$. The [matrix data and two verifiers](sources/elementary-psl2-19/README.md) make the computer-assisted construction reproducible. The exact example received independent AI mathematical review; it is not an exhaustion theorem.
+
 ## The classification picture
 
 Three kinds of progress fit together; none can replace the others.

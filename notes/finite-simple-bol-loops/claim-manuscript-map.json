@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0112",
+  "next_id": "0113",
   "manuscripts": [
     {
       "id": "0053",
@@ -2293,6 +2293,14 @@
       "group": "nilpotent-transitive-projective-line-whole-socle",
       "odd_field_revision": "8d2c3f54737a457cb8eff63e1a6a4287cca58a3f",
       "even_field_source": "0106"
+    },
+    {
+      "id": "0112",
+      "source": "manuscripts/0112-elementary-radical-example.md",
+      "group": "one-elementary-radical-simple-left-bol-loop",
+      "data_revision": "a62ed7be932309f66f389a7d82d1dc0ad4433a70",
+      "source_revision": "b0d934df3d80bfc5b60d1995b22c6eb2eb06f675",
+      "review_revision": "9aaac7af038d81c27b6637485dbdbc70b0fa9229"
     }
   ]
 }
