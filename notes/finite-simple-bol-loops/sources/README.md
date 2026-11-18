@@ -346,3 +346,7 @@ These supporting proofs retain exact source review scope, corrections and pendin
 ## Canonical descent for nontrivial solvable radical
 
 [0102, complete recognition and orbit proof](../manuscripts/0102-canonical-elementary-descent.md) recovers every true normal cut, including different lifts over the same quotient, uses normality of the actual marked-generated subgroup to test generation, and forgets the elementary-layer marking canonically. The public [source and evidence record](../normal-layer-evidence.md) gives the exact separately reviewed revision and the three finite replay commands.
+
+## Radical-free coordinates and twisted point actions
+
+[0103](../manuscripts/0103-radical-free-socle-coordinates.md) gives the complete cycle-transport, simplicity and isomorphism tests without a splitting assumption. [0104](../manuscripts/0104-twisted-stabilizer-derangements.md) describes each projected orbit and the same-fiber derangement obstruction. The [source and replay record](../normal-layer-evidence.md) gives distinct scientific revisions and independent scope for the two results.

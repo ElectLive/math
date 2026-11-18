@@ -2,7 +2,7 @@
 
 **Mira Cult**
 
-This is the supporting record for [0100: matched tensor radicals](manuscripts/0100-matched-tensor-radicals.md), [0101: the kernel of the action on blocks](manuscripts/0101-odd-kernel-block-action.md), and [0102: canonical elementary descent](manuscripts/0102-canonical-elementary-descent.md). All necessary new proof dependencies are publicly readable; the frozen source identifiers below distinguish research revisions rather than serving as required private links.
+This is the supporting record for [0100: matched tensor radicals](manuscripts/0100-matched-tensor-radicals.md), [0101: the kernel of the action on blocks](manuscripts/0101-odd-kernel-block-action.md), [0102: canonical elementary descent](manuscripts/0102-canonical-elementary-descent.md), [0103: radical-free coordinates](manuscripts/0103-radical-free-socle-coordinates.md), and [0104: twisted stabilizers](manuscripts/0104-twisted-stabilizer-derangements.md). All necessary new proof dependencies are publicly readable; the frozen source identifiers below distinguish research revisions rather than serving as required private links.
 
 | Public assertion | Exact scientific source | Mathematical evidence |
 | --- | --- | --- |
@@ -34,6 +34,26 @@ python3 sources/code/verify_invariant_mark_generation.py
 The first four are [odd tensor](sources/code/verify_swapped_tensor_radical.py), [capacity](sources/code/verify_tensor_parity_capacity.py), [binary residual](sources/code/verify_binary_three_tensor_residual.py) and [odd block kernel](sources/code/verify_odd_kernel_core_obstruction.py) controls. The following three, [nonprime-field phases and algebra](sources/code/check_c479_even_phase_and_algebra.py), [mixed cocycles and all binary stabilizer gauges](sources/code/check_d9c9_bar_obstruction_independent.py), and [odd block-kernel boundary examples](sources/code/check_odd_kernel_block_independent.py), were written independently of the corresponding original checks. The odd-kernel program explicitly verifies a nonsplit congruence extension; it does not purport to construct a simple loop from that group.
 
 For 0102, the [original cochain-versus-lattice test](sources/code/verify_canonical_abelian_descent.py) checks 1,635 direct pair-product/normal-cut incidences, including 192 enlarged vertical intersections. An [independently written checker](sources/code/check_dd7_radical_hostile.py) uses Q₈×C₂, S₄/V₄ and distinct anchors for one actual binary phase set. Their source SHA-256 digests are `b41b0775b2bf994d1b7fc72f4f1c018319905cea60bf984a7ee4b5cb92482726` and `fe455c8935f13db55b854a049f5feaf686ab097c70f2a3e2d07a0870d8c9a718` respectively. A separate [generation replay](sources/code/verify_invariant_mark_generation.py) distinguishes invariant mark sets (104 cases in four groups) from a noninvariant S₄ counterexample. The S₄ checker’s comment about nonnormal candidates refers to the unrestricted subgroup lattice, not to necessity for an invariant marked set. The checks are not a census or a formalization of the theorem.
+
+## Radical-free coordinates and abelian quotient orbits
+
+| Public assertion | Exact scientific source | Scope of the independent mathematical review |
+| --- | --- | --- |
+| [0103: radical-free recognition](manuscripts/0103-radical-free-socle-coordinates.md) | `671d8efc42afec325440a34144881d8b64ce3d20` | One independent OpenAI model checked the full normal-subgroup list, restrictions across split coordinate pairs, equality of actual quotient signatures, cycle closure, normality in generation, and the stated order-lift and isomorphism criteria. The original canonical-folder and inversion inputs were retained. This is recognition of admissible data, not a structural list. |
+| [0104: twisted action and derangements](manuscripts/0104-twisted-stabilizer-derangements.md) | `125a50df46fc05500806667a7201995994e7d3ef` | The same reviewer separately checked the conjugation direction, equal label multiplicities on each orbit, the same-fiber conjugacy obstruction, the nonabelian nonreal variant and the stated binary-field cyclic-action ranges. The tests for shorter cycles use the previously checked cycle transport. |
+
+The SHA-256 digests of the reviewed manuscripts are, respectively, `5dd2f2d27b17d839ef638515df6a0db8c2abfc69e557535b43ccdb6c4f3dee4f` and `3dd9f49c5cc5f713915deb8ff6cce62959d37c7736de5bc6922082326c2b9646`. Public prose and math delimiters have been edited for this edition; evidence applies to the identified mathematical sources. No acceptance of another family theorem is inferred from these reviews.
+
+Run from the public Bol-loop note directory, with Python 3 and the standard library:
+
+```sh
+python3 sources/code/verify_socle_component_transport.py
+python3 sources/code/check_671_socle_cut_holonomy.py
+python3 sources/code/verify_abelian_top_derangements.py
+python3 sources/code/check_125_twisted_fibers_and_psl2.py
+```
+
+For 0103 the [construction-side checks](sources/code/verify_socle_component_transport.py) compare 1,800 actual class products, with controls on genuine normal cuts and reversible lifts. The [independent implementation](sources/code/check_671_socle_cut_holonomy.py) includes 38 parity cuts, two false projected matches and 43,200 checks with actual order-three lifts. For 0104 the [coset-action checker](sources/code/verify_abelian_top_derangements.py) realizes 69,984 elements and 72 same-fiber derangements. A [second implementation](sources/code/check_125_twisted_fibers_and_psl2.py) tests even and odd quotient fibers and the order-nine limitation over the field of eight elements; it does not construct a counterexample loop.
 
 ## Contributions
 

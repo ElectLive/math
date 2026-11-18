@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0103",
+  "next_id": "0105",
   "manuscripts": [
     {
       "id": "0053",
@@ -2235,6 +2235,18 @@
       "group": "canonical-radical-positive-descent",
       "source_revision": "dd7ed1ac2a5f9cfef327e8b0e490e33be74f0d1e",
       "correction_revision": "54412d62330f8c995b4b1a03447ebbd89d84a494"
+    },
+    {
+      "id": "0103",
+      "source": "manuscripts/0103-radical-free-socle-coordinates.md",
+      "group": "radical-free-coordinate-recognition",
+      "source_revision": "671d8efc42afec325440a34144881d8b64ce3d20"
+    },
+    {
+      "id": "0104",
+      "source": "manuscripts/0104-twisted-stabilizer-derangements.md",
+      "group": "twisted-stabilizer-quotient-orbits",
+      "source_revision": "125a50df46fc05500806667a7201995994e7d3ef"
     }
   ]
 }
