@@ -360,3 +360,5 @@ These supporting proofs retain exact source review scope, corrections and pendin
 [0106](../manuscripts/0106-nilpotent-transitive-even-field-psl2.md) gives the uniform tuple moment, the projective-geometry reduction, and the separate five-torus field-code obstruction at size four. The [evidence record](../normal-layer-evidence.md) lists the two source revisions and the four checkers.
 
 [0107](../manuscripts/0107-odd-outer-nilpotent-socles.md) proves the odd-outer exclusion using the actual inner-class fibers. The [evidence record](../normal-layer-evidence.md) identifies the proof and the two executable checks.
+
+[0108](../manuscripts/0108-ordinary-tensor-idealizers.md) studies odd-characteristic ordinary factor-preserving inversions. The [profile preparation](tensor-layers/ordinary-profiles.md), [effective idealizer bound](tensor-layers/ordinary-idealizers.md), and [quadratic operator analysis](tensor-layers/ordinary-quadratic.md) give the complete argument in rank at least three. The [evidence record](../normal-layer-evidence.md#ordinary-tensor-profiles-and-idealizers) separates its two residual audits.

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0108",
+  "next_id": "0109",
   "manuscripts": [
     {
       "id": "0053",
@@ -2266,6 +2266,13 @@
       "source": "manuscripts/0107-odd-outer-nilpotent-socles.md",
       "group": "nilpotent-transitive-odd-outer-socles",
       "source_revision": "e67e7297d27003751de03cffbc84c8d774a3a931"
+    },
+    {
+      "id": "0108",
+      "source": "manuscripts/0108-ordinary-tensor-idealizers.md",
+      "group": "ordinary-factor-preserving-natural-tensor",
+      "odd_residual_revision": "c96c9d10858b5c12282feaf0ac9c64c011bc0c12",
+      "even_residual_revision": "a052224be623bf831bf0c2c2a73de3e279a34c6d"
     }
   ]
 }

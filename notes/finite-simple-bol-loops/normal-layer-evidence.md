@@ -96,6 +96,25 @@ python3 sources/code/check_e67_mixed_colors_and_physical_block.py
 
 The [first implementation](sources/code/verify_nilpotent_colored_socle_descent.py) includes all 4,608 binary bar equations on a 12-site nilpotent group, a shifted case with a zero principal block but a nonzero off-diagonal block and five moving subgroup classes. The [separate implementation](sources/code/check_e67_mixed_colors_and_physical_block.py) includes 144 unrestricted mixed-primary generator cocycles, 768 labeled involutions on a non-Cartesian orbit, and 21 genuine inner classes in the field of size 128. Neither finite computation exhausts candidate loops.
 
+## Ordinary tensor profiles and idealizers
+
+[0108](manuscripts/0108-ordinary-tensor-idealizers.md) gives the ordinary fixed-factor branch in odd characteristic and natural rank at least three. Both endpoints carry the actual special linear actions on the additive matrix layer; the reciprocal center, non-product stabilizers and codes not linear over the full field are allowed. The construction of the original marks, the odd-kernel stabilizer orbit and the inner-inversion obstruction are inputs to the [profile preparation](sources/tensor-layers/ordinary-profiles.md).
+
+The [odd-rank residual](sources/tensor-layers/ordinary-idealizers.md) received a separate independent AI mathematical acceptance at scientific revision `c96c9d10858b5c12282feaf0ac9c64c011bc0c12`, proof Git object `f0d6bef27243f2f1b4f059fc1355d09e639d614d`, frozen report SHA-256 `ebf259c90df9fd890c5c0025eaccd385c361bbf2f3e873a619121520779258f5`. The reviewer checked prime-field algebra lifting, corner ranks, separate prime and prime-to-characteristic bounds and ordinary mass separation. Stable affine sheets and the balanced/extremal eliminations were interface assumptions for this audit. The public text includes these preparations and gives a single elementary mass cap for the rank-five endpoint.
+
+The [even-rank residual](sources/tensor-layers/ordinary-quadratic.md) received a different exact-revision acceptance at `a052224be623bf831bf0c2c2a73de3e279a34c6d`, proof Git object `0c2625d0e92f7514148d42870aa05c42071ef188`, report SHA-256 `ff4c9a17983a7443e386a4b790d39ca219a35383ad680583fe0d2b092822e7d3`. That audit covered the split and quadratic labels, actual affine sheets, two-sided rank doubling, endpoint and small-rank arguments. It did not re-audit the field-automorphism, factor-exchange, even-characteristic or rank-two branches. Neither acceptance is a joint independent verification of all inversions or of the unrestricted loop classification.
+
+From this notes directory run:
+
+```sh
+python3 sources/code/verify_tensor_idealizer_bound.py
+python3 sources/code/check_c96_effective_idealizer.py
+python3 sources/code/verify_even_odd_tensor_completion.py
+python3 sources/code/check_a052_quadratic_corners.py
+```
+
+The [odd-rank source implementation](sources/code/verify_tensor_idealizer_bound.py) and [independent implementation](sources/code/check_c96_effective_idealizer.py) include effective small-algebra orders and non-field-linear codes. The [even-rank source implementation](sources/code/verify_even_odd_tensor_completion.py) and [independent implementation](sources/code/check_a052_quadratic_corners.py) include full determinant spectra in quadratic intertwiner spaces and rank-two quadratic operators over the field of nine elements. These are finite controls for the arguments.
+
 ## Contributions
 
 Under Mira Cult’s research direction, OpenAI models contributed the mathematical arguments, finite checks, independent review and public exposition. The research record used here does not identify the exact model version for each contribution. Neither model review nor a successful finite replay is human peer review, a proof-assistant formalization or a general loop census.
