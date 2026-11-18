@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0111",
+  "next_id": "0112",
   "manuscripts": [
     {
       "id": "0053",
@@ -2286,6 +2286,13 @@
       "source": "manuscripts/0110-nilpotent-transitive-alternating-socles.md",
       "group": "nilpotent-transitive-alternating-whole-socle",
       "source_revision": "b4beb3f863a9d68eb82b21f333615dcc14779829"
+    },
+    {
+      "id": "0111",
+      "source": "manuscripts/0111-nilpotent-transitive-projective-line-socles.md",
+      "group": "nilpotent-transitive-projective-line-whole-socle",
+      "odd_field_revision": "8d2c3f54737a457cb8eff63e1a6a4287cca58a3f",
+      "even_field_source": "0106"
     }
   ]
 }

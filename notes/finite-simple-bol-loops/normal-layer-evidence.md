@@ -145,3 +145,9 @@ python3 sources/code/check_alternating_sylow_wreath_independent.py
 ## Contributions
 
 Under Mira Cult’s research direction, OpenAI models contributed the mathematical arguments, finite checks, independent review and public exposition. The research record used here does not identify the exact model version for each contribution. Neither model review nor a successful finite replay is human peer review, a proof-assistant formalization or a general loop census.
+
+## Odd-field projective-line whole socles
+
+[0111](manuscripts/0111-nilpotent-transitive-projective-line-socles.md) excludes all nilpotent transitive factor actions on the entire socle PSL₂(q)ⁿ, n≥2. Its odd-field source `8d2c3f54737a457cb8eff63e1a6a4287cca58a3f`, manuscript blob `7d606f53d9c6c497f7eb43260433efa4813137fe`, has an independent AI mathematical acceptance (report SHA-256 `28207cac5a8d6dbc8f6881e6e56f8445c7e5b4e410c8d955c09d9be08108a46b`). It uses the separately reviewed [proper projections](manuscripts/0105-nilpotent-socle-stabilizer-projections.md), [2-group and paired mark](manuscripts/0109-nilpotent-socle-actions-are-two-groups.md), and [parity, packing and Sylow counting](manuscripts/0110-nilpotent-transitive-alternating-socles.md). The [even-field argument and A₅ endpoint](manuscripts/0106-nilpotent-transitive-even-field-psl2.md) have their own two reviews. Neither this review nor those proofs address arbitrary rank-one quotients of a group with a nontrivial radical.
+
+The [author program](sources/code/verify_odd_psl2_nilpotent_slopes.py) and [independent program](sources/code/check_odd_psl2_transporter_independent.py) run with Python 3 and no third-party packages. The independent controls include all 1,440 semilinear permutations at field size nine, an order-four transporter and order-two paired mark in the same 2-group at size 49, and 324 exact finite mass comparisons. They do not alone establish the theorem.

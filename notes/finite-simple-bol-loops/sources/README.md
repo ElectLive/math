@@ -366,3 +366,5 @@ These supporting proofs retain exact source review scope, corrections and pendin
 [0109](../manuscripts/0109-nilpotent-socle-actions-are-two-groups.md) combines [rectangular signed incidence](factor-permutation/rectangular-stabilizer-incidence.md) with the [local class obstruction and four homogeneous endpoints](factor-permutation/homogeneous-normalizer-endpoints.md). Their [evidence records](../normal-layer-evidence.md#nilpotent-transitive-actions-and-homogeneous-factorizations) are separate.
 
 [0110](../manuscripts/0110-nilpotent-transitive-alternating-socles.md) excludes nilpotent transitive actions on entire alternating socle powers. The [evidence record](../normal-layer-evidence.md#alternating-whole-socle-powers) separates the exact source review and the two small-degree arguments.
+
+[0111](../manuscripts/0111-nilpotent-transitive-projective-line-socles.md) treats the odd-field half of the projective-line whole-socle theorem. The [evidence record](../normal-layer-evidence.md#odd-field-projective-line-whole-socles) links the author and independent programs and separates the even-field endpoint.
