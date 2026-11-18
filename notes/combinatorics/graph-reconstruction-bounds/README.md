@@ -511,4 +511,4 @@ For fixed minimum degree bound $`k`$, [Kratsch and Hemaspaandra, proof of Theore
 
 ## What has and has not been checked
 
-The arguments above are mathematical proofs. They do not rely on an exhaustive search over graphs. The entropy, marker, and random-ball proofs and the structural lemma have undergone independent AI-assisted checks. The source of the only non-elementary group bound is Kempe, Pyber and Shalev, Theorem A(2); the complexity implication is imported from Hemaspaandra and coauthors. No formal verification, external referee acceptance or exhaustive priority review is claimed.
+The arguments above are mathematical proofs. They do not rely on an exhaustive search over graphs. Under Mira’s guidance, OpenAI’s GPT Astra 6.2 found the proofs and drafted the companion paper. The entropy, marker, and random-ball proofs and the structural lemma have undergone independent AI-assisted checks. The source of the only non-elementary group bound is Kempe, Pyber and Shalev, Theorem A(2); the complexity implication is imported from Hemaspaandra and coauthors. No formal verification, external referee acceptance or exhaustive priority review is claimed.
