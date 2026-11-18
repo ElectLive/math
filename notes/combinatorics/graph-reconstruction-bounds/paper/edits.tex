@@ -1,0 +1,190 @@
+\section{Editing an arbitrary graph to a reconstructible one}\label{edit:toward}
+One edit toggles one unordered pair on a fixed vertex set. Write
+$d(G,H)=|E(G)\mathbin{\triangle} E(H)|$, and let $\mathcal R_n$ be the
+graphs on $[n]$ uniquely determined, up to isomorphism, by their ordinary
+vertex decks. Asilis, Chen, Hansen and Teng~\cite[Section~4, p.~12:15]{acht}
+asked about $d(G,\mathcal R_n)=\min_{H\in\mathcal R_n}d(G,H)$. For $n\ge3$, isolating
+one vertex gives the bound $n-1$: any graph with an isolated vertex is recovered by
+reattaching an isolated vertex to a card of the appropriate edge count.
+Their observation about three edits concerns \emph{edge} decks, not vertex
+decks.
+
+\begin{theorem}\label{edit:cover}
+Let $n\ge 2^{20}$, $D=\lceil320\log_2 n\rceil$ and $k=\lceil2\log_2 n\rceil$.
+Every graph $G$ on $[n]$ can be changed to a member of $\mathcal R_n$ in
+at most $D+12k$ edits, all incident to at most two vertices. Such an
+edited graph can be constructed in polynomial time from $G$.
+\end{theorem}
+
+The aim is not just to create twins. We make a twin whose place in an
+actual card can be recognized among \emph{all} possible reconstructions.
+Call vertices twins if they have identical neighborhoods outside the pair;
+their mutual adjacency is unrestricted.
+
+\begin{lemma}\label{edit:twins}
+If $n\ge3$ and $2\binom n2<2^{n-2}$, the total number of unordered twin pairs of an
+$n$-vertex graph is determined by its ordinary deck.
+\end{lemma}
+\begin{proof}
+Let $s(u,v)$ be the number of vertices outside $\{u,v\}$ adjacent to exactly
+one of $u,v$. Form the homogeneous polynomial
+\[
+ F_G(X,Y)=\sum_{\{u,v\}} X^{s(u,v)}Y^{n-2-s(u,v)} .
+\]
+Deleting a vertex other than $u,v$ removes one distinguisher or one
+nondistinguisher. Thus the sum of $F_J$ over the card occurrences $J$
+is $(\partial_X+\partial_Y)F_G$. Any two candidate polynomials differ
+by $a(X-Y)^{n-2}$: in coordinates $X-Y,Y$ the differential operator is
+just differentiation in the second coordinate. Moreover $a$ is an integer,
+as seen from the leading coefficient. If $a\ne0$ the coefficient
+$\ell^1$-norm of the difference is at least $2^{n-2}$, whereas the sum
+of the two coefficient masses is $2\binom n2$. So $F_G$, in particular
+its $Y^{n-2}$ coefficient, is fixed.
+\end{proof}
+
+Here is a second ordinary-deck test on a specific card $J$. The total
+edge count is the sum of the card edge counts divided by $n-2$; subtracting
+$|E(J)|$ gives the missing degree $r$. This determines the entire degree
+multiset by ranging over the card occurrences. Write
+$Q_G(z)=\sum_{w\in V(G)}z^{\deg_G(w)}$. If the added vertex has
+neighborhood $S\subseteq V(J)$, then
+\begin{equation}\label{edit:exposure}
+ Q_G(z)-Q_J(z)=z^r+(z-1)\sum_{w\in S}z^{\deg_J(w)} .
+\end{equation}
+Thus both $|S|$ and its neighbor counts in each degree class of $J$ are
+prescribed, without matching any vertices across cards.
+
+\begin{proof}[Proof of Theorem~\ref{edit:cover}]
+If every pair has $s(u,x)>D$, Theorem~\ref{geo:matching} already gives
+$G\in\mathcal R_n$. Otherwise fix a pair with $s(u,x)\le D$. By editing
+at most $D$ edges at $x$, make $x$ and $u$ twins. Let $X=G-\{u,x\}$,
+write $a_w=\deg_X(w)$, and let $N_0$ be their common neighborhood in
+$X$. Retain their mutual bit $e$. Choosing a new common neighborhood
+$N$ costs $2|N\mathbin{\triangle}N_0|$ further edits. Call the resulting
+graph $P$ and consider $J=P-x$. Put $c=|N|$, $b_w=\mathbf 1_{\{w\in N\}}$.
+
+We shall choose $N$ so that the only possible center of a copy of the
+missing twin row on $J$ is $u$. More precisely, a clone of $v$ in $J$
+joins every neighbor of $v$ in $J$ and joins $v$ itself according to
+a bit $f$. For every $v\in X$ and $f\in\{0,1\}$ we will rule out
+its clone by the required degree $c+e$ or by~\eqref{edit:exposure}.
+
+First suppose that the number $s$ of distinct $a_w$ is less than $2k$.
+Forbid the at most $3s$ values $a_w,a_w+1,a_w+2$. Choose $c$ in
+$[0,n-2]$ within $3s$ of $|N_0|$ such that $c+e$ is not forbidden.
+There are at least $3s+1$ available integer choices of $c$ in this
+interval even at either end, since $3s<n-1$. Change $N_0$ to a set
+of this size by only insertions or only deletions. This costs at most
+$6s<12k$ edits. A clone at $v\in X$ has degree $a_v+b_v+f$, one of
+the forbidden values.
+
+Now suppose $s\ge2k$. Choose $k$ vertices $W\subset X$ with distinct
+$a_w$ separated by at least two: repeatedly take the least remaining
+degree and discard it and its successor. Keep $N$ fixed off $W$, allowing
+its $k$ bits on $W$ to vary, at cost at most $2k$. For a rival center $v$
+and bit $f$, the true exposure sum in~\eqref{edit:exposure} minus the
+rival's exposure sum is
+\[
+ (e-b_v)z^c+(b_v-f)z^{a_v+b_v}
+ +\sum_{w\in X\setminus\{v\}}(b_w-A_X(v,w))z^{a_w+b_w},
+\]
+where $A_X(v,w)$ is the adjacency bit. Fix $f$, $b_v$, and $c$. Changing
+$b_w$ from zero to one for $w\in W\setminus\{v\}$ increments the varying
+sum by $z^{a_w+1}$ if $A_X(v,w)=0$, and by $z^{a_w}$ otherwise.
+These monomials have distinct exponents, so their subset sums are all
+different. Among patterns with the fixed triple, at most one can give
+zero difference. The total $c$ has at most $k+1$ possible values;
+conditioning on it is essential since it depends on the pattern.
+Across all rivals, at most $4(n-2)(k+1)<n^2\le2^k$ patterns are ruled
+out. Take any of the others.
+
+To verify the certificate against an arbitrary parent, first observe that
+$u$ has no twin in $J$. Such a twin $v\in X$ would be interchangeable
+with $u$ by an automorphism of $J$, so its clone with $f=e$ would pass
+both tests. Every twin pair of $J$ therefore lies in $X$. Its two
+vertices see $u$ alike and hence also see $x$ alike in $P$. No old twin
+pair was lost, and $u,x$ are twins. Thus $P$ has strictly more twin pairs
+than $J$. By Lemma~\ref{edit:twins}, so does every parent of the deck
+of $P$. Present any such parent on the same labeled copy of $J$ by
+choosing a deletion of that card type. Adding a vertex cannot turn a
+surviving nontwin pair into twins, so the new vertex must itself be
+a twin of some center in $J$. The two tests exclude every center except
+$u$, and the prescribed missing degree fixes $f=e$. Every parent is
+therefore isomorphic to $P$.
+
+All pair distances and degree tests above are computable from the
+labeled input. In the many-degree case one may try all $2^k<2n^2$
+patterns and all their clone tests. This constructs $P$ in polynomial
+time, without deciding whether an arbitrary input deck has a parent.
+\end{proof}
+
+For smaller orders $n\ge3$ the isolated-vertex bound suffices. Thus the
+covering radius of $\mathcal R_n$ is $O(\log n)$; no positive lower
+bound is asserted. If the Reconstruction Conjecture holds, this
+distance is always zero.
+
+\section{Reconstruction throughout a random edit ball}\label{edit:random}
+The preceding theorem chooses favorable edits. We now ask for a graph
+that stays reconstructible under \emph{every} edit pattern in a given
+ball, even when the pattern is chosen after seeing the graph. Write
+$B_b(G)=\{H:d(G,H)\le b\}$.
+
+\begin{theorem}\label{edit:ball}
+Let $n\ge2^{20}$, $D=\lceil320\log_2 n\rceil$, and $m=\lceil n/320\rceil$.
+Let the edges of $G$ be independent with arbitrary probabilities in
+$[\beta,1-\beta]$, where $0<\beta\le1/2$. Set
+\[
+ q=2\beta(1-\beta),\qquad K=m(n-2m),\qquad
+ A=\frac{n!}{(n-2m)!\,2^m m!}.
+\]
+For every integer $b\ge0$,
+\begin{equation}\label{edit:tail}
+ \Pr\{B_b(G)\not\subseteq\mathcal R_n\}
+ \le \min\{1,\ A\Pr[\operatorname{Bin}(K,q)\le b+mD]\}.
+\end{equation}
+In particular, if $\beta=\beta(n)$ satisfies $\beta n/\log n\to\infty$,
+then for all sufficiently large $n$, uniformly over the allowed edge
+probabilities,
+\[
+ \Pr\{B_{\lfloor c\beta n^2\rfloor}(G)\subseteq\mathcal R_n\}
+ \ge1-\exp(-c\beta n^2),\qquad c=10^{-4}.
+\]
+\end{theorem}
+\begin{proof}
+Fix a matching $M$ of $m$ unordered vertex pairs (not necessarily graph
+edges). For each $\{u,v\}\in M$ and each $w$ outside the $2m$ endpoints,
+compare the bits $uw$ and $vw$. Let $L_M$ count the disagreements in
+these $K$ comparisons. The comparisons use disjoint pairs of edge
+coordinates, so are independent. If the two edge probabilities are
+$p,t$, the mismatch probability $p(1-t)+(1-p)t$ is at least $q$,
+by minimizing at the four corners of $[\beta,1-\beta]^2$. Thus
+$L_M(G)$ stochastically dominates $\operatorname{Bin}(K,q)$.
+
+Each edit changes $L_M$ by at most one. If $H\in B_b(G)$ fails
+reconstruction, Theorem~\ref{geo:matching} gives it some matching
+$M$ of $m$ pairs, each with at most $D$ distinguishing vertices.
+Consequently $L_M(H)\le mD$ and $L_M(G)\le b+mD$. Union-bounding
+the fixed-matching probabilities over the $A$ possible $M$ proves
+\eqref{edit:tail}. In particular, $M$ need not have been selected
+independently of the sampled graph.
+
+For the stated orders, $K\ge0.003n^2$, $q\ge\beta$ and
+$\ln A\le2m\ln n$. When $\beta n/\log n\to\infty$, eventually
+$mD\le qK/4$ and $\ln A\le qK/16$. If $b\le qK/4$, the
+multiplicative Chernoff bound at half the mean gives a failure
+probability at most $A\exp(-qK/8)\le\exp(-qK/16)$. The specified
+$c$ satisfies both the radius and the exponent bounds.
+\end{proof}
+
+For fixed $\beta>0$ this is a quadratic number of arbitrary edits, with
+failure exponentially small in $n^2$. Asilis et al.~\cite[Cor.~18--21]{acht}
+give an unrestricted edit radius of order $n/\log n$ in this dense
+model; their robust asymmetry event has failure $\exp(-\Omega(n))$.
+They also allow quadratically many edit locations when the support is
+sampled independently of the graph, with edits then unrestricted
+within that support~\cite[Lem.~13, Thm.~15]{acht}. Their structural
+event controls asymmetry and distinctness of induced subgraphs missing
+any fixed number of vertices; their work also yields three-card
+reconstruction for the sampled graph. Theorem~\ref{edit:ball} asserts
+ordinary full-deck reconstruction, not these stronger properties:
+indeed at most $n-2$ edits can make any designated pair twins.

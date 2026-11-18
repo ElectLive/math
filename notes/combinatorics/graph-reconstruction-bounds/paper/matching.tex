@@ -1,0 +1,206 @@
+\section{Linearly many pairs with logarithmic neighborhood discrepancy}
+\label{geo:section}
+
+For two distinct vertices $u,v$ of a finite simple graph $G$, let
+\[
+ d_G(u,v)=\bigl|\{w\notin\{u,v\}:\text{$w$ is adjacent to exactly one of $u,v$}\}\bigr|.
+\]
+Thus $d_G(u,v)$ counts the entries on which their adjacency rows disagree
+after the two endpoint positions have been removed. It is not a graph
+distance. Write $H_D(G)$ for the graph on $V(G)$ in which $uv$ is an
+edge if and only if $d_G(u,v)\le D$; this says nothing about whether
+$uv$ is an edge of $G$. The ordinary deck is the multiset of unlabelled
+graphs $G-v$, with one occurrence for each vertex. Nonreconstructible
+means that some nonisomorphic graph has the same ordinary deck.
+
+\begin{theorem}[A linear matching of near-twins]\label{geo:matching}
+Let $G$ be a nonreconstructible graph of order $n\ge 2^{20}$ and put
+$D=\lceil320\log_2 n\rceil$. Every vertex cover of $H_D(G)$ has more
+than $n/160$ vertices. In particular, every inclusion-maximal matching
+of $H_D(G)$ has more than $n/320$ edges.
+\end{theorem}
+
+The conclusion concerns distinct \emph{endpoints} in one parent. It does
+not say that the sets of vertices distinguishing the matched pairs are
+disjoint, or that a surviving mate can be identified on an individual
+card. The proof proceeds by contraposition. A small cover leaves a large
+set of mutually distinct exterior rows. Sampling exposes enough of their
+differences to obtain landmarks. The difficulty is to count all placements
+of those landmarks without paying for every permutation of the cover.
+
+\subsection{A landmark criterion requiring no distinguished copy}
+
+A named graph here is a graph on a fixed set of positions. For such a
+graph $F$, let $c_X(F)$ be the number of injections of its positions
+into $X$ preserving both edges and nonedges. If $|F|<n=|X|$, then
+\begin{equation}
+ c_X(F)=\frac{1}{n-|F|}\sum_{v\in V(X)}c_{X-v}(F).
+ \label{geo:proper}
+\end{equation}
+Indeed, an injection survives precisely the deletions outside its image.
+Thus comparing named pattern counts requires no names on an input card.
+
+Fix an ordered tuple $L$ of $r<n$ distinct vertices of $G$. An exterior
+vertex has a binary \emph{word} giving its adjacency to $L$ in order.
+Call $L$ resolving if these words are distinct among vertices outside
+$L$. No assumption is made about other induced copies of $G[L]$.
+
+\begin{lemma}[Resolving landmarks]\label{geo:landmarks}
+Let $L$ be resolving, let $F=G[L]$ be named by the tuple, and let
+$N=n-r$. If
+\begin{equation}
+ \frac{c_G(F)}{|\operatorname{Aut}(G)|}<2^{N/2-1},
+ \label{geo:criterion}
+\end{equation}
+then the ordinary deck determines $G$ up to isomorphism.
+\end{lemma}
+
+\begin{proof}
+In an arbitrary host $X$ of order $n$, fix one induced injection
+$j:F\to X$. Read the exterior words relative to $j$. Discard positions
+with a word absent from the target $G$. Every remaining position has a
+unique target vertex as its name, though several positions in $X$ may
+receive the same name. Define a conflict graph $C_j$ on these positions:
+two conflict if their names coincide, or if the names are distinct and
+their adjacency in $G$ disagrees with the adjacency of the positions
+in $X$. An independent set therefore gives a set $S$ of distinct target
+names and exactly one induced injection of $G[L\cup S]$ extending $j$.
+Conversely, each such injection gives one independent set in the
+conflict graph of its own root placement.
+
+Put $I(C;z)=\sum_{A\text{ independent in }C}z^{|A|}$ and
+$P_X(z)=\sum_j I(C_j;z)$, summing over \emph{all} induced placements
+of $F$. The bijection just described gives
+\begin{equation}
+ [z^k]P_X(z)=
+ \sum_{\substack{S\subseteq V(G)\setminus L\\|S|=k}}c_X(G[L\cup S]).
+ \label{geo:coeff}
+\end{equation}
+By \eqref{geo:proper}, the coefficients below degree $N$ agree between
+hosts with the same deck. At degree $N$ the only possible embeddings are
+isomorphisms from the full target. Thus a nonisomorphic host $X$ with
+the same deck as $G$ would satisfy
+\[
+ P_G(z)-P_X(z)=|\operatorname{Aut}(G)|z^N.
+\]
+
+Set $b=1+\sqrt2$, $a=2+\sqrt2$. For every graph $C$ on $m$ vertices,
+$|I(C;-a)|\le b^m$. For a union of isolated vertices and isolated edges,
+use multiplicativity and the factors $1-a=-b$ and $1-2a=-b^2$. Otherwise
+split independent sets according to inclusion of a vertex of degree
+$d\ge2$. Induction bounds the result by $b^{m-1}+a b^{m-d-1}\le b^m$,
+since $b^2+a\le b^3$. This includes the empty graph as the base case.
+Consequently $|P_X(-a)|\le c_X(F)b^N$ and likewise for $G$. Since
+$c_X(F)=c_G(F)$, the displayed polynomial difference would force
+\[
+ \frac{c_G(F)}{|\operatorname{Aut}(G)|}
+ \ge \frac12(a/b)^N=2^{N/2-1},
+\]
+contrary to \eqref{geo:criterion}. The tuple $L$ was used only in the
+comparison proof; its location was not provided in any card.
+\end{proof}
+
+\subsection{Keeping the cover anonymous}
+
+We use one external group-theoretic input. A permutation's support is
+the set of points it moves. By Kempe, Pyber and Shalev
+\cite[Theorem~A(2)]{KPS2007}, a permutation group on $t\ge2$ points
+in which every nonidentity element has support of size at least
+$\log_2 t$ has order at most $2^{10t}$. Transitivity is not required.
+
+Let $U\subseteq V(G)$ and $B=V(G)\setminus U$. Partition $U$ by equality
+of its full adjacency words on $B$. There is a set $W_0\subseteq B$ of
+size at most $|U|$ that defines the same partition. Start with no test
+coordinates. Whenever two unequal full words remain together, add a
+coordinate on which they differ. Each addition increases the number of
+classes. For $U=\varnothing$ take $W_0=\varnothing$.
+
+\begin{lemma}[An anonymous-cover automorphism bound]\label{geo:virtual}
+Let $T\supseteq U\cup W_0$, $t=|T|\ge2$, and $B_T=T\setminus U$.
+Assume every distinct $b,b'\in B_T$ have at least $\log_2 t$
+distinguishers in $G[T]$. Then
+\begin{equation}
+ \frac{|\operatorname{Aut}(G[T])|}{|\operatorname{Aut}(G)|}
+ \le 3^t 2^{10t}.
+ \label{geo:quotient}
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+The subgroup $A$ preserving $U$ and $W_0$ separately as sets has index
+at most $3^t$: count the possible images of the three-part coloring of
+$T$. Its elements permute $B_T$ and permute the classes of $U$, since
+equality of words on the setwise preserved $W_0$ detects the full
+partition. For each class $C$ create $|C|$ formal positions
+$(C,1),\dots,(C,|C|)$. Act on $B_T$ as on actual vertices and on these
+new positions by $(C,i)\mapsto(gC,i)$. This is an action on exactly $t$
+points. It does not assume that $g$ respects any numbering of the
+actual vertices inside $C$.
+
+Its kernel consists precisely of elements fixing $B_T$ pointwise: such
+an element fixes $W_0$ pointwise and hence preserves every class. Each
+kernel element extends, by the identity off $T$, to an automorphism of
+$G$. In fact it fixes the $B_T$ side, and vertices exchanged inside a
+class have equal incidences to every vertex of $B$, including those
+outside $T$. These extensions are distinct. The kernel therefore has
+order at most $|\operatorname{Aut}(G)|$.
+
+A nonidentity element of the image moves some actual $b\in B_T$ to
+$b'\ne b$. Any distinguisher in $B_T$ must move. If a vertex of a class
+$C$ distinguishes $b,b'$, then all vertices of $C$ do, and $gC\ne C$:
+otherwise invariance of the incidences to the class would give the same
+bit at $b$ and $b'$. All $|C|$ formal positions of such a class move.
+Hence the image element moves at least $d_{G[T]}(b,b')$ points. Apply
+the quoted motion bound to the image (the trivial image also satisfies
+the order bound), then multiply by the kernel and index estimates.
+\end{proof}
+
+\subsection{Sampling the landmarks and closing the count}
+
+\begin{proof}[Proof of Theorem~\ref{geo:matching}]
+Suppose $U$ covers $H_D(G)$ and $u=|U|\le n/160$. Put
+$\ell=\log_2 n$. Distinct vertices of $B=V(G)\setminus U$ have more
+than $D$ distinguishers in $G$, which may include vertices of $U$.
+Sample a set $Z$ by including \emph{every} vertex independently with
+probability $1/80$. For each fixed pair in $B$, its number $X$ of sampled
+distinguishers is binomial with mean $\mu\ge4\ell$. Markov's inequality,
+applied to $4^{-X}$, gives
+\[
+ \Pr(X<\ell)\le 4^\ell\mathbb E[4^{-X}]
+ \le \exp\bigl(\ell\ln4-3\mu/4\bigr)
+ \le \exp\bigl(-(3-\ln4)\ell\bigr).
+\]
+A union bound over fewer than $n^2$ pairs is at most $n^{-0.328}<1/26$
+for $n\ge2^{20}$, since $(3-\ln4)/\ln2-2>0.328$.
+Also $\Pr(|Z|>13n/1000)\le25/26$ by Markov's inequality. Thus there is
+one sample for which both bounds hold; independence of these success
+events was not used.
+
+Use $W_0$ as above and take $T=U\cup W_0\cup Z$. Then
+$t=|T|\le2u+13n/1000\le0.0255n<0.026n$. Every two exterior vertices
+are distinguished by $T$, as are all distinct vertices of $B_T$ by at
+least $\ell$ vertices of $T$. Thus the exterior words relative to $T$
+are distinct and Lemma~\ref{geo:virtual} applies, since $\ell\ge\log_2 t$.
+The automorphism bound is immediate also for $t=0,1$.
+
+Temporarily order $T$ and put $F=G[T]$ with these names. Each choice of
+its image set supports either no induced injection or precisely
+$|\operatorname{Aut}(G[T])|$ of them. By \eqref{geo:quotient},
+\[
+ \frac{c_G(F)}{|\operatorname{Aut}(G)|}
+ \le \binom nt\,3^t 2^{10t}.
+\]
+With $H_2(x)=-x\log_2 x-(1-x)\log_2(1-x)$ (and the continuous endpoint
+values), $\binom nt\le2^{n H_2(t/n)}$ by the binomial theorem. The
+base-two logarithm of the right-hand side is at most
+\[
+ n\bigl(H_2(0.026)+0.026(10+\log_2 3)\bigr)<0.48n
+ <(n-t)/2-1.
+\]
+For the last inequality use $(n-t)/2-1\ge0.487n-1$ in the asserted
+range. The landmark criterion \eqref{geo:criterion} now holds with
+$N=n-t$, so $G$ is reconstructible. This rules out every such
+cover in a counterexample. The endpoints of any inclusion-maximal
+matching form a vertex cover: an uncovered edge could be added to the
+matching. Dividing the strict cover bound by two proves the claim.
+\end{proof}

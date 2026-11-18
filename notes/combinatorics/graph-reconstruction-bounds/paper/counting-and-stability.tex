@@ -1,0 +1,122 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,top=0.96in,bottom=0.97in,left=1.16in,right=1.16in]{geometry}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black]{hyperref}
+\hypersetup{pdftitle={Counting and stability in graph reconstruction},pdfauthor={Mira}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{definition}\newtheorem{definition}[theorem]{Definition}\theoremstyle{plain}
+\newcommand{\Aut}{\operatorname{Aut}}
+\newcommand{\LWPP}{\mathsf{LWPP}}
+\newcommand{\Leg}{\textnormal{\textsc{Legitimate Deck}}}
+\setlength{\parindent}{1.2em}
+\title{Counting and stability in graph reconstruction}
+\author{Mira}
+\date{November 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give three bounds for the ordinary deck of a finite simple graph, the multiset of its unlabeled one-vertex deletions. First, an $n$-card deck, $n\ge3$, has at most $(n!)^{2/(n-2)}\sim n^2/e^2$ nonisomorphic parents. The proof applies a projection inequality to the edge bits of all labeled parents. This answers the polynomial preimage question of Hemaspaandra, Hemaspaandra, Spakowski and Watanabe and, by their theorem, places recognition of legitimate decks in the counting class $\LWPP$. Second, for all sufficiently large $n$, every $n$-vertex graph is within $O(\log n)$ edge edits of a graph uniquely determined by its deck. Third, for independent edge probabilities in $[\beta,1-\beta]$ with $\beta n/\log n\to\infty$, with probability at least $1-\exp(-c\beta n^2)$ every graph within $c\beta n^2$ edits of the sample is uniquely determined by its deck, for an absolute $c>0$. These two distance bounds follow from a structural constraint: a graph not determined by its deck must have linearly many disjoint pairs of vertices whose neighborhoods differ at only $O(\log n)$ other vertices.
+\end{abstract}
+
+\section{The size and location of the ambiguity}
+The \emph{vertex deck} of a finite simple undirected graph $G$ is the multiset of isomorphism types of the graphs $G-v$ for $v\in V(G)$. A graph with deck $D$ is called a \emph{parent} of $D$; the deck is \emph{legitimate} if it has a parent. Write $p(D)$ for the number of nonisomorphic parents. The Reconstruction Conjecture asks whether $p(D)=1$ for every legitimate deck of order at least three.
+
+Two quantitative questions survive even if we cannot decide uniqueness. How many different graphs could one deck describe? And where in the space of graphs could a failure of uniqueness occur? They call for different uses of the missing labels. For the first, it suffices to count complete labeled graphs from the supports of their deletions. For the second, we need a structural reason why the deck cannot distinguish a graph: many pairs of vertices must have nearly the same adjacency to all the others.
+
+We measure the distance between two graphs on the same vertex set by the number of unordered pairs on which their edge bits differ. The two metric assertions point in different directions. From an \emph{arbitrary} graph a small, chosen change suffices to reach a reconstructible graph. Around a \emph{random} graph, with high probability even an adversary who has seen the sample cannot reach a nonreconstructible graph without many changes. Neither statement supplies a nonreconstructible graph. Asilis, Chen, Hansen and Teng~\cite{acht} put the first distance question explicitly in their outlook and studied the second in semi-random models.
+
+\subsection*{Counting the possible parents}
+Hemaspaandra, Hemaspaandra, Spakowski and Watanabe~\cite[Conj.~4.5]{hhsw} asked about bounding $p(D)$ by a function $q$ of the order and singled out the case of polynomial $q$. A single card on $n-1$ vertices gives the immediate bound $2^{n-1}$: each parent can be constructed by choosing one neighborhood on the card. For a bounded minimum degree $k$, one can choose a corresponding card and enumerate $O(n^k)$ extensions~\cite[proof of Thm.~6.1]{kh}. Counting only neighborhoods of the prescribed degree, and taking account of the card's symmetries, improves this estimate for individual decks; compare Wang~\cite[Thms.~14.4 and 15.2]{wang}. We instead use the $n$ deletions simultaneously.
+
+\begin{theorem}\label{thm:main}
+For every legitimate deck $D$ of order $n\ge3$,
+\[
+p(D)\le (n!)^{2/(n-2)}=(1+o(1))\,n^2/e^2 .
+\]
+More precisely, if $b(D)$ is the number of graphs on $[n-1]$ whose unlabeled type is a card of $D$, then $p(D)\le b(D)^{2/(n-2)}$.
+\end{theorem}
+
+The distinction between $p(D)$ and $b(D)$ is useful. The former counts \emph{unlabeled parents}; the latter counts \emph{labeled cards}, ignoring repetitions of a card type. Given a single parent, every one of those $b(D)$ cards can be seen at any designated hole simply by relabeling the parent. Thus a large card family forces \emph{each} parent to have many labeled representatives. The proof compares this lower bound with the number of full graphs the card family can support.
+
+\section{Proof of the bound}
+We recall the finite form of Shearer's inequality~\cite{shearer}; compare the uniform-cover method for hereditary hypergraph families of Bollob\'as and Thomason~\cite{bt}. For a set of words $U$ on finitely many coordinates, write $P_A(U)$ for the set of restrictions of its words to a set $A$ of coordinates.
+\begin{lemma}\label{lem:proj}
+If $U$ is finite and nonempty, and each coordinate belongs to at least $r$ of the sets $A_1,\ldots,A_m$, then
+\[
+ |U|^r\le\prod_{i=1}^{m}|P_{A_i}(U)| ,
+\]
+where the product counts each projection separately.
+\end{lemma}
+\begin{proof}
+Let $X$ be uniform on $U$. Order the coordinates and write $X_{<j}$ for those preceding $j$. In the chain rule for $H(X_{A_i})$, the term for $j\in A_i$ is conditioned only on the earlier coordinates in $A_i$. Since conditioning reduces entropy,
+\[
+\sum_i H(X_{A_i})\ \ge\ \sum_i\sum_{j\in A_i}H(X_j\mid X_{<j})
+\ \ge\ r H(X).
+\]
+Use $H(X)=\log_2|U|$ and $H(X_{A_i})\le\log_2|P_{A_i}(U)|$, and exponentiate.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Work on the common vertex set $[n]$. For each parent isomorphism class $G$ let $O_G$ be its set of labeled representatives. Put $U=\bigcup_G O_G$; the union is disjoint. Write $\pi_i$ for restriction to $[n]\setminus\{i\}$, that is, deletion of the label $i$ without changing the surviving labels. For each $G$ and $i$, $\pi_i(O_G)$ is exactly the set of all labeled copies, on this fixed surviving set, of the card types in $D$. Indeed, for any one such copy, choose a vertex of $G$ whose deletion has that type, label the remaining vertices by an isomorphism to the copy, and give the omitted vertex label $i$. It follows that
+\[
+   |O_G|\ge b(D),\qquad |U|\ge p(D)b(D),\qquad |\pi_i(U)|=b(D).
+\]
+View $U$ as a set of binary words indexed by the unordered pairs of $[n]$. A pair survives deletion of $i$ precisely when neither endpoint is $i$. The $n$ projections therefore cover every coordinate exactly $n-2$ times. Lemma~\ref{lem:proj} gives
+\[
+ (p(D)b(D))^{n-2}\le |U|^{n-2}
+ \le \prod_{i=1}^n |\pi_i(U)| = b(D)^n .
+\]
+Division proves the bound in terms of $b(D)$. Any parent has at most $n!$ labeled representatives, so $b(D)\le n!$. The asymptotic estimate follows from Stirling's formula.
+\end{proof}
+
+\section{Recognizing legitimate decks}
+The language \Leg{} consists of the encoded sequences of graphs which form an ordinary vertex deck. It is a decision problem, not the problem of constructing or counting the parents. The counting class $\LWPP$ admits a gap function that is zero on no-instances and has one specified nonzero, polynomial-time computable value, depending only on the input length, on yes-instances~\cite{hhsw}.
+
+\begin{corollary}
+\Leg{} belongs to $\LWPP$. In particular, it is not NP-Turing-hard unless NP is low for PP.
+\end{corollary}
+\begin{proof}
+For $n\ge6$, $1\cdot2\cdot3\le n$ and the remaining $n-3$ factors in $n!$ are at most $n$, giving $n!\le n^{n-2}$. Theorem~\ref{thm:main} gives $p(D)\le n^2$. For $3\le n\le5$, the one-card bound $2^{n-1}$ is at most $n^2$. There are at most two parent classes at order two and only one at orders one and zero, if admitted. Thus the single polynomial $q(n)=(n+1)^2$ works at all orders. The assertions now follow directly from Hemaspaandra et al.~\cite[Cor.~4.9--4.10]{hhsw}.
+\end{proof}
+
+Membership in $\LWPP$ does not provide a deterministic polynomial-time recognition algorithm. The graph bound counts parents without exhibiting them. It leaves open even whether $p(D)$ is bounded by an absolute constant.
+
+\input{matching}
+\input{edits}
+
+\paragraph{Acknowledgment.} AI tools assisted in developing and checking the argument and in preparing the exposition.
+
+\begin{thebibliography}{9}
+\bibitem{acht} J. Asilis, X. Chen, D. Hansen and S.-H. Teng,
+Semi-random graphs, robust asymmetry, and reconstruction,
+\emph{17th Innovations in Theoretical Computer Science Conference (ITCS 2026)},
+LIPIcs \textbf{362} (2026), 12:1--12:21.
+\href{https://doi.org/10.4230/LIPIcs.ITCS.2026.12}{doi:10.4230/LIPIcs.ITCS.2026.12}.
+\bibitem{KPS2007} J. Kempe, L. Pyber and A. Shalev,
+Permutation groups, minimal degrees and quantum computing,
+\emph{Groups Geom. Dyn.} \textbf{1} (2007), 553--584.
+\href{https://doi.org/10.4171/GGD/24}{doi:10.4171/GGD/24}.
+\bibitem{shearer} F. R. K. Chung, R. L. Graham, P. Frankl and J. B. Shearer,
+Some intersection theorems for ordered sets and graphs,
+\emph{J. Combin. Theory Ser.~A} \textbf{43} (1986), 23--37.
+\href{https://doi.org/10.1016/0097-3165(86)90019-1}{doi:10.1016/0097-3165(86)90019-1}.
+\bibitem{bt} B. Bollob\'as and A. Thomason,
+Projections of bodies and hereditary properties of hypergraphs,
+\emph{Bull. London Math. Soc.} \textbf{27} (1995), 417--424.
+\href{https://doi.org/10.1112/blms/27.5.417}{doi:10.1112/blms/27.5.417}.
+\bibitem{hhsw} E. Hemaspaandra, L. A. Hemaspaandra, H. Spakowski and O. Watanabe,
+The robustness of LWPP and WPP, with an application to graph reconstruction,
+\emph{43rd International Symposium on Mathematical Foundations of Computer Science (MFCS 2018)}, LIPIcs \textbf{117} (2018), 51:1--51:14.
+\href{https://doi.org/10.4230/LIPIcs.MFCS.2018.51}{doi:10.4230/LIPIcs.MFCS.2018.51}.
+\bibitem{kh} D. Kratsch and L. A. Hemaspaandra,
+On the complexity of graph reconstruction,
+\emph{Math. Systems Theory} \textbf{27} (1994), 257--273.
+\href{https://doi.org/10.1007/BF01578845}{doi:10.1007/BF01578845}.
+\bibitem{wang} J. Wang, Quantitative assembly bounds for vertex-deleted decks: a finite obstruction calculus toward graph reconstruction, preprint (2026).
+\href{https://doi.org/10.5281/zenodo.21297717}{doi:10.5281/zenodo.21297717}.
+\end{thebibliography}
+\end{document}
