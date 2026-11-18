@@ -338,3 +338,7 @@ These supporting proofs retain exact source review scope, corrections and pendin
 - [Canonical PSU4(q) for every odd q](full-socle-completion/unitary-four-odd-canonical.md).
 - [All odd-field canonical overgroups of PSU4(q)](full-socle-completion/unitary-four-odd-overgroups.md).
 - [Proposed untwisted E6 even-field full-socle assembly](full-socle-completion/untwisted-e6-even-full-socles.md).
+
+## Matched tensor layers and odd block kernels
+
+[0100, statement and evidence](../manuscripts/0100-matched-tensor-radicals.md), with the [odd-field foundation](tensor-layers/odd-field-foundation.md), [rank-capacity proof](tensor-layers/tensor-capacity.md), and [nonsplit binary rank-three supplement](tensor-layers/binary-three.md). [0101, complete proof](../manuscripts/0101-odd-kernel-block-action.md) gives the odd normal-layer block-kernel obstruction independently of tensor hypotheses. The [source and reproducibility record](../normal-layer-evidence.md) distinguishes the three separate mathematical audits and all seven executable controls.

@@ -18,6 +18,8 @@ Three kinds of progress fit together; none can replace the others.
 - **Classify operations within specified envelopes.** Results include radical-free PSL₂/A₅ models, [abelian-top path parameters](manuscripts/0068-abelian-nilpotent-path-parameters.md), and [affine-square operations](manuscripts/0099-affine-square-factor-exchange.md). In the [binary quadratic-refinement action](manuscripts/0097-binary-symplectic-full-socles-and-actions.md), the only possible loop is the 120-element Paige loop, not a new proper Bol loop.
 - **Control extensions and construct new families.** The [odd-kernel orbit and lift theory](manuscripts/0098-odd-kernel-stabilizer-orbits.md) gives exact local constraints and finite-data assembly with a distinguished elementary layer. Other constructions demonstrate how broad the classification must be; the [proposed non-G-loop, non-Bruck-isotopic example](0018-non-g-loop-non-bruck-context.md) addresses Nagy's existence question.
 
+The [matched natural tensor exclusion](manuscripts/0100-matched-tensor-radicals.md) rules out an entire matrix-radical family in rank at least three, including the exceptional binary rank-three case. Above a [faithful irreducible odd layer](manuscripts/0101-odd-kernel-block-action.md), the kernel of the action on blocks now has trivial solvable radical, even without a splitting hypothesis.
+
 The linked theorems retain their specific canonical-folder, classification, embedding and finite-data hypotheses. Excluding a full multiplication socle is not the same as excluding a canonical left group; classifying a group action is not yet classifying its loop operations.
 
 ## Open problems

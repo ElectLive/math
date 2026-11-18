@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0094",
+  "next_id": "0102",
   "manuscripts": [
     {
       "id": "0053",
@@ -2204,6 +2204,30 @@
       "source": "loop-decomposition/manuscripts/loop-deck-subloop-census.md",
       "group": "loop-decomposition-decks",
       "source_revision": "61f86bbbab630fc45a5ad4a6258e5562dceb1e9b"
+    },
+    {
+      "id": "0100",
+      "source": "sources/tensor-layers/odd-field-foundation.md",
+      "group": "matched-natural-tensor",
+      "source_revision": "c4791c77dfb778c368006c71abad7eef2b58a777"
+    },
+    {
+      "id": "0100",
+      "source": "sources/tensor-layers/tensor-capacity.md",
+      "group": "matched-natural-tensor",
+      "source_revision": "c4791c77dfb778c368006c71abad7eef2b58a777"
+    },
+    {
+      "id": "0100",
+      "source": "sources/tensor-layers/binary-three.md",
+      "group": "matched-natural-tensor",
+      "source_revision": "d9c959216f10dea547baf82fdabc18c17dd36ca5"
+    },
+    {
+      "id": "0101",
+      "source": "manuscripts/0101-odd-kernel-block-action.md",
+      "group": "odd-block-kernel",
+      "source_revision": "2756e74daf61aaed60f017ebbf6369026cced801"
     }
   ]
 }
