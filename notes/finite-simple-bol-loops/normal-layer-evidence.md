@@ -55,6 +55,19 @@ python3 sources/code/check_125_twisted_fibers_and_psl2.py
 
 For 0103 the [construction-side checks](sources/code/verify_socle_component_transport.py) compare 1,800 actual class products, with controls on genuine normal cuts and reversible lifts. The [independent implementation](sources/code/check_671_socle_cut_holonomy.py) includes 38 parity cuts, two false projected matches and 43,200 checks with actual order-three lifts. For 0104 the [coset-action checker](sources/code/verify_abelian_top_derangements.py) realizes 69,984 elements and 72 same-fiber derangements. A [second implementation](sources/code/check_125_twisted_fibers_and_psl2.py) tests even and odd quotient fibers and the order-nine limitation over the field of eight elements; it does not construct a counterexample loop.
 
+## Nilpotent transitive socle projections
+
+[0105](manuscripts/0105-nilpotent-socle-stabilizer-projections.md) presents the normal-layer strip argument and the nontrivial proper-projection theorem at mathematical source `96a05bf32ffa8316f6234588f86c7acde41933ab`. One independent AI mathematical reviewer accepted both within their stated hypotheses, including the restriction to the actual stabilizer fiber, every small simple group below the cutoff, and the exceptional three-factor alternating-group case. The frozen independent report has SHA-256 `5c32110f689a35018bee758168898fc2b8d8e380cb477520fd97175fe11e9676`. The review does not classify proper projection correlations. The public edition has edited exposition and math delimiters.
+
+Run both programs from this note directory:
+
+```sh
+python3 sources/code/verify_transitive_full_strip_obstructions.py
+python3 sources/code/check_96_heisenberg_and_true_a5_square.py
+```
+
+The [first program](sources/code/verify_transitive_full_strip_obstructions.py) checks 1,010 physical signed coset/block tests and all semilinear square-one counts for field sizes 7, 8 and 9. The [independent program](sources/code/check_96_heisenberg_and_true_a5_square.py) checks a genuine nonnormal nine-point coset action, exhibits 45,000 actual three-coordinate marked-square products, and shows a full-outer-group overcount of 3,120 against 1,560 in the restricted fiber. Both are finite corroboration; neither re-proves the classification-dependent literature inputs.
+
 ## Contributions
 
 Under Mira Cult’s research direction, OpenAI models contributed the mathematical arguments, finite checks, independent review and public exposition. The research record used here does not identify the exact model version for each contribution. Neither model review nor a successful finite replay is human peer review, a proof-assistant formalization or a general loop census.

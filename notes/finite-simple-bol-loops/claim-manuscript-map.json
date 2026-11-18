@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0105",
+  "next_id": "0106",
   "manuscripts": [
     {
       "id": "0053",
@@ -2247,6 +2247,12 @@
       "source": "manuscripts/0104-twisted-stabilizer-derangements.md",
       "group": "twisted-stabilizer-quotient-orbits",
       "source_revision": "125a50df46fc05500806667a7201995994e7d3ef"
+    },
+    {
+      "id": "0105",
+      "source": "manuscripts/0105-nilpotent-socle-stabilizer-projections.md",
+      "group": "nilpotent-transitive-socle-projections",
+      "source_revision": "96a05bf32ffa8316f6234588f86c7acde41933ab"
     }
   ]
 }

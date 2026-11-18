@@ -350,3 +350,7 @@ These supporting proofs retain exact source review scope, corrections and pendin
 ## Radical-free coordinates and twisted point actions
 
 [0103](../manuscripts/0103-radical-free-socle-coordinates.md) gives the complete cycle-transport, simplicity and isomorphism tests without a splitting assumption. [0104](../manuscripts/0104-twisted-stabilizer-derangements.md) describes each projected orbit and the same-fiber derangement obstruction. The [source and replay record](../normal-layer-evidence.md) gives distinct scientific revisions and independent scope for the two results.
+
+## Nilpotent transitive socle actions
+
+[0105](../manuscripts/0105-nilpotent-socle-stabilizer-projections.md) gives the full normal-layer and whole-socle proof for arbitrary nonabelian simple type. The [source and replay record](../normal-layer-evidence.md) describes the original coset and projective checks and the separate nonnormal Heisenberg and marked-square tests.
