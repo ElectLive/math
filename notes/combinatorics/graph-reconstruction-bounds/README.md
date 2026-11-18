@@ -14,7 +14,7 @@ The first theorem counts labeled representatives and uses the fact that every ed
 
 ## Counting the parents of one deck
 
-All graphs here are finite, simple and undirected. Fix a realizable deck $`D`$ with $`n\ge3`$ cards, each of order $`n-1`$. Let $`p(D)`$ be the number of isomorphism classes of graphs with deck $`D`$. For each such class $`G`$, its labeled orbit $`O_G`$ is the set of all graphs on the fixed vertex set $`[n]`$ isomorphic to $`G`$. It has $`n!/|\operatorname{Aut}(G)|`$ elements. Let $`L`$ be the smallest of these orbit sizes.
+All graphs here are finite, simple and undirected. Fix a realizable deck $`D`$ with $`n\ge3`$ cards, each of order $`n-1`$. Let $`p(D)`$ be the number of isomorphism classes of graphs with deck $`D`$. For each such class $`G`$, its labeled orbit $`O_G`$ is the set of all graphs on the fixed vertex set $`[n]`$ isomorphic to $`G`$. It has $`n!/|\mathrm{Aut}(G)|`$ elements. Let $`L`$ be the smallest of these orbit sizes.
 
 **Theorem.** The number of parent classes satisfies
 
@@ -53,7 +53,7 @@ The last inequality is the elementary bound on entropy by the logarithm of the s
 Let $`b(D)`$ denote the number of different **labeled** cards on a fixed $`(n-1)`$-element vertex set that occur as labelings of some card type in $`D`$. Equivalently,
 
 ```math
-b(D)=\sum_{J\text{ a distinct type in }D}\frac{(n-1)!}{|\operatorname{Aut}(J)|}.
+b(D)=\sum_{J\text{ a distinct type in }D}\frac{(n-1)!}{|\mathrm{Aut}(J)|}.
 ```
 
 Each type occurs only once in this sum, even if many vertices give that type. The common projection in the proof has exactly $`b(D)`$ elements, and the projection of *each* parent orbit maps onto that set. Therefore $`b(D)\le L`$ and
@@ -69,7 +69,7 @@ In fact the proof gives $`p(D)\le b(D)^{n/(n-2)}/L`$ when $`L`$ is known. The $`
 
 The labels in the proof index a set of *possible complete graphs*; they are not extra information supplied with the deck. Two distinct cards need not come equipped with any consistent identification of their common vertices. In particular, it would be incorrect to multiply the number of independently chosen card labelings and call that the number of parents. The projection inequality bounds an actual set of joint objects by projections that may be highly dependent.
 
-There is a second way to see why so little information about the parent can be concealed. Let $`T`$ be a uniformly selected **unlabeled** parent type, and given $`T`$, let $`X`$ be uniform over the labeled representatives of that type. Then $`T`$ is determined by $`X`$ and $`H(X)=H(T)+H(X\mid T)`$. For each fixed $`i`$, however, the law of $`\pi_iX`$ is independent of $`T`$: the omitted vertex is uniform in the parent, so its card type has the frequencies in the common deck; conditional on its type the surviving labeling is uniform. This uses the ordinary card **multiplicities**. For example, a particular labeled card of type $`J`$ occurring $`m_J`$ times has probability $`(m_J/n)|\operatorname{Aut}(J)|/(n-1)!`$ regardless of $`T`$.
+There is a second way to see why so little information about the parent can be concealed. Let $`T`$ be a uniformly selected **unlabeled** parent type, and given $`T`$, let $`X`$ be uniform over the labeled representatives of that type. Then $`T`$ is determined by $`X`$ and $`H(X)=H(T)+H(X\mid T)`$. For each fixed $`i`$, however, the law of $`\pi_iX`$ is independent of $`T`$: the omitted vertex is uniform in the parent, so its card type has the frequencies in the common deck; conditional on its type the surviving labeling is uniform. This uses the ordinary card **multiplicities**. For example, a particular labeled card of type $`J`$ occurring $`m_J`$ times has probability $`(m_J/n)|\mathrm{Aut}(J)|/(n-1)!`$ regardless of $`T`$.
 
 Now $`H(\pi_iX)=H(\pi_iX\mid T)\le H(X\mid T)`$, because deletion is a deterministic map. The same edge-coverage chain rule therefore gives
 
@@ -143,7 +143,7 @@ Let $`L`$ be resolving, let $`F=G[L]`$ be named by the tuple, and let
 $`N=n-r`$. If
 
 ```math
- \frac{c_G(F)}{|\operatorname{Aut}(G)|}<2^{N/2-1},
+ \frac{c_G(F)}{|\mathrm{Aut}(G)|}<2^{N/2-1},
  \tag{2}
 ```
 
@@ -178,7 +178,7 @@ isomorphisms from the full target. Thus a nonisomorphic host $`X`$ with
 the same deck as $`G`$ would satisfy
 
 ```math
- P_G(z)-P_X(z)=|\operatorname{Aut}(G)|z^N.
+ P_G(z)-P_X(z)=|\mathrm{Aut}(G)|z^N.
 ```
 
 Set $`b=1+\sqrt2`$, $`a=2+\sqrt2`$. For every graph $`C`$ on $`m`$ vertices,
@@ -191,7 +191,7 @@ Consequently $`|P_X(-a)|\le c_X(F)b^N`$ and likewise for $`G`$. Since
 $`c_X(F)=c_G(F)`$, the displayed polynomial difference would force
 
 ```math
- \frac{c_G(F)}{|\operatorname{Aut}(G)|}
+ \frac{c_G(F)}{|\mathrm{Aut}(G)|}
  \ge \frac12(a/b)^N=2^{N/2-1},
 ```
 
@@ -219,7 +219,7 @@ Assume every distinct $`b,b'\in B_T`$ have at least $`\log_2 t`$
 distinguishers in $`G[T]`$. Then
 
 ```math
- \frac{|\operatorname{Aut}(G[T])|}{|\operatorname{Aut}(G)|}
+ \frac{|\mathrm{Aut}(G[T])|}{|\mathrm{Aut}(G)|}
  \le 3^t 2^{10t}.
  \tag{4}
 ```
@@ -241,7 +241,7 @@ kernel element extends, by the identity off $`T`$, to an automorphism of
 $`G`$. In fact it fixes the $`B_T`$ side, and vertices exchanged inside a
 class have equal incidences to every vertex of $`B`$, including those
 outside $`T`$. These extensions are distinct. The kernel therefore has
-order at most $`|\operatorname{Aut}(G)|`$.
+order at most $`|\mathrm{Aut}(G)|`$.
 
 A nonidentity element of the image moves some actual $`b\in B_T`$ to
 $`b'\ne b`$. Any distinguisher in $`B_T`$ must move. If a vertex of a class
@@ -285,10 +285,10 @@ The automorphism bound is immediate also for $`t=0,1`$.
 
 Temporarily order $`T`$ and put $`F=G[T]`$ with these names. Each choice of
 its image set supports either no induced injection or precisely
-$`|\operatorname{Aut}(G[T])|`$ of them. By (4),
+$`|\mathrm{Aut}(G[T])|`$ of them. By (4),
 
 ```math
- \frac{c_G(F)}{|\operatorname{Aut}(G)|}
+ \frac{c_G(F)}{|\mathrm{Aut}(G)|}
  \le \binom nt\,3^t 2^{10t}.
 ```
 
@@ -456,7 +456,7 @@ For every integer $`b\ge0`$,
 
 ```math
  \Pr\{B_b(G)\not\subseteq\mathcal R_n\}
- \le \min\{1,\ A\Pr[\operatorname{Bin}(K,q)\le b+mD]\}.
+ \le \min\{1,\ A\Pr[\mathrm{Bin}(K,q)\le b+mD]\}.
 ```
 
 In particular, if $`\beta=\beta(n)`$ satisfies $`\beta n/\log n\to\infty`$,
@@ -475,7 +475,7 @@ these $`K`$ comparisons. The comparisons use disjoint pairs of edge
 coordinates, so are independent. If the two edge probabilities are
 $`p,t`$, the mismatch probability $`p(1-t)+(1-p)t`$ is at least $`q`$,
 by minimizing at the four corners of $`[\beta,1-\beta]^2`$. Thus
-$`L_M(G)`$ stochastically dominates $`\operatorname{Bin}(K,q)`$.
+$`L_M(G)`$ stochastically dominates $`\mathrm{Bin}(K,q)`$.
 
 Each edit changes $`L_M`$ by at most one. If $`H\in B_b(G)`$ fails
 reconstruction, the structural near-pair matching theorem above gives it some matching
