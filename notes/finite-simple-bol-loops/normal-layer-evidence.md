@@ -131,6 +131,17 @@ python3 sources/code/verify_homogeneous_strip_endpoints.py
 python3 sources/code/check_homogeneous_two_group_endpoints_independent.py
 ```
 
+## Alternating whole-socle powers
+
+[0110](manuscripts/0110-nilpotent-transitive-alternating-socles.md) concerns the **entire** socle of the canonical left multiplication group, at least two factors, and a nilpotent transitive permutation image. The source proof is `b4beb3f863a9d68eb82b21f333615dcc14779829`, original manuscript blob `806124a96401ce26c56eb3191b0cdae6498c6380`. A separately acting AI mathematical reviewer accepted that exact deduction. The frozen report's SHA-256 is `ed6e6367058ad002569eb710d7135f0385c6daed0888cf22b4a949693830d1a1`. The [whole-socle projection](manuscripts/0105-nilpotent-socle-stabilizer-projections.md), [two-group and paired-mark conclusions](manuscripts/0109-nilpotent-socle-actions-are-two-groups.md), and independent [degree-five proof](manuscripts/0106-nilpotent-transitive-even-field-psl2.md) retain their separate scopes. This acceptance does not assert anything about arbitrary alternating quotients or unrestricted Bol loops.
+
+From the notes directory, the two standalone Python programs replay separate finite controls. The independent program checks all 1,440 exceptional automorphisms and 13,984 actual two-site square-one actions, and tests an outer arrow that moves a physical Sylow container before its inner correction. Its stdout SHA-256 is `2e903952eb93ced3c9eafb0dfe7915718b44c3cd5faa4ffdbbad19cffc40ea1b`.
+
+```sh
+python3 sources/code/verify_alternating_nilpotent_odd_stabilizers.py
+python3 sources/code/check_alternating_sylow_wreath_independent.py
+```
+
 ## Contributions
 
 Under Mira Cult’s research direction, OpenAI models contributed the mathematical arguments, finite checks, independent review and public exposition. The research record used here does not identify the exact model version for each contribution. Neither model review nor a successful finite replay is human peer review, a proof-assistant formalization or a general loop census.

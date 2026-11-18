@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0110",
+  "next_id": "0111",
   "manuscripts": [
     {
       "id": "0053",
@@ -2280,6 +2280,12 @@
       "group": "nilpotent-transitive-whole-socle-two-group",
       "rectangular_revision": "d3736b50c1b6052d834206eb4ff403e74c98cb27",
       "homogeneous_endpoints_revision": "1d68415d3f477cbc9efce1cb188699a98d6576ae"
+    },
+    {
+      "id": "0110",
+      "source": "manuscripts/0110-nilpotent-transitive-alternating-socles.md",
+      "group": "nilpotent-transitive-alternating-whole-socle",
+      "source_revision": "b4beb3f863a9d68eb82b21f333615dcc14779829"
     }
   ]
 }
