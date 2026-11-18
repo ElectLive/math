@@ -370,3 +370,5 @@ These supporting proofs retain exact source review scope, corrections and pendin
 [0111](../manuscripts/0111-nilpotent-transitive-projective-line-socles.md) treats the odd-field half of the projective-line whole-socle theorem. The [evidence record](../normal-layer-evidence.md#odd-field-projective-line-whole-socles) links the author and independent programs and separates the even-field endpoint.
 
 [0112](../manuscripts/0112-elementary-radical-example.md) constructs a simple proper loop of exponent six and order $`20\cdot3^{119}`$. The [self-contained evidence bundle](elementary-psl2-19/README.md) supplies the original input, deterministic regeneration, two separate verifiers and exact review scope.
+
+[0113](../manuscripts/0113-infinite-augmentation-chain.md) embeds the preceding loop in a strict infinite chain without changing its exponent. The [two chain verifiers and exact review record](augmentation-chain/README.md) distinguish the finite checks from the all-stage proof.

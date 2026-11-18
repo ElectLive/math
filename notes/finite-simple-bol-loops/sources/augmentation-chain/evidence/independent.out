@@ -1,0 +1,6 @@
+stage 0 X,Y 117 119 B X,B Y,P Y,actual forbidden 1 2 14 3 flat [(58, 0, 0, 20), (0, 0, 0, 0)] physical Xminus,Yplus,bottom,all eight native ranks (58, 59, 116, [118, 118, 117, 118, 118, 117, 118, 118])
+stage 1 X,Y 136 138 B X,B Y,P Y,actual forbidden 2 3 17 5 flat [(68, 0, 0, 20), (0, 0, 0, 0)] physical Xminus,Yplus,bottom,all eight native ranks (68, 68, 135, [137, 137, 136, 137, 137, 136, 137, 137])
+nonzero forbidden coupling really produces a tilted flat pair; signed defect 10 10
+stage 2 X,Y 155 157 B X,B Y,P Y,actual forbidden 3 4 20 7 flat [(78, 0, 0, 20), (0, 0, 0, 0)] physical Xminus,Yplus,bottom,all eight native ranks (78, 77, 154, [156, 156, 155, 156, 156, 155, 156, 156])
+nonzero forbidden coupling really produces a tilted flat pair; signed defect 10 10
+stage 3 X,Y 174 176 B X,B Y,P Y,actual forbidden 4 5 23 9 flat [(88, 0, 0, 39), (0, 0, 0, 0)] physical Xminus,Yplus,bottom,all eight native ranks (88, 86, 173, [175, 175, 174, 175, 175, 174, 175, 175])

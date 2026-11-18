@@ -1,0 +1,16 @@
+{
+  "source_revision": "2c7ffe13a1f1af9f2ac38ee5dee8b417c076b466",
+  "source_sha256": "f0f8e560609c44ff40a665a87aca52c5d233d95618d1b619d8e38581f7ea85bd",
+  "review_attachment": "69777214247f7b370b34e58ad6efe321d924a21f",
+  "frozen_review_sha256": "edb1498363f9f07e53db44502ae4d01c2990e754da1c23ab3bfc52eb2e6913a8",
+  "canonical_base_json_sha256": "c5965e0fdc104b529bf3eac790bac48d83e1c8ef03d8cb04f284893eaeb53ddb",
+  "files": {
+    "manuscripts/0113-infinite-augmentation-chain.md": "0716bc11d910532aa023b465dda8213287411178c86c50757d763676800b9289",
+    "sources/augmentation-chain/README.md": "a8d269b0edf2e8ad6fe95eb0aa32e4797b5579cb588415adc0a4758839d78c13",
+    "sources/augmentation-chain/evidence/independent.out": "727d28f6c357f22ad2e235b9b84c1d6d69fa09522ba61689f88d4bc7dd8012c9",
+    "sources/augmentation-chain/evidence/chain-audit.txt": "828563b25163a87fe934c97966232acdb5febe55687c3e915263069d9028a70f",
+    "sources/augmentation-chain/evidence/author.out": "d0099645b9f507aef7294be740be175564a6239f3d2a960ec51f870b1c8c1bcc",
+    "sources/augmentation-chain/code/independent_augmentation_physical_squares.py": "5a8258f05bdd04718078d6fb591f54b28bd396332be11b43fb168010ba5a0206",
+    "sources/augmentation-chain/code/verify_psl2_19_infinite_chain.py": "2fe9c95b13e0f3e9b0fc18648e06e4b669d5231a73d5dac1fee8ad86966b735a"
+  }
+}

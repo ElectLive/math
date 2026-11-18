@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0113",
+  "next_id": "0114",
   "manuscripts": [
     {
       "id": "0053",
@@ -2301,6 +2301,16 @@
       "data_revision": "a62ed7be932309f66f389a7d82d1dc0ad4433a70",
       "source_revision": "b0d934df3d80bfc5b60d1995b22c6eb2eb06f675",
       "review_revision": "9aaac7af038d81c27b6637485dbdbc70b0fa9229"
+    },
+    {
+      "id": "0113",
+      "source": "manuscripts/0113-infinite-augmentation-chain.md",
+      "group": "nested-simple-proper-exponent-six-augmentation-chain",
+      "source_revision": "2c7ffe13a1f1af9f2ac38ee5dee8b417c076b466",
+      "review_revision": "69777214247f7b370b34e58ad6efe321d924a21f",
+      "depends_on": [
+        "0112"
+      ]
     }
   ]
 }
