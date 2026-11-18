@@ -354,3 +354,7 @@ These supporting proofs retain exact source review scope, corrections and pendin
 ## Nilpotent transitive socle actions
 
 [0105](../manuscripts/0105-nilpotent-socle-stabilizer-projections.md) gives the full normal-layer and whole-socle proof for arbitrary nonabelian simple type. The [source and replay record](../normal-layer-evidence.md) describes the original coset and projective checks and the separate nonnormal Heisenberg and marked-square tests.
+
+## A whole even-field PSL₂ socle
+
+[0106](../manuscripts/0106-nilpotent-transitive-even-field-psl2.md) gives the uniform tuple moment, the projective-geometry reduction, and the separate five-torus field-code obstruction at size four. The [evidence record](../normal-layer-evidence.md) lists the two source revisions and the four checkers.

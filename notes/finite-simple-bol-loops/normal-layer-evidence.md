@@ -68,6 +68,21 @@ python3 sources/code/check_96_heisenberg_and_true_a5_square.py
 
 The [first program](sources/code/verify_transitive_full_strip_obstructions.py) checks 1,010 physical signed coset/block tests and all semilinear square-one counts for field sizes 7, 8 and 9. The [independent program](sources/code/check_96_heisenberg_and_true_a5_square.py) checks a genuine nonnormal nine-point coset action, exhibits 45,000 actual three-coordinate marked-square products, and shows a full-outer-group overcount of 3,120 against 1,560 in the restricted fiber. Both are finite corroboration; neither re-proves the classification-dependent literature inputs.
 
+## The nilpotent transitive action on an even-field PSL₂ socle
+
+[0106](manuscripts/0106-nilpotent-transitive-even-field-psl2.md) combines two separately reviewed proof units. The tuple moment and projective-field reduction were accepted at `d0d024647c2f7f8cfe115274502c07dd812c24c0` (frozen report SHA-256 `236ac18c813272d6772faf98b92f725f95729a17f3b4c7b89c87de6d6c50a223`); this review alone does not eliminate field size four. The five-torus endpoint was separately accepted at `f9da30c4fce21ccfada9b967b29f2067c1395296` (report `af9245471c3ba428547a20d182c91de7596ea519cd4abffcf6958888834f459c`). Both are independent AI mathematical reviews conditional on the stated original-folder and subgroup inputs. The earlier factor-permuting A₅-square result used at rank two had its own original review at `86d9fd02512296d30459d10471a9760813486571`. The public proof combines their mathematics with edited exposition, not a new independent all-stack audit.
+
+Run the four standard-library Python programs from this note directory:
+
+```sh
+python3 sources/code/verify_coherent_tuple_mark_moment.py
+python3 sources/code/check_d0_tuple_geometry_independent.py
+python3 sources/code/verify_a5_nilpotent_field_code.py
+python3 sources/code/check_f9_honest_normalizer_lifts.py
+```
+
+The [geometry constructions](sources/code/verify_coherent_tuple_mark_moment.py) cover all 57 actual proper nontrivial A₅ subgroups and the 68 sublines over the field of sixteen; the [independent geometry check](sources/code/check_d0_tuple_geometry_independent.py) includes a trace-one negative control, a twisted subline over the field of 64, and 3,600 paired products. The [field-code check](sources/code/verify_a5_nilpotent_field_code.py) distinguishes liftable field graphs from 24 usable countercontrols on four sites; a [separate implementation](sources/code/check_f9_honest_normalizer_lifts.py) constructs a genuine 40-point action with stabilizer of order 80, two nonregular eight-site groups, and 320 independently transported reflection products. These finite replays are not a search over all groups.
+
 ## Contributions
 
 Under Mira Cult’s research direction, OpenAI models contributed the mathematical arguments, finite checks, independent review and public exposition. The research record used here does not identify the exact model version for each contribution. Neither model review nor a successful finite replay is human peer review, a proof-assistant formalization or a general loop census.

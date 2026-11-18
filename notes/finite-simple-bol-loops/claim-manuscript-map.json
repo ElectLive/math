@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0106",
+  "next_id": "0107",
   "manuscripts": [
     {
       "id": "0053",
@@ -2253,6 +2253,13 @@
       "source": "manuscripts/0105-nilpotent-socle-stabilizer-projections.md",
       "group": "nilpotent-transitive-socle-projections",
       "source_revision": "96a05bf32ffa8316f6234588f86c7acde41933ab"
+    },
+    {
+      "id": "0106",
+      "source": "manuscripts/0106-nilpotent-transitive-even-field-psl2.md",
+      "group": "nilpotent-transitive-even-field-psl2",
+      "source_revision": "d0d024647c2f7f8cfe115274502c07dd812c24c0",
+      "endpoint_revision": "f9da30c4fce21ccfada9b967b29f2067c1395296"
     }
   ]
 }
