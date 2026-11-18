@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0102",
+  "next_id": "0103",
   "manuscripts": [
     {
       "id": "0053",
@@ -2228,6 +2228,13 @@
       "source": "manuscripts/0101-odd-kernel-block-action.md",
       "group": "odd-block-kernel",
       "source_revision": "2756e74daf61aaed60f017ebbf6369026cced801"
+    },
+    {
+      "id": "0102",
+      "source": "manuscripts/0102-canonical-elementary-descent.md",
+      "group": "canonical-radical-positive-descent",
+      "source_revision": "dd7ed1ac2a5f9cfef327e8b0e490e33be74f0d1e",
+      "correction_revision": "54412d62330f8c995b4b1a03447ebbd89d84a494"
     }
   ]
 }

@@ -20,6 +20,8 @@ Three kinds of progress fit together; none can replace the others.
 
 The [matched natural tensor exclusion](manuscripts/0100-matched-tensor-radicals.md) rules out an entire matrix-radical family in rank at least three, including the exceptional binary rank-three case. Above a [faithful irreducible odd layer](manuscripts/0101-odd-kernel-block-action.md), the kernel of the action on blocks now has trivial solvable radical, even without a splitting hypothesis.
 
+When the left multiplication group has a nontrivial solvable radical, the [canonical elementary descent](manuscripts/0102-canonical-elementary-descent.md) now gives exact recognition and loop-isomorphism tests on quotient and module data without assuming a split extension. Which data actually occur in structural families remains open.
+
 The linked theorems retain their specific canonical-folder, classification, embedding and finite-data hypotheses. Excluding a full multiplication socle is not the same as excluding a canonical left group; classifying a group action is not yet classifying its loop operations.
 
 ## Open problems
@@ -28,7 +30,7 @@ The main remaining work is to:
 
 - settle the odd-characteristic, socle-containing PSL/PSU branch in even dimensions at least six, and the other symplectic and orthogonal full actions;
 - determine operations in the surviving natural alternating/symmetric actions and resolve factor-preserving affine inversion in characteristic two;
-- make the remaining factor-permutation, radical and nonsplit Bruck extension arguments exhaustive, including ordinary unpointed isomorphism classes.
+- identify the quotient groups, modules and mark sets which pass the radical-positive descent tests, and exhaust the remaining factor-permutation and nonsplit Bruck cases.
 
 The [open-problem board](OPEN_PROBLEMS.md) gives exact assumptions and useful starting points. The historical many-factor symplectic source dispatch still has **unverified global coverage**; its earlier aggregate acceptances were withdrawn. New direct geometric arguments do not retroactively repair that induction.
 

@@ -342,3 +342,7 @@ These supporting proofs retain exact source review scope, corrections and pendin
 ## Matched tensor layers and odd block kernels
 
 [0100, statement and evidence](../manuscripts/0100-matched-tensor-radicals.md), with the [odd-field foundation](tensor-layers/odd-field-foundation.md), [rank-capacity proof](tensor-layers/tensor-capacity.md), and [nonsplit binary rank-three supplement](tensor-layers/binary-three.md). [0101, complete proof](../manuscripts/0101-odd-kernel-block-action.md) gives the odd normal-layer block-kernel obstruction independently of tensor hypotheses. The [source and reproducibility record](../normal-layer-evidence.md) distinguishes the three separate mathematical audits and all seven executable controls.
+
+## Canonical descent for nontrivial solvable radical
+
+[0102, complete recognition and orbit proof](../manuscripts/0102-canonical-elementary-descent.md) recovers every true normal cut, including different lifts over the same quotient, uses normality of the actual marked-generated subgroup to test generation, and forgets the elementary-layer marking canonically. The public [source and evidence record](../normal-layer-evidence.md) gives the exact separately reviewed revision and the three finite replay commands.

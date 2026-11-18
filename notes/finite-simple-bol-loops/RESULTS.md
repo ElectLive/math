@@ -13,6 +13,7 @@ The latest synchronized proofs extend full-socle exclusions to every exceptional
 
 - [0100: Matched natural matrix radicals over centerless special linear squares](manuscripts/0100-matched-tensor-radicals.md): all finite fields, natural rank at least three and the ordinary matched swap; binary rank three separately proved.
 - [0101: Odd normal layers and the kernel of the action on blocks](manuscripts/0101-odd-kernel-block-action.md): under faithful irreducibility the kernel has trivial solvable radical; the cohomological stabilizer statement requires a stable complement.
+- [0102: Canonical elementary descent when the faithful left group has nontrivial solvable radical](manuscripts/0102-canonical-elementary-descent.md): complete recognition and loop-isomorphism orbits on admissible quotient, module and cochain data. This is not a structural enumeration of the quotients or the radical-free branch.
 
 The binary quadratic-refinement action also has an operation theorem: its only possible loop is the 120-element Paige loop, not a new proper Bol loop. Odd normal kernels now have an exact stabilizer-orbit and multiplicity theorem. The elementary-layer lift parameterization and factor-swapping affine-square exhaustion now have scoped model mathematical reviews. The all-inversions affine-square theorem over odd fields now also has two scoped model reviews; characteristic-two factor-preserving inversion remains open.
 
