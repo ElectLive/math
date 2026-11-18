@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0109",
+  "next_id": "0110",
   "manuscripts": [
     {
       "id": "0053",
@@ -2273,6 +2273,13 @@
       "group": "ordinary-factor-preserving-natural-tensor",
       "odd_residual_revision": "c96c9d10858b5c12282feaf0ac9c64c011bc0c12",
       "even_residual_revision": "a052224be623bf831bf0c2c2a73de3e279a34c6d"
+    },
+    {
+      "id": "0109",
+      "source": "manuscripts/0109-nilpotent-socle-actions-are-two-groups.md",
+      "group": "nilpotent-transitive-whole-socle-two-group",
+      "rectangular_revision": "d3736b50c1b6052d834206eb4ff403e74c98cb27",
+      "homogeneous_endpoints_revision": "1d68415d3f477cbc9efce1cb188699a98d6576ae"
     }
   ]
 }

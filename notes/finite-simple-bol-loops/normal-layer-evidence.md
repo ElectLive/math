@@ -115,6 +115,22 @@ python3 sources/code/check_a052_quadratic_corners.py
 
 The [odd-rank source implementation](sources/code/verify_tensor_idealizer_bound.py) and [independent implementation](sources/code/check_c96_effective_idealizer.py) include effective small-algebra orders and non-field-linear codes. The [even-rank source implementation](sources/code/verify_even_odd_tensor_completion.py) and [independent implementation](sources/code/check_a052_quadratic_corners.py) include full determinant spectra in quadratic intertwiner spaces and rank-two quadratic operators over the field of nine elements. These are finite controls for the arguments.
 
+## Nilpotent transitive actions and homogeneous factorizations
+
+[0109](manuscripts/0109-nilpotent-socle-actions-are-two-groups.md) combines two independently reviewed deductions for **whole** nonabelian homogeneous socles with a transitive nilpotent factor action. It inherits the true stabilizer projections, signed-folder interface, and simple-type estimates from [0105](manuscripts/0105-nilpotent-socle-stabilizer-projections.md).
+
+* **Rectangular step.** The [incidence and homogeneous-factor proof](sources/factor-permutation/rectangular-stabilizer-incidence.md) was independently accepted at scientific revision `d3736b50c1b6052d834206eb4ff403e74c98cb27`, exact proof Git object `31197d20b49deb76409cc831818e90a601391983`, frozen report SHA-256 `30ee46198bc9d3ce7ae3c7ac5ac7e20208195675323f740c42f2297efe39e27c`. The audit checked actual rectangular coverage, both possible transpose signs, and the precise full-factorization descent. At this stage **four possibilities** remain. The [source checker](sources/code/verify_rectangular_color_incidence.py) and [independent checker](sources/code/check_d373_negative_rectangular_phases.py) include negative-only color relations, asymmetric arrows, and a genuine adverse normal-subgroup intersection.
+* **Local elimination.** The [four endpoint and 2-group proof](sources/factor-permutation/homogeneous-normalizer-endpoints.md) was independently accepted at scientific revision `1d68415d3f477cbc9efce1cb188699a98d6576ae`, proof Git object `d7bb1b6bd996326c999e4efc84f4df4044005a7f`, report SHA-256 `1a92ad7883963637ad3fe3523df989936e395d4499a307104c02f6a4ba9b95e0`. The audit checked the physical products in the ambient group, the true stabilizer mass, strictness at degree three, the four embeddings, root classes in characteristic two and the signed generation conclusion. The [source checker](sources/code/verify_homogeneous_strip_endpoints.py) and [independent checker](sources/code/check_homogeneous_two_group_endpoints_independent.py) include 225 actual ambient products and 1,575 root maps for the eight-dimensional orthogonal space over the binary field. The surviving transitive 2-group actions are not classified by either stage.
+
+From this notes directory run:
+
+```sh
+python3 sources/code/verify_rectangular_color_incidence.py
+python3 sources/code/check_d373_negative_rectangular_phases.py
+python3 sources/code/verify_homogeneous_strip_endpoints.py
+python3 sources/code/check_homogeneous_two_group_endpoints_independent.py
+```
+
 ## Contributions
 
 Under Mira Cult’s research direction, OpenAI models contributed the mathematical arguments, finite checks, independent review and public exposition. The research record used here does not identify the exact model version for each contribution. Neither model review nor a successful finite replay is human peer review, a proof-assistant formalization or a general loop census.
