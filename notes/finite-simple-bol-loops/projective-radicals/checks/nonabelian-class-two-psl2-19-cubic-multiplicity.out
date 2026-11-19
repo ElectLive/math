@@ -1,0 +1,12 @@
+passive1 available/constrained/bad/selected 14 10 3 1
+active batch available/constrained/bad/selected 17 13 5 1
+frozen additive cut control 1 154 155 [(78, 10, 19, 58), (10, 0, 0, 0), (0, 0, 0, 0)]
+s = 1 all eight actual quotient collision ranks (+1 each) [146, 146, 145, 146, 146, 145, 146, 146]
+s = 1 native left Bol triples 20 nonzero group/solve/conjugated-sign corrections (19, 19, 20)
+passive1 available/constrained/bad/selected 14 10 3 1
+passive2 available/constrained/bad/selected 17 13 5 1
+active batch available/constrained/bad/selected 20 16 7 2
+frozen additive cut control 2 192 193 [(98, 10, 19, 96), (10, 0, 0, 0), (0, 0, 0, 0)]
+s = 2 all eight actual quotient collision ranks (+1 each) [174, 174, 173, 174, 174, 173, 174, 174]
+s = 2 native left Bol triples 22 nonzero group/solve/conjugated-sign corrections (18, 18, 22)
+PASS: actual nonlinear products, conjugated outside signs, eight projected square obstructions and two-block native Bol operations.

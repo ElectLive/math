@@ -8,6 +8,10 @@
 - [0125: Matched translation groups at exponent three are locally finite](bol-burnside/matched-translations.md). Every finitely generated subgroup is a finite 3-group. Two individual matched translations generate at most 27 elements, sharply. [Review and finite checks for both Burnside results](bol-burnside/verification.md).
 - [0114: Native Hall and Sylow failure in odd-order Bol loops](odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence fails in an explicit family; a comparison isotope has subloops of the missing order. [Independent reviews and reproducibility](odd-bol-hall/REPRODUCE.md).
 
+## Projective radicals
+
+[Fixed-order multiplicity and optimal finite group hosts](projective-radicals/README.md) extend the elementary projective construction to nonabelian class-two radicals. [Exact catalogue entries](CLAIMS.md#nonabelian-radicals-over-the-projective-quotient).
+
 ## Native right nuclei
 
 - [0119: All odd groups as whole right nuclei](right-nuclei/proofs/all-odd-groups.md), with additional [abelian families and two-element commutation tests](right-nuclei/README.md).

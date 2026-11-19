@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0122",
+  "next_id": "0126",
   "manuscripts": [
     {
       "id": "0053",
@@ -2395,6 +2395,18 @@
       "source": "right-nuclei/proofs/one-marked-group.md",
       "group": "right-nuclei-on-a-common-marked-group",
       "evidence": "right-nuclei/verification.md"
+    },
+    {
+      "id": "0122",
+      "source": "projective-radicals/proofs/multiplicity.md",
+      "group": "projective-radical-multiplicity",
+      "evidence": "projective-radicals/verification.md"
+    },
+    {
+      "id": "0123",
+      "source": "projective-radicals/proofs/universal-group-host.md",
+      "group": "optimal-universal-finite-group-host",
+      "evidence": "projective-radicals/verification.md"
     },
     {
       "id": "0124",

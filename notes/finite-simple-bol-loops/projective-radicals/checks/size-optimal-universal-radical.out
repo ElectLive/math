@@ -1,0 +1,14 @@
+passive1 available/constrained/bad/selected 14 10 3 1
+passive2 available/constrained/bad/selected 17 13 5 1
+passive3 available/constrained/bad/selected 20 16 7 1
+active batch available/constrained/bad/selected 23 19 9 3
+frozen additive cut control 3 230 231 [(118, 20, 38, 134), (20, 0, 0, 0), (0, 0, 0, 0)]
+same literal radical, d,c = 0 3 every pair 729 verified; ordered noncommuting pairs 0
+same literal radical, d,c = 2 1 every pair 729 verified; ordered noncommuting pairs 432
+eight native torus collision-system ranks, each augmented +1: [202, 202, 201, 202, 202, 201, 202, 202]
+fresh physical Bol products, nonlinear group/solve/sign hit counts: (8, 8, 8)
+actual 20-site BCH, k,d,c / input products / nonsymmetric: 5 3 2 180 149
+actual 20-site BCH, k,d,c / input products / nonsymmetric: 6 3 3 180 151
+actual 20-site BCH, k,d,c / input products / nonsymmetric: 8 5 3 80 75
+actual 20-site BCH, k,d,c / input products / nonsymmetric: 10 6 4 24 24
+PASS: embeddings into the group radical only. Enumeration is not the uniform lower-bound proof.

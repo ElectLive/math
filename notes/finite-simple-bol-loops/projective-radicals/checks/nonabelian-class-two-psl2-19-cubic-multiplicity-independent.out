@@ -1,0 +1,4 @@
+actual s=3 passive/active allowed and rejected dimensions (available, #constraints, bad, selected) [(14, 4, 3, 1), (17, 4, 5, 1), (20, 4, 7, 1), (23, 4, 9, 3)]
+all eight true simultaneous torus ranks modulo exactly the central passive outputs, each affine rise 1 [202, 202, 201, 202, 202, 201, 202, 202]
+100 actual ternary BCH/physical inverter tests, conjugated-sign differs 100 times; noncentral non-sign-stable ideal two strict-cut exponents (18, 48)
+all coefficient/aut inequalities at 21..201; analytic monotone polynomial establishes larger s
