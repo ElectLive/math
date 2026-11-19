@@ -1,0 +1,45 @@
+\section{Intrinsic approximation}\label{sec:metric}
+
+For \(\tau\ge1\), let \(W_C(\tau)\) consist of the points \(x\in C\)
+for which \(|x-a/q|<q^{-\tau}\) for infinitely many distinct reduced
+\(a/q\in C\).
+
+\begin{corollary}\label{cor:dimension}
+For \(\tau\ge1\), \(\dim_H W_C(\tau)=\kappa/\tau\).
+For \(\tau>1\), the subset whose intrinsic approximation exponent
+is exactly \(\tau\) has infinite \(\kappa/\tau\)-dimensional Hausdorff
+measure in every positive-radius ball in \(C\). Natural Cantor-almost
+every point has intrinsic approximation exponent \(1\).
+\end{corollary}
+
+\begin{proof}
+The exponent of \(x\) is the supremum of the \(s\) for which
+\(x\in W_C(s)\). At dimension \(b>\kappa/\tau\), choose
+\(\varepsilon<\tau b-\kappa\). Covering by the balls from each
+denominator shell \(2^j\le q<2^{j+1}\) costs
+\(O(2^{j(\kappa+\varepsilon-\tau b)})\) by
+Theorem~\ref{thm:main}. The tail costs tend to zero. In particular,
+\(W_C(\tau)\) has natural Cantor measure zero for \(\tau>1\),
+since that measure is comparable to \(\mathcal H^\kappa\) on \(C\).
+
+For the lower bound at \(\tau>1\), use balls in \(C\) of radius
+\(\frac12\,3^{-n\tau}\) about the left endpoints of the level-\(n\)
+Cantor intervals. These endpoints have denominators at most \(3^n\).
+Set \(g(r)=r^\kappa\) and \(f(r)=r^{\kappa/\tau}\). Enlarging each
+radius \(R\) to \(g^{-1}(f(R))\) gives radius
+\(2^{-1/\tau}3^{-n}>3^{-n-1}\). The enlarged limsup has full Cantor
+measure: almost every digit sequence visits first children infinitely
+often. Since \(C\) is \(\kappa\)-Ahlfors regular, the general mass
+transference principle~\cite[Theorem~3]{BV2006} gives full local
+\(\mathcal H^f\) measure for the original limsup. This measure is
+infinite on each positive-radius ball in \(C\). Membership gives
+infinitely many distinct centers except possibly at countably many
+centers themselves, which have zero \(\mathcal H^f\) measure.
+Removing \(\bigcup_{m\ge1}W_C(\tau+1/m)\) costs zero
+\(\mathcal H^f\) by the upper dimension bound, and leaves exactly
+exponent \(\tau\). For \(\tau=1\), truncation gives infinitely many
+distinct approximants for every irrational point of \(C\); endpoints
+of each cylinder have distance at most \(3^{-n}\) and denominator
+at most \(3^n\). The preceding null-set result and countable union
+exclude every larger exponent almost surely.
+\end{proof}

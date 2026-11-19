@@ -1,0 +1,210 @@
+\section{A divisor itinerary and its small observations}\label{sec:itinerary}
+
+Fix $0<\eta<1/4$, put $\xi=\eta^3$, and fix a threshold
+$P_0\ge2$, independent of the height $T$.  We count nonendpoint
+points $x=a/q\in C$ in lowest terms, with $(q,3)=1$ and
+$T/2<q\le T$.  We can discard $q=1$.  Tripling modulo one permutes
+the points of each such denominator: it shifts their periodic ternary
+expansions, and its $n$th iterate is the identity, where
+$n=\operatorname{ord}_q(3)$.  We use the following published consequence
+of Bourgain's theorem: for every $\delta>0$, $n\ll_\delta q^\delta$
+for represented $q$ coprime to $3$ \cite[\S6.2]{RSTW2020}. Thus
+$n=T^{o(1)}$ uniformly here.  No bound of logarithmic order is needed.
+
+For $h\mid n$ let
+\[
+ b(h)=(q,3^h-1),\qquad d(h)=q/b(h),\qquad
+ W_h=\{3^h x\}-x.
+\]
+The last variable is a \emph{real} number in $(-1,1)$, whose class in
+$\mathbb R/\mathbb Z$ has exact denominator $d(h)$ (the denominator
+of zero is one). Initially $h=n$, $b(n)=q$ and $W_n=0$.
+Write $m_{>P_0}$ for the factor of $m$ that remains on removing all
+prime powers based at primes $\le P_0$.
+
+\begin{lemma}[The denominator itinerary]\label{lem:itinerary}
+There is a deterministic rule depending only on $q,T,\eta,P_0$ for
+choosing a chain $n=h_0>\cdots>h_J=h_*$ of divisors, with
+$h_*$ supported on primes $\le P_0$. The increments
+$u_i=b(h_{i-1})/b(h_i)$ and terminal factor $b=b(h_*)$ satisfy
+$b\prod_i u_i=q$. Each retained step is of one of two types:
+\begin{enumerate}
+\item A large step $h_{i-1}=ph_i$, where $p>P_0$ is prime and
+$u_i>T^\eta$. Put $L=(h_{i-1})_{>P_0}$. Of the prime powers
+$r^e\parallel b(h_{i-1})$ with
+$(\operatorname{ord}_{r^e}3)_{>P_0}<L^\xi$, those not surviving
+in full in $b(h_i)$ have product at most $T^\xi$.
+\item A group of consecutive small steps, of combined increment at
+most $T^{2\eta}$; its terminal and initial lags are both retained.
+\end{enumerate}
+There are $J\le 3/\eta+1$ steps.  The number of possible labels
+consisting of $n$, the retained lags and types, and dyadic size
+bins for all $u_i$ and $b$, is $T^{o(1)}$ with parameters fixed.
+\end{lemma}
+\begin{proof}
+At lag $g$ with $L=g_{>P_0}>1$, choose a candidate $p\mid L$ at random
+with probabilities $v_p(L)\log p/\log L$. A full component
+$r^e\parallel b(g)$ of order $d=\operatorname{ord}_{r^e}3$ is not
+entirely in $b(g/p)$ exactly if $d\nmid g/p$. As $d\mid g$, this
+requires $v_p(d)=v_p(g)$. Its probability is at most
+$\log(d_{>P_0})/\log L$. By linearity the expected sum of
+$\log(r^e)$ over lost components with $d_{>P_0}<L^\xi$ is at most
+$\xi\log b(g)\le\xi\log T$, even charging partially lost components
+in full. Take a minimizer, breaking ties by the smallest $p$, and
+repeat until $L=1$.
+
+Keep each raw increment $>T^\eta$ unchanged. In each intervening
+run, group consecutive increments until their product first reaches
+$T^\eta$, then start again; keep a nonempty trailing group even if
+its product is one. A completed group has product at most $T^{2\eta}$.
+All increments and the terminal multiply to $q$, by cancellation.
+There are at most $1/\eta$ large increments, at most $1/\eta$
+completed groups, and at most $1+1/\eta$ trailing groups.
+The retained lags are $\le n=T^{o(1)}$, and there are $O(\log(2T))$
+bins per slot. All labels are functions of the denominator.
+\end{proof}
+
+\begin{lemma}[Fibres at fixed past]\label{lem:trace-fibres}
+For a retained step $g\to h$, set $B=(3^g-1)/(3^h-1)$.
+At fixed real $W_g$ and exact $u=b(g)/b(h)$, the torus values of
+$W_h$ lie in a single translate of $G_u=(\tfrac1u\mathbb Z)/\mathbb Z$,
+and $u\mid B$. Each such value has at most two real lifts.
+At the terminal, fixing $W_{h_*}$ and $b$ puts $x$ in one translate
+of $G_b$.
+\end{lemma}
+\begin{proof}
+Modulo one, $B W_h=W_g$, and $d(h)/(B,d(h))=d(g)$. Thus
+$(B,d(h))=u$; $d(g)$ is known from $W_g$, so $d(h)=ud(g)$ is
+common to all the candidates. Multiplication by $B$ on $G_{d(h)}$
+has kernel $G_u$. At the terminal $q=b\,d(h_*)$ is fixed and the
+kernel of $3^{h_*}-1$ on $G_q$ is $G_b$.
+\end{proof}
+
+\begin{lemma}[A joint entropy bound for the small observations]\label{lem:small-traces}
+Fix a nonempty label of Lemma~\ref{lem:itinerary}, and let $X$ be
+uniform on all its points. Write $W_i=W_{h_i}(X)$.
+There is finite side information $E$ such that, in natural logarithms,
+\[
+ H(E)+\sum_{i\ {\rm small}} H(W_i\mid E,W_0,\ldots,W_{i-1})
+ \ \le\ O\big(\eta\log(2/\eta)\big)\log T+O_\eta(1),
+\]
+with constants independent of $P_0$. No conditional distribution on a
+real past is required to be invariant under tripling.
+\end{lemma}
+\begin{proof}
+Write $X=\sum_{t\ge0}2w_t3^{-t-1}$ with $w_t\in\{0,1\}$ indexed
+periodically modulo $n$. The ternary trits of
+$Z_i=(1+W_i)/2$ are precisely $1+w_{t+h_i}-w_t$. Indeed their
+series sums to $Z_i$ without any carry. These trits are unique:
+$Z_i\in(0,1)$ has denominator prime to $3$, hence is not a triadic
+endpoint.
+
+For a small step let $U_i$ be the public upper bin endpoint, taken
+$\le2T^{2\eta}$. Given $W_{i-1}$, the first
+$M_i=\lceil 2\log_3 U_i\rceil+3$ trits specify $W_i$,
+\emph{without} being given $u_i$. In fact the torus difference of
+two candidates is killed by $B$ in Lemma~\ref{lem:trace-fibres}
+and lies in $G_{\operatorname{lcm}(d,d')}$, where
+$d,d'$ are their child denominators. Its order divides
+\[
+ (B,\operatorname{lcm}(d,d'))
+ =\operatorname{lcm}((B,d),(B,d'))
+ =\operatorname{lcm}(u,u')\le U_i^2.
+\]
+Distinct real $Z_i$ are thus separated by at least $1/(2U_i^2)$,
+including when the torus values agree.
+
+Let $M$ be the maximal such $M_i$ (zero if there are no small
+steps). Say that $F_i(t)$ holds if the bits in the entire class
+$t+h_i\mathbb Z$ modulo $n$ are constant.  The events decrease as
+$i$ increases, and $F_0(t)$ always holds. For $0\le t<M$ record in
+$E$ the bit $w_t$ and the first index $i$ at which $F_i(t)$ fails,
+or a marker if it never fails. The indices include the large steps.
+Then $H(E)\le M\log(2(J+1))$.
+
+From $W_{i-1}$ one knows the differences
+$w_{s+h_{i-1}}-w_s$ for every $s$. On each nonconstant
+$h_{i-1}$-cycle they recover all the bits: a nonzero difference
+fixes both endpoints, after which one integrates around the cycle.
+At a site $t<M_i$ of a small observation, its trit is known if
+$F_i(t)$ holds. It is also known if $F_{i-1}(t+h_i)$ fails, because
+then the target bit is recovered and the source bit is prepaid.
+The remaining event
+$F_{i-1}(t+h_i)\setminus F_i(t)$ is known given $E,W_{i-1}$:
+the first event is read from the old difference cycle and the
+second from the recorded index. On that event only the target bit
+is unknown. The original uniform distribution is shift-invariant,
+since its label depends only on $q$. With $\theta_i=\Pr(F_i(0))$,
+the remaining event has probability $\theta_{i-1}-\theta_i$:
+indeed $F_i(t)=F_i(t+h_i)\subseteq F_{i-1}(t+h_i)$.
+Subadditivity of conditional entropy and the trit reconstruction
+give the upper bound $M_i(\theta_{i-1}-\theta_i)\log 2$ for this
+step. Across all small steps the sum is at most $M\log 2$, since
+the omitted drops at large steps are nonnegative. Now
+$M\le4\eta\log_3 T+O(1)$ and $J=O(1/\eta)$.
+\end{proof}
+
+\paragraph{The arithmetic available after conditioning.}
+At a large raw step $g=ph\to h$ put $L=g_{>P_0}$.
+Every increment $u$ splits into (i) a product of size $\le T^\xi$
+from the low components of Lemma~\ref{lem:itinerary}, (ii) components
+based at primes dividing $n$ not already counted, and (iii) whole
+powers $r^e\parallel q$, $r\nmid 3n$, with
+$d_r=\operatorname{ord}_r3\mid g$ and $(d_r)_{>P_0}\ge L^\xi$.
+Indeed the kernel of reduction of units modulo $r^e$ to units
+modulo $r$ has $r$-power order, whereas
+$\operatorname{ord}_{r^e}3\mid n$ for $r^e\mid q$. For $r\nmid n$
+this gives equality of the orders at every depth up to $e$; the
+whole component survives or disappears. At the terminal the analogous
+description has no low factor and $d_r\mid h_*$ is supported on
+primes $\le P_0$. For fixed $n$, any products $\le T$ supported on
+primes dividing $n$ have only $T^{o(1)}$ names: for each fixed
+$v>0$ their number is at most
+$T^v\prod_{r\mid n}(1-r^{-v})^{-1}
+ \le T^v\exp(O_v(\log(2n)))$; then take $v$ arbitrarily small.
+
+\begin{lemma}[Names of subproducts]\label{lem:itinerary-names}
+Fix the large-step or terminal order restrictions in the preceding
+paragraph. Let $\mathcal R$ be the set of allowed primes $r\nmid3n$.
+For $1/2<s<1$, products of distinct bases in $\mathcal R$ of size
+$\le R$ have $O_s(R^s)$ names. For $a>0$ restrict further to
+$d_r<r^a$; their base products have $O_{a,v}(R^v)$ names for
+every $v>a$. Finally products $\le R$ of powers $r^e$ with $e>A$
+have $O_{A,v}(R^v)$ names whenever $(A+1)v>1/2$, for an integer
+$A\ge1$. Constants here may also depend on $P_0,\xi$, but not on
+the lags or $T$. These bounds hold for arbitrary subproducts, even
+when selected using the actual point sets at a fixed past.
+\end{lemma}
+\begin{proof}
+At exact order $d$ there are $O(d)$ primes, since their product
+divides $3^d-1$. They lie among $1+jd$ for distinct integers $j\ge1$.
+Thus their total reciprocal $s$-mass is
+$O_s(d^{-s}\sum_{j\le O(d)} j^{-s})=O_s(d^{1-2s})$,
+by taking the smallest possible indices. Under $d<r^a$ their
+reciprocal $v$-mass is $O(d^{1-v/a})$. Either estimate is
+$O(d^{-c})$ for some fixed $c>0$.
+Writing $d=ke$ with $k$ supported on primes $\le P_0$ and
+$e\mid L$, $e\ge L^\xi$, the sum over the permissible orders of
+$d^{-c}$ at a large step is at most
+\[
+ \prod_{\ell\le P_0\ {\rm prime}}(1-\ell^{-c})^{-1}
+ \,\tau(L)L^{-\xi c}=O_{P_0,\xi,c}(1).
+\]
+At the terminal only the finite Euler product is needed. The
+divisor bound makes the estimate uniform even as $L$ varies.
+Consequently the Euler product of $1+r^{-s}$, or $1+r^{-v}$ for
+the restricted low-order bases, is bounded. For large exponents,
+$\sum_{e>A}r^{-ev}\le r^{-(A+1)v}/(1-2^{-v})$; the bounded
+base-mass estimate applies with any
+$1/2<s<\min(1,(A+1)v)$. Multiplying the corresponding local
+factors and applying $1_{m\le R}\le(R/m)^v$ (or exponent $s$)
+proves the assertions. None of these bounds enumerates new lag
+paths for the subproducts.
+\end{proof}
+
+In particular, for a bounded multiplicity $e$ one may group
+remaining unramified components by $e$ and bin their \emph{radical}
+products: knowing the radical in that slot determines its $e$th
+power. Bins for such subproducts at a fixed past are for counting
+only. Adding them to the original label before the entropy
+calculation would require a new proof of rotation invariance.

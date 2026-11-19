@@ -1,0 +1,101 @@
+\section{Assembly of the count}\label{sec:assembly}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+We first count the nonendpoint points with denominator coprime to \(3\)
+in one shell \(T/2<q\le T\). Fix the parameters of
+Lemma~\ref{lem:itinerary} and one nonempty label class. Choose \(X\)
+uniform from it. Let \(E\) and the real traces \(W_i\) be as in
+Lemma~\ref{lem:small-traces}. Since the data \((E,W_1,\ldots,W_J,X)\)
+include \(X\) and are functions of \(X\), the logarithm of the size of the
+label class is
+\[
+ H(E)+\sum_{i=1}^J H(W_i\mid E,W_1,\ldots,W_{i-1})
+       +H(X\mid E,W_1,\ldots,W_J).
+\]
+The side information and the small steps together cost
+\(O(\eta\log(2/\eta))\log T+O_\eta(1)\). We now bound the other
+conditional entropies uniformly in the conditioning values that occur.
+
+At a large step, use its dyadic upper bin endpoint \(U\). For each
+\(u\) in the bin, the entire possible child trace lies above the set
+\(A_u\) of Section~\ref{sec:boolean} with at most two lifts per point.
+In this application use all eligible witnesses with the fixed past
+and label; any further restrictions can only decrease the counts.
+Discard empty fibers and put the nonempty ones into intervals of
+width at most \(\Delta>0\) according to
+\(\log |B_u|/\log U\). If the lower end of such an interval is \(\beta\),
+then Proposition~\ref{prop:tariff} bounds the number of moduli by
+\(T^{\xi+o(1)}U^{(1-\beta)/2+\sigma}\). By
+\eqref{eq:bool-container}, each contributes at most
+\(T^{o(1)}U^{\kappa(\beta+\Delta)+\kappa/(P_0-1)}\) points. Since
+\(\kappa>1/2\), their total over all intervals, including the lifts, is
+\[
+ \ll_{\Delta} T^{\xi+o(1)}
+      U^{\kappa+\sigma+\kappa\Delta+\kappa/(P_0-1)} .
+\]
+At the terminal step, for \(U\ge T^\eta\) use the same argument with
+the bound \eqref{eq:bool-terminal}, and omit \(T^\xi\) and the
+\(P_0\)-dependent power of \(U\). If the terminal upper bin endpoint
+is less than \(T^\eta\), there are at most \(O(U^2)\) possibilities:
+there are at most \(U\) moduli and at most \(U\) points per affine
+grid. Each conditional entropy is at most the logarithm of the
+corresponding support bound.
+
+There are \(O(1/\eta)\) steps. The product of the true large increments
+and the terminal modulus is at most \(q\), so the sum of the logarithms
+of the corresponding bin upper endpoints is at most
+\(\log T+O(1/\eta)\). The total extra loss outside the powers of the bin
+endpoints is at most
+\(O(\eta\log(2/\eta)+\eta+\xi/\eta)\log T+o(\log T)\), at fixed
+parameters. To obtain any prescribed positive slack, first choose
+\(\eta\) small and set \(\xi=\eta^3\). Then choose \(\sigma\) and
+\(\Delta\) small. Follow the choice of parameters in the proof of
+Proposition~\ref{prop:tariff}: fix the digit-entropy tolerances and
+number of copies before the covering exponent; next use a fixed
+finite covering menu and a fixed moment order for
+Lemma~\ref{lem:lcm}. Finally choose \(P_0\) large enough for the
+resulting finite number of inputs in Theorem~\ref{thm:native}, as well
+as for the loss \(\kappa/(P_0-1)\). Only after these choices let \(T\)
+grow. The stationary label count and the rotation losses are then
+\(T^{o(1)}\); no claim of stationarity under conditioning is used.
+This proves the bound with arbitrary positive slack for one shell.
+Geometric summation gives the same bound for all purely periodic
+points up to height \(T\), including the two endpoints at \(q=1\).
+
+For a general reduced denominator \(q=3^j d\), with \(3\nmid d\),
+deleting the first \(j\) ternary digits gives a point of reduced
+denominator \(d\) and leaves at most \(2^j\) possible prefixes.
+The integer tails \(0,1\) obey the same upper count. If the pure count
+is \(O_\varepsilon(Y^{\kappa+\varepsilon})\) at height \(Y\ge1\),
+the full count is bounded by a constant times
+\[
+ \sum_{0\le j\le\log_3 T} 2^j
+                  (T/3^j)^{\kappa+\varepsilon}
+ \le T^{\kappa+\varepsilon}\sum_{j\ge0}3^{-j\varepsilon}.
+\]
+This proves the theorem.
+\end{proof}
+
+The preperiod decomposition gives an exact identity. If \(P(Y)\)
+counts the points up to reduced height \(Y\) with \(3\nmid q\), then
+\begin{equation}\label{eq:preperiod}
+ N_C(T)=P(T)+\sum_{j=1}^{\lfloor\log_3 T\rfloor}2^{j-1}P(T/3^j).
+\end{equation}
+In fact, write a pure tail as \(a/d=0.\overline B_3\), with
+\(b\in\{0,2\}\) the last trit of \(B\). This includes the constant
+tails \(0,1\). Modulo \(3\) one has \(a/d=-b\), by using the displayed
+periodic denominator \(3^{|B|}-1\). Attach a prefix of length \(j\)
+and integer value \(A\). The new numerator \(dA+a\) is coprime
+to \(d\), and it is prime to \(3\) exactly when the last trit of
+\(A\) differs from \(b\). Exactly half the prefixes thus give reduced
+denominator \(3^j d\), and every point of this exact \(3\)-adic
+valuation is recovered by stripping \(j\) trits.
+
+In particular \(P(Y)\ll Y^\kappa\) would give the matching upper
+bound \(N_C(T)\ll T^\kappa\log(2T)\). In fact, at \(T=3^m\) put
+\(F_m=2^{-m}P(3^m)\). Identity~\eqref{eq:preperiod} reads
+\(2^{-m}N_C(3^m)=F_m+\tfrac12\sum_{k<m}F_k\).
+Consequently bounded averages of the nonnegative \(F_m\) are
+equivalent to the matching logarithmic upper bound, by monotonicity
+between triadic heights. The estimates above do not imply such
+bounded averages.
