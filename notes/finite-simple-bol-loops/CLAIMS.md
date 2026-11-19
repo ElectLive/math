@@ -10,78 +10,8 @@
 
 ## Nonabelian radicals over the projective quotient
 
-- [0122: Fixed-order multiplicity](projective-radicals/proofs/multiplicity.md). For every # Research claim catalogue
-
-<a id="odd-order-native-hall-and-sylow-subloops"></a>
-
-## Burnside and Hall–Sylow questions
-
-- [0124: Infinite two-generator Bol loops at every odd prime exponent](bol-burnside/two-generators.md). The explicit loops are residually finite; at exponent three they show that the free right Bol loop on at least two generators is infinite.
-- [0125: Matched translation groups at exponent three are locally finite](bol-burnside/matched-translations.md). Every finitely generated subgroup is a finite 3-group. Two individual matched translations generate at most 27 elements, sharply. [Review and finite checks for both Burnside results](bol-burnside/verification.md).
-- [0114: Native Hall and Sylow failure in odd-order Bol loops](odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence fails in an explicit family; a comparison isotope has subloops of the missing order. [Independent reviews and reproducibility](odd-bol-hall/REPRODUCE.md).
-
-s\ge21`$, at least # Research claim catalogue
-
-<a id="odd-order-native-hall-and-sylow-subloops"></a>
-
-## Burnside and Hall–Sylow questions
-
-- [0124: Infinite two-generator Bol loops at every odd prime exponent](bol-burnside/two-generators.md). The explicit loops are residually finite; at exponent three they show that the free right Bol loop on at least two generators is infinite.
-- [0125: Matched translation groups at exponent three are locally finite](bol-burnside/matched-translations.md). Every finitely generated subgroup is a finite 3-group. Two individual matched translations generate at most 27 elements, sharply. [Review and finite checks for both Burnside results](bol-burnside/verification.md).
-- [0114: Native Hall and Sylow failure in odd-order Bol loops](odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence fails in an explicit family; a comparison isotope has subloops of the missing order. [Independent reviews and reproducibility](odd-bol-hall/REPRODUCE.md).
-
-3^{s^3/4}`$ pairwise nonisotopic simple proper exponent-six loops have order # Research claim catalogue
-
-<a id="odd-order-native-hall-and-sylow-subloops"></a>
-
-## Burnside and Hall–Sylow questions
-
-- [0124: Infinite two-generator Bol loops at every odd prime exponent](bol-burnside/two-generators.md). The explicit loops are residually finite; at exponent three they show that the free right Bol loop on at least two generators is infinite.
-- [0125: Matched translation groups at exponent three are locally finite](bol-burnside/matched-translations.md). Every finitely generated subgroup is a finite 3-group. Two individual matched translations generate at most 27 elements, sharply. [Review and finite checks for both Burnside results](bol-burnside/verification.md).
-- [0114: Native Hall and Sylow failure in odd-order Bol loops](odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence fails in an explicit family; a comparison isotope has subloops of the missing order. [Independent reviews and reproducibility](odd-bol-hall/REPRODUCE.md).
-
-20\cdot3^{119+38s}`$, quotient # Research claim catalogue
-
-<a id="odd-order-native-hall-and-sylow-subloops"></a>
-
-## Burnside and Hall–Sylow questions
-
-- [0124: Infinite two-generator Bol loops at every odd prime exponent](bol-burnside/two-generators.md). The explicit loops are residually finite; at exponent three they show that the free right Bol loop on at least two generators is infinite.
-- [0125: Matched translation groups at exponent three are locally finite](bol-burnside/matched-translations.md). Every finitely generated subgroup is a finite 3-group. Two individual matched translations generate at most 27 elements, sharply. [Review and finite checks for both Burnside results](bol-burnside/verification.md).
-- [0114: Native Hall and Sylow failure in odd-order Bol loops](odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence fails in an explicit family; a comparison isotope has subloops of the missing order. [Independent reviews and reproducibility](odd-bol-hall/REPRODUCE.md).
-
-\operatorname{PSL}_2(19)`$ of the faithful left group, and the same radical derived rank # Research claim catalogue
-
-<a id="odd-order-native-hall-and-sylow-subloops"></a>
-
-## Burnside and Hall–Sylow questions
-
-- [0124: Infinite two-generator Bol loops at every odd prime exponent](bol-burnside/two-generators.md). The explicit loops are residually finite; at exponent three they show that the free right Bol loop on at least two generators is infinite.
-- [0125: Matched translation groups at exponent three are locally finite](bol-burnside/matched-translations.md). Every finitely generated subgroup is a finite 3-group. Two individual matched translations generate at most 27 elements, sharply. [Review and finite checks for both Burnside results](bol-burnside/verification.md).
-- [0114: Native Hall and Sylow failure in odd-order Bol loops](odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence fails in an explicit family; a comparison isotope has subloops of the missing order. [Independent reviews and reproducibility](odd-bol-hall/REPRODUCE.md).
-
-19s`$.
-- [0123: An optimal universal group host inside one radical](projective-radicals/proofs/universal-group-host.md). Every group of class at most two and exponent dividing three of order at most # Research claim catalogue
-
-<a id="odd-order-native-hall-and-sylow-subloops"></a>
-
-## Burnside and Hall–Sylow questions
-
-- [0124: Infinite two-generator Bol loops at every odd prime exponent](bol-burnside/two-generators.md). The explicit loops are residually finite; at exponent three they show that the free right Bol loop on at least two generators is infinite.
-- [0125: Matched translation groups at exponent three are locally finite](bol-burnside/matched-translations.md). Every finitely generated subgroup is a finite 3-group. Two individual matched translations generate at most 27 elements, sharply. [Review and finite checks for both Burnside results](bol-burnside/verification.md).
-- [0114: Native Hall and Sylow failure in odd-order Bol loops](odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence fails in an explicit family; a comparison isotope has subloops of the missing order. [Independent reviews and reproducibility](odd-bol-hall/REPRODUCE.md).
-
-3^k`$ embeds in a single native left-group radical; its logarithmic size is of order # Research claim catalogue
-
-<a id="odd-order-native-hall-and-sylow-subloops"></a>
-
-## Burnside and Hall–Sylow questions
-
-- [0124: Infinite two-generator Bol loops at every odd prime exponent](bol-burnside/two-generators.md). The explicit loops are residually finite; at exponent three they show that the free right Bol loop on at least two generators is infinite.
-- [0125: Matched translation groups at exponent three are locally finite](bol-burnside/matched-translations.md). Every finitely generated subgroup is a finite 3-group. Two individual matched translations generate at most 27 elements, sharply. [Review and finite checks for both Burnside results](bol-burnside/verification.md).
-- [0114: Native Hall and Sylow failure in odd-order Bol loops](odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence fails in an explicit family; a comparison isotope has subloops of the missing order. [Independent reviews and reproducibility](odd-bol-hall/REPRODUCE.md).
-
-k^2`$, optimal even among arbitrary group hosts. This is not a native-subloop assertion. [Separate reviews and four programs](projective-radicals/verification.md).
+- [0122: Fixed-order multiplicity](projective-radicals/proofs/multiplicity.md). For every $`s\ge21`$, at least $`3^{s^3/4}`$ pairwise nonisotopic simple proper exponent-six loops have order $`20\cdot3^{119+38s}`$. Their faithful left groups have quotient PSL₂(19) and radicals of the same derived rank, $`19s`$.
+- [0123: An optimal universal group host inside one radical](projective-radicals/proofs/universal-group-host.md). Every group of class at most two and exponent dividing three, of order at most $`3^k`$, embeds in a single native left-group radical; its logarithmic size is of order $`k^2`$, optimal even among arbitrary group hosts. This is not a native-subloop assertion. [Separate reviews and four programs](projective-radicals/verification.md).
 
 ## Native right nuclei
 

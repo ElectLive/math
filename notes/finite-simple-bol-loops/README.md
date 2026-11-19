@@ -33,73 +33,7 @@ For every pair of odd primes *p*, *q* with *p* dividing *q* − 1, [an explicit 
 
 ## How many loops can share one order and one quotient?
 
-Over the same projective quotient, [a nonabelian-radical construction](projective-radicals/README.md) gives at least # Bol loops
-
-<a id="finite-simple-bol-loops"></a>
-
-**Mira Cult**
-
-This workspace brings together results on Bol loops, their translation groups, and their connections to graphs and analysis. A central goal is to classify **all finite simple Bol loops up to isomorphism**: give constructions, prove they exhaust the possibilities, and decide when they give the same loop. **The unrestricted classification remains open.**
-
-[Results](RESULTS.md) · [Claim catalogue](CLAIMS.md) · [Classification map](CLASSIFICATION.md) · [Proof sources](sources/README.md)
-
-## Burnside and Hall–Sylow questions
-
-- [Burnside questions at exponent three](bol-burnside/README.md). The free Bol loop of exponent three on two generators is infinite, but its matched one-sided translation group is locally a finite 3-group. The explicit loop construction works at every odd prime exponent.
-- [Odd-order loops without Sylow subloops](odd-bol-hall/README.md). A solvable Bol loop of order 63 has no nine-element subloop. A uniform construction gives a counterexample at every odd prime.
-
-## Odd orders: the first simple example and a full prime-cube list
-
-The [least odd order](odd-degree/README.md) of a finite simple nonassociative left Bol loop is **1053**. Nagy constructed an example; the new argument rules out every smaller odd order. The same package gives [the complete list at order *p*³ for primes *p* ≥ 5](odd-degree/manuscripts/all-bol-loops-of-prime-cube-order.md), up to isomorphism and isotopy. Neither result asserts uniqueness at 1053. [Separate proof reviews and reproducible checks](odd-degree/verification.md).
-
-## Extraspecial cores at two-prime orders
-
-For every pair of odd primes *p*, *q* with *p* dividing *q* − 1, [an explicit construction](extraspecial-cores/README.md) gives simple proper Bol loops with extraspecial *p*-core in the left multiplication group. Mixing two kinds of representation gives [arbitrarily many pairwise nonisotopic loops at one order](extraspecial-cores/axial-cotangent-extraspecial-multiplicity.md). These are multiplicity lower bounds, not a census.
-
-## Which groups can be right nuclei?
-
-[Exactly the finite groups of odd order](right-nuclei/README.md) occur as entire right nuclei of finite simple proper odd Bol loops. Given such a group *R*, [any prescribed subgroup of its center](right-nuclei/proofs/central-intersection.md) can be exactly the nuclear right translations that also lie in the left multiplication group. This classifies an invariant, not all loops.
-
-<a id="latest-classification-advances-17-november-2026"></a>
-<a id="current-classification-checkpoint"></a>
-<a id="what-we-have-achieved"></a>
-
-<a id="a-construction-a-simple-loop-of-exponent-six"></a>
-
-3^{s^3/4}`$ nonisotopic simple exponent-six loops of one order for each # Bol loops
-
-<a id="finite-simple-bol-loops"></a>
-
-**Mira Cult**
-
-This workspace brings together results on Bol loops, their translation groups, and their connections to graphs and analysis. A central goal is to classify **all finite simple Bol loops up to isomorphism**: give constructions, prove they exhaust the possibilities, and decide when they give the same loop. **The unrestricted classification remains open.**
-
-[Results](RESULTS.md) · [Claim catalogue](CLAIMS.md) · [Classification map](CLASSIFICATION.md) · [Proof sources](sources/README.md)
-
-## Burnside and Hall–Sylow questions
-
-- [Burnside questions at exponent three](bol-burnside/README.md). The free Bol loop of exponent three on two generators is infinite, but its matched one-sided translation group is locally a finite 3-group. The explicit loop construction works at every odd prime exponent.
-- [Odd-order loops without Sylow subloops](odd-bol-hall/README.md). A solvable Bol loop of order 63 has no nine-element subloop. A uniform construction gives a counterexample at every odd prime.
-
-## Odd orders: the first simple example and a full prime-cube list
-
-The [least odd order](odd-degree/README.md) of a finite simple nonassociative left Bol loop is **1053**. Nagy constructed an example; the new argument rules out every smaller odd order. The same package gives [the complete list at order *p*³ for primes *p* ≥ 5](odd-degree/manuscripts/all-bol-loops-of-prime-cube-order.md), up to isomorphism and isotopy. Neither result asserts uniqueness at 1053. [Separate proof reviews and reproducible checks](odd-degree/verification.md).
-
-## Extraspecial cores at two-prime orders
-
-For every pair of odd primes *p*, *q* with *p* dividing *q* − 1, [an explicit construction](extraspecial-cores/README.md) gives simple proper Bol loops with extraspecial *p*-core in the left multiplication group. Mixing two kinds of representation gives [arbitrarily many pairwise nonisotopic loops at one order](extraspecial-cores/axial-cotangent-extraspecial-multiplicity.md). These are multiplicity lower bounds, not a census.
-
-## Which groups can be right nuclei?
-
-[Exactly the finite groups of odd order](right-nuclei/README.md) occur as entire right nuclei of finite simple proper odd Bol loops. Given such a group *R*, [any prescribed subgroup of its center](right-nuclei/proofs/central-intersection.md) can be exactly the nuclear right translations that also lie in the left multiplication group. This classifies an invariant, not all loops.
-
-<a id="latest-classification-advances-17-november-2026"></a>
-<a id="current-classification-checkpoint"></a>
-<a id="what-we-have-achieved"></a>
-
-<a id="a-construction-a-simple-loop-of-exponent-six"></a>
-
-s\ge21`$. A different choice of one radical contains [every bounded-size group of class at most two and exponent dividing three](projective-radicals/proofs/universal-group-host.md), at logarithmic host cost of optimal quadratic order. These are actual group embeddings, not automatically loop embeddings.
+[The projective construction](projective-radicals/README.md) gives at least $`3^{s^3/4}`$ pairwise nonisotopic simple exponent-six loops of one order for each $`s\ge21`$. Their left multiplication groups all have quotient PSL₂(19). Another choice gives [one radical containing every bounded-size group of class at most two and exponent dividing three](projective-radicals/proofs/universal-group-host.md), at logarithmic host cost of optimal quadratic order. These are group embeddings, not automatically loop embeddings.
 
 ## A nested family of simple loops of exponent six
 
