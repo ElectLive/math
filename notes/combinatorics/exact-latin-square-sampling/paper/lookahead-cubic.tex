@@ -1,0 +1,371 @@
+\section{A single proposal with bounded mean excess}
+\label{sec:lookahead-cubic}
+
+Write $W(G)=\per G$, $m_b=\mathbb E_{U_b}W$, where $U_b$ is the
+uniform simple $b$-regular bipartite board, and put
+$\beta_b=b(1-1/b)^{b-1}$ for $b\ge2$. For a fixed target square $S$, let
+$T_b$ be the union of a uniform $b$-subset of its rows and
+$\mu_b(S)=\mathbb E\log W(T_b)$. All logarithms are natural.
+We use the cutoff $D=\lfloor n^{1/200}\rfloor$ from Section~2. It suffices to
+describe large $n$; finitely many smaller orders may use exhaustive sampling.
+
+Use one uniform hidden ordering of physical row labels. Begin with the
+bounded polygon head, then a two-row block and a three-row block, both described below.
+Next place exactly one marked block of each size $b=4,\ldots,D$, in increasing
+order. The total number of previously placed rows is $q=O(D^2)$ throughout
+this prefix. Continue with ordinary uniform matchings until just three rows
+remain, and use the cubic sampler below. Collisions in a raw block or
+infeasible masked choices are null outcomes, \emph{not} reasons to repeat the
+block. Write $T$ for the ratio of reverse probability to forward subprobability
+of a supported history of a given target. All reverse marks are made after
+choosing the hidden row order. Different $b$-sets used in the same history
+need not be independent.
+
+\subsection{Lookahead in a marked block}
+
+Choose an auxiliary matching $M$ first. Partition its domain sites among
+the $b$ distinct physical colors, with owner counts $(v_1,\ldots,v_b)$
+distributed proportionally to $\prod_j(n-v_j)!/v_j!$ on $\sum v_j=n$;
+conditional on counts use the uniform assignment. For a raw block, choose
+$M$ uniformly from all permutations and fill each physical color's
+complement uniformly. Every legal decorated block then has forward mass
+$1/Z_b$, with the integer
+\begin{equation}\label{eq:v2-Zb}
+ Z_b=(n!)^2\sum_{\sum_j v_j=n}\prod_{j=1}^b\frac{(n-v_j)!}{v_j!}.
+\end{equation}
+Indeed the owner-assignment probability is $\prod_j v_j!/n!$, and the
+uniform free fills have product probability $\prod_j 1/(n-v_j)!$.
+A convolution over partial sums computes the normalizer and draws the
+counts; integerizing the single-color coefficients by $n!$ suffices.
+In the reverse experiment, draw $M$ uniformly from the union of the
+$b$ real rows. On a simple block, the owner of each edge is unique.
+
+Take $b_0$ a sufficiently large fixed integer. For $4\le b<b_0$ use raw
+blocks with a conflict veto. All these slots, including their predecessors,
+are bounded in number independently of $n$. At $b\ge b_0$ draw $M$
+uniformly in the current host, hence avoiding the $q$ preceding physical
+rows. At color $j$, its $v_j$ owned edges are fixed; write $X_j,Y_j$
+for the free domain and range, $s_j=n-v_j$, and $R_j=X_j\times Y_j$.
+In this box forbid preceding physical edges and the other reserved mark
+edges. If $\min_j s_j<n/2$, take uniform matching fills in these masks.
+Otherwise assign the rational weight
+\[
+ \phi_j(F)=\prod_{e\in F}\prod_{\substack{k>j\\ e\in R_k}}(1-1/s_k)
+\]
+to an allowed matching $F$ of the free box, and draw proportionally.
+This is a forward choice depending only on information already drawn.
+The reverse experiment is unchanged. Write $P_j$ for the total weight in
+the $j$th mask. On a balanced supported history, the incremental log
+reciprocal \emph{relative to using ordinary matching draws in these same
+slots} is
+\begin{equation}\label{eq:v2-inc}
+ \log\frac{Z_b}{(n!)^b}-\log W(T_b)
+ +\log\frac{W(B_q)}{n!}
+ +\sum_{j=1}^b\left[
+     \log\frac{P_j}{s_j!}-\log\phi_j(F_j)
+                         -\log\frac{W(B_{q+j-1})}{n!}\right].
+\end{equation}
+Here $B_i$ means the host after $i$ physical rows; the auxiliary matching
+does not consume a row. Formula \eqref{eq:v2-inc} follows by replacing
+the raw proposal atom for the mark and each free fill by its actual
+probability. A dense unweighted slot has inverse probability $W(B_i)$.
+
+\begin{lemma}[Weighted dense first order]\label{lem:v2-weighted-dense}
+For an $s$-by-$s$ matrix $0\le w_{ij}\le1$ whose deficit $1-w$ has
+maximum row or column sum $K=o(s)$,
+\[
+ \log(\per(w)/s!)=-\frac1s\sum_{ij}(1-w_{ij})+O(K^2/s).
+\]
+\end{lemma}
+\begin{proof}
+Interpolate $W_t=1-t(1-w)$ for $0\le t<1$. In the matching measure of
+any such positive board, an edge marginal is at most $1/(s-2K)$:
+from a matching containing the edge, swap its column with every other
+row. The sum of relative new weights is at least $s-1-2K$ by the
+row and column deficit bounds, since the removed weights are at most
+one. Every new matching has a unique predecessor. This also bounds
+marginals in a one-row/column minor with $s$ replaced by $s-1$.
+Let $Z_{iy}$ denote the minor removing row $i$ and column $y$.
+Change a matching in that minor into one missing column $z$ by sending
+the row presently owning $z$ to $y$. The expected relative weight is
+at least $1-K/(s-1-2K)$ by the marginal bound. Interchange $y,z$ for
+the converse. Row expansion gives
+$Z_{iy}/\per(W_t)=(1+O(K/s))/s$. Integrating the logarithmic derivative
+$-\sum(1-w_{iy})Z_{iy}/\per(W_t)$ and taking $t\uparrow1$ proves the
+claim, since the total deficit is at most $sK$.
+\end{proof}
+
+In $R_j$ the hole set is the disjoint union of exterior rows $Q$, the
+$s_j$ cells of $M$ in the box, and all earlier \emph{free} fill edges
+$F_i$ inside $R_j$. Earlier \emph{owned} edges are already counted in
+$M$. The row and column weight deficits are at most $q+3b+1$.
+Expanding the product in $\phi_j$ and applying
+Lemma~\ref{lem:v2-weighted-dense} gives
+\begin{align*}
+ -\log(P_j/s_j!)={}&
+ \frac{e_Q(R_j)}{s_j}+1+
+ \sum_{i<j}\frac{|F_i\cap R_j|}{s_j}+
+ \sum_{k>j}\frac{|R_j\cap R_k|}{s_js_k}
+ +O((q+b+1)^2/n).
+\end{align*}
+Indeed the first-order soft-weight deficit is at most $2b/n$ per cell;
+extending its sum to hard holes costs $O(b(q+b+1)/n)$ after division
+by $s_j$. The product's quadratic remainder costs $O(b^2/n)$.
+Also $-\log\phi_i(F_i)=\sum_{j>i}|F_i\cap R_j|/s_j+O(b/n)$.
+Thus \emph{all} the terms recording earlier free-fill edges cancel in
+\eqref{eq:v2-inc}. Conditional on the current target block and its
+mark, its $q$ exterior colors are uniform among the other $n-b$ colors.
+Consequently
+\[
+ \mathbb E[e_Q(R_j)\mid T_b,M,\text{internal order}]
+      =\frac{q}{n-b}\bigl(s_j^2-e_{T_b}(R_j)\bigr).
+\]
+Since $e_{T_b}(R_j)\le b s_j$ and $\sum s_j=(b-1)n$, summing after
+division by $s_j$ gives $q(b-1)+O(qb^2/n)$. This calculation does
+not condition on the identities or decorations of earlier blocks.
+The regular terms $\log[W(B_i)/n!]$ equal $-i+O(i^2/n)$ by the lemma.
+The $bq$ exterior charge cancels exactly to first order.
+
+For $x_i=v_i/n$ the remaining collision charge is
+\[
+ \Lambda=b+\sum_{i<j}\frac{|R_i\cap R_j|}{s_i s_j}
+       = b+\sum_{i<j}\frac{(1-x_i-x_j)^2}{(1-x_i)(1-x_j)}.
+\]
+Here the owner sets partition each shore. Expanding the summand as
+$1-x_i-x_j-x_ix_j+x_i^2x_j^2/[(1-x_i)(1-x_j)]$ proves
+\begin{equation}\label{eq:v2-lambda}
+ \Lambda\ge \binom b2+\tfrac12+\tfrac12\sum_i x_i^2
+          \ge \binom b2+\tfrac12+\frac1{2b}.
+\end{equation}
+The charge in \eqref{eq:v2-inc}, apart from its first two terms, is
+therefore at most $-1/2-1/(2b)+O(b(q+b+1)^2/n)$ in reverse mean. This
+remains valid with a negligible additive error when including unbalanced
+marks. Indeed, on \emph{any} $b$-regular block the probability of at
+least $k=\lceil n/2\rceil$ owned edges of a specified color is at most
+$\binom nk u_b^{n-k}/\beta_b^n$, where $u_b=(b!)^{1/b}$: prescribe
+$k$ edges, use Br\'egman on the minor and Schrijver on the denominator.
+As $u_b/\beta_b=\exp(O(\log(b)/b))$, $u_b\ge b/e$, this probability,
+times $b$, is exponentially small uniformly for $b\ge b_0$. On a
+reverse-supported unbalanced history every positive integer matching
+count and every factorial has polynomial-size logarithm. One applies
+the exceptional-event estimate only to the nonnormalizer terms, retaining
+the exact $-\mu_b(S)$.
+
+\subsection{One more term in the composition normalizer}
+
+We record the precision needed to sum \eqref{eq:v2-lambda}. For every
+fixed $b\ge3$ one has $Z_b/(n!)^b=O_b(\sqrt n\,\beta_b^n)$.
+Indeed with $p_j=v_j/n$ the exponential rate in \eqref{eq:v2-Zb}
+is $\sum_j[(1-p_j)\log(1-p_j)-p_j\log p_j]$, uniquely maximized
+at the uniform point. Pairwise smoothing is strict for unequal
+coordinates whose sum is less than one; faces supported on at most two
+coordinates have rate zero, less than $\log\beta_b$. The constrained
+Hessian at the maximum is negative definite. Stirling gives the prefactor
+$O_b(n^{(2-b)/2})$ there; Gaussian summation over $b-1$ coordinates gives
+$O_b(n^{(b-1)/2})$. Elsewhere the polynomial prefactor is dominated by
+exponential loss. This suffices for the finitely many raw blocks.
+
+Uniformly for $b_0\le b\le D$ the sharper estimate is
+\begin{equation}\label{eq:v2-sharp-Z}
+ \log[Z_b/(n!)^b]= n\log\beta_b+\tfrac12\log(2\pi n)
+ +O\left(b^{-3/2}+\frac{b\ell^2}{n}+
+                 \frac{\ell^3}{\sqrt{bn}}\right).
+\end{equation}
+To see this, let $(N_j)$ be multinomial with $n$ draws and equal cell
+probabilities $1/b$, $\mu=n/b$, $U=\sum(N_j-\mu)^2/n$ and
+$\lambda=b/[2(b-1)]$. The exact identity is
+\[
+ Z_b/(n!)^b=n!(b/n)^n\,\mathbb E\prod_j n^{N_j}/(n)_{N_j},
+\]
+where $(n)_t=n!/(n-t)!$. On $\max|N_j-\mu|\le\sqrt\mu\,\ell$, expand
+$F(x)=x+(1-x)\log(1-x)$ about $1/b$ in the Stirling formula for this
+product. Its log equals
+\[
+ bnF(1/b)+(b/2)\log(1-1/b)+\lambda U
+             +O\bigl(b\ell^2/n+\ell^3/\sqrt{bn}\bigr).
+\]
+Here both linear sums vanish, $F''(1/b)=b/(b-1)$, and $F'''$ is bounded
+on $[0,1/2]$. To control the complement, for every fixed $t>0$,
+$\mathbb E e^{tU}=O_t(1)$ if $b_0$ is sufficiently large. Split positive
+and negative deviations by Cauchy--Schwarz; negative association of
+multinomial counts bounds the increasing products and the decreasing
+products separately by the products of their one-dimensional expectations.
+For either sign of a binomial deviation $Z=N_j-\mu$, integration of the
+Chernoff bound $\Pr(|Z|\ge z)\le 2\exp[-z^2/((2+B)\mu)]$ for
+$z\le B\mu$ gives $\mathbb E e^{2t(Z_\pm)^2/n}\le1+O_t(1/b)$ on
+this range when $b$ is large. For $z>B\mu$, take $B$ large so the
+upper tail is at most $\exp[-(2t+2)z]$; the negative tail stops at
+$\mu$, and $z^2/n\le z$. The exceptional contribution is negligible
+since $\mu\gg\ell^2$. For the original factorial product with all
+$N_j\le n/2$, use its Riemann upper bound $\sum nF(N_j/n)\le
+bnF(1/b)+U$, then Cauchy--Schwarz and the central-band tail
+$O(b e^{-c\ell^2})$. If any $N_j>n/2$, use $\sum F(N_j/n)\le1$
+and probability at most $b(4/b)^{n/2}$. These bounds justify the same
+expansion after averaging.
+
+For completeness $\mathbb EU=1-1/b$ and
+$\Var(U)=2(b-1)(1-1/n)/b^2$: write
+\[
+ U-\mathbb EU=\frac2n\sum_{i<j}(\mathbf1_{\{B_i=B_j\}}-1/b)
+\]
+with independent uniform letters $B_i$. Different pairs are uncorrelated.
+The sixth centered moment is $O(b^{-3})$. In the six-edge expansion a
+draw-vertex appearing just once kills the expectation. For $v\le6$
+vertices and $c$ connected components, expansion of the remaining centered
+indicators bounds the absolute expectation of each product by
+$C b^{-(v-c)}$: the rank of selected equality constraints plus the number
+of omitted edges is at least the full rank. Multiplication by
+$O(n^{v-6})$, using $v-c\ge v/2$, gives the claim. With the exponential
+moment bound, Cauchy--Schwarz bounds the third Taylor remainder. Thus
+\[
+ \log\mathbb E e^{\lambda U}
+    =\tfrac12+\frac{1-1/n}{4(b-1)}+O(b^{-3/2}).
+\]
+The $1/b$ term cancels the one in
+$(b/2)\log(1-1/b)=-1/2-1/(4b)+O(b^{-2})$. This proves
+\eqref{eq:v2-sharp-Z}, including absence of an unspecified $O(1/b)$.
+
+The sparse one-planted-matching estimate gives, uniformly in this range,
+\[
+ \log m_b=n\log\beta_b+\tfrac12\log(2\pi n)-\tfrac12
+                 +\tfrac12\log(1-1/b)+O(b^3/n+1/n).
+\]
+Combining it with \eqref{eq:v2-lambda} and \eqref{eq:v2-sharp-Z}, the
+increment at grade $b$ is at most $\log m_b-\mu_b(S)+e_b$, where
+$\sum_{b=4}^D e_b=O(1)$: the terms $-1/(2b)-\tfrac12\log(1-1/b)$
+are $O(b^{-2})$, $\sum O(b^{-3/2})=O(1)$, and the finite-size errors
+sum to $o(1)$ since $q=O(D^2)$. At the finitely many initial raw grades
+their normalizer bound, constant $q$, and missing-slot comparison give
+$e_b=O_{b_0}(1)$. No independence of a front block and a suffix residual
+is used in cancelling the two occurrences of $\mu_b(S)$.
+
+\subsection{The last three rows and a double cubic head}
+
+On a cubic board $G$ the complement of a first matching $M$ consists of
+$K(M)$ even cycles; it has $C(M)=2^{K(M)}$ ordered two-row completions.
+Put $A=n$, $w(M)=\min(C(M),A)$ and $J(G)=\sum_M w(M)$. Select a
+uniform matching and accept with probability $w(M)/A$, repeating
+\emph{this matching draw} until accepted. Color the complementary cycles
+by independent fair orientations. The probability of a specified ordered
+factorization $z$ beginning with $M$ is exactly
+\begin{equation}\label{eq:v2-cap-cubic}
+ p_G(z)=\frac{1}{J(G)\max(1,C(M)/A)}.
+\end{equation}
+The expected number of uniform-matching calls is at most $A$. Use this
+procedure for the final three rows.
+
+For the additional \emph{pair head}, draw a first uniform permutation and
+a relative derangement $\pi$ with weight
+$\max(1,2^{\#\mathrm{cycles}(\pi)}/A)$. Its normalizer divided by
+$(n!)^2$ is at most $1+(n+1)/A=O(1)$ since
+$\sum_{\pi\in S_n}2^{\#\mathrm{cycles}(\pi)}=(n+1)!$.
+The integer cycle recurrence by the cycle of the least remaining point,
+stratified by the number of cycles, implements the draw with rational
+probabilities. Veto all earlier conflicts. The positive overflow log in
+\eqref{eq:v2-cap-cubic} for the actual last two rows cancels in reverse
+mean with the negative overflow log from this head, since the two
+ordered row pairs have the same marginal law.
+
+The additional \emph{cubic head} draws two ordered 3-factorizations of
+the same raw edge multiset. Each of the $n$ vertices on each shore has a
+permutation $\sigma\in S_3$ identifying its three physical colors with
+three auxiliary colors. Require identical left/right counts
+$h_{ij}$ of occurrences of $\sigma(i)=j$. Match the two sets of
+$h_{ij}$ vertices bijectively and independently for every $(i,j)$.
+Veto multiple edges and collisions with previous rows. Every simple
+legal pair has exactly one representation. The unrestricted count is
+\begin{equation}\label{eq:v2-cubic-Z}
+ Z_3^\star=\sum_h d_n(h)^2\prod_{ij}h_{ij}!,\qquad
+ d_t(h)=[x^h](\per x)^t,\quad x\text{ a }3\text{-by-}3\text{ matrix}.
+\end{equation}
+Uniform raw generation uses the displayed weights and two independent
+backward samplers from $d_t(h)=\sum_{\sigma\in S_3}d_{t-1}(h-P_\sigma)$.
+Only the upper-left $2$-by-$2$ counts need be stored since margins equal
+$t$. This is fixed-dimensional integer arithmetic. On a given physical
+cubic block $G$, draw its reverse auxiliary coloring by
+\eqref{eq:v2-cap-cubic}. Its density is at most $1/J(G)$, so the
+head log reciprocal pays $-\mathbb E\log J(G)$, precisely the mean
+positive cost of the terminal cubic sampler.
+
+\begin{lemma}[The raw cubic count]\label{lem:v2-cubic-moment}
+ $Z_3^\star/(n!)^3=O(n(4/3)^n)=O(m_1m_2m_3)$.
+\end{lemma}
+\begin{proof}
+For a $3$-by-$3$ matrix $B$ of independent standard complex Gaussians,
+orthogonality of monomials gives $\mathbb E|\per B|^{2n}=Z_3^\star$
+by \eqref{eq:v2-cubic-Z}. Independent row-radial integration contributes
+$[(n+2)!/2]^3$. For three independent unit complex rows $z,u,v$, put
+$P_i=u_jv_k+u_kv_j$, $\{i,j,k\}=\{1,2,3\}$. Conditional averaging over
+$z$ gives exactly $2\|P\|^{2n}/[(n+1)(n+2)]$ by the
+$\operatorname{Beta}(1,2)$ squared-coordinate law. Put $t=\langle u,v\rangle$.
+Expansion gives
+\[
+ \frac43-\|P\|^2=\frac{1-|t|^2}{3}
+                 +2\sum_i|\overline{u_i}v_i-t/3|^2
+ \ge c\left[1-|t|^2+\sum_i(|u_i|^2-1/3)^2\right].
+\]
+For the inequality rotate $v$ so $t\ge0$; the two vectors of deviations
+on the two sides differ in norm by at most
+$\|u-v\|+(1-t)/\sqrt3=O(\sqrt{1-t^2})$.
+Conditional on $u$, $|t|^2\sim\operatorname{Beta}(1,2)$; the integral of
+$\exp[-cn(1-|t|^2)]$ is $O(n^{-2})$. Squared coordinates of $u$ are
+uniform on the two-dimensional simplex, so the integral of
+$\exp[-cn\sum_i(|u_i|^2-1/3)^2]$ is $O(n^{-1})$. The total angular
+factor, including the first $z$-integral, is $O((4/3)^n n^{-5})$.
+Multiplying the radial factor proves the first assertion. For the second,
+$m_1=1$, $m_2=\Theta(\sqrt n)$ by degree-two cycle enumeration, and
+$m_3=\Theta(\sqrt n(4/3)^n)$ by the sparse one-plant estimate.
+\end{proof}
+
+\subsection{Mean coverage, common scale and factor cost}
+
+\begin{proposition}[Uniform mean coverage]\label{prop:mean-cover}
+For the single decorated proposal just constructed, every fixed labeled
+target has $\mathbb E_{\rm rev}\log T\le\sum_{d=1}^n\log m_d+O(1)$,
+with an absolute additive constant (after fixing the degree exponent
+and analytic truncation).
+\end{proposition}
+\begin{proof}
+By Lemma~\ref{lem:head}, the total high-degree contribution, including the marked polygon, is at most
+ $\sum_{d>D}\log m_d+O(1)$, using the common
+first-order saddle correction before summing the errors; an $O(1/d)$
+unspecified remainder would not suffice. Compare the new first five
+fixed head slots against missing ordinary dense slots at a cost $O(1)$:
+each $W(B_i)\ge n!(1-i/n)^n$ with bounded $i$. For each $4\le b\le D$
+the ordinary suffix has mean log contribution $\mu_b(S)$ and the new
+head block's mean comparison to the same physical slots is at most
+$\log m_b-\mu_b(S)+e_b$. Sum using the bound above. For $b=1,2,3$
+use the paired cubic and overflow cancellations and
+Lemma~\ref{lem:v2-cubic-moment}. These are sums of expectations under
+a single normalized reverse law; no favorable intersection of events
+is required.
+\end{proof}
+
+In particular a sufficiently large fixed multiple of any computable
+scale $X_n\asymp\prod_d m_d$ suffices for the soft cap. The
+constant-loss incidence lower gives $H/|\mathcal L_n|=O(1)$ for such
+a choice. This does not assert a constant pointwise reverse gate
+probability. There is a counting consequence independent of the cost
+of the gate: the forward marginal on $S$ is
+$Q(S)=\mathbb E_{\rm rev}(1/T)\ge\exp(-\mathbb E_{\rm rev}\log T)$.
+Since $\sum_S Q(S)\le1$ and the proposal is the same for every $S$,
+one obtains $|\mathcal L_n|=O(\prod_d m_d)$. Together the bounds give
+$|\mathcal L_n|=\Theta(X_n)$, not an asymptotic equivalent.
+
+Finally, the weighted fill does not require a larger matching graph.
+For each future $k$ let $l_k=\max(0,|X_j\cap X_k|+|Y_j\cap Y_k|-s_j)$.
+If the chosen matching has $m_k'$ cells in $R_k$, then
+$0\le m_k'-l_k\le v_k$. Thus
+$\psi(F)=\phi_j(F)/\prod_{k>j}(1-1/s_k)^{l_k}$ lies between $e^{-4}$
+and $1$ on balanced boxes: use $\sum v_k=n$ and $s_k\ge n/2$.
+Rejecting a uniform matching with this acceptance rule gives the
+weighted draw in constant expected attempts. Its normalizer is an
+ordinary unweighted matching count times a known rational times the
+mean of a $\psi$-coin of bias at least $e^{-4}$. There is one such
+scalar per physical fill, $O(D^2)$ in total. For each of the two cubic
+boards the only new scalar is the bias
+$\theta=J(G)/(A\,W(G))=\mathbb E_M[w(M)/A]\ge1/n$.
+These positive factors and their reciprocals use the same
+geometric/negative-binomial gate as the matching marginals, without
+anchor generation for the scalar itself. No unknown $J$ or weighted
+permanent is evaluated to decide a coin.

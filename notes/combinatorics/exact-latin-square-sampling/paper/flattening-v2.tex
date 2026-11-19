@@ -1,0 +1,263 @@
+\section{Exact flattening at several scales}\label{gate:multi-v2}
+
+We work first on an arbitrary finite set of $N$ targets. A trial proposes a
+target $s$ and decoration $w$, or returns null. Let $Q(s,w)$ be its
+forward atom, and $R_s(w)$ the atom in a normalized reverse experiment
+at $s$. Both include exactly the stated random labels, marks, and
+sampling choices of the construction; internal runtimes are not part
+of the decoration. We discard forward atoms outside reverse support
+and require $R_s(w)>0\Rightarrow Q(s,w)>0$. Write
+\[
+ T(s,w)=\frac{R_s(w)}{Q(s,w)},\qquad z(s,w)=\frac{H}{T(s,w)} .
+\]
+The deterministic positive rational $H$ is common to all targets.
+The previous estimates supply two quite different inequalities:
+\begin{equation}\label{gate:hyp-v2}
+ \mathbb E_{R_s}\log z\ge0\quad(\text{every }s),\qquad H/N=O(1).
+\end{equation}
+The procedure below does not evaluate either expectation or know $N$.
+It also works with a larger $H/N$. Fix a known integer $M\ge2$
+with $\log z\le M$ on every reverse history; no corresponding
+pointwise lower bound on $\log z$ is needed. For our proposal a
+polynomial $M$ suffices. For example, conditional on the public word
+and order (whose probabilities cancel), the reverse experiment takes
+$O(n)$ matching or coloring marks, each with atom at least
+$1/[(n!)^{O(1)} 2^{O(n)}]$, and $O(n)$ independent binary packing
+choices. A capped cubic coloring atom satisfies this same crude
+bound. Eligible forward probabilities are at most one, and
+$\log H=O(n^2\log n)$. We can use $M=n^4$ for all sufficiently large
+$n$, with no unknown coefficient needed in this choice.
+
+\begin{lemma}[Multiscale exact flattening]\label{gate:multiscale-v2}
+Suppose a forward trial followed by its soft coin of bias $T/(T+a)$,
+and a fresh reverse trial at a prescribed $s$ followed by its soft
+coin of bias $a/(a+T)$, each cost at most $W$ in expectation,
+uniformly for $a=H/2^j$, $0\le j\le\lceil\log_2M\rceil$.
+Assume the mean-log inequality in \eqref{gate:hyp-v2}. There is an
+exactly uniform sampler of expected total cost
+\[
+ O\!\left((W+\log^2(2M))(1+H/N)\log^2(2M)\right)
+\]
+apart from preparing the common inputs. In particular a polynomial
+bound on $M$ does not cost a power of $n$.
+\end{lemma}
+
+\begin{proof}
+Put $J=\lceil\log_2M\rceil$, $m_j=2^j$, $m=m_J$, $u=1/64$, and
+\[
+ f_j(s)=\mathbb E_{R_s}\frac{z}{1+z/m_j},\qquad
+ g_j(s)=f_j(s)/m_j,\qquad r_j(s)=\frac{u}{u+f_j(s)} .
+\]
+On scale $H/m_j$ the soft forward proposal gives exactly $f_j(s)/H$
+mass at $s$; this is the atom identity
+$Q T/(T+a)=R_s/(T+a)$. One fresh soft reverse experiment is a
+$g_j(s)$-coin. Define $q_s=\mathbb E_{R_s}(1/T)$ only for the proof.
+Then $\sum_s q_s\le1$, $\mathbb E_{R_s}z=Hq_s$, and
+$0<f_j(s)\le\min(m_j,Hq_s)$. Jensen also gives $Hq_s\ge1$.
+
+For $v\ge2$ and $t\le v$ we have
+\[
+ \frac{e^t}{1+e^t/v}\ge \frac{1+t}{3}.
+\]
+When $t\le\log v$ use $e^t/2$ and $e^t\ge1+t$ (a negative right
+side is automatic); otherwise use $v/2\ge(1+t)/3$. Thus
+$f_J(s)\ge1/3$ for every $s$.
+
+Choose $j$ uniformly in $\{0,\ldots,J\}$ and run its soft forward
+proposal. Upon receiving an $s$, require fresh independent $r_i(s)$
+tests to pass for $i=0,\ldots,j-1$, stopping at the first failure.
+For $j<J$ require one more $r_j$ test. For $j=J$ instead require a
+test of bias $u/f_J(s)$. Output $s$ iff all required tests passed.
+
+To implement each $r_i$, repeatedly pick a fair side, try its
+$u/m_i$ or $g_i$ coin, and return which side first succeeded. This
+costs $O(m_i)$ coin calls uniformly. At the final scale set $c=u/m$
+and use the same race to supply $p=c/(c+g_J)$; $p\le3u/(1+3u)<1/5$.
+Draw $k\ge1$ with probability $2^{-k}$ and accept iff $k$ independent
+$2p$-coins pass. The resulting bias is
+$\sum_{k\ge1}p^k=p/(1-p)=u/f_J$. The bounded linear factory of
+Huber \cite{Huber} with this fixed slack needs bounded expected input
+calls; it uses only fair bits and rational flips. To see bit overhead
+can also be bounded at fixed slack, use the doubling-stage version:
+at stage $j$ the barrier is $32\,2^j$, relative slack $2^{-j-1}$,
+and the amplifier stays between $2$ and $2e^{1/2}$. The exit walk has
+mean drift bounded away from zero for $p\le1/5$ and expected length
+$O(2^j)$ (the geometric overshoot has bounded mean); its survival
+factor to the next stage is at most
+$(1+2^{-j-2})^{-32\,2^j}\le e^{-6}$. Rational parameters at this
+stage have $O((j+1)^2)$ bits. Implement barrier powers by sequential
+rational coins; the geometrically summable stage costs bound auxiliary
+bit work. Thus a final test, if invoked, costs $O(m(W+\log^2(2M)))$.
+
+Before the uniform level prior, the output mass at level $j<J$ is
+\[
+ (f_j/H)\prod_{i\le j}r_i
+     =(u/H)(1-r_j)\prod_{i<j}r_i.
+\]
+At level $J$ it is $(u/H)\prod_{i<J}r_i$. Summing telescopes:
+each target receives $u/[H(J+1)]$, exactly.
+
+It remains to charge expensive tests, not simply multiply by their
+worst-case cost. Let $B=\{s:Hq_s>m^4\}$, a proof-only set of at most
+$H/m^4$ targets. At any level the first-gate mass of $B$ is at most
+$(m/H)|B|\le m^{-3}$. Even running every test thereafter costs
+$O(m(W+\log^2(2M)))$ on these targets. On all other $s$ put
+$K=\log(8m^4)$. Since $(t-K)_+\le e^{t-K}$,
+\[
+ \mathbb E_{R_s}\min(\log z,K)\ge -e^{-K}Hq_s\ge-1/8 .
+\]
+Monotonicity and the scalar inequality applied at
+$\min(\log z,K)$ give $f_i(s)\ge7/24>1/4$ when $m_i\ge\max(2,K)$.
+Then $r_i\le1/17$. Up to the first such $i_0$ the sum of the
+worst-case test costs is $O((W+\log^2(2M))\log(2m))$.
+Thereafter reaching $i$ costs a probability factor at most
+$17^{-(i-i_0)}$; its conditional work grows only as $2^i$.
+This bound includes the final inversion. If there is no $i_0$ then
+$m<K$ and the same cost bound holds. The first-gate masses form a
+subprobability, so these conditional estimates prove the same bound
+per complete trial. Independent restarts have a.s. finite stopping
+time; the mean number is $H(J+1)/(uN)$. Renewal gives the stated
+total expectation even when cost correlates with the success of an
+individual trial.
+\end{proof}
+
+\subsection{The soft coin, with all matching probes charged}
+
+\begin{lemma}[Binary-prefix permanent gate]\label{gate:binary-v2}
+For the decorated row, weighted-fill and cubic proposals in this
+paper, both soft coins in Lemma~\ref{gate:multiscale-v2} can be
+implemented in expected bit work
+$\widetilde O(n^4P(n)+n^{12})$. Here $P(n)$ bounds the expected
+bit cost of a fresh uniform perfect matching on every feasible
+\emph{unweighted} bipartite board of side at most $n$. This generous
+ancillary allowance need not be optimized. No Latin-square completion
+oracle, exact permanent evaluation on the ordinary path, or
+exponential-time path enumeration is assumed.
+\end{lemma}
+
+\begin{proof}
+After null histories have been discarded, $T$ is a known positive
+rational multiplier times products and reciprocals of ordinary
+permanents and positive coin biases. For a balanced weighted fill,
+divide the entry-weight product by its explicit common upper
+bound from the free-box intersections; simultaneous attainment of that
+bound is not required. The resulting weight of a
+uniform permissible matching is a rational in $[e^{-4},1]$.
+Rejecting by this weight samples the weighted matching, and its
+normalizer is the unweighted permanent times a known factor times
+the mean of this coin. The occupancy-range argument that gives this
+uniform lower bound is important: repeated sampling is not assumed
+cheap merely because the individual entries are positive. Imbalanced
+compositions use the ordinary fill. A capped cubic block has the
+additional factor $J(T_3)=A\per(T_3)\theta$, where $A=n$ suffices and
+$\theta=\mathbb E_M\min(1,2^{K(M)}/A)\ge1/A$ for uniform $M$ on
+the cubic board. The relevant $K(M)$ is found by following degree-two
+cycles. There are only a bounded number of these latter coin factors.
+Neither the (possibly very large) individual number of cycles nor a
+sum over all perfect matchings is computed to obtain $\theta$.
+
+For each ordinary permanent factor draw an independent uniform
+matching called its anchor. Traverse the left vertices in a fixed
+order. At a vertex split the list of possible column indices by the
+bits of their index in a fixed, padded binary encoding. Reveal the
+anchor's next branch bit. Its conditional probability $p$ can be
+probed by taking a fresh uniform matching on the current minor with
+that row restricted to the branches already revealed. After the
+column is fixed, delete that row and column. The product of the
+encountered $p$'s equals $1/\per B$ for \emph{each} anchor on board
+$B$. At any visited site, averaging over the anchor's next choice
+before observing it gives $\mathbb E(1/p)\le2$, the number of
+nonempty children. This statement is not claimed conditional on a
+complete rare anchor. Use fixed binary depths, even when one child is
+forced. Over $O(n)$ boards and the scalar coins above, there are
+$D_0=O(n^2\log n)$ sites. Frequencies from a single matching are not
+reused as independent probes.
+
+Fix $k=D_0+2$, or use a deterministic upper bound on $D_0$.
+At every site write $T_j'$ for the number of independent $p$-coin
+flips to obtain $j$ successes. For a required factor $1/p$ take
+$T_k'/k$; for a required $p$ take $(k-1)/(T_k'-1)$.
+Their means are $1/p$ and $p$, respectively. Their size-biased
+versions are $(T_{k+1}'-1)/k$ and $(k-1)/T_{k-1}'$.
+These four identities follow directly from
+$\Pr(T_j'=t)=\binom{t-1}{j-1}p^j(1-p)^{t-j}$, including $p=1$.
+Their relative second moments before size bias are at most
+$1+1/k$ and $(k-1)/(k-2)$, the latter by replacing
+$(T_k'-1)^{-2}$ by $[(T_k'-1)(T_k'-2)]^{-1}$. Taking independent
+factors times the known multiplier yields $Y>0$ with
+$\mathbb E Y=T$ and $\mathbb E Y^2\le eT^2$. Both statements hold
+conditional on all anchors. The size-biased law $Y^*$ therefore
+retains the original anchor law: replace each local factor by its
+displayed biased version, independently. Purely deterministic
+ratios can of course be sampled without anchors.
+
+Let $l=\mathbb E\min(1,Y/a)$ and $h=\mathbb E\min(1,a/Y^*)$.
+Then $Th=al$. The second-moment bound gives
+$l\ge(8e)^{-1}\min(1,T/a)$ by Paley--Zygmund. Thus $l+h\ge(8e)^{-1}$
+and an independent fair-side race between $l$ and $h$ has bounded
+expected rounds. The winning side gives, respectively, $T/(T+a)$
+or $a/(T+a)$. This exactness uses neither a logarithmic estimate of
+$T$ nor exact knowledge of any of its unknown factors.
+
+A full race round needs $O(kD_0)$ ordinary matching probes in
+expectation by the binary-branch identity. The bounded number of
+cubic scalar sites add $O(kn)$ and the bounded-away-from-zero fill
+sites are covered by $O(kD_0)$. To obtain the decorated forward or
+reverse history itself uses only $O(n)$ ordinary draws and at most
+$O(n)$ expected draws for the capped cubic rejection, plus its
+constant-factor weighted-fill rejections. An independent round may
+be long and may win, but renewal with an unconditional constant
+success bound still gives $\widetilde O(n^4)$ probes in total.
+
+Here are generous sequential bit allowances for auxiliary work.
+A chosen polygon word has fixed length; enumerate its $n$ rooted
+candidates, not all assignments of its vertex labels. The composition
+normalizer at a $b$-block is a convolution table with $O(bn^2)$
+integer operations on $\widetilde O(bn)$-bit entries after factorial
+clearing; all block lengths sum to at most $n$. The cubic
+double-color histogram has four free counts of range $n$ at each of
+$n$ levels. Its $O(n^5)$ transitions can use streaming scans and
+fixed-offset shifts of tables in lexicographic order; a constant
+number of sorted streams suffices for the six possible vertex types.
+Table entries and terminal factorial weights have
+$\widetilde O(n)$ bits, and sequential backward sampling may rescan a
+full table at each level. The degree-two overflow pair uses the
+ordinary integer cycle-index table. These arithmetic costs fit
+$\widetilde O(n^9)$ even with schoolbook products and comparisons.
+
+Explicit normalized weighted-fill coins use at most $O(b)$ rational
+factor powers, with exponents at most $n$, so their numerator and
+denominator have $O(bn\log n)$ bits. They can be computed by repeated
+squaring and schoolbook multiplication in $\widetilde O(n^5)$ bit
+operations per probe, even using $b\le n$ and scanning every filled
+cell for each future free box. The full known path prefactor has
+$\widetilde O(n^3)$ bits by summing over the $O(n)$ physical slots;
+including $H$ and its dyadic rescalings does not change this bound.
+Feasibility, copying a board, and validating a probe cost a polynomial
+scan smaller than these allowances. All probe probabilities at
+anchor sites are at least $1/n!$. Uniformly in their realized
+values, the uncapped negative-binomial counters have
+$\mathbb E\log^2(1+T_j')=O((n\log n+\log k)^2)$ by their geometric
+tails or Markov's inequality at exponentially increasing multiples
+of their mean. For increment costs one may use size bias and
+$\mathbb E[T_j'\log(1+T_j')\mid p]\le
+(j/p)\log(1+(j+1)/p)$. Thus the unreduced product's squared bitlength
+has expectation $\widetilde O(n^6)$, and even $D_0$ schoolbook
+multiplications at that bound are harmless here. All rational
+choices can be driven by fair bits by sampling a uniform integer
+below their denominator. These bounds prove the displayed allowance;
+they are bounds on expected total work, not RAM arithmetic counts.
+\end{proof}
+
+With $M$ polynomial, $H/N=O(1)$ and the conservative matching
+adapter, the preceding two lemmas give the theorem's total bit
+bound after adding the one-time scale preparation. An explicit
+constant times the calibrated scale may be replaced by an extra
+factor $\log(2n)$ for all sufficiently large orders if its implicit
+absolute constant is not numerically evaluated; this changes only
+logarithmic factors in the bound. The large-order inequalities need
+not hold on an unspecified small input. Fix a sufficiently large
+admission threshold and use exact exhaustive uniform generation
+below it, including $n=1$. This finite modification does not affect
+the exponent. It is not a claim that a tested, practical numerical
+admission cutoff or a scalable implementation is supplied.

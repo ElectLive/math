@@ -1,0 +1,53 @@
+\subsection{Comparing the high-degree means}
+\begin{lemma}\label{lem:high-scalar}
+At the fixed cutoff $D$,
+\[
+ \sum_{d>D}\bigl(\E_{Q_d}\log W-\log m_d\bigr)\le o(1).
+\]
+This is a comparison of sums of means; no uniform closeness of the decreasing-board law to $U_d$ is required.
+\end{lemma}
+\begin{proof}
+It suffices, by Jensen, to compare the two mean log permanents. Split at $R=\lceil\sqrt n\,\ell^{B_0}\rceil$, with $B_0$ as in the dense-strip estimates of Appendix~\ref{sec:incidence}.
+
+For $D<d<R$ the probability under $U_d$ of a fixed set of $e$ cells $F$ is
+\[
+ (d/n)^e\{1-\alpha_F/d+O_F(d^{-2}+1/n+(d/n)^2)\}.
+\]
+For clarity this range starts at $D$, below the auxiliary cutoff in the incidence argument. Here is a direct switching verification. Condition on bounded pins $H$ and consider an additional unforced cell $(x,y)$. Put $N=(d-h_x)(d-h_y)$ for the remaining endpoint degrees, and $L_0=nd-2d^2+2d-1+N$. Let $Z=\sum_{a\ne x,b\ne y}A_{ay}A_{xb}A_{ab}$, $Z_0$ its subsum in which $ay,xb$ are not pins, and $R_H=\sum_{ab\in H,\ a\ne x,b\ne y}(1-A_{ay})(1-A_{xb})$. Equality of insertion and removal counts for switches on $2$-by-$2$ subboards gives, with $p_H=\Pr(A_{xy}=1\mid H)$,
+\[
+ L_0p_H=N-\E_H Z_0-\E_H[A_{xy}(Z-Z_0)]+\E_H[A_{xy}R_H].
+\]
+In particular $p_H\le2d/n$, also after bounded additional pinning. With $p=d/n$, this bounds the three sums respectively by $O(n^2p^3+|H|p^2)$, $O_H(np^3+p)$ and $O_H(p)$. Thus $p_H=p(1+O_H(1/d+p))$. In $Z_0$ all but $O_H(n)$ triples avoid pin vertices and by this rough estimate have probability $p^3(1+O_H(1/d+p))$; the others use three new entries except for at most $|H|$ triples using two. Therefore $\E_H Z_0/N=p(1+O_H(1/d+p))+O_H(p/n+n^{-2})$. This cancels the $+p$ in $N/(L_0p)=1-(h_x+h_y)/d+p+O_H(d^{-2}+n^{-1}+p^2)$. Iterating the single-cell estimate proves the formula, as each adjacent cell pair is counted once.
+
+Now substitute these probabilities and \eqref{eq:surv} into (A1) under the two laws. The high-confidence spectral hypothesis for a uniform board is provided by the directed matrix version of Tikhomirov--Youssef \cite[Theorem B]{TY}; use any fixed lower degree power smaller than $1/200$. On either bad event, polynomial bounds on all fixed graph counts and on $\log W$ suffice. In reducing a mixed template, eliminate tree homomorphism counts exactly and expand the remaining collisions into injections. After removing $j$ mean-kernel edges there are at most $j+1$ components. A normalized connected unicyclic injection has bounded reference and its first-order correction is $-\alpha_F/d$ in both laws up to
+$O_F(d^{-2}+1/n+p^2+\ell^C d^{-3/2})$. A simple connected component with cycle rank at least two costs $O_F(1/n)$ since its number of edges exceeds its number of vertices. Two or more cyclic components cost $O_F(1/n)$ after their joining mean factors: for injections of their disjoint union use the fixed-pin estimate directly (each unicyclic component has equal numbers of vertices and edges). Additional powers of $1/d$ from repeated edges only improve the bounds. The mode expansion and its universal signed $U/(2n)$ term are identical under the two laws except for these finite-template statistics. The sum of the errors is
+$O_h(\ell^C/\sqrt D+R/n+R^3/n^2)=o(1)$; $h$ is fixed.
+
+For $d\ge R$ it suffices to compare the quartic trace. More explicitly put $B=A/d-J$, $U=n/d-1$, $g=1/d-1/n$ and $\tau_4=\tr((B^{\mathsf T}B)^2)$. On the real central Gamma window of (A3), the part of the log rook polynomial depending on the board is $z^4\tau_4/4$ up to $O(n\ell^{C_0}/d^3+n^{-10})$, $z=1/x$. To see the form of this reduction, the determinant in (A4) contributes $z^2 U/2+z^4\tau_4/4$; the cubic paired term is $(2/3)z^3\sum_{ij}B_{ij}^3=(2/3)z^3(n/d^2-3/d+2/n)$, and the single diagonal quartics contribute $-(3/2)z^4ng^2$. Subsequent terms in the connected graph expansion of Appendix~\ref{an:appendix} with surplus at least three are $O(n\ell^{C_0}/d^3)$ by the same rooted summation; the expansions of retained kernels beyond the displayed powers cost the same using $\sigma^2\le\ell^6/d$. The fixed $B_0$ may exceed $C_0$. The tails outside the Gamma window are negligible. In the central integral the response to a unit change of $\tau_4$ is $\frac14\E(x^{-4})=\frac14+O(1/d+1/\sqrt n)$: its mode is $1+O(1/d)$ and its log curvature is between two negative constant multiples of $n$. The derivative error times the bound $\tau_4\le U\sigma^2=O(n\ell^6/d^2)$ is summable $o(1)$ after increasing $B_0$. Thus it is enough to compare $\E\tau_4$.
+
+Only the normalized rooted four-cycle count in $\tau_4$ is not degree determined. Under $Q_d$ its expectation is $(1-1/n)^2[1-4(1/d-1/n)]+O(\ell^C/d^{3/2})$ by \eqref{eq:surv}. Under $U_d$ the row-pair resplitting calculation in the dense-strip proof of Appendix~\ref{sec:incidence} gives $n(d-2)(d-1)^2/[d^3(n-2)]$ with error $O(n/d^3+\sqrt n/d^2)$. The latter expression follows on replacing the centered squared codegree sum there by $w_*$ in $\sum_{i\ne j}c_{ij}(c_{ij}-1)/d^4$ and using $\sum_{i<j}c_{ij}=n\binom d2$. The two rational centers differ by $O(d^{-2}+1/(nd)+n^{-2})$. All remainders sum to $o(1)$, proving the comparison.
+\end{proof}
+
+\subsection{An explicit factorial scale}
+\begin{lemma}\label{lem:midpoint}
+The product of matching means satisfies $\prod_{d=1}^n m_d=\Theta(X_n)$.
+\end{lemma}
+\begin{proof}
+At $d\ge n/2$, uniformly,
+$\log m_d=\log V_d+(n/d-1)/2+O(1/n)$.
+In fact $U=n/d-1\le1$ and $\|A/d-J\|=O(n^{-1/2})$ except with probability $O(n^{-A_0})$ by \cite[Theorem B]{TY} on the complement when $n-d\ge n^{1/10}$, and the deterministic complement bound $(n-d)/d$ otherwise. Thus $\tau_4=O(1/n)$, the preceding quartic reduction leaves $z^2U/2+O(1/n)$ on the Gamma core, and $X\sim\operatorname{Gamma}(n+1,n)$ has $\E(X-1)=1/n$ and $\E(X-1)^2=O(1/n)$. Taylor's theorem under the positive integral gives $\per A/V_d=e^{U/2}(1+O(1/n))$. On bad boards the Br\'egman bound divided by $V_d$ is $n^{O(1)}$ uniformly in this range, so choose $A_0$ larger than its exponent before taking expectations.
+
+Deleting a marked matching gives $N_dm_d=N_{d-1}m_{n-d+1}$. If $t=\lfloor n/2\rfloor$ and $k=n-t$, complementation gives $N_t=N_k$ and exactly
+\[
+ \prod_{d=1}^n m_d=
+ \frac{\prod_{d=t+1}^n m_d\prod_{d=k+1}^n m_d}{N_t}.
+\]
+At the median density, the dense equal-margin enumeration of Canfield and McKay \cite{CM} gives $N_t=\Theta(\binom nt^{2n}/\binom{n^2}{nt})$. With $H_j=\sum_{i=1}^j1/i$ the resulting logarithm is
+\[
+ 2n\log(n!)-n^2\log n+\log\binom{n^2}{nt}-n\log\binom nt+
+ \tfrac n2(2H_n-H_t-H_k-1)+O(1).
+\]
+For $\theta=t/n$ the log binomial difference is
+$\frac n2\log(2\pi n\theta(1-\theta))-\frac12\log(2\pi n^2\theta(1-\theta))+O(1)$.
+Since $2H_n-H_t-H_k=-\log(\theta(1-\theta))+O(1/n)$, the remaining terms combine to $\log X_n+O(1)$ for both parities.
+\end{proof}

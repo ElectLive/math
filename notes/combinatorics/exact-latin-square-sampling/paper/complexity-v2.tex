@@ -1,0 +1,219 @@
+\section{Expected bit time}\label{sec:bit-runtime}
+Here $\widetilde O$ suppresses fixed powers of $\log(n+2)$.  We count
+individual unbiased random bits and bit operations, not exact arithmetic on
+unbounded integers at unit cost.  It suffices to use an unweighted matching
+sampler.  All stated exponents are for the order $n$, not its encoding length.
+
+\begin{lemma}[A conservative finite-bit matching clock]\label{lem:pmclock-v2}
+For a feasible zero-one board of side $s\le n$, an exact uniform
+perfect matching costs $P(n)=\widetilde O(n^{21})$ expected bit operations.
+\end{lemma}
+\begin{proof}
+We specify the bit-accounting adapter of the finite-table correction in
+\cite[Sec.~6]{GLMP}.  The clock below is deliberately conservative.  Use
+the lazy single-edge Jerrum--Sinclair--Vigoda chain on perfect and
+near-perfect matchings of the positive completion of the board.
+From perfect, propose removing a uniform matched edge; from near-perfect,
+choose a uniform vertex for the corresponding plug or swap.  Use one-half
+laziness and Metropolis acceptance.  Factor-two accurate hole weights
+give inverse gap at most $1000s^6$ for $s\ge2$: the cross-flow bound
+is $48s^4$, and the full-flow multiplier is at most $2+4(r+1/r)$ for
+$r\in[s^2/2,2s^2]$, the near-to-perfect stationary mass ratio
+(\href{https://www.math.cmu.edu/~af1p/Teaching/Markov_Chain_Mixing/Papers/permanent.pdf}{Jerrum--Sinclair--Vigoda,
+Lemmas 4.1, 4.4}). Start each independent chain at a deterministically
+found real matching $x_0$ of stationary mass at least
+$[(1+2s^2)s!]^{-1}$ on good weights; side zero or one is immediate.
+
+Let $u=C(s+2)^4(1+\lceil\log_2(s+2)\rceil)^2$ rounded up,
+$\delta=2^{-u}$, with a sufficiently large fixed $C$.
+At $R=O(s^2\log(s+2))$ temperatures, cool the fake edges incident to one
+left vertex by the rational factor $3/4$, stopping exactly at $1/s!$.
+A configuration has at most one affected edge, so adjacent ideal hole
+ratios differ by at most $4/3$. At each update draw independently
+$S=O(s^2(u+\log(s+2)))$ end states of
+$T_0=O(s^6(s\log(s+2)+\log(s+2)))$ steps. Update each hole weight
+by its old value times the ratio of the observed full to the corresponding
+near-class frequency; a missing denominator or full class fails the attempt.
+The initial weights are $s$.  With sufficiently large absolute coefficients,
+the reversible $L^2$ mixing bound from $x_0$ gives TV error less than
+$1/(1000s^2)$ per preliminary end state on good weights.  Each class
+has stationary probability at least $1/[2(1+2s^2)]$ there. Independent
+binomial concentration at fixed relative accuracy (say $1/50$) and a
+union bound over all $R(1+s^2)$ classes give failure at most $2^{-20u}$
+for the complete calibration. Indeed the ideal update is exactly
+$w\pi(\mathrm{full})/\pi(\mathrm{hole})$; empirical accuracy within
+a multiplicative factor $6/5$, followed by cooling, maintains the
+factor-two condition.  This argument is inductive and does not multiply
+per-temperature estimation errors.
+
+At the end of this attempt draw one fresh specified chain of
+$T_1=O(s^6(s\log(s+2)+u))$ steps.  On good weights the TV
+error is at most $2^{-20u}$, and conditional on a real perfect endpoint
+the \emph{stationary} law is exactly uniform: real matchings all have
+weight one. The stationary probability of real endpoints is at least
+$1/[2(1+2s^2)]$, since all fake perfect matchings together have weight
+at most $s!/(s!)=1$. Repeat \emph{independent entire attempts} until
+success, at most $J=O(s^2u)$ times, returning $x_0$ if exhausted.
+Success has probability $\Omega(s^{-2})$, hence the expected number of
+attempts is $O(s^2)$, not $J$. Bad calibration and finite mixing
+together perturb the conditional success law by at most $O(s^2 2^{-20u})$.
+
+Round token probabilities by dividing a uniform $b$-bit integer into
+$4s$ almost equal bins, and round each binary acceptance probability down
+to a multiple of $2^{-b}$.  Take $b=64u+O(\log(2+J(RST_0+T_1)s))$ with
+sufficient padding.  Coupling all draws across the \emph{whole capped}
+horizon costs at most $2^{-60u}$ in TV.  Adjusting absolute constants, the
+resulting finite-output law $Q$ has TV error at most $2^{-8u}$ from the
+uniform law $\pi$. Since every valid atom has $\pi(x)\ge1/s!$,
+$\pi-(1-\delta)Q$ is nonnegative.  With probability $1-\delta$ use
+the capped sampler; otherwise compute and sample the correction
+$[\pi-(1-\delta)Q]/\delta$.
+
+For completeness this last law is attainable at negligible \emph{expected}
+cost. A single hole weight is a product of at most $R$ frequency ratios
+with integers at most $S$. There are at most $(S+1)^{2Rs^2}$ weight
+vectors. For each phase and vector, compute one end-state distribution
+by time-layer dynamic programming on at most $(1+s^2)s!$ states.
+Enumerate the histograms of $S$ independent end states on $1+s^2$
+classes, at most $(S+1)^{1+s^2}$ possibilities, using the multinomial
+law; this updates the vector or fails.  Compute the final end-state
+distribution by the same dynamic program; apply the capped geometric sum
+to the single-attempt distribution.  Enumerate legal matchings for $\pi$
+only on the correction branch. Every partial law at a fixed clock time
+has a common dyadic denominator of \emph{polynomial bit length}: pad
+the entire attempt/retry horizon to its deterministic polynomial maximum,
+with $b$ bits for a token and $b$ for acceptance at each transition.
+Histogram multinomial computations likewise admit the common denominator
+for $S$ padded samples.  This avoids taking coprime denominators over an
+exponential number of random histories. The table work and scans, including
+schoolbook arithmetic and a final exact cumulative rational selection, cost
+$\exp(O(s^4\log^2(s+2)))$ bit operations in expectation. The asymptotic
+coefficient in the log-width bound can be chosen independently of $C$:
+$R=O(s^2\log s)$ and $\log S=O(\log s)+O(\log C)$, where the
+latter additive constant contributes lower order as $s\to\infty$.
+Any fixed power of the table width for straightforward scans costs the
+same order in its logarithm. Take $C$ large enough that its prefactor
+$2^{-u}$ pays for this whole branch.
+
+On the fast branch, each of $O(1)$ changed edge and hole factors has
+$O(R\log(S+1)+s\log(s+2))=\widetilde O(s^2)$ bits. Local probability
+ratios therefore take $\widetilde O(s^4)$ schoolbook bit work.
+Accessing a whole table of $s^2$ hole entries sequentially stays within
+this bound. Do not construct the potentially long $b$-bit rounded
+transition probability at every step. For a rational $a/d\in(0,1)$
+reveal its binary digits by doubling and subtracting its remainder;
+compare with fresh fair bits, stopping on the first discrepancy or rejecting
+on a tie of $b$ digits. The expected number of digits used is at most two.
+For $4s$ nearly uniform token bins, a dyadic prefix of length $k$ is
+ambiguous only if it meets a boundary, probability $O(s2^{-k})$; the
+expected prefix cost is polylogarithmic. These lazy operations have exactly
+the stipulated finite dyadic law. A $2^{-u}$ correction coin likewise
+short-circuits.  Thus $RST_0+T_1=\widetilde O(s^{15})$ transitions per
+attempt, $O(s^2)$ expected attempts, and $\widetilde O(s^4)$ expected
+bit work per transition give the asserted exponent. This is a fair-bit
+adapter, not a relabeling of the arithmetic complexity in the source.
+\end{proof}
+
+\begin{proposition}[Full accounting]\label{prop:runtime}
+The total expected fair-bit work, including all proposals and their
+rejections and the one-time preparation, is $\widetilde O(n^{25})$.
+\end{proposition}
+\begin{proof}
+We detail the interfaces that could otherwise conceal a further power
+of $n$.  There are $O(n)$ feasible ordinary matching factors per history,
+each of side at most $n$. For each designated fill of the balanced
+lookahead block, use the free row and column sets of each color $k$,
+with $v_k$ the size of its own pin set and $s_k=n-v_k\ge n/2$.
+In the current free matching $F$ of size $s_c$, the number of assigned
+edges free for the later color $k$ is $s_c-2v_k+h_k(F)$, where $h_k(F)$
+counts assignments from the owner-$k$ domains to the owner-$k$ images.
+The sets are disjoint and $\sum_{k>c}h_k(F)\le n$. Thus the weight is a
+known rational times
+\[
+ \psi(F)=\prod_{k>c}(1-1/s_k)^{h_k(F)}\in[e^{-4},1]
+\]
+for large $n$. Rejection from an unweighted uniform matching has constant
+expected cost. Its weighted normalizer is its known rational times
+$\per(B)\E\psi(F)$. An independent exact $\E\psi(F)$-coin uses one
+unweighted matching and one rational flip. The unbalanced fallback is
+unweighted.  For each of the at most two cubic factors, write the capped
+mark mass as $A\per(T)\theta_T$ with $A=n$,
+$\theta_T=\E_M\min(1,2^{\#\text{cycles}(T-M)}/A)\ge1/A$.
+Here too one unweighted matching gives each input coin, and a cubic
+coloring draw costs at most $A$ such samples in expectation.
+
+In Lemma~\ref{gate:binary-v2}, encode the anchor's next column by binary
+splits of its current row. Conditional on all prior revelations, the
+expected reciprocal of the selected branch probability is exactly the
+number of positive children, at most two.  Use the deterministic upper
+bound $N=O(n^2\log(n+2))$ on total sites, including the additional
+scalar coins, and $m=N+2$ repetitions for the negative-binomial
+estimators. Positive and reciprocal factors both use at most
+$(m+1)/p$ expected probes at a site of probability $p$, also under the
+specified size-biased simulation. The $O(n)$ ordinary lookahead scalar
+coins have $1/p\le e^4$; the $O(1)$ cubic ones have $1/p\le n$.
+Even those latter sites cost only $O(mn)$ total. The constant-mean
+two-sided sigmoid race and the forward/reverse draws themselves are
+therefore covered by $\widetilde O(n^4)$ unweighted matching calls per
+soft gate, not $O(n^5)$ and not one weighted-graph call on a bigger board.
+
+Here is generous accounting for everything else. In the fixed $3\times3$
+cubic contingency table it suffices to index four entries and the layer
+$t\le n$, since row and column sums are $t$; at most $O(n^5)$ states,
+six predecessor transitions per state, and $O(n\log n)$-bit coefficients
+before combining their squares and factorials. Even a full sequential
+table scan per operation is below $O(n^{13})$ bit work. Each ordinary
+marked-block composition table takes $O(bn^2)$ convolutions with
+$O(bn\log n)$-bit entries after clearing by $n!$ at each step; the
+physical block sizes have $\sum b\le n$. Fixed-length polygon and pair
+cycle-index tables need only polynomially many factorials with
+$O(n\log n)$ bits. Masks, feasibility via augmenting paths, row order
+and shallow binary restrictions can all be scanned/constructed in
+$\widetilde O(n^5)$ work outside individual probes. For rational
+lookahead factors a crude bound on the aggregate known numerator and
+denominator length is $O(n^4\log n)$: there are at most $n^2$ color
+pairs, with exponents $O(n)$ on $O(\log n)$-bit factors. This includes
+the factors on the realized matching. The logistic threshold carries
+$O(n^2\log n)$ bits (and multiplication/division by the level index's
+dyadic factor changes this by $O(\log n)$). Polynomially many applications
+of exact rational arithmetic, with clearing of denominators as above,
+fit comfortably in $O(n^{24})$ bit work. In particular, at most
+$O(n^2)$ such lookahead factors can be evaluated by $O(\log n)$ repeated
+squarings each. At a probe, evaluating a conditional scalar coin
+directly costs at most $O(n^7)$ bit work, including a complete mask scan,
+forming its exact rational, and sampling it; even this can be charged to
+every probe without competing with $P(n)$.
+
+The unbounded waiting counters are not presumed to fit in a fixed word.
+Every positive binary branch has $p\ge1/n!$, and all added scalar
+sites obey the bounds just given. For a negative-binomial waiting time
+$V$ to $k\le m+1$ successes,
+$\E[V\log(1+V)\mid p]\le(k/p)\log(1+(k+1)/p)$ by size-biased
+Jensen. Uniformly its squared log length has expectation
+$O((1+n\log n+\log m)^2)$ by Markov's inequality for $V$ at
+exponential multiples of its mean. Consequently the $N$ unrestricted
+counter factors' total bit length has second moment
+$O(N^2(1+n\log n+\log m)^2)$. Multiply them without reducing and
+combine with the deterministic prefactor at the end. These counter
+updates, products and exact rational comparison are within the stated
+$O(n^{24})$ allowance. Thus one forward or reverse soft unit has
+expected cost $W(n)=\widetilde O(n^4P(n)+n^{24})$ uniformly over
+inputs and dyadic levels.
+
+Finally, the proved reverse mean bound and the incidence count lower
+give $H/|\cL_n|=O(1)$ for a sufficiently large fixed multiple of the
+rounded factorial scale. The explicit polynomial log-range bound $M$
+in the multiscale flattening is sufficient: it contributes only
+$O(\log^2(2M))$, not $M$ or $M^2$, to the expected work.
+A polylogarithmically diverging safety padding of the scale also
+leaves the soft exponent unchanged. The scale itself can be computed
+once by factorials and outward log/exp intervals (additive error less
+than one in the log); its $O(n^2\log n)$-bit length, and the
+constant-degree polygon/contingency preprocessing, are below the same
+overall bound. Substituting Lemma~\ref{lem:pmclock-v2} gives
+$\widetilde O(n^{4+21})$. The finite small-order part can be handled
+by drawing uniformly from all independent permutations and rejecting
+non-Latin arrays; it does not alter the asymptotic statement. No
+literal bound $O(n^{25})$, numerical crossover or worst-case
+polynomial stopping time is implied by the displayed soft bound.
+\end{proof}

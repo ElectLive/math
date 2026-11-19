@@ -1,0 +1,273 @@
+\section{The number of ordered factorizations: incidence without replacement}
+\label{sec:incidence}
+For this section write $U_d$ for the uniform law on the $N_d$ simple
+$d$-regular boards on the two prescribed labelled shores, $W(A)=\operatorname{per}A$,
+$m_d=\mathbb E_{U_d}W$, and $\widehat U_d(A)=W(A)U_d(A)/m_d$ for the
+perfect-matching-biased law. Write $t_d=\|U_d-\widehat U_d\|_{\rm TV}$
+and $V_d=n!(d/n)^n$. These probability spaces are used only to count:
+the sampling algorithm never needs a uniform-board or a permanent-counting oracle.
+We shall prove a constant-factor lower bound, rather than a power-of-$n$
+lower bound which would change the running-time exponent.
+
+\begin{proposition}[Constant-loss count lower]\label{prop:count-lower}
+For an absolute $c_*>0$ and all sufficiently large $n$,
+\[
+ |\mathcal L_n|\ge c_*\prod_{d=1}^n m_d .
+\]
+\end{proposition}
+
+\paragraph{Killing a marked incidence.}
+Counting incidences $(A,M)$ with $A$ a $d$-board and $M$ one of its
+matchings gives $N_d m_d=N_{d-1}m_{n-d+1}$, by deleting $M$.
+At $A$ choose a uniform matching $M$, put $T=A-M$, and retain the step
+with probability
+\[
+ \min\{1,W(A)/m_d\}\min\{1,m_{n-d+1}/W(K_{n,n}-T)\}.
+\]
+Starting from any subprobability dominated by $U_d$, the first factor
+discards mass at most $t_d$, and the surviving marked incidence is
+dominated pointwise by the uniform incidence. Its $T$ marginal is
+therefore bounded by $U_{d-1}(T)W(K_{n,n}-T)/m_{n-d+1}$.
+The second factor discards at most $t_{n-d+1}$ and restores domination
+by $U_{d-1}$. Each particular matching transition now has probability
+at most $1/m_d$. We need the following three estimates:
+for fixed large $c$, with $D_0=\lfloor n^{1/10}\rfloor$ and
+$R=\lceil\sqrt n\,\ell^{B_0}\rceil$ for a sufficiently large fixed $B_0$,
+\[
+ \sum_{c<d\le D_0}t_d\le C/c+o(1),\qquad
+ \sum_{D_0<d<R}t_d=o(1),\qquad \sum_{R\le d\le n}t_d=o(1).
+\]
+The cutoff $D_0$ is internal to this incidence proof.
+\paragraph{Sparse strip.}
+For $c\le d\le D_0$, enumeration of simple bipartite boards with
+prescribed sparse margins and forbidden cells gives
+\begin{align}
+ m_d&=n!d^{2n}\frac{((d-1)n)!}{(nd)!}
+                      \exp[-1/2+O(d^3/n)],\notag\\[-1mm]
+ t_d&\le C\{d^{-2}+d^{3/2}/\sqrt n+(nd)^{-1/4}\}.\label{eq:inc-sparse}
+\end{align}
+For details, in the formulas of Greenhill et al.\ \cite[Theorems~2.1--2.2]{GHIM}, let
+$k_i,l_j\in\{d,d-1,d-2\}$, $s=\sum k_i=\sum l_j=\Theta(nd)$,
+$S_2=\sum(k_i)_2$, $T_2=\sum(l_j)_2$, and
+$F_X=\sum_{ij\in X} k_i l_j$ for a forbidden board $X$ of maximum
+degree two. Their enumeration in this range reduces uniformly to
+\[
+ \frac{s!}{\prod k_i!\prod l_j!}
+ \exp[-S_2T_2/(2s^2)-F_X/s+O(d^3/n)].
+\]
+Indeed $d^2=o(s^{2/3})$, their forbidden parameter is $O(d^2)=o(s)$,
+$F_X=O(nd^2)=o(s^{5/3})$, and $O(d^2)F_X=o(s^2)$.
+For one compulsory matching apply the formula to its complement after
+decrementing its endpoint degrees by one. For two specified matchings
+with $j$ common edges set $s=n(d-2)+j$ and $u=(d-1)j/s$.
+Directly $S_2/s=T_2/s=d-3+u$ and
+$F_X/s=2(d-2)-(d-3)u$, giving a net exponential relative to the
+unrestricted count of $\exp(-u^2/2+O(d^3/n))$. There are
+$(n!)^2 h_{n-j}/j!$ pairs where $h_m$ is the fraction of derangements
+of $m$ objects. Set $x=(d-1)^{-2}$, $s_0=n(d-2)$ and let $K$ have
+mass $\binom{s_0+j}{j}(1-x)^{s_0+1}x^j$. Extracting the factorials
+and using Stirling yields
+\[
+ \mathbb E_{U_d}(\operatorname{per}A)^2/m_d^2
+ =(1-x)^{-1/2}(1+O(d^3/n))
+ \mathbb E[\mathbf1_{K\le n}e h_{n-K}e^{-u(K)^2/2}].
+\]
+Here $\mathbb EK=n/d+O(1)$, $\operatorname{Var}K=O(n/d)$, $K>n/2$
+has exponentially small probability, $u(n/d)=1/(d-1)$ and
+$|u'|=O(1/n)$. The expectation is $e^{-x/2}+O(1/\sqrt{nd})$.
+Since $(1-x)^{-1/2}e^{-x/2}=1+O(x^2)$, total variation is bounded
+by half the coefficient of variation, as required. Stirling in the
+first line gives
+$\log(m_d/(L_d\sqrt{n/d}))=O(d^{-1}+d^3/n)$ also for $2\le d<c$:
+only the one-mark enumeration is used there. At $d=1$, $m_1=L_1=1$.
+
+\paragraph{Moderate strip.}
+Take $D_0<d<R=\lceil\sqrt n\,\ell^{B_0}\rceil$, $B_0$ fixed sufficiently
+large, and $p=d/n$, $\tau=1/(nd^{0.9})+d/n^2+p^3$.
+The bipartite case of Liebenau--Wormald \cite[Theorem~1.4]{LW} implies that for any fixed embedded simple pattern $F$
+with $h$ edges, degrees $h_v$, and $w(F)=\sum_v\binom{h_v}{2}$,
+\[
+ \Pr_{U_d}(F\subset A)
+ =\frac{\prod_v(d)_{h_v}}{(nd)^h}\exp\{w(F)/n+O_F(\tau)\}.
+ \tag{I1}\label{eq:inc-pins}
+\]
+This is not a direct invocation with forbidden cells. After any bounded
+number of margin decrements the unrestricted edge marginal is
+$q_{ij}=(s_i t_j/m)(1+O_F(1/(nd^{0.9})))$: in that theorem take
+$\kappa=.01$, $m=nd-O(1)$, endpoint deviations $O(1)$ and margin
+variance $O(1/n)$, at density $o(1)$. Decrement the edges successively
+using the exact ratio of margin counts $q_e^{\rm before}/(1-q_e^{\rm after})$,
+then multiply by the probability of avoiding $F$ in the final reduced
+law. In that law any two fixed pins have probability
+$p^2(1+O_F(1/d+p))$ and three cost $O_F(p^3)$ by the same ratios
+and union bounds. Thus log avoidance is
+$-\sum_{e\in F}q_e^{\rm final}-hp^2/2+O_F(p^3+p^2/d)$.
+The inverse denominators cancel the quadratic term.
+In $\sum(q_e^{\rm after}-q_e^{\rm final})$ each later shared endpoint
+contributes $1/n$, giving $w(F)/n+O_F(\tau)$. In particular
+disjoint patterns factor to relative $1+O_F(\tau)$.
+
+For connected unicyclic $F$ let $Y_F=\operatorname{inj}(F,A)/d^h$.
+Its mean is $1-w(F)/d+O_F(d^{-2}+n^{-1}+\tau)$ and its variance is
+$O_F(\tau+(nd)^{-1}+d^{-4})$. Indeed disjoint placements use \eqref{eq:inc-pins};
+shared vertices but no edges change the normalized weight by
+$O_F(1/d)$ on an $O_F(1/n)$ fraction (merge the vertex falling
+factorials). For $j\ge1$ shared edges on $u$ shared vertices the
+joint bound is $O_F(n^{j-u}/d^j)$; either $u\ge j+1$, or the
+common graph contains the cycle, hence $j\ge4$ and $u\ge j$.
+The absolute mean deviation from $m_F=1-w(F)/d$ is summable $o(1)$
+over this strip, since in particular $\sum\sqrt\tau=o(1)$.
+
+For $\widehat U_d$, delete the distinguished matching to obtain a $(d-1)$-board
+tilted by its number of \emph{complement} matchings, then add its
+conditional uniform complement matching. The tilt density is at most
+$2$ by Br\'egman/van der Waerden since $p\log n=o(1)$.
+For fixed $j$ disjoint available pins the complement matching probability
+is $n^{-j}(1+O_j(p+1/n))$: switching two matched rows gives $n-O(d)$
+available switches out of a pin; the unique reverse insertion fails
+only if a forbidden cross-edge is present, with probability $O(d/n)$
+by the two-pin upper $O(n^{-2})$ (the same upper applies after deleting
+a matched row and column). The part of $Y_F$ with no new edge is thus
+within summable absolute-mean error of $1-[w(F)+h]/d$.
+For one specified edge marked, let $Y_e$ be its contribution. Under
+the untilted remainder the first two moments of $dY_e$ give
+$\mathbb E(dY_e-1)^2=O_F(1/d+p)$. To see this, disjoint embeddings in
+the second moment contribute at most $1+O_F(1/d+p)$ by \eqref{eq:inc-pins} and the
+two-mark bound. An overlap on $u$ vertices, $j$ old edges and $k=0,1$
+common marks costs $O_F(n^{j+k-u}/d^j)$: if cyclic, $j\ge3$, otherwise
+$u\ge j+k+1$. The first moment is $1+O_F(1/d+p)$ by the one-mark
+estimate and a conditional absence probability $1-O_F(p)$ on the marked
+cell. The nonnegative squared-error bound survives the bounded tilt.
+Hence each singleton mark adds $1/d$ with summable absolute-mean error
+$O_F(d^{-1}\sqrt{1/d+p})$. Terms with two or more marks cost
+$O_F(d^{-2})$. This proves the same $m_F$ centering under both laws.
+
+Apply the finite connected-template expansion of the log rook polynomial
+before its Gamma averaging, at a fixed order $s>30$ (enlarge the order
+if necessary so $\sum n\ell^{O(s)}/d^s=o(1)$). In each template delete
+the $j$ constant $J$ edges; if $h'$ components remain, $j\ge h'-1$.
+Expand homomorphisms into collision partitions, retaining tree
+homomorphism terms exactly ($nd^e$), and cyclic simple injections.
+A single unicyclic injection is replaced by $m_F$ after normalizing
+by its number of distinct edges; retain the original further powers
+of $1/d$ for repeated edges. Rank at least two costs $O_F(1/n)$ in
+absolute mean by \eqref{eq:inc-pins} or the planted-mark decomposition. With $w\ge2$
+cyclic components the remaining tree factors supply at most $n^{1-w}$;
+two normalized spanning unicyclic counts have bounded joint mean
+by the overlap argument above, and each further one is at most $n/d$.
+Thus these terms cost $O_F(1/n)$. Only finitely many templates are
+involved. Let $P_0$ be the resulting deterministic polynomial and set
+\[
+ c_d=\log\mathbb E[\mathbf1_{X\in I}\exp P_0(1/X)],\qquad
+ X\sim\operatorname{Gamma}(n+1,n),\quad I=[1-1/(2\ell),1+1/(2\ell)]
+\]
+(shape, rate). On healthy boards the finite polynomial $P_A$ approximates
+the actual log rook polynomial on the inverse window; the discarded
+signed Gamma integral is $e^{-\Omega(n/\ell^2)}$ in absolute value,
+negligible in log since $\operatorname{per}A/V_d\ge1$.
+Theorem~B of Tikhomirov and Youssef \cite{TY} for the directed
+loops-allowed model, gives the required centered singular bound with
+arbitrarily high polynomial confidence under $U_d$; the planted
+remainder density bound transfers it to $\widehat U_d$. Bad events have
+polynomial log cost. Sandwiching the two positive integrals by
+$\exp(\pm\sup_I|P_A(1/x)-P_0(1/x)|)$ gives
+\[
+ \sum_{D_0<d<R}(\mathbb E_{U_d}+\mathbb E_{\widehat U_d})
+     |\log(\operatorname{per}A/V_d)-c_d|=o(1).\tag{I2}\label{eq:inc-common}
+\]
+This log argument does not require positive exponential moment control
+of the error on the exceptional boards.
+
+\paragraph{Dense strip.}
+For $R\le d\le n$ let $z=d(d-1)/(n-1)$,
+$c_{ij}=|N(i)\cap N(j)|$,
+$W=\sum_{i<j}(c_{ij}-z)^2$, and put
+\[
+ w_*=(n/2)(d-z)(d-1)(1-(d-1)/(n-2)).
+\]
+Under $U_d$ or $U_d$ conditional on a fixed planted matching, resplit
+the exclusive columns of a uniformly chosen row pair into equal halves
+(subject to the at most two exclusive pins). This gives an exchangeable
+pair $W,W'$. Let $2t$ be the exclusive-set size, $b_k$ its overlap
+with row $k$, $D_k=c_{ik}-c_{jk}$. Then
+$W'-W=\sum_{k\ne i,j}((D_k')^2-D_k^2)/2$; the subtracted half
+averaged over pairs is $2W/n$. Unpinned,
+$\mathbb E(D'_k)^2=b_k(2t-b_k)/(2t-1)$. Its sum differs from
+$2t(d-1)(1-(d-1)/(n-2))$ by $O(d)$ on the good spectral event:
+the squared deviations of the $b_k$ from their mean total $O(dt)$
+by applying the centered board to the exclusive-set indicator.
+Forcing up to two columns changes the sum by $O(d)$; for $t>2$ the
+hypergeometric conditional variance and squared-mean changes per row
+are $O(r_k+b_k/t)$, where $r_k$ counts pins incident to row $k$.
+Smaller $t$ is immediate. Thus the drift is $-2(W-w_*)/n+O(d)$.
+With both endpoints spectrally healthy, $|W'-W|=O(d^2)$ by applying
+the centered norm bound to the difference of the pair's row indicators.
+Bad endpoints have arbitrarily small polynomial mass under either law:
+for dense $d$ use complementing, and transfer the plant by bounded
+polynomial Br\'egman density (for $d<n/2$ via its remainder).
+The identity
+$-\mathbb E[(W-w_*)(W'-W)]=\mathbb E(W'-W)^2/2$
+now yields $\mathbb E|W-w_*|=O(nd+\sqrt{n}\,d^2)$ under both laws.
+
+The quartic signed log rook expansion has only one graph-dependent
+term on the Gamma window, namely $x^{-4}W/(2d^4)$. Indeed, with
+$B_A=A/d-J$, the trace quartic equals
+$[nd^2+2W+n(n-1)z^2]/d^4-1$. Its remainder is
+$O(n\ell^2/d^3+n^{-20})$ on healthy uniform or planted boards.
+Replacing $W$ by $w_*$ in the truncated positive integral gives \eqref{eq:inc-common}
+also over $R\le d\le n$ with summed bound
+$O(\ell^{2-2B_0}+\ell^{-B_0})+o(1)$.
+
+
+\paragraph{From the three strips to total variation.}
+Write $h=\log(W(A)/V_d)$ and $M_d=\log(m_d/V_d)$.
+Relative entropy in both directions gives
+$\mathbb E_{U_d}h\le M_d\le\mathbb E_{\widehat U_d}h$.
+Since $|e^x-1|\le(1+e^x)|x|$,
+$2t_d\le(\mathbb E_{U_d}+\mathbb E_{\widehat U_d})|h-M_d|$.
+The common centers in \eqref{eq:inc-common} thus prove the two upper-strip
+claims; \eqref{eq:inc-sparse} proves the first since
+$\sum_{d\le D_0}d^{3/2}/\sqrt n=O(n^{-1/4})$ and
+$\sum_{d\le D_0}(nd)^{-1/4}=O(n^{-7/40})$.
+In particular, for $c$ a sufficiently large \emph{fixed} integer, the
+middle experiment starting at $U_{n-c}$ and stopping at degree $c$ retains
+at least $1-2\sum_{d=c+1}^{n-c}t_d\ge 3/4$ for large $n$. Both
+endpoint marginals of the surviving measure are dominated by their
+respective uniform laws. No independence of the endpoints is asserted.
+
+\paragraph{Why neither endpoint loses a power of $n$.}
+Let $F(G)$ be the number of ordered $c$-factorizations of a $c$-board,
+let $R_c$ be the number of $c$-row Latin rectangles, and set
+$\mu_c=R_c/N_c=\mathbb E_{U_c}F$. Drawing $c$ independent uniform
+perfect matchings conditional on disjointness and forgetting their order
+gives exactly the density $F/\mu_c$ with respect to $U_c$. For fixed
+$c\ge3$, this law and $U_c$ are mutually contiguous:
+the graph-restricted sum of $c$ one-factors on prescribed labeled shores has this contiguity by Greenhill, Kim and Wormald \cite[proof of Corollary~1.1, equation~(1)]{GKW}. It is the perfect-matching contiguity in their proof, not their result on Hamilton cycles, that is used here.
+Consequently for any $\varepsilon>0$ some $\delta>0$ satisfies
+$U_c(F<\delta\mu_c)<\varepsilon$ eventually. Otherwise choose a
+subsequence with $U_c(F<\mu_c/j)\ge\varepsilon$. The tilted masses
+on it are at most $1/j$; extend the events by the empty set off the
+subsequence to contradict contiguity.
+
+Restrict the surviving middle measure to paths whose initial
+\emph{complement} and final board both have $F\ge\delta\mu_c$.
+With $\varepsilon=1/8$ the two removals cost at most $2\varepsilon$
+even jointly, by endpoint domination. Every particular surviving
+middle path (including its initial state) has probability at most
+$N_c^{-1}\prod_{d=c+1}^{n-c}m_d^{-1}$, whereas every retained path
+extends in at least $(\delta\mu_c)^2$ ways by ordering top and bottom
+factors. A labelled complete square determines its middle path and
+both endpoint orders uniquely. We obtain
+\[
+ |\mathcal L_n|\ge \tfrac12\delta^2\frac{R_c^2}{N_c}
+                   \prod_{d=c+1}^{n-c}m_d .
+\]
+Finally $R_c=(1+o(1))\prod_{d=n-c+1}^n m_d$: at each of the first
+$c$ steps the ratio of the Br\'egman and van der Waerden bounds on the
+remaining $(n-O(c))$-board is $\exp(O_c(\log n/n))$ by Stirling,
+so every prefix has the same extension factor to this accuracy.
+The incidence identities telescope exactly to
+$\prod_{d=n-c+1}^n m_d=N_c\prod_{d=1}^c m_d$.
+Substitution proves Proposition~\ref{prop:count-lower}. The constants
+in contiguity need not define a computable membership test: the two
+endpoint cuts appear only in this counting argument.
