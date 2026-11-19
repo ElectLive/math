@@ -1,0 +1,7 @@
+e= 1 physical affine planes=63, Latin, Bol triples= 250047 cyclic sizes= [(1, 1), (3, 56), (7, 6)]
+two basis lift section closures: [(63, 1)] noncommuting among all 49 basis lifts= 49 automorphic inverse= False
+table SHA256 5d3a7c768043e044bd644ffbee89bb62e36a6977d9c295c00d5bc555d13c5795 ralt witness (1*7)*7 vs 1*(7*7): 19 15
+e= 0 physical affine planes=63, Latin, Bol triples= 250047 cyclic sizes= [(1, 1), (3, 56), (7, 6)]
+two basis lift section closures: [(9, 49)] noncommuting among all 49 basis lifts= 0 automorphic inverse= True
+table SHA256 2c9f6b236f24fbffe2a489aa1820f2534bac566f6d4f4b658e1e37999ecbcb2a ralt witness (1*7)*7 vs 1*(7*7): 19 15
+PASS

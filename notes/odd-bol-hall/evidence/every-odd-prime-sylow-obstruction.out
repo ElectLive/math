@@ -1,0 +1,6 @@
+p= 3 field=7^1= 7 modulus=[1, 1] root= 2 group-Sylow-order=27 native-order=63 stable-complements=49 intersections=[3,1] all 9 native fiber inverses, every p-power norm, 300 Bol triples and both graph controls PASS
+p= 3 field=5^2=25 modulus=[2, 0, 1] root= 7 group-Sylow-order=27 native-order=225 stable-complements=625 intersections=[3,1] all 9 native fiber inverses, every p-power norm, 300 Bol triples and both graph controls PASS
+p= 5 field=11^1=11 modulus=[1, 1] root= 3 group-Sylow-order=125 native-order=3025 stable-complements=1331 intersections=[5,1] all 25 native fiber inverses, every p-power norm, 300 Bol triples and both graph controls PASS
+p= 5 field=3^4=81 modulus=[2, 1, 0, 0, 1] root=20 group-Sylow-order=125 native-order=164025 stable-complements=531441 intersections=[5,1] all 25 native fiber inverses, every p-power norm, 300 Bol triples and both graph controls PASS
+p= 7 field=29^1=29 modulus=[1, 1] root= 7 group-Sylow-order=343 native-order=1195061 stable-complements=707281 intersections=[7,1] all 49 native fiber inverses, every p-power norm, 300 Bol triples and both graph controls PASS
+p=11 field=23^1=23 modulus=[1, 1] root= 2 group-Sylow-order=1331 native-order=778797503 stable-complements=148035889 intersections=[11,1] all 121 native fiber inverses, every p-power norm, 300 Bol triples and both graph controls PASS

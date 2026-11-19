@@ -238,3 +238,7 @@ recorded with the [reproducibility evidence](analytic-2026-11-16/evidence/bol-ra
 ### Charged analytic transport and reconstruction
 
 The [completed marked analytic checkpoint](analytic-transport/README.md) constructs finite-dynamical collective charged transport, stable separated recovery of a retained cocycle, and a separate mixed-heat reconstruction of marked boundary matrices. It preserves full zero sectors and exact review scope. Continuous Felder fusion, a unified heat/difference functor and the original-Fock trace bridge remain open; no arithmetic moonshine consequence is claimed.
+
+## Odd-order native Hall and Sylow subloops
+
+- [0114: Native Hall and Sylow failure in odd-order Bol loops](../odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence also fails in an explicit family, even though a comparison isotope has many such subloops. The finite example and uniform theorem have [separate AI audits and reproducible evidence](../odd-bol-hall/REPRODUCE.md).

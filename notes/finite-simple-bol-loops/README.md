@@ -62,6 +62,8 @@ The [open-problem board](OPEN_PROBLEMS.md) gives exact assumptions and useful st
 
 ## Related Bol-loop research
 
+A [63-element counterexample and its all-prime extension](../odd-bol-hall/README.md) show that even a solvable odd-order Bol loop can lack a Sylow subloop for its native multiplication. A comparison isotope can have many subloops of the missing order.
+
 The [Burnside questions at exponent three](../bol-burnside/README.md) have different answers for the loop and for its matched translation group. The free Bol loop on two generators is infinite, yet every finitely generated subgroup of the matched translation group is a finite 3-group. The explicit examples are not simple.
 
 These projects study broader loop families and applications, not an unrestricted simple-loop classification:

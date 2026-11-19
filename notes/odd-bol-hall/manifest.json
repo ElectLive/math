@@ -1,0 +1,31 @@
+{
+  "scientific_provenance": [
+    {
+      "theorem": "order-63",
+      "source_sha256": "fa7c6c6357d293d7453d89553b31168b927d6c9af5c1d8078222e49923feba9c",
+      "review_sha256": "13e872589a714e06a2fc72accc2afa52059acae56d0606996a91ba2a2012efc1"
+    },
+    {
+      "theorem": "all odd primes",
+      "source_sha256": "768c831e2b9b19e13ecc19992a5a35e72def99cfadd0b1b891216b35b3870a00",
+      "review_sha256": "a92901cce101500bd102c4f35980b5d01c8619b952359d0708cd49dfc97ed8d3"
+    }
+  ],
+  "files": {
+    "README.md": "a7bd88c259c0aa3b5160dbf1857e7e62a572a8cdab02f1948e0301f23f6efd83",
+    "REPRODUCE.md": "59847ccead0ae80b1f0c2c78475243bc3b4329c78825fe55ac1a0150b380c28d",
+    "code/check_every_odd_prime_sections_independent.py": "c543a20c78c9833884005382c77072626b2e860c44004669a9dd54f99ed2ba9a",
+    "code/check_native_63_independent.py": "b4cc1b868e7b3a2245ac36d3fe0e2d462b025d9b1c039a04087f95caa3abad01",
+    "code/verify_bol_63_heisenberg_cosets.py": "6c53bf68ecd3733a43c3a7226cdc3f9e7141a351cb98333ad9555a66d57b8b1a",
+    "code/verify_bol_63_no_sylow.py": "597bb0818ff33a4f1837b34506d4cd8d7169cb113f77f820e5ba762162daf0fb",
+    "code/verify_every_odd_prime_sylow_obstruction.py": "beb5f1764114531ca4677e3db282d3846d14b8a526032add5355a8d8b0d242aa",
+    "evidence/allp-sections-independent.out": "a818b3cf70f2fc7f882eb702231f91003fb5ef2455d2422c8147ce5f83750ab8",
+    "evidence/bol-63-cosets.out": "c51acb90ead64149451d9ffad05e6254574857e66059b6629a0f664acfd3cc60",
+    "evidence/bol-63-scalar.out": "8b6fa5a5f43d62d08a1b829e2095d4ed136515dca0dbe35f9fc2f4063ee71ba2",
+    "evidence/every-odd-prime-sylow-obstruction.out": "04c29c24d74f906d8a4380b540fbe65fc056ec5b482a774461db8498eb8d7dc6",
+    "evidence/native-63-independent.out": "0f7a8b0b8deffa607bc864c7d7c87dcd1f298877a8eb7c5de009b103def62cd3",
+    "evidence/order-63-no-sylow.csv": "5d3a7c768043e044bd644ffbee89bb62e36a6977d9c295c00d5bc555d13c5795",
+    "reviews/every-odd-prime.txt": "7c82c552cbeff4822fb29bb1c4bfc0550b1dfb4561626d6ee2519bd42589e3b3",
+    "reviews/order-63.txt": "922f11d57cdf12cb1cc8a2b6a66eac03b9d1a7693eba179eeaed1bf42478b976"
+  }
+}

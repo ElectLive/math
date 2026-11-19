@@ -178,3 +178,7 @@ demonstrated general Bol-specific efficiency advantage.
 ## Charged analytic transport: local labels
 
 The [charged analytic transport record](claims/charged-analytic-transport.md) indexes the completed finite-dynamical collective construction, stable separated cocycle recovery, separate mixed-heat boundary reconstruction and their scoped obstructions. It includes the preceding Fourier/charged-sewing dependencies. These manuscript-local labels allocate no permanent numeric IDs and do not change the open classification claim. [Results, proofs and remaining interfaces](analytic-transport/README.md).
+
+## Odd-order native Hall and Sylow subloops
+
+- [0114: Native Hall and Sylow failure in odd-order Bol loops](../odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence also fails in an explicit family, even though a comparison isotope has many such subloops. The finite example and uniform theorem have [separate AI audits and reproducible evidence](../odd-bol-hall/REPRODUCE.md).

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0114",
+  "next_id": "0115",
   "manuscripts": [
     {
       "id": "0053",
@@ -2311,6 +2311,12 @@
       "depends_on": [
         "0112"
       ]
+    },
+    {
+      "id": "0114",
+      "source": "../odd-bol-hall/README.md",
+      "group": "native-odd-sylow-and-hall-obstruction",
+      "evidence": "../odd-bol-hall/REPRODUCE.md"
     }
   ]
 }

@@ -1,0 +1,6 @@
+p, char, field= (3, 7, 7) exhaustive W-plus 49 X/Y simultaneous plus survivors=1; distinct positive orbits 49 native orbit for each 27 signed powers 8
+p, char, field= (3, 5, 25) exhaustive W-plus 625 X/Y simultaneous plus survivors=1; distinct positive orbits 33 native orbit for each 27 signed powers 8
+p, char, field= (3, 7, 49) exhaustive W-plus 2401 X/Y simultaneous plus survivors=1; distinct positive orbits 33 native orbit for each 27 signed powers 8
+p, char, field= (5, 11, 11) exhaustive W-plus 1331 X/Y simultaneous plus survivors=1; distinct positive orbits 33 native orbit for each 125 signed powers 48
+p, char, field= (7, 29, 29) exhaustive W-plus 707281 X/Y simultaneous plus survivors=1; distinct positive orbits 33 native orbit for each 343 signed powers 144
+PASS: positive and tilted native are different actual affine-flat orbits; F49 additive-only control
