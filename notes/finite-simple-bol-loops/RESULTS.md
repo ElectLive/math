@@ -242,3 +242,7 @@ The [completed marked analytic checkpoint](analytic-transport/README.md) constru
 ## Odd-order native Hall and Sylow subloops
 
 - [0114: Native Hall and Sylow failure in odd-order Bol loops](../odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence also fails in an explicit family, even though a comparison isotope has many such subloops. The finite example and uniform theorem have [separate AI audits and reproducible evidence](../odd-bol-hall/REPRODUCE.md).
+
+### Finite-field incidence and coverage
+
+[Finite-field counting](analytic-2026-11-16/manuscripts/bol-collective-incidence.md) gives, for every $`h\ge8`$, all seven values at one parameter pair on every 37-point spread input; a matched-rank aligned family fails on a suitable such set. The exact degree, collision and normalized counting formulas and their limits are in the proof. [Independent AI review and two reproducible checks](analytic-2026-11-16/evidence/bol-collective-incidence-review.md).

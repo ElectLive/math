@@ -1,0 +1,274 @@
+{
+  "coverage_thresholds": [
+    {
+      "best_min_n": 111,
+      "biased_min_n": 113,
+      "h": 4,
+      "uniform_min_n": 111
+    },
+    {
+      "best_min_n": 50,
+      "biased_min_n": 50,
+      "h": 5,
+      "uniform_min_n": 50
+    },
+    {
+      "best_min_n": 41,
+      "biased_min_n": 41,
+      "h": 6,
+      "uniform_min_n": 41
+    },
+    {
+      "best_min_n": 38,
+      "biased_min_n": 38,
+      "h": 7,
+      "uniform_min_n": 38
+    },
+    {
+      "best_min_n": 37,
+      "biased_min_n": 37,
+      "h": 8,
+      "uniform_min_n": 37
+    }
+  ],
+  "degree_tables": {
+    "coefficient_types": 195,
+    "k7_minmax": [
+      [
+        0,
+        35,
+        210
+      ],
+      [
+        1,
+        45,
+        180
+      ],
+      [
+        2,
+        71,
+        135
+      ],
+      [
+        3,
+        86,
+        123
+      ],
+      [
+        4,
+        90,
+        117
+      ],
+      [
+        5,
+        95,
+        108
+      ],
+      [
+        6,
+        101,
+        108
+      ]
+    ],
+    "rows": [
+      {
+        "conditional_denominator": 9,
+        "generic_orbit_counts": [
+          6,
+          3,
+          4
+        ],
+        "k": 3,
+        "nonzero_normal_maximum": 6,
+        "nonzero_normal_minimum": 0
+      },
+      {
+        "conditional_denominator": 81,
+        "generic_orbit_counts": [
+          30,
+          35,
+          36
+        ],
+        "k": 5,
+        "nonzero_normal_maximum": 30,
+        "nonzero_normal_minimum": 0
+      },
+      {
+        "conditional_denominator": 729,
+        "generic_orbit_counts": [
+          318,
+          315,
+          308
+        ],
+        "k": 7,
+        "nonzero_normal_maximum": 210,
+        "nonzero_normal_minimum": 35
+      },
+      {
+        "conditional_denominator": 6561,
+        "generic_orbit_counts": [
+          2814,
+          2803,
+          2820
+        ],
+        "k": 9,
+        "nonzero_normal_maximum": 1680,
+        "nonzero_normal_minimum": 378
+      },
+      {
+        "conditional_denominator": 59049,
+        "generic_orbit_counts": [
+          25278,
+          25323,
+          25300
+        ],
+        "k": 11,
+        "nonzero_normal_maximum": 11770,
+        "nonzero_normal_minimum": 5610
+      }
+    ]
+  },
+  "exhaustive_distributions": {
+    "generic_words": 29523,
+    "k_range": [
+      1,
+      9
+    ],
+    "normal_type_word_pairs": 1454082
+  },
+  "normalizations": {
+    "h_range": [
+      1,
+      20
+    ],
+    "slice_threshold_ratios": [
+      {
+        "fixed_s_new_over_rank_H": "1.36111111111",
+        "fixed_s_new_over_rank_minus_H": "1.0652173913",
+        "h": 1
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.402472527473",
+        "fixed_s_new_over_rank_minus_H": "0.393183038111",
+        "h": 2
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.164746981414",
+        "fixed_s_new_over_rank_minus_H": "0.167863536145",
+        "h": 3
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.0687780779902",
+        "fixed_s_new_over_rank_minus_H": "0.0684323772345",
+        "h": 4
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.0283843278096",
+        "fixed_s_new_over_rank_minus_H": "0.0284058285109",
+        "h": 5
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.011759552712",
+        "fixed_s_new_over_rank_minus_H": "0.0117595096831",
+        "h": 6
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.00486898322279",
+        "fixed_s_new_over_rank_minus_H": "0.00486880706037",
+        "h": 7
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.00201602797651",
+        "fixed_s_new_over_rank_minus_H": "0.00201605265532",
+        "h": 8
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.000834766409741",
+        "fixed_s_new_over_rank_minus_H": "0.000834764495071",
+        "h": 9
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.00034564441386",
+        "fixed_s_new_over_rank_minus_H": "0.00034564446918",
+        "h": 10
+      },
+      {
+        "fixed_s_new_over_rank_H": "0.000143118213466",
+        "fixed_s_new_over_rank_minus_H": "0.000143118222042",
+        "h": 11
+      },
+      {
+        "fixed_s_new_over_rank_H": "5.92598023235e-05",
+        "fixed_s_new_over_rank_minus_H": "5.92598006715e-05",
+        "h": 12
+      },
+      {
+        "fixed_s_new_over_rank_H": "2.45372267222e-05",
+        "fixed_s_new_over_rank_minus_H": "2.45372268776e-05",
+        "h": 13
+      },
+      {
+        "fixed_s_new_over_rank_H": "1.01599310726e-05",
+        "fixed_s_new_over_rank_minus_H": "1.01599310652e-05",
+        "h": 14
+      },
+      {
+        "fixed_s_new_over_rank_H": "4.2068404906e-06",
+        "fixed_s_new_over_rank_minus_H": "4.20684049032e-06",
+        "h": 15
+      },
+      {
+        "fixed_s_new_over_rank_H": "1.74189242016e-06",
+        "fixed_s_new_over_rank_minus_H": "1.74189242026e-06",
+        "h": 16
+      },
+      {
+        "fixed_s_new_over_rank_H": "7.2125130731e-07",
+        "fixed_s_new_over_rank_minus_H": "7.21251307298e-07",
+        "h": 17
+      },
+      {
+        "fixed_s_new_over_rank_H": "2.98642695871e-07",
+        "fixed_s_new_over_rank_minus_H": "2.98642695872e-07",
+        "h": 18
+      },
+      {
+        "fixed_s_new_over_rank_H": "1.2365656588e-07",
+        "fixed_s_new_over_rank_minus_H": "1.2365656588e-07",
+        "h": 19
+      },
+      {
+        "fixed_s_new_over_rank_H": "5.12014741918e-08",
+        "fixed_s_new_over_rank_minus_H": "5.12014741918e-08",
+        "h": 20
+      }
+    ]
+  },
+  "pairwise_36_obstruction": {
+    "every_ordered_pair_probability": "1/49",
+    "missing_symbols_per_seed": 1,
+    "seed_functions": "18691244156460044731161600",
+    "singleton_probability": "1/7",
+    "source_size": 36
+  },
+  "scope": "Author exact rational/combinatorial checks; no ambient-field enumeration",
+  "status": "PASS",
+  "strict_certificates": {
+    "P17_exact": "3090696255023/5559060566555523",
+    "P17_upper_less_than": "1/1700",
+    "eta5_upper": "0.59391596456",
+    "g5_upper": "0.0147818396401",
+    "h_ge_8_n_ge_37_good_seed_fraction": "101/15725",
+    "sep_coefficient": "0.755541834333",
+    "sep_tau_over_beta_upper": "2.96364036649e-05"
+  },
+  "weight_checks": {
+    "ell3": "196/729",
+    "g3": "340018/4782969",
+    "k_range": [
+      1,
+      25
+    ],
+    "normal_types": 3250
+  }
+}

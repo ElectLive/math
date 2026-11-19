@@ -83,3 +83,7 @@ not determine every degenerate stationary algebra or solve explicit sparse
 approximation of the original dense law with its two-rate behavior. The
 [remaining questions](../OPEN_PROBLEMS.md#quantum-randomization-with-actual-reciprocal-defects)
 state those boundaries.
+
+## A finite-field counting application
+
+For $`h\ge8`$, every 37-point input set in the trace–exponential spread family admits a single parameter pair attaining all seven output values. A matched-rank aligned family has a 37-point set on which every pair attains at most three. The [complete counting theorem](manuscripts/bol-collective-incidence.md) includes exact degrees, collision extremizers and arbitrary-subset counting, with the output-degree correction. [Independent review and reproducibility](evidence/bol-collective-incidence-review.md). This does not establish that 37 is optimal for the spread family.

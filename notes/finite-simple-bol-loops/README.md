@@ -68,7 +68,7 @@ The [Burnside questions at exponent three](../bol-burnside/README.md) have diffe
 
 These projects study broader loop families and applications, not an unrestricted simple-loop classification:
 
-[Graph-native constructions](graph-loops/README.md) · [Decomposition and deletion decks](loop-decomposition/README.md) · [Intrinsic nonisomorphism](INTRINSIC_NONISOMORPHISM.md) · [Analytic families](analytic-2026-11-16/README.md) · [Quantum randomization](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md) · [Charged analytic transport](analytic-transport/README.md)
+[Graph-native constructions](graph-loops/README.md) · [Decomposition and deletion decks](loop-decomposition/README.md) · [Intrinsic nonisomorphism](INTRINSIC_NONISOMORPHISM.md) · [Analytic families](analytic-2026-11-16/README.md) · [Finite-field counting](analytic-2026-11-16/manuscripts/bol-collective-incidence.md) · [Quantum randomization](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md) · [Charged analytic transport](analytic-transport/README.md)
 
 Graphical deck reconstruction is equivalent to graph reconstruction, not solved. The analytic and quantum results retain their stated family and resource restrictions.
 
