@@ -1,0 +1,8 @@
+p,q 3 7 bases of determinant one 24 distinct codim-one tests 1 tested nonzero tilts 6 minimum incompatible bases observed 24
+total native pair-direction ranks tested 48 direct fixed-tilt affine product comparisons 16464
+p,q 5 11 bases of determinant one 120 distinct codim-one tests 12 tested nonzero tilts 120 minimum incompatible bases observed 110
+total native pair-direction ranks tested 480 direct fixed-tilt affine product comparisons 29282
+p,q 7 29 bases of determinant one 336 distinct codim-one tests 24 tested nonzero tilts 41 minimum incompatible bases observed 308
+total native pair-direction ranks tested 2016 direct fixed-tilt affine product comparisons 0
+p,q 11 23 bases of determinant one 1320 distinct codim-one tests 60 tested nonzero tilts 41 minimum incompatible bases observed 1210
+total native pair-direction ranks tested 1320 direct fixed-tilt affine product comparisons 0

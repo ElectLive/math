@@ -1,0 +1,9 @@
+actual single passive top shear, constrained/harmful-B-map space dimensions 10 3 r3 physical residue rank 116 117
+tilted nongraded-in-subset normal R, projected z-flat, reflected collision divisor 3^9 vs required 3^19; actual non-sign-stable tests 14
+n 3 loop 3-part log 255 ring group true powers 9 max true commutator grade 3 all actual nonlinear inversion vs pure discrepancies 18 of 18 unique native pivot tests including six products/triple 110
+tilted nongraded-in-subset normal R, projected z-flat, reflected collision divisor 3^9 vs required 3^19; actual non-sign-stable tests 14
+n 4 loop 3-part log 414 ring group true powers 9 max true commutator grade 4 all actual nonlinear inversion vs pure discrepancies 18 of 18 unique native pivot tests including six products/triple 68
+tilted nongraded-in-subset normal R, projected z-flat, reflected collision divisor 3^9 vs required 3^19; actual non-sign-stable tests 14
+n 5 loop 3-part log 733 ring group true powers 9 max true commutator grade 5 all actual nonlinear inversion vs pure discrepancies 8 of 8 unique native pivot tests including six products/triple 38
+full n=3 projective controls, all true grades 172 projective sites 20 arbitrary Bol triples 14 distinct sampled nonregistered sites 19 native factorizations 256
+PASS: actual projective products and explicit nonsign-stable cuts; the proof handles all ring sizes and all normal subgroups.

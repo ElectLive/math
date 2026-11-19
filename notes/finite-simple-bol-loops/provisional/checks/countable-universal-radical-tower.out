@@ -1,0 +1,10 @@
+stage/passives/actives; full-H injection, certified torus obstruction; affine ranks (restricted, allowed, bad; chosen) 0 0 0 []
+stage/passives/actives; full-H injection, certified torus obstruction; affine ranks (restricted, allowed, bad; chosen) 1 2 1 [(14, 10, 3, 9), (17, 13, 5, 12), (20, 16, 7, 15)]
+adjacent actual zero-embedded Bol products / group products, new nonzero brackets 0 1 8 8
+stage/passives/actives; full-H injection, certified torus obstruction; affine ranks (restricted, allowed, bad; chosen) 2 4 2 [(20, 16, 9, 14), (23, 19, 11, 18), (26, 22, 13, 21)]
+adjacent actual zero-embedded Bol products / group products, new nonzero brackets 1 2 8 8
+finite restriction of infinite column; size / nonzero brackets / max slots per generator 5 4 2
+finite restriction of infinite column; size / nonzero brackets / max slots per generator 10 9 2
+finite restriction of infinite column; size / nonzero brackets / max slots per generator 20 19 2
+finite restriction of infinite column; size / nonzero brackets / max slots per generator 40 39 2
+PASS: same old physical products through two nonlinear extensions; positive and broken-coherence controls.

@@ -1,0 +1,23 @@
+# What graph erasure and native returns can distinguish
+
+**Status:** the Bol-specific assertions here are proposed, not independently reviewed. The [graph-native constructions](../graph-loops/README.md) and [loop decomposition work](../loop-decomposition/README.md) are distinct public research packages with their own review limits.
+
+## Recovering a Latin incidence, not a distinguished loop
+
+The ordinary incidence graph of an order-$`n`$ Latin square has $`n^2`$ cell vertices and $`3n`$ line vertices: row, column and symbol lines. A graph isomorphism need not preserve which line class represents rows. Thus the natural recovery target is a Latin square **up to paratopy** (independent label changes and permutations of the three roles), not a chosen neutral element or one particular loop isomorphism class.
+
+A proposed erasure bound says that if both parents admit odd-order left Bol presentations, every single unlabelled card obtained by deleting $`k`$ arbitrary physical vertices determines the parent incidence whenever $`8k<n`$. A separate two-hole argument treats small orders. In a *common specified left role*, two nonisotopic Bol tables would then have to differ in at least $`n^2/16`$ entries, even after independent row, column and symbol relabelings. The determinations of an incidence, an isotopy class and a based loop must not be interchanged. The paper’s additional recovery of a set of possible based classes uses a separate role/orientation argument. General Latin competitors need not satisfy the conclusion: deleting two whole lines can hide a trade.
+
+A different graph-to-loop construction uses a characteristic 5-group inside the genuine left multiplication group of certain odd simple loops. The proposed commutator tensor recovers the underlying graph and selected subloop joins and intersections. A central quotient of the translation group can compare equal-order loop models without being a quotient of the loops: their marked point stabilizers need not project correctly. In another family, for 4-connected graphs, vertex stars would be intrinsically recognizable; deleting one gives a genuine simple subloop whose decoded graph is the corresponding ordinary vertex card. This describes a **selected** subloop deck, not equality of all subloop and graph decks. At mere 3-connectivity a card may remember only its cycle matroid. Joint commutator statistics are proposed to recover the random-cluster/Tutte polynomial on connected inputs. These reductions do not settle reconstruction for arbitrary graphs.
+
+## Many nonisotopic loops with identical return data
+
+All loops considered here are compared in a *common marked translation group*, so “the same word” has a precise meaning. A return count is the number of native coset points fixed by a permutation word. A common return counts points fixed by **each** of several words. Equality of traces of one word does not imply equality of common-return counts.
+
+- In an exchanged-character family of the two-prime constructions, three genuine marks are proposed to identify a chosen graph tilt by a positive return, while every one- and two-mark word has the same fixed-point count. For certain prime pairs the number of nonisotopic loops in even one common Bruck fiber is proposed to grow polynomially in their order. These family statements do not assume an exhaustive first-exponent census.
+- A different construction uses almost-conjugate stabilizers to produce $`2^r`$ nonisotopic simple proper odd Bol G-loops sharing their genuine marks, Bruck table and every **single-word** fixed-point count, with different native right nuclei. In a further trace-free construction, for any fixed $`h\ge1`$ and number of alternatives, all intersections of up to $`h`$ native fixed sets agree for arbitrary words, but an explicitly specified $`h+1`$-tuple detects a switch.
+- In its proposed ordinary-graph realization, the probe graphs are connected of maximum degree $`2(h+1)`$. Connected sources of cycle rank at most $`h`$ have identical homomorphism counts, including maps that fold edges. The $`(h+1)`$-triangle windmill detects the switch. This last assertion needs its own proof from the physical graph construction; an equality of marked return counts would not automatically establish it.
+
+The independently reviewed [common marked group for different whole right nuclei](../right-nuclei/proofs/one-marked-group.md) is a useful input to some of these proposals. Its review does not cover the extra equalities of return counts, the graph conversion or the erasure estimates.
+
+[Back to provisional research](README.md)

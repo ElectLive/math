@@ -1,0 +1,4 @@
+t^2 native order 27 kernel orders [1, 3, 9, 9, 9, 9, 27]
+t^3 native order 81 kernel orders [1, 3, 9, 27, 27, 27, 27, 81]
+irreducible t^2+1 native kernel orders [1, 9, 27]
+repeated irreducible: normalized two-generator orders [3, 27] three explicit generators 243 ; all 9 shift gauges on 27 points checked

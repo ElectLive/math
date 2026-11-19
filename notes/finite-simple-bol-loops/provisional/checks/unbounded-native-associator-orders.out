@@ -1,0 +1,7 @@
+actual single passive top shear, constrained/harmful-B-map space dimensions 10 3 r3 physical residue rank 116 117
+N 2 host exponent log_3(|Q|/20) 157 two true involutions / product site 2 3 LhLk and actual associator orbit 3 independent native ternary Jordan coordinates 2 non-elementary sign-fiber factorizations 18 false raw-top / false half = 2x numerical controls 18 0
+N 4 host exponent log_3(|Q|/20) 197 two true involutions / product site 2 3 LhLk and actual associator orbit 9 independent native ternary Jordan coordinates 4 non-elementary sign-fiber factorizations 18 false raw-top / false half = 2x numerical controls 18 9
+N 10 host exponent log_3(|Q|/20) 317 two true involutions / product site 2 3 LhLk and actual associator orbit 27 independent native ternary Jordan coordinates 10 non-elementary sign-fiber factorizations 16 false raw-top / false half = 2x numerical controls 16 8
+N 28 host exponent log_3(|Q|/20) 677 two true involutions / product site 2 3 LhLk and actual associator orbit 81 independent native ternary Jordan coordinates 28 non-elementary sign-fiber factorizations 12 false raw-top / false half = 2x numerical controls 12 6
+N 82 host exponent log_3(|Q|/20) 1757 two true involutions / product site 2 3 LhLk and actual associator orbit 243 independent native ternary Jordan coordinates 82 non-elementary sign-fiber factorizations 6 false raw-top / false half = 2x numerical controls 6 3
+PASS: native product orbit 3,9,27,81,243 and growing single Jordan chain, not an independent proof of simplicity.

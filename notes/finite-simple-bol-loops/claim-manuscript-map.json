@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0126",
+  "next_id": "0127",
   "manuscripts": [
     {
       "id": "0053",
@@ -2419,6 +2419,12 @@
       "source": "bol-burnside/matched-translations.md",
       "group": "bol-burnside-local-translation-groups",
       "evidence": "bol-burnside/verification.md"
+    },
+    {
+      "id": "0126",
+      "source": "odd-bol-hall/commuting-lifts.md",
+      "group": "local-heisenberg-commuting-lifts",
+      "evidence": "odd-bol-hall/commuting-lifts.md"
     }
   ]
 }

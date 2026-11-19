@@ -21,6 +21,8 @@ with normal elementary abelian $`\ell`$-kernel and quotient $`C_p^2`$, but **no 
 For **each** odd prime $`p`$ there are odd-order left Bol loops without a Sylow $`p`$-subloop: take $`q=\ell^{p-1}`$ for any other odd prime $`\ell`$. More precisely, for a *fixed set* $`\pi`$ of primes, universal Hall existence across all finite odd-order Bol loops fails whenever $`\pi`$ contains an odd prime $`p`$ and omits an odd prime $`\ell`$. If it contains no odd prime or contains every odd prime, the trivial subloop or the whole loop, respectively, always works. These quantifiers do not say that a given example has no Hall subloop at all; its additive kernel is already a Hall $`\{\ell\}`$-subloop. The examples are solvable and not simple.
 
 
+[Which lifts actually commute?](commuting-lifts.md) For any ordered independent quotient pair there is exactly one hyperplane of compatible tilts, with an exact count of commuting native lifts. At each nonzero tilt a positive fraction of the pairs of **every** nonzero determinant have no commuting lifts. This local theorem received a separate mathematical review.
+
 ## A two-product obstruction at order 63
 
 Write $`V=\mathbb F_3^2`$, $`F=\mathbb F_7`$, $`s(0)=1`$ and $`s(x)=3`$ for $`x\ne0`$. For $`x=(x_1,x_2)`$, $`y=(y_1,y_2)`$ put $`w=x_2y_1-x_1y_2\in\mathbb F_3`$. Exponentiation $`2^w`$ takes place in $`F`$, where 2 has order 3. For $`e=0,1`$ define a native multiplication on the 63 pairs by
