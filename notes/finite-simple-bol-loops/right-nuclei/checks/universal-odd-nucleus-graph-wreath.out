@@ -1,0 +1,9 @@
+Local F11^3 field graph: actual scalar-seven inner group; allowed graph normalization outer powers [True, False, False] true 49 local weights spanning rank 6
+1 target n 1 |R-prime| 1 central-derived intersection 1 native nucleus noncommuting pairs 0 prime field faithful module dimension 49 rank on the true independent 11-kernel 6 real action equations 3 |P|/(3n)=|A|/|R-prime| verified True
+C9 target n 9 |R-prime| 1 central-derived intersection 1 native nucleus noncommuting pairs 0 prime field faithful module dimension 441 rank on the true independent 11-kernel 54 real action equations 27 |P|/(3n)=|A|/|R-prime| verified True
+C3 x C3 target n 9 |R-prime| 1 central-derived intersection 1 native nucleus noncommuting pairs 0 prime field faithful module dimension 441 rank on the true independent 11-kernel 54 real action equations 27 |P|/(3n)=|A|/|R-prime| verified True
+Frobenius 21 target n 21 |R-prime| 7 central-derived intersection 1 native nucleus noncommuting pairs 336 prime field faithful module dimension 1029 rank on the true independent 11-kernel 126 real action equations 63 |P|/(3n)=|A|/|R-prime| verified True
+Heisenberg 27 target n 27 |R-prime| 3 central-derived intersection 3 native nucleus noncommuting pairs 432 prime field faithful module dimension 1323 rank on the true independent 11-kernel 162 real action equations 81 |P|/(3n)=|A|/|R-prime| verified True
+Equal-order nonisomorphic targets C9 and C3^2 have IDENTICAL v, |P| and |A|, not merely the same order scale.
+All 729 true three-site Heisenberg input commutators isolate the first coordinate, yielding all 3 derived values.
+Failed weak-center control C=anti-diagonal balanced constants: |C|=3, |C^swap|=|C cap H|=1; no such cut is available in the constructed coefficient group.

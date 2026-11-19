@@ -1,0 +1,8 @@
+all 12 relative-arrow tests over each of 9317 true inner conjugators; both nonlinear two-graph tables bijective
+ambient 81 nonabelian H27 color population 27 actual full nuclear group 27 native ordered common-shell products checked 6561 associator failure distribution [(0, 27), (54, 54)]
+ambient 81 elementary H27 color population 27 actual full nuclear group 27 native ordered common-shell products checked 6561 associator failure distribution [(0, 27), (54, 54)]
+ambient 81 nonnormal H3 color population 3 actual full nuclear group 3 native ordered common-shell products checked 6561 associator failure distribution [(0, 3), (6, 78)]
+ambient 81 full H81 color population 81 actual full nuclear group 81 native ordered common-shell products checked 6561 associator failure distribution [(0, 81)]
+ambient 81 trivial H color population 1 actual full nuclear group 1 native ordered common-shell products checked 6561 associator failure distribution [(0, 1), (2, 80)]
+ambient 81 non-subgroup, nonempty colored testing subset color population 6 actual full nuclear group 1 native ordered common-shell products checked 6561 associator failure distribution [(0, 1), (10, 30), (12, 50)]
+C3^2 all 512 subsets, exact action-orbit counts by stabilizer order [(1, 54), (3, 8), (9, 2)]

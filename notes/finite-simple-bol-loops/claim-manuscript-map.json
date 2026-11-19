@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0119",
+  "next_id": "0122",
   "manuscripts": [
     {
       "id": "0053",
@@ -2359,6 +2359,42 @@
       "source": "extraspecial-cores/axial-cotangent-extraspecial-multiplicity.md",
       "group": "extraspecial-axial-and-mixed",
       "evidence": "extraspecial-cores/verification.md"
+    },
+    {
+      "id": "0119",
+      "source": "right-nuclei/proofs/all-odd-groups.md",
+      "group": "all-odd-right-nuclei",
+      "evidence": "right-nuclei/verification.md"
+    },
+    {
+      "id": "0119",
+      "source": "right-nuclei/proofs/abelian-central.md",
+      "group": "all-odd-right-nuclei",
+      "evidence": "right-nuclei/verification.md"
+    },
+    {
+      "id": "0119",
+      "source": "right-nuclei/proofs/abelian-centerless.md",
+      "group": "all-odd-right-nuclei",
+      "evidence": "right-nuclei/verification.md"
+    },
+    {
+      "id": "0119",
+      "source": "right-nuclei/proofs/two-elements.md",
+      "group": "all-odd-right-nuclei",
+      "evidence": "right-nuclei/verification.md"
+    },
+    {
+      "id": "0120",
+      "source": "right-nuclei/proofs/central-intersection.md",
+      "group": "prescribed-central-intersection",
+      "evidence": "right-nuclei/verification.md"
+    },
+    {
+      "id": "0121",
+      "source": "right-nuclei/proofs/one-marked-group.md",
+      "group": "right-nuclei-on-a-common-marked-group",
+      "evidence": "right-nuclei/verification.md"
     }
   ]
 }

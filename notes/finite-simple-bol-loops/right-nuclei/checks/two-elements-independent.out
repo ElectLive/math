@@ -1,0 +1,4 @@
+ring (9, 3) q 19 copies 1 true pure common with bare vs addressed 3 1 nonzero address 3 actual signed sampled marks 250 full unit minor ranks 3 x 18
+ring (3, 5) q 31 copies 2 true pure common with bare vs addressed 5 1 nonzero address 1 actual signed sampled marks 250 full unit minor ranks 1 x 30
+ring (3, 3, 3) q 7 copies 2 true pure common with bare vs addressed 9 1 nonzero address 1 actual signed sampled marks 250 full unit minor ranks 9 x 6
+ring (3,) q 7 copies 1 true pure common with bare vs addressed 1 1 nonzero address 1 actual signed sampled marks 250 full unit minor ranks 1 x 6

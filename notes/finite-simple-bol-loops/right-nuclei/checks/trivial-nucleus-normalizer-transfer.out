@@ -1,0 +1,8 @@
+F=F_1331^+:C7: 9317 actual elements; field modulus (ascending lower coefficients) (1, 0, 4) primitive c (1, 1, 0) seventh root (7, 8, 10)
+All 3 automorphisms agree on every element and each right-generator edge with multiplication; theta fixed points 1, theta^3 scalar order 10.
+Graph intersection trivial, F center trivial; relative outer scalar orders at powers 1,2: 133,133; inner-scalar powers [True, False, False]
+False control: scalar 2 times Frobenius still fixed-free, but commutes with a; exact graph factorization then has outer normalizing lift.
+Actual P order 260419467 of which |P-prime|= 86806489 ; 147 true actions on six kernel coordinates, 49 distinct character weights spanning rank 6.
+All 147 top matrices give distinct permutations of weights; 441 real composition equations tested over F23; native v=23^49, no full wreath enumeration.
+Signed top 147 all swap-normal subgroup sizes/counts [(1, 1), (49, 1), (147, 1)] nonproduct rows 1 bad non-generating T proper equality counts 1
+Signed top 81 all swap-normal subgroup sizes/counts [(1, 1), (3, 2), (9, 13), (27, 13), (81, 1)] nonproduct rows 28 bad non-generating T proper equality counts 0

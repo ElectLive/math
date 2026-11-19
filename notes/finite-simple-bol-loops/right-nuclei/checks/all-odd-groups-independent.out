@@ -1,0 +1,7 @@
+independent F11^3 basis t^3+1*t+4 and primitive code 11: nonlinear S*T solver has 9317 actual entries
+C7:C3 all normal swap cuts (incl endpoints) in top order 147 3 proper nontrivial correlated 0 proper cut ratios [(3, 2)]
+C7:C3 native ordered nuclear products 441 genuinely noncommuting 336 non-scalar word pairs testing right nucleus 21 middle and commutant failures 20 20 full physical Bol tests 21
+C9:C3 all normal swap cuts (incl endpoints) in top order 81 12 proper nontrivial correlated 9 proper cut ratios [(3, 4), (9, 5), (27, 2)]
+C9:C3 native ordered nuclear products 729 genuinely noncommuting 432 non-scalar word pairs testing right nucleus 27 middle and commutant failures 26 26 full physical Bol tests 27
+UT3(3) all normal swap cuts (incl endpoints) in top order 81 30 proper nontrivial correlated 27 proper cut ratios [(3, 13), (9, 14), (27, 2)]
+UT3(3) native ordered nuclear products 729 genuinely noncommuting 432 non-scalar word pairs testing right nucleus 27 middle and commutant failures 26 26 full physical Bol tests 27

@@ -1,0 +1,4 @@
+Exact affine field F27: order-13 scalar root 9 trace size 3 ; exact factors |A|=39, |B|=27.
+D=left multiplication subgroup of Y^2 with inverse abelianization: |Y derived|=351, |D|=369603, |H|=351, degree=1053. Z(Y)=1, and D is subdirect, so Z(D)=1.
+Normalizer sizes |N_Y(A)|=39, |N_Y(B)|=81, |N_D(H)|=1053. Actual 1053 coset points fixed by all H: 3; full native right nucleus C3, not trivial.
+Native stabilizer pair ((0, 0, 0), (0, 6, 0)) moves identity in the associated diagonal action y -> a y b^-1.

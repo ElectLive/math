@@ -1,0 +1,6 @@
+ring (9,) q 19 signs 171 all signed alternating block tests 1539 pair checks 29241 exhaustive physical L cancellation/off-L nonzero 70 59 native top-power central residues [(9, 0)] all fixed points of quotient J: 1
+Nonunit twist 3 admits actual zero-lift collisions at top j=3,6; faithful twist detects both.
+ring (3, 3) q 7 signs 441 all signed alternating block tests 3969 pair checks 194481 exhaustive physical L cancellation/off-L nonzero 70 41 native top-power central residues [(3, 0)] all fixed points of quotient J: 1
+ring (3, 5) q 31 signs 14415 all signed alternating block tests 216225 pair checks 25000 sample physical L cancellation/off-L nonzero 140 103 native top-power central residues [(3, 0), (5, 0)] all fixed points of quotient J: 1
+Actual nonfree partial-center cut over Z/9: subgroup 27; physical and signed indices (9, 3)
+All stated positive and adverse controls passed. No independence, exhaustive kernel classification or full large table computation asserted.

@@ -14,6 +14,10 @@ The [least odd order](odd-degree/README.md) of a finite simple nonassociative le
 
 For every pair of odd primes *p*, *q* with *p* dividing *q* − 1, [an explicit construction](extraspecial-cores/README.md) gives simple proper Bol loops with extraspecial *p*-core in the left multiplication group. Mixing two kinds of representation gives [arbitrarily many pairwise nonisotopic loops at one order](extraspecial-cores/axial-cotangent-extraspecial-multiplicity.md). These are multiplicity lower bounds, not a census.
 
+## Which groups can be right nuclei?
+
+[Exactly the finite groups of odd order](right-nuclei/README.md) occur as entire right nuclei of finite simple proper odd Bol loops. Given such a group *R*, [any prescribed subgroup of its center](right-nuclei/proofs/central-intersection.md) can be exactly the nuclear right translations that also lie in the left multiplication group. This classifies an invariant, not all loops.
+
 <a id="latest-classification-advances-17-november-2026"></a>
 <a id="current-classification-checkpoint"></a>
 <a id="what-we-have-achieved"></a>

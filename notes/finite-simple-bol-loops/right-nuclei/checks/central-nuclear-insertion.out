@@ -1,0 +1,7 @@
+avoid (3, 11) M 66 prime support of M^2+7 [4363] selected 4363
+avoid (3, 11, 23) M 4554 prime support of M^2+7 [137, 151379] selected 137
+avoid (3, 5, 11, 23) M 15180 prime support of M^2+7 [359, 641873] selected 359
+Physical two-wing over Z9: bilinear form and genuine symplectic signs; all 441 projected sign pairs have zero central carry on L0; 386 off-L0 controls carry nonzero phase.
+True nonabelian target order 81: center C9, derived 3C9; all 59049 quotient products match the native R law, and central image is the nonsummand 3C9, not a chosen direct factor.
+Physical 1053-point Nagy base: |full previous Hbar|=1053, enlarged |Jbar|=3159, |Delta(Y) cap Jbar|=3, native |J|= 1053 ; |Delta(Y-prime) cap Jbar|= 1 . Not an assertion that 1053 supplies the detecting module.
+All 36 actual swap-invariant subspaces in F3^4: positive fixed bound vs L0 and nonzero pairing of every nontrivial image, including tilted supports.

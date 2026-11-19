@@ -1,0 +1,9 @@
+colour [0, 14, 16] true native associators 441 stabilizer order 3
+colour [0, 7, 11] true native associators 441 stabilizer order 3
+colour [0, 3, 6, 9, 12, 15, 18] true native associators 441 stabilizer order 7
+colour [] true native associators 441 stabilizer order 21
+colour [0, 1, 3, 7] true native associators 441 stabilizer order 1
+colour [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] true native associators 441 stabilizer order 21
+C7:C3 two distinct conjugate subgroups not left translates; 350 mixed native products transported by their coefficient relabeling
+2^21 exact colouring D-set orbit counts by stabilizer order {1: 99822, 3: 126, 7: 2, 21: 2} Burnside 99952
+local physical factor checks 130438 det(e=0,2) [6, 2] bad e=1 intersection 11

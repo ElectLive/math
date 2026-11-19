@@ -1,5 +1,11 @@
 # Results
 
+## Native right nuclei
+
+- [0119: All odd groups as whole right nuclei](right-nuclei/proofs/all-odd-groups.md), with additional [abelian families and two-element commutation tests](right-nuclei/README.md).
+- [0120: Which nuclear translations lie in the left group?](right-nuclei/proofs/central-intersection.md) Exactly any prescribed subgroup of the center of the target right nucleus.
+- [0121: All subgroups of one odd group as right nuclei on a common marked group](right-nuclei/proofs/one-marked-group.md). The point stabilizer varies; the native copy of the given odd group does not. [Six scoped reviews and programs](right-nuclei/verification.md).
+
 ## Two-prime simple loops with extraspecial cores
 
 - [0117: A nonaxial extraspecial construction](extraspecial-cores/extraspecial-odd-bol-construction.md) gives infinitely many degrees at every admissible odd prime pair.
