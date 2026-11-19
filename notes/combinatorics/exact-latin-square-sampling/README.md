@@ -6,13 +6,13 @@
 
 ## Result
 
-A Latin square of order $n$ is an $n\times n$ array on $n$ symbols, with each symbol appearing exactly once in every row and column. Rows, columns and symbols are labeled. For every positive integer $n$, the algorithm returns each labeled Latin square with exactly the same probability, terminates almost surely, and uses **$\widetilde O(n^{25})$ expected total bit work**. The tilde hides powers of $\log(2n)$. The bound charges preprocessing, randomness, exact arithmetic, and rejected trials. It does not imply a practical runtime, worst-case polynomial time, or irrevocable cell-by-cell generation.
+A Latin square of order $`n`$ is an $`n\times n`$ array on $`n`$ symbols, with each symbol appearing exactly once in every row and column. Rows, columns and symbols are labeled. For every positive integer $`n`$, the algorithm returns each labeled Latin square with exactly the same probability, terminates almost surely, and uses **$`\widetilde O(n^{25})`$ expected total bit work**. The tilde hides powers of $`\log(2n)`$. The bound charges preprocessing, randomness, exact arithmetic, and rejected trials. It does not imply a practical runtime, worst-case polynomial time, or irrevocable cell-by-cell generation.
 
 The [paper](paper/README.md) gives the technical proof. The [reference program](code/README.md) is exact at the finite orders it runs, but does **not** implement the revised theorem-scale algorithm or establish its runtime.
 
 ## Why uniform rows are not enough
 
-Take a bipartite graph with columns on one shore and symbols on the other. A row is a perfect matching. A full square is an ordered decomposition of the edges of the complete graph $K_{n,n}$ into $n$ such matchings. If a remaining board $A$ has $W(A)$ perfect matchings, an ordinary step picks a row with probability $1/W(A)$. The product of these probabilities can vary drastically from one square to another.
+Take a bipartite graph with columns on one shore and symbols on the other. A row is a perfect matching. A full square is an ordered decomposition of the edges of the complete graph $`K_{n,n}`$ into $`n`$ such matchings. If a remaining board $`A`$ has $`W(A)`$ perfect matchings, an ordinary step picks a row with probability $`1/W(A)`$. The product of these probabilities can vary drastically from one square to another.
 
 The improved proposal has two ingredients:
 
@@ -21,18 +21,18 @@ The improved proposal has two ingredients:
 
 ## Why the correction is exact
 
-For a target square $S$ and auxiliary history $z$, write $p(S,z)$ for the probability of proposing them together. Write $r_S(z)$ for a normalized reverse law on histories that can be drawn from $S$ alone. The reverse law does not draw a new Latin square. Set $T=r_S(z)/p(S,z)$ on the reverse support. At scale $H$, the gate with probability $T/(H+T)$ gives a square $S$ total mass
+For a target square $`S`$ and auxiliary history $`z`$, write $`p(S,z)`$ for the probability of proposing them together. Write $`r_S(z)`$ for a normalized reverse law on histories that can be drawn from $`S`$ alone. The reverse law does not draw a new Latin square. Set $`T=r_S(z)/p(S,z)`$ on the reverse support. At scale $`H`$, the gate with probability $`T/(H+T)`$ gives a square $`S`$ total mass
 
 ```math
 \sum_z p(S,z)\frac{T}{H+T}
   = \frac{1}{H}\mathbb E_{r_S}\frac{H}{H+T}.
 ```
 
-This is not yet uniform: the last expectation depends on $S$. The algorithm uses a sequence of dyadic scales and exact Bernoulli races that combine the terms into the same final mass for every target. The races inspect a target using fresh reverse histories. Their probabilities telescope, and the expensive levels are reached sufficiently infrequently that the correction costs only logarithmic factors. No numerical approximation of a permanent is passed off as an exact acceptance probability.
+This is not yet uniform: the last expectation depends on $`S`$. The algorithm uses a sequence of dyadic scales and exact Bernoulli races that combine the terms into the same final mass for every target. The races inspect a target using fresh reverse histories. Their probabilities telescope, and the expensive levels are reached sufficiently infrequently that the correction costs only logarithmic factors. No numerical approximation of a permanent is passed off as an exact acceptance probability.
 
 ## Work bound and limitations
 
-The decorated-history gates take $\widetilde O(n^4)$ exact uniform perfect-matching calls and $\widetilde O(n^{24})$ other bit work. We use a finite-rational implementation of the perfect-matching sampler for which $\widetilde O(n^{21})$ expected bit work per call suffices. The scale is within a constant factor of the square count, and the remaining correction contributes only logarithmic factors. Together these give $\widetilde O(n^{25})$ expected total bit work.
+The decorated-history gates take $`\widetilde O(n^4)`$ exact uniform perfect-matching calls and $`\widetilde O(n^{24})`$ other bit work. We use a finite-rational implementation of the perfect-matching sampler for which $`\widetilde O(n^{21})`$ expected bit work per call suffices. The scale is within a constant factor of the square count, and the remaining correction contributes only logarithmic factors. Together these give $`\widetilde O(n^{25})`$ expected total bit work.
 
 The new bound is not an optimality result or a benchmark. The main practical question is how to replace the worst-case matching and gate machinery with something fast enough to use at interesting orders, without changing the output law.
 

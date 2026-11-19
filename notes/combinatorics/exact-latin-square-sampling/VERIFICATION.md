@@ -1,6 +1,6 @@
 # Scope and verification
 
-The [paper](paper/README.md) gives a conventional proof draft for exact uniformity over all labeled Latin squares of every positive order and $\widetilde O(n^{25})$ expected total bit cost. Rejection and restarts are allowed. This is not a worst-case bound, a proof of rapid mixing for a Latin-square walk, or a forward-only construction.
+The [paper](paper/README.md) gives a conventional proof draft for exact uniformity over all labeled Latin squares of every positive order and $`\widetilde O(n^{25})`$ expected total bit cost. Rejection and restarts are allowed. This is not a worst-case bound, a proof of rapid mixing for a Latin-square walk, or a forward-only construction.
 
 The all-target logarithmic comparison, weighted terminal construction, regular-board count lower bound, exact multiscale correction, and bit accounting received separate checks within the AI-assisted project. The paper states the mathematical argument and cites its external dependencies. These checks are not external refereeing, formal verification, a claim of priority, or measured performance for the revised sampler.
 
