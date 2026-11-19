@@ -1,0 +1,4 @@
+actual homogeneous-port centralizers and least field costs for 128 odd q/p^k torus cases (q<=251); boundary [(3, 13), (5, 11), (5, 71), (7, 29)]; 5 false 2p-order shortcuts ruled out
+F_3: q=13, field modulus low-first below monic (1, 2, 0), actual dimension 6, rank(t-I)=3, rank(r-I)=4, r^p=I
+F_5: q=11, field modulus low-first below monic (1, 4, 0, 0, 0), actual dimension 10, rank(t-I)=5, rank(r-I)=8, r^p=I
+F_7: q=29, field modulus low-first below monic (1, 6, 0, 0, 0, 0, 0), actual dimension 14, rank(t-I)=7, rank(r-I)=12, r^p=I

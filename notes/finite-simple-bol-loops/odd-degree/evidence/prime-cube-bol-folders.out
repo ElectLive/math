@@ -1,0 +1,10 @@
+Engel p=5: all actual order-p lines/passing/isotypes by (A,B) {(0, 0): (156, 5, 2), (1, 0): (31, 5, 2), (0, 1): (31, 5, 3), (0, 2): (31, 5, 3)}; full native Bol triples=19531250
+filiform p=5: true squares=15625 all V-planes=806 passing with/without central w=5/200; irreducibles=40 true isotypes=10 isotope orbits=2; full native Bol triples=19531250
+p=5: 800 full physical conjugate/shear graph maps, each on all 25 stabilizer vectors
+Engel p=7: all actual order-p lines/passing/isotypes by (A,B) {(0, 0): (400, 7, 2), (1, 0): (57, 7, 2), (0, 1): (57, 7, 4), (0, 3): (57, 7, 4)}; full native Bol triples=0
+filiform p=7: true squares=117649 all V-planes=2850 passing with/without central w=7/784; irreducibles=112 true isotypes=20 isotope orbits=4; full native Bol triples=0
+p=7: 800 full physical conjugate/shear graph maps, each on all 49 stabilizer vectors
+polynomial orbits p=11: isom=44 affine=4
+polynomial orbits p=13: isom=62 affine=6
+polynomial orbits p=17: isom=102 affine=6
+polynomial orbits p=19: isom=128 affine=8

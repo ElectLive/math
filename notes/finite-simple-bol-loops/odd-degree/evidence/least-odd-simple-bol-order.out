@@ -1,0 +1,4 @@
+526 odd degrees 3..1053: {'prime-power': 193, 'cube-free': 314, 'two-prime exclusion': 16}; pre-final survivors [675, 945, 1053]; separate exclusions 675,945 and witness 1053
+genuine GF(3) degree-four C5 inversions: negative rank 2; all 81 order-five affine complements have [N,S]=N; among all 212 subspaces, only 0 and N are C5-invariant (first nontrivial block index 81, not 27)
+actual nonlinear Heisenberg(5): 125 operators, 5 scalars; four different Frobenius central characters, parity rank 2 over GF(81) but rank 8 over GF(3)
+affine primitive block controls for degree 3,9,27,81: 5 divides the order exactly at 81; 5-rank and normal Sylow lift are distinct checks

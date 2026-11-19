@@ -1,0 +1,7 @@
+native 63 table: identity-class orders and multiplicities [(1, 1), (7, 1), (21, 4), (63, 1)] normal-in-ORIGINAL factor degrees [7, 3, 3] nonassociative
+F_3 true distinct GL2 reflection pairs: (irreducible odd rotation orders / counts, p-rotation reducible count) ([], 24)
+F_5 true distinct GL2 reflection pairs: (irreducible odd rotation orders / counts, p-rotation reducible count) ([(3, 60)], 120)
+F_7 true distinct GL2 reflection pairs: (irreducible odd rotation orders / counts, p-rotation reducible count) ([(3, 168)], 336)
+F_11 true distinct GL2 reflection pairs: (irreducible odd rotation orders / counts, p-rotation reducible count) ([(3, 660), (5, 1320)], 1320)
+F_13 true distinct GL2 reflection pairs: (irreducible odd rotation orders / counts, p-rotation reducible count) ([(3, 1092), (7, 3276)], 2184)
+all 512 subsets of the 9 prime-field ternary monomial reflections: S3 permutation image subgroup orders [(6, 4), (24, 1), (48, 1)] odd-index-two cases 4 all fix nonzero vector

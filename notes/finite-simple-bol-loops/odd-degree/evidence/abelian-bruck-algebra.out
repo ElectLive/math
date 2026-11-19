@@ -1,0 +1,7 @@
+F3^3: all 19683 bilinear alternating laws; admissible GL3 orbits (derived dimension,size) [(0, 1), (1, 26), (2, 78), (2, 156)]
+p=3 elliptic matrices=18 scalar/conjugacy classes=2 full native Bol triples=39366
+p=5 elliptic matrices=200 scalar/conjugacy classes=3 full native Bol triples=5859375
+p=7 elliptic matrices=882 scalar/conjugacy classes=4 full native Bol triples=0
+p=11 elliptic matrices=6050 scalar/conjugacy classes=6 full native Bol triples=0
+p=13 elliptic matrices=12168 scalar/conjugacy classes=7 full native Bol triples=0
+Non-Jacobi F3^5 and non-elementary Z9^3 x Z5: each 3000 true product, Bruck, bracket and Bol controls.

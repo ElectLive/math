@@ -1,0 +1,14 @@
+literal prime table 3 27 Bol triples 19683 nuclei/comm [1, 1, 9, 1]
+actual central-coset unique decodes/commutator/Bruck/Bol at size 27 : 900
+actual central-coset unique decodes/commutator/Bruck/Bol at size 729 : 900
+actual central-coset unique decodes/commutator/Bruck/Bol at size 343 : 900
+prime elliptic characteristic polynomials/ordinary/full isotope 3 3 2 1
+prime elliptic characteristic polynomials/ordinary/full isotope 5 10 3 1
+prime elliptic characteristic polynomials/ordinary/full isotope 7 21 4 1
+prime elliptic characteristic polynomials/ordinary/full isotope 11 55 6 1
+prime elliptic characteristic polynomials/ordinary/full isotope 13 78 7 1
+prime elliptic characteristic polynomials/ordinary/full isotope 17 136 9 1
+prime elliptic characteristic polynomials/ordinary/full isotope 19 171 10 1
+prime elliptic characteristic polynomials/ordinary/full isotope 23 253 12 1
+prime elliptic characteristic polynomials/ordinary/full isotope 29 406 15 1
+prime elliptic characteristic polynomials/ordinary/full isotope 31 465 16 1

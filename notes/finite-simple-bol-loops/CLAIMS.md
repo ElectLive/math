@@ -1,5 +1,10 @@
 # Research claim catalogue
 
+## Odd-order obstructions and prime cubes
+
+- [0115: Odd-order bounds and the least odd simple example](odd-degree/README.md). Odd cube-free orders have a normal series in the original loop with abelian factors of order prime or prime-square. For two-prime orders *p*ᵃ*q*, nonassociative simplicity requires *q* > *p* and *a* ≥ *p* + 1; at equality existence is characterized by the order of *p* modulo *q*. Two additional exclusions give the sharp odd minimum 1053, attained by Nagy’s earlier construction. No uniqueness claim.
+- [0116: All Bol loops of prime-cube order](odd-degree/manuscripts/all-bol-loops-of-prime-cube-order.md). A classification up to isomorphism and isotopy for every prime *p* ≥ 5, including the centerless branches. A [general normal form](odd-degree/manuscripts/abelian-bruck-fibers-as-alternating-algebras.md) handles every finite odd Bol loop with abelian associated Bruck loop. [Separate proof checks](odd-degree/verification.md).
+
 ## Latest classification advances, 17 November 2026
 
 The latest synchronized proofs extend full-socle exclusions to every exceptional Lie-type family, every characteristic-two linear or unitary family, PSL₄(q) and PSU₄(q) over all fields, and Sp₂ₘ(2) for all m≥3. These are conditional research theorems retaining the exact canonical, classification and embedding inputs of their sources.

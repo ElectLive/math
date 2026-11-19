@@ -1,0 +1,4 @@
+526 odd candidate orders >1 by generative prime-multiset sieve; survivors [675, 945, 1053]
+affine/imprimitive envelope chains (degree, number, multiples of 5): [(3, 1, 0), (9, 2, 0), (27, 4, 0), (81, 8, 1)]
+genuine rational D10 augmentation: 81 points, 9 reflection-negative vectors; C5 central in odd rotations but inverted by the reflection
+genuine paired permutation control: 1215 group elements; one action sees 3, the other 405; all 81 distinct Sylow-5 subgroups have the same size-81 commutator, invisible on 3 sites but not on 81
