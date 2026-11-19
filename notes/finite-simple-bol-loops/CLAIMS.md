@@ -14,6 +14,10 @@
 - [0122: Fixed-order multiplicity](projective-radicals/proofs/multiplicity.md). For every $`s\ge21`$, at least $`3^{s^3/4}`$ pairwise nonisotopic simple proper exponent-six loops have order $`20\cdot3^{119+38s}`$. Their faithful left groups have quotient PSL₂(19) and radicals of the same derived rank, $`19s`$.
 - [0123: An optimal universal group host inside one radical](projective-radicals/proofs/universal-group-host.md). Every group of class at most two and exponent dividing three, of order at most $`3^k`$, embeds in a single native left-group radical; its logarithmic size is of order $`k^2`$, optimal even among arbitrary group hosts. This is not a native-subloop assertion. [Separate reviews and four programs](projective-radicals/verification.md).
 
+### Provisional extensions of the projective construction
+
+[Local algebras, radical universality and bounded-order associators](provisional/local-algebras/README.md) records author proofs and finite checks awaiting independent mathematical review. It uses manuscript-local labels, with no new allocation of permanent claim IDs.
+
 ## Native right nuclei
 
 - [0119: All odd groups as whole right nuclei](right-nuclei/proofs/all-odd-groups.md), with additional [abelian families and two-element commutation tests](right-nuclei/README.md).

@@ -1,0 +1,10 @@
+true W(p,m,L) 3 3 1594323 nontrivial second locations 7 embedded simple roots 2 all 3 physical single-site roots; depth up to 3
+true W(p,m,L) 3 5 847288609443 nontrivial second locations 15 embedded simple roots 4 all 10 physical single-site roots; depth up to 4
+true W(p,m,L) 5 3 1953125 nontrivial second locations 7 embedded simple roots 2 all 3 physical single-site roots; depth up to 3
+true W(p,m,L) 7 3 5764801 nontrivial second locations 7 embedded simple roots 2 all 3 physical single-site roots; depth up to 3
+actual UT3 group algebra p 3 native generators on random actual augmentation vectors 42 all ordered graph-displacement products 729 anti-inverse shortcut fails at st
+actual UT3 group algebra p 5 native generators on random actual augmentation vectors 42 all ordered graph-displacement products 15625 anti-inverse shortcut fails at st
+truncated noncommutative Magnus series p 3 maximum degree 9 distinct genuine free-ball elements through radius 5 485 true linear lamp rank after multiplication by X (one grade later) 17
+truncated noncommutative Magnus series p 5 maximum degree 9 distinct genuine free-ball elements through radius 5 485 true linear lamp rank after multiplication by X (one grade later) 17
+truncated noncommutative Magnus series p 7 maximum degree 9 distinct genuine free-ball elements through radius 5 485 true linear lamp rank after multiplication by X (one grade later) 17
+PASS: reflected wreath generator, true single-site deep roots, native shared-operand inner words and free truncations

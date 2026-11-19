@@ -1,0 +1,7 @@
+p,root size,probe modulus 3 5 163 true order of each outer group generator 3 residual physical lamps before power 32 after power 0 single-site inner shift order 27 verified inverse companions 3 embedded consecutive roots 1 true longest root gap 4
+p,root size,probe modulus 3 9 487 true order of each outer group generator 3 residual physical lamps before power 64 after power 0 single-site inner shift order 81 verified inverse companions 7 embedded consecutive roots 2 true longest root gap 8
+p,root size,probe modulus 5 5 51 true order of each outer group generator 5 residual physical lamps before power 0 after power 0 single-site inner shift order 25 verified inverse companions 3 embedded consecutive roots 1 true longest root gap 4
+p,root size,probe modulus 7 5 99 true order of each outer group generator 7 residual physical lamps before power 0 after power 0 single-site inner shift order 49 verified inverse companions 3 embedded consecutive roots 1 true longest root gap 4
+bounded-generator series p 3 radius four alternating nonzero syllable words 61 on the genuine lamp ab-1; wrong lamp killed by the cyclic norm
+bounded-generator series p 5 radius four alternating nonzero syllable words 681 on the genuine lamp ab-1; wrong lamp killed by the cyclic norm
+PASS: two exact-order-p generators, extracted deep native-compatible subgroup and corrected free-product lamps

@@ -1,0 +1,5 @@
+actual single passive top shear, constrained/harmful-B-map space dimensions 10 3 r3 physical residue rank 116 117
+non-Gorenstein x^2=xy=y^3=0, nonlinear sign dim V 3 original socle 2 double Loewy last grade 3 dim N/N^2 4 nonzero radical inputs driven to socle 2186 bad naive characters 169 of 260 native host cells 2916 actual wrong graph 119-vector weight 34 single-pair rejected entries 0
+x^2=y^2=0, exchange generators dim V 3 original socle 1 double Loewy last grade 3 dim N/N^2 3 nonzero radical inputs driven to socle 2186 bad naive characters 176 of 260 native host cells 2916 actual wrong graph 119-vector weight 34 single-pair rejected entries 18
+t^5=0, invert 1+t dim V 4 original socle 1 double Loewy last grade 5 dim N/N^2 2 nonzero radical inputs driven to socle 19682 bad naive characters 159 of 260 native host cells 26244 actual wrong graph 119-vector weight 34 single-pair rejected entries 0
+PASS: actual ternary trivial extensions, norm units, protected 3-Weyl-pair embedding, both native sheets

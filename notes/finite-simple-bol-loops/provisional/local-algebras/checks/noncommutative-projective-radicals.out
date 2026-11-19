@@ -1,0 +1,10 @@
+actual single passive top shear, constrained/harmful-B-map space dimensions 10 3 r3 physical residue rank 116 117
+actual Heisenberg affine control [(19, 28)] saturated normal cuts by sign [48, 32, 26] of which not z-stable (aggregate) 51 noncentral R/U with genuinely nonabelian J by sign [5, 3, 3] nonclosed inverted sets 1 all true fibers equal predicted 106
+actual 54-point Bol table and odd-left-parameter isotope: native 27-point subgroup ordered noncommuting pairs 432 versus zero in original
+upper dimension 3 actual noncommuting double-unit controls 165 /200, false naive characters 131 genuine sign units with nontrivial ordered pair-product coordinates 1 native host cells 2916 wrong old shear weight 34
+upper dimension 6 actual noncommuting double-unit controls 200 /200, false naive characters 136 genuine sign units with nontrivial ordered pair-product coordinates 1 native host cells 11664 wrong old shear weight 34
+UT dimension 3 true commutator elementary roots in the single-site larger derived group 3 actual products 729
+UT dimension 4 true commutator elementary roots in the single-site larger derived group 6 actual products 531441
+UT dimension 9 true commutator elementary roots in the single-site larger derived group 36 actual products 0
+UT dimension 17 true commutator elementary roots in the single-site larger derived group 136 actual products 0
+PASS: noncommutative units, saturated nonsign-stable cuts, both native sheets and single-site radical groups
