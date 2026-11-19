@@ -47,7 +47,7 @@ $`j:\mathbb F_3^k\longrightarrow L`$. Such maps exist since $`k\le6h`$.
 For $`t=j(\nu)`$ set $`z(t)=(t,t^3,t^9)`$ and define the alternating
 $`E`$-bilinear form
 ```math
- B_\nu(x,y)=\operatorname{Tr}_{L/E}
+ B_\nu(x,y)=\mathrm{Tr}_{L/E}
  \left(\det[z(t),x^{(1)},y^{(1)}]
        +\det[z(t),x^{(2)},y^{(2)}]\right).
  \tag{1.1}
@@ -56,7 +56,7 @@ Here $`x=(x^{(1)},x^{(2)})`$, with each block in $`L^3`$; the notation also
 denotes its matrix in a fixed $`E`$-basis.
 Let $`B_i=B_{e_i}`$ and
 ```math
- \beta_i(u,y)=\operatorname{Tr}_{E/\mathbb F_3} B_i(u,y),\qquad
+ \beta_i(u,y)=\mathrm{Tr}_{E/\mathbb F_3} B_i(u,y),\qquad
  S(a)=\sum_{i=1}^k2^{a_i}\in\mathbb F_7,\qquad
  F(u,a,y)=S(a-\beta(u,y)).
  \tag{1.2}
@@ -152,7 +152,7 @@ Injectivity of $`j`$ proves the asserted disjointness. For
  H_u=\{\nu:B_\nu u=0\},
 ```
 nondegeneracy of the absolute trace pairing gives
-$`\operatorname{im}\beta(u,\cdot)=H_u^\perp`$. If $`u\ne0`$, the
+$`\mathrm{im}\beta(u,\cdot)=H_u^\perp`$. If $`u\ne0`$, the
 disjointness implies that $`H_u`$ is zero or a single parameter line.
 Every fiber of this linear map has the same size. The vector
 $`a-\beta(u,y)`$ is therefore uniform on $`a+H_u^\perp`$, proving all
@@ -562,7 +562,7 @@ Fourier expansion in $`s`$ and $`a`$ gives the Gram identity
 The normalized convolution kernel of $`T^*T`$ is $`K`$ in (3.1).
 For a nonzero spatial frequency $`\xi`$ its multiplier is
 ```math
- Q^{-4h}\sum_{\substack{\nu\ne0\\\xi\in\operatorname{im}B_\nu}}w(\nu).
+ Q^{-4h}\sum_{\substack{\nu\ne0\\\xi\in\mathrm{im}B_\nu}}w(\nu).
  \tag{4.4}
 ```
 Using the absolute trace pairing on $`L^6`$, the common parameter constraint is
@@ -714,12 +714,12 @@ degree-dependent formula (4.6) when it is better. The sufficient regions are:
 | Situation | Sufficient condition for relative error $`o(1)`$ as $`h\to\infty`$ | Main term |
 |---|---|---|
 | Separate-rank spectral estimate, with suitable degrees | $`\alpha\beta\gg Q^{-4h}`$ | $`\alpha e(X,D)`$; flat only with degree control |
-| Collective spectral estimate, arbitrary full-space sets | $`\alpha\beta\gg Q^{-4h}m_*^{2h}`$ | $`|A||D|/7`$ |
-| Sharp collision estimate, arbitrary full-space sets | $`|A|\beta\to\infty`$ and $`\beta\gg m_*^{2h+1}`$ | $`|A||D|/7`$ |
-| Input in an affine coset of $`T_0`$, arbitrary outputs | $`|A|\beta\to\infty`$ | $`|A||D|/7`$ |
-| Fixed nonzero value, generic $`u`$, arbitrary correlated parameters | $`|A||C|\gg3^kQ^{8h}m_*^{2h}`$ | $`p_k(s)|A||C|`$ |
-| All-seven-value coverage | $`|A|\to\infty`$ | covering fraction $`1-o(1)`$ |
-| Finite all-seven-value existence | $`h\ge8`$, $`|A|\ge37`$ | at least one covering seed |
+| Collective spectral estimate, arbitrary full-space sets | $`\alpha\beta\gg Q^{-4h}m_*^{2h}`$ | $`\lvert A\rvert \lvert D\rvert /7`$ |
+| Sharp collision estimate, arbitrary full-space sets | $`\lvert A\rvert \beta\to\infty`$ and $`\beta\gg m_*^{2h+1}`$ | $`\lvert A\rvert \lvert D\rvert /7`$ |
+| Input in an affine coset of $`T_0`$, arbitrary outputs | $`\lvert A\rvert \beta\to\infty`$ | $`\lvert A\rvert \lvert D\rvert /7`$ |
+| Fixed nonzero value, generic $`u`$, arbitrary correlated parameters | $`\lvert A\rvert \lvert C\rvert \gg3^kQ^{8h}m_*^{2h}`$ | $`p_k(s)\lvert A\rvert \lvert C\rvert`$ |
+| All-seven-value coverage | $`\lvert A\rvert \to\infty`$ | covering fraction $`1-o(1)`$ |
+| Finite all-seven-value existence | $`h\ge8`$, $`\lvert A\rvert \ge37`$ | at least one covering seed |
 
 Here $`\gg`$ in the asymptotic rows means that the displayed ratio tends to
 infinity, not an unspecified fixed constant. Finite constants and endpoint
@@ -869,7 +869,7 @@ $`W_{\mathrm{al}}=E\oplus E^k\oplus M_h^2`$, define
 ```math
  B_\nu^{\mathrm{al}}((x_0,x',v,w),(y_0,y',v',w'))
  =x_0(\nu\cdot y')-y_0(\nu\cdot x')
-  +\operatorname{Tr}_{M_h/E}i(\nu)(vw'-wv').
+  +\mathrm{Tr}_{M_h/E}i(\nu)(vw'-wv').
  \tag{7.1}
 ```
 Its dimension over $`E`$ is $`6h`$ and its nonzero scalar rank is $`4h`$,
@@ -984,8 +984,9 @@ The differing radical intersection geometry is visible at the pair level.
 The full centered norm (4.2) is exact, and an input indicator can attain its
 input-side norm: if $`\xi`$ is a maximizing frequency, then $`-\xi`$ also
 maximizes it, and
-$1_{\{\operatorname{Tr}(\xi\cdot y)=0\}}-1/3
-=(\chi_\xi+\chi_{-\xi})/3$.
+```math
+1_{\{\mathrm{Tr}(\xi\cdot y)=0\}}-1/3=(\chi_\xi+\chi_{-\xi})/3.
+```
 This does not show that an output indicator attains Cauchy--Schwarz.
 Theorem COL proves an additional exact extremum for nonnegative sources;
 Theorems SEP and CSEP prove attainable count/distribution separations.
@@ -1042,7 +1043,7 @@ Precise versions and source locators are in [REFERENCES](../INCIDENCE_REFERENCES
 | SPEC and MIX | Weighted projection Gram/frame operator; Casazza–Kutyniok, Definition 3.15 and Proposition 3.16 | Fourier Gram is a positive weighted sum of commuting image projections; no assumption that every form is nondegenerate | Computes the norm once joint images are known. The application does not improve this abstract method |
 | Degree and weight identities | MacWilliams, Lemma 2.7, p.88 | Character orthogonality on a finite linear code, with complete symbol weights | Supplies established complete-weight-enumerator duality; no new transform |
 | Image-overlap bound | Sheekey, Section 2, root-count paragraph before Theorem 2 and Remark 2 | A nonzero $`\mathbb F_3`$-linearized polynomial of degree nine has at most nine roots, restricted to $`j(\mathbb F_3^k)`$ | The Moore/Gabidulin ingredient is established. Even maximum atom weight plus this root bound already gives the collective exponent |
-| Scalar bilinear counts | Vinh, arXiv:0903.1156v1, Lemma 2.1 and Theorem 2.2 | Nondegenerate bilinear form on $`\mathbb F_q^d`$, nonzero target; error $`q^{(d-1)/2}\sqrt{|U||V|}`$ | Does not directly apply to the composite mixed-characteristic readout. The scalar rank-quotient version gives the separate-rank estimate; an explicit $`\mathbb F_7`$ feature encoding is too large |
+| Scalar bilinear counts | Vinh, arXiv:0903.1156v1, Lemma 2.1 and Theorem 2.2 | Nondegenerate bilinear form on $`\mathbb F_q^d`$, nonzero target; error $`q^{(d-1)/2}\sqrt{\lvert U\rvert \lvert V\rvert }`$ | Does not directly apply to the composite mixed-characteristic readout. The scalar rank-quotient version gives the separate-rank estimate; an explicit $`\mathbb F_7`$ feature encoding is too large |
 | Full affine-flat counts | Phuong–Pham–Vinh, Theorems 1.5–1.6; Lemma 2.1 for biregular mixing | Points and affine flats in one field; incidence of our rows requires unions of many flats and multiplicity weights | The exact ambient point-flat Gram below gives a vacuous sparse product-size criterion in these parameters |
 | Compound exponentials | Friedlander–Shparlinski, Theorem, p.1618 | Scalar sums $`e_p(c\eta^{xy})`$ on exponent subsets, varying scalar parameters | At $`p=7`$ and exponent order three the scalar parameters are fixed; it gives no direct $`h`$-decay for arbitrary common-input subsets |
 | Trace-form construction | Gow–Quinlan, Section 2 | Alternating forms made from Galois traces; trace duality controls radicals | Established construction technique, not a source for the seven-symbol readout theorem |
@@ -1054,13 +1055,13 @@ alphabet $`\mathcal Y`$, not just bit strings. Its inequality is
 ```math
  |\mathbb Ef(Y,Z)-\mathbb Ef(U_{\mathcal Y},Z)|
  \le \sigma_c[f(U_{\mathcal Y},Z)]
-           \sqrt{|\mathcal Y|\operatorname{Col}(Y\mid Z)-1}.
+           \sqrt{|\mathcal Y|\mathrm{Col}(Y\mid Z)-1}.
 ```
 Take $`\mathcal Y=\mathbb F_7`$, let $`Z=(u,a)`$ be the seed, and let
 $`Y=F(u,a,Y_A)`$ for uniform $`Y_A\in A`$ independent of the seed.
 With $`f=1_D`$ and $`c=\beta`$ the variance factor is
 $`\sqrt{\beta(1-\beta)}`$. Theorem COL gives
-$`7\operatorname{Col}(Y\mid Z)-1\le6\Theta_h(n)`$.
+$`7\mathrm{Col}(Y\mid Z)-1\le6\Theta_h(n)`$.
 This is exactly (3.8) after converting probability to counts.
 No alphabet encoding or restriction loss is needed.
 
@@ -1073,7 +1074,7 @@ absorbing it in distance from uniform.
 For comparison, ordinary affine universal hashing does better if the equation
 is discarded. Encode $`W`$ injectively in $`\mathbb F_7^d`$,
 $`d=\lceil\log_7N\rceil`$, and take
-$`H_{r,b}(y)=r\cdot\operatorname{enc}(y)+b`$ with uniform $`(r,b)`$.
+$`H_{r,b}(y)=r\cdot\mathrm{enc}(y)+b`$ with uniform $`(r,b)`$.
 Distinct inputs have independent uniform outputs, so
 ```math
  \mathbb E_{r,b}\sum_s
@@ -1150,7 +1151,7 @@ Homogenization gives the exact equation
 in dimension $`N+1`$ over $`\mathbb F_7`$.
 Vinh's nonzero-target bilinear estimate now has coefficient $`7^{N/2}`$,
 far too large. Repeated parameter features require multiplicity weights.
-Restricting the feature set to $`\bigcup_i\operatorname{im}B_i`$ still
+Restricting the feature set to $`\bigcup_i\mathrm{im}B_i`$ still
 leaves at least $`Q^{4h}`$ features, with the same qualitative failure.
 This excludes these natural encodings as competitive transfers, not
 every conceivable encoding.

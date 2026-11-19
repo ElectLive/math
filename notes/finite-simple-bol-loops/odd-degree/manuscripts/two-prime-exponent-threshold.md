@@ -8,7 +8,7 @@ Let $`p,q`$ be distinct odd primes, with no ordering assumed. For a finite simpl
 q>p,\qquad a\ge p+1.
 ```
 
-At $`a=p+1`$, one exists **if and only if** $`\operatorname{ord}_q(p)=p`$. The necessity below concerns every such loop without assuming a factorization construction. Sufficiency uses the existing [the two-prime construction, Theorem 1.1(3)](../../sources/foundations/C0003.md). This is an exact **order-existence** boundary, not a count or uniqueness theorem for loops of that order. In particular every odd Bol loop of order $`p^a q`$ with $`a\le p`$ is classically solvable. The argument does not assert that every order above the threshold occurs.
+At $`a=p+1`$, one exists **if and only if** $`\mathrm{ord}_q(p)=p`$. The necessity below concerns every such loop without assuming a factorization construction. Sufficiency uses the existing [the two-prime construction, Theorem 1.1(3)](../../sources/foundations/C0003.md). This is an exact **order-existence** boundary, not a count or uniqueness theorem for loops of that order. In particular every odd Bol loop of order $`p^a q`$ with $`a\le p`$ is classically solvable. The argument does not assert that every order above the threshold occurs.
 
 ## A faithful cross-characteristic section
 
@@ -18,7 +18,7 @@ Use the doubled marked group $`D`$, outside involution $`t`$, and physical actio
 X=D/F(D),\qquad W=N/\Phi(N).
 ```
 
-Here $`X`$ has a faithful linear action on the $`\mathbb F_p`$-space $`W`$, with compatible $`t`$; no assertion that $`N`$ is abelian is needed. Indeed $`O_p(X)=1`$: the preimage of a normal $`p`$-subgroup is the product of its central $`p'`$-subgroup $`C`$ with its unique Sylow $`p`$-subgroup, which is normal in $`D`$ and hence lies in $`N`$. Also $`C_D(N)\le F(D)`$, since $`C`$ is central and $`F(D)`$ contains its centralizer. The kernel of $`\operatorname{Aut}(N)\to\operatorname{GL}(W)`$ is a $`p`$-group by the Burnside basis theorem: fixing an ordered basis of $`W`$, the automorphism kernel acts freely on the $`|\Phi(N)|^{\dim W}`$ ordered lifts, which all generate $`N`$. Inner automorphisms of $`N`$ and $`C`$ act trivially on $`W`$, so the kernel in $`X`$ is a normal $`p`$-group and is trivial. Since $`N`$ is not Sylow and $`C`$ is prime to $`p`$, we have $`p\mid |X|`$.
+Here $`X`$ has a faithful linear action on the $`\mathbb F_p`$-space $`W`$, with compatible $`t`$; no assertion that $`N`$ is abelian is needed. Indeed $`O_p(X)=1`$: the preimage of a normal $`p`$-subgroup is the product of its central $`p'`$-subgroup $`C`$ with its unique Sylow $`p`$-subgroup, which is normal in $`D`$ and hence lies in $`N`$. Also $`C_D(N)\le F(D)`$, since $`C`$ is central and $`F(D)`$ contains its centralizer. The kernel of $`\mathrm{Aut}(N)\to\mathrm{GL}(W)`$ is a $`p`$-group by the Burnside basis theorem: fixing an ordered basis of $`W`$, the automorphism kernel acts freely on the $`|\Phi(N)|^{\dim W}`$ ordered lifts, which all generate $`N`$. Inner automorphisms of $`N`$ and $`C`$ act trivially on $`W`$, so the kernel in $`X`$ is a normal $`p`$-group and is trivial. Since $`N`$ is not Sylow and $`C`$ is prime to $`p`$, we have $`p\mid |X|`$.
 
 Write $`b_N=[N:C_N(t)]=p^s`$. The class of $`t`$ projects to an outside class of size $`p^{a-s}q`$ in $`X\rtimes\langle t\rangle`$, since $`t`$ fixes $`C`$. The negative dimension $`r`$ of $`t`$ on $`W`$ satisfies $`r\le s`$: every coset fixed in $`N/\Phi(N)`$ has a fixed representative by Sylow 2-conjugacy in the odd kernel, or equivalently the negative class size in the quotient divides the original one.
 
@@ -48,7 +48,7 @@ Indeed the outside class in $`X`$ has $`q[P:C_P(t)]`$ elements by the $`t`$-stab
 Extend $`W`$ to the algebraic closure of $`\mathbb F_p`$ and decompose it by weights of the elementary abelian $`V`$. It is faithful on $`V`$, so there are nontrivial characters. Each nontrivial weight has order $`q`$; Frobenius acts on it as multiplication by $`p`$, with orbit length
 
 ```math
-f=\operatorname{ord}_q(p)\ge3.
+f=\mathrm{ord}_q(p)\ge3.
 ```
 
 Here $`q>p`$ is odd and hence cannot divide $`p-1`$ or $`p+1`$. The signed group permutes weight spaces and commutes with arithmetic Frobenius on the weight set.

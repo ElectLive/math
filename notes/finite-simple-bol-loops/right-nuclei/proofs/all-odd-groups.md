@@ -7,9 +7,9 @@ This is a classification of one intrinsic invariant, not of the loops up to isom
 **Theorem.** For every finite group $`R`$ of odd order, including $`1`$, there is a finite simple non-Moufang **left Bol** G-loop $`Q`$ of odd order with
 
 ```math
-\operatorname{Nuc}_r(Q)\cong R,\qquad
- \operatorname{Nuc}_\ell(Q)=\operatorname{Nuc}_m(Q)=\operatorname{Comm}(Q)=1,\qquad
- Z(\operatorname{LMlt}(Q))=1.
+\mathrm{Nuc}_r(Q)\cong R,\qquad
+ \mathrm{Nuc}_\ell(Q)=\mathrm{Nuc}_m(Q)=\mathrm{Comm}(Q)=1,\qquad
+ Z(\mathrm{LMlt}(Q))=1.
 ```
 
 Thus no nonidentity nuclear right translation belongs to the left multiplication group. These conclusions continue to hold for every loop isotope of the constructed $`Q`$, since it is a G-loop. Conversely the right nucleus of **any** finite loop acts freely by its right translations: $`xc=x`$ implies $`c=1`$ by cancellation and the nucleus is a group. Consequently its order divides the loop order. In particular the possible group isomorphism types of right nuclei among simple proper odd left Bol loops are **exactly all finite groups of odd order**.
@@ -128,11 +128,11 @@ Write $`P=N\rtimes L`$ with $`N=(k^+\times k^+)^\Omega`$ and $`L=(C_7\times C_7)
 
 ```math
 \lambda((x_j,y_j)_{j\in\Omega})
-  =\xi^{\operatorname{Tr}_{k/\mathbb F_{11}}(x_e)
-      +\operatorname{Tr}_{k/\mathbb F_{11}}(c^{-1}y_e)} .
+  =\xi^{\mathrm{Tr}_{k/\mathbb F_{11}}(x_e)
+      +\mathrm{Tr}_{k/\mathbb F_{11}}(c^{-1}y_e)} .
 ```
 
-This is nontrivial on each of the two local summands and fixed by $`s`$ since $`a_2=c a c^{-1}`$ on the second. Independent seventh-root scalars give precisely $`49`$ weights at the selected site, and the regular action puts them on each of the $`n`$ distinct sites, with disjoint supports. Thus its orbit has exactly $`49n`$, not $`49^n`$. The exponents span the whole $`6n`$-dimensional dual over $`\mathbb F_{11}`$: differences under one local scalar-seven subgroup give a nonzero form supported only on that one summand, and its orbit spans the irreducible local dual because $`\operatorname{ord}_7(11)=3`$. Repeat for the other wing and all sites.
+This is nontrivial on each of the two local summands and fixed by $`s`$ since $`a_2=c a c^{-1}`$ on the second. Independent seventh-root scalars give precisely $`49`$ weights at the selected site, and the regular action puts them on each of the $`n`$ distinct sites, with disjoint supports. Thus its orbit has exactly $`49n`$, not $`49^n`$. The exponents span the whole $`6n`$-dimensional dual over $`\mathbb F_{11}`$: differences under one local scalar-seven subgroup give a nonzero form supported only on that one summand, and its orbit spans the irreducible local dual because $`\mathrm{ord}_7(11)=3`$. Repeat for the other wing and all sites.
 
 On $`V=\mathbb F_\ell^{49n}`$ let $`N`$ act diagonally by the actual orbit characters, and $`L`$ permute their coordinates by the dual action. The semidirect relations follow from this weight action. Distinct weight projections exist over the **prime field** by ordinary character averaging on the elementary eleven-group; transitivity makes $`V`$ irreducible. The dual span proves faithfulness on $`N`$. Any kernel element must then centralize $`N`$, so its $`L`$-part is trivial by faithful action, and its remaining $`N`$-part is trivial by the same dual span. All hypotheses of (1) are now verified, the three calculated normalizer groups give precisely $`R`$, and the parameter sizes give the displayed degree.
 

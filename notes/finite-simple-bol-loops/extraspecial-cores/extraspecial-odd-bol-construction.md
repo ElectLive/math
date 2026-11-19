@@ -4,7 +4,7 @@
 
 The construction does not require a classification or a minimal-order theorem. The [signed normal-cut test](signed-cut-test.md) and [independent verification](verification.md) are given separately.
 
-**Theorem.** Let $`p,q`$ be odd primes with $`p\mid q-1`$, and $`f=\operatorname{ord}_q(p)`$. Put $`b=f`$ for even $`f`$ and $`b=2f`$ for odd $`f`$. For every $`m\ge1`$ write $`d=p b m`$. There is a finite simple nonassociative (thus non-Moufang) left Bol loop of order
+**Theorem.** Let $`p,q`$ be odd primes with $`p\mid q-1`$, and $`f=\mathrm{ord}_q(p)`$. Put $`b=f`$ for even $`f`$ and $`b=2f`$ for odd $`f`$. For every $`m\ge1`$ write $`d=p b m`$. There is a finite simple nonassociative (thus non-Moufang) left Bol loop of order
 ```math
                          p^{d+1} q
 ```
@@ -12,7 +12,7 @@ whose faithful left multiplication group's $`p`$-core is **extraspecial of expon
 
 ## 1. The physical symplectic module and subgroup
 
-Choose $`\alpha\in\mathbb F_q^\times`$ of order $`p`$. We need a symplectic $`\mathbb F_p`$-space $`(E,g)`$ of dimension $`bm`$ with a fixed-point-free order-$`q`$ isometry $`z`$. When $`f`$ is even, take one block $`\mathbb F_{p^f}`$, let $`z`$ be multiplication by a primitive $`q`$-th root $`\zeta`$, and put $`x^*=x^{p^{f/2}}`$. Then $`\zeta^*=\zeta^{-1}`$; for any nonzero $`c`$ with $`c^*=-c`$ use $`g(x,y)=\operatorname{Tr}(cxy^*)`$, with trace to $`\mathbb F_p`$. This is nondegenerate by trace duality and alternating by the star. For odd $`f`$ take a block $`\mathbb F_{p^f}\oplus\mathbb F_{p^f}`$ with its usual trace alternating pairing and reciprocal multipliers $`\zeta,\zeta^{-1}`$. Take the orthogonal sum of $`m`$ blocks in either case. All nonidentity powers of $`z`$ are fixed-point-free.
+Choose $`\alpha\in\mathbb F_q^\times`$ of order $`p`$. We need a symplectic $`\mathbb F_p`$-space $`(E,g)`$ of dimension $`bm`$ with a fixed-point-free order-$`q`$ isometry $`z`$. When $`f`$ is even, take one block $`\mathbb F_{p^f}`$, let $`z`$ be multiplication by a primitive $`q`$-th root $`\zeta`$, and put $`x^*=x^{p^{f/2}}`$. Then $`\zeta^*=\zeta^{-1}`$; for any nonzero $`c`$ with $`c^*=-c`$ use $`g(x,y)=\mathrm{Tr}(cxy^*)`$, with trace to $`\mathbb F_p`$. This is nondegenerate by trace duality and alternating by the star. For odd $`f`$ take a block $`\mathbb F_{p^f}\oplus\mathbb F_{p^f}`$ with its usual trace alternating pairing and reciprocal multipliers $`\zeta,\zeta^{-1}`$. Take the orthogonal sum of $`m`$ blocks in either case. All nonidentity powers of $`z`$ are fixed-point-free.
 
 Set $`A=E^{\mathbb Z/p}`$ of dimension $`d`$, $`U=A\oplus A`$ and
 ```math

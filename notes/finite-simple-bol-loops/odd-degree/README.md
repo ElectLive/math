@@ -7,7 +7,7 @@ The least odd order of a finite simple nonassociative left Bol loop is **1053**,
 Three arguments give the lower bound:
 
 1. [Odd cube-free order forces classical solvability](manuscripts/odd-cubefree-normal-tower.md). There is a series of subloops normal in the *original loop*, with abelian factors of prime or prime-square order. In odd square-free order the factors have prime order. This does not force native Sylow subloops: [order 63 is a counterexample](../odd-bol-hall/README.md).
-2. [Two distinct odd primes](manuscripts/two-prime-exponent-threshold.md). For a simple nonassociative loop of order $`p^a q`$, one must have $`q>p`$ and $`a\ge p+1`$. At $`a=p+1`$, existence is equivalent to $`\operatorname{ord}_q(p)=p`$. The theorem does not classify larger exponents or prove uniqueness.
+2. [Two distinct odd primes](manuscripts/two-prime-exponent-threshold.md). For a simple nonassociative loop of order $`p^a q`$, one must have $`q>p`$ and $`a\ge p+1`$. At $`a=p+1`$, existence is equivalent to $`\mathrm{ord}_q(p)=p`$. The theorem does not classify larger exponents or prove uniqueness.
 3. [Exclusion of the remaining smaller orders](manuscripts/least-odd-simple-bol-order.md). A low-rank representation argument excludes the square-free-cofactor family needed for 945; a separate two-projection argument excludes 675. The known nonassociative simple quotient of Nagy's 1053-element construction cannot be smaller, by the lower bound just proved.
 
 ## All prime-cube orders

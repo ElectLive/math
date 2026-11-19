@@ -37,7 +37,7 @@ For every pair of odd primes *p*, *q* with *p* dividing *q* − 1, [an explicit 
 
 ## A nested family of simple loops of exponent six
 
-[A simple left Bol loop of exponent six](manuscripts/0112-elementary-radical-example.md) has order $`20\cdot3^{119}`$ and no element of order five, even though five divides its order. Its faithful left multiplication group is $`(\mathbb F_3^{236},+)\rtimes\operatorname{PSL}_2(19)`$. The [matrix data and two verifiers](sources/elementary-psl2-19/README.md) make the computer-assisted construction reproducible. The exact example received independent AI mathematical review.
+[A simple left Bol loop of exponent six](manuscripts/0112-elementary-radical-example.md) has order $`20\cdot3^{119}`$ and no element of order five, even though five divides its order. Its faithful left multiplication group is $`(\mathbb F_3^{236},+)\rtimes\mathrm{PSL}_2(19)`$. The [matrix data and two verifiers](sources/elementary-psl2-19/README.md) make the computer-assisted construction reproducible. The exact example received independent AI mathematical review.
 
 [The infinite augmentation chain](manuscripts/0113-infinite-augmentation-chain.md) embeds that loop into successively larger simple proper left Bol loops. Stage $`n`$ has order $`20\cdot3^{119+19n}`$, every stage has exponent six, and their union is a countably infinite locally finite simple loop. The proof keeps each old multiplication intact by extending its selected coset translations. The [chain programs and audit](sources/augmentation-chain/README.md) cover the induction and actual embeddings; this is a construction, not an exhaustion theorem.
 
