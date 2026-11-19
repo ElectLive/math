@@ -62,6 +62,8 @@ The [open-problem board](OPEN_PROBLEMS.md) gives exact assumptions and useful st
 
 ## Related Bol-loop research
 
+The [Burnside questions at exponent three](../bol-burnside/README.md) have different answers for the loop and for its matched translation group. The free Bol loop on two generators is infinite, yet every finitely generated subgroup of the matched translation group is a finite 3-group. The explicit examples are not simple.
+
 These projects study broader loop families and applications, not an unrestricted simple-loop classification:
 
 [Graph-native constructions](graph-loops/README.md) · [Decomposition and deletion decks](loop-decomposition/README.md) · [Intrinsic nonisomorphism](INTRINSIC_NONISOMORPHISM.md) · [Analytic families](analytic-2026-11-16/README.md) · [Quantum randomization](analytic-2026-11-16/manuscripts/bol-quantum-randomization.md) · [Charged analytic transport](analytic-transport/README.md)

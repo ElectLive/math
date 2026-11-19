@@ -1,0 +1,6 @@
+F_3^2 native loop order 27 literal left Bol triples 19683 products from only b,z generate 27 wrong-hand product order on (0,1) 8 subgroup of the two matched left translations 27
+F_3^3 native loop order 81 literal left Bol triples 531441 products from only b,z generate 81 wrong-hand product order on (0,1) 26 subgroup of the two matched left translations 27
+F_3^4 native loop order 243 literal left Bol triples 14348907 products from only b,z generate 243 wrong-hand product order on (0,1) 16 subgroup of the two matched left translations 27
+F_5^2 native loop order 125 literal left Bol triples 1953125 products from only b,z generate 125 wrong-hand product order on (0,1) 12 subgroup of the two matched left translations 125
+F_7^2 native loop order 343 literal left Bol triples 40353607 products from only b,z generate 343 wrong-hand product order on (0,1) 48 subgroup of the two matched left translations 343
+PASS: separate class-two coset construction and direct native-table tests; not an independent review.

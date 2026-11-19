@@ -61,4 +61,6 @@ and the [30-polygon construction](tilings/collatz-30/ATTRIBUTION.md).
 
 ## Nonassociative algebra
 
+- **[Burnside questions for Bol loops of exponent three](notes/bol-burnside/README.md):** an explicit two-generated infinite residually finite Bol loop at every odd prime exponent. At exponent three the matched one-sided translation group is nevertheless locally a finite 3-group. Both proofs have separate independent AI mathematical checks.
+
 - **[Finite simple Bol loops: collaborative classification workspace](notes/finite-simple-bol-loops/README.md):** a direct existence proof and original class-two framework for a finite simple proper non-G-loop with no Bruck isotope, selected further construction drafts, structural roadmap, open problems and collaboration protocol. Includes public sources and explicit review limits. Scoped AI audits and finite checks; no complete classification, human expert certification, formal verification or novelty claim.

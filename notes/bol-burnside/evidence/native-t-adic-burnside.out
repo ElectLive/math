@@ -1,0 +1,12 @@
+p=3 d=1 t^d=0: sites 9, generated 9, Bol triples 729, nonassociative triples 0, full U cycles {1: 9}
+p=3 d=2 t^d=0: sites 27, generated 27, Bol triples 19683, nonassociative triples 0, full U cycles {1: 27}
+p=3 d=3 t^d=0: sites 81, generated 81, Bol triples 531441, nonassociative triples 209952, full U cycles {1: 27, 3: 18}
+p=3 d=4 t^d=0: sites 243, generated 243, Bol triples 14348907, nonassociative triples 7558272, full U cycles {1: 27, 3: 72}
+p=3 d=2 t^d=2: sites 27, generated 27, Bol triples 19683, nonassociative triples 10368, full U cycles {1: 3, 2: 4, 8: 2}
+p=5 d=2 t^d=0: sites 125, generated 125, Bol triples 1953125, nonassociative triples 0, full U cycles {1: 125}
+p=5 d=2 t^d=2: sites 125, generated 125, Bol triples 1953125, nonassociative triples 1440000, full U cycles {1: 5, 4: 6, 8: 6, 12: 4}
+p=3 Fp[t]/t^7: true basis point U-period in each of 3 native fibers = 9
+p=3 Fp[t]/t^19: true basis point U-period in each of 3 native fibers = 27
+p=3 Fp[t]/t^55: true basis point U-period in each of 3 native fibers = 81
+p=5 Fp[t]/t^51: true basis point U-period in each of 5 native fibers = 125
+p=7 Fp[t]/t^99: true basis point U-period in each of 7 native fibers = 343
