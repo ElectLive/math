@@ -1,5 +1,13 @@
 # Results
 
+<a id="odd-order-native-hall-and-sylow-subloops"></a>
+
+## Burnside and Hall–Sylow questions
+
+- [0124: Infinite two-generator Bol loops at every odd prime exponent](bol-burnside/two-generators.md). The explicit loops are residually finite; at exponent three they show that the free right Bol loop on at least two generators is infinite.
+- [0125: Matched translation groups at exponent three are locally finite](bol-burnside/matched-translations.md). Every finitely generated subgroup is a finite 3-group. Two individual matched translations generate at most 27 elements, sharply. [Review and finite checks for both Burnside results](bol-burnside/verification.md).
+- [0114: Native Hall and Sylow failure in odd-order Bol loops](odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence fails in an explicit family; a comparison isotope has subloops of the missing order. [Independent reviews and reproducibility](odd-bol-hall/REPRODUCE.md).
+
 ## Native right nuclei
 
 - [0119: All odd groups as whole right nuclei](right-nuclei/proofs/all-odd-groups.md), with additional [abelian families and two-element commutation tests](right-nuclei/README.md).
@@ -255,9 +263,6 @@ recorded with the [reproducibility evidence](analytic-2026-11-16/evidence/bol-ra
 
 The [completed marked analytic checkpoint](analytic-transport/README.md) constructs finite-dynamical collective charged transport, stable separated recovery of a retained cocycle, and a separate mixed-heat reconstruction of marked boundary matrices. It preserves full zero sectors and exact review scope. Continuous Felder fusion, a unified heat/difference functor and the original-Fock trace bridge remain open; no arithmetic moonshine consequence is claimed.
 
-## Odd-order native Hall and Sylow subloops
-
-- [0114: Native Hall and Sylow failure in odd-order Bol loops](../odd-bol-hall/README.md). A solvable loop of order 63 has no order-nine subloop. For each odd prime, full Sylow existence also fails in an explicit family, even though a comparison isotope has many such subloops. The finite example and uniform theorem have [separate AI audits and reproducible evidence](../odd-bol-hall/REPRODUCE.md).
 
 ### Finite-field incidence and coverage
 

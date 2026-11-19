@@ -10,10 +10,10 @@ Each of the five proofs has its own independent AI mathematical review. The revi
 | [Abelian Bruck associate](manuscripts/abelian-bruck-fibers-as-alternating-algebras.md) | Recovery of the bracket from native translations, the isotope action and the quadratic family; no claim of prime-cube exhaustion from this proof alone | [Checker](code/check_abelian_bruck_coset_and_isotope.py) · [output](evidence/abelian_bruck_algebra-independent.out) |
 | [Complete prime-cube list](manuscripts/all-bol-loops-of-prime-cube-order.md) | The class-three power carries, actual class-four stabilizer planes and rootless-cubic equivalence; tested all 806 and 2,850 planes at the two smallest fields respectively | [Checker](code/check_distinct_cubic_action_and_engel_powers.py) · [output](evidence/prime_cube_bol_folders-independent.out) |
 
-Run the standard-library Python 3 programs from this directory. The first command uses the independently reproduced [63-point multiplication table](../../odd-bol-hall/evidence/order-63-no-sylow.csv). No display, network or computer-algebra installation is required.
+Run the standard-library Python 3 programs from this directory. The first command uses the independently reproduced [63-point multiplication table](../odd-bol-hall/evidence/order-63-no-sylow.csv). No display, network or computer-algebra installation is required.
 
 ```sh
-python code/check_cubefree_congruence_and_reflections.py ../../odd-bol-hall/evidence/order-63-no-sylow.csv
+python code/check_cubefree_congruence_and_reflections.py ../odd-bol-hall/evidence/order-63-no-sylow.csv
 python code/check_prime_field_threshold.py
 python code/check_min_odd_order_hostile.py
 python code/check_abelian_bruck_coset_and_isotope.py

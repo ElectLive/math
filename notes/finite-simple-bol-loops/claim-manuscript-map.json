@@ -2314,9 +2314,9 @@
     },
     {
       "id": "0114",
-      "source": "../odd-bol-hall/README.md",
+      "source": "odd-bol-hall/README.md",
       "group": "native-odd-sylow-and-hall-obstruction",
-      "evidence": "../odd-bol-hall/REPRODUCE.md"
+      "evidence": "odd-bol-hall/REPRODUCE.md"
     },
     {
       "id": "0115",
@@ -2395,6 +2395,18 @@
       "source": "right-nuclei/proofs/one-marked-group.md",
       "group": "right-nuclei-on-a-common-marked-group",
       "evidence": "right-nuclei/verification.md"
+    },
+    {
+      "id": "0124",
+      "source": "bol-burnside/two-generators.md",
+      "group": "bol-burnside-infinite-two-generators",
+      "evidence": "bol-burnside/verification.md"
+    },
+    {
+      "id": "0125",
+      "source": "bol-burnside/matched-translations.md",
+      "group": "bol-burnside-local-translation-groups",
+      "evidence": "bol-burnside/verification.md"
     }
   ]
 }

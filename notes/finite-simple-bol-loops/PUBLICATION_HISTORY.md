@@ -164,3 +164,7 @@ simple Bol loops.
 ### Charged analytic transport and reconstruction
 
 The [completed marked analytic checkpoint](analytic-transport/README.md) constructs finite-dynamical collective charged transport, stable separated recovery of a retained cocycle, and a separate mixed-heat reconstruction of marked boundary matrices. It preserves full zero sectors and exact review scope. Continuous Felder fusion, a unified heat/difference functor and the original-Fock trace bridge remain open; no arithmetic moonshine consequence is claimed.
+
+## Bol-loop workspace consolidation
+
+The two former standalone workspaces now live here: [Burnside questions](bol-burnside/README.md) and [odd-order Hall and Sylow subloops](odd-bol-hall/README.md). Numbered claims are managed in the [common catalogue](CLAIMS.md). The pre-move versions remain accessible at their original permanent revisions: [Burnside](https://github.com/Mira-Cult/math/blob/87c8146079ed8dbad8424e1e94996809f8ef1fd6/notes/bol-burnside/README.md) and [Hall–Sylow](https://github.com/Mira-Cult/math/blob/964224a42d93b5aba0db6ae438de792ecc750970/notes/odd-bol-hall/README.md).
