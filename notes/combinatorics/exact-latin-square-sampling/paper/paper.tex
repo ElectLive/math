@@ -1,0 +1,114 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,amsthm,mathtools,booktabs}
+\usepackage[margin=1.04in]{geometry}
+\usepackage[unicode,colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,urlcolor=blue!55!black]{hyperref}
+\usepackage{xcolor}
+\hypersetup{pdftitle={Exact uniform generation of labeled Latin squares},pdfauthor={Mira},pdfsubject={Exact random generation and bipartite perfect matchings}}
+\usepackage{enumitem}
+\setlist{itemsep=.22em,topsep=.4em}
+\setcounter{tocdepth}{1}
+\allowdisplaybreaks
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\DeclareMathOperator{\per}{per}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\KL}{KL}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\polylog}{polylog}
+\newcommand{\E}{\mathbb E}
+\newcommand{\cL}{\mathcal L}
+\newcommand{\one}{\mathbf 1}
+\newcommand{\ind}{\mathbf 1}
+\newcommand{\inj}{\mathrm{inj}}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\Tt}{^{\mathsf T}}
+\newcommand{\Jm}{\mathbf J}
+\newcommand{\st}{\colon}
+\title{Exact uniform generation of labeled Latin squares}
+\author{Mira}
+\date{November 19, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We construct an algorithm that returns each labeled Latin square of order $n$ with exactly the same probability. For every $n\ge1$ it terminates almost surely and uses $\widetilde O(n^{25})$ expected bit operations. Choosing rows uniformly from the currently legal permutations gives a biased distribution: a square's probability depends on how many choices remain along the way. We use this dependence in reverse. By designating extra matchings early, we give a square more opportunities to be proposed when its final rows would be costly. With three rows left, a cap on the weight of a matching and two early correction blocks control the otherwise exponential variation. A rejection procedure combines the resulting histories at several scales so that each square has the same output probability. The algorithm requires neither a Latin-completion counting oracle nor a permanent oracle.
+\end{abstract}
+\section{Introduction}
+A Latin square has $n$ rows, $n$ columns and $n$ symbols; each symbol occurs exactly once in each row and column. All three sets here are identified with $[n]=\{1,\ldots,n\}$. Let $\cL_n$ be the set of these labeled squares. We do not identify relabelings, transposes or isotopes. Retaining the row labels is essential: our construction randomly orders them to analyze a fixed target, then restores all their labels.
+
+\begin{theorem}\label{thm:main}
+There is an algorithm using independent fair bits which, for every integer $n\ge1$, terminates almost surely and outputs each square in $\cL_n$ with probability $1/|\cL_n|$. Its total expected number of bit operations, including preparation, failed trials and restarts, is $\widetilde O(n^{25})$, where a tilde suppresses fixed powers of $\log(2n)$.
+\end{theorem}
+Time is measured as a function of the order $n$, not its binary encoding length. The theorem gives an expected bit bound, not a worst-case guarantee or a prediction of practical speed. Earlier exact samplers include the probabilistic divide-and-conquer algorithms of DeSalvo \cite{DeSalvo}. Our construction does not complete arbitrary partial squares or establish rapid mixing of a Latin-square walk such as the chain of Jacobson and Matthews \cite{JM}.
+
+Here is the bias the algorithm must remove. Regard a column--symbol pair as an edge of the complete bipartite graph $K_{n,n}$. A row is a perfect matching, so a square is an ordered factorization into $n$ such matchings. For a board $A$ of allowed edges, write $W(A)=\per A$ for its number of perfect matchings. If each new matching is chosen uniformly from the unused edges, a particular ordered square has probability $\prod_dW(A_d)^{-1}$, where $A_d$ is its unused $d$-regular board. Even the two-row residue can cause a large change: its $c$ alternating components give $2^c$ possible next matchings. This is $2$ on one Hamilton cycle, but $2^{n/2}$ on disjoint quadrilaterals when $n$ is even. A worst-case upper envelope at every individual step is therefore a poor way to remove the bias.
+
+To see why an early matching helps, fix a square $S$ and put its rows in a uniformly random order. The union of its last $b$ rows has the same law as the union of any designated $b$ early rows. A large matching count at the end makes $S$ unlikely under ordinary forward generation. But a large matching count in the early block gives us many distinct ways to have designated a matching there first. Their logarithmic effects have opposite signs and cancel in expectation. The blocks need not be independent. We use each block once; the algorithm never has to decide whether $S$ is exceptional.
+
+The proof separates a probability question from a counting question. Given a proposed square, we can draw a new order and new marks on that square alone. This \emph{reverse experiment} does not generate or enumerate other Latin squares. Sections~\ref{sec:coverage} and~\ref{sec:lookahead-cubic} compare its probability of each history with that of generating the same history forward. They bound the mean of the logarithm of this ratio for \emph{each fixed target}. For efficiency we also need a common scale: it must be large enough for that bound, but not much larger than the number of squares. The next section obtains the scale through regular-board enumeration; Appendix~\ref{sec:incidence} gives the companion count lower bound. Section~\ref{gate:multi-v2} turns a mean log bound, rather than a pointwise envelope, into exactly equal probabilities, and Section~\ref{sec:bit-runtime} counts the required bit operations.
+\section{Notation and scale}
+Let $W(A)=\per A$, $N_d$ be the number of simple $d$-regular boards on the two prescribed shores, $U_d$ their uniform law, and $m_d=\E_{U_d}W(A)$. Write $Q_d$ for the law of a $d$-board reached by deleting successive uniform matchings from $K_{n,n}$. Neither law is presumed to be the law of the board in a uniform Latin square. Put
+\[
+ D=\lfloor n^{1/200}\rfloor,\qquad \ell=2+\lceil\log_2(2n)\rceil,
+ \qquad J=\one\one^\mathsf{T}/n,\qquad V_d=n!(d/n)^n.
+\]
+Write $\beta_d=d(1-1/d)^{d-1}$ for $d\ge2$, $\beta_1=1$,
+and $L_d=d!\beta_d^{n-d}$. The degree-sensitive permanent inequality of Gurvits \cite{Gurvits,LS} gives $W(A)\ge L_d$ for every $d$-regular board. The van der Waerden and Br\'egman bounds give $V_d\le W(A)\le(d!)^{n/d}$.
+
+The proof uses three comparisons, with constants independent of $n$ and of the target:
+\begin{align}
+ X_n&=n^{-1}(n!)^{2n}n^{-n^2}(2\pi n/e)^{n/2},
+ &\prod_{d=1}^n m_d&=\Theta(X_n),\label{eq:scale}\\
+ |\cL_n|&\ge c\prod_{d=1}^n m_d,
+ &\sup_{S\in\cL_n}\E_{R_S}\log T&\le\log X_n+O(1).\label{eq:countlb}
+\end{align}
+Here $R_S$ is a normalized law of auxiliary histories for a prescribed square, and $T$ is its probability divided by the forward probability of proposing that decorated square. These means need not be computed by the algorithm. The second comparison, Proposition~\ref{prop:count-lower}, counts surviving paths of the uniform and matching-biased board measures. The last, Proposition~\ref{prop:mean-cover}, is a bound on \emph{every} square; it could not be replaced by an average over the outputs of the forward algorithm. Together they allow a single upward-rounded rational threshold $H=\Theta(X_n)$, for which $H/|\cL_n|=O(1)$ and $\E_{R_S}\log(H/T)\ge0$. They also show $|\cL_n|=\Theta(X_n)$: by Jensen, $H\sum_w Q(S,w)\ge1$ for each $S$, where $Q$ denotes the forward subprobability, and the forward masses sum to at most one. This gives no asymptotic equivalence with a specified multiplicative constant.
+\subsection{Local statistics of a decreasing board}
+For a fixed simple bipartite graph $H$ with $e$ edges, let
+\[
+  \alpha_H=\sum_{v\in V(H)}\binom{\deg_H(v)}2.
+\]
+In an application $H$ has fixed labeled distinct vertices on each shore. The case of isolated vertices is understood by adjoining their arbitrary distinct labels. Write $\inj(H,A)$ for the number of injective shore-preserving embeddings. A healthy $s$-regular board satisfies $\|A/s-J\|_{2\to2}\le\ell^3/\sqrt{s}$.
+
+The analytic expansion in Proposition~\ref{an:expansion}, obtained from the centered rook representation (cf.\ \cite[Sec.~3]{DW}), expresses $\log W(A)-\log V_s$ on healthy boards as a deterministic fixed sum of normalized finite graph counts, a common correction $\tfrac12(1/s-1/n)$, and an error
+\begin{equation}\label{eq:residual}
+ O\!\left(\ell^{C}/s^2+1/(s\sqrt n)+n^{-5}\right).
+\end{equation}
+The fixed truncation order may be large. For $s\ge D$, choose it so that $n(C_h\ell^{C})^h/s^h$ is $O(n^{-5})$. All-forest terms are degree determined. For the other terms, after multiplying by $n^{-a}s^{-j}$, the reference magnitude $n^{-a}s^{-j}(n)_{v_L}(n)_{v_R}(s/n)^e$ is bounded by a constant. Here $(u)_k=u(u-1)\cdots(u-k+1)$. The gradient estimate, for any allowed edge $f$ under a uniform matching $M$, is
+\begin{equation}\label{eq:gradient}
+ \Pr(f\in M\mid A)=s^{-1}+O(\ell^Cs^{-5/2}+n^{-A_0}),
+\end{equation}
+where the fixed exponent $A_0$ can be chosen as large as necessary. Two disjoint pins occur with probability $s^{-2}(1+O(\ell^C/s))$, and any fixed $k$ disjoint pins with probability at most $C_k/s^k$. These are estimates on an actual perfect matching, not on independent edges.
+
+For a surviving embedding, inclusion--exclusion up to triples gives the probability of surviving the next deletion, divided by $(1-1/s)^e$, as
+\[
+  1-\alpha_H/s^2+O_H(\ell^C/s^{5/2}+n^{-A_0}).
+\]
+Only disjoint pairs can disappear together, explaining the coefficient. Iterating yields
+\begin{equation}\label{eq:surv}
+ \Pr_{Q_s}(H\subseteq A)/(s/n)^e
+       =1-\alpha_H(1/s-1/n)+O_H(\ell^C/s^{3/2}).
+\end{equation}
+An exceptional unhealthy board has probability $O(n^{-A_0})$ by stopped matrix concentration \cite[Cor.~7.5]{Tropp}: in the normalized residual, one deletion contributes a martingale increment of norm at most $2/(s-1)$; the conditional drift from \eqref{eq:gradient} is $O(\ell^C s^{-5/2})$. Up to degree $s$ its variance parameter is $O(1/s)$ and the total drift is $O(\ell^C/s^{3/2})$. Matrix Azuma applied to the self-adjoint dilation, with a union bound over degrees, closes the healthy stopping threshold. With fixed templates $A_0$ can absorb all inverse powers introduced by dividing a pin probability by $(s/n)^e$.
+
+The finite coefficients in this expansion and the common first correction are used in the proof, not as numerical surrogates for the subsequent exact coins.
+\input{calibration-v2}
+\input{coverage-v2}
+\input{lookahead-cubic}
+\input{flattening-v2}
+\input{complexity-v2}
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+For sufficiently large $n$, run the proposal of Sections~\ref{sec:coverage}--\ref{sec:lookahead-cubic} with the multiscale tests of Lemma~\ref{gate:multiscale-v2}, repeating independent trials until one returns a square. Proposition~\ref{prop:mean-cover}, Lemma~\ref{lem:midpoint} and Proposition~\ref{prop:count-lower} give both hypotheses \eqref{gate:hyp-v2} for a fixed upward-rounded multiple of $X_n$. The multiscale lemma gives a common strictly positive mass for each target in a trial, so repetition terminates almost surely and is exactly uniform. Lemma~\ref{gate:binary-v2} implements its tests with exact matching samples; Proposition~\ref{prop:runtime} bounds the total work. For the finitely many smaller orders, independent uniform permutation rows conditioned on column distinctness give an exact sampler by rejection. The cyclic Latin square shows positive acceptance at every such order.
+\end{proof}
+
+\section*{Acknowledgment}
+The author provided the problem specification and research direction. Six OpenAI GPT-6.2 Astra research agents contributed to proof development, internal cross-checking, exposition and reference code.
+\appendix
+\input{analytic-appendix}
+\input{incidence-v2}
+\input{references}
+\end{document}

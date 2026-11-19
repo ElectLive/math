@@ -1,0 +1,156 @@
+\section{A finite expansion and a local derivative for a regular permanent}
+\label{an:appendix}
+We give the analytic details with a \emph{fixed} positive degree exponent. Constants in this section can depend on that exponent and on a fixed Taylor order, but not on the board. This suffices even at the smaller cutoff $n^{1/200}$. Write $F=A/d$, $J=\mathbf 1\mathbf 1^{\mathsf T}/n$, $B=F-J$, $V_d=n!(d/n)^n$, $\ell=2+\lceil\log_2(2n)\rceil$, $\sigma=\|B\|_{\rm op}$ and $U=\|B\|_F^2=n/d-1$. All transposes in formal identities are transposes, not conjugate transposes. A mixed template is a finite connected bipartite multigraph, with each edge carrying kernel $F$ or $J$. Its value is the product of its kernels summed over every vertex label on its prescribed shore, without any inequalities on labels. Labels at different vertices are free even if their vertices belong to the same shore.
+
+\begin{proposition}\label{an:expansion}
+Fix $a>0$ and $m>0$. If $d\ge n^a$, $\sigma\le\ell^3/\sqrt d$, there is an explicitly generated fixed rational combination $P_A(z)$ of connected mixed templates times monomials in $z$, approximating the centered log rook polynomial as in (A6). There is another fixed combination $\Psi_A$ of the same kind (without $z$) for which
+\[
+ \log(\operatorname{per} A/V_d)
+ =\Psi_A+\frac{U}{2n}
+ +O_{a,m}\left(n^{-m}+\frac{\ell^{C_{a,m}}}{d^2}
+                           +\frac{1}{d\sqrt n}\right).
+ \tag{A1}
+\]
+In particular the last error is summable $o(1)$ over $d\ge n^a$ if $m>2$. The template lists, coefficients, and exponents depend only on $a,m$. For every allowed edge $e$, its probability $p_e$ in the \emph{uniform} perfect matching satisfies
+\[
+       p_e=d^{-1}+O_{a,m}(\ell^{C_{a,m}}d^{-5/2}+n^{-m}).
+       \tag{A2}
+\]
+\end{proposition}
+
+\paragraph{Rooks, a centered covariance and an absolutely convergent gas.}
+Let $r_j(B)$ be the sum of the permanents of $j$-by-$j$ submatrices, and $R_B(z)=\sum_j r_j(B)z^j$. Classical rook expansion around $J$ gives
+\[
+ \operatorname{per}(F)/\operatorname{per}J
+  =\sum_j\frac{n^j}{(n)_j}r_j(B)=\mathbb E R_B(1/X),
+ \qquad X\sim\operatorname{Gamma}(n+1,\text{rate }n).
+ \tag{A3}
+\]
+Indeed one chooses the rows and columns on which $B$ is used and the other entries all equal $1/n$; the negative moment of $X$ is $n^j/(n)_j$. Put
+\[
+ \Omega=\begin{pmatrix}0&B\\ B^{\mathsf T}&0\end{pmatrix},
+ \qquad \Gamma=z\Omega(I+z\Omega)^{-1},\quad
+ f(w)=(1+w)e^{-w+w^2/2},\quad g(w)=f(w)-1.
+\]
+The analytic Wick identity of Divoux--Wang \cite[Sec.~3]{DW}, in this notation, reads
+\[
+ R_B(z)=\det(I-z^2B^{\mathsf T}B)^{-1/2}\,
+               Z,\qquad Z=\mathbb E\prod_{i=1}^{2n}f(\xi_i),
+ \quad \mathbb E\xi_i\xi_j=\Gamma_{ij}.                    \tag{A4}
+\]
+The branch at zero is used. For completeness the formal covariance $z\Omega$ in $\mathbb E\prod(1+y_i)$ pairs a subset of lefts and rights, giving precisely the rooks. The contractions of $\sum_i y_i$ with every variable vanish since $\Omega\mathbf1=0$. On introducing $e^{-\sum y_i^2/2}$ against $\prod f(y_i)$, Gaussian square completion gives updated covariance $\Gamma$ and factor $\det(I+z\Omega)^{-1/2}$, as displayed. Wick convergence below justifies the formal operations for the small norms in use.
+
+For $|z|\le 3/2$, $\|\Gamma\|_{\rm op}\le C\sigma$, $\max_{ij}|\Gamma_{ij}|\le C/d$, and both absolute row and column sums are at most $C_a$. To see the last assertion, each nonzero shore block of $\Omega^t$ is an alternating stochastic product of $F,F^{\mathsf T}$ minus $J$; its absolute row sums are at most two. Sum the first $\lceil 8/a\rceil+10$ powers by this fact and the remaining powers by the row-norm bound $\sqrt{n/d}\,\sigma^{t-1}$. For $t\ge2$ an individual entry costs $\sigma^{t-2}/d$ by the two endpoint Euclidean norms.
+
+One may use extra independent circular Gaussian noise in (A4): holomorphic moments are determined by the complex symmetric pseudo-covariance $\Gamma$. Choose a realization with Hermitian covariance $2b I$ where $b>\|\Gamma\|_{\rm op}$ and $b=O(\sigma)$; the real covariance is
+\[
+ \tfrac12\begin{pmatrix}2b I+\Re\Gamma&\Im\Gamma\\
+                    \Im\Gamma&2b I-\Re\Gamma\end{pmatrix}.
+\]
+Its eigenvalues lie in $[b/2,3b/2]$. These bounds remain true when site blocks of the real covariance are Schur multiplied by a positive semidefinite correlation matrix: the Schur map is positive and unital. The representation applies as well to symmetric, nonnormal complex pseudo-covariances. For $\sigma=0$ the relevant identities at the unperturbed matrix follow directly or by continuity.
+
+For a set $S$ of distinct sites write $w(S)$ for the joint cumulant of $g(\xi_i),i\in S$. The moment--cumulant identity gives the \emph{hard-core} partition function $Z=\sum_{\mathcal C}\prod_{S\in\mathcal C}w(S)$ over unordered pairwise disjoint nonempty supports and the empty family. For $v=|S|\ge2$ its activity is exactly
+\[
+ w(S)=\sum_{\tau\ {\rm tree\ on}\ S}\prod_{ij\in\tau}\Gamma_{ij}
+ \int_{[0,1]^{v-1}}\mathbb E\prod_{i\in S} g^{(\deg_\tau i)}(\eta_i)\,du .
+ \tag{A5}
+\]
+In the forest interpolation formula \cite{AR}, let $S_{ij}(u)$ be the minimum parameter on the tree path between $i$ and $j$ (diagonal one); the covariances of $\eta$ are the original site blocks times $S_{ij}(u)$. This matrix is the integral of the component-equivalence matrices in thresholded forests and is therefore a correlation matrix. To prove (A5) for polynomials, the cumulant selects connected Wick pairings. Give the nonloop slot-pairs independent continuous uniform priorities. Mark their unique maximum spanning tree. Conditional on its priorities an omitted nonloop $ij$ must have priority below the minimum on its tree path, giving exactly $S_{ij}(u)$. Loops have factor one. Selecting the incident distinguished slots produces the derivatives at each site; tree neighbors distinguish the incident slots and there is no extra local factorial. Summing and integrating recovers each connected pairing once. For the entire $g$ and its derivatives use Taylor truncation: the absolute power-series majorants at each coordinate are bounded by $C_k e^{C|w|^2}$ at any fixed derivative order. Gaussian exponential integrability follows from the small operator norm for each finite system, uniformly in the weakening; this proves the limit including singular covariance cases.
+
+Gaussian H\"older \cite[Thm.~1]{CDP} (the block covariance-domination form of Gaussian Brascamp--Lieb) applies with an absolute exponent at each site, by the real covariance bounds above. Cauchy's estimate at radius $\sqrt{k}$, together with the third-order zero at zero for $g$, gives
+\[
+ |g^{(k)}(w)|\le C^{k+1}\sqrt{k!}\,|w|^{(3-k)_+}e^{C|w|^2}.
+\]
+For $k\le2$ divide by the known zero before applying Cauchy; for $k\ge3$ use $k!k^{-k/2}e^{Ck}\le C'^k\sqrt{k!}$. Gaussian absolute moments at a site give $\|g^{(k)}(\eta_i)\|_{p_i}\le C^{k+1}\sqrt{k!}\,\sigma^{(3-k)_+/2}$. On a tree $\sum_i(3-\deg_\tau i)_+\ge v+2$. Sum labels outward fixing a prescribed root, dropping distinctness for this absolute bound. The row sums cost $C_a^{v-1}$. By Pr\"ufer coding, the sum of $\prod_i\sqrt{k_i!}$ over labeled trees divided by $(v-1)!$ is at most $[\sum_{j\ge0}\sqrt{(j+1)!}/j!]^v$. Thus the rooted total for all $|S|=v$, even with weight $e^{2v}$, is at most $(C_a\sqrt{\sigma})^v\sigma$.
+
+There is a complementary bound for fixed $v$. For $E$ paired edges the sum of slot/valence multiplicities before labels is at most
+\[
+ (2E-1)!!\,[x^{2E}]\left(\sum_{h\ge3}|[w^h]g(w)|x^h\right)^v
+ \le (Cv)^{C(E+1)}
+\]
+by evaluation at $x=\sqrt{E/v}$ and the Gaussian-type series majorant. A rooted spanning tree of the pairing graph costs $C_a^{v-1}$; each of the other $q=E-v+1$ edges costs $C/d$. Always $q\ge2$ and $v\le2(q-1)$, including a singleton whose nonzero Wick degree must be even and at least four.
+
+\paragraph{Finite, enumerable connected truncation.}
+Fix an integer $h$ sufficiently large in terms of $a,m$. Discard supports with more than $8h$ sites using (A5), and on smaller supports discard diagrams with $q\ge h$ using the fixed-site bound and the geometric tail in $E$. The rooted absolute errors, including $e^{2v}$, are at most $C_{a,h}\ell^{C_h}d^{-h}$. The full rooted sum is $o(1)$: for example separate the fixed small supports through $16$ with bound $O_a(d^{-2})$ and the larger tail using (A5). If $\sum_{S\ni i}|w(S)|e^{2|S|}<1/10$, removing a site gives $|Z_U/Z_{U\setminus\{i\}}-1|<1/5$ by induction on $|U|$: group the configurations by the unique support containing $i$ and use the earlier site ratios along its other sites. In particular $Z$ is nonzero and $|\partial\log Z/\partial w(S)|=|Z_{\bar S}/Z|\le e^{|S|}$. Interpolate linearly between exact and truncated activities to bound their log difference by $O_{a,h}(n\ell^{C_h}d^{-h})$.
+
+Next weight each remaining diagram by $u^q$. On $|u|\le d/C_{a,h}$ the rooted weighted sum is still small, by the fixed-site bound and $q<h$. Thus the log of the gas there is $O(n)$ by the same induction. Its terms with total degree in $u$ at least $h$ cost $O_{a,h}(n/d^h)$ at $u=1$. For every retained monomial the support-intersection graph is connected: on setting all other activity indeterminates to zero disconnected groups factor, and their mixed log coefficient vanishes. Repeated occurrences of the same support are counted as overlapping. Enumerate the finite set of slot pairings and site-equality patterns using ordinary Taylor expansion of $\log(1+y)$ to degree $h-1$. Remove inequalities among the surviving labels by partition-lattice M\"obius inversion. The result consists of connected sums with at most $3h$ factors $\Gamma_{ij}$, allowing loops. This is a finite rational construction, not a summation over actual vertex labels by the sampler.
+
+Replace each propagator by its first $M=2h+5$ powers of $z\Omega$. The error matrix has max entry $O(C^M\sigma^{M-1}/d)$ and operator norm $O(C^M\sigma^{M+1})$. For an error edge not a bridge choose a spanning tree avoiding it and use the max entry; for a bridge separate the two rooted sides, whose entry suprema are $O_{a,h}(1)$, and use the operator norm between the two vectors. In either case the free-root factor is at most $2n$ and the total error is $O_{a,h}(n\ell^{C_h}/d^h)$. This is done \emph{after} label inequalities are removed. Expand each power into alternating bipartite paths of $B$ and its transpose and each $B=F-J$; new internal vertices are unrestricted. The determinant half-log has terms $z^{2k}\operatorname{tr}[(B^{\mathsf T}B)^k]/(2k)$ for $1\le k<h$, with tail $O_h(U\sigma^{2h-2})$. These are connected cycles. We have constructed $P_A$ with
+\[
+ \sup_{|z|\le3/2}|\log R_B(z)-P_A(z)|\le C_{a,h} n\ell^{C_h}/d^h .
+ \tag{A6}
+\]
+One may slightly enlarge the fixed disk first when invoking Cauchy at its boundary. Take $h$ such that this error is $O(n^{-m-4})$. Since $a>0$ this needs only a fixed $h$.
+
+\paragraph{The real Gamma tilt.}
+For complex zero-sum $B$, $|r_k(B)|\le\|B\|^k r_k(I-J)$: write $k!r_k(B)=\langle u,B^{\otimes k}u\rangle$ for the indicator $u$ of ordered injective $k$-tuples and project on both sides by $(I-J)^{\otimes k}$. Also $\sum_k n^k r_k(I-J)y^k/(n)_k=\operatorname{per}(J+y(I-J))/\operatorname{per}J\le e^{Cny^2}$ for $0\le y\le1/2$: expanding $(1-y)J+yI$ gives $(1-y)^n\sum_{k=0}^n(ny/(1-y))^k/k!$. Hence the signed Gamma mass outside a fixed small band $I$ about one is exponentially small: for $k<cn$ use the Gamma$(n+1-k,n)$ tail after reweighting by $X^{-k}$; for $k\ge cn$ extract $2^{-cn}$ in the tensor bound at $2\|B\|$. Here $\|B\|=o(1)$ and $c>0$ can be chosen smaller than the bandwidth. On real $I$, $R_B(1/x)>0$ by (A4) and zero-freeness connected to $z=0$; $\operatorname{per}F/\operatorname{per}J\ge1$ ensures the discarded absolute tail is negligible relatively. Replace $\log R_B(1/x)$ by $P_A(1/x)$ there.
+
+Write $L(x)=P_A(1/x)$. The determinant's quadratic term is $U/(2x^2)$. Its higher terms have size $O(U\sigma^2)$ on a fixed larger band; the gas log is $O_a(n/d^2+n(C_a\sqrt{\sigma})^{17}\sigma)$. Consequently $L(x)=U/(2x^2)+E(x)$ with $\sup_I|E^{(j)}|\le C_{a,h}n\ell^{C_h}/d^2$, $j\le3$, by Cauchy on a smaller fixed band. For formal scalar $s$ let
+\[
+ t=\frac{sP_A'(1/(1-t))}{n(1-t)},\qquad
+ \Phi(s)=n\{\log(1-t)+t\}+sP_A(1/(1-t)).
+\]
+On $|s|\le d/C_{a,h}$ this is a contraction on a fixed small disk in $t$, since $|P_A'|+|P_A''|=O_a(n/d)$ there. $\Phi$ is analytic and bounded by $O(n)$, so Taylor through order $h-1$ at $s=1$ costs $O_{a,h}(n/d^h)$. The coefficients are obtained by Lagrange inversion or truncated rational power-series arithmetic: $\Phi'(s)=P_A(1/(1-t(s)))$ and, for $j\ge2$,
+\[
+ [s^j]\Phi=\frac{[y^{j-2}](P_A'(1/(1-y)))^j(1-y)^{-j-1}}{j(j-1)n^{j-1}} .
+\]
+Join $j$ connected graphs by $j-1$ constant $J$ edges, each joining named opposite-shore vertices of consecutive graphs, to implement $n^{1-j}$ exactly without identifying vertices. This constructs $\Psi_A$.
+
+At $s=1$ put $x_* =1-t=1-U/n+O(\ell^{C_h}/d^2)$. Changing rate to $n/x_*$ gives correction, beyond $e^{\Phi(1)}$,
+\[
+ x_*\,\mathbb E[ e^{G(Y)}\mathbf1_{\{x_*Y\in I\}}],\quad
+ Y\sim\operatorname{Gamma}(n+1,n),\quad
+ G(Y)=L(x_*Y)-L(x_*)-x_*L'(x_*)(Y-1).
+\]
+Here $L'(x_*)=n(1-1/x_*)$. On the retained band $|G|\le C(n/d)(Y-1)^2$. Its mean there equals $\tfrac12 x_*^2 L''(x_*)(1/n+2/n^2)+O(1/(d\sqrt n))$ since the centered third absolute moment is $O(n^{-3/2})$. The log moment differs from its mean by $O(1/d^2)$, using $\mathbb E[(Y-1)^4 e^{C(n/d)(Y-1)^2}\mathbf1_{\{x_*Y\in I\}}]\le C/n^2$ from Gaussian tail bounds for the Gamma density \emph{on this band}. Tails of the ordinary moments are exponentially small. Thus $\log x_*=-U/n+O(\ell^{C_h}/d^2)$ and the curvature contributes $3U/(2n)+O(\ell^{C_h}/d^2+1/(d\sqrt n))$. This gives (A1), including the sign of its common correction. One cannot charge an unspecified graph-dependent $O(1/d)$ in a comparison of two path laws requiring $o(1)$ total error.
+
+\paragraph{A balanced tangent and a rooted derivative.}
+For allowed edge $e=(i,j)$ put $r=e_i/d$, $c=e_j/d$ as column vectors, and solve on the mean-zero subspace
+\[
+ u=(I-FF^{\mathsf T})^{-1}(r-Fc),\quad v=c-F^{\mathsf T}u,\qquad
+ T_{xy}=F_{xy}(\mathbf1_{\{(x,y)=e\}}-u_x-v_y)
+\]
+for all row and column indices $x,y$. Then $T$ has zero row/column sums, is supported on $A$, and $\|T\|_{\rm entry,1}:=\sum_{ij}|T_{ij}|\le C_a/d$. Indeed bound the first $\lceil4/a\rceil+10$ Neumann powers in $\ell^1$ by stochasticity and the remaining ones by $\sqrt n\sigma^{2k}$ on the centered right-hand side. Summing the potentials along an arbitrary perfect matching and using $\sum u+\sum v=1/d$ gives
+\[
+ \left.\partial_\theta\log\operatorname{per}(F+\theta T)\right|_0=p_e-1/d,\qquad
+ \langle B,T\rangle=0 .
+\]
+The latter equality holds since $B$ is constant on the support and $\sum T_{ij}=0$.
+
+Apply (A4) to this affine perturbation for $|\theta|\le n^{-6}$ with complex coefficients. Both matrices remain centered after subtracting $J$; absolute row/column sums of $F_\theta$ are at most $1+O(n^{-6})$. In the earlier bounds use $\rho=2\ell^3/\sqrt d$ in place of $\sigma$ and the same initial finite number of alternating powers. The isotropic-noise representation above proves holomorphy of all site moments by Wick and Taylor convergence for these complex perturbations; it is not necessary to differentiate a matrix absolute value or the law of a nonholomorphic covariance realization.
+
+The derivative of the determinant half-log is
+$\sum_{k\ge1}z^{2k}\langle B(B^{\mathsf T}B)^{k-1},T\rangle$.
+Its first term vanishes. The two endpoint Euclidean norms for the others bound each entry by $\sigma^{2k-3}/d$, hence total $O(\sigma\|T\|_{\rm entry,1}/d)$. For the gas use
+$\partial\log Z=\sum_S (\partial w(S)) Z_{\bar S}/Z$. The rooted absolute activity on supports larger than a fixed $v_0=v_0(a,m)$ costs $O(n^{-m-10})$ even after summing over all roots, by (A5) uniformly on $|\theta|=n^{-6}$. Cauchy under the contour integral gives derivative tail $O(n^{-m-4})$. For smaller supports differentiate the absolutely convergent Wick pairings. The distinguished factor is
+\[
+ \Gamma'=(I+z\Omega)^{-1}z\Omega'(I+z\Omega)^{-1},
+ \quad \|\Gamma'\|_{\rm entry,1}\le C_a\|T\|_{\rm entry,1},
+ \quad \sum_i|\Gamma'_{ii}|\le (C_a/d)\|T\|_{\rm entry,1}.
+\]
+For the diagonal bound expand $(I+z\Omega)^{-1}=I-\Gamma$ on both sides. $\Omega'$ has zero diagonal; any nonzero diagonal convolution costs one maximum entry $C/d$ and, if necessary, one absolute row sum $C_a$. For a distinguished nonloop use a spanning tree containing it: sum both endpoints using the total entry norm, and all $q=E-v+1\ge2$ remaining chords cost $C/d$. For a distinguished loop the root sum uses the diagonal bound and the other $q-1$ chords provide the remaining powers. The fixed-$v$ slot bound above thus sums, including the $E$ choices for the differentiated pair, to $O_{a,m}(\|T\|_{\rm entry,1}/d^2)$. With the hard-core derivative bound this controls the log gas uniformly on the central band.
+
+Do \emph{not} differentiate an uncontrolled saddle remainder. Integrate the log-rook derivative on the positive real central Gamma band, dividing by $\operatorname{per}F/\operatorname{per}J\ge1$. The exterior integral is holomorphic in $\theta$ and bounded in absolute value by $e^{-cn}$ on its $n^{-6}$-circle by the tensor projection argument, so contributes at most $n^6e^{-cn}$ to the derivative. Combining the bounds just obtained proves (A2).
+
+\paragraph{From one edge to a common template reference.}
+We record details used at two different places in the counting and coverage proofs. In a healthy $s$-regular board at $s\ge n^a$, for any bounded list of already pinned disjoint edges, the conditional probability for one more allowed disjoint edge is $(1+O_a(1/s))/s$ (only its upper bound is needed after the second pin). In the matching-contracted graph a loopless transition matrix is $(A M^{-1}-I)/(s-1)$, centered norm $\sigma'=O(\ell^3/\sqrt s)$, maximum entry $(s-1)^{-1}$. Powers of a sufficiently large \emph{constant} length have all entries $(1+O(n^{-10}))/n$. To insert the missing edge, count simple paths back from its column-owner to its row of length $h-1$ and switch the closed alternating cycle; to remove it count length-$h$ simple cycles rooted at its row. For an internal repetition with shorter loop of length $j\ge2$ its probability relative to the conditioned endpoint is $O_a(1/s+1/n)$: bound the loop diagonal by $1/n+\sigma'^{j-2}/(s-1)$ and use mixing on the longer exterior chain. For a long loop use its $O(1/n)$ diagonal and the remaining short path bound $O(1/s+1/n)$, excluding the forced endpoint coincidence. Hits to a pinned row are bounded by mixing one side and $O(1/s)$ for the other; neither endpoint is a pinned row. There are $O_a(1)$ positions. This gives the asserted switch ratio. Conditional on distinct specified cells still present, (A2) therefore applies to each unconditioned singleton, joint disjoint pairs have probability $s^{-2}(1+O_a(s^{-1}+\ell^C/s^{3/2}))$, and triples have probability $O_a(s^{-3})$.
+
+If $H$ is any fixed injective simple pattern with $e$ edges, set $\alpha=\sum_v\binom{\deg_H v}{2}$. Three-term Bonferroni for removal of the next matching gives survival, relative to $(1-1/s)^e$, of
+$1-\alpha/s^2+O_{H,a}(\ell^C/s^{5/2}+n^{-m})$. Iterating from the full board gives the normalized mean
+\[
+ \frac{\mathbb E\operatorname{inj}(H,A_d)}{d^e}
+ =\frac{(n)_{v_L}(n)_{v_R}}{n^e}
+ \left[1-\alpha(1/d-1/n)+O_{a,H}(\ell^C/d^{3/2})\right]
+ +\text{negligible error}.
+\]
+For fixed $H$ choose the spectral-failure exponent greater than $2e+2m+20$. Spectral goodness for the decreasing chain follows by stopping the bounded-increment martingale for $A_s/s$: conditional expectation of its drift has operator norm $O_a(1/s^2)$ while the coarser switch estimate holds on a healthy board (when only $\sigma\le1/2$ is known, use $O(\ell)$ switch length and $O(\ell^2/s^2)$ drift). The increment squares sum to $O(1/d)$, so matrix bounded differences plus union over $d\ge n^a$ ensure the claimed $\sigma$ bound and prevent exit. For a random $d$-subset of any fixed target's row permutations, matrix Bernstein on independent inclusion at rate $d/n$ followed by conditioning on subset size $d$ (cost $\le n+1$) gives the same bound. Only fixed patterns occur here.
+
+Removing all $J$-edges of a connected mixed template gives $c$ components with $c\le a_0+1$ if $a_0$ such edges were removed. Retain the original $d^{-j}$ even if parallel $A$ edges are suppressed. Split assignments by exact partitions on each shore; whenever an injective forest occurs, use its unrestricted hom sum $n^{c'}d^{e'}$ minus nonidentity quotients. Quotient chains shorten strictly. Thus all terms are exact forests or $n^{-a_0}d^{-j}\operatorname{inj}(H,A)$ for cyclic simple $H$. On the latter $j\ge e$, $n^{-a_0}(n)_{v_L}(n)_{v_R}/n^e\le1$ since $e-v+c\ge1$. Inserting the preceding normalized mean gives the polynomial-time computable signed-template scalar used for $\mu_{\rm hi}$; determinant, true Gamma correction and $V_d$ factors are not discarded.
+
+For the corresponding row subset of one \emph{fixed} square, write $P_s=(d)_s/(n)_s$, $N_H=(n)_{v_L}(n)_{v_R}$, $t=e-b$ for an equality partition $\rho$ of the row names on its edges using $b$ names, $M_\rho$ its number of labeled embeddings, and $m_2(\rho)=\sum_{C\in\rho}\binom{|C|}{2}$. Exactly
+\[
+ \mathbb E\operatorname{inj}(H,A_d)=
+ N_H\left[P_e+\frac{\binom e2-\alpha}{n-1}(P_{e-1}-P_e)\right]
+ +\sum_{t\ge2}\bigl(P_b-P_e-m_2(\rho)(P_{e-1}-P_e)\bigr)M_\rho.
+\]
+A pair of disjoint edges in a uniformly injected placement has equal names with probability exactly $1/(n-1)$ (fix both left images and one right image); adjacent pairs never do. This proves the identity including both signs. Dividing the bracket by $(d/n)^e$ gives the same $1-\alpha(1/d-1/n)+O_H(d^{-2})$. For each residual term, of either sign, the absolute multiplier is at most $(2+e^2)P_b$. Normalize and sum over $d>D$: if $X_\rho$ is the number on $b$ uniformly assigned distinct colors, the cost is at most $O_H(D^{-1})n^{-a_0}\mathbb E X_\rho$, since $M_\rho=(n)_b\mathbb E X_\rho$ and $j-b\ge2$. A connected colored component extends from a chosen root uniquely if at all. Choose a simple cycle in a cyclic component: all other components cost at most $n^{c-1}$ and its own component is determined by the rooted cycle. Thus this is at most $O_H(D^{-1})\mathbb E X_C$ for the selected colored cycle. A singleton color on $C$ bounds its expected count by $n/(n-b+1)$ by conditioning on the other colors and solving its closing edge. Otherwise every color on $C$ repeats; the finite polygon marking construction in the main text pays it. There are only a fixed number of patterns, so these costs can be aggregated even on the same word. This comparison concerns \emph{signed means} of the actual logarithmic score, not independent Poisson assumptions about overlapping motifs.

@@ -1,0 +1,38 @@
+\section{Proposing histories for a fixed square}\label{sec:coverage}
+In this section $S$ is a \emph{fixed} labeled target. Each row is a color on the complete bipartite graph: edge $(i,j)$ has the unique color of the row placing symbol $j$ in column $i$. Write $T_b$ for the union of a uniform $b$-subset of its row colors. A proposal first draws a uniform order of the labeled rows. The reverse experiment on $S$ draws the same kind of order, independently, and then its specified auxiliary marks. Failed or conflicting trials are null outcomes; a step is not conditioned on passing its checks. This distinction determines the normalization.
+
+\subsection{Paying for colored cycles}
+We give the details by which the signed finite-pattern bounds become an algorithm. For an injective simple pattern $H$, let $N_H=(n)_{v_L}(n)_{v_R}$ and let $P_j=(d)_j/(n)_j$. An embedding partitions its $e$ edges by equality of their Latin row colors. For a partition $\rho$ let $M_\rho$ be the number of embeddings realizing precisely this partition, $b=|\rho|$, $t=e-b$, and $m_2(\rho)=\sum_{B'\in\rho}\binom{|B'|}{2}$. There are $u=\binom e2-\alpha_H$ disjoint pairs of edges. For a pair of disjoint edges the number of complete-board injections giving them the same color is exactly $N_H/(n-1)$: once their two left endpoints and the first right endpoint are fixed, exactly one of the remaining right endpoints works. Consequently
+\begin{align}
+\E\inj(H,T_d)={}&N_H\left[P_e+\frac{u}{n-1}(P_{e-1}-P_e)\right]\nonumber\\
+ &+\sum_{\rho:t\ge2}
+  [P_b-P_e-m_2(\rho)(P_{e-1}-P_e)]M_\rho.\label{eq:partition}
+\end{align}
+The first line has the same first-order correction $1-\alpha_H(1/d-1/n)$ as \eqref{eq:surv}, with relative remainder $O_H(d^{-2})$. The remaining coefficients may have \emph{either} sign; in absolute value they are at most $(2+e^2)P_b$.
+
+Delete the $a$ mean-kernel edges of a connected mixed template. Suppose the surviving injective simple graph has $c$ components, $e$ edges, and $j\ge e$ original non-mean edge factors. Then $c\le a+1$. Forests are eliminated by their exact homomorphism counts $n^c d^e$, subtracting lower-vertex quotients to enforce injectivity. For a remaining cyclic $H$, select a simple cycle in one cyclic component. Once its colors are specified, an embedding of that component is determined by the image of a root; each other component contributes at most $n$ choices. For uniform distinct names of the $b$ colors, let $X_W$ count the injective rooted embeddings of the selected cycle with colored word $W$. The $t\ge2$ terms of \eqref{eq:partition}, after normalization by $n^{-a}d^{-j}$ and summation over $d>D$, are therefore bounded by
+\[
+  C_H n^{c-1-a}\sum_{d>D}d^{b-j}\,\E X_W
+                    \le C_H D^{-1}\E X_W .
+\]
+If the selected cycle contains a singleton color, its expected $X_W$ is bounded by $n/(n-b+1)$: each starting image and the other color names determine the one closing color, if it exists. Hence such terms cost only $o(1)$. Otherwise the word alternates between shores, is proper at each site and every color occurs at least twice. Only finitely many words occur at our fixed cutoff order. This argument works for disconnected patterns and does not replace their statistics by a product of independent cycle counts.
+
+\begin{lemma}[Marked polygon head]\label{lem:head}
+There exists a polynomial expected-work prefix experiment, of bounded physical length independent of $n$, such that the generic proposal obtained by appending ordinary uniform-matching deletions satisfies on every fixed target
+\begin{equation}\label{eq:generic}
+ \E_{\rm rev}\log T_{\rm gen}
+       \le \sum_{d>D}\log m_d+\sum_{b\le D}\E\log W(T_b)+O(1).
+\end{equation}
+Here $T_{\rm gen}$ is the ratio of the conditional reverse atom to its forward atom, including the marks. The experiment does not evaluate any of the target-dependent expectations in the display.
+\end{lemma}
+\begin{proof}
+Give every fixed necessary canonical cyclic word, the word $1212$, and the empty choice fixed positive probabilities. Here $1212$ is the four-cycle whose two alternating row colors are repeated. A word of length $2l$ using $b$ colors prescribes the first $b$ row slots, one per color. Write $e_j$ for its occurrences of color $j$. The marked objects consist of $m$ vertex-disjoint \emph{rooted, labeled} copies of this polygon together with raw permutations extending them. The total number is
+\[
+  Z_W=(n!)^b\sum_{m=0}^{\lfloor n/l\rfloor}
+   \frac{(n)_{ml}^2}{m!\prod_{j=1}^b(n)_{m e_j}} .
+\]
+Choose $m$ by these exact rational weights. Assign distinct vertices to the ordered copies on each shore and finish each row by a uniform permutation on the unassigned vertices; forget the order of copies. Every decorated object before veto has mass $1/Z_W$. Properness gives $e_j\le l$, hence the vector $(ml,ml,0,\ldots)$ majorizes $(m e_j)_j$. Concavity of $k\mapsto\log(n)_k$ gives $Z_W\le e(n!)^b$. Reject conflicting rows. Within the assigned rows compute a deterministic maximal vertex-disjoint packing $\mathcal P_W$ of realized labeled copies; reject decorations not contained in that packing. There are at most $n$ prospective root images for the fixed oriented word. Each packed copy conflicts with at most $(2l)^2$ others, since prescribing the image at any position determines a walk. Thus $X_W\le[(2l)^2+1]|\mathcal P_W|$.
+
+In reverse the marks are an independent fair subset of $\mathcal P_W$. Conditional on the public word, the head ratio is $Z_W/2^{|\mathcal P_W|}$; no tiny word probability is inverted. For all sufficiently large $n$, the fixed prior times its per-copy credit dominates the \emph{sum} of all $O_H(D^{-1})$ charges for that same word. Conditional on the word alone, the reverse marks sum to one, so each ordinary residual outside the prefix is the union of a uniform subset of target rows. The nonnegative charges for a truncated interval of degrees are bounded by those for the full interval. Replacing its missing ordinary top $b$ degrees by $b$ raw factorials costs only $O(b^2)$ by $W(A_{n-i})\ge n!(1-i/n)^n$. Combining these inequalities with \eqref{eq:partition}, the finite expansion and Lemma~\ref{lem:high-scalar} proves \eqref{eq:generic}.
+\end{proof}
+
