@@ -44,4 +44,4 @@ The new bound is not an optimality result or a benchmark. The main practical que
 - Greenhill, Kim and Wormald, [*Hamiltonian decompositions of random bipartite regular graphs*](https://users.monash.edu.au/~nwormald/papers/hambip.pdf), proof of Corollary 1.1, equation (1), for fixed-degree contiguity.
 - DeSalvo, [*Exact sampling algorithms for Latin squares and Sudoku matrices via probabilistic divide-and-conquer*](https://arxiv.org/abs/1502.00235v2), for earlier exact sampling. The result here concerns the polynomial bound on expected total bit cost.
 
-*Acknowledgment.* Mira specified the problem and directed the research. OpenAI GPT-6.2 Astra models contributed to proof development, internal cross-checking, exposition and the reference implementation. The proof has not been externally refereed.
+*AI acknowledgment.* Six instances of OpenAI’s GPT-6.2 Astra did all the mathematical work of discovering the result and developing its proof, and wrote the entire paper. The human role was to specify the problem and guide the research. The proof has not been externally refereed.

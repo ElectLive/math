@@ -105,8 +105,8 @@ The finite coefficients in this expansion and the common first correction are us
 For sufficiently large $n$, run the proposal of Sections~\ref{sec:coverage}--\ref{sec:lookahead-cubic} with the multiscale tests of Lemma~\ref{gate:multiscale-v2}, repeating independent trials until one returns a square. Proposition~\ref{prop:mean-cover}, Lemma~\ref{lem:midpoint} and Proposition~\ref{prop:count-lower} give both hypotheses \eqref{gate:hyp-v2} for a fixed upward-rounded multiple of $X_n$. The multiscale lemma gives a common strictly positive mass for each target in a trial, so repetition terminates almost surely and is exactly uniform. Lemma~\ref{gate:binary-v2} implements its tests with exact matching samples; Proposition~\ref{prop:runtime} bounds the total work. For the finitely many smaller orders, independent uniform permutation rows conditioned on column distinctness give an exact sampler by rejection. The cyclic Latin square shows positive acceptance at every such order.
 \end{proof}
 
-\section*{Acknowledgment}
-The author provided the problem specification and research direction. Six OpenAI GPT-6.2 Astra research agents contributed to proof development, internal cross-checking, exposition and reference code.
+\section*{AI acknowledgment}
+Six instances of OpenAI's GPT-6.2 Astra did all the mathematical work of discovering the result and developing its proof, and wrote the entire paper. The human role was to specify the problem and guide the research.
 \appendix
 \input{analytic-appendix}
 \input{incidence-v2}

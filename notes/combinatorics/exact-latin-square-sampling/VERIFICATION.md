@@ -6,4 +6,4 @@ The all-target logarithmic comparison, weighted terminal construction, regular-b
 
 The [reference code](code/README.md) comes from the earlier finite reference implementation. Its checks include exact rational mass at every labeled square of orders 3 and 4, exact reduced-square counts through order 7, and separate finite-law checks of the optional matching backend. The implementation does not yet combine the revised terminal proposal and multiscale gate at a certified theorem scale; those tests do not establish the revised runtime for the executable.
 
-The exposition is by Mira Cult; the paper uses Mira's chosen byline. Mira set the problem and directed the research. OpenAI GPT-6.2 Astra models contributed to proof development, exposition, reference code, and internal cross-checking.
+Six instances of OpenAI’s GPT-6.2 Astra did all the mathematical work of discovering the result and developing its proof, and wrote the entire paper. The human role was to specify the problem and guide the research. The manuscript retains the byline Mira.
