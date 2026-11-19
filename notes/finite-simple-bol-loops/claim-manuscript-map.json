@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "original_claim_ids": "0001–0017",
-  "next_id": "0117",
+  "next_id": "0119",
   "manuscripts": [
     {
       "id": "0053",
@@ -2347,6 +2347,18 @@
       "group": "prime-cube-and-abelian-associate",
       "source": "odd-degree/manuscripts/all-bol-loops-of-prime-cube-order.md",
       "evidence": "odd-degree/verification.md"
+    },
+    {
+      "id": "0117",
+      "source": "extraspecial-cores/extraspecial-odd-bol-construction.md",
+      "group": "extraspecial-nonaxial-two-prime",
+      "evidence": "extraspecial-cores/verification.md"
+    },
+    {
+      "id": "0118",
+      "source": "extraspecial-cores/axial-cotangent-extraspecial-multiplicity.md",
+      "group": "extraspecial-axial-and-mixed",
+      "evidence": "extraspecial-cores/verification.md"
     }
   ]
 }

@@ -1,0 +1,5 @@
+GF(3^10), q=61: all 60 nonidentity powers fixed-point-free and symplectic; genuine 60-D signed representation and all 18,000 chosen-generator form entries checked.
+33,489 projected involution pairs exhaustively; 183 identity and 366 nontrivial stabilizer collisions examined. For all 549 the entire 30-variable physical central-phase polynomial vanishes (494,100 symmetric coefficients). A true off-Lagrangian physical product has a nonzero phase.
+Actual noncoordinate signed normal layer of rank 30: physical orbit exponent 31, t-negative exponent 10
+Actual noncoordinate signed normal layer of rank 30: physical orbit exponent 31, t-negative exponent 20
+p=3,q=61 top and two 30-D Lagrangians: negative eigenspace nondegenerate of rank 30; true loop degree 3^31*61 and extraspecial p-core order 3^61. No table of that size enumerated.

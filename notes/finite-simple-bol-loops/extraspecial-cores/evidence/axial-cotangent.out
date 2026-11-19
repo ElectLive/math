@@ -1,0 +1,3 @@
+p,q,f,axial d,native d,common D: 3 7 6 12 18 36 ; native signed maps with all quadratic sheets zero: 21 ; actual distinct central obstruction pairs over nonzero rotations: 42 ; among k=3 mixed-block groups intrinsic fixed ranks [0, 36, 72, 108]
+p,q,f,axial d,native d,common D: 3 13 3 6 18 18 ; native signed maps with all quadratic sheets zero: 39 ; actual distinct central obstruction pairs over nonzero rotations: 78 ; among k=3 mixed-block groups intrinsic fixed ranks [0, 18, 36, 54]
+p,q,f,axial d,native d,common D: 5 31 3 30 30 30 ; native signed maps with all quadratic sheets zero: 155 ; actual distinct central obstruction pairs over nonzero rotations: 620 ; among k=3 mixed-block groups intrinsic fixed ranks [0, 30, 60, 90]

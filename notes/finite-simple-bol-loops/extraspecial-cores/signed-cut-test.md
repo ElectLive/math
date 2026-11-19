@@ -1,0 +1,13 @@
+# A signed-cut test for simplicity
+
+Let a finite odd-order group $`D`$ act faithfully on $`D/H`$ with a sharply transitive set of left translations $`K`$ generating $`D`$. Suppose the resulting loop is left Bol, an involutory automorphism $`t`$ of $`D`$ inverts $`K`$, and $`K`$ is the full set inverted by $`t`$. A sufficient test for simplicity is that every nontrivial proper $`t`$-stable normal subgroup $`C`$ of $`D`$ satisfies
+
+```math
+[C:C\cap H]>[C:C_C(t)].
+```
+
+Indeed, in any finite odd-order group with such an automorphism, every inverted element $`x`$ is $`u\,t(u)^{-1}`$: take the unique square root $`u`$ of $`x`$, which $`t`$ inverts. Conversely every $`u\,t(u)^{-1}`$ is inverted, and the fibers of the map $`u\mapsto u\,t(u)^{-1}`$ are the left cosets written $`uC_D(t)`$. This also proves that passing to a $`t`$-stable quotient sends all inverted elements onto the full inverted set of the quotient. The image of the fixed subgroup $`C_D(t)`$ in $`D/C`$ is the entire fixed subgroup there. To see this, write an odd fixed coset of $`C`$ as a set on which $`t`$ acts as an involution; its odd cardinality gives a fixed representative. Consequently the inverted-set cardinalities in $`D`$ and $`D/C`$ are in the ratio $`[C:C_C(t)]`$.
+
+If the loop is not simple, choose a maximal proper normal subloop containing a nontrivial one. Let $`S`$ be the resulting nontrivial simple quotient and $`\rho:D\to\operatorname{LMlt}(S)`$ the map sending each left translation to its corresponding quotient translation. Its kernel $`C`$ is proper and nontrivial: the translation by any nonidentity element of the normal subloop lies in $`C`$. The preimage of the quotient point stabilizer is $`HC`$: if $`g`$ sends the identity into the normal subloop, a translation in $`C`$ sends the identity to the same point.
+
+For a nonassociative simple Bol loop of odd order the Aschbacher automorphism of its left multiplication group inverts its left translations; see [Foguel, Kinyon and Phillips, the radical-free discussion preceding Theorem 6.23](https://arxiv.org/pdf/math/0208231). For an associative simple quotient of odd order the quotient is cyclic of prime order, and ordinary inversion works. Thus in both cases $`\rho\circ t`$ agrees on the generators $`K`$ with the quotient inversion automorphism composed with $`\rho`$. Hence $`C`$ is $`t`$-stable. The image $`\rho(K)`$ has exactly $`[D:HC]`$ elements because it is the translation set of $`S`$. The inverted-set cardinality ratio now gives $`[C:C_C(t)]=|K|/[D:HC]=[C:C\cap H]`$, contradicting the proposed strict inequality. This argument concerns a simple quotient and does not assume that every arbitrary quotient kernel is $`t`$-stable.

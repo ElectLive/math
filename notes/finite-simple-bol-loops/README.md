@@ -10,6 +10,10 @@ We seek a structural classification of **all finite simple Bol loops up to isomo
 
 The [least odd order](odd-degree/README.md) of a finite simple nonassociative left Bol loop is **1053**. Nagy constructed an example; the new argument rules out every smaller odd order. The same package gives [the complete list at order *p*³ for primes *p* ≥ 5](odd-degree/manuscripts/all-bol-loops-of-prime-cube-order.md), up to isomorphism and isotopy. Neither result asserts uniqueness at 1053. [Separate proof reviews and reproducible checks](odd-degree/verification.md).
 
+## Extraspecial cores at two-prime orders
+
+For every pair of odd primes *p*, *q* with *p* dividing *q* − 1, [an explicit construction](extraspecial-cores/README.md) gives simple proper Bol loops with extraspecial *p*-core in the left multiplication group. Mixing two kinds of representation gives [arbitrarily many pairwise nonisotopic loops at one order](extraspecial-cores/axial-cotangent-extraspecial-multiplicity.md). These are multiplicity lower bounds, not a census.
+
 <a id="latest-classification-advances-17-november-2026"></a>
 <a id="current-classification-checkpoint"></a>
 <a id="what-we-have-achieved"></a>
