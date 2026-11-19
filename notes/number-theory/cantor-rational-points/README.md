@@ -69,7 +69,7 @@ Indeed, shell $`2^j\le q<2^{j+1}`$ contributes at most a constant times $`2^{j(\
 A useful distinction appears at the logarithmic scale. Repeat the first $`n`$ trits of $`x`$ to form a purely periodic center $`r_n(x)`$. For almost every $`x`$ in the fair-digit Cantor measure, and for every $`c>0`$,
 
 ```math
-|x-r_n(x)|<c\,3^{-n}n^{-1/\kappa}
+|x-r_n(x)| \lt c\,3^{-n}n^{-1/\kappa}
 ```
 
 infinitely often. To see this, test times $`n_j=\lfloor A j\log(j+1)\rfloor`$ with $`A>3/\log 2`$. At time $`n_j`$ ask that the next $`\lceil\log_2 n_j\rceil+M`$ trits copy the initial trits, where $`3^{-M}<c`$. Eventually these test blocks are disjoint. Conditional on all digits through the test time, the success probability is comparable to $`1/n_j`$. The sum diverges, so iterated conditioning gives infinitely many successes almost surely; take countably many $`c\downarrow0`$. With $`n^{-a}`$ instead and $`a>1/\kappa`$, the event probabilities are $`O_c(n^{-a\kappa})`$ since distinct Cantor addresses differing first at trit $`k`$ are at least $`3^{-k}`$ apart. This time their sum converges. **The convergence assertion concerns word length only:** the reduced denominator of the repeating center can be much smaller than $`3^n`$. A sharp ordinary-height logarithmic law for all centers is a different open problem.
