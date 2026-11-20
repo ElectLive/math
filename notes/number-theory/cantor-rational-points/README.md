@@ -10,15 +10,16 @@ How many fractions in lowest terms, with denominator at most $`T`$, belong to th
 N_C(T)=\#\{a/q\in C:0\le a\le q,\ 1\le q\le T,\ \gcd(a,q)=1\}.
 ```
 
-The [paper (PDF)](paper/cantor-rational-points.pdf) gives a proof of the following bound: for every $`\varepsilon>0`$ there is a constant $`C_\varepsilon`$ such that, for every $`T\ge 2`$,
+The [paper (PDF)](paper/cantor-rational-points.pdf) gives upper and lower bounds for this count. For every fixed $`\varepsilon>0`$ and $`0<\rho<\rho_*=(32\sqrt e/15)\kappa=2.219\ldots`$, and all sufficiently large $`T`$,
 
 ```math
-N_C(T)\le C_\varepsilon T^{\kappa+\varepsilon}.
+T^\kappa\log T\,\exp\!\big((\log\log T)^\rho\big)
+\ \ll_\rho\ N_C(T)\ \ll_\varepsilon\ T^{\kappa+\varepsilon}.
 ```
 
-This is the cumulative version of [Broderick, Fishman and Reich, Conjecture 3.3](https://arxiv.org/abs/1106.0526); summing over successive powers of three recovers it from their shell formulation. Each point counts once, including 0 and 1. The height is **not** the denominator displayed by a repeating word: for example, $`0.\overline{02}_3=2/(3^2-1)=1/4`$ enters this count at height 4, not 8. There is no restriction on the prime factors of the reduced denominator.
+For example one can take $`\rho=2.21`$. Here $`\log`$ is natural. The upper bound is the cumulative version of [Broderick, Fishman and Reich, Conjecture 3.3](https://arxiv.org/abs/1106.0526); summing over successive powers of three recovers it from their shell formulation. Each point counts once, including 0 and 1. The height is **not** the denominator displayed by a repeating word: for example, $`0.\overline{02}_3=2/(3^2-1)=1/4`$ enters this count at height 4, not 8. There is no restriction on the prime factors of the reduced denominator.
 
-[Rahm, Solomon, Trauthwein and Weiss, Proposition 3.3](https://arxiv.org/abs/1909.01198) give the lower bound $`N_C(T)\gg T^\kappa\log T`$. Taken together the bounds say $`\lim_{T\to\infty}\log N_C(T)/\log T=\kappa`$. The exponent is sharp; the factor beyond the power is not determined. The proof draft has been internally cross-checked, not externally refereed or formally verified. See the [source and build instructions](paper/README.md) and the [verification record](VERIFICATION.md).
+The lower bound improves the $`T^\kappa\log T`$ bound of [Rahm, Solomon, Trauthwein and Weiss, Proposition 3.3](https://arxiv.org/abs/1909.01198). In particular, **no fixed power of the logarithm suffices** in an upper bound of the form $`O(T^\kappa(\log T)^A)`$. Yet $`\log N_C(T)/\log T\to\kappa`$: the exponent of $`T`$ is sharp, while the size of the remaining factor is unknown. This is an internally cross-checked proof draft, not an externally refereed or formally verified result. See the [source and build instructions](paper/README.md) and the [verification record](VERIFICATION.md).
 
 ## Where the upper bound comes from
 
@@ -36,7 +37,7 @@ The numerical balance in the last step is worth isolating. If $`u`$ is of size $
 
 apart from arbitrarily small fixed losses. This uses $`\kappa>1/2`$. Applying the balance *at each new denominator factor*, including the final grid, is what makes the costs add to $`(\kappa+\varepsilon)\log T`$ rather than paying for the whole original denominator at every step. These paragraphs are a guide; the [manuscript](paper/cantor-rational-points.pdf) supplies the conditional estimates and the order in which their parameters are chosen.
 
-## Why a logarithm appears, and how one might match it
+## What prefixes contribute
 
 Let $`P(X)`$ count the same points with $`3\nmid q`$, including 0 and 1. There is an exact way to put the nonperiodic prefixes back:
 
@@ -48,13 +49,33 @@ To see the coefficient, take a purely periodic tail $`y=a/d=0.\overline B_3`$ in
 
 There are $`2^k`$ distinct tails obtained by repeating length-$`k`$ words, all with denominator at most $`3^k-1`$. Thus $`P(3^k)\ge 2^k`$ for $`k\ge1`$. At $`T=3^m`$, each positive prefix length in the identity contributes at least $`2^{m-1}`$ points. This explains the known logarithmic lower bound and why simply setting $`\varepsilon=0`$ in the full count would be false.
 
-**Open problem: is $`N_C(T)\ll T^\kappa\log(2T)`$?** The stronger bound $`P(X)\ll X^\kappa`$ would suffice. In fact it suffices, and is necessary, that $`F_k=P(3^k)/2^k`$ have bounded averages: at triadic heights the identity reads
+Writing $`F_m=2^{-m}P(3^m)`$, the exact identity becomes
 
 ```math
-2^{-m}N_C(3^m)=F_m+\tfrac12\sum_{k=0}^{m-1}F_k.
+2^{-M}N_C(3^M)=F_M+\tfrac12\sum_{m=0}^{M-1}F_m.
 ```
 
-Positivity and monotonicity of the unnormalized count extend the equivalence to arbitrary heights. This distinguishes two research targets: control every purely periodic scale, or bound their average and allow exceptional scales. The proof presently does neither. It allows subpower costs for period and divisor choices, a positive loss in the mixed-grid estimate, and entropy and scale errors accumulated through the descent. Improving any one of these does not remove the others. In particular, choosing $`\varepsilon`$ as a function of $`T`$ in the displayed theorem is not justified by its constant.
+Thus a single logarithm could only suffice if the averages of $`F_m`$ remained bounded. The lower-bound construction makes those averages tend to infinity. It uses cancellation *within the purely periodic tails*, before any prefix is attached.
+
+## How cancellation beats every fixed logarithmic power
+
+A length-$`n`$ repeating word with ternary integer value $`B`$ gives the point $`B/(3^n-1)`$. Even if a shorter word repeats to form it, different length-$`n`$ words give different numerators at this same symbolic denominator. The construction chooses **which lengths to use** so that many words at each such length have much smaller reduced denominators.
+
+1. **Choose primes that divide the same periodic denominators.** By [Lichtman, Theorem 1.1](https://arxiv.org/abs/2211.09641), for any fixed $`\beta>15/(32\sqrt e)`$ there are $`L\gg_\beta x/(\log x)^{C_\beta}`$ primes $`p\in(x,2x]`$ for which every prime factor of $`p-1`$ is at most $`x^\beta`$. Set $`Y=x`$. All these $`p-1`$ divide one integer $`R\ge x^4`$ with $`\log R=O_\beta(x^\beta)`$: multiply $`x^4`$ (for integral $`x`$) by the largest power up to $`2x`$ of each prime up to $`x^\beta`$. Thus each selected $`p`$ divides $`3^n-1`$ whenever $`R\mid n`$.
+2. **Gain more in reduced height than is lost in word count.** For a uniformly chosen word, the residue of $`B/2`$ is nearly uniform modulo the product of these primes. The justification is a Fourier estimate for the independent 0–1 digits of $`B/2`$; its error is smaller than the rare-event probability used here. Put $`k=\lfloor Y^\kappa L/(8Y)\rfloor`$. A proportion $`\gg (L/(2Yk))^k`$ of words have exactly $`k`$ of the selected primes dividing the numerator. Each such word cancels a factor of at least $`Y^k`$ from the denominator. Thus, at $`m=n-\lfloor k\log_3 Y\rfloor`$, the normalization $`2^{-m}`$ gains a factor at least $`Y^{\kappa k}/2`$ relative to $`2^{-n}`$. Multiplying the gain by the surviving proportion gives $`F_m\gg4^k`$.
+3. **Repeat the gain often enough.** These indices $`m`$ form an arithmetic progression of spacing $`R`$. For $`M\ge4R`$ the average of $`F_m`$ over $`m<M`$ is therefore at least a constant times $`4^k/R`$. No disjointness between pure point sets counted at different heights is asserted or needed: the prefix identity sums counts for distinct exact prefix lengths. Choose $`x`$ of size $`a(\log M)^{1/\beta}`$ with $`a>0`$ small, so $`R\le\sqrt M`$. Then $`k\gg_\beta x^\kappa/(\log x)^{C_\beta}`$. Choose $`\beta`$ so that $`\kappa/\beta>\rho`$; the logarithm of $`4^k/R`$ eventually exceeds $`(\log M)^\rho`$. Substituting $`M=\lfloor\log_3 T\rfloor`$ gives the stated bound for **every sufficiently large height**, not just along a subsequence.
+
+### The same gain inside every sufficiently large cylinder
+
+Fix any allowed prefix of length $`d`$ and put $`Y=T/3^d`$. In its cylinder, the exact number of rationals of reduced denominator $`q\le T`$ divisible by $`3^{d+1}`$ is $`N_C(Y)-P(Y)`$. Strip the prefix: a reduced tail $`a/q_0`$ with $`3\mid q_0`$ has denominator exactly $`3^dq_0`$ after restoring the prefix, because the new numerator $`q_0 A+a`$ is coprime to $`q_0`$ and to 3. Here $`A`$ is the integer specified by the prefix. Tails with $`3\nmid q_0`$ cannot qualify. The estimate above already counts tails with a positive power of 3 in their denominator. For every fixed $`0<\theta<1`$, uniformly over all prefixes with $`d\le\theta\lfloor\log_3 T\rfloor`$, the resulting local count is at least a constant times
+
+```math
+2^{-d}T^\kappa\log T\,\exp\!\big((\log\log T)^\rho\big).
+```
+
+Indeed the rescaled height is at least $`T^{1-\theta}`$, so using any intermediate exponent between $`\rho`$ and $`\rho_*`$ absorbs the bounded change in $`\log\log T`$. The cylinder need not be chosen in advance as $`T`$ grows.
+
+**What remains open?** Determine the growth of $`N_C(T)/T^\kappa`$ more closely. The exact prefix identity reduces this to controlling the normalized purely periodic counts and their partial sums. The construction gives large contributions from one progression of word lengths at a time. How large can the total be when all possible cancellations are counted? An explicit upper bound for that total, with a rate beyond the current $`T^{o(1)}`$ factor, would narrow the gap. The displayed lower bound rules out every fixed power of $`\log T`$; it is not a matching estimate or an asymptotic.
 
 ## A consequence for intrinsic approximation
 
@@ -77,3 +98,4 @@ infinitely often. To see this, test times $`n_j=\lfloor A j\log(j+1)\rfloor`$ wi
 For the broader missing-digit conjecture and results for other alphabets, see [Chow, Varjú and Yu](https://doi.org/10.1016/j.aim.2026.110807). The proof here is for the classical ternary set only. For the distinction between symbolic height and reduced height in metric approximation see [Fishman and Simmons](https://doi.org/10.1112/plms/pdu002) and [Tan, Wang and Wu](https://arxiv.org/abs/2103.00544).
 
 **Acknowledgment.** Mira Cult directed the research. OpenAI's GPT-6.2 Astra carried out the proof discovery and development reported here and wrote the manuscript.
+
