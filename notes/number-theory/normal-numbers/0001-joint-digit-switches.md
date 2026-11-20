@@ -9,10 +9,10 @@ A single irrational number can have very long runs of identical digits in one ba
 Let $`d_{r,n}`$ be the $`n`$th fractional digit of an irrational real number $`x`$ in base $`r`$. To count only pairs entirely within the first $`N`$ fractional digits, write
 
 ```math
-S_r(N;x)=\#\{1\le n<N:d_{r,n}\ne d_{r,n+1}\}.
+S_r(N;x)=\#\{1\le n\lt N:d_{r,n}\ne d_{r,n+1}\}.
 ```
 
-**Claim 0001 (joint digit switches).** For every fixed pair of coprime integers $`b,c\ge2`$, there is an effective constant $`c_{b,c}>0`$ such that for every irrational real $`x`$,
+**Claim 0001 (joint digit switches).** For every fixed pair of coprime integers $`b,c\ge2`$, there is an effective constant $`c_{b,c}\gt 0`$ such that for every irrational real $`x`$,
 
 ```math
 S_b(N;x)+S_c(N;x)\ge c_{b,c}(\log N)\log\log N
@@ -30,7 +30,7 @@ Replace a string of digits by its signed adjacent differences, without changing 
 For the proof use $`D_r(N;x)=S_r(N+1;x)`$, which counts switch positions through index $`N`$. Also put
 
 ```math
-J_r(X;x)=\#\{n\ge1:X/4<n\log r\le X,\ d_{r,n}\ne d_{r,n+1}\}.
+J_r(X;x)=\#\{n\ge1:X/4\lt n\log r\le X,\ d_{r,n}\ne d_{r,n+1}\}.
 ```
 
 The quantitative step shows that for any positive integer $`K`$, a sequence of scales with successive ratio at least $`4`$ contains at most $`e^{C_{b,c}K}`$ scales with $`J_b(X;x)+J_c(X;x)\le K`$ above $`X_0(x,b,c)+C_{b,c}(K+1)\log(2K+2)`$. Here the same constant can be enlarged to accommodate both bounds. This counts sparse scales; it does not locate the last such scale.
@@ -45,7 +45,7 @@ Set $`M=(b-1)(c-1)`$, $`y=\{x\}`$, and
 ```
 By shifting the digit series, $`\sum_{n\ge1}d_{r,n+1}r^{-n}=ry-d_{r,1}`$, so $`F_r(U)=My+O_{b,c}(e^{-U})`$ and $`F_r(U)\in\mathbb Z[1/r]`$, with denominator dividing $`r^{\lfloor U/\log r\rfloor}`$. This uses signed differences of the true digits, not the digits of $`My`$.
 
-Fix $`K\ge1`$, and let $`X`$ be a shell with $`J_b(X;x)+J_c(X;x)\le K`$. For each radix $`r`$, the $`K`$ or fewer switches in $`[X/4,X/3]`$ leave an open gap of length at least $`X/[12(K+1)]`$, by including both interval endpoints in the gap count. Choose $`U_r`$ at the midpoint of such a gap. Every retained switch with $`U_r<n\log r\le X`$ has log-place at least $`U_r+X/[24(K+1)]`$. An endpoint switch excluded from the count at $`X/4`$ does not affect the claimed open gap.
+Fix $`K\ge1`$, and let $`X`$ be a shell with $`J_b(X;x)+J_c(X;x)\le K`$. For each radix $`r`$, the $`K`$ or fewer switches in $`[X/4,X/3]`$ leave an open gap of length at least $`X/[12(K+1)]`$, by including both interval endpoints in the gap count. Choose $`U_r`$ at the midpoint of such a gap. Every retained switch with $`U_r\lt n\log r\le X`$ has log-place at least $`U_r+X/[24(K+1)]`$. An endpoint switch excluded from the count at $`X/4`$ does not affect the claimed open gap.
 
 Within each radix group successive retained switches if their log-place gap is less than $`hX`$, where $`h=1/[100(K+1)]`$. A group of log-places between $`s_i`$ and $`t_i`$, inclusive, is a coordinate $`g_i=A_i r^{-m_i}`$, $`m_i=t_i/\log r`$, where $`A_i`$ is an integer, and the negative sign is included for the radix $`c`$. List groups first from $`b`$, then from $`c`$, each in chronological order. There are $`q\le K`$ groups. Within either list, last log-places of successive groups differ by at least $`hX`$. Their total width satisfies
 ```math
@@ -68,7 +68,7 @@ In particular $`X/4\le L:=\log H(\mathbf v)\le3X`$ at large $`X`$.
 
 ## 2. Only exponentially many fixed systems of local weights
 
-At each finite $`p\in S`$, take coordinate forms $`L_{ip}=Z_i`$ for $`0\le i<d`$. At $`\infty`$ change only $`L_{0\infty}`$ to $`\sum_{i=0}^{d-1}Z_i`$. All systems have determinant one; their at most $`d+1`$ distinct rational forms have inhomogeneous height one. By (3), also $`|L_{0\infty}(\mathbf v)|=|E|<|C|`$ once $`X`$ is large. Consequently all normalized local absolute values
+At each finite $`p\in S`$, take coordinate forms $`L_{ip}=Z_i`$ for $`0\le i\lt d`$. At $`\infty`$ change only $`L_{0\infty}`$ to $`\sum_{i=0}^{d-1}Z_i`$. All systems have determinant one; their at most $`d+1`$ distinct rational forms have inhomogeneous height one. By (3), also $`|L_{0\infty}(\mathbf v)|=|E|\lt |C|`$ once $`X`$ is large. Consequently all normalized local absolute values
 ```math
                         |L_{iv}(\mathbf v)|_v/\|\mathbf v\|_v
 ```
@@ -106,7 +106,7 @@ Round each $`u_{iv}`$ upwards to a multiple of $`\Delta=1/(128sd)`$, preserving 
 ```
 For a fixed $`d`$ there are at most $`d`$ radix splits of the group list. For each split and place, each monotone list is of length at most $`d`$ in a grid of $`1280sd+1`$ values; its number of choices is at most $`\binom{1280sd+d+1}{d}\le 2^{(1280s+2)d}`$. The $`s`$ singleton entries contribute only $`(1280sd+1)^s`$. Thus the number of possible arrays $`u'_{iv}`$ is $`\exp(O_{b,c}(d))`$, not $`\exp(O_{b,c}(d\log d))`$. This savings uses ordered physical switches, not a probabilistic model for the digits.
 
-Apply [Evertse–Ferretti, *A further improvement of the Quantitative Subspace Theorem*, Annals of Mathematics 177 (2013), Theorem 3.1, equations (3.1)–(3.10)](https://annals.math.princeton.edu/wp-content/uploads/annals-v177-n2-p04-p.pdf) to (7), with ground field $`\mathbb Q`$ (so no conjugate factor), $`R=d+1`$, $`D=H^*=1`$, $`A_v=1`$ and $`\varepsilon=1/32`$. The weights sum to $`-d-\varepsilon`$ and are nonpositive. The required height is $`H>d^{32d}`$, which follows from (4) for $`X\ge X_0(x,b,c)+C_{b,c}(K+1)\log(2K+2)`$. Each fixed array gives at most
+Apply [Evertse–Ferretti, *A further improvement of the Quantitative Subspace Theorem*, Annals of Mathematics 177 (2013), Theorem 3.1, equations (3.1)–(3.10)](https://annals.math.princeton.edu/wp-content/uploads/annals-v177-n2-p04-p.pdf) to (7), with ground field $`\mathbb Q`$ (so no conjugate factor), $`R=d+1`$, $`D=H^*=1`$, $`A_v=1`$ and $`\varepsilon=1/32`$. The weights sum to $`-d-\varepsilon`$ and are nonpositive. The required height is $`H\gt d^{32d}`$, which follows from (4) for $`X\ge X_0(x,b,c)+C_{b,c}(K+1)\log(2K+2)`$. Each fixed array gives at most
 ```math
  10^9\,2^{2d} d^{14}32^3\log(96(d+1))\log(32\log(3(d+1)))
                           =\exp(O(d))
@@ -118,25 +118,25 @@ proper rational linear subspaces. Taking all arrays together, we conclude that, 
 Here the exact signed group numerator, rather than just an upper bound for it, matters. Let a nonzero integer linear relation with coefficient vector $`\mathbf a`$ be proposed for $`\mathbf v`$. If any group coefficient is nonzero, take the latest active group of one radix $`r`$. Write its numerator as
 ```math
           A_i=\pm \frac M{r-1}\,(a_{\rm last}+rB),
-          \qquad 0<|a_{\rm last}|<r,\quad B\in\mathbb Z.
+          \qquad 0\lt |a_{\rm last}|\lt r,\quad B\in\mathbb Z.
 ```
-There is a prime $`p\mid r`$ with $`v_p(a_{\rm last})<v_p(r)`$, since $`r\nmid a_{\rm last}`$. For this prime $`v_p(A_i)=v_p(M/(r-1))+v_p(a_{\rm last})=O_{b,c}(1)`$ exactly. With $`V_p(z)=v_p(z)\log p`$, the selected term in the relation has $`V_p`$ at most
+There is a prime $`p\mid r`$ with $`v_p(a_{\rm last})\lt v_p(r)`$, since $`r\nmid a_{\rm last}`$. For this prime $`v_p(A_i)=v_p(M/(r-1))+v_p(a_{\rm last})=O_{b,c}(1)`$ exactly. With $`V_p(z)=v_p(z)\log p`$, the selected term in the relation has $`V_p`$ at most
 ```math
              -\lambda_{p,r}t_i+\log\|\mathbf a\|_\infty+O_{b,c}(1).
 ```
 An earlier active group in the same radix has $`V_p\ge-\lambda_{p,r}t_{i'}`$, with $`t_i-t_{i'}\ge hX`$. The old coordinate term, when present, has $`V_p\ge-\lambda_{p,r}U_r`$, and $`t_i-U_r\ge X/[24(K+1)]`$. Opposite radix contributions are $`p`$-integral by coprimeness. It follows that no nonzero relation can hold if
 ```math
            \log\|\mathbf a\|_\infty+C'_{b,c}
-             < \lambda_* hX,\qquad
-      \lambda_*=\min_{r\in\{b,c\},\,p\mid r}\lambda_{p,r}>0:   \tag{8}
+             \lt  \lambda_* hX,\qquad
+      \lambda_*=\min_{r\in\{b,c\},\,p\mid r}\lambda_{p,r}\gt 0:   \tag{8}
 ```
 the selected term would have uniquely smallest $`p`$-valuation. If the relation has only the old coordinate coefficient active, $`C\ne0`$ rules it out at once.
 
-Suppose now $`X_1<X_2<\cdots`$ are sparse shells of the same dimension $`d`$ with successive ratio at least $`R_K=C''_{b,c}(K+1)^2`$. If fewer than $`d`$ preceding rows have been taken, their integral representatives $`\mathbf w`$ have some common nonzero integral annihilator with
+Suppose now $`X_1\lt X_2\lt \cdots`$ are sparse shells of the same dimension $`d`$ with successive ratio at least $`R_K=C''_{b,c}(K+1)^2`$. If fewer than $`d`$ preceding rows have been taken, their integral representatives $`\mathbf w`$ have some common nonzero integral annihilator with
 ```math
        \log\|\mathbf a\|_\infty\le 4(K+1) X_{\rm prev}.
 ```
-Indeed take a basis of $`m<d`$ previous rows, use $`m`$ independent columns and one other column, and take the vector of $`m\times m`$ signed minors on these $`m+1`$ columns (zero elsewhere). By (4) the minors are at most $`m!(O_{b,c}(1)e^{2X_{\rm prev}})^m`$; the stated bound holds by the existing threshold on $`X_{\rm prev}`$, enlarging the base-dependent constant there if needed. Make $`C''_{b,c}`$ large enough that (8) holds at the next $`X`$. This annihilator cannot also vanish on the next row, so the next row is independent of all preceding ones. A proper subspace of the $`d`$-dimensional ambient space therefore contains at most $`d-1`$ rows of any such sequence of shells.
+Indeed take a basis of $`m\lt d`$ previous rows, use $`m`$ independent columns and one other column, and take the vector of $`m\times m`$ signed minors on these $`m+1`$ columns (zero elsewhere). By (4) the minors are at most $`m!(O_{b,c}(1)e^{2X_{\rm prev}})^m`$; the stated bound holds by the existing threshold on $`X_{\rm prev}`$, enlarging the base-dependent constant there if needed. Make $`C''_{b,c}`$ large enough that (8) holds at the next $`X`$. This annihilator cannot also vanish on the next row, so the next row is independent of all preceding ones. A proper subspace of the $`d`$-dimensional ambient space therefore contains at most $`d-1`$ rows of any such sequence of shells.
 
 For any sequence of ratio at least $`4`$, split into the index residue classes modulo $`\lceil\log R_K/\log 4\rceil`$, giving ratio at least $`R_K`$ per class. Count the sparse shells in each dimension $`2\le d\le K+1`$ by the number of subspaces from §2 times $`d-1`$. The number of classes is $`O_{b,c}(\log(2K))`$, so the total number of sparse shells past the stated threshold is at most $`\exp(C_{b,c}K)`$ after increasing the effective constant.
 
