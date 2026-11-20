@@ -1,0 +1,238 @@
+\section{Polarization and the cost of a complementary modulus}\label{sec:tariff}
+
+Fix a real parent and an original arithmetic itinerary. We count integers
+$u$ in a bin $U/2\le u\le U$, not factorizations chosen before seeing the
+parent. Write $G_u=(1/u)\mathbb Z/\mathbb Z$. Suppose that $B_u\subset
+G_u$ is nonempty, exactly invariant under multiplication by $3$, and
+$B_u+B_u$ is covered by at most $U^\theta$ translates of $B_u$.
+The argument also applies at the terminal node, with $u$ the residual
+modulus. All entropies and logarithms in this section are in nats.
+
+\begin{lemma}[Polarization in prime digits]\label{lem:digits}
+Fix $0<c,\delta,\rho<1$. There exist integers $m,R$, depending only on
+these parameters, with the following property. Let $3\nmid u$, let
+$\varnothing\ne B\subset G_u$ be invariant under multiplication by $3$,
+and suppose $B+B$ is covered by $M$ translates of $B$. Use the Chinese
+remainder isomorphism from $G_u\simeq\mathbb Z/u\mathbb Z$ to its
+prime-power coordinates. In any fixed order of their base-prime digits
+that places lower digits before higher digits in each coordinate, let
+$h_i$ be the entropy of digit $i$ of a uniform $X\in B$, conditional on
+all preceding digits. Denote its base by $r_i$. For any selection $I$
+of digits satisfying
+\[
+ r_i>R,\qquad \operatorname{ord}_{r_i}(3)\ge r_i^c,
+ \qquad h_i\ge\delta\log r_i ,
+\]
+one has
+\[
+ \sum_{i\in I}(\log r_i-h_i)
+ \le \rho\sum_{i\in I}\log r_i+(m-1)\log M .
+\]
+\end{lemma}
+
+\begin{proof}
+Take $m$ independent copies $X_1,\ldots,X_m$ of $X$, and, independently,
+choose $t_1,\ldots,t_m$ uniformly and independently modulo
+$\operatorname{ord}_u(3)$, using least nonnegative representatives.
+The case $u=1$ is empty. Put $Y=\sum_l3^{t_l}X_l$, and let
+$e_i=H(Y_i\mid Y_{<i},\boldsymbol t)$. In bounding $e_i$ below we may
+instead condition on $\boldsymbol t$ and the $m$ individual input
+histories $X_{l,<i}$: these determine every preceding output digit.
+Indeed, for a digit at level $j$ (the units digit is level $0$) of
+an $r$-primary coordinate, let $b_l$ be its known residue modulo $r^j$
+in $[0,r^j)$, and $v_l$ its current digit. The output digit is
+\[
+ \left\lfloor r^{-j}\sum_l3^{t_l}b_l\right\rfloor+
+ \sum_l(3^{t_l}\bmod r)v_l \pmod r .
+\]
+The first term is known. The remaining terms are independent conditional
+on the individual histories and the times. Adding independent variables
+on a finite group cannot lower the entropy of any one summand
+(condition on the other summands). Thus $e_i\ge h_i$ for every $i$.
+
+We claim also $e_i\ge(1-\rho)\log r$ whenever the hypotheses for $I$
+hold. Write $\mu_z$ for the conditional digit law given a single history
+$z$, and $a_z$ for its mass on atoms of size at most $r^{-\delta/4}$.
+Separating these atoms from their complement gives
+\[
+ H(\mu_z)\le\log 2+(\delta/4)\log r+a_z\log r
+\]
+since the complement has at most $r^{\delta/4}$ elements.
+Hence $\mathbb E a_z\ge\delta/2$ for large $r$. Flag a copy if its
+current atom is in that small-atom set and $a_z\ge r^{-\delta/8}$.
+The probability of a flag is at least $\delta/3$, and conditional on
+its history and positive flag a copy has maximum atom at most
+$r^{-\delta/8}$. The flags of the copies are independent and do not
+depend on the times. We may lower bound the output entropy by
+additionally conditioning on all these flags.
+
+We use the prime-field subgroup exponential-sum estimate of
+Bourgain, Glibichuk and Konyagin \cite{BGK}: for some $b=b(c)>0$ and
+$C=C(c)$, if $\Gamma\subset\mathbb F_r^\times$ is a subgroup of size
+at least $r^c$, the absolute value of the average of any nontrivial
+additive character over $\Gamma$ is at most $C r^{-b}$.
+For a flagged conditional law $\nu$ and $v\ne0$, expand the squared
+Fourier coefficient with two independent samples from $\nu$.
+The diagonal has mass at most $r^{-\delta/8}$; off the diagonal
+$3^{t_l}\bmod r$ is uniform on $\langle3\rangle$, so
+\[
+ \mathbb E_{t_l}|\widehat\nu(3^{t_l}v)|^2
+ \le r^{-\delta/8}+Cr^{-b}\le r^{-b'}
+\]
+for some $b'>0$ and large $r$. Fix $J$ with $Jb'\ge2$.
+Conditional on histories and flags with at least $J$ positive flags,
+independence of the times and Parseval give mean conditional collision
+probability for the output digit at most
+$r^{-1}(1+(r-1)r^{-Jb'})$. The known shift can depend on all the times
+without changing this probability; the remaining, possibly unflagged,
+Fourier factors have modulus at most one. Entropy is at least minus the
+logarithm of collision probability, so Jensen gives mean conditional
+entropy at least $\log r-\log(1+r^{-1})$ in this case. Choose $m$ so that
+the probability of fewer than $J$ successes in $m$ Bernoulli trials of
+parameter $\delta/3$ is at most $\rho/2$, then take $R$ sufficiently
+large. This proves the claim. Only independence \emph{between copies}
+has been used; the clocks of different primes in one copy may coincide.
+
+Finally $Y$ belongs to the $m$-fold sumset of $B$. Iterating the
+translate cover shows that this sumset has at most $M^{m-1}|B|$
+elements. Consequently
+\[
+ 0\le\sum_i(e_i-h_i)=H(Y\mid\boldsymbol t)-\log|B|
+ \le (m-1)\log M .
+\]
+Applying the two lower bounds for $e_i$ proves the lemma.
+\end{proof}
+
+\begin{lemma}[Prime-base catalogue]\label{lem:basecatalog}
+Fix $P_0$, $\xi>0$, and $1/2<s<1$. For $d$ write $d_{\rm big}$ for the
+factor composed of prime powers at primes exceeding $P_0$. Consider
+either all primes $r\ne3$ for which $d=\operatorname{ord}_r(3)$
+satisfies $d_{\rm big}=1$, or, for one fixed $L>1$ having only primes exceeding
+$P_0$, all those for which $d_{\rm big}\mid L$ and $d_{\rm big}\ge L^\xi$.
+In either catalogue the number of squarefree products of the allowed
+bases not exceeding $V\ge1$ is $O_{s,\xi,P_0}(V^s)$, uniformly in $L$.
+\end{lemma}
+\begin{proof}
+At a fixed order $d$ there are $O(d)$ possible primes since their
+product divides $3^d-1$. Each is $1\bmod d$. The $j$th smallest is
+at least $1+jd$, whence
+\[
+ \sum_{\operatorname{ord}_r(3)=d}r^{-s}
+ \ll_s d^{-s}\sum_{j\ll d}j^{-s}\ll_s d^{1-2s}.
+\]
+Write $a=2s-1>0$. The sum of $w^{-a}$ over integers with all prime
+factors $\le P_0$ is $\prod_{p\le P_0}(1-p^{-a})^{-1}$, with the
+product taken over primes. In the second case this constant is
+multiplied by at most $\tau(L)L^{-a\xi}=O_{a,\xi}(1)$, by the divisor
+bound. Thus $\sum_r r^{-s}$ is uniformly bounded and so is
+$\prod_r(1+r^{-s})$. Multiplying the latter by $V^s$ gives the count.
+\end{proof}
+
+\begin{proposition}[Adaptive complementary count]\label{prop:tariff}
+Fix a large-drop node or a terminal node, its original arithmetic
+labels (in particular $n=\operatorname{ord}_q(3)=T^{o(1)}$), and
+its actual preceding observations. Take $T^\eta\le U\ll T$ with
+fixed $\eta>0$. For every $\sigma>0$, with the covering exponent
+$\theta$ sufficiently small and the tolerance in Lemma~\ref{lem:lcm}
+sufficiently small, the number of eligible moduli $u\in[U/2,U]$ with
+$|B_u|\ge U^\beta$ satisfies, uniformly for $0\le\beta\le1$,
+\[
+ \#\{u\}\ \ll\ T^{\xi+o(1)}U^{(1-\beta)/2+\sigma}.
+\]
+At a terminal node the factor $T^\xi$ is omitted. Here $P_0$ may be
+chosen after the covering and quotient parameters; the implied
+constant may depend on its final value.
+\end{proposition}
+
+\begin{proof}
+Recall the arithmetic information used at a single node. At a prime
+drop the part of the entering lag supported on primes $>P_0$ is $L$.
+Outside primes dividing $n$, the low-order part lost has product at
+most $T^\xi$ by the itinerary choice; all other lost bases are in
+the second catalogue of Lemma~\ref{lem:basecatalog}. At the terminal
+all orders divide the terminal lag, so the first catalogue applies.
+These are statements about the original itinerary. Indeed, if
+$r^e\mid q$ and $r\nmid 3n$, the order at $r^e$ equals the order at
+$r$: their quotient is an $r$-power and divides $n$. Such a component
+leaves the lag gcd in its entirety or not at all. Partial losses over
+$r\mid n$ need not satisfy this assertion.
+
+Choose a large integer $A$, small $c,\delta,\rho>0$ and
+$1/2<s<1$ close to $1/2$. Let $m,R$ be as in Lemma~\ref{lem:digits}.
+Put aside, in the following order, the parts of $u$ listed here.
+Their products, taken separately, have the indicated number of
+possible integer names; their heights need not themselves be small.
+\begin{enumerate}
+\item The part on primes dividing $n$ or at most $R$: $T^{o(1)}$ names.
+For each fixed $v>0$ the number is at most
+$U^v\prod_{r\mid n\ \mathrm{or}\ r\le R}(1-r^{-v})^{-1}$.
+The logarithm of the product is $O_{v,R}(1+\log(2n))=o(\log T)$.
+Taking arbitrarily small fixed $v$ gives the assertion.
+\item The remaining low-order loss of the itinerary: at most $T^\xi$
+names by its height, and no such part is needed at the terminal.
+\item All remaining full powers $r^e$ with $e\ge A$: $O_A(U^{2/A})$
+names, since
+$\prod_r(1+\sum_{e\ge A}r^{-2e/A})<\infty$.
+\item All remaining bases with $\operatorname{ord}_r(3)<r^c$,
+including their powers: $O_c(U^{3c})$ names. Indeed, at most
+$O(Y^{2c})$ such bases lie below $Y$, by summing $O(d)$ over
+$d\le Y^c$. Dyadic summation gives $\sum_r r^{-3c}<\infty$
+over these bases, so the full geometric Euler product converges.
+\end{enumerate}
+For the rest, call a full block $r^e$ active if \emph{every} digit
+has $h_i\ge\delta\log r$ for $X$ uniform on $B_u$, using a fixed
+order for that $u$. Put the product of these whole blocks in $D$, and
+put $K=u/D$. Empty products are allowed. The complementary factor
+$K$ includes all parts put aside. Lemma~\ref{lem:digits} and
+$M\le U^\theta$ imply that the sum of the entropy deficits of the
+active digits is at most
+$\alpha\log U$, where $\alpha=\rho+(m-1)\theta$.
+Conditioning only on previous active digits instead of on the full
+histories can only increase the corresponding entropies. The
+projection of $B_u$ on its active blocks therefore has at least
+$D U^{-\alpha}$ elements. Since $(D,K)=1$, multiplication by $K$
+kills exactly the complement and is invertible on the active blocks.
+In particular
+\[
+                 |K\cdot B_u|\ge D U^{-\alpha}.
+\]
+For each \emph{fixed} integer $K$, use Lemma~\ref{lem:lcm} with
+tolerance $\lambda>0$: its sum of $|K\cdot B_{KD}|$ over eligible
+$D$ is $\ll (U/K)U^\lambda T^{o(1)}$. Since $D\ge U/(2K)$, there
+are at most $O(U^{\alpha+\lambda}T^{o(1)})$ choices of $D$ in
+our selection, including when $K=1$ or $D=1$.
+
+It remains to count $K$, which depends on the set $B_u$. Every
+remaining inactive block has a digit with deficit at least
+$(1-\delta)\log r$. Since all deficits are nonnegative and sum
+to $\log u-\log|B_u|$, the product of these distinct bases satisfies
+\[
+    \sum_{r\ {\rm remaining\ inactive}}\log r
+           \le \frac{(1-\beta)\log U}{1-\delta}.
+\]
+For $1\le e<A$ put $V_e$ equal to the least power of two not below
+the product of these bases of exponent $e$ (use $1$ for an empty
+product). There are $O_A((1+\log U)^A)$ vectors of bins. In any
+nonempty vector,
+$\sum_e\log V_e\le A\log2+(1-\beta)\log U/(1-\delta)$.
+For each $e$ the eligible base products are squarefree subproducts
+of the \emph{original} node catalogue, so at most
+$O_{s,\xi,P_0}(V_e^s)$ can occur. Raising a chosen product to the
+known exponent $e$ recovers that part of $K$. This counting argument
+uses neither a newly valid itinerary after deletion nor independence
+among the factors; the bins are a device for a union bound at this
+parent, not extra labels on the stationary point distribution.
+
+Multiplication of the counts for the parts put aside, the remaining
+inactive names, and the choices at fixed $K$ gives the asserted
+estimate with exponent on $U$ at most
+\[
+ \frac{s(1-\beta)}{1-\delta}
+       +\frac2A+3c+\rho+(m-1)\theta+\lambda ,
+\]
+besides $T^{o(1)}$ and the possible $T^\xi$. First choose
+$A,c,\delta,\rho,s$ to make the excess over $(1-\beta)/2$
+small uniformly in $\beta$; next fix $m,R$, then $\theta$ and
+$\lambda$. The large time-prime cutoff needed to realize the
+cover and Lemma~\ref{lem:lcm} can be taken afterwards.
+\end{proof}

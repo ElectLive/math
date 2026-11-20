@@ -1,0 +1,91 @@
+\section{Introduction}
+
+Let \(C=\{\sum_{j\ge1} a_j3^{-j}:a_j\in\{0,2\}\}\) and
+\(\kappa=\log 2/\log 3\). For \(T\ge2\), put
+\[
+ N_C(T)=\#\{a/q\in C:(a,q)=1,\ 1\le q\le T\}.
+\]
+We count distinct fractions, including \(0\) and \(1\). The original
+symbolic denominator of a periodic digit expansion can substantially
+exceed the reduced denominator. Counting short expansions alone therefore
+does not give the required upper bound.
+
+\begin{theorem}\label{thm:main}
+For every \(\varepsilon>0\) one has
+\[
+                 N_C(T)\ll_\varepsilon T^{\kappa+\varepsilon}
+                 \qquad(T\ge2).
+\]
+\end{theorem}
+
+The theorem proves Conjecture~3.3 of Broderick, Fishman, and
+Reich~\cite{BFR2011}. Their formulation uses the shells
+\(3^j\le q\le3^{j+1}\): the cumulative and shell assertions follow
+from each other by restriction and geometric summation, respectively,
+with the positive exponent slack rescaled by \(\kappa\). It is the
+middle-third case of \cite[Conjecture~1.1]{CVY2026}, not an assertion
+for other missing-digit sets. The conjecture grew out of
+Mahler's question about rational approximation inside \(C\)~\cite{Mahler1984}.
+Every two distinct fractions up to denominator \(T\) are \(T^{-2}\)-separated;
+ordinary packing in \(C\) thus gives \(O(T^{2\kappa})\). Theorem~\ref{thm:main}
+identifies the power at the scale of the denominator itself.
+
+Rahm, Solomon, Trauthwein, and Weiss proved
+\(N_C(T)\gg T^\kappa\log T\)~\cite[Proposition~3.3]{RSTW2020}.
+One can see the origin of the logarithm directly. Set \(L=\lfloor\log_3 T\rfloor\).
+For \(1\le i<L\), take the expansions \(0.A\overline B\) with prefix
+\(A\) of length \(i\), period \(B\) of length \(L-i\), and different final
+trits in the two words. The numerator before reduction is
+\(A(3^{L-i}-1)+B\), viewing the words as base-three integers. It is
+prime to three, so the reduced denominator has exact \(3\)-adic
+valuation \(i\), and is at most \(3^L\). For each \(i\) there are
+\(2^{L-1}\) points, since different all-\(\{0,2\}\) addresses represent
+distinct points. Thus the power of \(T\) in the theorem is sharp,
+but the \(\varepsilon\) cannot simply be deleted.
+
+\subsection*{The local counting problem}
+
+First consider denominators \(q\) prime to \(3\). The action of
+multiplication by \(3\) on \(a/q\) has order \(n=\operatorname{ord}_q(3)\),
+and every iterate stays in \(C\). We descend through divisors \(h\) of
+\(n\), retaining the real difference \(\{3^h x\}-x\), where braces
+denote fractional part. Its denominator is \(q/(q,3^h-1)\).
+If a descent step increases this denominator by a factor \(u\),
+then the child differences at fixed \(u\), with the preceding real
+difference fixed, sit on a single translate of the order-\(u\) circle
+grid. The product of the factors \(u\) and the remaining terminal
+factor is \(q\).
+
+Here is the quantitative balance behind the proof. At \(u\asymp U\)
+the difference set of the child grid is enlarged to a small-doubling,
+tripling-invariant set of size \(U^\beta\), say. Boolean sumset growth
+bounds the number of child values by \(U^{\kappa\beta+o(1)}\), with
+arbitrarily small power slack. To count the moduli \(u\) attaining that
+size, split each into entire prime-power factors. Iterated addition
+and rotation show that the factors with substantial digit entropy have
+almost full combined projection. A common detector on least common
+multiples lets us count those nearly full projections at a fixed
+complement. The number of names for the complementary factors then
+costs at most \(U^{(1-\beta)/2}\), up to small losses, because an inactive
+prime leaves a deficit of roughly the logarithm of that prime. Hence
+\[
+                  \kappa\beta+\tfrac12(1-\beta)\le\kappa .
+\]
+The bound is for the sum over moduli and child values at one actual
+parent, not a uniform assertion about a single denominator.
+
+Section~\ref{sec:itinerary} constructs the descent and accounts for the
+short steps jointly. Sections~\ref{sec:detector} and~\ref{sec:native}
+give the common detector, which works even when the independently chosen
+grid fibers at a common lag have different offsets. The Boolean estimate
+and its least-common-multiple application are in
+Sections~\ref{sec:boolean}--\ref{sec:lcm}. Section~\ref{sec:tariff}
+pays for the complementary primes, and Section~\ref{sec:assembly}
+assembles the counting argument and restores preperiods.
+
+We write \(G_u=u^{-1}\mathbb Z/\mathbb Z\) and use additive notation on
+the circle. If \(A\) is a set and \(m\) a nonnegative integer, \(mA\)
+denotes its \(m\)-fold sumset while \(m\cdot A=\{ma:a\in A\}\)
+denotes its scalar image. All entropies and unmarked logarithms use
+natural logarithms. Implied constants may depend on fixed tolerances,
+but not on the height or the choices of affine offsets.

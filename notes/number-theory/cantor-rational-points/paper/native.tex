@@ -1,0 +1,249 @@
+\section{One detector for all grids at a given height}\label{sec:detector}
+
+Put $e(x)=\exp(2\pi i x)$, and write $G_q=(q^{-1}\mathbb Z)/\mathbb Z$
+for the subgroup of order $q$ of $\mathbb R/\mathbb Z$. We construct one
+test, depending on a height bound $S$ but not on $q$, to be used on every
+$G_q$ with $q\le S$. All logarithms without a subscript are natural.
+
+\begin{proposition}\label{prop:detector}
+For all sufficiently large real $S$, put $t=\log S$ and
+\[
+ k=\left\lceil\frac{t}{\log\log t}\right\rceil,\quad
+ L=\lceil t(\log t)^4\rceil,\quad
+ d=\lceil\log_3(2k+1)\rceil,\qquad
+ F_S(x)=\frac1L\sum_{j=1}^L e(3^{dj}x).
+\]
+Then $P_S=|F_S|^{2k}$ takes values in $[0,1]$, $k=o(\log S)$, and
+the detector
+\[
+ D_S(q)=\sum_{z\in G_q}P_S(z)
+ \quad\text{satisfies}\quad
+ 1\le D_S(q)\le q,\qquad \sum_{q\le S}D_S(q)\le S^{1+o(1)} .
+\]
+\end{proposition}
+\begin{proof}
+Expand $P_S(x)=\sum_m w_m e(mx)$. The $w_m$ form the probability
+distribution of the difference of two independent sums of $k$ frequencies
+drawn uniformly with replacement from $\{3^{dj}:1\le j\le L\}$.
+The digits of each sum in base $3^d>k$ are its multiplicities. Thus a
+collision requires the second tuple to be a permutation of the first, giving
+$w_0\le k!/L^k\le (k/L)^k\le S^{-3}$ for large $S$.
+Every other frequency satisfies
+$\log(2+|m|)\ll dL+\log(2k)=(\log S)^{1+o(1)}$.
+
+For any fixed $0<s<1$ and $m\ne0$, the number $b_S(m)$ of positive
+divisors of $|m|$ at most $S$ satisfies
+\[
+ b_S(m)\le S^s \prod_{p\mid m}(1-p^{-s})^{-1}
+ \le S^s\exp\bigl(O_s((\log(2+|m|))^{1-s})\bigr).
+\]
+Indeed there are at most $\log_2(2+|m|)$ distinct prime divisors,
+the $i$th smallest is at least $i+1$, and
+$-\log(1-p^{-s})\ll_s p^{-s}$. For each fixed $s$ the exponential factor
+on our frequency range is $S^{o_s(1)}$, so $b_S(m)\le S^{o(1)}$
+uniformly there, by taking $s$ arbitrarily small. No estimate for the
+unrestricted divisor function at these frequencies is needed.
+Orthogonality gives $D_S(q)=q\sum_{q\mid m}w_m$. The zero frequency
+contributes at most $S^2w_0$ to the sum over $q$; each other $m$ is
+charged at most $S b_S(m)$ before multiplication by $w_m$. This proves
+the sum bound. The point $z=0$ contributes one and $P_S\le1$.
+\end{proof}
+
+\section{Signed sums of independent Cantor fibers}\label{sec:native}
+
+We use $C$ also for the image of the middle-third Cantor set on the
+circle. Multiplication by $3$ maps $C$ into itself. For $H=3^h$ with
+$h\ge1$ write $[j]_H=1+H+\cdots+H^{j-1}$. If $Z$ is a circle set,
+a centered fiber at modulus $q$ means any subset of
+$(Z\cap (v+G_q))-v$, with $v$ any point of the circle. Thus independently
+chosen fibers can always be added inside $G_q$. We write $b\cdot x$
+or $b\cdot A$ for scalar multiplication and $bA$ for the $b$-fold
+additive sumset of $A$ for positive integral $b$.
+
+\begin{theorem}\label{thm:native}
+For every positive integer $m$ and $\sigma>0$ there are $p_0,S_0$
+such that if $S\ge S_0$, $p>p_0$ is prime, $H=3^h$, and
+$q\le S$ divides $[p]_H$, then for any $m$ independently chosen
+centered fibers $A_i$ of $(H-1)\cdot C$ at $q$,
+\begin{equation}\label{eq:native-mixed}
+ \left|\sum_{i=1}^m(A_i-A_i)\right|\le S^\sigma D_S(q).
+\end{equation}
+For fibers of $C$ itself, the same conclusion holds for all $q\le S$,
+without $p$, $H$, or any divisibility condition.
+\end{theorem}
+
+The first assertion requires the same $H$ for all factors in one sum,
+but no relation between their offsets or their witnesses. In particular
+further restrictions on each fiber are allowed. A sum of single signed
+copies of such sets, with either sign on each, is up to translation a
+subset of the sum in \eqref{eq:native-mixed}: fix one element in each
+nonempty set and subtract it. The proof has three steps.
+
+\subsection*{A common frequency multiplier}
+For a probability $\omega$ on a finite circle grid write
+$\widehat\omega(a)=\sum_z \omega(z)e(az)$ and
+$E(\omega)=(\sum_z\omega(z)^2)^{-1}$. Reflection is written
+$\widetilde\omega$ and convolution is taken with counting measure.
+We first allow an arbitrary fixed number $r$ of input laws $\pi_i$,
+one per independently centered fiber, and set
+$\lambda=\mathop{*}_{i=1}^r(\pi_i*\widetilde\pi_i)$.
+
+Every probability on $C$ has a Fourier coefficient at some
+$g\in\{1,\ldots,7\}$ of modulus at least $1/14$. Indeed the Fej\'er
+kernel $\tfrac18|\sum_{a=0}^7e(a(x-1/2))|^2$ is at most
+$1/(8\sin^2(\pi(x-1/2)))\le1/2$ on $C$. Its constant coefficient
+is one and the absolute sum of its other coefficients is seven. Integrating
+proves the assertion. It also applies to the distribution of $3^u X$
+for any $C$-valued $X$ and integer $u\ge0$.
+
+For each atom of $\pi_i$ fix a $C$-witness $X_i$ with
+$(H-1)X_i-v_i$ equal to that atom modulo one, and choose the $X_i$
+independently with the induced laws. Fix any sample time $u=dj$ from
+Proposition~\ref{prop:detector}. For each $0\le n<M$ there are
+$g_i(n)\in\{1,\ldots,7\}$ for which
+\[
+ \left|\prod_i \mathbb E e(g_i(n)3^u H^n X_i)\right|\ge a,
+ \qquad a=14^{-r}.
+\]
+Pigeonhole the tuple and the angular octant of this product: on a set
+$I$ of at least $M/(8\cdot7^r)$ times the tuple $(g_i)$ and octant
+are fixed. Put $V_n=\prod_i e(g_i3^uH^n X_i)$ on the product probability
+space. Independence and projection onto the central ray of the octant
+give $|\mathbb E\sum_{n\in I}V_n|\ge a|I|/2$. Hence
+\[
+ \sum_{n,n'\in I}\operatorname{Re}\mathbb E(V_n\overline{V_{n'}})
+ = \mathbb E\left|\sum_{n\in I}V_n\right|^2\ge a^2|I|^2/4.
+\]
+Take $M=M(r)$ large enough that $M/(8\cdot7^r)>8/a^2$. Removing
+the diagonal, whose contribution is $|I|$, yields a pair $n>n'$
+for which $|\mathbb E(V_n\overline{V_{n'}})|\ge a^2/8$. In other
+words,
+\begin{equation}\label{eq:native-mult}
+ \prod_i |\widehat\pi_i(g_i3^u b)|\ge a^2/8,
+ \qquad b=H^{n'}[n-n']_H .
+\end{equation}
+Here recentering contributes only constant phases. Crucially the
+possibly large $b$ is the \emph{same} for every $i$. If $p>M$,
+multiplication by $b$ permutes $G_q$: $H$ is prime to $[p]_H$, and
+$\gcd([l]_H,[p]_H)=[\gcd(l,p)]_H=1$ for $1\le l<M$.
+The identity follows by dividing
+$\gcd(H^l-1,H^p-1)=H^{\gcd(l,p)}-1$ by $H-1$.
+For fibers of $C$ itself one simply takes $b=1$ and applies the
+seven-harmonic assertion to the genuine $3^u X_i$, before recentering;
+no second moment or unit condition is needed in that case.
+
+Pigeonhole over the $L$ sample times. One tuple $(g_i)$ and one pair
+$(n,n')$ (no pair in the case of $C$) work at a fraction
+$c_r>0$ of the times. Write $\mu_i=(g_i)_*\pi_i$ for pushforward
+under scalar multiplication, $\nu=\mathop{*}_i
+(\mu_i*\widetilde\mu_i)$ and $\nu_j=\nu^{*2^j}$ for $j\ge0$.
+All Fourier coefficients of \(\nu\) and its convolution powers are nonnegative. By
+\eqref{eq:native-mult}, or its $b=1$ version, for each fixed $j$
+there is a constant $c_{r,j}>0$ such that
+\[
+ \sum_{z\in G_q} ((b)_*\nu_j)(z)F_S(z)\ge c_{r,j}.
+\]
+The expression on the left is real by symmetry. Jensen and
+Cauchy--Schwarz give
+\[
+ c_{r,j}^{2k}\le \sum_z ((b)_*\nu_j)(z) P_S(z)
+ \le \|\nu_j\|_2 D_S(q)^{1/2}
+\]
+since $P_S^2\le P_S$ and $b$ acts bijectively. Consequently
+\begin{equation}\label{eq:native-scaled}
+ E(\nu_j)\le D_S(q)S^{o_{r,j}(1)}.
+\end{equation}
+This error is uniform in the laws, $h,p,q$, and offsets once $p>M(r)$,
+because $k=o(\log S)$.
+
+\subsection*{Removing the bounded individual multipliers}
+We use the weighted Balog--Szemer\'edi--Gowers lemma
+\cite[Lemma~1]{TaoBSG}. In the counting-measure normalization used here,
+if a symmetric probability $\rho$ on a finite abelian group satisfies
+$\|\rho*\rho\|_2>K^{-1}\|\rho\|_2$, $K\ge2$, then there is a
+symmetric set $B$ containing zero, with $B+B$ covered by $K^{O(1)}$
+translates of $B$, $|B|\le K^{O(1)}E(\rho)$, and
+$\rho(v+B)\ge K^{-O(1)}$ for some $v$. All such implied powers
+are absolute. In particular $|s B|\le K^{O(s)}|B|$ for positive
+integers $s$, by repeatedly using the covering.
+
+Fix $\delta>0$, let $K=S^\delta$, and $J=\lceil2/\delta\rceil$.
+All probability norms on $G_q$ lie between $S^{-1/2}$ and one.
+Therefore for some $0\le j<J$ we have
+$\|\nu_{j+1}\|_2>K^{-1}\|\nu_j\|_2$. Apply the lemma with
+$\rho=\nu_j$. By \eqref{eq:native-scaled},
+$|B|\le K^{O(1)}D_S(q)S^{o_{r,\delta}(1)}$. Each $\mu_i$ is
+a convolution factor of $\nu_j$, so averaging over the other factors
+gives a translate $v_i'+B$ on which $\mu_i$ has mass $\ge K^{-O(1)}$.
+Thus the restriction of $\pi_i$ to
+$S_i=\{x:g_i x\in v_i'+B\}$ has at least this mass.
+
+Put $b_0=\operatorname{lcm}(1,\ldots,7)$. On the event where the
+two independent samples of each $\pi_i$ belong to $S_i$, their signed
+sum, multiplied by $b_0$, belongs to $(2r b_0)B$. In fact the
+translate cancels for each difference and $b_0/g_i$ is a positive
+integer. Multiplication by $b_0$ has kernel of size at most $b_0$ on
+$G_q$. An event of probability $\ge K^{-O(r)}$ for $\lambda$ is
+therefore supported on at most $b_0K^{O(r b_0)}|B|$ points. By
+Cauchy--Schwarz and $b_0$ absolute, this proves
+\begin{equation}\label{eq:native-effective}
+ E(\lambda)\le D_S(q) S^{O_r(\delta)+o_{r,\delta}(1)}.
+\end{equation}
+Neither concentration of the full supports nor a factorization of their
+uniform sumset law has been inferred.
+
+\subsection*{From effective size to full sumsets}
+Suppose \eqref{eq:native-mixed} fails for a fixed $m,\sigma$ with
+no admissible thresholds. There is then a sequence of violations with
+$S\to\infty$ and $p\to\infty$ (only $S\to\infty$ in the terminal
+case). At each index keep $H,p,q,S$ fixed and let $M_r$ be the
+supremum of $E(\lambda)$ over all allowed $r$-tuples of laws on
+independent fibers for these same parameters. Pass to a single
+subsequence on which $\log_S M_r\to e_r$ for every fixed $r$ and
+$\log_S D_S(q)\to\ell$; all these exponents are in $[0,1]$.
+Singleton laws exist. By \eqref{eq:native-effective}, first with
+$r,\delta$ fixed and then $\delta\downarrow0$, we have
+$e_*:=\sup_r e_r\le\ell$. This passage uses only fixed $r$: the
+threshold $p>M(r)$ need not hold simultaneously at an individual
+index for all $r$.
+
+Choose $\gamma>0$, then one fixed $r$ with $e_r>e_*-\gamma$, and
+laws giving $E(\lambda)\ge M_r/2$. Now choose a new $\delta>0$,
+allowed to depend on $r$. At a plateau for the unscaled powers
+$\lambda^{*2^j}$, $0\le j<J$, apply the same weighted lemma.
+Since $E(\lambda^{*2^j})\le M_{r2^j}$ and there are only finitely
+many possible $j$, the symmetric set $B'$ it gives has
+\[
+ |B'|\le S^{e_*+O(\delta)+o(1)},\qquad
+ B'+B'\text{ covered by }S^{O(\delta)}\text{ translates of }B'.
+\]
+As before, for each $i$ restrict $\pi_i$ to an appropriate
+translate of $B'$ carrying mass $\ge S^{-O(\delta)}$, normalizing
+to obtain $\pi_i'$. The signed convolution $\lambda'$ of the
+restricted laws is supported on $G=(2r)B'$. Pointwise domination
+$\pi_i'\le S^{O(\delta)}\pi_i$ gives
+$\lambda'\le S^{O(r\delta)}\lambda$ and hence
+\[
+ E(\lambda')\ge S^{e_*-\gamma-O(r\delta)-o(1)}.
+\]
+
+For each nonempty centered fiber $A$, take $Y\subset A$ maximal
+with pairwise disjoint translates $y+G$. For the uniform law $u_Y$,
+disjointness yields $E(\lambda'*u_Y)=|Y|E(\lambda')$ exactly.
+Further convolution with $\widetilde u_Y$ cannot decrease effective
+size, by the triangle inequality for convex combinations of translated
+laws. The resulting law is allowed in $M_{r+1}$. Therefore, uniformly
+for every such $A$,
+\[
+ |Y|\le S^{\gamma+O(r\delta)+o(1)},\qquad A\subset Y+(G-G).
+\]
+The inclusion is maximality. Apply it separately to the $m$ fibers of
+the purported violation, using the same $G$ for them all. The total
+number of choices of the $2m$ centers is at most
+$S^{2m\gamma+O_m(r\delta)+o(1)}$; the remaining summands belong
+to $(8mr)B'$, of size $\le S^{e_*+O_m(r\delta)+o(1)}$.
+Thus the limsup of the log-base-$S$ cardinalities is at most
+$e_*+2m\gamma+O_m(r\delta)$. First take $\delta\downarrow0$ for
+this fixed $r$, then $\gamma\downarrow0$. The result is at most
+$e_*\le\ell$, whereas the violations give a liminf at least
+$\ell+\sigma$. This proves Theorem~\ref{thm:native}.

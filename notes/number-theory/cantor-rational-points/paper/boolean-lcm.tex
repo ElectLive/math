@@ -1,0 +1,241 @@
+\section{Boolean growth at a fixed real displacement}\label{sec:boolean}
+
+Fix a prime drop from lag \(ph\) to lag \(h\), and write \(H=3^h\),
+\(M=[p]_H=1+H+\cdots+H^{p-1}\). We work with actual points
+\(x\in C\cap(0,1)\) of reduced denominator \(q\) prime to \(3\);
+the two integer endpoints can be counted separately. Fix the signed
+\emph{real} number \(W=\{H^p x\}-x\), where braces denote fractional
+part. Further restrictions on the possible witnesses are allowed.
+Write \(d\) for the denominator of \(W\) (with denominator \(1\) for
+zero). For each integer \(u\) let \(A_u\) consist of the distinct
+circle values \(w=(H-1)x\bmod 1\) of exact denominator \(ud\).
+In fact the denominator of each such \(w\) is a multiple of \(d\):
+\(Mw=W\bmod 1\), so \(u=\gcd(M,ud)\). In particular \(u\mid M\);
+two such values differ in the kernel of multiplication by \(M\) on
+\(G_{ud}=(ud)^{-1}\mathbb Z/\mathbb Z\), which is \(G_u\). Thus
+\(A_u\) is contained in one affine \(G_u\)-grid. The real child
+\(\{Hx\}-x\in(-1,1)\) has at most two values above any given \(w\).
+
+\begin{proposition}[Growth of a conditional winding]\label{prop:bool-winding}
+For every nonempty \(A_u\) as above,
+\[
+ |A_u|^{1/\kappa}
+   \ll p^{3/2}u^{1/(p-1)}\,|A_u-A_u|,
+ \qquad \kappa=\log 2/\log 3.
+\]
+The implied constant is absolute, independent of \(h\) and of the
+restrictions on the witnesses.
+\end{proposition}
+
+\begin{proof}
+Select one witness \(x=x(w)\) for each \(w\). Set
+\[
+ m=1+\Big\lceil \log_3(4\sqrt p)+\frac{\log_3 u}{p-1}\Big\rceil,
+ \qquad x_j=\{H^j x\}\quad(0\le j\le p).
+\]
+The points \(x_j\) have their unique ternary expansions in the
+digits \(0,2\): multiplication by \(H\) removes \(h\) digits, and
+their reduced denominators remain prime to \(3\) and exceed one.
+Form a Boolean vector \(F(w)\) by recording the first \(m\) ternary
+digits, divided by \(2\), at each \(x_j\), \(0\le j<p\).
+
+We first prove injectivity. Suppose \(F(w)=F(w')\), and use primes
+on \(x_j\) for the second witness. Put \(v_j=x_j-x'_j\); the prefix
+bound gives \(|v_j|\le 3^{-m}\) for \(j<p\). The equality
+\(x_p-x_0=x'_p-x'_0=W\) gives \(v_p=v_0\) as real numbers.
+Consequently \(t=(v_{j+1}-v_j)_{j=0}^{p-1}\) lies in the real
+hyperplane \(E=\{y:\sum_j y_j=0\}\) and has Euclidean norm
+\(\le 2\sqrt p\,3^{-m}\). Modulo \(\mathbb Z^p\), its coordinates
+are \((H^j(w-w'))_{0\le j<p}\).
+
+Consider the lattice
+\[
+ \Lambda=\{y\in E:y\bmod\mathbb Z^p
+             =(H^j z)_{0\le j<p}\text{ for some }z\in G_u\}.
+\]
+It contains \(E\cap\mathbb Z^p\) with index at most \(u\), by the
+first coordinate of the reduction map. The latter integer lattice
+has covolume \(\sqrt p\) in \(E\) (use the basis \(e_j-e_{p-1}\),
+\(0\le j<p-1\)). Thus \(\operatorname{covol}(\Lambda)\ge 1/u\).
+Since \(u\mid M\), \(H^p z=z\) on \(G_u\); cyclic coordinate shift
+preserves \(\Lambda\). If \(w\ne w'\), then \(t\ne0\) is a rational
+vector in \(\Lambda\). The shift \(R\) on \(E\cap\mathbb Q^p\)
+satisfies \(1+R+\cdots+R^{p-1}=0\). As
+\(\Phi_p(X)=1+\cdots+X^{p-1}\) is irreducible over \(\mathbb Q\),
+the minimal annihilating polynomial of this nonzero \(t\) is
+\(\Phi_p\). Hence \(t,Rt,\ldots,R^{p-2}t\) span a full-rank
+sublattice, of covolume at least \(1/u\). Hadamard's inequality
+instead bounds their volume by \((2\sqrt p\,3^{-m})^{p-1}<1/u\).
+This proves injectivity. Fixing the prior only modulo one would
+not give the real equality \(v_p=v_0\) used here.
+
+Next fix a single circle difference \(z=w-w'\). Put
+\(e_j=(x_j-x'_j)/2\in(-1/2,1/2)\).
+The integers removed when passing from \(H^j x\) to \(x_j\)
+have only even ternary digits and are even; the same holds for
+\(x'\). Thus \(e_j\equiv H^j e_0\pmod1\).
+Writing \(a=(H-1)e_0\bmod1\), we have \(2a=z\), with at most two
+choices of \(a\), and
+\[
+ e_j\equiv e_0+[j]_H a\pmod1,\qquad [0]_H=0.
+\]
+The ternary digits of \(1/2+e_j\) are one plus the successive
+differences of the bits of \(x_j,x'_j\), by the series
+\(1/2=\sum_{\ell\ge1}3^{-\ell}\). This number belongs to \((0,1)\)
+and has denominator prime to \(3\), so it is not a ternary interval
+endpoint. For a fixed \(a\), as the single parameter \(e_0\bmod1\)
+varies, the vector of length-\(m\) prefixes of all \(1/2+e_j\) is
+constant between at most \(p3^m\) endpoints: these are translates
+of the \(3^m\) endpoints of the ternary partition, one partition for
+each \(j\). No witness lies on them. The total number of differences
+\(F(w)-F(w')\) over this \(z\) is therefore at most \(2p3^m\).
+
+For \(E_1,E_2\subset\{0,1\}^s\) the integer-cube sumset inequality
+\cite[Corollary~1.11]{BIMP} gives
+\(|E_1+E_2|\ge (|E_1||E_2|)^{(\log_2 3)/2}\). Apply it to
+\(F(A_u)\) and its translate-reflection \(\mathbf1-F(A_u)\). Then
+\[
+ |A_u|^{1/\kappa}\le |F(A_u)-F(A_u)|
+     \le 2p3^m |A_u-A_u|.
+\]
+The definition of \(m\) gives the asserted coefficient.
+\end{proof}
+
+\paragraph{The terminal fiber.}
+At the final lag \(h\), fix \(W=\{3^h x\}-x\) of denominator \(d\).
+For a fixed \(u=\gcd(q,3^h-1)\), the relation
+\((3^h-1)x=W\bmod1\) gives \(q=ud\). Its solutions in \(G_q\)
+lie in one coset of \(G_u\). Now let \(A_u\) be the set of genuine
+points \(x\) on this fiber, read modulo one. We have the stronger
+bound
+\begin{equation}\label{eq:bool-terminal}
+ |A_u|^{1/\kappa}\le 2|A_u-A_u|.
+\end{equation}
+Indeed take \(m\) with \(3^{-m}<1/u\). Distinct points of one affine
+\(G_u\)-grid cannot share their first \(m\) digits. For each fixed
+circle difference there are at most two real differences \(x-x'\)
+in \((-1,1)\); each specifies one Boolean prefix difference by the
+ternary expansion of \(1/2+(x-x')/2\), as above. The same cube
+inequality proves \eqref{eq:bool-terminal}.
+
+\section{Stabilization and the quotient estimate}\label{sec:lcm}
+
+Work at one fixed parent, either a drop or a terminal fiber as
+above, with fixed common period \(n=\operatorname{ord}_q(3)\)
+and one bin \(U/2<u\le U\). The reduced denominators \(q\le T\)
+of different witnesses need not coincide. In both cases \(u\mid q\),
+so \(\operatorname{ord}_u(3)\mid n\) (take the period to be \(1\)
+if \(u=1\)); the represented-period estimate gives \(n=T^{o(1)}\)
+uniformly. Discard empty \(A_u\). We distinguish \(mS\), the sum
+of \(m\) copies of a set, from \(m\cdot S\), its image under scalar
+multiplication. Define the symmetric, exactly tripling-invariant set
+\[
+ S_u=\bigcup_{0\le t<\operatorname{ord}_u(3)}3^t\cdot(A_u-A_u)
+       \subset G_u .
+\]
+It contains zero. No invariance of \(A_u\) is claimed. For every
+\(\theta>0\) choose an integer \(a>1/\theta\). For some
+\(j\in\{1,10,\ldots,10^{a-1}\}\) we have
+\(|10jS_u|\le U^\theta |jS_u|\): otherwise iteration would give
+\(|10^a S_u|>U\). Put \(J=10^{a-1}\), and let \(B_u=4jS_u\) for
+one such \(j\). The set \(2B_u=8jS_u\) is covered by at most
+\(U^\theta\) translates of \(B_u\). Indeed, take a maximal family
+of disjoint translates \(y+jS_u,\ y\in 8jS_u\); all lie in
+\(9jS_u\subset10jS_u\). Each unchosen translate meets a chosen
+one, so each \(y\) is in a chosen center plus \(2jS_u\subset B_u\).
+The set \(B_u\) remains symmetric and exactly tripling-invariant,
+and contains \(A_u-A_u\). We obtain, at a drop with \(p>P_0\),
+\begin{equation}\label{eq:bool-container}
+ |A_u|\ll T^{o(1)} U^{\kappa/(P_0-1)} |B_u|^\kappa ,
+\end{equation}
+using \(p\le n\); at the terminal the factor preceding
+\(|B_u|^\kappa\) can be replaced by \(2^\kappa\).
+
+\begin{lemma}[Quotient inventory at fixed complement]\label{lem:lcm}
+Fix \(\theta,\sigma'>0\) and \(\eta>0\), and let
+\(T^\eta\le U\le 2T\). For each integer \(1\le K\le U\), put
+\(V=U/K\). At either kind of parent, for any subcollection of its
+allowed indices,
+\[
+ \sum_{D:\,KD\ {\rm in\ the\ subcollection}} |K\cdot B_{KD}|
+     \ll V U^{\sigma'} T^{o(1)} .
+\]
+For a drop the bound requires \(p>P_0(\theta,\sigma')\);
+there is no time-prime condition at the terminal. The error term
+is uniform in the parent, \(K\), the subcollection and the chosen
+members of the finite menu. No coprimality of \(K,D\) is assumed.
+\end{lemma}
+
+\begin{proof}
+Choose a fixed integer \(k>2/\sigma'\). For an ordered tuple of
+admissible \(D_i\le V\), write
+\[
+ L=\operatorname{lcm}(D_1,\ldots,D_k),\qquad
+ Q=K L=\operatorname{lcm}(KD_1,\ldots,KD_k).
+\]
+The identity follows prime by prime, including at primes dividing
+\(K\). In the drop case \(Q\mid[p]_H\), for the \emph{same}
+\(H,p\) throughout this tuple. Each constituent of
+\(\sum_i B_{KD_i}\) can be expanded using the defining union of
+rotations. For a choice of rotations the result is a sum of at
+most \(4Jk\) sets of the form \(X-X\), where \(X=3^t\cdot A_{KD_i}\)
+lies on one affine \(G_Q\)-grid. Indeed \(G_{KD_i}\subset G_Q\);
+also \(3^t(H-1)x=(H-1)\{3^t x\}\bmod1\) with
+\(\{3^t x\}\in C\). At the terminal \(X\) consists directly of
+genuine shifted points \(\{3^t x\}\in C\). Thus all the difference
+sets are of the kind tested by the common mixed-fiber estimate.
+Their grid offsets may vary independently; the copies need not
+share a realized prior. Since taking differences removes every
+individual recentering, there is no cost for aligning offsets.
+
+There are at most \(n^{4Jk}\) choices of the rotations. Let \(S\)
+be a dyadic detector height with \(Q\le S\). For any fixed
+\(\delta>0\), Theorem~\ref{thm:native},
+at the finitely many orders up to \(4Jk\), gives
+\begin{equation}\label{eq:lift-lcm}
+ \left|\sum_{i=1}^k K\cdot B_{KD_i}\right|
+ \le \left|\sum_{i=1}^k B_{KD_i}\right|
+ \ll n^{4Jk} S^\delta D_S(Q).
+\end{equation}
+Here \(D_S(Q)\) is the common full-grid detector of
+Proposition~\ref{prop:detector}, whose sum over
+\(Q\le S\) is \(\le S^{1+o(1)}\). The first inequality is the
+cardinality bound for the image under the \emph{single} scalar
+\(K\); it uses no division by \(H-1\). At the terminal we use the
+true-\(C\) assertion of the same theorem.
+
+On the output side \(K\cdot B_{KD_i}\subset G_{D_i}\).
+Addition from \(\prod_i G_{D_i}\) onto \(G_L\) is surjective:
+its image is generated by the \(1/D_i\), and
+\(\gcd_i(L/D_i)=1\). Each fiber has exactly \(\prod_i D_i/L\)
+points. Restricting to the indicated subsets and applying
+\eqref{eq:lift-lcm} gives
+\[
+ \prod_i |K\cdot B_{KD_i}|
+       \ll \frac{V^k}{L}\,n^{4Jk} S^\delta D_S(KL).
+\]
+There are at most \(\tau(L)^k=T^{o(1)}\) ordered tuples for each
+\(L\), by the divisor bound since \(L\le V^k\le(2T)^k\).
+Group by \(W\le L<2W\) for dyadic \(W\ge1\), taking a \emph{single}
+dyadic \(S\) with \(2KW\le S<4KW\) for that shell. Nonempty shells
+have \(S\ge Q>U/2\); also \(S\le 4 K V^k\le 4U^k\). Since \(KL\)
+is different for each \(L\), the complete detector budget, even
+though it includes many unused moduli, gives
+\[
+ \sum_{W\le L<2W}D_S(KL)\le S^{1+o(1)}.
+\]
+After expansion of the \(k\)-th power of the desired sum, the shell
+therefore contributes at most
+\[
+ V^k T^{o(1)}\,\frac{S^{1+\delta}}{W}
+   \ll_{k,\delta} V^k K U^{k\delta} T^{o(1)} .
+\]
+The subpower factor includes \(n^{4Jk}\) and the uniform detector
+budget error. There are \(O_k(\log(2T))\) shells. Taking a \(k\)-th
+root costs \(K^{1/k}\le U^{1/k}\), not a factor \(K\) in each
+coordinate. Choose \(\delta<\sigma'/2\), then \(P_0\) sufficiently
+large for the fixed mixed orders and this tolerance, and finally
+\(T\) large. This proves the lemma, including \(K=1\) and
+\(D_i=1\). It prices the \(D\)'s for one specified \(K\); it does
+not sum over possible complements.
+\end{proof}
