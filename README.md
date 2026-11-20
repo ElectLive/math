@@ -18,6 +18,8 @@ all-odd-order square theorem.
 
 ## Normality and constructed numbers
 
+- **[Normal numbers and digit expansions](notes/number-theory/normal-numbers/README.md):** for every irrational number, the combined number of adjacent unequal pairs in the first $N$ fractional digits in two fixed coprime bases is at least a positive constant times $\log N\log\log N$ for every sufficiently large $N$. Includes the full proof; no normality of a particular number follows.
+
 - **[Normal dovetails from analytic functions](notes/number-theory/normal-dovetails/README.md):** a full proof manuscript for coefficient-window admission, common schedules for nonpolynomial real D-finite germs, exact regular-power exceptions, and the rational-derivative dichotomy. Includes older logarithmic-grid and shifted-transfer proofs, separately qualified extension drafts, public source provenance, and 1,332 exact finite checks. Scoped nonauthor model review; no formal verification, external referee acceptance, priority claim, or normality theorem for an unchanged traditional constant.
 
 ## Diophantine descriptions
