@@ -1,6 +1,6 @@
 # Normal numbers and digit expansions
 
-This workspace studies the digits of fixed real numbers and what changes when we read the same number in different bases.
+This workspace studies two complementary questions: how complex the digits of a fixed real number must be, and how to construct new digit streams with prescribed statistical behavior.
 
 ## Joint digit switches in coprime bases
 
@@ -10,8 +10,10 @@ For every irrational real number, the combined count is at least a positive cons
 
 **[Read the theorem and full proof](0001-joint-digit-switches.md).** The proof analyzes sparse windows in the two expansions and uses the quantitative Subspace Theorem to bound how often such windows can occur.
 
-## What remains open
+### What remains open
 
 This bound does not choose a base in which the switches are frequent, prove positive switch density, or prove normality of any particular irrational number. Natural next questions are whether the joint lower bound can be increased and what fails when the bases share a prime factor.
 
-For a separate construction that *builds* normal digit streams, see [Normal dovetails from analytic functions](../normal-dovetails/README.md).
+## Normal Dovetails: constructing normal digit streams
+
+The [Normal Dovetails proof and replay packet](normal-dovetails/README.md) constructs a normal stream in a fixed base by concatenating complete fractional prefixes of values of a nonpolynomial real D-finite function at suitable rational inputs. The proof controls every output prefix. This is a theorem about the constructed stream, not about normality of the original function values.
