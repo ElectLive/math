@@ -35,15 +35,39 @@ Rahm, Solomon, Trauthwein, and Weiss proved
 lower bound shows that no fixed power of the logarithm can close the gap.
 
 \begin{theorem}\label{thm:lower}
-For all sufficiently large \(T\),
+Put \(\rho_*=(32\sqrt e/15)\kappa=2.219\ldots\). For every fixed
+\(0<\rho<\rho_*\) and all sufficiently large \(T\),
 \[
- N_C(T)\gg T^\kappa\log T\,\exp\big((\log\log T)^2\big).
+ N_C(T)\gg_\rho T^\kappa\log T\,\exp\big((\log\log T)^\rho\big).
 \]
-In particular \(N_C(T)/(T^\kappa(\log T)^A)\to\infty\) for every fixed
-real \(A\).
+In particular one can take \(\rho=2.21\), and
+\(N_C(T)/(T^\kappa(\log T)^A)\to\infty\) for every fixed real \(A\).
 \end{theorem}
 
-The two theorems determine the exponent of \(T\), but not the size of
+A depth-\(d\) cylinder consists of those points of \(C\) with a
+specified prefix of \(d\) allowed ternary digits. Let \(P(Y)\) count
+the rational points of \(C\) of reduced denominator at most \(Y\)
+that is coprime to \(3\), including the endpoints.
+
+\begin{theorem}\label{thm:lower-cylinders}
+Let \(I\) be any depth-\(d\) cylinder, and write \(Y=T/3^d\).
+The number of \(a/q\in I\) of reduced denominator \(q\le T\) with
+\(v_3(q)>d\) is exactly \(N_C(Y)-P(Y)\). For any fixed
+\(0<\rho<\rho_*\) it is
+\[
+ \gg_\rho Y^\kappa\log Y\,\exp\big((\log\log Y)^\rho\big)
+\]
+for sufficiently large \(Y\), uniformly in the cylinder and its depth.
+In particular, for every fixed \(0<\theta<1\), uniformly for
+\(d\le\theta\lfloor\log_3 T\rfloor\) and all such cylinders, it is
+\[
+ \gg_{\rho,\theta} 2^{-d}T^\kappa\log T\,
+             \exp\big((\log\log T)^\rho\big)
+\]
+for sufficiently large \(T\).
+\end{theorem}
+
+The upper and lower bounds determine the exponent of \(T\), but not the size of
 the subpower factor. The lower proof starts with many primes whose
 predecessors have only small prime factors. These primes share a
 common progression of periods \(n\) for which they divide \(3^n-1\).
@@ -90,7 +114,7 @@ and its least-common-multiple application are in
 Sections~\ref{sec:boolean}--\ref{sec:lcm}. Section~\ref{sec:tariff}
 pays for the complementary primes, and Section~\ref{sec:assembly}
 assembles the upper bound and gives the exact identity for preperiods.
-Section~\ref{sec:lower} uses that identity to prove the lower bound.
+Section~\ref{sec:lower} uses that identity to prove the lower bound and its cylinder refinement.
 
 We write \(G_u=u^{-1}\mathbb Z/\mathbb Z\) and use additive notation on
 the circle. If \(A\) is a set and \(m\) a nonnegative integer, \(mA\)

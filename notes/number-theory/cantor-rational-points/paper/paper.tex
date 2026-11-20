@@ -23,7 +23,7 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Let \(C\) be the middle-third Cantor set. For every \(\varepsilon>0\), we bound the number of distinct rational points of \(C\) of reduced denominator at most \(T\) by \(O_\varepsilon(T^{\log_3 2+\varepsilon})\). This is the counting bound conjectured by Broderick, Fishman, and Reich. We decompose the denominator of a purely periodic point by descending through divisors of its period. At each large step, additive estimates on rational grids count the high-entropy part of the new denominator, and the entropy missing from the other components pays for naming their primes. The resulting local bounds multiply at the original denominator scale. We also show that the count is at least a constant times \(T^{\log_3 2}\log T\exp((\log\log T)^2)\) for all sufficiently large \(T\). The lower bound uses common periods built from primes whose predecessors have only small prime factors, and rules out every fixed power of \(\log T\) as a correction to \(T^{\log_3 2}\).
+Let \(C\) be the middle-third Cantor set. For every \(\varepsilon>0\), we bound the number of distinct rational points of \(C\) of reduced denominator at most \(T\) by \(O_\varepsilon(T^{\log_3 2+\varepsilon})\). This is the counting bound conjectured by Broderick, Fishman, and Reich. We decompose the denominator of a purely periodic point by descending through divisors of its period. At each large step, additive estimates on rational grids count the high-entropy part of the new denominator, and the entropy missing from the other components pays for naming their primes. The resulting local bounds multiply at the original denominator scale. We also show that the count is at least a constant times \(T^{\log_3 2}\log T\exp((\log\log T)^\rho)\) for any fixed \(0<\rho<(32\sqrt e/15)\log_3 2\) and all sufficiently large \(T\). The same gain holds within each fixed-prefix cylinder of depth up to any fixed fraction of \(\log_3 T\), after scaling by its Cantor mass. The lower bound uses common periods built from primes whose predecessors have only small prime factors, and rules out every fixed power of \(\log T\) as a correction to \(T^{\log_3 2}\).
 \end{abstract}
 \input{introduction}
 \input{itinerary}
@@ -37,6 +37,9 @@ Let \(C\) be the middle-third Cantor set. For every \(\varepsilon>0\), we bound 
 OpenAI's GPT-6.2 Astra carried out the mathematical discovery and proof
 development reported here and wrote the manuscript. The human author
 directed the research and its presentation.
+\begingroup
+\small
 \bibliographystyle{abbrv}
 \bibliography{references}
+\endgroup
 \end{document}

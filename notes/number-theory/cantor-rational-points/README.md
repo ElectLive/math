@@ -10,14 +10,14 @@ How many fractions in lowest terms, with denominator at most $`T`$, belong to th
 N_C(T)=\#\{a/q\in C:0\le a\le q,\ 1\le q\le T,\ \gcd(a,q)=1\}.
 ```
 
-The [paper (PDF)](paper/cantor-rational-points.pdf) gives upper and lower bounds for this count. For every $`\varepsilon>0`$ and all sufficiently large $`T`$,
+The [paper (PDF)](paper/cantor-rational-points.pdf) gives upper and lower bounds for this count. For every fixed $`\varepsilon>0`$ and $`0<\rho<\rho_*=(32\sqrt e/15)\kappa=2.219\ldots`$, and all sufficiently large $`T`$,
 
 ```math
-T^\kappa\log T\,\exp\!\big((\log\log T)^2\big)
-\ \ll\ N_C(T)\ \ll_\varepsilon\ T^{\kappa+\varepsilon}.
+T^\kappa\log T\,\exp\!\big((\log\log T)^\rho\big)
+\ \ll_\rho\ N_C(T)\ \ll_\varepsilon\ T^{\kappa+\varepsilon}.
 ```
 
-Here $`\log`$ is natural. The upper bound is the cumulative version of [Broderick, Fishman and Reich, Conjecture 3.3](https://arxiv.org/abs/1106.0526); summing over successive powers of three recovers it from their shell formulation. Each point counts once, including 0 and 1. The height is **not** the denominator displayed by a repeating word: for example, $`0.\overline{02}_3=2/(3^2-1)=1/4`$ enters this count at height 4, not 8. There is no restriction on the prime factors of the reduced denominator.
+For example one can take $`\rho=2.21`$. Here $`\log`$ is natural. The upper bound is the cumulative version of [Broderick, Fishman and Reich, Conjecture 3.3](https://arxiv.org/abs/1106.0526); summing over successive powers of three recovers it from their shell formulation. Each point counts once, including 0 and 1. The height is **not** the denominator displayed by a repeating word: for example, $`0.\overline{02}_3=2/(3^2-1)=1/4`$ enters this count at height 4, not 8. There is no restriction on the prime factors of the reduced denominator.
 
 The lower bound improves the $`T^\kappa\log T`$ bound of [Rahm, Solomon, Trauthwein and Weiss, Proposition 3.3](https://arxiv.org/abs/1909.01198). In particular, **no fixed power of the logarithm suffices** in an upper bound of the form $`O(T^\kappa(\log T)^A)`$. Yet $`\log N_C(T)/\log T\to\kappa`$: the exponent of $`T`$ is sharp, while the size of the remaining factor is unknown. This is an internally cross-checked proof draft, not an externally refereed or formally verified result. See the [source and build instructions](paper/README.md) and the [verification record](VERIFICATION.md).
 
@@ -61,9 +61,19 @@ Thus a single logarithm could only suffice if the averages of $`F_m`$ remained b
 
 A length-$`n`$ repeating word with ternary integer value $`B`$ gives the point $`B/(3^n-1)`$. Even if a shorter word repeats to form it, different length-$`n`$ words give different numerators at this same symbolic denominator. The construction chooses **which lengths to use** so that many words at each such length have much smaller reduced denominators.
 
-1. **Choose primes that divide the same periodic denominators.** By [Baker and Harman, *Shifted primes without large prime factors*, Theorem 1](https://matwbn.icm.edu.pl/ksiazki/aa/aa83/aa8342.pdf), many primes $`p\le x`$ have every prime factor of $`p-1`$ at most $`x^\beta`$, where $`\beta=0.2961`$. One dyadic band $`[Y,2Y]`$ contains $`L\gg x/(\log x)^D`$ such large primes, for a fixed $`D`$. Their $`p-1`$ all divide one integer $`R\ge x^4`$ with $`\log R=O(x^\beta)`$: multiply $`x^4`$ (for integral $`x`$) by the largest power up to $`x`$ of each prime up to $`x^\beta`$. Hence each chosen $`p`$ divides $`3^n-1`$ whenever $`R\mid n`$.
+1. **Choose primes that divide the same periodic denominators.** By [Lichtman, Theorem 1.1](https://arxiv.org/abs/2211.09641), for any fixed $`\beta>15/(32\sqrt e)`$ there are $`L\gg_\beta x/(\log x)^{C_\beta}`$ primes $`p\in(x,2x]`$ for which every prime factor of $`p-1`$ is at most $`x^\beta`$. Set $`Y=x`$. All these $`p-1`$ divide one integer $`R\ge x^4`$ with $`\log R=O_\beta(x^\beta)`$: multiply $`x^4`$ (for integral $`x`$) by the largest power up to $`2x`$ of each prime up to $`x^\beta`$. Thus each selected $`p`$ divides $`3^n-1`$ whenever $`R\mid n`$.
 2. **Gain more in reduced height than is lost in word count.** For a uniformly chosen word, the residue of $`B/2`$ is nearly uniform modulo the product of these primes. The justification is a Fourier estimate for the independent 0–1 digits of $`B/2`$; its error is smaller than the rare-event probability used here. Put $`k=\lfloor Y^\kappa L/(8Y)\rfloor`$. A proportion $`\gg (L/(2Yk))^k`$ of words have exactly $`k`$ of the selected primes dividing the numerator. Each such word cancels a factor of at least $`Y^k`$ from the denominator. Thus, at $`m=n-\lfloor k\log_3 Y\rfloor`$, the normalization $`2^{-m}`$ gains a factor at least $`Y^{\kappa k}/2`$ relative to $`2^{-n}`$. Multiplying the gain by the surviving proportion gives $`F_m\gg4^k`$.
-3. **Repeat the gain often enough.** These indices $`m`$ form an arithmetic progression of spacing $`R`$. For $`M\ge4R`$ the average of $`F_m`$ over $`m<M`$ is therefore at least a constant times $`4^k/R`$. No disjointness between pure point sets counted at different heights is asserted or needed: the prefix identity sums counts for distinct exact prefix lengths. Choose $`x`$ of size $`a(\log M)^{1/\beta}`$ with $`a>0`$ small, so $`R\le\sqrt M`$. Then $`k\gg x^\kappa/(\log x)^D`$, and $`\kappa/\beta>2`$. The logarithm of $`4^k/R`$ eventually grows faster than $`(\log M)^2`$. Substituting $`M=\lfloor\log_3 T\rfloor`$ gives the stated bound for **every sufficiently large height**, not just along a subsequence.
+3. **Repeat the gain often enough.** These indices $`m`$ form an arithmetic progression of spacing $`R`$. For $`M\ge4R`$ the average of $`F_m`$ over $`m<M`$ is therefore at least a constant times $`4^k/R`$. No disjointness between pure point sets counted at different heights is asserted or needed: the prefix identity sums counts for distinct exact prefix lengths. Choose $`x`$ of size $`a(\log M)^{1/\beta}`$ with $`a>0`$ small, so $`R\le\sqrt M`$. Then $`k\gg_\beta x^\kappa/(\log x)^{C_\beta}`$. Choose $`\beta`$ so that $`\kappa/\beta>\rho`$; the logarithm of $`4^k/R`$ eventually exceeds $`(\log M)^\rho`$. Substituting $`M=\lfloor\log_3 T\rfloor`$ gives the stated bound for **every sufficiently large height**, not just along a subsequence.
+
+### The same gain inside every sufficiently large cylinder
+
+Fix any allowed prefix of length $`d`$ and put $`Y=T/3^d`$. In its cylinder, the exact number of rationals of reduced denominator $`q\le T`$ divisible by $`3^{d+1}`$ is $`N_C(Y)-P(Y)`$. Strip the prefix: a reduced tail $`a/q_0`$ with $`3\mid q_0`$ has denominator exactly $`3^dq_0`$ after restoring the prefix, because the new numerator $`q_0 A+a`$ is coprime to $`q_0`$ and to 3. Here $`A`$ is the integer specified by the prefix. Tails with $`3\nmid q_0`$ cannot qualify. The estimate above already counts tails with a positive power of 3 in their denominator. For every fixed $`0<\theta<1`$, uniformly over all prefixes with $`d\le\theta\lfloor\log_3 T\rfloor`$, the resulting local count is at least a constant times
+
+```math
+2^{-d}T^\kappa\log T\,\exp\!\big((\log\log T)^\rho\big).
+```
+
+Indeed the rescaled height is at least $`T^{1-\theta}`$, so using any intermediate exponent between $`\rho`$ and $`\rho_*`$ absorbs the bounded change in $`\log\log T`$. The cylinder need not be chosen in advance as $`T`$ grows.
 
 **What remains open?** Determine the growth of $`N_C(T)/T^\kappa`$ more closely. The exact prefix identity reduces this to controlling the normalized purely periodic counts and their partial sums. The construction gives large contributions from one progression of word lengths at a time. How large can the total be when all possible cancellations are counted? An explicit upper bound for that total, with a rate beyond the current $`T^{o(1)}`$ factor, would narrow the gap. The displayed lower bound rules out every fixed power of $`\log T`$; it is not a matching estimate or an asymptotic.
 

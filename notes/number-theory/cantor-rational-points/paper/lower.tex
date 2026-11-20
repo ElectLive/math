@@ -8,32 +8,31 @@ just at one height.
 
 \begin{proof}[Proof of Theorem~\ref{thm:lower}]
 Write \(F_m=2^{-m}P(3^m)\), where \(P(Y)\) is the pure count defined
-in Section~\ref{sec:assembly}. By \eqref{eq:normalized-preperiod}
+in Section~\ref{sec:assembly}. By \eqref{eq:normalized-preperiod}, to bound even \(N_C(T)-P(T)\) from below
 it suffices to bound the average of the \(F_m\) from below.
 
 \smallskip
 \noindent\emph{A common multiple of many prime orders.}
-Fix \(\beta=0.2961\). By Baker and Harman~\cite[Theorem~1]{BH1998},
-for every sufficiently large integer \(x\) there are at least
-\(x/(\log x)^{C_1}\) primes \(p\le x\) such that every prime factor
-of \(p-1\) is at most \(x^\beta\), for an absolute \(C_1\).
-Discard the at most \(x^{9/10}\) primes not exceeding \(x^{9/10}\).
-Among the remaining primes, one dyadic interval \([Y,2Y)\), with
-\(x^{9/10}/2\le Y\le x\), contains a set \(\mathcal L\) of
-\(L\gg x/(\log x)^{C_1+1}\) such primes. Write
+Fix \(\beta>15/(32\sqrt e)\) with \(\beta<\kappa\).
+By Lichtman~\cite[Theorem~1.1]{Lichtman2022}, extending
+Baker and Harman~\cite[Theorem~1]{BH1998}, for every sufficiently large
+integer \(x\) there are \(L\gg_\beta x/(\log x)^{C_\beta}\) primes
+in \((x,2x]\) whose predecessors have no prime factor exceeding
+\(x^\beta\), for a fixed \(C_\beta>1\). Take \(\mathcal L\) to be the
+set of these primes and put \(Y=x\). Write
 \[
  Q=\prod_{p\in\mathcal L}p,\qquad
  R=x^4\prod_{\substack{r\le x^\beta\\r\ {\rm prime}}}
-                       r^{\lfloor\log x/\log r\rfloor}.
+                       r^{\lfloor\log(2x)/\log r\rfloor}.
 \]
 Every \(p-1\) with \(p\in\mathcal L\) divides \(R\): each of its
-prime powers is at most \(x\), and its prime base is at most
+prime powers is at most \(2x\), and its prime base is at most
 \(x^\beta\). For large \(x\) all the selected primes exceed \(3\).
 Fermat's little theorem then gives \(Q\mid 3^n-1\) whenever
 \(n\) is a positive multiple of \(R\).
-We have \(\log Q\le x\log x\) and
+We have \(\log Q\le 2x\log(2x)\) and
 \(\log R\ll x^\beta\), the latter from
-\(\log R\le4\log x+\pi(x^\beta)\log x\).
+\(\log R\le4\log x+\pi(x^\beta)\log(2x)\).
 Here the elementary Chebyshev bound \(\pi(z)\ll z/\log z\) suffices:
 \(\prod_{m<r\le2m, r\ {\rm prime}}r\) divides \(\binom{2m}{m}\),
 so dyadic summation gives \(\sum_{r\le z, r\ {\rm prime}}\log r\ll z\).
@@ -46,8 +45,8 @@ Set
  k=\left\lfloor\frac{Y^\kappa L}{8Y}\right\rfloor,
  \qquad j=\lfloor k\log_3Y\rfloor .
 \]
-Since \(Y\le x\) and \(\kappa<1\), we have
-\(k\gg x^\kappa/(\log x)^{C_1+1}\) for large \(x\). Also \(L\le2Y\),
+Since \(Y=x\), we have
+\(k\gg x^\kappa/(\log x)^{C_\beta}\) for large \(x\). Also \(L\le2Y\),
 so \(k\ll x^\kappa\), \(1\le k<L\), and \(j\ll x^\kappa\log x<R\).
 
 For each positive multiple \(n\) of \(R\) let
@@ -80,7 +79,7 @@ the error is thus at most
  \le \exp\bigl(-c_0x^3/\log x\bigr)
 \]
 for an absolute \(c_0>0\) and large \(x\), because \(n\ge R\ge x^4\)
-and \(\log Q\le x\log x\). This bound is uniform in \(n\).
+and \(\log Q\le 2x\log(2x)\). This bound is uniform in \(n\).
 
 For a uniform residue modulo \(Q\), the events \(p\mid X_n\),
 \(p\in\mathcal L\), are independent by the Chinese remainder
@@ -119,7 +118,7 @@ For \(M\ge4R\) there are at least \(M/(2R)\) such indices less
 than \(M\). Consequently there is an absolute \(c_1>0\) such that
 \[
  \frac1M\sum_{m<M}F_m\gg \frac{4^k}{R}
-     \ge\exp\left(c_1\frac{x^\kappa}{(\log x)^{C_1+1}}\right)
+     \ge\exp\left(c_1\frac{x^\kappa}{(\log x)^{C_\beta}}\right)
 \]
 for large \(x\), because \(\log R=O(x^\beta)\) and \(\beta<\kappa\).
 For each sufficiently large \(M\), take
@@ -128,20 +127,49 @@ fixed \(a>0\). The bound \(\log R\ll x^\beta\) ensures \(R\le M^{1/2}\),
 so \(M\ge4R\). The lower bound for the average becomes
 \[
  \exp\left(c_2\frac{(\log M)^{\kappa/\beta}}
-                        {(\log\log M)^{C_1+1}}\right)
+                        {(\log\log M)^{C_\beta}}\right)
 \]
-up to an absolute constant, with \(c_2>0\). Substituting in the
-preperiod identity proves the corresponding bound for
-\(N_C(3^M)/(2^M M)\).
+up to a constant depending on \(\beta\), with \(c_2>0\). Inserting this in
+the preperiod identity bounds \((N_C(3^M)-P(3^M))/(2^M M)\) from below.
 
-Finally, for arbitrary large \(T\) put \(M=\lfloor\log_3T\rfloor\).
-Use monotonicity, \(T^\kappa<2\cdot 2^M\), and \(M\asymp\log T\).
-Since \(\kappa/\beta>2\) and \(\log M=\log\log T+O(1)\), the
-exponent in the last display eventually exceeds
-\((\log\log T)^2\). This gives the claimed all-height bound.
+For arbitrary large \(T\), put \(M=\lfloor\log_3T\rfloor\).
+The numerator \(N_C(T)-P(T)\) counts the points of positive denominator
+valuation at \(3\), so it is nondecreasing. Also
+\(T^\kappa<2\cdot 2^M\) and \(M\asymp\log T\). Hence the argument gives
+constants \(c_\beta>0\) and \(C_\beta>1\) such that
+\[
+ N_C(T)-P(T)\gg_\beta T^\kappa\log T
+ \exp\left(c_\beta\frac{(\log\log T)^{\kappa/\beta}}
+                             {(\log\log\log T)^{C_\beta}}\right)
+\]
+for all sufficiently large \(T\). For every \(0<\rho<\rho_*\), choose
+\(\beta>15/(32\sqrt e)\) with \(\beta<\kappa\) and \(\rho<\kappa/\beta\).
+The displayed exponent then eventually exceeds \((\log\log T)^\rho\)
+and proves the theorem.
 \end{proof}
 
 The argument also shows that the averages
 \(M^{-1}\sum_{m<M}F_m\) tend to infinity, rather than being large
 only along a subsequence. The lower bound does not determine the
 optimal subpower factor in \(N_C(T)\).
+
+\begin{proof}[Proof of Theorem~\ref{thm:lower-cylinders}]
+Write \(A\) for the integer of the specified prefix. The cylinder map
+is \(y\mapsto (A+y)/3^d\), a bijection from \(C\) onto \(I\).
+If \(y=a/q\) is reduced and \(3\mid q\), then \(qA+a\) is coprime to
+\(q\) and to \(3\), so the image has reduced denominator exactly
+\(3^d q\). If instead \(3\nmid q\), the image has denominator
+valuation at most \(d\). This proves the identity at every height,
+including the endpoints. The lower bound for \(N_C(Y)-P(Y)\) proved
+above gives the first inequality. At triadic heights \(T=3^M\)
+with \(M\ge d+1\), the same identity reads
+\[
+ 2^{M-d-1}\sum_{0\le m<M-d}F_m .
+\]
+For \(d\le\theta\lfloor\log_3 T\rfloor\), we have
+\(Y\ge T^{1-\theta}\), \(Y^\kappa=2^{-d}T^\kappa\) and
+\(\log\log Y=\log\log T+O_\theta(1)\). Apply the first inequality
+with any fixed exponent strictly between \(\rho\) and \(\rho_*\)
+to absorb the last bounded change of scale. This gives the claimed
+uniform estimate.
+\end{proof}

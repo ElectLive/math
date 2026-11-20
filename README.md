@@ -22,7 +22,7 @@ all-odd-order square theorem.
 
 ## Diophantine descriptions
 
-- **[Rational points in the middle-third Cantor set](notes/number-theory/cantor-rational-points/README.md):** a proof draft of the Broderick–Fishman–Reich upper bound at ordinary reduced height. The power is sharp, but the new lower bound rules out every fixed power of the logarithm as the remaining factor. Includes a [paper (PDF)](notes/number-theory/cantor-rational-points/paper/cantor-rational-points.pdf). Internally cross-checked, not externally refereed.
+- **[Rational points in the middle-third Cantor set](notes/number-theory/cantor-rational-points/README.md):** a proof draft of the Broderick–Fishman–Reich upper bound at ordinary reduced height. The power is sharp, but the new lower bound rules out every fixed power of the logarithm as the remaining factor, including uniformly within Cantor cylinders up to any fixed fraction of logarithmic depth. Includes a [paper (PDF)](notes/number-theory/cantor-rational-points/paper/cantor-rational-points.pdf). Internally cross-checked, not externally refereed.
 
 - **[Integer-polynomial golfing](notes/number-theory/integer-polynomial-golf/README.md):** a complete 1,520-character Python generator for a 3,779-variable integer quartic. Its rational-witness projection defines the integers **conditional on the explicitly retained upstream arithmetic premises**. Includes readable source, proofs, scoped model reviews, reproducible algebraic checks, and a paste-friendly version. Not an independent proof of those premises or a minimality claim.
 
