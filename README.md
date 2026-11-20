@@ -22,49 +22,7 @@ all-odd-order square theorem.
 
 ## Diophantine descriptions
 
-- **[Rational points in the middle-third Cantor set](notes/number-theory/cantor-rational-points/README.md):** a proof draft of the Broderick–Fishman–Reich bound # Public mathematical results
-
-An index of results and proof drafts publicly released in this repository.
-Each entry states its scope and verification status; publication does not
-by itself imply formal verification or external referee acceptance.
-
-## Prime arrays and lattice reductions
-
-| Result | Exact scope | Sources and verification |
-| --- | --- | --- |
-| **Sude's First Theorem** | For every positive odd n, exactly the first n² odd primes can be arranged, each once, in an n × n square with prime sums in every row, column and both main diagonals. | [Paper (PDF)](notes/sudes-first-conjecture/paper/sude-prime-sum-squares.pdf), [paper source](notes/sudes-first-conjecture/paper/README.md), [research writeup](notes/sudes-first-conjecture/research-writeup.md), [resolution and proof](notes/sudes-first-conjecture/resolution.md), [complete public replay packet](notes/sudes-first-conjecture/packet/README.md), and [internal nonauthor review](notes/sudes-first-conjecture/proof-source/problems/prime-line-sums/reviews/sude-all-odd-independent-review.md). A conventional computer-assisted theorem with explicit analytic imports and independently reproduced exact checks; no end-to-end formalization or external referee acceptance claimed. |
-| **Trimmed coded folding for Euclidean GapCVP** | For each fixed rational 0 < ε < 1/2, a deterministic ordinary reduction from sparse Boolean quadratic satisfiability with source-size bound N has exact gap D^(1/2−ε) and full lattice rank D ≤ N^(1/ε+o(1)). The lattice depends on the instance; this is a rank bound, not the runtime exponent. | [Statement, complete proof packet and finite checks](notes/lattices/trimmed-coded-fold/README.md), with [provenance and verification limits](notes/lattices/trimmed-coded-fold/PROVENANCE.md). A complete mathematical **proof draft**, not formally verified or human-expert-reviewed. |
-
-The [prime-array research index](notes/sudes-first-conjecture/README.md)
-also records higher-dimensional and other-field generalizations, each with
-its own range and proof status. Those ranges are not enlarged by the
-all-odd-order square theorem.
-
-## Normality and constructed numbers
-
-- **[Normal dovetails from analytic functions](notes/number-theory/normal-dovetails/README.md):** a full proof manuscript for coefficient-window admission, common schedules for nonpolynomial real D-finite germs, exact regular-power exceptions, and the rational-derivative dichotomy. Includes older logarithmic-grid and shifted-transfer proofs, separately qualified extension drafts, public source provenance, and 1,332 exact finite checks. Scoped nonauthor model review; no formal verification, external referee acceptance, priority claim, or normality theorem for an unchanged traditional constant.
-N_C(T)=O_\varepsilon(T^{\log_3 2+\varepsilon})`$ for every # Public mathematical results
-
-An index of results and proof drafts publicly released in this repository.
-Each entry states its scope and verification status; publication does not
-by itself imply formal verification or external referee acceptance.
-
-## Prime arrays and lattice reductions
-
-| Result | Exact scope | Sources and verification |
-| --- | --- | --- |
-| **Sude's First Theorem** | For every positive odd n, exactly the first n² odd primes can be arranged, each once, in an n × n square with prime sums in every row, column and both main diagonals. | [Paper (PDF)](notes/sudes-first-conjecture/paper/sude-prime-sum-squares.pdf), [paper source](notes/sudes-first-conjecture/paper/README.md), [research writeup](notes/sudes-first-conjecture/research-writeup.md), [resolution and proof](notes/sudes-first-conjecture/resolution.md), [complete public replay packet](notes/sudes-first-conjecture/packet/README.md), and [internal nonauthor review](notes/sudes-first-conjecture/proof-source/problems/prime-line-sums/reviews/sude-all-odd-independent-review.md). A conventional computer-assisted theorem with explicit analytic imports and independently reproduced exact checks; no end-to-end formalization or external referee acceptance claimed. |
-| **Trimmed coded folding for Euclidean GapCVP** | For each fixed rational 0 < ε < 1/2, a deterministic ordinary reduction from sparse Boolean quadratic satisfiability with source-size bound N has exact gap D^(1/2−ε) and full lattice rank D ≤ N^(1/ε+o(1)). The lattice depends on the instance; this is a rank bound, not the runtime exponent. | [Statement, complete proof packet and finite checks](notes/lattices/trimmed-coded-fold/README.md), with [provenance and verification limits](notes/lattices/trimmed-coded-fold/PROVENANCE.md). A complete mathematical **proof draft**, not formally verified or human-expert-reviewed. |
-
-The [prime-array research index](notes/sudes-first-conjecture/README.md)
-also records higher-dimensional and other-field generalizations, each with
-its own range and proof status. Those ranges are not enlarged by the
-all-odd-order square theorem.
-
-## Normality and constructed numbers
-
-- **[Normal dovetails from analytic functions](notes/number-theory/normal-dovetails/README.md):** a full proof manuscript for coefficient-window admission, common schedules for nonpolynomial real D-finite germs, exact regular-power exceptions, and the rational-derivative dichotomy. Includes older logarithmic-grid and shifted-transfer proofs, separately qualified extension drafts, public source provenance, and 1,332 exact finite checks. Scoped nonauthor model review; no formal verification, external referee acceptance, priority claim, or normality theorem for an unchanged traditional constant.
-\varepsilon>0`$, counting distinct points by reduced denominator. The power is sharp; the logarithmic factor remains open. Includes a research writeup and a [paper (PDF)](notes/number-theory/cantor-rational-points/paper/cantor-rational-points.pdf). Internally cross-checked, not externally refereed.
+- **[Rational points in the middle-third Cantor set](notes/number-theory/cantor-rational-points/README.md):** a proof draft of the Broderick–Fishman–Reich bound, counting distinct points by reduced denominator. The power is sharp; the logarithmic factor remains open. Includes a [paper (PDF)](notes/number-theory/cantor-rational-points/paper/cantor-rational-points.pdf). Internally cross-checked, not externally refereed.
 
 - **[Integer-polynomial golfing](notes/number-theory/integer-polynomial-golf/README.md):** a complete 1,520-character Python generator for a 3,779-variable integer quartic. Its rational-witness projection defines the integers **conditional on the explicitly retained upstream arithmetic premises**. Includes readable source, proofs, scoped model reviews, reproducible algebraic checks, and a paste-friendly version. Not an independent proof of those premises or a minimality claim.
 
