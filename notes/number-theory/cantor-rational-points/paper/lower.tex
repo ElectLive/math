@@ -1,0 +1,147 @@
+\section{A superlogarithmic lower bound}\label{sec:lower}
+
+We now give a lower bound that does not use
+Theorem~\ref{thm:main}. The construction uses many primes that can
+cancel simultaneously in the symbolic denominator. The key is to
+arrange these cancellations at enough different period lengths, not
+just at one height.
+
+\begin{proof}[Proof of Theorem~\ref{thm:lower}]
+Write \(F_m=2^{-m}P(3^m)\), where \(P(Y)\) is the pure count defined
+in Section~\ref{sec:assembly}. By \eqref{eq:normalized-preperiod}
+it suffices to bound the average of the \(F_m\) from below.
+
+\smallskip
+\noindent\emph{A common multiple of many prime orders.}
+Fix \(\beta=0.2961\). By Baker and Harman~\cite[Theorem~1]{BH1998},
+for every sufficiently large integer \(x\) there are at least
+\(x/(\log x)^{C_1}\) primes \(p\le x\) such that every prime factor
+of \(p-1\) is at most \(x^\beta\), for an absolute \(C_1\).
+Discard the at most \(x^{9/10}\) primes not exceeding \(x^{9/10}\).
+Among the remaining primes, one dyadic interval \([Y,2Y)\), with
+\(x^{9/10}/2\le Y\le x\), contains a set \(\mathcal L\) of
+\(L\gg x/(\log x)^{C_1+1}\) such primes. Write
+\[
+ Q=\prod_{p\in\mathcal L}p,\qquad
+ R=x^4\prod_{\substack{r\le x^\beta\\r\ {\rm prime}}}
+                       r^{\lfloor\log x/\log r\rfloor}.
+\]
+Every \(p-1\) with \(p\in\mathcal L\) divides \(R\): each of its
+prime powers is at most \(x\), and its prime base is at most
+\(x^\beta\). For large \(x\) all the selected primes exceed \(3\).
+Fermat's little theorem then gives \(Q\mid 3^n-1\) whenever
+\(n\) is a positive multiple of \(R\).
+We have \(\log Q\le x\log x\) and
+\(\log R\ll x^\beta\), the latter from
+\(\log R\le4\log x+\pi(x^\beta)\log x\).
+Here the elementary Chebyshev bound \(\pi(z)\ll z/\log z\) suffices:
+\(\prod_{m<r\le2m, r\ {\rm prime}}r\) divides \(\binom{2m}{m}\),
+so dyadic summation gives \(\sum_{r\le z, r\ {\rm prime}}\log r\ll z\).
+Separating primes at \(\sqrt z\) gives the claimed bound for \(\pi(z)\).
+
+\smallskip
+\noindent\emph{Many cancelled words at each selected period.}
+Set
+\[
+ k=\left\lfloor\frac{Y^\kappa L}{8Y}\right\rfloor,
+ \qquad j=\lfloor k\log_3Y\rfloor .
+\]
+Since \(Y\le x\) and \(\kappa<1\), we have
+\(k\gg x^\kappa/(\log x)^{C_1+1}\) for large \(x\). Also \(L\le2Y\),
+so \(k\ll x^\kappa\), \(1\le k<L\), and \(j\ll x^\kappa\log x<R\).
+
+For each positive multiple \(n\) of \(R\) let
+\[
+ X_n=\sum_{t=0}^{n-1}b_t3^t,
+\]
+where the \(b_t\) are independent fair bits. Thus \(2X_n\) is
+uniform among the integers specified by the \(2^n\) length-\(n\)
+Cantor words. To compare \(X_n\bmod Q\) with the uniform residue,
+consider a nonzero frequency \(s\bmod Q\). Its Fourier coefficient
+has modulus
+\[
+ \left|\mathbb E\exp(2\pi i sX_n/Q)\right|
+   =\prod_{t=0}^{n-1}|\cos(\pi s3^t/Q)|.
+\]
+Let \(\vartheta=\cos(\pi/6)<1\) and
+\(B_Q=\lceil\log_3 Q\rceil+2\).
+Every block of \(B_Q\) consecutive factors contains one factor at
+most \(\vartheta\). Indeed the distance from \(s3^t/Q\) to the
+nearest integer is at least \(1/Q\), since \(3\) is invertible
+modulo \(Q\) and \(s\ne0\). Whenever that distance is less than
+\(1/6\), tripling the phase triples the distance. It cannot stay
+below \(1/6\) for the whole block. The Fourier coefficient is
+therefore at most \(\vartheta^{\lfloor n/B_Q\rfloor}\).
+By character orthogonality, at each single residue the error from
+uniform probability is at most this bound. For any residue event
+the error is thus at most
+\[
+ Q\vartheta^{\lfloor n/B_Q\rfloor}
+ \le \exp\bigl(-c_0x^3/\log x\bigr)
+\]
+for an absolute \(c_0>0\) and large \(x\), because \(n\ge R\ge x^4\)
+and \(\log Q\le x\log x\). This bound is uniform in \(n\).
+
+For a uniform residue modulo \(Q\), the events \(p\mid X_n\),
+\(p\in\mathcal L\), are independent by the Chinese remainder
+theorem. The probability of exactly \(k\) successes in that model
+is at least
+\[
+ \binom Lk(2Y)^{-k}(1-1/Y)^L
+   \gg \left(\frac{L}{2Yk}\right)^k,
+\]
+since \(\binom Lk\ge(L/k)^k\) and \(L\le2Y\).
+This lower bound is at least \(\exp(-O(x^\kappa\log x))\),
+using \(L/(2Yk)\ge1/(2Y)\). The uniform Fourier error is
+negligible compared with it. It follows that at least
+a constant times \(2^n(L/(2Yk))^k\) Cantor words have exactly
+\(k\) selected primes dividing \(X_n\).
+
+Each such word represents the point \(2X_n/(3^n-1)\).
+The common divisor of its displayed numerator and denominator
+is at least \(Y^k\ge3^j\); its actual reduced denominator is
+therefore at most \(3^{n-j}\) and is prime to \(3\).
+For fixed \(n\) the fractions are distinct because the numerators
+at the common denominator \(3^n-1\) are distinct. Shorter least
+periods cause no duplication at this fixed \(n\), and we do not
+count points from different lengths as disjoint. Thus
+\[
+ F_{n-j}\gg 2^j\left(\frac{L}{2Yk}\right)^k
+      \ge \frac12\left(\frac{Y^\kappa L}{2Yk}\right)^k
+      \ge \tfrac12\,4^k .
+\]
+The indices \(n-j\) form a progression of positive integers with
+spacing \(R\), starting at \(R-j\).
+
+\smallskip
+\noindent\emph{Averaging over the progression.}
+For \(M\ge4R\) there are at least \(M/(2R)\) such indices less
+than \(M\). Consequently there is an absolute \(c_1>0\) such that
+\[
+ \frac1M\sum_{m<M}F_m\gg \frac{4^k}{R}
+     \ge\exp\left(c_1\frac{x^\kappa}{(\log x)^{C_1+1}}\right)
+\]
+for large \(x\), because \(\log R=O(x^\beta)\) and \(\beta<\kappa\).
+For each sufficiently large \(M\), take
+\(x=\lfloor a(\log M)^{1/\beta}\rfloor\) for a sufficiently small
+fixed \(a>0\). The bound \(\log R\ll x^\beta\) ensures \(R\le M^{1/2}\),
+so \(M\ge4R\). The lower bound for the average becomes
+\[
+ \exp\left(c_2\frac{(\log M)^{\kappa/\beta}}
+                        {(\log\log M)^{C_1+1}}\right)
+\]
+up to an absolute constant, with \(c_2>0\). Substituting in the
+preperiod identity proves the corresponding bound for
+\(N_C(3^M)/(2^M M)\).
+
+Finally, for arbitrary large \(T\) put \(M=\lfloor\log_3T\rfloor\).
+Use monotonicity, \(T^\kappa<2\cdot 2^M\), and \(M\asymp\log T\).
+Since \(\kappa/\beta>2\) and \(\log M=\log\log T+O(1)\), the
+exponent in the last display eventually exceeds
+\((\log\log T)^2\). This gives the claimed all-height bound.
+\end{proof}
+
+The argument also shows that the averages
+\(M^{-1}\sum_{m<M}F_m\) tend to infinity, rather than being large
+only along a subsequence. The lower bound does not determine the
+optimal subpower factor in \(N_C(T)\).

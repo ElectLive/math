@@ -10,4 +10,4 @@ To build locally with a standard TeX Live distribution (including Latin Modern a
 latexmk -pdf -halt-on-error paper.tex
 ```
 
-The main theorem counts individual rational points by the denominator in lowest terms. The manuscript does not rely on a private dependency, a computational classification, or a formal proof file.
+The paper counts distinct rational points by the denominator in lowest terms. It proves the fixed-power upper bound and a lower bound that rules out every fixed power of the logarithm as a correction to the main power. The manuscript does not rely on a private dependency, a computational classification, or a formal proof file.

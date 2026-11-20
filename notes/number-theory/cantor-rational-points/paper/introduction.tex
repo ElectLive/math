@@ -31,17 +31,25 @@ ordinary packing in \(C\) thus gives \(O(T^{2\kappa})\). Theorem~\ref{thm:main}
 identifies the power at the scale of the denominator itself.
 
 Rahm, Solomon, Trauthwein, and Weiss proved
-\(N_C(T)\gg T^\kappa\log T\)~\cite[Proposition~3.3]{RSTW2020}.
-One can see the origin of the logarithm directly. Set \(L=\lfloor\log_3 T\rfloor\).
-For \(1\le i<L\), take the expansions \(0.A\overline B\) with prefix
-\(A\) of length \(i\), period \(B\) of length \(L-i\), and different final
-trits in the two words. The numerator before reduction is
-\(A(3^{L-i}-1)+B\), viewing the words as base-three integers. It is
-prime to three, so the reduced denominator has exact \(3\)-adic
-valuation \(i\), and is at most \(3^L\). For each \(i\) there are
-\(2^{L-1}\) points, since different all-\(\{0,2\}\) addresses represent
-distinct points. Thus the power of \(T\) in the theorem is sharp,
-but the \(\varepsilon\) cannot simply be deleted.
+\(N_C(T)\gg T^\kappa\log T\)~\cite[Proposition~3.3]{RSTW2020}. Our
+lower bound shows that no fixed power of the logarithm can close the gap.
+
+\begin{theorem}\label{thm:lower}
+For all sufficiently large \(T\),
+\[
+ N_C(T)\gg T^\kappa\log T\,\exp\big((\log\log T)^2\big).
+\]
+In particular \(N_C(T)/(T^\kappa(\log T)^A)\to\infty\) for every fixed
+real \(A\).
+\end{theorem}
+
+The two theorems determine the exponent of \(T\), but not the size of
+the subpower factor. The lower proof starts with many primes whose
+predecessors have only small prime factors. These primes share a
+common progression of periods \(n\) for which they divide \(3^n-1\).
+The base-three word integers are close to uniform modulo the product
+of the selected primes, so simultaneous cancellation yields enough
+purely periodic tails to increase the count across many preperiods.
 
 \subsection*{The local counting problem}
 
@@ -81,7 +89,8 @@ grid fibers at a common lag have different offsets. The Boolean estimate
 and its least-common-multiple application are in
 Sections~\ref{sec:boolean}--\ref{sec:lcm}. Section~\ref{sec:tariff}
 pays for the complementary primes, and Section~\ref{sec:assembly}
-assembles the counting argument and restores preperiods.
+assembles the upper bound and gives the exact identity for preperiods.
+Section~\ref{sec:lower} uses that identity to prove the lower bound.
 
 We write \(G_u=u^{-1}\mathbb Z/\mathbb Z\) and use additive notation on
 the circle. If \(A\) is a set and \(m\) a nonnegative integer, \(mA\)
