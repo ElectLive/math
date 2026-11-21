@@ -1,0 +1,3 @@
+GF(125)^5: genuine rational module in characteristic 5, q=31, ord=3; a single C31-orbit spans dimension 3, full C31:C5 orbit spans 15, rank(h-1)=12; 4805 quotient elements, 155 marks distributed 5 per actual axis-stabilizer coset
+admissible (3,7) construction: degree 3^7*7 hits the conditional lower bound; (5,31) construction degree 5^16*31, no optimality asserted
+abelian Sylow transfer: all 21,609 products in the odd group, central C7 maps by cubing; all 117,649 Heisenberg products show a determinant-minus-one reflection inverts, not fixes, the commutator center

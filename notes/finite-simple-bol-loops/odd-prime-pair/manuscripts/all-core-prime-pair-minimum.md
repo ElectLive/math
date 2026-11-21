@@ -1,0 +1,55 @@
+# The first degree for every odd two-prime pair, without an abelian-core hypothesis
+
+**Research proof; see the scope of verification.** [Verification and provenance](../VERIFICATION.md).
+
+**Theorem.** For distinct odd primes $`p,q`$ a finite simple nonassociative left Bol loop of order $`p^a q`$ exists at some exponent if and only if $`p\mid q-1`$. For each admissible pair its **least exponent**, over all possible $`p`$-cores, is exactly
+```math
+                     a_{\min}=1+\operatorname{lcm}(p,\operatorname{ord}_q(p)).
+```
+More precisely, if the cyclic top rotation has order $`p^k`$ in the stated source reduction then $`a\ge1+\operatorname{lcm}(p^k,\operatorname{ord}_q(p))`$. If $`p\nmid\operatorname{ord}_q(p)`$ and the first degree is attained, the standard split abelian-core class is the only possibility *having a first-layer axial character*. Every potentially different class at that degree has $`\Phi(O_p(D))=[O_p(D),O_p(D)]`$ central of order exactly $`p`$, hence a nonabelian $`p`$-core of class two; its actual Frattini stabilizer quotient is one irreducible moving module of dimension $`\operatorname{lcm}(p,\operatorname{ord}_q(p))`$. No construction of or exclusion of this last alternative is asserted. For $`p\mid\operatorname{ord}_q(p)`$ first-degree uniqueness was addressed separately at [8b728b8e](fixed-pair-minimum-rigidity.md).
+
+## 1. A full character orbit in the physical stabilizer quotient
+
+Use the faithful canonical $`D=\operatorname{LMlt}(Q)`$ with inverting involution $`t`$, point stabilizer $`H`$ and marks $`T`$. For odd simple nonassociative $`Q`$ the properness needed here follows from odd Moufang solvability. The inverted elements are precisely $`T`$; the conjugacy-invariant set $`(Tt)^2`$ avoids $`H`$ off the identity and contains $`T`$. Put $`N=O_p(D)=F(D)`$. By the cited prime-pair reduction $`X=D/N=V\rtimes P`$, $`V=C_q^2`$, $`P=C_{p^k}`$, $`k\ge1`$. Its faithful reciprocal scalar axes over $`\mathbb F_q`$ are exchanged by $`t`$; $`P`$ acts on each by an order-$`p^k`$ scalar, and $`t`$ inverts $`P`$. The true image $`J=HN/N`$ is over one axis $`V_2`$, maps onto $`P`$, and has index $`q`$ in $`X`$. The physical equalities are
+```math
+ [N:H\cap N]=p^a,\qquad a=s+k,\quad p^s=[N:C_N(t)] .
+```
+Choose a $`t`$-stable Sylow $`q`$-group $`B\cong V`$ of the inverse image of $`V`$, and let $`B_2`$ be its copy of $`V_2`$. Conjugate $`H`$ by $`N`$ when necessary to arrange $`B_2\subset H`$, by Sylow conjugacy inside $`NB_2`$. This is used only for conjugacy-invariant necessary conditions, not as a marked isomorphism. Write $`W=H\cap N`$, $`M=[N,B]`$, $`\Phi=\Phi(N)`$, $`U=N/\Phi`$, $`\bar W=W\Phi/\Phi`$. The action on $`U`$ factors through $`X`$ and $`\bar W`$ is $`J`$-invariant since $`W\triangleleft H`$.
+
+Here $`W`$ maps onto $`N/M`$. Indeed $`D=N N_D(B)`$ by the Frattini argument; $`M`$ is normalized by $`N`$ (the commutator identity) and by $`N_D(B)`$, hence by $`D`$. The image of $`B`$ centralizes $`N/M`$, so $`MB\triangleleft D`$ and $`D/(MB)`$ is a $`p`$-group. We have $`\langle H^D\rangle=D`$: killing the stabilizer turns each mark product $`ab\in cH`$ into $`\bar a\bar b=\bar c`$, giving a surjection of the simple nonassociative loop onto the quotient group, which must be trivial. Thus $`H`$ surjects onto $`D/(MB)`$, since a subgroup normally generating a finite $`p`$-group is the whole group. Its preimages of $`N/M`$ lie in $`H\cap NB`$. A Sylow $`p`$-subgroup of $`H\cap NB`$ already maps onto $`N/M`$ and lies in $`N`$, the unique Sylow $`p`$-subgroup of $`NB`$. Hence
+```math
+                          \bar W+[U,B]=U.                  \tag{1}
+```
+Since $`W`$ is proper in the finite $`p`$-group $`N`$, $`\bar W\ne U`$.
+
+Write $`f=\operatorname{ord}_q(p)`$ and $`d_k=\operatorname{lcm}(p^k,f)`$. If $`C_U(B_2)>C_U(B)`$, the $`B`$-weight support of $`U`$ includes an axial weight, trivial on $`B_2`$ and nontrivial on the other axis. Its $`P`$ and field Frobenius translates on that axis are $`d_k`$ distinct characters: their scalars generate the subgroup of this order in cyclic $`\mathbb F_q^\times`$. There are another $`d_k`$ on the other axis, exchanged with them by $`t`$. The negative rank on $`U`$ alone is at least $`d_k`$. Coprime fixed-point lifting from $`N`$ gives $`s\ge d_k`$, hence
+```math
+                              a\ge k+d_k.                  \tag{2}
+```
+
+Otherwise $`C_U(B_2)=C_U(B)`$. Coprime averaging gives $`[U,B_2]=[U,B]`$. By (1) and $`B_2`$-stability of $`\bar W`$, averaging any representative of a fixed vector modulo $`[U,B_2]`$ gives
+```math
+             C_U(B_2)\subseteq\bar W,\qquad
+             (U/\bar W)^{B_2}=0 .                          \tag{3}
+```
+This is a quotient **for the actual $`J`$**, not an assumption that $`W`$ is normal in $`N`$ or $`\bar W`$ stable under all of $`X`$. Every $`B_2`$-weight of this nonzero quotient is a nontrivial character of a prime cyclic group. Its multiplicity is invariant under the $`p`$-power Frobenius and under a lift in $`J`$ of a generator of $`P`$. The latter acts on $`B_2`$ by a scalar of order $`p^k`$, regardless of any axial translation attached to the lift. Every nontrivial weight orbit under both scalars therefore has length $`d_k`$, without any averaging over $`P`$. Thus
+```math
+ \dim(U/\bar W)\in d_k\mathbb Z_{>0},\qquad
+ a=\dim(U/\bar W)+\log_p[\Phi:\Phi\cap W].                \tag{4}
+```
+
+Equality $`a=d_k`$ in (4) puts $`\Phi\subset W\subset H`$. Since $`\Phi`$ is normal in the faithful permutation group $`D`$, it vanishes. Thus $`N=U`$ is elementary and (3) gives $`C_N(B)=C_N(B_2)\subset W`$. Let $`L=N_D(B)`$. We have $`N_D(B_2)=L`$: in $`D=NL`$ an element of $`N`$ normalizing $`B_2`$ centralizes it, and each element of $`L`$ preserves the axis $`B_2`$. Also $`H=W N_H(B_2)`$ by the Frattini argument inside $`H\cap NB`$ (apply it to its normality in $`H`$). Therefore $`H\cap L`$ maps onto $`P`$. It contains $`C_N(B)`$; as $`|L|_p=|C_N(B)||P|`$, it contains a Sylow $`p`$-subgroup of $`L`$. Such a subgroup is conjugate to a $`t`$-stable one $`S`$ (their number is odd). Since $`t`$ inverts the nontrivial cyclic quotient $`P`$ of $`S`$, some $`u^{-1}t(u)\in S`$ is nontrivial, $`t`$-inverted and belongs to $`T\subset(Tt)^2`$. The conjugacy-invariant avoidance by $`H`$ is contradicted. Thus $`a\ge d_k+1`$ also in this case.
+
+The explicit rational induced construction at 2625d36b attains $`a=1+d_1`$ for each $`p\mid q-1`$; that source also gives necessity of this divisibility. Together with (2)–(4) this proves the first-degree assertion for **all** cores. The earlier fixed-centralizer escape can occur as an abstract $`p`$-group configuration but cannot lower the first loop degree.
+
+## 2. The remaining alternative at the first degree
+
+Suppose $`p\nmid f`$ and $`a=d+1`$ with $`d=d_1=pf`$. Necessarily $`k=1`$, since otherwise $`d_k\ge pd`$ in (2)–(4). Thus $`s=d`$. If an axial weight occurs on $`U`$, the two exchanged axial orbits of size $`d`$ consume **all** the negative mass. Both have multiplicity one; no other active signed orbit can have zero negative rank, because being pointwise fixed by $`t`$ on a signed-invariant subspace forces all conjugates of $`t`$ to act trivially, and these generate the signed group. Thus $`U=A_1\oplus A_2\oplus Z`$, where the reciprocal axial modules have dimension $`d`$, are exchanged by $`t`$, and $`Z`$ is fixed by $`B`$ and $`t`$. Each $`A_i`$ is irreducible under $`B_i\rtimes P`$: the simple $`B_i`$-constituents are distinct Frobenius orbits, permuted transitively by $`P`$. This does not claim irreducibility under $`B_i`$ alone.
+
+Coprime fixed-point lifting shows that $`t`$ fixes $`\Phi`$; signed normality makes it central. Core-freeness gives $`\Phi\cap H=1`$. Let $`e=\log_p|\Phi|`$, $`z=\dim Z`$. The embedded image $`\bar W`$ has dimension $`d+z+e-1`$ and is totally isotropic for each scalar component of the central commutator map on $`U`$: its subgroup lifts in $`H`$ have commutators in $`\Phi\cap H`$. The commutator target $`[N,N]`$ is elementary since $`N^p`$ is central. A scalar component nonzero on $`A_1\oplus A_2`$ restricts nondegenerately to **each** $`A_i`$: cross-axis and $`Z`$ pairings vanish by $`B`$-invariance, the radical on each $`A_i`$ is invariant under its irreducible $`B_i\rtimes P`$ action, and $`t`$ exchanges both while fixing the target. Averaging over $`B_2`$ gives the projection of $`\bar W`$ onto its moving component inside $`A_2`$. This component is $`J`$-invariant, so is all of $`A_2`$ or zero even though $`A_2`$ can be $`B_2`$-reducible. In the first case total isotropy of $`A_2`$ is impossible. In the second $`\bar W\subseteq A_1\oplus Z`$ and $`\dim(\bar W\cap A_1)\ge d+e-1>d/2`$, again impossible. Hence the whole preimage of $`A_1\oplus A_2`$ centralizes $`N`$.
+
+In particular $`M=[N,B]`$ is central in $`N`$. Coprime fixed-point lifting gives $`N=M C_N(B)`$; now $`M=[M,B]`$ and $`C_M(B)=1`$ since $`M`$ is abelian. Thus $`N=M\times N_0`$, $`N_0=C_N(B)`$. Here $`M\cap\Phi=1`$ and $`M\cong A_1\oplus A_2`$. These factors are signed-normal: changing the complement $`B`$ by $`N`$-conjugacy does not change $`C_N(B)`$ in this direct product. As all negative mass occurs in $`M`$, $`t`$ fixes $`N_0`$, so $`N_0`$ is central. Now $`D=M\rtimes L`$ with $`L=N_D(B)`$, and $`L/B`$ is a central extension of cyclic $`P`$ by $`N_0`$, hence abelian. It is the quotient $`D/(MB)`$ and is generated by inverted elements, excluding a fixed odd part. Hence $`N_0=1`$. The [abelian-core endpoint classification](abelian-core-minimum-and-nonabelian-defect.md) identifies the unique actual loop in this case, including section and cocycle; no unmarked conjugation of $`H`$ in Section 1 was used as an isomorphism gauge.
+
+If no axial weight occurs on $`U`$, (4) gives $`\dim(U/\bar W)=d`$ and $`[\Phi:\Phi\cap W]=p`$. This quotient is irreducible for $`J`$: a nonzero rational $`J`$-submodule with $`B_2`$-action costs all $`d`$ dimensions, while a trivial submodule is excluded by (3). The nontrivial signed-normal $`\Phi`$ has true orbit size $`p`$. Its signed mark fiber size $`[\Phi:C_\Phi(t)]`$ divides this $`p`$; equality gives an actual proper normal subloop of order $`p`$ by the [physical normal cut](../../odd-degree/manuscripts/odd-cubefree-normal-tower.md), since the loop has degree $`p^a q`$. Thus $`t`$ fixes $`\Phi`$, so $`\Phi`$ is central in the signed group. Core-freeness gives $`\Phi\cap W=1`$, whence $`\Phi=C_p`$.
+
+Finally $`N`$ cannot be abelian here. For abelian $`N`$, $`N=M\times C_N(B)`$ by coprime averaging. Absence of an axial character on $`N/pN`$ implies $`C_N(B_2)=C_N(B)`$, since the summand of $`M`$ fixed by $`B_2`$ would otherwise survive modulo $`p`$. The surjection $`W\to N/M`$ sends $`C_W(B_2)`$ onto $`N/M`$ by coprime fixed-point lifting. This forces $`C_N(B)\subset W`$, giving exactly the Sylow avoidance contradiction of Section 1. Thus $`1\ne[N,N]=\Phi=C_p`$. This is an exact endpoint obstruction, not an existence assertion for a noncanonical example.

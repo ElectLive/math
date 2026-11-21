@@ -1,0 +1,3 @@
+GF(729), p=3 q=7 f=6: opposite characters genuinely occur; actual V-invariant and Frobenius-invariant alternating trace form has rank 6
+all four invariant trace hyperplanes are in one GF(9)^x orbit; restrictions of the actual alternating form have ranks [4, 4, 4, 4] not zero; absolute trace of 1 is zero but the map is onto
+actual 18 mixed ternary weights include negatives; 6 swapped pairs, all V2-nontrivial; 11-dimensional forced isotropic subspace exceeds 9, and final elementary codimension has residue 5 modulo 6

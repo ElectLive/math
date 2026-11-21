@@ -1,0 +1,3 @@
+actual Heisenberg group of order 3^37: all six nonidentity elements of V2 fix exactly Z in N; V on 18-space faithful, 972 dual-lift multiplication checks; [N,V]=N by full Frattini image
+C_[N,V](V)=Z=C3 outside Phi(S)=1 for S=C3^2; tilted proper line surjects S/Z; illustrates the nonabelian escape only, not a Bol folder
+p=5,q=31:f=3, elementary first d=15; P-cycles 5 distinct q-types, coinvariant dimension 3, all 31 field-trace hyperplanes form one GF(125)^x orbit

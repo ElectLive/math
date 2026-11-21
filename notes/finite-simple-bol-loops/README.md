@@ -15,6 +15,8 @@ This workspace brings together results on Bol loops, their translation groups, a
 
 ## Odd orders: the first simple example and a full prime-cube list
 
+[Odd two-prime orders](odd-prime-pair/README.md) now have an exact least exponent and a complete census there. The next exponent is impossible. At the third exponent in the ternary order-nine case the elementary-core loops have an exact count; larger elementary-core rotations force both axial and mixed weights.
+
 The [least odd order](odd-degree/README.md) of a finite simple nonassociative left Bol loop is **1053**. Nagy constructed an example; the new argument rules out every smaller odd order. The same package gives [the complete list at order *p*³ for primes *p* ≥ 5](odd-degree/manuscripts/all-bol-loops-of-prime-cube-order.md), up to isomorphism and isotopy. Neither result asserts uniqueness at 1053. [Separate proof reviews and reproducible checks](odd-degree/verification.md).
 
 ## Extraspecial cores at two-prime orders

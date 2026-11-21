@@ -29,6 +29,15 @@
 - [0117: A nonaxial extraspecial construction](extraspecial-cores/extraspecial-odd-bol-construction.md) gives infinitely many degrees at every admissible odd prime pair.
 - [0118: Axial blocks and mixed multiplicity](extraspecial-cores/axial-cotangent-extraspecial-multiplicity.md) give unboundedly many same-order isotypes, distinct even up to isotopy. [Separate proof reviews and checks](extraspecial-cores/verification.md).
 
+## Simple loops of odd two-prime order
+
+Setting $`f=\operatorname{ord}_q(p)`$, the [two-prime workspace](odd-prime-pair/README.md) sharpens the earlier threshold. [Verification and provenance](odd-prime-pair/VERIFICATION.md).
+
+- [0127: Least exponent and complete first-degree census](odd-prime-pair/manuscripts/all-core-prime-pair-minimum.md). Some order occurs exactly when $`p`$ divides $`q-1`$. The least exponent is $`1+\operatorname{lcm}(p,f)`$, with an [explicit census](odd-prime-pair/manuscripts/two-weight-exhaustion-at-the-first-odd-prime-pair-degree.md) at equality.
+- [0128: Gap immediately after the minimum](odd-prime-pair/manuscripts/second-odd-prime-pair-degree-gap.md). For every admissible pair the next exponent is impossible; [the case $`p\mid f`$](odd-prime-pair/manuscripts/second-degree-gap-with-p-dividing-f.md) completes the exclusion.
+- [0129: Elementary-core ternary order-nine census](odd-prime-pair/manuscripts/ternary-top-nine-elementary-core-classification.md). A [construction](odd-prime-pair/manuscripts/third-degree-ternary-order-nine-top-construction.md) and exact count at order $`3^{f+3}q`$ with elementary abelian core and order-nine rotation. For $`q=19`$ this gives 15 types in this class.
+- [0130: Limits on higher cyclic rotation groups](odd-prime-pair/manuscripts/elementary-higher-top-mixed-weight-lower-bound.md). With elementary abelian core, both axial and mixed weights are necessary outside the ternary order-nine exception. A [separate bound](odd-prime-pair/manuscripts/no-saturated-higher-odd-prime-pair-top.md) for $`p\mid f`$ does not require an elementary core.
+
 ## Odd-order obstructions and prime cubes
 
 - [0115: Odd-order bounds and the least odd simple example](odd-degree/README.md). Odd cube-free orders have a normal series in the original loop with abelian factors of order prime or prime-square. For two-prime orders *p*ᵃ*q*, nonassociative simplicity requires *q* > *p* and *a* ≥ *p* + 1; at equality existence is characterized by the order of *p* modulo *q*. Two additional exclusions give the sharp odd minimum 1053, attained by Nagy’s earlier construction. No uniqueness claim.
@@ -191,7 +200,7 @@ Numbered expositions are linked where available. Other links identify supporting
 
 This catalogue covers all seventeen original claim records and every manuscript currently released in this public workspace. It does not claim that unpublished source work has been exhaustively audited. A compound manuscript can contain lemmas, examples and conjectures beyond its headline family: its hypotheses and section labels control their status. A material new theorem should get a new ID rather than being hidden under0010; an alternative proof of the same result retains its ID. Corrections retain IDs and state which conclusion changed.
 
-The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). New IDs start at 0094.
+The crosswalk is available in [claim-manuscript-map.json](claim-manuscript-map.json). The next unallocated public claim number is 0131.
 
 
 ## Manuscript-local QR labels, no permanent numeric allocation

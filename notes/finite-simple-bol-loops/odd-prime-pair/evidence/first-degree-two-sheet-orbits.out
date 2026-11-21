@@ -1,0 +1,10 @@
+q=61 irreducible pair i=2 on all 244 actual anti-isometries, signed gauge orbit sizes [122, 122]
+q=61 irreducible pair i=4 on all 244 actual anti-isometries, signed gauge orbit sizes [122, 122]
+q=61 fixed-distinct offset 1: all 183 signed matrices, 549 full native central-quadratic systems; equal-sign adverse lost transversality
+q=61 fixed-distinct offset 2: all 183 signed matrices, 549 full native central-quadratic systems; equal-sign adverse lost transversality
+p=3 f=10 signed pair orbit data {2: (4, 2), 4: (4, 2)} total incl canonical 8
+p=3 f=16 signed pair orbit data {1: (2, 1), 2: (2, 1), 3: (2, 1), 4: (2, 1), 5: (2, 1), 6: (2, 1), 7: (2, 1)} total incl canonical 11
+p=5 f=4 signed pair orbit data {1: (2, 2)} total incl canonical 8
+p=5 f=12 signed pair orbit data {1: (2, 2), 3: (2, 2), 4: (26, 8), 5: (2, 2)} total incl canonical 20
+p=7 f=20 signed pair orbit data {1: (2, 1), 3: (2, 1), 4: (50, 13), 5: (2, 1), 7: (2, 1), 8: (50, 13), 9: (2, 1)} total incl canonical 39
+p=11 f=8 signed pair orbit data {1: (2, 1), 2: (2, 1), 3: (2, 1)} total incl canonical 15

@@ -1,0 +1,6 @@
+q=61 f=10 i=1, Frobenius order 10: adverse root T^2, rank 8 < 10; not a loop construction.
+q=61 f=10 i=2 order=5: all 183 outside signs, 33489 projected pairs, all 549 actual physical phase quadratics on 30 variables identically zero at the stabilizer; native L is not first-axis invariant.
+q=61 f=10 i=4 order=5: all 183 outside signs, 33489 projected pairs, all 549 actual physical phase quadratics on 30 variables identically zero at the stabilizer; native L is not first-axis invariant.
+q=193 f=16 i=1, Frobenius order 16: actual transverse isotropic sheets, full rank 96, two disjoint weight orbits.
+q=193 f=16 i=2, Frobenius order 8: actual transverse isotropic sheets, full rank 96, two disjoint weight orbits.
+q=193 f=16 i=4, Frobenius order 4: actual transverse isotropic sheets, full rank 96, two disjoint weight orbits.

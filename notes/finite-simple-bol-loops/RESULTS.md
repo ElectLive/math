@@ -23,6 +23,14 @@
 - [0117: A nonaxial extraspecial construction](extraspecial-cores/extraspecial-odd-bol-construction.md) gives infinitely many degrees at every admissible odd prime pair.
 - [0118: Axial blocks and mixed multiplicity](extraspecial-cores/axial-cotangent-extraspecial-multiplicity.md) give unboundedly many same-order isotypes, distinct even up to isotopy. [Separate proof reviews and checks](extraspecial-cores/verification.md).
 
+## Simple loops of odd two-prime order
+
+The [two-prime workspace](odd-prime-pair/README.md) gives the exact least
+exponent at each admissible pair and the census there, excludes the very
+next exponent, and gives an exact restricted census with ternary order-nine
+rotation. Larger elementary-core rotations force both axial and mixed
+weights. See [claims 0127–0130](CLAIMS.md#simple-loops-of-odd-two-prime-order).
+
 ## Odd-order obstructions and prime cubes
 
 - [0115: Odd-order bounds and the least odd simple example](odd-degree/README.md). Odd cube-free orders have a normal series in the original loop with abelian factors of order prime or prime-square. For two-prime orders *p*ᵃ*q*, nonassociative simplicity requires *q* > *p* and *a* ≥ *p* + 1; at equality existence is characterized by the order of *p* modulo *q*. Two additional exclusions give the sharp odd minimum 1053, attained by Nagy’s earlier construction. No uniqueness claim.
