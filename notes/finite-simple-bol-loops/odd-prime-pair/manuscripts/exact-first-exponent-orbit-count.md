@@ -14,8 +14,7 @@ Form the explicitly arithmetic subset
 ```
 and the permutation $`\pi_s(j)=p j+(p-1)/2\bmod e_s`$. Then the exact number of isomorphism classes is
 ```math
-                   p+1+\sum_{1\le s<f/2}
-                              |{\mathcal A}_s/\langle\pi_s\rangle|.       \qquad\mathrm{(1)}
+                   p+1+\sum_{s=1}^{f/2-1}\left|\mathcal{A}_s / \langle\pi_s\rangle\right|.\qquad\mathrm{(1)}
 ```
 There are no field-element searches or isomorphism tests in (1). If desired the summand is the integer
 ```math
