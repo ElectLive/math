@@ -18,7 +18,7 @@ which is possible: the right side belongs to the fixed subfield, and the finite-
 
 On A=k^(Z/p) use the nondegenerate alternating trace form
 ```math
-              g(x,y)=\sum_j\operatorname{Tr}_{k/\mathbb F_p}
+              g(x,y)=\sum_j\mathrm{Tr}_{k/\mathbb F_p}
                      (c x_j y_j^{\sigma_0}).
 ```
 On U=A⊕A take the **orthogonal** sum ω=g⊕g rather than two mutually paired coordinate Lagrangians. Let P=⟨h⟩ of order p and V=F_q², X=V⋊P with h acting by (α,α⁻¹). A sign τ exchanges the two axes of V, inverts h and swaps the two copies of A. On the first A, (a,b) acts at j by multiplication by ζ to the power

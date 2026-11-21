@@ -2,14 +2,14 @@
 
 **Research proof; see the scope of verification.** [Verification and provenance](../VERIFICATION.md).
 
-**Theorem.** Let a finite simple proper left Bol loop have order $`p^a q`$ for distinct odd primes $`p,q`$. Put $`f=\operatorname{ord}_q(p)`$. In its canonical signed reduction write $`C_{p^k}`$ for the cyclic top above the normal $`p`$-core and the two $`q`$-axes. If $`p\mid f`$ and $`k\ge2`$, then
+**Theorem.** Let a finite simple proper left Bol loop have order $`p^a q`$ for distinct odd primes $`p,q`$. Put $`f=\mathrm{ord}_q(p)`$. In its canonical signed reduction write $`C_{p^k}`$ for the cyclic top above the normal $`p`$-core and the two $`q`$-axes. If $`p\mid f`$ and $`k\ge2`$, then
 ```math
-a\ge \operatorname{lcm}(p^k,f)+k+1.
+a\ge \mathrm{lcm}(p^k,f)+k+1.
 ```
 
 In particular at the third exponent $`a=f+3`$ only a top of order $`p`$ or $`p^2`$ can occur; the second option requires $`p^2\mid f`$.
 
-Let $`N=O_p(D)`$ be the canonical $`p`$-core, $`F=\Phi(N)`$ and $`U=N/F`$. The canonical sign is $`t`$, the actual point stabilizer $`H`$, and the marked core intersection $`W=H\cap N`$. Retain the two-axis lifted group $`B=B_1B_2`$, with $`B_2`$ the stabilizer axis, and let $`d_k=\operatorname{lcm}(p^k,f)`$. The original sign count is $`a=s+k`$, $`[N:C_N(t)]=p^s`$. The $`B`$-action on $`U`$ is nontrivial by the coprime automorphism kernel for the Frattini quotient and Fitting self-centralization, as in the audited second-degree proof.
+Let $`N=O_p(D)`$ be the canonical $`p`$-core, $`F=\Phi(N)`$ and $`U=N/F`$. The canonical sign is $`t`$, the actual point stabilizer $`H`$, and the marked core intersection $`W=H\cap N`$. Retain the two-axis lifted group $`B=B_1B_2`$, with $`B_2`$ the stabilizer axis, and let $`d_k=\mathrm{lcm}(p^k,f)`$. The original sign count is $`a=s+k`$, $`[N:C_N(t)]=p^s`$. The $`B`$-action on $`U`$ is nontrivial by the coprime automorphism kernel for the Frattini quotient and Fitting self-centralization, as in the audited second-degree proof.
 
 An axial packet and its sign-mate cost $`d_k`$ negative dimensions. Each genuinely mixed packet costs at least $`f(p^k-1)/2`$ negatives in the signed sum, by the ratio and fixed-weight count of §1 of the second-degree argument. As $`g=\gcd(p^k,f)\ge p\ge3`$ and $`p^k\ge9`$,
 ```math

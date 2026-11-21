@@ -9,7 +9,7 @@ Let p,q be distinct odd primes with p|(q−1), f=ord_q(p) **even and prime to p*
 ```
 where the notation counts orbits of that permutation. Equivalently average over k=0,…,f−1: the k-summand is gcd(m_i,p^k−1) if this divides (p^k−1)/2, and zero otherwise (k=0 gives m_i). Our total number of simple loop isomorphism classes at p^(d+1)q is
 ```math
-                         p+1+\sum_{i\ {\rm retained}}D_i.        \tag{1}
+                         p+1+\sum_{i\ \mathrm{retained}}D_i.        \qquad\mathrm{(1)}
 ```
 All are G-loops; in particular this is also the number of isotopy classes represented there. Of the total, exactly one is the preceding abelian-core matched-pair form. Every other class has extraspecial p-core, full native right nucleus C_p, and its nuclear right translations are exactly the center of its faithful LMlt. At 3³¹·61 the count is **8**, and at 3⁴⁹·193 it is **11**. The enumerated isotypes and their distinctness also give these numbers as constructive lower bounds using the explicitly named existence inputs, separately from exhaustion or minimum. Arithmetic examples in the checker that specify only p,f do not assert that a q with such data exists.
 
@@ -40,7 +40,7 @@ with repeats allowed. Transpose, induced by τ, sends λ to ξ(λ)⁻¹. Scaling
 
 The representation on a single graph is canonical as an X-module: write A_λ=k^(Z/p), with (a,b) acting at site j by the scalar ζ^(λ α^j a+α^(−j)b) and h by (Rx)_j=x_(j+1). To see completeness, decompose into rational V₂-orbits (Frobenius cycles); h acts freely/transitively on the p rational sites, so choose a k-coordinate at one and transport a basis around the h-cycle, which has no monodromy since h^p=1. On a single graph V₁ then acts by the indicated eigenvalue, and on a repeated graph it is scalar on each whole multiplicity space. Distinct graphs split as X-modules by their V-weights, without any assertion that all characteristic-p representations of X are semisimple. Restricted to J all single graphs are the same irreducible A as just described, with endomorphism field k: a commuting map preserves each V₂ rational site, is a field scalar there and h forces all scalars equal. With multiplicity two, L is one such J-copy: in each V₂-column it has one eigenline by transitivity and the dimension. In the distinct case each graph is symplectically nondegenerate and the two are orthogonal: opposite weights remain on their own graph and can pair with no other. On each graph the invariant alternating form is
 ```math
-               g_c(x,y)=\sum_j\operatorname{Tr}_{k/\mathbb F_p}(c x_j y_j^*),
+               g_c(x,y)=\sum_j\mathrm{Tr}_{k/\mathbb F_p}(c x_j y_j^*),
                \qquad c^*=-c\ne0 .
 ```
 For justification, V₂-invariance pairs a rational site only with itself since inversion is field star; trace duality and commuting with a primitive q-action leave precisely the displayed trace coefficient. Shift invariance makes it site-independent. All such coefficients are equivalent by nonzero field scalars and surjectivity of the multiplicative norm from k to its star-fixed subfield k₀=F_(p^(f/2)).

@@ -2,7 +2,7 @@
 
 **Research proof; see the scope of verification.** [Verification and provenance](../VERIFICATION.md).
 
-Let $`p,q`$ be distinct odd primes with $`p\mid q-1`$. Set $`f=\operatorname{ord}_q(p)`$, assume $`p\nmid f`$, and put $`d=pf`$. At order $`p^{1+d}q`$ the cited predecessor leaves, besides its unique axial class, a possible nonaxial nonabelian $`p`$-core $`N`$ in the faithful canonical left group $`D`$, with central $`\Phi(N)=[N,N]\cong C_p`$.
+Let $`p,q`$ be distinct odd primes with $`p\mid q-1`$. Set $`f=\mathrm{ord}_q(p)`$, assume $`p\nmid f`$, and put $`d=pf`$. At order $`p^{1+d}q`$ the cited predecessor leaves, besides its unique axial class, a possible nonaxial nonabelian $`p`$-core $`N`$ in the faithful canonical left group $`D`$, with central $`\Phi(N)=[N,N]\cong C_p`$.
 
 **Theorem.** In that remaining case $`C_N(B)=\Phi(N)`$ for a $`t`$-stable Sylow $`q`$-group $`B`$, the core has exponent $`p`$, and $`|N|=p^{2d+1}`$. If $`f`$ is odd, the remaining case is impossible. Thus for odd $`f`$ prime to $`p`$ the cited construction gives exactly one first-degree loop isomorphism class, under the stated inputs. For even $`f`$ the commutator form on $`N/\Phi(N)`$ has rank either $`d`$ or $`2d`$; this is not a classification in even $`f`$.
 

@@ -1,8 +1,8 @@
 # Exact prime-pair existence when the second prime occurs only once
 
-**Provisional, not independently reviewed.** For distinct odd primes $`p,q`$, there exists a finite simple nonassociative left Bol loop of order $`p^a q`$ for **some** $`a`$ if and only if $`p\mid q-1`$. Write $`f=\operatorname{ord}_q(p)`$. If the divisibility holds, there is a construction at
+**Provisional, not independently reviewed.** For distinct odd primes $`p,q`$, there exists a finite simple nonassociative left Bol loop of order $`p^a q`$ for **some** $`a`$ if and only if $`p\mid q-1`$. Write $`f=\mathrm{ord}_q(p)`$. If the divisibility holds, there is a construction at
 ```math
- a=1+\operatorname{lcm}(p,f).
+ a=1+\mathrm{lcm}(p,f).
 ```
 When $`p\mid f`$, this is the **minimum possible exponent for this fixed pair**: $`a_{\min}=f+1`$. Otherwise the stated construction is an upper bound, not asserted optimal. Every loop in the necessary direction has a split two-dimensional $`q`$-layer and a cyclic $`p`$-complement of order dividing $`q-1`$, not the nonsplit torus or a noncyclic 3-group allowed by linear data alone. This extends the [proposed exponent boundary](../../odd-degree/manuscripts/two-prime-exponent-threshold.md) at $`\mathtt{6f180cf5e0ef93a03fbe2849200a54d67d9cf0d4}`$. We do not deduce that larger-exponent loops all come from the displayed construction.
 
@@ -26,7 +26,7 @@ Here $`\min(p^k,f(p^k-1)/2)=p^k`$ also at $`p^k=3`$.
 
 ## An honest construction for every $`p\mid q-1`$
 
-Choose $`\alpha\in\mathbb F_q^\times`$ of order $`p`$, let $`S=\langle p\bmod q,\alpha\rangle\le\mathbb F_q^\times`$, $`d=|S|=\operatorname{lcm}(p,f)`$, and take a primitive $`q`$-th root $`\zeta\in\mathbb F_{p^f}`$. On basis vectors $`e_s`$, $`s\in S`$, over $`\mathbb F_{p^f}`$, define
+Choose $`\alpha\in\mathbb F_q^\times`$ of order $`p`$, let $`S=\langle p\bmod q,\alpha\rangle\le\mathbb F_q^\times`$, $`d=|S|=\mathrm{lcm}(p,f)`$, and take a primitive $`q`$-th root $`\zeta\in\mathbb F_{p^f}`$. On basis vectors $`e_s`$, $`s\in S`$, over $`\mathbb F_{p^f}`$, define
 ```math
  b e_s=\zeta^s e_s,\qquad h e_s=e_{\alpha^{-1}s},\qquad
  \mathcal F(c e_s)=c^p e_{ps}.

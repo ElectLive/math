@@ -1,6 +1,6 @@
 # The exact first two-prime degree with abelian $`p`$-core
 
-**Proposed, not independently reviewed.** Fix distinct odd primes $`p,q`$ with $`p\mid q-1`$. Write $`f=\operatorname{ord}_q(p)`$, $`d=\operatorname{lcm}(p,f)`$. Among finite simple nonassociative left Bol loops of order $`p^a q`$ for which the canonical left multiplication group's $`p`$-core is abelian, the **least exponent is $`a=d+1`$** and the loop there is **unique up to based isomorphism**. Consequently, if any loops occur below the known construction at this exponent, they must have a genuinely nonabelian $`p`$-core, and satisfy the specific fixed-point/Frattini obstruction below. This settles this first-exponent problem even when $`p\nmid f`$, but **does not exclude that nonabelian-core escape**. The [split prime-pair and construction theorem](two-prime-divisibility-existence.md), source $`\mathtt{2625d36bc331e3ec7157d7266dca390baf46233e}`$, is a dependency.
+**Proposed, not independently reviewed.** Fix distinct odd primes $`p,q`$ with $`p\mid q-1`$. Write $`f=\mathrm{ord}_q(p)`$, $`d=\mathrm{lcm}(p,f)`$. Among finite simple nonassociative left Bol loops of order $`p^a q`$ for which the canonical left multiplication group's $`p`$-core is abelian, the **least exponent is $`a=d+1`$** and the loop there is **unique up to based isomorphism**. Consequently, if any loops occur below the known construction at this exponent, they must have a genuinely nonabelian $`p`$-core, and satisfy the specific fixed-point/Frattini obstruction below. This settles this first-exponent problem even when $`p\nmid f`$, but **does not exclude that nonabelian-core escape**. The [split prime-pair and construction theorem](two-prime-divisibility-existence.md), source $`\mathtt{2625d36bc331e3ec7157d7266dca390baf46233e}`$, is a dependency.
 
 For a simple proper left Bol loop the canonical inverting automorphism on the faithful left multiplication group exists by [C0007, Theorem 1.1(1)](../../sources/foundations/C0007.md), with its scoped source at $`\mathtt{932ead5db5f39045e2085caa6b062f6b981b2813}`$. A simple nonassociative odd loop is proper by FKP's odd Moufang solvability. Thus the earlier doubled group $`D`$ is exactly the graph of that automorphism, and its first projection identifies its $`p`$-core with the canonical one. All the arguments below also work directly in the doubled presentation with the physical core-free proviso on signed-stable normal groups.
 
@@ -12,11 +12,11 @@ The actual stabilizer projects to an index-$`q`$ group $`J`$ above one axis $`V_
 
 We claim that if
 ```math
-C_N(B_2)=C_N(B),                                                       \tag{1}
+C_N(B_2)=C_N(B),                                                       \qquad\mathrm{(1)}
 ```
 then one must have
 ```math
- C_M(B)\not\subseteq\Phi(S).                                           \tag{2}
+ C_M(B)\not\subseteq\Phi(S).                                           \qquad\mathrm{(2)}
 ```
 Here $`M`$ is normal in $`D`$ and $`t`$-stable: it is normalized by $`N`$ by the commutator identity (equivalently it is the least normal subgroup of $`N`$ making the $`B`$-action trivial), and by $`L,t`$; together these generate. The product $`MB`$ is normal in $`D`$ since $`N/M`$ centralizes the image of $`B`$. Thus $`D/(MB)`$ is a $`p`$-group; the normal-generation argument forces $`H`$ to surject onto it. This quotient is naturally $`S/C_M(B)`$, because $`D=NL`$, $`N=M C_N(B)`$ by coprime action, and $`N\cap L=C_N(B)`$. One can see the coprime equality directly by lifting fixed points in $`N/M`$: by Schur–Zassenhaus any complement to the normal $`p`$-subgroup inside $`MB`$ is $`M`$-conjugate to $`B`$.
 
@@ -30,7 +30,7 @@ When $`N`$ is abelian, coprime averaging splits $`N=M\times C_N(B)`$, so $`C_M(B
 
 Choose a finite signed-invariant filtration of $`N`$ by characteristic elementary abelian sections (for example the lower exponent-$`p`$ central series). Inner $`N`$ acts trivially on each section. The $`t`$-negative ranks sum to $`s=\log_p[N:C_N(t)]`$ by coprime fixed-point lifting. If $`C_N(B_2)>C_N(B)`$, some section has a $`B_2`$-fixed, $`B`$-nontrivial character after extension of scalars: for the two coprime acting groups, the sizes of their fixed subgroups are the products of the elementary fixed-section sizes. In our split weight coordinates this is an actual weight on a single axis. Its $`P`$- and Frobenius-translates on that axis have cardinality
 ```math
- d_k=\operatorname{lcm}(p^k,f).
+ d_k=\mathrm{lcm}(p^k,f).
 ```
 Indeed their scalars generate the unique order-$`d_k`$ subgroup in the cyclic $`\mathbb F_q^\times`$. The conjugate axis is distinct; $`t`$ exchanges the two sets, so the section alone costs at least $`d_k`$ negative dimensions. The exact physical equation $`a=s+k`$ from the two-prime theorem gives $`a\ge k+d_k\ge1+d`$. This applies whenever (1) fails, including for nonabelian $`N`$. Thus below $`d+1`$ every occurrence must satisfy both (1) and (2).
 

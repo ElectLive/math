@@ -2,7 +2,7 @@
 
 **Research proof.** [Scoped verification](../VERIFICATION.md). This necessary result refines the class-two residual of [268180f2](all-core-prime-pair-minimum.md). It neither assumes nor proves a new construction for even character degree. We use the standing faithful simple signed group and the node 268180f2 with its stated independent dependency limits.
 
-Suppose $`p,q`$ are distinct odd primes, $`p\mid q-1`$, $`f=\operatorname{ord}_q(p)`$, $`p\nmid f`$, $`d=pf`$, and a finite simple nonassociative left Bol loop has order $`p^{d+1}q`$. Every noncanonical possibility in the cited reduction has the following much stronger properties:
+Suppose $`p,q`$ are distinct odd primes, $`p\mid q-1`$, $`f=\mathrm{ord}_q(p)`$, $`p\nmid f`$, $`d=pf`$, and a finite simple nonassociative left Bol loop has order $`p^{d+1}q`$. Every noncanonical possibility in the cited reduction has the following much stronger properties:
 
 * $`N=O_p(D)`$ is **extraspecial of exponent $`p`$ and order $`p^{2d+1}`$**; its center is the $`t`$-fixed subgroup $`Z=\Phi(N)=[N,N]`$ of order $`p`$.
 * On $`U=N/Z`$ the commutator is nondegenerate symplectic, and the stabilizer image $`L=(H\cap N)Z/Z`$ is a Lagrangian. Its two $`t`$-eigenspaces on $`U`$ are nondegenerate of dimension $`d`$ each, and $`U=L\oplus tL`$.

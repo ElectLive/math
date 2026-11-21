@@ -4,7 +4,7 @@
 
 ## 1. The exact failed count
 
-In the attempted longer-block extension let $`d=p^{k-1}-1`$, let $`C=\mathbb F_p[u]/(u-1)^d`$ additively, and let the rotation act by multiplication by $`u`$. The sign is $`g(u)\mapsto-g(u^{-1})`$, well defined on this local ring: inversion sends $`u-1`$ to a unit times $`u-1`$. Its square is the identity, it inverts the rotation, and the graded line of degree $`\ell`$ has sign $`(-1)^{\ell+1}`$. There are $`d/2`$ negative dimensions. The two moving axial modules have dimension $`f`$ each, with $`f=\operatorname{ord}_q(p)`$, and the top rotation has order $`p^k`$, where $`p^k\mid f`$.
+In the attempted longer-block extension let $`d=p^{k-1}-1`$, let $`C=\mathbb F_p[u]/(u-1)^d`$ additively, and let the rotation act by multiplication by $`u`$. The sign is $`g(u)\mapsto-g(u^{-1})`$, well defined on this local ring: inversion sends $`u-1`$ to a unit times $`u-1`$. Its square is the identity, it inverts the rotation, and the graded line of degree $`\ell`$ has sign $`(-1)^{\ell+1}`$. There are $`d/2`$ negative dimensions. The two moving axial modules have dimension $`f`$ each, with $`f=\mathrm{ord}_q(p)`$, and the top rotation has order $`p^k`$, where $`p^k\mid f`$.
 
 The proposed $`W=H\cap N`$ is a graph over a hyperplane in the first axial module, so $`|W|=p^{f-1}`$. The proposed stabilizer has upper image $`B_2\rtimes C_{p^k}`$ and thus order $`qp^{f-1+k}`$. Its top lift really does have $`p^k`$th power in the graph: the vector is the terminal $`L^{p^k-1}x`$, and its graph image is $`J^{p^k-2}1=0`$, where $`L=R-1`$ on the first axial module and $`J=U-1`$ on $`C`$. Therefore
 ```math
@@ -29,7 +29,7 @@ Coprime averaging under $`B_2`$ splits off the $`A_2`$ projection of $`W`$ as $`
 
 The physical full-mark count is $`[D:H]=q p^{F+c_-+k}`$. The exact core orbit $`[N:W]=p^{F+c_-+k}`$, since the projected stabilizer has index $`q`$. Comparing with $`\dim N=2F+b+c_-`$ gives
 ```math
-\dim W=F+b-k,\qquad \delta:=\operatorname{codim}_{A_1}K=k-b\ge0.
+\dim W=F+b-k,\qquad \delta:=\mathrm{codim}_{A_1}K=k-b\ge0.
 ```
 
 In particular $`b\le k`$. This missing dimension constraint is independent of the chosen stabilizer graph.

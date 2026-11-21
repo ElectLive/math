@@ -2,7 +2,7 @@
 
 **Research proof; see the scope of verification.** [Verification and provenance](../VERIFICATION.md).
 
-**Theorem.** Let $`q`$ be an odd prime with $`9\mid f=\operatorname{ord}_q(3)`$. There is a finite simple proper left Bol loop of order $`3^{f+3}q`$ with canonical cyclic top of order nine and elementary abelian canonical $`3`$-core. In particular $`q=19`$, $`f=18`$ gives order $`3^{21}\cdot19`$. This is exactly two exponents above the minimum $`f+1`$, after the independently audited absence at $`f+2`$.
+**Theorem.** Let $`q`$ be an odd prime with $`9\mid f=\mathrm{ord}_q(3)`$. There is a finite simple proper left Bol loop of order $`3^{f+3}q`$ with canonical cyclic top of order nine and elementary abelian canonical $`3`$-core. In particular $`q=19`$, $`f=18`$ gives order $`3^{21}\cdot19`$. This is exactly two exponents above the minimum $`f+1`$, after the independently audited absence at $`f+2`$.
 
 ## 1. An actual marked group and the physical stabilizer
 

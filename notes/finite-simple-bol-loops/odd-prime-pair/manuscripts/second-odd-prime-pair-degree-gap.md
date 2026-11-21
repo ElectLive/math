@@ -2,7 +2,7 @@
 
 **Research proof; see the scope of verification.** [Verification and provenance](../VERIFICATION.md).
 
-**Theorem.** Let $`p,q`$ be distinct odd primes, $`p\mid q-1`$, $`f=\operatorname{ord}_q(p)`$ and $`p\nmid f`$. Then there is no finite simple proper left Bol loop of order $`p^{pf+2}q`$. In particular the occurrence at the [first degree $`p^{pf+1}q`$](../reviews/first-degree-odd-prime-pair-assembly.md) does not extend to the very next $`p`$-exponent.
+**Theorem.** Let $`p,q`$ be distinct odd primes, $`p\mid q-1`$, $`f=\mathrm{ord}_q(p)`$ and $`p\nmid f`$. Then there is no finite simple proper left Bol loop of order $`p^{pf+2}q`$. In particular the occurrence at the [first degree $`p^{pf+1}q`$](../reviews/first-degree-odd-prime-pair-assembly.md) does not extend to the very next $`p`$-exponent.
 
 Assume a loop at this degree exists and put $`d=pf`$. We use the canonical signed notation $`D,t,H,N=O_p(D),F=\Phi(N),U=N/F`$ and $`W=H\cap N`$, $`\bar W=WF/F`$. The quotient $`D/N`$ has the two reciprocal axes $`V=C_q^2`$ and top $`P=C_p`$. Choose a $`t`$-stable Sylow $`q`$-group $`B=B_1B_2`$ lifting $`V`$, with $`B_2`$ the axis in the image of the physical stabilizer. As in the previous arguments, conjugate $`H`$ by $`N`$ if needed so $`B_2\subset H`$; the comparisons are of actual normal orbits and avoidance under all conjugates, not of based isomorphism types. All nonzero weights on $`U`$ are mixed by the axial exclusion, i.e. nontrivial on both axes. The previous theorem gives
 ```math

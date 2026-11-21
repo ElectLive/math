@@ -2,7 +2,7 @@
 
 **Research proof; see the scope of verification.** [Verification and provenance](../VERIFICATION.md).
 
-**Corollary.** Let a finite simple proper left Bol loop have order $`p^a q`$ for distinct odd primes with elementary abelian canonical $`p`$-core and cyclic canonical top of order $`p^k`$, $`k\ge2`$. Apart from $`(p,k)=(3,2)`$, its canonical $`p`$-core has a mixed weight for the two $`q`$-axes. With $`f=\operatorname{ord}_q(p)`$, necessarily
+**Corollary.** Let a finite simple proper left Bol loop have order $`p^a q`$ for distinct odd primes with elementary abelian canonical $`p`$-core and cyclic canonical top of order $`p^k`$, $`k\ge2`$. Apart from $`(p,k)=(3,2)`$, its canonical $`p`$-core has a mixed weight for the two $`q`$-axes. With $`f=\mathrm{ord}_q(p)`$, necessarily
 ```math
 a\ \ge\ k+\frac{f(p^k-1)}2.
 ```
@@ -22,10 +22,10 @@ A separate sharpening, with the preceding source at `a636051a` left intact, is t
 
 Also $`N_D(B_2)=L`$: write an element of $`D`$ as $`n\ell`$, $`\ell\in L`$ already preserving both axes; a normalizing $`n\in N`$ lies in $`C_N(B_2)=C`$, because $`B_2`$ embeds in $`D/N`$. The actual stabilizer $`H=W N_H(B_2)`$ therefore has $`H\cap L`$ covering the cyclic top. Since $`C\le H\cap L`$, that subgroup contains a full Sylow $`p`$-group of $`L`$. A conjugate of it is sign-stable, and a sign displacement of a lift of any top generator is a nonidentity inverted mark in it. This contradicts sharp transitivity. Hence $`C_N(B_2)>C_N(B)`$, which is exactly an axial weight in the split two-axis action.
 
-For $`k\ge2`$ and $`(p,k)\ne(3,2)`$ the two distinct contributions therefore coexist. The physical negative dimension from the axial packet and its sign-mate is at least $`\operatorname{lcm}(p^k,f)`$; their supports are disjoint from every mixed packet. Add the mixed lower bound to obtain
+For $`k\ge2`$ and $`(p,k)\ne(3,2)`$ the two distinct contributions therefore coexist. The physical negative dimension from the axial packet and its sign-mate is at least $`\mathrm{lcm}(p^k,f)`$; their supports are disjoint from every mixed packet. Add the mixed lower bound to obtain
 ```math
 
-a\ \ge\ k+\operatorname{lcm}(p^k,f)+\frac{f(p^k-1)}2.
+a\ \ge\ k+\mathrm{lcm}(p^k,f)+\frac{f(p^k-1)}2.
 ```
 
 This sharper inequality still has elementary-core scope only. The argument does not exhibit a stabilizer supporting the needed coupling between the two weight regimes, or prove that any larger exponent is attained.

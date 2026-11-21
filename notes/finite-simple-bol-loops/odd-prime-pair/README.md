@@ -6,14 +6,14 @@ A loop has an identity and unique left and right division. It is *left Bol* if
 `x(y(xz)) = (x(yx))z`; it is *simple* if its only normal subloops are the
 identity and the whole loop. Here we exclude associative loops. Fix distinct odd
 primes $`p,q`$ and ask which orders $`p^a q`$ occur and how many loops occur at
-the first admissible exponents. Write $`f=\operatorname{ord}_q(p)`$, the
+the first admissible exponents. Write $`f=\mathrm{ord}_q(p)`$, the
 multiplicative order of $`p`$ modulo $`q`$.
 
 ## What is known
 
 - **Least exponent and its census.** Some order $`p^a q`$ occurs if and only
   if $`p`$ divides $`q-1`$. For such a pair, the least exponent is
-  $`1+\operatorname{lcm}(p,f)`$. At this exponent there is one isomorphism
+  $`1+\mathrm{lcm}(p,f)`$. At this exponent there is one isomorphism
   type unless $`f`$ is even and $`p`$ does not divide $`f`$. In the exception
   the exact count is an explicit finite orbit formula. See the
   [minimum over all cores](manuscripts/all-core-prime-pair-minimum.md),
@@ -21,7 +21,7 @@ multiplicative order of $`p`$ modulo $`q`$.
   and [arithmetic count](manuscripts/exact-first-exponent-orbit-count.md).
 - **No order at the next exponent.** For every admissible pair there is
   no simple nonassociative left Bol loop of order
-  $`p^{2+\operatorname{lcm}(p,f)}q`$. The proofs separate
+  $`p^{2+\mathrm{lcm}(p,f)}q`$. The proofs separate
   [the case where $`p`$ does not divide $`f`$](manuscripts/second-odd-prime-pair-degree-gap.md)
   from [the case where it does](manuscripts/second-degree-gap-with-p-dividing-f.md).
 - **A complete restricted census two steps above the minimum.** Set
@@ -42,7 +42,7 @@ multiplicative order of $`p`$ modulo $`q`$.
   exactly one reciprocal axis) and a mixed weight (nontrivial on both)
   must occur. Thus
   ```math
-  a\ge k+\operatorname{lcm}(p^k,f)+\frac{f(p^k-1)}2.
+  a\ge k+\mathrm{lcm}(p^k,f)+\frac{f(p^k-1)}2.
   ```
   See the [purely axial obstruction](reviews/arbitrary-cyclic-top-graph-obstruction.md#2-a-no-repair-theorem-for-the-split-elementary-purely-axial-architecture)
   and [both-weight bound](manuscripts/elementary-higher-top-mixed-weight-lower-bound.md).

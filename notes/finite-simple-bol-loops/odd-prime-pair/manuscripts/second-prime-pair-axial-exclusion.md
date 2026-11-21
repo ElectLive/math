@@ -2,7 +2,7 @@
 
 **Research proof; see the scope of verification.** [Verification and provenance](../VERIFICATION.md).
 
-**Theorem.** Let $`p,q`$ be distinct odd primes, $`p\mid q-1`$, $`f=\operatorname{ord}_q(p)`$, $`p\nmid f`$ and $`d=pf`$. If a finite simple proper left Bol loop has order $`p^{d+2}q`$, then the Frattini quotient of its canonical $`p`$-core has **no axial weight** for the two-axis $`q`$-group in the canonical signed reduction. Here “axial” means a nonzero character whose restriction to one of the two axes is trivial. This is an exclusion of the entire axial branch for these parameters, not a proof that a nonaxial loop exists.
+**Theorem.** Let $`p,q`$ be distinct odd primes, $`p\mid q-1`$, $`f=\mathrm{ord}_q(p)`$, $`p\nmid f`$ and $`d=pf`$. If a finite simple proper left Bol loop has order $`p^{d+2}q`$, then the Frattini quotient of its canonical $`p`$-core has **no axial weight** for the two-axis $`q`$-group in the canonical signed reduction. Here “axial” means a nonzero character whose restriction to one of the two axes is trivial. This is an exclusion of the entire axial branch for these parameters, not a proof that a nonaxial loop exists.
 
 ## 1. Axial weights would force an elementary core
 

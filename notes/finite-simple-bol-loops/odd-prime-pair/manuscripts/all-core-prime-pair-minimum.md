@@ -4,13 +4,13 @@
 
 **Theorem.** For distinct odd primes $`p,q`$ a finite simple nonassociative left Bol loop of order $`p^a q`$ exists at some exponent if and only if $`p\mid q-1`$. For each admissible pair its **least exponent**, over all possible $`p`$-cores, is exactly
 ```math
-                     a_{\min}=1+\operatorname{lcm}(p,\operatorname{ord}_q(p)).
+                     a_{\min}=1+\mathrm{lcm}(p,\mathrm{ord}_q(p)).
 ```
-More precisely, if the cyclic top rotation has order $`p^k`$ in the stated source reduction then $`a\ge1+\operatorname{lcm}(p^k,\operatorname{ord}_q(p))`$. If $`p\nmid\operatorname{ord}_q(p)`$ and the first degree is attained, the standard split abelian-core class is the only possibility *having a first-layer axial character*. Every potentially different class at that degree has $`\Phi(O_p(D))=[O_p(D),O_p(D)]`$ central of order exactly $`p`$, hence a nonabelian $`p`$-core of class two; its actual Frattini stabilizer quotient is one irreducible moving module of dimension $`\operatorname{lcm}(p,\operatorname{ord}_q(p))`$. No construction of or exclusion of this last alternative is asserted. For $`p\mid\operatorname{ord}_q(p)`$ first-degree uniqueness was addressed separately at [8b728b8e](fixed-pair-minimum-rigidity.md).
+More precisely, if the cyclic top rotation has order $`p^k`$ in the stated source reduction then $`a\ge1+\mathrm{lcm}(p^k,\mathrm{ord}_q(p))`$. If $`p\nmid\mathrm{ord}_q(p)`$ and the first degree is attained, the standard split abelian-core class is the only possibility *having a first-layer axial character*. Every potentially different class at that degree has $`\Phi(O_p(D))=[O_p(D),O_p(D)]`$ central of order exactly $`p`$, hence a nonabelian $`p`$-core of class two; its actual Frattini stabilizer quotient is one irreducible moving module of dimension $`\mathrm{lcm}(p,\mathrm{ord}_q(p))`$. No construction of or exclusion of this last alternative is asserted. For $`p\mid\mathrm{ord}_q(p)`$ first-degree uniqueness was addressed separately at [8b728b8e](fixed-pair-minimum-rigidity.md).
 
 ## 1. A full character orbit in the physical stabilizer quotient
 
-Use the faithful canonical $`D=\operatorname{LMlt}(Q)`$ with inverting involution $`t`$, point stabilizer $`H`$ and marks $`T`$. For odd simple nonassociative $`Q`$ the properness needed here follows from odd Moufang solvability. The inverted elements are precisely $`T`$; the conjugacy-invariant set $`(Tt)^2`$ avoids $`H`$ off the identity and contains $`T`$. Put $`N=O_p(D)=F(D)`$. By the cited prime-pair reduction $`X=D/N=V\rtimes P`$, $`V=C_q^2`$, $`P=C_{p^k}`$, $`k\ge1`$. Its faithful reciprocal scalar axes over $`\mathbb F_q`$ are exchanged by $`t`$; $`P`$ acts on each by an order-$`p^k`$ scalar, and $`t`$ inverts $`P`$. The true image $`J=HN/N`$ is over one axis $`V_2`$, maps onto $`P`$, and has index $`q`$ in $`X`$. The physical equalities are
+Use the faithful canonical $`D=\mathrm{LMlt}(Q)`$ with inverting involution $`t`$, point stabilizer $`H`$ and marks $`T`$. For odd simple nonassociative $`Q`$ the properness needed here follows from odd Moufang solvability. The inverted elements are precisely $`T`$; the conjugacy-invariant set $`(Tt)^2`$ avoids $`H`$ off the identity and contains $`T`$. Put $`N=O_p(D)=F(D)`$. By the cited prime-pair reduction $`X=D/N=V\rtimes P`$, $`V=C_q^2`$, $`P=C_{p^k}`$, $`k\ge1`$. Its faithful reciprocal scalar axes over $`\mathbb F_q`$ are exchanged by $`t`$; $`P`$ acts on each by an order-$`p^k`$ scalar, and $`t`$ inverts $`P`$. The true image $`J=HN/N`$ is over one axis $`V_2`$, maps onto $`P`$, and has index $`q`$ in $`X`$. The physical equalities are
 ```math
  [N:H\cap N]=p^a,\qquad a=s+k,\quad p^s=[N:C_N(t)] .
 ```
@@ -18,24 +18,24 @@ Choose a $`t`$-stable Sylow $`q`$-group $`B\cong V`$ of the inverse image of $`V
 
 Here $`W`$ maps onto $`N/M`$. Indeed $`D=N N_D(B)`$ by the Frattini argument; $`M`$ is normalized by $`N`$ (the commutator identity) and by $`N_D(B)`$, hence by $`D`$. The image of $`B`$ centralizes $`N/M`$, so $`MB\triangleleft D`$ and $`D/(MB)`$ is a $`p`$-group. We have $`\langle H^D\rangle=D`$: killing the stabilizer turns each mark product $`ab\in cH`$ into $`\bar a\bar b=\bar c`$, giving a surjection of the simple nonassociative loop onto the quotient group, which must be trivial. Thus $`H`$ surjects onto $`D/(MB)`$, since a subgroup normally generating a finite $`p`$-group is the whole group. Its preimages of $`N/M`$ lie in $`H\cap NB`$. A Sylow $`p`$-subgroup of $`H\cap NB`$ already maps onto $`N/M`$ and lies in $`N`$, the unique Sylow $`p`$-subgroup of $`NB`$. Hence
 ```math
-                          \bar W+[U,B]=U.                  \tag{1}
+                          \bar W+[U,B]=U.                  \qquad\mathrm{(1)}
 ```
 Since $`W`$ is proper in the finite $`p`$-group $`N`$, $`\bar W\ne U`$.
 
-Write $`f=\operatorname{ord}_q(p)`$ and $`d_k=\operatorname{lcm}(p^k,f)`$. If $`C_U(B_2)>C_U(B)`$, the $`B`$-weight support of $`U`$ includes an axial weight, trivial on $`B_2`$ and nontrivial on the other axis. Its $`P`$ and field Frobenius translates on that axis are $`d_k`$ distinct characters: their scalars generate the subgroup of this order in cyclic $`\mathbb F_q^\times`$. There are another $`d_k`$ on the other axis, exchanged with them by $`t`$. The negative rank on $`U`$ alone is at least $`d_k`$. Coprime fixed-point lifting from $`N`$ gives $`s\ge d_k`$, hence
+Write $`f=\mathrm{ord}_q(p)`$ and $`d_k=\mathrm{lcm}(p^k,f)`$. If $`C_U(B_2)>C_U(B)`$, the $`B`$-weight support of $`U`$ includes an axial weight, trivial on $`B_2`$ and nontrivial on the other axis. Its $`P`$ and field Frobenius translates on that axis are $`d_k`$ distinct characters: their scalars generate the subgroup of this order in cyclic $`\mathbb F_q^\times`$. There are another $`d_k`$ on the other axis, exchanged with them by $`t`$. The negative rank on $`U`$ alone is at least $`d_k`$. Coprime fixed-point lifting from $`N`$ gives $`s\ge d_k`$, hence
 ```math
-                              a\ge k+d_k.                  \tag{2}
+                              a\ge k+d_k.                  \qquad\mathrm{(2)}
 ```
 
 Otherwise $`C_U(B_2)=C_U(B)`$. Coprime averaging gives $`[U,B_2]=[U,B]`$. By (1) and $`B_2`$-stability of $`\bar W`$, averaging any representative of a fixed vector modulo $`[U,B_2]`$ gives
 ```math
              C_U(B_2)\subseteq\bar W,\qquad
-             (U/\bar W)^{B_2}=0 .                          \tag{3}
+             (U/\bar W)^{B_2}=0 .                          \qquad\mathrm{(3)}
 ```
 This is a quotient **for the actual $`J`$**, not an assumption that $`W`$ is normal in $`N`$ or $`\bar W`$ stable under all of $`X`$. Every $`B_2`$-weight of this nonzero quotient is a nontrivial character of a prime cyclic group. Its multiplicity is invariant under the $`p`$-power Frobenius and under a lift in $`J`$ of a generator of $`P`$. The latter acts on $`B_2`$ by a scalar of order $`p^k`$, regardless of any axial translation attached to the lift. Every nontrivial weight orbit under both scalars therefore has length $`d_k`$, without any averaging over $`P`$. Thus
 ```math
  \dim(U/\bar W)\in d_k\mathbb Z_{>0},\qquad
- a=\dim(U/\bar W)+\log_p[\Phi:\Phi\cap W].                \tag{4}
+ a=\dim(U/\bar W)+\log_p[\Phi:\Phi\cap W].                \qquad\mathrm{(4)}
 ```
 
 Equality $`a=d_k`$ in (4) puts $`\Phi\subset W\subset H`$. Since $`\Phi`$ is normal in the faithful permutation group $`D`$, it vanishes. Thus $`N=U`$ is elementary and (3) gives $`C_N(B)=C_N(B_2)\subset W`$. Let $`L=N_D(B)`$. We have $`N_D(B_2)=L`$: in $`D=NL`$ an element of $`N`$ normalizing $`B_2`$ centralizes it, and each element of $`L`$ preserves the axis $`B_2`$. Also $`H=W N_H(B_2)`$ by the Frattini argument inside $`H\cap NB`$ (apply it to its normality in $`H`$). Therefore $`H\cap L`$ maps onto $`P`$. It contains $`C_N(B)`$; as $`|L|_p=|C_N(B)||P|`$, it contains a Sylow $`p`$-subgroup of $`L`$. Such a subgroup is conjugate to a $`t`$-stable one $`S`$ (their number is odd). Since $`t`$ inverts the nontrivial cyclic quotient $`P`$ of $`S`$, some $`u^{-1}t(u)\in S`$ is nontrivial, $`t`$-inverted and belongs to $`T\subset(Tt)^2`$. The conjugacy-invariant avoidance by $`H`$ is contradicted. Thus $`a\ge d_k+1`$ also in this case.

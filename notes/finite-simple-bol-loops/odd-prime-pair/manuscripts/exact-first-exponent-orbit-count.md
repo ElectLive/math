@@ -2,7 +2,7 @@
 
 **Research proof; see the scope of verification.** [Verification and provenance](../VERIFICATION.md).
 
-Let $`p,q`$ be distinct odd primes with $`p\mid q-1`$ and $`f=\operatorname{ord}_q(p)`$. At the proposed first order $`n=p^{1+\operatorname{lcm}(p,f)}q`$ the prior results give one standard loop unless $`f`$ is even and $`p\nmid f`$. In this exceptional range put $`Q=p^{f/2}`$. For each $`1\le s<f/2`$ put
+Let $`p,q`$ be distinct odd primes with $`p\mid q-1`$ and $`f=\mathrm{ord}_q(p)`$. At the proposed first order $`n=p^{1+\mathrm{lcm}(p,f)}q`$ the prior results give one standard loop unless $`f`$ is even and $`p\nmid f`$. In this exceptional range put $`Q=p^{f/2}`$. For each $`1\le s<f/2`$ put
 ```math
     e_s=\gcd(Q+1,p^s-1),\qquad
     D_s=p^{\gcd(f,2s)}-1,\qquad C_s=(Q+p^s-2)/2 .
@@ -15,13 +15,13 @@ Form the explicitly arithmetic subset
 and the permutation $`\pi_s(j)=p j+(p-1)/2\bmod e_s`$. Then the exact number of isomorphism classes is
 ```math
                    p+1+\sum_{1\le s<f/2}
-                              |{\mathcal A}_s/\langle\pi_s\rangle|.       \tag{1}
+                              |{\mathcal A}_s/\langle\pi_s\rangle|.       \qquad\mathrm{(1)}
 ```
 There are no field-element searches or isomorphism tests in (1). If desired the summand is the integer
 ```math
  \frac1f\sum_{v=0}^{f-1}
        \ \sum_{j\in{\mathcal A}_s}
-       {\bf1}_{\,e_s\mid (p^v-1)j+(p^v-1)/2},
+       \mathbf{1}_{\,e_s\mid (p^v-1)j+(p^v-1)/2},
 ```
 since $`\pi_s^f=1`$. **Every loop at the first exponent is a G-loop**, i.e. isomorphic to each of its loop isotopes. So this also counts isotopy classes, not only based classes. For $`(3,61),(7,43),(3,193),(5,601)`$ the respective answers are $`8,12,11,20`$. No assertion is made about all larger orders or exact graph deletion radii.
 
@@ -41,26 +41,26 @@ The simultaneous axis relabeling of the chart by $`\alpha^u p^v`$ changes every 
 
 Write $`H(x,y)=x^T M\bar y`$ for the skew-Hermitian form on the multiplicity space (not the group stabilizer in this calculation). Site permutations introduce no signs. Prime-field trace isometry of a semilinear component with Frobenius $`\sigma`$ entails the corresponding form identity with values conjugated by $`\sigma`$, by varying the first input over $`K`$ and applying trace duality.
 
-**Both labels fixed under the displayed involution.** A label with $`s=f/2`$ cannot occur. On its multiplicity block the site reversal has a common shift and the coefficient action $`T_0`$ is $`\bar{\phantom{x}}`$-semilinear, involutive, with $`H(T_0x,T_0y)=\overline{H(x,y)}`$. Hence $`H(T_0x,x)=\overline{H(x,T_0x)}`$ and also its negative, so $`H(x,T_0x)=0`$. On a distinct-label single coordinate this contradicts nondegeneracy. If both labels are equal in this case, take $`x`$ spanning the isotropic chart line. Transversality requires $`x,T_0x`$ be independent, and both are isotropic; their cross-value zero would make the form degenerate. Thus only $`s_1=s_2=0`$ survives.
+**Both labels fixed under the displayed involution.** A label with $`s=f/2`$ cannot occur. On its multiplicity block the site reversal has a common shift and the coefficient action $`T_0`$ is involutive and semilinear for field conjugation, with $`H(T_0x,T_0y)=\overline{H(x,y)}`$. Hence $`H(T_0x,x)=\overline{H(x,T_0x)}`$ and also its negative, so $`H(x,T_0x)=0`$. On a distinct-label single coordinate this contradicts nondegeneracy. If both labels are equal in this case, take $`x`$ spanning the isotropic chart line. Transversality requires $`x,T_0x`$ be independent, and both are isotropic; their cross-value zero would make the form degenerate. Thus only $`s_1=s_2=0`$ survives.
 
-For distinct labels the coefficient of $`t`$ on each coordinate is a scalar $`\varepsilon_i=\pm1`$ (its square is one). The form has diagonal entries only, each nonzero with $`\bar c_i=-c_i`$. The isotropic chart line therefore has both coordinates nonzero. Rescaling coordinates makes it $`K(1,1)`$, with $`M=\operatorname{diag}(c,-c)`$. After this normalization the remaining common scalar rescales $`c`$ by an arbitrary norm $`K^\times\to\mathbb F_Q^\times`$, so all nonzero such $`c`$ are equivalent. The intersection with $`tL`$ is zero exactly when $`\varepsilon_1\ne\varepsilon_2`$: the two site reversals yield the equation that a sequence equals $`\varepsilon_1\varepsilon_2`$ times its translate. A nonzero constant sequence works for equal signs; for opposite signs iterating an odd number $`p`$ of times forces zero. Normalize the **plus** label to $`r=0`$. Its minus partner has any $`r\in\mathbb F_p^\times`$. These $`p-1`$ based classes are different: after matching plus to plus, only a common $`r`$-shift is allowed, and Frobenius fixes the signs. A coordinate name-swap does not change which physical label has the positive eigenvalue.
+For distinct labels the coefficient of $`t`$ on each coordinate is a scalar $`\varepsilon_i=\pm1`$ (its square is one). The form has diagonal entries only, each nonzero with $`\bar c_i=-c_i`$. The isotropic chart line therefore has both coordinates nonzero. Rescaling coordinates makes it $`K(1,1)`$, with $`M=\mathrm{diag}(c,-c)`$. After this normalization the remaining common scalar rescales $`c`$ by an arbitrary norm $`K^\times\to\mathbb F_Q^\times`$, so all nonzero such $`c`$ are equivalent. The intersection with $`tL`$ is zero exactly when $`\varepsilon_1\ne\varepsilon_2`$: the two site reversals yield the equation that a sequence equals $`\varepsilon_1\varepsilon_2`$ times its translate. A nonzero constant sequence works for equal signs; for opposite signs iterating an odd number $`p`$ of times forces zero. Normalize the **plus** label to $`r=0`$. Its minus partner has any $`r\in\mathbb F_p^\times`$. These $`p-1`$ based classes are different: after matching plus to plus, only a common $`r`$-shift is allowed, and Frobenius fixes the signs. A coordinate name-swap does not change which physical label has the positive eigenvalue.
 
 For two equal labels normalize them both to $`r=0`$. The multiplicity involution $`T_0`$ is now $`K`$-linear; its chart line and its image under $`T_0`$ must differ. For a generator $`v`$ of the line use basis $`(v,T_0v)`$. Both vectors are isotropic, their cross-value $`c\ne0`$ satisfies $`c=-\bar c`$ by invariance and skew-Hermitian symmetry, and the action is the literal swap. A common scalar norm again removes $`c`$. This gives exactly **one** repeated-label exceptional class. Together with the standard class and distinct-label fixed pairs, the subtotal is $`p+1`$.
 
 ## 3. The transposed-label cases and cyclic arithmetic
 
-The other possibility has $`s_2=-s_1\ne s_1`$. Fix once and for all the representative $`s`$ of $`\{s,-s\}`$ in $`1,\ldots,f/2-1`$. The two labels have the same $`r`$, normalized to zero by a site shift, and are now in the fixed order $`p^s,p^{-s}`$. Residual chart equivalences have only simultaneous axis factor $`p^v`$ with no site shift; they cannot exchange the two **fixed numerical** labels. Write $`\sigma(x)=x^{p^s}`$. As for distinct labels, normalize the chart line to $`K(1,1)`$ and the matrix to $`\operatorname{diag}(k,-k)`$ with $`\bar k=-k`$. The shared site reversal is $`j\mapsto-j`$. Its action on a two-vector is
+The other possibility has $`s_2=-s_1\ne s_1`$. Fix once and for all the representative $`s`$ of $`\{s,-s\}`$ in $`1,\ldots,f/2-1`$. The two labels have the same $`r`$, normalized to zero by a site shift, and are now in the fixed order $`p^s,p^{-s}`$. Residual chart equivalences have only simultaneous axis factor $`p^v`$ with no site shift; they cannot exchange the two **fixed numerical** labels. Write $`\sigma(x)=x^{p^s}`$. As for distinct labels, normalize the chart line to $`K(1,1)`$ and the matrix to $`\mathrm{diag}(k,-k)`$ with $`\bar k=-k`$. The shared site reversal is $`j\mapsto-j`$. Its action on a two-vector is
 ```math
                 (x,y)\longmapsto
                 (c\, y^\sigma,\ (c^{-1})^{\sigma^{-1}}x^{\sigma^{-1}}).
 ```
 The second coefficient is forced by $`t^2=1`$. These maps preserve the trace form exactly when
 ```math
-                            c\bar c=-k^\sigma/k.                        \tag{2}
+                            c\bar c=-k^\sigma/k.                        \qquad\mathrm{(2)}
 ```
 For example the second-coordinate contribution, mapped to the first, transforms trace of $`k c\bar c (x\bar y)^\sigma`$ into trace of $`-k x\bar y`$; trace duality gives (2). The first-to-second equation is its involutory counterpart. The common line is transverse to its image iff there is no nonzero $`x\in K`$ with $`c x^\sigma=(c^{-1})^{\sigma^{-1}}x^{\sigma^{-1}}`$; this is equivalent to
 ```math
-                         x^{p^{2s}-1}=c^{-(1+p^s)}.                     \tag{3}
+                         x^{p^{2s}-1}=c^{-(1+p^s)}.                     \qquad\mathrm{(3)}
 ```
 The site reversal does not couple these tests between sites, since independent scalars on all sites of the chart line are allowed.
 
